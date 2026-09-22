@@ -18,7 +18,7 @@ const categories: Record<AtlasEvent['category'], string> = {formation:'Formation
 
 export default function App() {
   const [year, setYear] = useState(1206);
-  const [selectedIndex, setSelectedIndex] = useState(0);
+  const [manualSelectedIndex, setManualSelectedIndex] = useState<number | null>(null);
   const [playing, setPlaying] = useState(false);
   const [speed, setSpeed] = useState(1);
   const [showAbout, setShowAbout] = useState(false);
@@ -28,12 +28,12 @@ export default function App() {
   const last = useRef(0);
   const progress = useRef(0);
   const currentEra = [...eras].reverse().find(e => e.year <= year) ?? eras[0];
-  const selected = events[selectedIndex] ?? events[0];
   const eventIndex = useMemo(() => events.reduce((index,event,i) => event.year <= year ? i : index, 0), [year]);
+  const selectedIndex = manualSelectedIndex ?? eventIndex;
+  const selected = events[selectedIndex] ?? events[0];
   const recentEvents = useMemo(() => events.filter(e => e.year <= year).slice(-4).reverse(), [year]);
 
   useEffect(() => { if (!playing) return; last.current = 0; progress.current = 0; const tick = (timestamp: number) => { if (last.current) progress.current += (timestamp - last.current) * speed / 175; last.current = timestamp; if (progress.current >= 1) { const step = Math.floor(progress.current); progress.current -= step; setYear(prev => { const next = Math.min(end,prev+step); if (next === end) setPlaying(false); return next; }); } clock.current = requestAnimationFrame(tick); }; clock.current = requestAnimationFrame(tick); return () => { if (clock.current) cancelAnimationFrame(clock.current); }; }, [playing,speed]);
-  useEffect(() => { setSelectedIndex(eventIndex); }, [eventIndex]);
   useEffect(() => {
     if (!showAbout) return;
     const returnFocus = document.activeElement as HTMLElement | null;
@@ -49,10 +49,10 @@ export default function App() {
     document.addEventListener('keydown', onKey);
     return () => { document.removeEventListener('keydown', onKey); returnFocus?.focus(); };
   }, [showAbout]);
-  const seek = (value:number) => { setPlaying(false); setYear(Math.max(start,Math.min(end,value))); };
-  const pick = (event:AtlasEvent) => { const i = events.indexOf(event); setSelectedIndex(i); setYear(event.year); setPlaying(false); };
+  const seek = (value:number) => { setPlaying(false); setManualSelectedIndex(null); setYear(Math.max(start,Math.min(end,value))); };
+  const pick = (event:AtlasEvent) => { const i = events.indexOf(event); setManualSelectedIndex(i); setYear(event.year); setPlaying(false); };
   const jump = (direction:-1|1) => { const next = events[Math.max(0,Math.min(events.length-1,selectedIndex+direction))]; pick(next); };
-  const togglePlay = () => { if (year >= end) {setYear(start);setSelectedIndex(0);} setPlaying(p => !p); };
+  const togglePlay = () => { if (year >= end) setYear(start); setManualSelectedIndex(null); setPlaying(p => !p); };
   return <div className="site">
     <a className="skip-link" href="#atlas">Skip to atlas</a>
     <header className="site-header"><div className="brand"><span className="brand-mark"><Compass size={22} strokeWidth={1.3}/></span><div><span className="brand-title">ATLAS OF EMPIRES</span><span className="brand-subtitle">AN INTERACTIVE HISTORY</span></div></div><nav aria-label="Main navigation"><a className="nav-active" href="#atlas">Explore the atlas</a><button className="nav-link" onClick={() => setShowAbout(true)}>About this project <ArrowDownRight size={14}/></button></nav><div className="header-edition">NO. 01 <span>·</span> MONGOL EMPIRE</div></header>
