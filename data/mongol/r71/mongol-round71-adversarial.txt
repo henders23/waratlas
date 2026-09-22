@@ -1,0 +1,4 @@
+REJECTED drop
+REJECTED duplicate id
+REJECTED missing locator
+REJECTED invalid exclude
