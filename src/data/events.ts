@@ -1,303 +1,44 @@
+import rows from './denominator.json';
+import { enrichment } from './enrichment';
+
 export type AtlasEvent = {
+  id: string;
+  candidateId: string;
   year: number;
+  dateLabel: string;
+  originalDateLabel: string;
   title: string;
-  location: string;
-  lon: number;
-  lat: number;
-  category: 'formation' | 'campaign' | 'turning' | 'culture' | 'fracture';
   description: string;
-  source: string;
+  category: 'formation' | 'campaign' | 'turning' | 'culture' | 'fracture';
+  partition: string;
+  marker?: {lon: number; lat: number; location: string};
+  sourceCitation: string;
+  secondCitation: string | null;
+  sourceUrl: string | null;
+  geometryStatus: string;
+  reviewReason: string;
+  materiality: string;
 };
 
-// Pins mark a named city, landscape, or approximate campaign/battle area.
-// They are map anchors, not claims about the exact site of an event.
-export const events: AtlasEvent[] = [
-  {
-    year: 1206,
-    title: 'Temüjin becomes Genghis Khan',
-    location: 'Upper Onon River, Mongolia (approx.)',
-    lon: 109.7, lat: 48.7, category: 'formation',
-    description: 'A steppe assembly acclaimed Temüjin as Genghis Khan, bringing rival Mongol groups under one ruler.',
-    source: 'https://whc.unesco.org/uploads/nominations/1440.pdf',
-  },
-  {
-    year: 1209,
-    title: 'Campaign against Western Xia',
-    location: 'Yinchuan region, China (approx.)',
-    lon: 106.28, lat: 38.47, category: 'campaign',
-    description: 'Mongol forces attacked the Tangut state of Western Xia, an early target beyond the Mongolian steppe.',
-    source: 'https://www.worldhistory.org/Genghis_Khan/',
-  },
-  {
-    year: 1211,
-    title: 'Major invasion of Jin',
-    location: 'Northern China (approx.)',
-    lon: 114.5, lat: 40.2, category: 'campaign',
-    description: 'Genghis Khan launched a major campaign against the Jurchen Jin state in northern China.',
-    source: 'https://www.worldhistory.org/Genghis_Khan/',
-  },
-  {
-    year: 1215,
-    title: 'Zhongdu falls',
-    location: 'Beijing, China',
-    lon: 116.4, lat: 39.9, category: 'campaign',
-    description: 'Mongol forces took the Jin capital of Zhongdu, near present-day Beijing.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1219,
-    title: 'War with Khwarazm',
-    location: 'Otrar region, Kazakhstan (approx.)',
-    lon: 68.3, lat: 42.85, category: 'campaign',
-    description: 'The Mongol invasion of the Khwarazmian Empire opened a new front across Central Asia.',
-    source: 'https://www.worldhistory.org/Mongol_Empire/',
-  },
-  {
-    year: 1220,
-    title: 'Samarkand taken',
-    location: 'Samarkand, Uzbekistan',
-    lon: 66.97, lat: 39.65, category: 'campaign',
-    description: 'Mongol armies captured Samarkand during the conquest of Khwarazm.',
-    source: 'https://www.worldhistory.org/Mongol_Empire/',
-  },
-  {
-    year: 1223,
-    title: 'Victory at the Kalka River',
-    location: 'Kalka River region, Ukraine (approx.)',
-    lon: 37.2, lat: 47.1, category: 'campaign',
-    description: 'A Mongol expedition defeated a coalition of Rus’ princes and Cuman forces near the Kalka River.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1227,
-    title: 'Death of Genghis Khan',
-    location: 'Western Xia campaign area, China (approx.; exact site unknown)',
-    lon: 106.28, lat: 38.47, category: 'turning',
-    description: 'Genghis Khan died during the final campaign against Western Xia; his burial place remains unknown.',
-    source: 'https://www.worldhistory.org/Genghis_Khan/',
-  },
-  {
-    year: 1229,
-    title: 'Ögedei becomes Great Khan',
-    location: 'Mongolian heartland (approx.)',
-    lon: 102.8, lat: 47.2, category: 'formation',
-    description: 'Genghis Khan’s son Ögedei succeeded him as Great Khan and continued imperial expansion.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1231,
-    title: 'Invasion of Goryeo',
-    location: 'Korean peninsula (approx.)',
-    lon: 126.98, lat: 37.57, category: 'campaign',
-    description: 'Mongol armies invaded Goryeo, beginning decades of warfare and negotiation in Korea.',
-    source: 'https://resources.metmuseum.org/resources/metpublications/pdf/The_Arts_of_Korea_A_Resource_for_Educators.pdf',
-  },
-  {
-    year: 1234,
-    title: 'Jin dynasty ends',
-    location: 'Caizhou region, China (approx.)',
-    lon: 114.36, lat: 33.01, category: 'turning',
-    description: 'The final Jin stronghold fell, ending the Jurchen dynasty in northern China.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1235,
-    title: 'Karakorum becomes imperial capital',
-    location: 'Karakorum, Mongolia',
-    lon: 102.84, lat: 47.2, category: 'formation',
-    description: 'Ögedei expanded Karakorum into the empire’s political and commercial capital.',
-    source: 'https://whc.unesco.org/uploads/nominations/1081rev.pdf',
-  },
-  {
-    year: 1237,
-    title: 'Ryazan captured',
-    location: 'Ryazan, Russia',
-    lon: 39.74, lat: 54.63, category: 'campaign',
-    description: 'Batu Khan’s western campaign captured Ryazan, opening the invasion of the Rus’ principalities.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1240,
-    title: 'Kyiv falls',
-    location: 'Kyiv, Ukraine',
-    lon: 30.52, lat: 50.45, category: 'campaign',
-    description: 'Batu Khan’s forces captured Kyiv after a siege during the invasion of Rus’.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1241,
-    title: 'Battle of Legnica',
-    location: 'Legnica area, Poland (approx.)',
-    lon: 16.16, lat: 51.21, category: 'campaign',
-    description: 'Mongol forces defeated a Polish-led army near Legnica during their advance into central Europe.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1241,
-    title: 'Battle of Mohi',
-    location: 'Mohi area, Hungary (approx.)',
-    lon: 20.93, lat: 47.98, category: 'campaign',
-    description: 'Another Mongol army defeated King Béla IV’s Hungarian forces near the Sajó River.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1251,
-    title: 'Möngke elected Great Khan',
-    location: 'Mongolian heartland (approx.)',
-    lon: 102.84, lat: 47.2, category: 'formation',
-    description: 'A kurultai installed Möngke, shifting leadership of the empire to the descendants of Tolui.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1253,
-    title: 'Dali kingdom conquered',
-    location: 'Dali, Yunnan, China',
-    lon: 100.18, lat: 25.7, category: 'campaign',
-    description: 'Kublai’s forces conquered Dali, extending Mongol power into southwest China.',
-    source: 'https://escholarship.org/uc/item/80h5n4j0',
-  },
-  {
-    year: 1256,
-    title: 'Alamut surrendered',
-    location: 'Alamut, Iran',
-    lon: 50.58, lat: 36.42, category: 'campaign',
-    description: 'Hülegü’s forces took the Ismaili stronghold at Alamut during their westward campaign.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1258,
-    title: 'Baghdad captured',
-    location: 'Baghdad, Iraq',
-    lon: 44.37, lat: 33.32, category: 'turning',
-    description: 'Hülegü’s army captured Baghdad, ending the Abbasid caliphate there.',
-    source: 'https://www.metmuseum.org/essays/the-art-of-the-ilkhanid-period-1256-1353',
-  },
-  {
-    year: 1259,
-    title: 'Death of Möngke Khan',
-    location: 'Hechuan region, China (approx.)',
-    lon: 106.28, lat: 30.0, category: 'turning',
-    description: 'Möngke died during the campaign against Southern Song China, setting off a succession struggle.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1260,
-    title: 'Mamluk victory at Ain Jalut',
-    location: 'Ain Jalut area, Israel (approx.)',
-    lon: 35.36, lat: 32.55, category: 'turning',
-    description: 'Mamluk forces defeated a Mongol army in Galilee, checking its advance toward Egypt.',
-    source: 'https://www.worldhistory.org/Mongol_Empire/',
-  },
-  {
-    year: 1260,
-    title: 'Rival Great Khans',
-    location: 'Shangdu, China',
-    lon: 116.18, lat: 42.36, category: 'fracture',
-    description: 'Kublai and his brother Ariq Böke each claimed the Great Khanate, beginning a civil war that lasted until 1264.',
-    source: 'https://www.worldhistory.org/Kublai_Khan/',
-  },
-  {
-    year: 1264,
-    title: 'Ariq Böke submits',
-    location: 'Shangdu, China',
-    lon: 116.18, lat: 42.36, category: 'fracture',
-    description: 'Ariq Böke surrendered to Kublai; the war had exposed deep divisions among the Mongol ruling houses.',
-    source: 'https://www.worldhistory.org/Kublai_Khan/',
-  },
-  {
-    year: 1271,
-    title: 'Kublai proclaims the Yuan',
-    location: 'Dadu (Beijing), China',
-    lon: 116.4, lat: 39.9, category: 'formation',
-    description: 'Kublai named his Chinese dynasty Yuan while the Southern Song still ruled much of southern China.',
-    source: 'https://www.metmuseum.org/essays/yuan-dynasty-1271-1368',
-  },
-  {
-    year: 1273,
-    title: 'Xiangyang falls',
-    location: 'Xiangyang, China',
-    lon: 112.12, lat: 32.01, category: 'turning',
-    description: 'The fall of the Song fortress at Xiangyang opened a route into the Yangtze basin.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1274,
-    title: 'First invasion of Japan',
-    location: 'Hakata Bay, Japan',
-    lon: 130.36, lat: 33.61, category: 'campaign',
-    description: 'A Yuan-Goryeo fleet attacked northern Kyushu but failed to establish control.',
-    source: 'https://www.archives.go.jp/about/activity/international/jp_mn50/english/ch01.html',
-  },
-  {
-    year: 1276,
-    title: 'Song capital surrendered',
-    location: 'Lin’an (Hangzhou), China',
-    lon: 120.15, lat: 30.27, category: 'campaign',
-    description: 'Yuan armies entered Lin’an, the Southern Song capital, though Song resistance continued.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1279,
-    title: 'Battle of Yamen',
-    location: 'Yamen area, China (approx.)',
-    lon: 113.08, lat: 22.19, category: 'turning',
-    description: 'A Yuan naval victory destroyed the last Southern Song court and completed the conquest of China.',
-    source: 'https://www.worldhistory.org/timeline/Mongol_Empire/',
-  },
-  {
-    year: 1281,
-    title: 'Second invasion of Japan fails',
-    location: 'Hakata Bay, Japan',
-    lon: 130.36, lat: 33.61, category: 'turning',
-    description: 'A much larger Yuan-led expedition again failed to conquer Japan; a powerful storm damaged its fleet.',
-    source: 'https://www.archives.go.jp/about/activity/international/jp_mn50/english/ch01.html',
-  },
-  {
-    year: 1288,
-    title: 'Vietnamese victory at Bạch Đằng',
-    location: 'Bạch Đằng River, Vietnam (approx.)',
-    lon: 106.86, lat: 20.92, category: 'turning',
-    description: 'Trần forces defeated a withdrawing Yuan fleet on the Bạch Đằng River.',
-    source: 'https://baotanglichsuquocgia.vn/vi/articles/2001/63150/phat-hien-dau-tich-moi-cua-tran-chien-bach-djang.html',
-  },
-  {
-    year: 1295,
-    title: 'Ghazan converts to Islam',
-    location: 'Tabriz, Iran',
-    lon: 46.29, lat: 38.08, category: 'culture',
-    description: 'Ilkhan Ghazan’s conversion helped reshape court religion and artistic patronage in Iran.',
-    source: 'https://www.metmuseum.org/essays/the-art-of-the-ilkhanid-period-1256-1353',
-  },
-  {
-    year: 1307,
-    title: 'Work begins on Öljaitü’s tomb',
-    location: 'Soltaniyeh, Iran',
-    lon: 48.79, lat: 36.44, category: 'culture',
-    description: 'Construction began on the monumental Ilkhanid mausoleum at Soltaniyeh, completed around 1313.',
-    source: 'https://www.metmuseum.org/toah/ht/07/wai.html',
-  },
-  {
-    year: 1335,
-    title: 'Ilkhanid realm fragments',
-    location: 'Tabriz, Iran',
-    lon: 46.29, lat: 38.08, category: 'fracture',
-    description: 'The death of Abu Sa’id ended the united Ilkhanid line; regional dynasties competed for its territories.',
-    source: 'https://www.metmuseum.org/essays/the-art-of-the-ilkhanid-period-1256-1353',
-  },
-  {
-    year: 1351,
-    title: 'Rebellions spread in Yuan China',
-    location: 'Yellow River region, China (approx.)',
-    lon: 114.3, lat: 34.8, category: 'fracture',
-    description: 'Rebellions associated with the Red Turbans gained force amid floods and failing Yuan authority.',
-    source: 'https://www.degruyterbrill.com/document/doi/10.1515/9780295804002-004/pdf',
-  },
-  {
-    year: 1368,
-    title: 'Yuan loses Dadu',
-    location: 'Dadu (Beijing), China',
-    lon: 116.4, lat: 39.9, category: 'turning',
-    description: 'Ming forces took Dadu; the Yuan court retreated north, ending Mongol dynastic rule in China.',
-    source: 'https://www.metmuseum.org/essays/yuan-dynasty-1271-1368',
-  },
-];
+const missing = rows.filter(row => !enrichment[row.id]);
+if (missing.length) throw new Error(`Missing R71 atlas enrichment: ${missing.map(row => row.id).join(', ')}`);
+
+export const events: AtlasEvent[] = rows.map(row => ({
+  ...row,
+  ...enrichment[row.id],
+  category: enrichment[row.id].category,
+}));
+
+export const partitionNames: Record<string, string> = {
+  foundation_steppe: 'Steppe origins',
+  western_xia: 'Western Xia',
+  jin_north_china: 'Northern China',
+  qarakhitai_khwarazm_central_asia: 'Central Asia',
+  caucasus_steppe_rus_europe: 'The western campaigns',
+  korea_tibet_dali_vietnam: 'Eastern and southern frontiers',
+  west_asia_anatolia_mamluk: 'Western Asia',
+  song_yuan_china: 'Southern Song and Yuan',
+  mongol_civil_wars: 'Civil wars',
+  overseas_south_east_asia: 'Overseas expeditions',
+  end_boundary: 'A new generation',
+};

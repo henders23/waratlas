@@ -3,7 +3,7 @@ import { feature } from 'topojson-client';
 import { geoGraticule10, geoMercator, geoPath, type GeoPermissibleObjects } from 'd3-geo';
 import { Minus, Plus, LocateFixed } from 'lucide-react';
 import landTopology from 'world-atlas/land-110m.json';
-import { territory, successorRealms, campaigns } from '../data/territory';
+import { territory, successorRealms } from '../data/territory';
 import type { AtlasEvent } from '../data/events';
 
 type Props = { year: number; events: AtlasEvent[]; selected: AtlasEvent; onSelect: (event: AtlasEvent) => void };
@@ -19,8 +19,7 @@ export default function AtlasMap({ year, events, selected, onSelect }: Props) {
   const [pan, setPan] = useState({x:0,y:0});
   const drag = useRef<{x:number,y:number,px:number,py:number}|null>(null);
   const svg = useRef<SVGSVGElement>(null);
-  const visible = useMemo(() => events.filter(event => event.year <= year), [events, year]);
-  const activeCampaigns = campaigns.filter(c => c.year <= year && c.year >= year - 22);
+  const visible = useMemo(() => events.filter(event => event.marker && event.year <= year && event.year >= year - 25), [events, year]);
   const move = (event: PointerEvent<SVGSVGElement>) => {
     if (!drag.current || !svg.current) return;
     const box = svg.current.getBoundingClientRect();
@@ -40,19 +39,18 @@ export default function AtlasMap({ year, events, selected, onSelect }: Props) {
       <g transform={`translate(${500+pan.x} ${300+pan.y}) scale(${zoom}) translate(-500 -300)`}>
         <path d={path(graticule) ?? ''} className="graticule"/>
         <path d={path(land as GeoPermissibleObjects) ?? ''} className="land"/>
-        <g clipPath="url(#landClip)">{(year < 1260 ? territory.filter(t => t.start <= year) : successorRealms.filter(t => t.start <= year && (!t.end || year < t.end))).map((t,i) => <path key={t.name} d={polygonPath(t.points)} className={`territory territory-${t.tone ?? 'early'}`} style={{animationDelay:`${i*35}ms`}}/>)}</g>
+        <g clipPath="url(#landClip)">{(year < 1260 ? territory.filter(t => t.start <= year) : successorRealms.filter(t => t.start <= year)).map((t,i) => <path key={t.name} d={polygonPath(t.points)} className={`territory territory-${t.tone ?? 'early'}`} style={{animationDelay:`${i*35}ms`}}/>)}</g>
         <path d={path(land as GeoPermissibleObjects) ?? ''} className="coastline"/>
-        {activeCampaigns.map((c,i) => { const a = point(c.from), b = point(c.to), mx = (a[0]+b[0])/2, my = (a[1]+b[1])/2 - 22; return <path key={i} d={`M${a[0]} ${a[1]} Q${mx} ${my} ${b[0]} ${b[1]}`} className="campaign-line"/>; })}
         <g className="map-labels" aria-hidden="true"><text x="740" y="182">THE STEPPE</text><text x="330" y="330">CASPIAN SEA</text><text x="850" y="460">SOUTH CHINA SEA</text><text x="450" y="522">INDIAN OCEAN</text><text x="159" y="116">EASTERN EUROPE</text></g>
-        {visible.map((ev,i) => { const [x,y] = point([ev.lon, ev.lat]); const isSelected = ev === selected; return <g key={`${ev.year}-${i}`} className={`pin ${isSelected ? 'pin-active':''}`} transform={`translate(${x} ${y})`} onClick={e => {e.stopPropagation(); onSelect(ev)}} role="button" tabIndex={0} aria-label={`${ev.year}: ${ev.title}`} onKeyDown={e => {if(e.key === 'Enter' || e.key === ' ') {e.preventDefault(); onSelect(ev)}}}>
-          {isSelected && <circle r="24" className="pin-halo"/>}<circle r={isSelected?8:5} className="pin-dot"/><circle r="16" fill="transparent"/>{isSelected && <text x="15" y="-12" className="pin-label">{ev.location}</text>}
+        {visible.map((ev,i) => { const [x,y] = point([ev.marker!.lon, ev.marker!.lat]); const isSelected = ev === selected; return <g key={`${ev.year}-${i}`} className={`pin ${isSelected ? 'pin-active':''}`} transform={`translate(${x} ${y})`} onClick={e => {e.stopPropagation(); onSelect(ev)}} role="button" tabIndex={0} aria-label={`${ev.dateLabel}: ${ev.title}`} onKeyDown={e => {if(e.key === 'Enter' || e.key === ' ') {e.preventDefault(); onSelect(ev)}}}>
+          {isSelected && <circle r="24" className="pin-halo"/>}<circle r={isSelected?8:5} className="pin-dot"/><circle r="16" fill="transparent"/>{isSelected && <text x="15" y="-12" className="pin-label">{ev.marker!.location}</text>}
         </g> })}
       </g>
       <rect width="1000" height="600" fill="url(#grain)" pointerEvents="none"/>
       <g className="compass" transform="translate(944 90)"><circle r="27"/><path d="M0 -18 L4 -4 L18 0 L4 4 L0 18 L-4 4 L-18 0 L-4 -4Z"/><text y="-36">N</text></g>
     </svg>
-    <div className="map-caption"><span>{selected.year} · {selected.title}</span><small>SELECT A PIN TO EXPLORE</small></div>
+    <div className="map-caption"><span>{selected.dateLabel} · {selected.title}</span><small>{selected.marker ? selected.marker.location : 'LOCATION NOT PLOTTED IN SOURCE PACK'}</small></div>
     <div className="map-controls"><button aria-label="Zoom in" onClick={() => setZoom(v => Math.min(2.2, +(v+.25).toFixed(2)))}><Plus size={18}/></button><button aria-label="Zoom out" onClick={() => setZoom(v => Math.max(1, +(v-.25).toFixed(2)))}><Minus size={18}/></button><button aria-label="Reset map view" onClick={() => {setZoom(1);setPan({x:0,y:0})}}><LocateFixed size={18}/></button></div>
-    <div className="map-legend"><span><i className="swatch-territory"/> {year < 1260 ? 'Approximate area of control' : 'Approximate successor realms'}</span><span><i className="swatch-route"/> Campaign direction</span><span><i className="swatch-pin"/> Historical event</span></div>
+    <div className="map-legend"><span><i className="swatch-territory"/> {year < 1260 ? 'Interpretive empire shading' : 'Interpretive successor shading'}</span><span><i className="swatch-pin"/> Historical event</span></div>
   </div>;
 }
