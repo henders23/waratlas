@@ -1,0 +1,346 @@
+// Writes src/data/napoleonic/territory.json: who controlled each region of
+// scripts/regions/napoleonic.mjs, month by month, from April 1792 to late 1815.
+// Each step is [date, polity, status?]; status is 'core' (default), 'vassal' (a
+// tributary of that polity) or 'contested' (invasion, occupation or insurrection).
+// Usage: node scripts/build-napoleonic-territory.mjs
+import { writeFileSync } from 'node:fs';
+
+const note =
+  'Atlas synthesis of who held each region, drawn over modern provincial boundaries. The states of the period rarely match them: the Holy Roman Empire alone had some three hundred territories, so the German lands are shown by province, not by prince. France and the states it created or ruled through a Bonaparte are drawn in strong colour; its German allies from 1806 appear as the Confederation of the Rhine. \'Contested\' marks invasion, military occupation or insurrection. Everything is approximate to the month.';
+
+const polities = [
+  // France and the states it created or ruled through the Bonapartes.
+  { id: 'france-rep', name: 'French Republic', color: '#5b8ee6', family: 'focus' },
+  { id: 'france', name: 'French Empire', color: '#4a7fe0', family: 'focus' },
+  { id: 'batavian', name: 'Batavian Republic', color: '#ec9a4e', family: 'focus' },
+  { id: 'holland', name: 'Kingdom of Holland', color: '#ec9a4e', family: 'focus' },
+  { id: 'cispadane', name: 'Cispadane Republic', color: '#62b884', family: 'focus' },
+  { id: 'cisalpine', name: 'Cisalpine Republic', color: '#62b884', family: 'focus' },
+  { id: 'italian-rep', name: 'Italian Republic', color: '#62b884', family: 'focus' },
+  { id: 'italy', name: 'Kingdom of Italy', color: '#62b884', family: 'focus' },
+  { id: 'ligurian', name: 'Ligurian Republic', color: '#a6cf72', family: 'focus' },
+  { id: 'roman-rep', name: 'Roman Republic', color: '#d6975f', family: 'focus' },
+  { id: 'parthenopean', name: 'Parthenopean Republic', color: '#e0806c', family: 'focus' },
+  { id: 'helvetic', name: 'Helvetic Republic', color: '#b495e4', family: 'focus' },
+  { id: 'mediation', name: 'Swiss Confederation', color: '#b495e4', family: 'focus' },
+  { id: 'etruria', name: 'Kingdom of Etruria', color: '#7cc7a0', family: 'focus' },
+  { id: 'naples-b', name: 'Kingdom of Naples', color: '#e0806c', family: 'focus' },
+  { id: 'rhine', name: 'Confederation of the Rhine', color: '#8fbaf0', family: 'focus' },
+  { id: 'westphalia', name: 'Kingdom of Westphalia', color: '#e2c257', family: 'focus' },
+  { id: 'warsaw', name: 'Duchy of Warsaw', color: '#e0668a', family: 'focus' },
+  { id: 'spain-j', name: 'Spain under Joseph', color: '#e8b64c', family: 'focus' },
+
+  // Everyone else.
+  { id: 'bourbon', name: 'Kingdom of France', color: '#ece6d6' },
+  { id: 'britain', name: 'Britain', color: '#e0584c' },
+  { id: 'hanover', name: 'Hanover', color: '#d9786a' },
+  { id: 'austria', name: 'Austria', color: '#f1e3a4' },
+  { id: 'prussia', name: 'Prussia', color: '#a3acc0' },
+  { id: 'russia', name: 'Russia', color: '#7cc293' },
+  { id: 'german', name: 'German states', color: '#c8b99c' },
+  { id: 'poland', name: 'Poland–Lithuania', color: '#e0668a' },
+  { id: 'dutch', name: 'Dutch Republic', color: '#ec9a4e' },
+  { id: 'netherlands', name: 'United Netherlands', color: '#ec9a4e' },
+  { id: 'spain', name: 'Spain', color: '#e8b64c' },
+  { id: 'portugal', name: 'Portugal', color: '#6fb57a' },
+  { id: 'sardinia', name: 'Kingdom of Sardinia', color: '#aab4d0' },
+  { id: 'venice', name: 'Republic of Venice', color: '#cfa477' },
+  { id: 'genoa', name: 'Republic of Genoa', color: '#c6cf94' },
+  { id: 'duchies', name: 'Parma and Modena', color: '#bcc9a0' },
+  { id: 'papal', name: 'Papal States', color: '#efe7c9' },
+  { id: 'tuscany', name: 'Tuscany', color: '#b5d196' },
+  { id: 'naples', name: 'Kingdom of Naples', color: '#e7c97a' },
+  { id: 'sicily', name: 'Kingdom of Sicily', color: '#e7c97a' },
+  { id: 'swiss', name: 'Swiss Confederation', color: '#c4a8ea' },
+  { id: 'sweden', name: 'Sweden', color: '#72a2da' },
+  { id: 'denmark', name: 'Denmark–Norway', color: '#d4605e' },
+  { id: 'norway', name: 'Norway', color: '#d4605e' },
+  { id: 'ottoman', name: 'Ottoman Empire', color: '#bf7a62' },
+  { id: 'montenegro', name: 'Montenegro', color: '#b3a38b' },
+  { id: 'septinsular', name: 'Septinsular Republic', color: '#8fbfae' },
+  { id: 'knights', name: 'Order of St John', color: '#dcdcdc' },
+  { id: 'anglo-corsica', name: 'Anglo-Corsican Kingdom', color: '#e0584c' },
+];
+
+// France proper: Republic, Empire, the first Restoration, the Hundred Days, the second Restoration.
+const FRANCE = [['1792', 'france-rep'], ['1804-05-18', 'france'], ['1814-04-06', 'bourbon'], ['1815-03-20', 'france'], ['1815-07-08', 'bourbon']];
+
+/** Merge base steps with extra steps (e.g. a contested window), by date. */
+function merge(...lists) {
+  const all = lists.flat().map((s) => [...s]);
+  const key = (d) => {
+    const [y, m = 1, dd = 1] = d.split('-').map(Number);
+    return y + (m - 1) / 12 + (dd - 1) / 365;
+  };
+  // Keep the first 1792 step and order the rest; a later step at the same date wins.
+  const byDate = new Map();
+  for (const s of all) byDate.set(s[0], s);
+  return [...byDate.values()].sort((a, b) => key(a[0]) - key(b[0]));
+}
+
+// Contested windows inside a base history. Each window re-asserts the owner after it.
+const war = (from, to, polity, after) => [[from, polity, 'contested'], [to, after ?? polity]];
+
+const regions = {
+  // ── France ──────────────────────────────────────────────────────────────
+  paris: merge(FRANCE, [['1814-02-10', 'france', 'contested'], ['1815-06-29', 'france', 'contested']]),
+  'north-france': merge(FRANCE, war('1793-08', '1793-10-16', 'france-rep'), [['1814-02-20', 'france', 'contested']]),
+  normandy: FRANCE,
+  brittany: merge(FRANCE, war('1795-06-27', '1795-08', 'france-rep')),
+  vendee: merge(FRANCE, war('1793-03-11', '1796-03-29', 'france-rep'), war('1815-05-15', '1815-06-26', 'france')),
+  poitou: FRANCE,
+  guyenne: merge(FRANCE, [['1813-11-10', 'france', 'contested']]),
+  languedoc: merge(FRANCE, war('1793-04-17', '1794-05-01', 'france-rep'), [['1814-03-01', 'france', 'contested']]),
+  provence: merge(FRANCE, war('1793-08-28', '1793-12-19', 'france-rep')),
+  nice: [['1792', 'sardinia'], ['1792-09-29', 'france-rep'], ['1804-05-18', 'france'], ['1814-05-30', 'sardinia']],
+  lyonnais: merge(FRANCE, war('1793-06-01', '1793-10-09', 'france-rep'), [['1814-01-15', 'france', 'contested']]),
+  savoy: [['1792', 'sardinia'], ['1792-09-22', 'france-rep'], ['1804-05-18', 'france'], ['1814-01-15', 'france', 'contested'], ['1814-05-30', 'bourbon'], ['1815-03-20', 'france'], ['1815-07-08', 'sardinia']],
+  burgundy: merge(FRANCE, [['1814-01-10', 'france', 'contested']]),
+  champagne: merge(FRANCE, war('1792-08-20', '1792-10-22', 'france-rep'), [['1814-01-10', 'france', 'contested']], war('1815-06-25', '1815-07-08', 'france', 'bourbon')),
+  alsace: merge(FRANCE, war('1793-10-13', '1793-12-28', 'france-rep'), [['1814-01-01', 'france', 'contested']], war('1815-06-25', '1815-07-08', 'france', 'bourbon')),
+  corsica: [['1792', 'france-rep'], ['1794-06-19', 'anglo-corsica'], ['1796-10-20', 'france-rep'], ['1804-05-18', 'france'], ['1814-04-06', 'bourbon'], ['1815-03-20', 'france'], ['1815-07-08', 'bourbon']],
+
+  // ── Low Countries ───────────────────────────────────────────────────────
+  belgium: [
+    ['1792', 'austria'], ['1792-11-06', 'france-rep', 'contested'], ['1793-03-18', 'austria'], ['1794-06-26', 'france-rep', 'contested'],
+    ['1795-10-01', 'france-rep'], ['1804-05-18', 'france'], ['1814-01-15', 'france', 'contested'], ['1814-02-15', 'netherlands'],
+    ['1815-06-15', 'netherlands', 'contested'], ['1815-06-19', 'netherlands'],
+  ],
+  luxembourg: [['1792', 'austria'], ['1794-11-22', 'france-rep', 'contested'], ['1795-06-07', 'france-rep'], ['1804-05-18', 'france'], ['1814-01-15', 'france', 'contested'], ['1814-04-06', 'netherlands']],
+  holland: [
+    ['1792', 'dutch'], ['1795-01-19', 'batavian'], ['1799-08-27', 'batavian', 'contested'], ['1799-10-18', 'batavian'], ['1806-06-05', 'holland'],
+    ['1809-07-30', 'holland', 'contested'], ['1809-12-23', 'holland'], ['1810-07-09', 'france'], ['1813-11-17', 'netherlands', 'contested'], ['1814-04-06', 'netherlands'],
+  ],
+  'dutch-north': [['1792', 'dutch'], ['1795-01-19', 'batavian'], ['1806-06-05', 'holland'], ['1810-07-09', 'france'], ['1813-11-17', 'netherlands', 'contested'], ['1814-01', 'netherlands']],
+  'dutch-brabant': [
+    ['1792', 'dutch'], ['1793-02-17', 'dutch', 'contested'], ['1793-03-18', 'dutch'], ['1794-10-10', 'batavian', 'contested'], ['1795-01-19', 'batavian'],
+    ['1806-06-05', 'holland'], ['1810-03-16', 'france'], ['1814-01-13', 'netherlands', 'contested'], ['1814-04-06', 'netherlands'],
+  ],
+
+  // ── Germany ─────────────────────────────────────────────────────────────
+  rhineland: [
+    ['1792', 'german'], ['1792-10-21', 'german', 'contested'], ['1793-07-23', 'german'], ['1794-10-06', 'france-rep', 'contested'],
+    ['1797-10-17', 'france-rep'], ['1804-05-18', 'france'], ['1814-01-01', 'german', 'contested'], ['1814-04-06', 'german'], ['1815-06-09', 'prussia'],
+  ],
+  westphalia: [['1792', 'german'], ['1806-03-15', 'rhine'], ['1813-11-01', 'german'], ['1815-06-09', 'prussia']],
+  hanover: [
+    ['1792', 'hanover'], ['1803-06-03', 'france-rep', 'contested'], ['1804-05-18', 'france', 'contested'], ['1806-04-01', 'prussia'],
+    ['1806-11-01', 'france', 'contested'], ['1807-08-18', 'westphalia'], ['1813-10-26', 'hanover', 'contested'], ['1813-11-06', 'hanover'],
+  ],
+  'north-sea': [
+    ['1792', 'german'], ['1806-11-19', 'france', 'contested'], ['1811-01-01', 'france'], ['1813-03-18', 'german', 'contested'],
+    ['1813-05-30', 'france'], ['1813-12-03', 'france', 'contested'], ['1814-05-27', 'german'],
+  ],
+  holstein: [['1792', 'denmark'], ['1813-12-07', 'denmark', 'contested'], ['1814-01-14', 'denmark']],
+  mecklenburg: [['1792', 'german'], ['1806-11-06', 'german', 'contested'], ['1807-07', 'german'], ['1808-03-22', 'rhine'], ['1813-03-14', 'german']],
+  'swedish-pomerania': [['1792', 'sweden'], ['1807-08-20', 'france', 'contested'], ['1810-01-06', 'sweden'], ['1812-01-27', 'france', 'contested'], ['1813-03', 'sweden']],
+  brandenburg: [['1792', 'prussia'], ['1806-10-25', 'france', 'contested'], ['1808-12-03', 'prussia'], ['1813-08-23', 'prussia', 'contested'], ['1813-09-07', 'prussia']],
+  magdeburg: [['1792', 'prussia'], ['1806-10-20', 'france', 'contested'], ['1807-08-18', 'westphalia'], ['1813-10-26', 'prussia', 'contested'], ['1814-05-23', 'prussia']],
+  saxony: [
+    ['1792', 'german'], ['1806-10-10', 'german', 'contested'], ['1806-12-11', 'rhine'], ['1813-03-27', 'rhine', 'contested'], ['1813-05-08', 'rhine'],
+    ['1813-08-26', 'rhine', 'contested'], ['1813-10-19', 'german'],
+  ],
+  thuringia: [['1792', 'german'], ['1806-10-10', 'german', 'contested'], ['1806-12-15', 'rhine'], ['1813-04', 'rhine', 'contested'], ['1813-05-08', 'rhine'], ['1813-10-19', 'german']],
+  hesse: [['1792', 'german'], ['1792-10-22', 'german', 'contested'], ['1792-12-02', 'german'], ['1806-07-12', 'rhine'], ['1813-10-30', 'rhine', 'contested'], ['1813-11-06', 'german']],
+  swabia: [
+    ['1792', 'german'], ['1796-06-24', 'german', 'contested'], ['1796-10-26', 'german'], ['1800-04-25', 'german', 'contested'], ['1801-02-09', 'german'],
+    ['1805-09-26', 'german', 'contested'], ['1805-10-21', 'german'], ['1806-07-12', 'rhine'], ['1813-11-02', 'german'],
+  ],
+  franconia: [['1792', 'german'], ['1796-07-15', 'german', 'contested'], ['1796-09-20', 'german'], ['1806-07-12', 'rhine'], ['1813-10-08', 'german']],
+  bavaria: [
+    ['1792', 'german'], ['1796-08-10', 'german', 'contested'], ['1796-10-10', 'german'], ['1800-06-28', 'german', 'contested'], ['1801-02-09', 'german'],
+    ['1805-09-08', 'german', 'contested'], ['1805-11-15', 'german'], ['1806-07-12', 'rhine'], ['1809-04-10', 'rhine', 'contested'], ['1809-05-01', 'rhine'], ['1813-10-08', 'german'],
+  ],
+
+  // ── Prussia and Poland ──────────────────────────────────────────────────
+  pomerania: [['1792', 'prussia'], ['1806-10-29', 'france', 'contested'], ['1808-12-03', 'prussia']],
+  'west-prussia': [['1792', 'prussia'], ['1807-01-20', 'prussia', 'contested'], ['1807-07-09', 'prussia'], ['1813-01-15', 'prussia', 'contested'], ['1814-01-02', 'prussia']],
+  'east-prussia': [['1792', 'prussia'], ['1807-01-25', 'prussia', 'contested'], ['1807-07-09', 'prussia'], ['1812-12-14', 'prussia', 'contested'], ['1813-01-15', 'prussia']],
+  'greater-poland': [
+    ['1792', 'poland'], ['1793-01-24', 'prussia'], ['1794-08-20', 'prussia', 'contested'], ['1794-11-16', 'prussia'], ['1806-11-03', 'france', 'contested'],
+    ['1807-07-22', 'warsaw'], ['1813-02-13', 'russia', 'contested'], ['1815-06-09', 'prussia'],
+  ],
+  silesia: [['1792', 'prussia'], ['1806-11-20', 'france', 'contested'], ['1808-11', 'prussia'], ['1813-05-25', 'prussia', 'contested'], ['1813-09-05', 'prussia']],
+  masovia: [
+    ['1792', 'poland'], ['1794-04-17', 'poland', 'contested'], ['1794-11-06', 'russia', 'contested'], ['1796-01-09', 'prussia'], ['1806-11-28', 'france', 'contested'],
+    ['1807-07-22', 'warsaw'], ['1809-04-19', 'warsaw', 'contested'], ['1809-06-02', 'warsaw'], ['1813-02-08', 'russia', 'contested'], ['1815-06-09', 'russia'],
+  ],
+  'lesser-poland': [
+    ['1792', 'poland'], ['1794-03-24', 'poland', 'contested'], ['1794-11-16', 'poland'], ['1795-10-24', 'austria'], ['1809-05-15', 'warsaw', 'contested'],
+    ['1809-10-14', 'warsaw'], ['1813-02-13', 'russia', 'contested'], ['1815-06-09', 'russia'],
+  ],
+  lublin: [['1792', 'poland'], ['1794-05', 'poland', 'contested'], ['1794-11-16', 'poland'], ['1795-10-24', 'austria'], ['1809-05-14', 'warsaw', 'contested'], ['1809-10-14', 'warsaw'], ['1813-02-13', 'russia', 'contested'], ['1815-06-09', 'russia']],
+  bialystok: [['1792', 'poland'], ['1795-10-24', 'prussia'], ['1807-07-09', 'russia'], ['1812-06-30', 'russia', 'contested'], ['1812-12-15', 'russia']],
+
+  // ── Russia ──────────────────────────────────────────────────────────────
+  lithuania: [['1792', 'poland'], ['1794-04-22', 'poland', 'contested'], ['1794-08-12', 'russia', 'contested'], ['1795-10-24', 'russia'], ['1812-06-24', 'france', 'contested'], ['1812-12-10', 'russia']],
+  baltic: [['1792', 'russia'], ['1812-07-01', 'russia', 'contested'], ['1813-01-01', 'russia']],
+  belarus: [['1792', 'poland'], ['1793-04-07', 'russia'], ['1812-07-08', 'france', 'contested'], ['1812-12-01', 'russia']],
+  smolensk: [['1792', 'russia'], ['1812-08-16', 'france', 'contested'], ['1812-11-20', 'russia']],
+  moscow: [['1792', 'russia'], ['1812-09-05', 'france', 'contested'], ['1812-10-30', 'russia']],
+  petersburg: [['1792', 'russia']],
+  'central-russia': [['1792', 'russia']],
+  'right-bank-ukraine': [['1792', 'poland'], ['1793-04-07', 'russia']],
+  'new-russia': [['1792', 'russia']],
+  finland: [['1792', 'sweden'], ['1808-02-21', 'sweden', 'contested'], ['1809-09-17', 'russia']],
+
+  // ── Habsburg lands ──────────────────────────────────────────────────────
+  austria: [['1792', 'austria'], ['1805-11-13', 'austria', 'contested'], ['1806-01-12', 'austria'], ['1809-05-03', 'austria', 'contested'], ['1809-11-20', 'austria']],
+  'inner-austria': [['1792', 'austria'], ['1797-03-25', 'austria', 'contested'], ['1797-05-20', 'austria'], ['1805-11-15', 'austria', 'contested'], ['1806-01-12', 'austria'], ['1809-05-20', 'austria', 'contested'], ['1809-11-20', 'austria']],
+  tyrol: [
+    ['1792', 'austria'], ['1797-03-20', 'austria', 'contested'], ['1797-04-18', 'austria'], ['1805-11-04', 'austria', 'contested'], ['1806-01-01', 'german'],
+    ['1806-07-12', 'rhine'], ['1809-04-09', 'rhine', 'contested'], ['1809-11-01', 'rhine'], ['1813-10-08', 'german'], ['1814-06-03', 'austria'],
+  ],
+  salzburg: [
+    ['1792', 'german'], ['1800-12-15', 'german', 'contested'], ['1801-02-09', 'german'], ['1805-10-30', 'german', 'contested'], ['1806-01-01', 'austria'],
+    ['1809-04-29', 'austria', 'contested'], ['1810-09-12', 'rhine'], ['1813-10-08', 'german'],
+  ],
+  bohemia: [['1792', 'austria'], ['1813-08-26', 'austria', 'contested'], ['1813-09-17', 'austria']],
+  moravia: [['1792', 'austria'], ['1805-11-19', 'austria', 'contested'], ['1806-01-12', 'austria'], ['1809-07-10', 'austria', 'contested'], ['1809-11-20', 'austria']],
+  hungary: [['1792', 'austria'], ['1809-06-14', 'austria', 'contested'], ['1809-11-20', 'austria']],
+  transylvania: [['1792', 'austria']],
+  galicia: [['1792', 'austria'], ['1809-05-27', 'warsaw', 'contested'], ['1809-10-14', 'austria']],
+  carniola: [
+    ['1792', 'austria'], ['1797-03-23', 'austria', 'contested'], ['1797-05-20', 'austria'], ['1805-11-10', 'austria', 'contested'], ['1806-01-12', 'austria'],
+    ['1809-05-20', 'austria', 'contested'], ['1809-10-14', 'france'], ['1813-08-17', 'austria', 'contested'], ['1813-11-01', 'austria'],
+  ],
+  'military-croatia': [['1792', 'austria'], ['1809-10-14', 'france'], ['1813-08-17', 'austria', 'contested'], ['1813-11-01', 'austria']],
+  slavonia: [['1792', 'austria']],
+  dalmatia: [['1792', 'venice'], ['1797-07-01', 'austria'], ['1806-02-28', 'italy'], ['1809-10-14', 'france'], ['1813-10-15', 'austria', 'contested'], ['1814-01-03', 'austria']],
+
+  // ── Italy ───────────────────────────────────────────────────────────────
+  piedmont: [
+    ['1792', 'sardinia'], ['1796-04-12', 'sardinia', 'contested'], ['1796-05-15', 'sardinia'], ['1798-12-09', 'france-rep', 'contested'],
+    ['1799-05-26', 'austria', 'contested'], ['1800-06-16', 'france-rep', 'contested'], ['1802-09-11', 'france-rep'], ['1804-05-18', 'france'], ['1814-04-25', 'sardinia'],
+  ],
+  sardinia: [['1792', 'sardinia'], ['1793-01-28', 'sardinia', 'contested'], ['1793-02-26', 'sardinia']],
+  liguria: [
+    ['1792', 'genoa'], ['1797-06-14', 'ligurian'], ['1800-04-06', 'ligurian', 'contested'], ['1800-06-24', 'ligurian'], ['1805-06-06', 'france'],
+    ['1814-04-18', 'britain', 'contested'], ['1815-01-07', 'sardinia'],
+  ],
+  lombardy: [
+    ['1792', 'austria'], ['1796-05-10', 'france-rep', 'contested'], ['1797-06-29', 'cisalpine'], ['1799-04-27', 'austria', 'contested'],
+    ['1800-06-02', 'cisalpine'], ['1802-01-26', 'italian-rep'], ['1805-03-17', 'italy'], ['1814-04-23', 'austria'],
+  ],
+  venetia: [
+    ['1792', 'venice'], ['1797-03-10', 'venice', 'contested'], ['1797-05-12', 'france-rep', 'contested'], ['1798-01-18', 'austria'],
+    ['1805-10-29', 'austria', 'contested'], ['1806-01-19', 'italy'], ['1809-04-11', 'italy', 'contested'], ['1809-05-08', 'italy'],
+    ['1813-10-15', 'italy', 'contested'], ['1814-04-23', 'austria'],
+  ],
+  'parma-modena': [
+    ['1792', 'duchies'], ['1796-05-09', 'duchies', 'contested'], ['1796-10-16', 'cispadane'], ['1797-07-09', 'cisalpine'], ['1799-05-20', 'austria', 'contested'],
+    ['1800-06-16', 'cisalpine'], ['1802-01-26', 'italian-rep'], ['1805-03-17', 'italy'], ['1814-02-15', 'italy', 'contested'], ['1814-04-23', 'duchies'],
+  ],
+  legations: [
+    ['1792', 'papal'], ['1796-06-19', 'france-rep', 'contested'], ['1796-10-16', 'cispadane'], ['1797-07-09', 'cisalpine'], ['1799-05-20', 'austria', 'contested'],
+    ['1800-06-16', 'cisalpine'], ['1802-01-26', 'italian-rep'], ['1805-03-17', 'italy'], ['1814-02-01', 'naples-b', 'contested'],
+    ['1814-05-01', 'naples-b'], ['1815-04-15', 'naples-b', 'contested'], ['1815-05-03', 'papal', 'contested'], ['1815-07-18', 'papal'],
+  ],
+  tuscany: [
+    ['1792', 'tuscany'], ['1799-03-25', 'france-rep', 'contested'], ['1799-07-07', 'tuscany', 'contested'], ['1800-10-15', 'france-rep', 'contested'],
+    ['1801-08-12', 'etruria'], ['1807-12-10', 'france'], ['1814-02-01', 'naples-b', 'contested'], ['1814-05-01', 'tuscany'],
+  ],
+  marches: [
+    ['1792', 'papal'], ['1797-02-02', 'france-rep', 'contested'], ['1798-02-15', 'roman-rep'], ['1799-05-01', 'roman-rep', 'contested'],
+    ['1799-11-13', 'austria', 'contested'], ['1800-06-22', 'papal'], ['1808-04-02', 'italy'], ['1814-01-15', 'naples-b', 'contested'],
+    ['1814-05-24', 'naples-b'], ['1815-05-03', 'papal', 'contested'], ['1815-07-18', 'papal'],
+  ],
+  rome: [
+    ['1792', 'papal'], ['1798-02-15', 'roman-rep'], ['1798-11-27', 'roman-rep', 'contested'], ['1798-12-15', 'roman-rep'], ['1799-09-30', 'naples', 'contested'],
+    ['1800-07-03', 'papal'], ['1808-02-02', 'france', 'contested'], ['1809-05-17', 'france'], ['1814-01-19', 'naples-b', 'contested'], ['1814-05-24', 'papal'],
+  ],
+  naples: [
+    ['1792', 'naples'], ['1799-01-23', 'parthenopean'], ['1799-02-08', 'parthenopean', 'contested'], ['1799-06-13', 'naples'], ['1806-02-15', 'naples-b'],
+    ['1815-04-01', 'naples-b', 'contested'], ['1815-05-20', 'naples'],
+  ],
+  calabria: [
+    ['1792', 'naples'], ['1799-01-23', 'parthenopean', 'contested'], ['1799-06-13', 'naples'], ['1806-03-06', 'naples-b', 'contested'], ['1808-02-17', 'naples-b'],
+    ['1815-05-20', 'naples'],
+  ],
+  sicily: [['1792', 'naples'], ['1806-02-15', 'sicily'], ['1815-06-09', 'naples']],
+  malta: [['1792', 'knights'], ['1798-06-12', 'france-rep'], ['1798-09-02', 'france-rep', 'contested'], ['1800-09-05', 'britain']],
+
+  // ── Switzerland ─────────────────────────────────────────────────────────
+  switzerland: [['1792', 'swiss'], ['1798-03-02', 'swiss', 'contested'], ['1798-04-12', 'helvetic'], ['1799-03-06', 'helvetic', 'contested'], ['1799-10-10', 'helvetic'], ['1803-03-10', 'mediation'], ['1813-12-21', 'swiss']],
+  geneva: [['1792', 'swiss'], ['1798-04-15', 'france-rep'], ['1804-05-18', 'france'], ['1813-12-30', 'swiss']],
+  valais: [['1792', 'swiss'], ['1798-03-16', 'helvetic'], ['1799-05', 'helvetic', 'contested'], ['1799-10-10', 'helvetic'], ['1803-03-10', 'mediation'], ['1810-11-12', 'france'], ['1813-12-26', 'swiss']],
+
+  // ── Iberia ──────────────────────────────────────────────────────────────
+  catalonia: [
+    ['1792', 'spain'], ['1794-11-17', 'spain', 'contested'], ['1795-07-22', 'spain'], ['1808-02-29', 'france', 'contested'], ['1808-06-06', 'spain-j', 'contested'],
+    ['1812-01-26', 'france', 'contested'], ['1814-04-06', 'spain'],
+  ],
+  aragon: [
+    ['1792', 'spain'], ['1808-06-15', 'spain-j', 'contested'], ['1808-08-14', 'spain'], ['1808-12-20', 'spain-j', 'contested'], ['1809-06-15', 'spain-j'],
+    ['1813-07-09', 'spain', 'contested'], ['1814-04-06', 'spain'],
+  ],
+  basque: [
+    ['1792', 'spain'], ['1794-08-04', 'spain', 'contested'], ['1795-07-22', 'spain'], ['1808-02-16', 'france', 'contested'], ['1808-06-06', 'spain-j', 'contested'],
+    ['1813-06-21', 'spain', 'contested'], ['1813-11-01', 'spain'],
+  ],
+  asturias: [['1792', 'spain'], ['1809-05-19', 'spain-j', 'contested'], ['1812-06-15', 'spain']],
+  'galicia-es': [['1792', 'spain'], ['1809-01-10', 'spain-j', 'contested'], ['1809-06-28', 'spain']],
+  'old-castile': [
+    ['1792', 'spain'], ['1808-03-01', 'france', 'contested'], ['1808-06-06', 'spain-j', 'contested'], ['1812-07-22', 'spain', 'contested'],
+    ['1812-11-01', 'spain-j', 'contested'], ['1813-06-21', 'spain'],
+  ],
+  'new-castile': [
+    ['1792', 'spain'], ['1808-03-23', 'france', 'contested'], ['1808-06-06', 'spain-j', 'contested'], ['1808-08-01', 'spain'],
+    ['1808-12-04', 'spain-j'], ['1812-08-12', 'spain', 'contested'], ['1812-11-02', 'spain-j'], ['1813-03-17', 'spain-j', 'contested'], ['1813-06-21', 'spain'],
+  ],
+  extremadura: [
+    ['1792', 'spain'], ['1809-03-15', 'spain-j', 'contested'], ['1809-08-01', 'spain'], ['1811-01-26', 'spain-j', 'contested'], ['1812-04-06', 'spain', 'contested'], ['1812-09-01', 'spain'],
+  ],
+  andalusia: [['1792', 'spain'], ['1808-06-07', 'spain', 'contested'], ['1808-07-22', 'spain'], ['1810-01-20', 'spain-j', 'contested'], ['1812-08-25', 'spain']],
+  valencia: [['1792', 'spain'], ['1808-06-24', 'spain', 'contested'], ['1808-07-05', 'spain'], ['1811-09-15', 'spain-j', 'contested'], ['1812-01-09', 'spain-j'], ['1813-07-05', 'spain', 'contested'], ['1814-04-06', 'spain']],
+  balearics: [['1792', 'spain']],
+  'portugal-north': [
+    ['1792', 'portugal'], ['1807-11-19', 'france', 'contested'], ['1808-09-15', 'portugal'], ['1809-03-09', 'france', 'contested'], ['1809-05-18', 'portugal'],
+    ['1810-07-24', 'portugal', 'contested'], ['1811-04-10', 'portugal'],
+  ],
+  'portugal-south': [['1792', 'portugal'], ['1807-11-30', 'france', 'contested'], ['1808-09-15', 'portugal'], ['1810-10-10', 'portugal', 'contested'], ['1811-03-05', 'portugal']],
+
+  // ── British Isles and Scandinavia ───────────────────────────────────────
+  england: [['1792', 'britain']],
+  scotland: [['1792', 'britain']],
+  ireland: [['1792', 'britain'], ['1798-05-23', 'britain', 'contested'], ['1798-10-12', 'britain']],
+  denmark: [['1792', 'denmark'], ['1807-08-16', 'denmark', 'contested'], ['1807-10-20', 'denmark']],
+  norway: [['1792', 'denmark'], ['1814-05-17', 'norway'], ['1814-07-26', 'norway', 'contested'], ['1814-08-14', 'norway'], ['1814-11-04', 'sweden']],
+  sweden: [['1792', 'sweden']],
+
+  // ── Ottoman lands ───────────────────────────────────────────────────────
+  bosnia: [['1792', 'ottoman']],
+  serbia: [['1792', 'ottoman'], ['1804-02-14', 'ottoman', 'contested'], ['1813-10-07', 'ottoman'], ['1815-04-23', 'ottoman', 'contested']],
+  montenegro: [['1792', 'montenegro']],
+  albania: [['1792', 'ottoman']],
+  rumelia: [['1792', 'ottoman']],
+  greece: [['1792', 'ottoman']],
+  ionian: [
+    ['1792', 'venice'], ['1797-06-28', 'france-rep'], ['1798-10-10', 'france-rep', 'contested'], ['1799-03-03', 'septinsular'], ['1807-08-20', 'france'],
+    ['1809-10-02', 'britain', 'contested'], ['1814-06-24', 'britain'],
+  ],
+  wallachia: [['1792', 'ottoman', 'vassal'], ['1806-12-25', 'russia', 'contested'], ['1812-05-28', 'ottoman', 'vassal']],
+  moldavia: [['1792', 'ottoman', 'vassal'], ['1806-11-23', 'russia', 'contested'], ['1812-05-28', 'ottoman', 'vassal']],
+  bessarabia: [['1792', 'ottoman'], ['1806-11-23', 'russia', 'contested'], ['1812-05-28', 'russia']],
+  anatolia: [['1792', 'ottoman']],
+  cyprus: [['1792', 'ottoman']],
+  syria: [['1792', 'ottoman'], ['1799-02-10', 'france-rep', 'contested'], ['1799-06-01', 'ottoman']],
+  'lower-egypt': [['1792', 'ottoman'], ['1798-07-02', 'france-rep', 'contested'], ['1798-08-01', 'france-rep'], ['1798-10-21', 'france-rep', 'contested'], ['1798-10-23', 'france-rep'], ['1801-03-08', 'france-rep', 'contested'], ['1801-09-02', 'ottoman']],
+  'upper-egypt': [['1792', 'ottoman'], ['1798-08-25', 'france-rep', 'contested'], ['1799-06', 'france-rep'], ['1801-06-27', 'ottoman']],
+};
+
+const out = new URL('../src/data/napoleonic/territory.json', import.meta.url);
+const j = JSON.stringify;
+const lines = [
+  '{',
+  `  "note": ${j(note)},`,
+  '  "polities": [',
+  polities.map((p) => `    ${j(p)}`).join(',\n'),
+  '  ],',
+  '  "regions": {',
+  Object.entries(regions).map(([id, steps]) => `    ${j(id)}: ${j(steps)}`).join(',\n'),
+  '  }',
+  '}',
+];
+writeFileSync(out, lines.join('\n') + '\n');
+console.log(`wrote ${Object.keys(regions).length} regions, ${polities.length} polities`);

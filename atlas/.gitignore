@@ -1,0 +1,9 @@
+node_modules
+dist
+.vercel
+.geo-cache
+*.log
+.DS_Store
+.shots
+public/maplibre
+.env*

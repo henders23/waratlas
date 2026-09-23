@@ -1,0 +1,2230 @@
+[
+  {
+    "id": "marriage-marie-louise-1810",
+    "title": "Napoleon marries Marie-Louise",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1810-04-01",
+    "end": "1810-04-02",
+    "datePrecision": "day",
+    "place": "Saint-Cloud and the Louvre, Paris",
+    "lon": 2.34,
+    "lat": 48.86,
+    "locationCertainty": "exact",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Austria (by dynastic alliance)"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon"
+      ],
+      "opponent": [
+        "Francis I",
+        "Metternich"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Divorced from Josephine, Napoleon marries the eighteen-year-old Archduchess Marie-Louise, daughter of the Austrian emperor he had beaten only months before.",
+    "detail": "Josephine had given Napoleon no heir, and the marriage was dissolved in December 1809. After sounding out a Russian grand duchess and meeting delay, Napoleon turned to Vienna, where Metternich saw a Habsburg match as a way to buy Austria time after the defeat of 1809. A proxy wedding took place in Vienna on 11 March 1810, with Archduke Charles standing in for the groom.\n\nNapoleon met his bride on the road at Compiègne in late March. The civil ceremony followed at Saint-Cloud on 1 April and the religious ceremony on 2 April in the Salon Carré of the Louvre, conducted by Cardinal Fesch. Some thirteen cardinals, loyal to the imprisoned Pius VII, stayed away and were punished for it.\n\nOn 20 March 1811 Marie-Louise bore a son, Napoleon-François, styled King of Rome, and the dynasty seemed secure.",
+    "significance": "The marriage bound the parvenu empire to Europe's oldest dynasty and marked the apparent summit of Napoleon's power, yet it gave him no lasting guarantee of Austrian loyalty.",
+    "certainty": "high",
+    "sources": [
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)",
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "annexation-holland-1810",
+    "title": "Annexation of Holland",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1810-07-09",
+    "datePrecision": "day",
+    "place": "Amsterdam, Kingdom of Holland",
+    "lon": 4.9,
+    "lat": 52.37,
+    "locationCertainty": "exact",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Kingdom of Holland"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Oudinot"
+      ],
+      "opponent": [
+        "Louis Bonaparte"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "After his brother Louis abdicates rather than enforce the blockade, Napoleon annexes the Kingdom of Holland outright to the French Empire.",
+    "detail": "Louis Bonaparte, made King of Holland in 1806, had tried to rule in his subjects' interest, and he tolerated the smuggling that kept Dutch trade alive in defiance of the Continental System. Napoleon accused him of betraying France. Early in 1810 Louis was forced to cede the lands south of the Waal, and French troops under Oudinot marched towards Amsterdam.\n\nOn 1 July 1810 Louis abdicated in favour of his young son and slipped away to Austrian territory. Napoleon ignored the abdication: by the decree of Rambouillet of 9 July the kingdom was annexed, and Lebrun was sent as governor-general. Dutch ports came under French customs officers and, in time, Dutch men under French conscription.\n\nIn December 1810 the Hanseatic cities and the North Sea coast of Germany, including the Duchy of Oldenburg, were annexed as well, to seal the coast against British goods.",
+    "significance": "The annexations showed that the Continental System now drove imperial expansion; the seizure of Oldenburg, ruled by a relative of Alexander I, sharpened the quarrel with Russia.",
+    "certainty": "high",
+    "sources": [
+      "Simon Schama, Patriots and Liberators: Revolution in the Netherlands 1780–1813 (1977)",
+      "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)",
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bussaco-1810",
+    "title": "Battle of Bussaco",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1810-09-27",
+    "datePrecision": "day",
+    "place": "Bussaco ridge (Buçaco), near Coimbra, Portugal",
+    "lon": -8.36,
+    "lat": 40.35,
+    "locationCertainty": "approximate",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire (Army of Portugal)",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Masséna",
+        "Ney",
+        "Reynier",
+        "Junot"
+      ],
+      "opponent": [
+        "Wellington",
+        "Beresford",
+        "Craufurd",
+        "Picton"
+      ]
+    },
+    "strength": {
+      "focus": "c. 65,000",
+      "opponent": "c. 50,000"
+    },
+    "casualties": "French c. 4,500 killed and wounded; allies c. 1,250, roughly half of them Portuguese",
+    "outcome": "defeat",
+    "summary": "Masséna hurls his columns up the long ridge of Bussaco and is thrown back by Wellington's British and newly retrained Portuguese troops.",
+    "detail": "Masséna's Army of Portugal invaded in the summer of 1810, taking Ciudad Rodrigo and Almeida. Wellington chose to make a stand on the ridge of Bussaco, some sixteen kilometres long, before falling back on Lisbon.\n\nOn 27 September Reynier's corps attacked the centre and Ney's corps the northern end near the convent, both climbing steep slopes in dense columns. Reynier's men briefly reached the crest before Picton's division drove them off; Ney's columns were met at close range by Craufurd's Light Division, which had lain hidden behind the skyline, and broken in minutes.\n\nMasséna did not renew the frontal attack. Local guides showed him a road around the northern flank, and Wellington resumed his withdrawal southwards. The Portuguese regiments, rebuilt under Beresford, fought well in their first major test.",
+    "significance": "Bussaco did not stop the invasion, but it proved the Anglo-Portuguese army and delayed Masséna while the Lines of Torres Vedras waited behind.",
+    "certainty": "high",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. III (1908)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lines-torres-vedras-1810",
+    "title": "The Lines of Torres Vedras",
+    "geometry": "area",
+    "radiusKm": 30,
+    "markers": [
+      {
+        "name": "Torres Vedras",
+        "lon": -9.26,
+        "lat": 39.09
+      },
+      {
+        "name": "Sobral de Monte Agraço",
+        "lon": -9.15,
+        "lat": 39.02
+      },
+      {
+        "name": "Alhandra",
+        "lon": -9.01,
+        "lat": 38.93
+      }
+    ],
+    "kind": "campaign",
+    "start": "1810-10",
+    "end": "1811-03",
+    "datePrecision": "month",
+    "place": "Lines of Torres Vedras, north of Lisbon, Portugal",
+    "lon": -9.14,
+    "lat": 39,
+    "locationCertainty": "approximate",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire (Army of Portugal)",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Masséna"
+      ],
+      "opponent": [
+        "Wellington",
+        "Richard Fletcher"
+      ]
+    },
+    "casualties": "Masséna's army lost perhaps 25,000 men, mostly to hunger and disease, between the invasion and its retreat from Portugal; Portuguese civilian losses from famine were very heavy",
+    "outcome": "defeat",
+    "summary": "Masséna reaches a chain of secret fortifications guarding Lisbon, finds them impregnable, and starves in front of them for a month before retreating.",
+    "detail": "From late 1809 Wellington had Portuguese labourers, directed by Lieutenant-Colonel Richard Fletcher of the Royal Engineers, turn the hills north of Lisbon into a system of redoubts, scarped slopes, dammed rivers and signal stations, running from the Atlantic to the Tagus. The French knew almost nothing of it.\n\nMasséna arrived before the lines around 11 October 1810. After a sharp skirmish at Sobral he judged them too strong to assault, and his army sat in a countryside that Wellington had deliberately stripped: the population had been driven into the lines and crops and mills destroyed. In mid-November Masséna fell back to Santarém, where his men endured a winter of hunger and marauding.\n\nIn March 1811 he began a retreat to Spain, harried by Wellington and burning villages as he went. Portuguese civilians, both refugees within the lines and those left outside them, died in great numbers.",
+    "significance": "The lines ended the last French attempt to conquer Portugal and gave Wellington a secure base from which the allied advance into Spain would come.",
+    "certainty": "high",
+    "uncertaintyNote": "French losses in the campaign are estimated rather than counted; the figure of about 25,000 is a common consensus.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. III (1908)",
+      "John Grehan, The Lines of Torres Vedras: The Cornerstone of Wellington's Strategy in the Peninsular War 1809–1812 (2000)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "fuentes-de-onoro-1811",
+    "title": "Battle of Fuentes de Oñoro",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1811-05-03",
+    "end": "1811-05-05",
+    "datePrecision": "day",
+    "place": "Fuentes de Oñoro, on the Spanish-Portuguese border",
+    "lon": -6.82,
+    "lat": 40.59,
+    "locationCertainty": "approximate",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire (Army of Portugal)",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Masséna",
+        "Bessières"
+      ],
+      "opponent": [
+        "Wellington",
+        "Craufurd"
+      ]
+    },
+    "strength": {
+      "focus": "c. 46,000–48,000",
+      "opponent": "c. 37,000"
+    },
+    "casualties": "French c. 2,200–2,800; allies c. 1,500–1,800",
+    "outcome": "defeat",
+    "summary": "Masséna's attempt to relieve the besieged fortress of Almeida fails in three days of fighting around a border village.",
+    "detail": "Wellington was blockading the French garrison of Almeida when Masséna advanced to relieve it. The allied army stood behind the stream at Fuentes de Oñoro, and on 3 May the French attacked the village itself, where fighting in its lanes and walled gardens swayed back and forth.\n\nOn 5 May Masséna swung round the allied right, overwhelming outposts at Poço Velho and exposing the newly formed 7th Division. Wellington pulled his line back to a new position at right angles to the old one; Craufurd's Light Division covered the move in squares across the open plain under the eyes of French cavalry, and a troop of horse artillery under Norman Ramsay famously cut its way out. The village was again the scene of savage fighting before the French drew off.\n\nMasséna withdrew. Almeida's garrison blew up its defences and escaped through the blockade on the night of 10–11 May, to Wellington's anger. Masséna was then replaced by Marmont.",
+    "significance": "Wellington held the frontier and ended Masséna's career, though he later admitted the battle had been a close-run thing.",
+    "certainty": "high",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. IV (1911)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "albuera-1811",
+    "title": "Battle of Albuera",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1811-05-16",
+    "datePrecision": "day",
+    "place": "La Albuera, near Badajoz, Extremadura",
+    "lon": -6.82,
+    "lat": 38.72,
+    "locationCertainty": "approximate",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire (Army of the South)",
+      "opponent": "Britain, Portugal and Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Soult"
+      ],
+      "opponent": [
+        "Beresford",
+        "Blake",
+        "Lowry Cole"
+      ]
+    },
+    "strength": {
+      "focus": "c. 24,000",
+      "opponent": "c. 35,000"
+    },
+    "casualties": "French c. 6,000–7,000; allies c. 6,000, of whom some 4,000 were British out of about 10,000 engaged",
+    "outcome": "defeat",
+    "summary": "Soult's attempt to relieve Badajoz ends in one of the bloodiest small battles of the war, fought at close range in rain and hail.",
+    "detail": "Beresford was besieging Badajoz when Soult marched from Andalusia to relieve it. The allies formed behind the stream at Albuera, expecting a frontal attack, but Soult sent his main blow round their right flank onto a low ridge to the south.\n\nSpanish troops under Zayas turned to meet the attack and held stubbornly. As British brigades came up to help, a hailstorm blinded the field and French cavalry, including Polish lancers of the Vistula Legion, fell on Colborne's brigade in the flank and destroyed it. The fight then became a murderous exchange of musketry at short range; the 57th Foot lost most of its men and earned the nickname 'Die-hards'. The battle turned when Lowry Cole's 4th Division, with the Fusilier Brigade, advanced on its own initiative and drove the French columns back.\n\nSoult retreated two days later, leaving the siege to continue.",
+    "significance": "Albuera kept Badajoz under siege but at a ruinous price, and it damaged Beresford's reputation; Soult had failed in his object.",
+    "certainty": "high",
+    "uncertaintyNote": "Some historians treat the result as a draw; casualty figures on both sides vary between sources.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. IV (1911)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "siege-tarragona-1811",
+    "title": "Siege and sack of Tarragona",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1811-05-05",
+    "end": "1811-06-28",
+    "datePrecision": "day",
+    "place": "Tarragona, Catalonia",
+    "lon": 1.25,
+    "lat": 41.12,
+    "locationCertainty": "exact",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire (Army of Aragon)",
+      "opponent": "Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Suchet"
+      ],
+      "opponent": [
+        "Juan Senén de Contreras"
+      ]
+    },
+    "casualties": "Spanish losses during the siege and storm ran into the thousands killed and some 8,000–10,000 captured; many civilians died in the sack; French c. 4,000",
+    "outcome": "victory",
+    "summary": "Suchet takes the great Catalan port by storm after an eight-week siege; his troops kill soldiers and townspeople alike in the sack that follows.",
+    "detail": "Tarragona was the chief base of Spanish resistance in Catalonia, strongly fortified and supplied by sea under the guns of a British squadron. Suchet's Army of Aragon invested it in early May 1811, and the garrison under Contreras was reinforced by sea during the siege.\n\nThe French worked methodically. The outlying Fort Olivo fell to a night assault on 29 May, the lower town and port in June, and on 28 June the columns stormed a breach in the walls of the upper town. Resistance collapsed, and the attackers ran through the streets killing indiscriminately. Soldiers and civilians, including many who had fled to the harbour hoping for rescue by boat, died in large numbers before order was restored, and thousands of prisoners were marched off to France.\n\nNapoleon rewarded Suchet with a marshal's baton. He went on to take Valencia in January 1812.",
+    "significance": "The fall of Tarragona broke organised Spanish resistance in Catalonia for a time and made Suchet the most successful French commander in Spain.",
+    "certainty": "medium",
+    "uncertaintyNote": "The number of people killed in the sack is uncertain; figures of several thousand, soldiers and civilians together, are given in older accounts.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. IV (1911)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Don W. Alexander, Rod of Iron: French Counterinsurgency Policy in Aragon during the Peninsular War (1985)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ciudad-rodrigo-1812",
+    "title": "Storming of Ciudad Rodrigo",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1812-01-08",
+    "end": "1812-01-19",
+    "datePrecision": "day",
+    "place": "Ciudad Rodrigo, province of Salamanca",
+    "lon": -6.53,
+    "lat": 40.6,
+    "locationCertainty": "exact",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Barrié"
+      ],
+      "opponent": [
+        "Wellington",
+        "Picton",
+        "Craufurd"
+      ]
+    },
+    "strength": {
+      "focus": "c. 2,000 (garrison)",
+      "opponent": "c. 35,000–40,000 (besieging army)"
+    },
+    "casualties": "Allies c. 1,100 killed and wounded in the siege, about half in the storm; the French garrison was killed or captured",
+    "outcome": "defeat",
+    "summary": "In a lightning winter siege Wellington storms the frontier fortress of Ciudad Rodrigo by night, catching the French armies dispersed.",
+    "detail": "With French forces weakened by withdrawals for the coming war in Russia, Wellington struck in mid-winter. The fortress was invested on 8 January 1812 in bitter cold, and a redoubt on the Greater Teson hill was carried that same night. Batteries opened two breaches in the walls within days.\n\nOn the evening of 19 January the 3rd Division stormed the great breach and the Light Division the lesser one. A mine exploded under the attackers at the main breach, killing General Mackinnon, and Craufurd was mortally wounded at the head of his division. The town was taken within an hour, but troops then broke into its houses and wine shops, and looting and drunken violence lasted through the night.\n\nThe capture brought with it the siege train of the Army of Portugal. Wellington was made an earl in Britain and Duke of Ciudad Rodrigo by the Spanish Regency.",
+    "significance": "The fortress opened the northern gateway into Spain and began the allied offensive of 1812.",
+    "certainty": "high",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. V (1914)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Wellington's Dispatches, ed. John Gurwood"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "badajoz-1812",
+    "title": "Storming and sack of Badajoz",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1812-03-16",
+    "end": "1812-04-07",
+    "datePrecision": "day",
+    "place": "Badajoz, Extremadura",
+    "lon": -6.97,
+    "lat": 38.88,
+    "locationCertainty": "exact",
+    "phase": "zenith",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Philippon"
+      ],
+      "opponent": [
+        "Wellington",
+        "Picton",
+        "Leith"
+      ]
+    },
+    "strength": {
+      "focus": "c. 5,000 (garrison)",
+      "opponent": "c. 27,000 (siege force)"
+    },
+    "casualties": "Allies c. 4,800 killed and wounded in the siege, about 3,500 of them on the night of the storm; the French garrison was nearly all killed or captured; an unknown number of Spanish civilians were killed",
+    "outcome": "defeat",
+    "summary": "Wellington's army storms Badajoz at terrible cost, then runs riot for days, murdering, raping and looting the Spanish population it had come to liberate.",
+    "detail": "Badajoz, commanding the southern road between Portugal and Spain, had resisted two allied sieges in 1811. Wellington invested it again on 16 March 1812 and pressed the siege hard, fearing that Soult or Marmont would come to its relief. General Philippon's garrison defended it with great skill.\n\nOn the night of 6 April the Light and 4th Divisions assaulted three breaches and were massacred in the ditch by mines, fire and obstacles; attack after attack failed. The town fell because diversionary escalades succeeded: Picton's 3rd Division climbed into the castle and Leith's 5th Division scaled the San Vicente bastion.\n\nWhat followed was one of the worst atrocities by British troops in the war. For some two days soldiers broke into houses, killed and raped inhabitants and plundered the town, until Wellington restored order with fresh troops and the threat of the gallows.",
+    "significance": "The capture secured the southern corridor into Spain and cleared the way for the Salamanca campaign, but the sack remains a stain on the allied cause.",
+    "certainty": "high",
+    "uncertaintyNote": "Civilian deaths in the sack were never counted; accounts give figures from dozens to several hundred.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. V (1914)",
+      "Ian Fletcher, In Hell before Daylight: The Siege and Storming of the Fortress of Badajoz, 1812 (1984)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "salamanca-1812",
+    "title": "Battle of Salamanca",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Arapil Grande",
+        "lon": -5.63,
+        "lat": 40.88
+      }
+    ],
+    "kind": "battle",
+    "start": "1812-07-22",
+    "datePrecision": "day",
+    "place": "Los Arapiles, south of Salamanca",
+    "lon": -5.64,
+    "lat": 40.89,
+    "locationCertainty": "approximate",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire (Army of Portugal)",
+      "opponent": "Britain, Portugal and Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Marmont",
+        "Clausel",
+        "Bonnet"
+      ],
+      "opponent": [
+        "Wellington",
+        "Pakenham",
+        "Le Marchant",
+        "Leith"
+      ]
+    },
+    "strength": {
+      "focus": "c. 50,000",
+      "opponent": "c. 52,000"
+    },
+    "casualties": "French c. 7,000 killed and wounded and c. 7,000 captured; allies c. 5,200",
+    "outcome": "defeat",
+    "summary": "Marmont overextends his army in a race to cut Wellington's line of retreat; Wellington strikes the gap and routs it in an afternoon.",
+    "detail": "For weeks Marmont and Wellington manoeuvred side by side around Salamanca, each waiting for the other to blunder. On 22 July Marmont, believing the allies were retiring, pushed his left-hand division under Thomières westward to cut the road to Ciudad Rodrigo, opening a wide gap in his line.\n\nWellington saw it and attacked at once. Pakenham's 3rd Division fell on Thomières' head, Leith's 5th Division struck the next divisions in line, and Le Marchant's heavy cavalry brigade rode down the disordered battalions, though Le Marchant was killed. Marmont had already been badly wounded by a shell, and his successor Bonnet was also hit. Clausel launched a counter-attack in the centre that briefly shook the allied line before it was contained.\n\nThe French escaped destruction only because a Spanish garrison had abandoned the bridge at Alba de Tormes without Wellington's knowledge.",
+    "significance": "Salamanca established Wellington as a general of attack; he entered Madrid on 12 August and forced the French to abandon Andalusia and the siege of Cádiz.",
+    "certainty": "high",
+    "uncertaintyNote": "Estimates of total French losses range from about 12,500 to 14,000, including prisoners.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. V (1914)",
+      "Rory Muir, Salamanca 1812 (2001)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "niemen-crossing-1812",
+    "title": "The Grande Armée crosses the Niemen",
+    "geometry": "city",
+    "kind": "campaign",
+    "start": "1812-06-24",
+    "datePrecision": "day",
+    "place": "Kovno (Kaunas), on the Niemen",
+    "lon": 23.9,
+    "lat": 54.9,
+    "locationCertainty": "exact",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout",
+        "Murat",
+        "Eugène de Beauharnais",
+        "Jérôme Bonaparte"
+      ],
+      "opponent": [
+        "Alexander I",
+        "Barclay de Tolly",
+        "Bagration"
+      ]
+    },
+    "strength": {
+      "focus": "c. 450,000 in the first line; over 600,000 in all over the campaign",
+      "opponent": "c. 200,000–240,000 on the western frontier"
+    },
+    "outcome": "n/a",
+    "summary": "The largest army Europe had ever seen begins crossing the Niemen into the Russian Empire, opening Napoleon's invasion of Russia.",
+    "detail": "The alliance of Tilsit had decayed over the Continental System, which Russia ceased to observe after 1810, over the Duchy of Warsaw and over Napoleon's annexation of Oldenburg. Both sides prepared for war through 1811. Napoleon assembled a multinational army in which Frenchmen were perhaps half; the rest were Poles, Germans from the Confederation of the Rhine, Italians, Swiss, Dutch, and Austrian and Prussian auxiliary corps.\n\nOn 24 June 1812 the main body began crossing on pontoon bridges near Kovno; other corps crossed further south and north over the following days. Alexander received the news at a ball near Vilna. The Russian armies of Barclay and Bagration, heavily outnumbered, fell back rather than accept battle, and Napoleon's hopes of trapping them near the frontier failed.\n\nWithin weeks, heat, bad roads and the collapse of supply were costing the invaders tens of thousands of men through desertion, sickness and exhaustion.",
+    "significance": "The invasion was the greatest gamble of Napoleon's reign; its failure destroyed the Grande Armée and began the collapse of his empire.",
+    "certainty": "high",
+    "uncertaintyNote": "The size of the invading army is variously given; totals depend on whether flank corps and later reinforcements are counted.",
+    "sources": [
+      "Dominic Lieven, Russia Against Napoleon: The Battle for Europe, 1807 to 1814 (2009)",
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "smolensk-1812",
+    "title": "Battle of Smolensk",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1812-08-16",
+    "end": "1812-08-18",
+    "datePrecision": "day",
+    "place": "Smolensk, on the Dnieper",
+    "lon": 32.05,
+    "lat": 54.78,
+    "locationCertainty": "exact",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Davout",
+        "Poniatowski"
+      ],
+      "opponent": [
+        "Barclay de Tolly",
+        "Bagration",
+        "Raevsky",
+        "Dokhturov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 175,000 in the area",
+      "opponent": "c. 120,000 in the area, of whom c. 30,000–50,000 defended the city"
+    },
+    "casualties": "French c. 8,000–10,000; Russians c. 10,000–12,000; much of the city burned",
+    "outcome": "victory",
+    "summary": "Napoleon assaults the walled city of Smolensk, which burns as the united Russian armies slip away eastwards once again.",
+    "detail": "Barclay and Bagration joined forces at Smolensk in early August. Napoleon swung his army south of the Dnieper to take the city from behind, but Neverovsky's division delayed his advance guard at Krasnoi on 14 August, and Raevsky's corps reached Smolensk in time to hold it.\n\nOn 16 and 17 August the French attacked the suburbs and the massive medieval walls. Artillery set the wooden city alight, and the defenders under Dokhturov fought among burning streets. Barclay, unwilling to risk the only army Russia had, evacuated on the night of 17–18 August. When the French entered they found a city of ruins and dead. On 19 August Ney and Junot failed to cut off the Russian rearguard at Valutina Gora.\n\nBarclay's retreat was bitterly resented at court and in his army, and Alexander appointed Kutuzov commander-in-chief.",
+    "significance": "Napoleon took the city but not the decisive battle he sought, and he chose to press on towards Moscow rather than halt for the winter.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for Smolensk vary widely between French and Russian sources.",
+    "sources": [
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "borodino-1812",
+    "title": "Battle of Borodino",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Raevsky (Great) Redoubt",
+        "lon": 35.82,
+        "lat": 55.52
+      }
+    ],
+    "kind": "battle",
+    "start": "1812-09-07",
+    "datePrecision": "day",
+    "place": "Borodino, west of Mozhaisk, Moscow province",
+    "lon": 35.83,
+    "lat": 55.51,
+    "locationCertainty": "approximate",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout",
+        "Ney",
+        "Murat",
+        "Eugène de Beauharnais",
+        "Poniatowski"
+      ],
+      "opponent": [
+        "Kutuzov",
+        "Barclay de Tolly",
+        "Bagration"
+      ]
+    },
+    "strength": {
+      "focus": "c. 130,000–135,000, c. 580 guns",
+      "opponent": "c. 125,000–155,000 including militia and Cossacks, c. 620 guns"
+    },
+    "casualties": "French c. 28,000–35,000 killed and wounded, including dozens of generals; Russians c. 40,000–45,000",
+    "outcome": "victory",
+    "summary": "The bloodiest single day of the Napoleonic Wars: the Grande Armée drives the Russians from their earthworks but fails to destroy Kutuzov's army.",
+    "detail": "Kutuzov made his stand about 110 kilometres west of Moscow, fortifying a line of earthworks: the Bagration flèches in the south and the great battery known as the Raevsky Redoubt in the centre.\n\nFrom dawn on 7 September Davout's and Ney's corps attacked the flèches, which changed hands several times before being taken; Bagration was mortally wounded. Around the middle of the day the Raevsky Redoubt became the focus, and it fell in the afternoon to a combined attack by infantry and cuirassiers, at the cost of General Auguste de Caulaincourt's life. A raid by Uvarov's cavalry and Platov's Cossacks around the French left had earlier caused alarm and delay.\n\nNapoleon refused to commit the Imperial Guard for a final blow, so far from home. The Russians withdrew in good order during the night. The field was covered with tens of thousands of dead and wounded men and horses.",
+    "significance": "Borodino opened the road to Moscow but left the Russian army in being; Napoleon's hope of a decisive victory that would force Alexander to make peace was lost.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths and losses are much disputed, especially the number of militia counted in the Russian army and the French total of casualties.",
+    "sources": [
+      "Alexander Mikaberidze, The Battle of Borodino: Napoleon against Kutuzov (2007)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "18th Bulletin of the Grande Armée (September 1812)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "moscow-1812",
+    "title": "Occupation and burning of Moscow",
+    "geometry": "city",
+    "kind": "sack",
+    "start": "1812-09-14",
+    "end": "1812-10-19",
+    "datePrecision": "day",
+    "place": "Moscow",
+    "lon": 37.62,
+    "lat": 55.75,
+    "locationCertainty": "exact",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Mortier"
+      ],
+      "opponent": [
+        "Kutuzov",
+        "Rostopchin",
+        "Alexander I"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Napoleon enters an almost deserted Moscow; within days fires destroy most of the city, and Alexander refuses to negotiate.",
+    "detail": "At a council at Fili on 13 September Kutuzov decided to abandon Moscow to save the army. Most inhabitants had already left. When the French entered on 14 September there was no deputation to surrender the city.\n\nThat night fires broke out, and from 15 to 18 September, driven by strong winds, they consumed the greater part of the city. The governor, Rostopchin, had removed the fire pumps, and most historians accept that Russian incendiaries acting on his orders started many of the blazes, though looting and carelessness by soldiers spread them. French troops shot suspected arsonists, plundered what remained, and the townspeople who stayed behind suffered robbery and violence. Napoleon was forced out of the Kremlin for several days.\n\nHe waited five weeks for a reply to his peace overtures that never came. After Murat was surprised at Tarutino on 18 October, he left the city on 19 October; parts of the Kremlin were blown up as the rearguard departed.",
+    "significance": "Moscow proved an empty prize: its destruction and Alexander's refusal to bargain left Napoleon deep in Russia with winter approaching and no way to end the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Responsibility for the fire has been argued since 1812; the share of the city destroyed is usually estimated at about two-thirds to three-quarters of its buildings.",
+    "sources": [
+      "Alexander Mikaberidze, The Burning of Moscow: Napoleon's Trial by Fire, 1812 (2014)",
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "Dominic Lieven, Russia Against Napoleon (2009)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "maloyaroslavets-1812",
+    "title": "Battle of Maloyaroslavets",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1812-10-24",
+    "datePrecision": "day",
+    "place": "Maloyaroslavets, Kaluga province",
+    "lon": 36.46,
+    "lat": 55.01,
+    "locationCertainty": "exact",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and Kingdom of Italy",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Eugène de Beauharnais",
+        "Delzons"
+      ],
+      "opponent": [
+        "Kutuzov",
+        "Dokhturov",
+        "Raevsky"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000–24,000 engaged",
+      "opponent": "c. 20,000–24,000 engaged"
+    },
+    "casualties": "each side lost roughly 5,000–7,000 killed and wounded; the town was burned",
+    "outcome": "inconclusive",
+    "summary": "Eugène's corps wins a savage fight for a burning town, but Kutuzov blocks the southern road and Napoleon turns back to the devastated route he came by.",
+    "detail": "Leaving Moscow, Napoleon marched south-west towards Kaluga, hoping to retreat through country untouched by war. Kutuzov moved to block him. On 24 October Eugène's IV Corps, including Italian troops, collided with Dokhturov's corps at the small town of Maloyaroslavets on the Luzha.\n\nThe town is said to have changed hands as many as eight times as both sides fed in reinforcements. General Delzons was killed leading his division, the streets burned, and wounded men died in the flames. By nightfall the Italians and French held the ruins, but Kutuzov's main army stood entrenched a few kilometres to the south.\n\nThe next morning Cossacks nearly captured Napoleon himself near Gorodnya. After a council with his marshals he ordered the army north to Mozhaisk and back onto the Smolensk road, already stripped bare by the advance.",
+    "significance": "A French tactical success but a strategic defeat: the decision to retreat by the ravaged northern road condemned the Grande Armée to starvation.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for strength and losses differ widely; the frequently cited 'eight times' is a traditional figure.",
+    "sources": [
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "retreat-from-moscow-1812",
+    "title": "The retreat from Moscow",
+    "geometry": "area",
+    "radiusKm": 460,
+    "markers": [
+      {
+        "name": "Vyazma",
+        "lon": 34.3,
+        "lat": 55.21
+      },
+      {
+        "name": "Smorgoni (Smarhon)",
+        "lon": 26.4,
+        "lat": 54.48
+      },
+      {
+        "name": "Vilna (Vilnius)",
+        "lon": 25.28,
+        "lat": 54.69
+      }
+    ],
+    "kind": "campaign",
+    "start": "1812-10-19",
+    "end": "1812-12-14",
+    "datePrecision": "day",
+    "place": "The road from Moscow through Smolensk and Vilna to the Niemen",
+    "lon": 30.7,
+    "lat": 54.8,
+    "locationCertainty": "approximate",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Davout",
+        "Murat",
+        "Eugène de Beauharnais"
+      ],
+      "opponent": [
+        "Kutuzov",
+        "Miloradovich",
+        "Platov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 100,000 left Moscow",
+      "opponent": "Kutuzov's main army, Cossacks and partisans"
+    },
+    "casualties": "Of the whole invading army, perhaps 400,000 died and some 100,000 were captured; only a few tens of thousands recrossed the Niemen in formed units. Russian military and civilian losses were also enormous",
+    "outcome": "defeat",
+    "summary": "Starving, frozen and hunted by Cossacks and peasants, the Grande Armée disintegrates on the long road back from Moscow.",
+    "detail": "About 100,000 men left Moscow on 19 October with a long train of carts laden with loot. Forced back onto the Smolensk road, they marched past the unburied dead of Borodino. Discipline broke down as the horses died and food ran out; after a costly rearguard fight at Vyazma on 3 November the first hard frosts and snow arrived.\n\nAt Smolensk the depots were plundered in chaos. Stragglers were killed by Cossacks, partisans and peasants, who had their own grievances after months of requisition and pillage. Prisoners on both sides died in terrible numbers. After the Berezina, temperatures fell far below freezing.\n\nNapoleon left the army at Smorgoni on 5 December to hurry back to Paris, handing command to Murat. Vilna, with its magazines, was abandoned in disorder. Ney, commanding the rearguard, was among the last to cross the Niemen at Kovno around 14 December.",
+    "significance": "The destruction of the Grande Armée ended Napoleon's mastery of central Europe and set the stage for the German War of Liberation.",
+    "certainty": "high",
+    "uncertaintyNote": "All overall loss figures are estimates; historians differ on the size of the army at each stage and on the numbers of dead, deserters and prisoners. Kutuzov's own army also lost well over half its strength.",
+    "sources": [
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Philippe-Paul de Ségur, History of the Expedition to Russia (1824)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "krasnoi-1812",
+    "title": "Battles of Krasnoi",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1812-11-15",
+    "end": "1812-11-18",
+    "datePrecision": "day",
+    "place": "Krasnoi (Krasny), south-west of Smolensk",
+    "lon": 31.43,
+    "lat": 54.56,
+    "locationCertainty": "approximate",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout",
+        "Eugène de Beauharnais",
+        "Ney"
+      ],
+      "opponent": [
+        "Kutuzov",
+        "Miloradovich"
+      ]
+    },
+    "casualties": "French c. 5,000–6,000 killed and wounded and some 20,000 or more captured, many of them stragglers, with over a hundred guns; Russians c. 2,000–5,000",
+    "outcome": "defeat",
+    "summary": "Kutuzov's army lies across the road at Krasnoi as the French corps pass by one after another; Ney's rearguard is cut off and escapes across the frozen Dnieper.",
+    "detail": "Leaving Smolensk in mid-November, the French corps marched separately, a day apart, and Kutuzov placed his army beside the road near Krasnoi to catch them in turn. Eugène's corps had to fight its way past on 16 November. On 17 November Napoleon turned the Young Guard against the Russians to rescue Davout's corps, then continued the retreat.\n\nNey's III Corps, the rearguard, arrived on 18 November to find the road blocked. He refused to surrender, and that night led his men north across the barely frozen Dnieper. Of some 6,000 men, perhaps 800 to 900 rejoined the army at Orsha. The episode made Ney a legend.\n\nKutuzov, cautious and unwilling to risk a pitched battle, has been criticised for letting Napoleon escape; others argue that he was preserving his own worn-out army.",
+    "significance": "Krasnoi cost the Grande Armée most of its remaining artillery and huge numbers of prisoners, though its core survived to reach the Berezina.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty and prisoner figures come largely from Russian claims and are uncertain; the fighting is sometimes treated as a series of separate actions.",
+    "sources": [
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "berezina-1812",
+    "title": "Crossing of the Berezina",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Borisov (Barysaw)",
+        "lon": 28.5,
+        "lat": 54.23
+      }
+    ],
+    "kind": "battle",
+    "start": "1812-11-26",
+    "end": "1812-11-29",
+    "datePrecision": "day",
+    "place": "Studianka, north of Borisov (Barysaw), on the Berezina",
+    "lon": 28.36,
+    "lat": 54.33,
+    "locationCertainty": "approximate",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Eblé",
+        "Oudinot",
+        "Victor",
+        "Ney"
+      ],
+      "opponent": [
+        "Chichagov",
+        "Wittgenstein",
+        "Kutuzov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000–50,000 under arms, with tens of thousands of stragglers and civilians",
+      "opponent": "c. 60,000–75,000 in the converging armies"
+    },
+    "casualties": "French c. 25,000–40,000 killed, drowned or captured, including many stragglers and civilians; Russians perhaps 10,000 or more",
+    "outcome": "inconclusive",
+    "summary": "Trapped against a river by three Russian armies, Napoleon bridges the Berezina and escapes with the core of his army, abandoning thousands on the far bank.",
+    "detail": "Chichagov's army, arriving from the south, seized Borisov and its bridge, while Wittgenstein closed from the north and Kutuzov followed behind. The Grande Armée seemed trapped. A ford was found at Studianka, and while feints drew Chichagov southwards, General Eblé's pontonniers, standing in the icy river, built two trestle bridges on 26 November. Most of them died of the exposure.\n\nOudinot's corps crossed and held off Chichagov on the west bank, while Victor's corps fought Wittgenstein on the east bank to cover the bridges; Partouneaux's division, lost in the dark, surrendered. Thousands of stragglers and camp followers failed to cross in time, and when the bridges jammed and one broke many were crushed or drowned.\n\nOn the morning of 29 November Eblé set fire to the bridges, leaving a mass of people on the eastern bank to the Cossacks.",
+    "significance": "Napoleon escaped the trap with his best commanders and the remains of the Guard, but the scenes at the bridges made the Berezina a byword in French for catastrophe.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether to count the crossing as a French success or disaster depends on perspective; losses are estimates, since stragglers and civilians were never counted.",
+    "sources": [
+      "Alexander Mikaberidze, Napoleon's Great Escape: The Battle of the Berezina (2010)",
+      "Adam Zamoyski, 1812: Napoleon's Fatal March on Moscow (2004)",
+      "29th Bulletin of the Grande Armée (3 December 1812)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tauroggen-1812",
+    "title": "Convention of Tauroggen",
+    "geometry": "site",
+    "kind": "treaty",
+    "start": "1812-12-30",
+    "datePrecision": "day",
+    "place": "Poscherun mill near Tauroggen (Tauragė), Lithuania",
+    "lon": 22.29,
+    "lat": 55.25,
+    "locationCertainty": "approximate",
+    "phase": "russia",
+    "sides": {
+      "focus": "French Empire (Prussian auxiliary corps)",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Yorck",
+        "Macdonald"
+      ],
+      "opponent": [
+        "Diebitsch",
+        "Wittgenstein"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "On his own authority, General Yorck agrees to neutralise the Prussian corps serving with Napoleon, the first step in Prussia's change of sides.",
+    "detail": "Prussia had been forced to provide an auxiliary corps for the invasion of Russia, which served on the northern flank under Marshal Macdonald. As the Grande Armée collapsed, its commander, General Yorck, was separated from Macdonald and approached by Russian officers, among them Carl von Clausewitz, then in Russian service.\n\nOn 30 December 1812, at a mill near Tauroggen, Yorck signed a convention with General Diebitsch declaring his corps neutral. He acted without the approval of King Frederick William III, who at first disowned him. Macdonald's remaining troops were left exposed, and East Prussia was opened to the Russians.\n\nThe patriotic excitement that followed pushed the hesitant king forward. By the Treaty of Kalisch of February 1813 Prussia allied with Russia, and it declared war on France in March.",
+    "significance": "Tauroggen turned the Russian victory into a European war of liberation, bringing Prussia into the coalition that would fight in Germany in 1813.",
+    "certainty": "high",
+    "sources": [
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Michael V. Leggiere, Napoleon and the Struggle for Germany: The Franco-Prussian War of 1813 (2015)",
+      "Christopher Clark, Iron Kingdom: The Rise and Downfall of Prussia, 1600–1947 (2006)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lutzen-1813",
+    "title": "Battle of Lützen (Grossgörschen)",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1813-05-02",
+    "datePrecision": "day",
+    "place": "Grossgörschen, south-east of Lützen, Saxony",
+    "lon": 12.16,
+    "lat": 51.22,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Marmont",
+        "Bertrand"
+      ],
+      "opponent": [
+        "Wittgenstein",
+        "Blücher",
+        "Scharnhorst",
+        "Alexander I",
+        "Frederick William III"
+      ]
+    },
+    "strength": {
+      "focus": "c. 110,000–120,000 by evening",
+      "opponent": "c. 73,000–96,000"
+    },
+    "casualties": "French c. 18,000–22,000; allies c. 11,000–12,000",
+    "outcome": "victory",
+    "summary": "Napoleon's rebuilt army of young conscripts beats the Russians and Prussians in its first great battle, but lacks the cavalry to pursue.",
+    "detail": "Within months of the Russian disaster Napoleon had raised a new army, much of it young conscripts, but short of trained cavalry and horses. Marching on Leipzig, he was attacked on 2 May 1813 by the allies under Wittgenstein, who struck Ney's corps in its quarters around the villages of Grossgörschen, Kleingörschen, Rahna and Kaja. Marshal Bessières had been killed by a cannonball in a skirmish the day before.\n\nThe villages changed hands repeatedly and Ney's raw troops came close to breaking. Napoleon rode to the scene, gathered his corps on the allied flanks and in the evening launched the Guard behind a massed battery under Drouot. The allies withdrew in good order, and without cavalry the French could not turn the retreat into a rout.\n\nScharnhorst, the architect of Prussia's army reforms, was wounded and died of the infection weeks later.",
+    "significance": "Lützen restored Napoleon's hold on Saxony and showed his new army could fight, but it produced no decisive result.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths and losses vary considerably between French, Prussian and Russian accounts.",
+    "sources": [
+      "Michael V. Leggiere, Napoleon and the Struggle for Germany (2015)",
+      "F. Loraine Petre, Napoleon's Last Campaign in Germany, 1813 (1912)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bautzen-1813",
+    "title": "Battle of Bautzen",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1813-05-20",
+    "end": "1813-05-21",
+    "datePrecision": "day",
+    "place": "Bautzen, on the Spree, Saxony",
+    "lon": 14.47,
+    "lat": 51.2,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Russia and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Soult",
+        "Oudinot",
+        "Marmont"
+      ],
+      "opponent": [
+        "Wittgenstein",
+        "Blücher",
+        "Barclay de Tolly",
+        "Alexander I"
+      ]
+    },
+    "strength": {
+      "focus": "c. 150,000–200,000 including Ney's flanking force",
+      "opponent": "c. 96,000"
+    },
+    "casualties": "French c. 20,000–22,000; allies c. 11,000–20,000",
+    "outcome": "victory",
+    "summary": "Napoleon drives the allies from a fortified position on the Spree, but a hesitant flank attack lets them escape, and an armistice follows.",
+    "detail": "The allies fell back to a strong position east of Bautzen. Napoleon planned to pin them frontally while Ney, marching down from the north with a large detached force, fell on their right flank and rear.\n\nOn 20 May the French crossed the Spree and took Bautzen. On 21 May, as the main attack went in, Ney reached the allied flank near Preititz but, perhaps misreading his orders, turned towards the fighting instead of pressing on to cut the line of retreat. The allies withdrew eastward in good order. The next day Duroc, Napoleon's close friend and Grand Marshal of the Palace, was mortally wounded by a cannonball at Markersdorf.\n\nBoth sides were exhausted, and on 4 June an armistice was signed at Pläswitz. It ran into August, while Austria offered mediation at the Congress of Prague; when Napoleon would not accept its terms, Austria joined the coalition.",
+    "significance": "A second victory without decisive result; the armistice that followed gave the allies time to bring Austria and Sweden into the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Allied casualty estimates differ widely; the exact meaning of Ney's orders is still debated.",
+    "sources": [
+      "Michael V. Leggiere, Napoleon and the Struggle for Germany (2015)",
+      "F. Loraine Petre, Napoleon's Last Campaign in Germany, 1813 (1912)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "vitoria-1813",
+    "title": "Battle of Vitoria",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1813-06-21",
+    "datePrecision": "day",
+    "place": "Basin of the Zadorra, west of Vitoria (Vitoria-Gasteiz), Álava",
+    "lon": -2.72,
+    "lat": 42.85,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire (King Joseph's armies)",
+      "opponent": "Britain, Portugal and Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Joseph Bonaparte",
+        "Jourdan",
+        "Gazan",
+        "Reille"
+      ],
+      "opponent": [
+        "Wellington",
+        "Hill",
+        "Graham"
+      ]
+    },
+    "strength": {
+      "focus": "c. 57,000–60,000",
+      "opponent": "c. 75,000–80,000"
+    },
+    "casualties": "French c. 8,000, including about 2,000 captured, with 151 of 153 guns lost; allies c. 5,000",
+    "outcome": "defeat",
+    "summary": "Wellington's converging columns shatter King Joseph's army and capture its guns and baggage, ending French rule in Spain.",
+    "detail": "In spring 1813 Wellington outflanked the French line of defence by marching through the rugged north of Portugal. Joseph abandoned Madrid and fell back to Vitoria, his army encumbered by an enormous convoy of refugees, officials and plunder.\n\nOn 21 June Wellington attacked in four columns. Hill seized the Puebla heights in the south; the centre crossed the Zadorra by bridges the French had left unguarded or weakly held; and Graham's column from the north cut the main road to France at Gamarra Mayor. Joseph's line gave way and his army fled east towards Pamplona, abandoning nearly all its artillery.\n\nThe baggage train, stuffed with coin, paintings and valuables, fell to allied soldiers, who stopped to plunder it and let most of the French escape. Among the booty was Jourdan's marshal's baton, which the Prince Regent answered by making Wellington a field marshal.",
+    "significance": "Vitoria destroyed Joseph's kingdom, carried the war to the Pyrenees and encouraged Austria to join the coalition against Napoleon.",
+    "certainty": "high",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. VI (1922)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Wellington's Dispatches, ed. John Gurwood"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dresden-1813",
+    "title": "Battle of Dresden",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1813-08-26",
+    "end": "1813-08-27",
+    "datePrecision": "day",
+    "place": "Dresden, Saxony",
+    "lon": 13.74,
+    "lat": 51.05,
+    "locationCertainty": "exact",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Austria, Russia and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Murat",
+        "Saint-Cyr",
+        "Victor",
+        "Mortier"
+      ],
+      "opponent": [
+        "Schwarzenberg",
+        "Barclay de Tolly",
+        "Alexander I",
+        "Francis I"
+      ]
+    },
+    "strength": {
+      "focus": "c. 120,000–135,000",
+      "opponent": "c. 200,000–215,000"
+    },
+    "casualties": "French c. 10,000; allies c. 35,000–38,000, including some 15,000–23,000 captured",
+    "outcome": "victory",
+    "summary": "Napoleon races back to save Dresden and routs Schwarzenberg's much larger Army of Bohemia, his last great victory in Germany.",
+    "detail": "The summer armistice ended in August 1813, and Austria, having failed to impose a compromise peace at Prague, declared war on 12 August. The allies adopted the Trachenberg plan: avoid battle with Napoleon himself and strike at his subordinates.\n\nSchwarzenberg's Army of Bohemia descended on Dresden, held by Saint-Cyr, while Napoleon was away in Silesia. Napoleon force-marched back and reached the city on 26 August just as the allies attacked; their assaults were repulsed. On 27 August, in heavy rain, Murat's cavalry turned the allied left, which was cut off by a ravine from the rest of the army, and whole Austrian units surrendered. General Moreau, Napoleon's old rival, who was advising Alexander, was mortally wounded by a French cannonball.\n\nThe allies retreated into Bohemia through the mountains, but the pursuit was poorly directed.",
+    "significance": "Dresden was a brilliant victory, but it was undone within days by the defeats of Napoleon's subordinates at Kulm, the Katzbach, Grossbeeren and Dennewitz.",
+    "certainty": "high",
+    "sources": [
+      "Michael V. Leggiere, Napoleon and the Struggle for Germany (2015)",
+      "F. Loraine Petre, Napoleon's Last Campaign in Germany, 1813 (1912)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kulm-1813",
+    "title": "Battle of Kulm",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Nollendorf (Nakléřov)",
+        "lon": 14,
+        "lat": 50.75
+      }
+    ],
+    "kind": "battle",
+    "start": "1813-08-29",
+    "end": "1813-08-30",
+    "datePrecision": "day",
+    "place": "Kulm (Chlumec), near Teplitz, Bohemia",
+    "lon": 13.94,
+    "lat": 50.7,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Russia, Prussia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Vandamme"
+      ],
+      "opponent": [
+        "Ostermann-Tolstoy",
+        "Barclay de Tolly",
+        "Kleist"
+      ]
+    },
+    "strength": {
+      "focus": "c. 32,000",
+      "opponent": "rising to c. 50,000 or more"
+    },
+    "casualties": "French c. 5,000 killed and wounded and c. 7,000–10,000 captured, with some 80 guns; allies c. 10,000–11,000",
+    "outcome": "defeat",
+    "summary": "Pursuing the beaten allies into Bohemia, Vandamme's corps is caught between Russian Guards in front and a Prussian corps descending on its rear, and destroyed.",
+    "detail": "After Dresden Vandamme's I Corps was sent through the mountains to cut the allied retreat at Teplitz. On 29 August the Russian Guard under Ostermann-Tolstoy blocked him near Kulm in a costly defensive fight in which Ostermann lost an arm.\n\nOn 30 August Barclay brought up reinforcements, and Vandamme, expecting French support that never came, found himself outnumbered. Then Kleist's Prussian corps, retreating over the mountains by the Nollendorf road, emerged behind him. The French broke. Vandamme was captured with thousands of his men and most of his guns; some units cut their way through the Prussians, who were as surprised as the French.\n\nKleist was later ennobled as Kleist von Nollendorf.",
+    "significance": "Kulm cancelled the effect of Dresden, restored the morale of the Army of Bohemia and helped hold the coalition together.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of French prisoners is variously reported.",
+    "sources": [
+      "Michael V. Leggiere, Napoleon and the Struggle for Germany (2015)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dennewitz-1813",
+    "title": "Battle of Dennewitz",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1813-09-06",
+    "datePrecision": "day",
+    "place": "Dennewitz, near Jüterbog, Brandenburg",
+    "lon": 13.02,
+    "lat": 51.96,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Prussia, Sweden and Russia (Army of the North)"
+    },
+    "commanders": {
+      "focus": [
+        "Ney",
+        "Oudinot",
+        "Reynier",
+        "Bertrand"
+      ],
+      "opponent": [
+        "Bülow",
+        "Tauentzien",
+        "Bernadotte"
+      ]
+    },
+    "strength": {
+      "focus": "c. 58,000",
+      "opponent": "c. 50,000 engaged"
+    },
+    "casualties": "French c. 20,000–22,000, including many prisoners, and over 50 guns; allies c. 9,000–10,000",
+    "outcome": "defeat",
+    "summary": "Ney's march on Berlin ends in rout at Dennewitz, the last of the defeats inflicted on Napoleon's marshals in the autumn of 1813.",
+    "detail": "Napoleon wanted Berlin, and twice sent armies to take it. On 23 August Oudinot was beaten at Grossbeeren by Bülow's Prussians, many of them Landwehr militia. On 26 August Blücher routed Macdonald on the flooded Katzbach in Silesia, and Macdonald lost many thousands of men in the days that followed.\n\nNey then took command in the north and advanced again. On 6 September, as his corps marched on separate roads, Bülow and Tauentzien attacked them near Dennewitz. Ney, fighting in the front line rather than directing the battle, pulled Oudinot's corps from one flank to the other at the critical moment, and Reynier's Saxons and Bertrand's corps were overwhelmed. Bernadotte's Swedes and Russians arrived only at the end.\n\nThe French fell back to the Elbe in disorder, and some Saxon units began to waver in their loyalty.",
+    "significance": "Dennewitz ended the threat to Berlin, confirmed the value of Prussia's reformed army and shook the Confederation of the Rhine.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses in the retreat after Dennewitz and the Katzbach are hard to separate from battle casualties.",
+    "sources": [
+      "Michael V. Leggiere, Napoleon and Berlin: The Franco-Prussian War in North Germany, 1813 (2002)",
+      "F. Loraine Petre, Napoleon's Last Campaign in Germany, 1813 (1912)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "leipzig-1813",
+    "title": "Battle of Leipzig (Battle of the Nations)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Wachau",
+        "lon": 12.44,
+        "lat": 51.28
+      },
+      {
+        "name": "Möckern",
+        "lon": 12.34,
+        "lat": 51.37
+      },
+      {
+        "name": "Probstheida",
+        "lon": 12.42,
+        "lat": 51.3
+      }
+    ],
+    "kind": "battle",
+    "start": "1813-10-16",
+    "end": "1813-10-19",
+    "datePrecision": "day",
+    "place": "Leipzig, Saxony",
+    "lon": 12.41,
+    "lat": 51.31,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire and its allies",
+      "opponent": "Sixth Coalition: Russia, Prussia, Austria and Sweden"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Murat",
+        "Ney",
+        "Marmont",
+        "Poniatowski"
+      ],
+      "opponent": [
+        "Schwarzenberg",
+        "Blücher",
+        "Bernadotte",
+        "Bennigsen",
+        "Alexander I"
+      ]
+    },
+    "strength": {
+      "focus": "c. 177,000–195,000",
+      "opponent": "c. 300,000–365,000 by the final day"
+    },
+    "casualties": "French c. 38,000 killed and wounded and some 30,000 captured, with many more left in hospitals; allies c. 52,000–54,000",
+    "outcome": "defeat",
+    "summary": "The largest battle in Europe before the twentieth century: the coalition armies converge on Napoleon at Leipzig and drive him from Germany.",
+    "detail": "Four allied armies closed on Leipzig in October 1813. On 16 October Napoleon attacked Schwarzenberg south of the city around Wachau, and Murat's massed cavalry nearly broke the allied centre; to the north Blücher's army, led by Yorck's corps, drove Marmont from Möckern after bitter fighting. On 17 October there was a lull while Bernadotte and Bennigsen arrived with fresh armies.\n\nOn 18 October the allies attacked all around the shrinking French perimeter. Probstheida held, but Saxon and Württemberg troops went over to the allies. Napoleon ordered a retreat westward through the city.\n\nOn 19 October, with the rearguard still fighting in the streets, the only bridge over the Elster was blown up prematurely, trapping thousands. Prince Poniatowski, made a marshal three days before, drowned trying to swim the river; Lauriston and Reynier were captured.",
+    "significance": "Leipzig destroyed French power east of the Rhine; the Confederation of the Rhine collapsed and the war moved towards France itself.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths and losses are estimates that vary by tens of thousands between sources.",
+    "sources": [
+      "Digby Smith, 1813 Leipzig: Napoleon and the Battle of the Nations (2001)",
+      "Michael V. Leggiere, Napoleon and the Struggle for Germany (2015)",
+      "Dominic Lieven, Russia Against Napoleon (2009)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hanau-1813",
+    "title": "Battle of Hanau",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1813-10-30",
+    "end": "1813-10-31",
+    "datePrecision": "day",
+    "place": "Lamboy forest, east of Hanau, Hesse",
+    "lon": 8.95,
+    "lat": 50.14,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Bavaria and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Drouot",
+        "Macdonald"
+      ],
+      "opponent": [
+        "Wrede"
+      ]
+    },
+    "strength": {
+      "focus": "c. 17,000 engaged at first, more arriving",
+      "opponent": "c. 43,000"
+    },
+    "casualties": "French c. 4,500–6,000; Austro-Bavarians c. 9,000–10,000, including prisoners",
+    "outcome": "victory",
+    "summary": "Bavaria, newly changed sides, tries to block the French retreat at Hanau; Napoleon's Guard artillery and cavalry smash through.",
+    "detail": "Bavaria had joined the allies by the Treaty of Ried on 8 October 1813. After Leipzig, General Wrede led an Austro-Bavarian army to Hanau to cut the French line of retreat to the Rhine, believing he faced only a fragment of a broken army.\n\nOn 30 October the French pushed through the Lamboy forest, and General Drouot massed the Guard artillery in a clearing to pound Wrede's line. The Guard cavalry then charged and drove the Bavarian left into the Kinzig river. Fighting continued for the town of Hanau on 31 October, when Wrede himself was badly wounded.\n\nThe road to Frankfurt and Mainz was open. The remnants of the army recrossed the Rhine in early November, where typhus spread through the overcrowded garrison towns and killed many thousands more.",
+    "significance": "Hanau saved what remained of the army from Germany, but it was a rearguard victory at the end of a catastrophic campaign.",
+    "certainty": "high",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Last Campaign in Germany, 1813 (1912)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "san-sebastian-1813",
+    "title": "Storming and burning of San Sebastián",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1813-07",
+    "end": "1813-09-08",
+    "datePrecision": "month",
+    "place": "San Sebastián (Donostia), Guipúzcoa",
+    "lon": -1.98,
+    "lat": 43.32,
+    "locationCertainty": "exact",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Rey"
+      ],
+      "opponent": [
+        "Graham",
+        "Wellington"
+      ]
+    },
+    "strength": {
+      "focus": "c. 3,000 (garrison)",
+      "opponent": "a besieging corps of c. 10,000 or more"
+    },
+    "casualties": "Allies c. 3,500–4,000 killed and wounded over the siege, more than half in the storm of 31 August; much of the French garrison killed, wounded or captured; an unknown number of civilians killed",
+    "outcome": "defeat",
+    "summary": "British and Portuguese troops storm San Sebastián after a bloody siege, then sack the town, which is almost entirely destroyed by fire.",
+    "detail": "After Vitoria the French held out in the coastal fortress of San Sebastián under General Rey. Graham's corps besieged it from July 1813; a first assault on 25 July failed with heavy loss, and the siege was interrupted when Soult counter-attacked through the Pyrenees and was beaten back at Sorauren.\n\nOn 31 August the allies stormed the breach again. The attackers were cut down in large numbers until British guns fired over their heads into the defenders and an explosion among the French ammunition in the breach opened the way. On the same day Spanish troops repulsed Soult's last attempt to relieve the town at San Marcial.\n\nThe victors then sacked San Sebastián for days, killing, raping and plundering the Spanish townspeople. Fire destroyed nearly the whole town. Rey's men held out in the castle on Monte Urgull until 8 September.",
+    "significance": "The fall of San Sebastián opened the way into France, but the sack embittered relations between the British and their Spanish allies.",
+    "certainty": "high",
+    "uncertaintyNote": "How the fire started remains disputed; Spanish accounts blamed the allied troops, some British accounts the French defence. The start date given is the month the formal siege began.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. VII (1930)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Wellington's Dispatches, ed. John Gurwood"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nivelle-1813",
+    "title": "Battle of the Nivelle",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "La Rhune",
+        "lon": -1.64,
+        "lat": 43.31
+      },
+      {
+        "name": "Saint-Pée-sur-Nivelle",
+        "lon": -1.55,
+        "lat": 43.36
+      }
+    ],
+    "kind": "battle",
+    "start": "1813-11-10",
+    "datePrecision": "day",
+    "place": "The Nivelle valley around Sare, Labourd, south-west France",
+    "lon": -1.57,
+    "lat": 43.33,
+    "locationCertainty": "approximate",
+    "phase": "germany",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain, Portugal and Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Soult"
+      ],
+      "opponent": [
+        "Wellington",
+        "Beresford",
+        "Hill"
+      ]
+    },
+    "strength": {
+      "focus": "c. 60,000–62,000",
+      "opponent": "c. 80,000–90,000"
+    },
+    "casualties": "French c. 4,300, including about 1,200 captured; allies c. 2,700–3,400",
+    "outcome": "defeat",
+    "summary": "Wellington breaks Soult's fortified line in the hills above the Nivelle and pushes the war onto French soil.",
+    "detail": "Having crossed the Bidassoa into France in October, Wellington faced a line of redoubts that Soult had spent weeks building across the hills from the coast to the Pyrenees.\n\nOn 10 November the allies attacked along the whole front, with the main weight in the centre around Sare. The Light Division stormed the Petite Rhune in the early morning, and the centre divisions broke through the redoubts behind it. Soult, unable to shift troops fast enough along his extended line, fell back towards Bayonne.\n\nOnce in France, Wellington was anxious to avoid provoking a popular rising. After looting and killing by some Spanish troops, he sent most of his Spanish contingent back across the border and insisted that his army pay for what it took.",
+    "significance": "The Nivelle confirmed that the war would be carried into southern France, where it continued until Napoleon's abdication.",
+    "certainty": "high",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. VII (1930)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "brienne-la-rothiere-1814",
+    "title": "Brienne and La Rothière",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Brienne-le-Château",
+        "lon": 4.53,
+        "lat": 48.39
+      },
+      {
+        "name": "La Rothière",
+        "lon": 4.56,
+        "lat": 48.34
+      }
+    ],
+    "kind": "battle",
+    "start": "1814-01-29",
+    "end": "1814-02-01",
+    "datePrecision": "day",
+    "place": "Brienne-le-Château and La Rothière, Aube",
+    "lon": 4.55,
+    "lat": 48.36,
+    "locationCertainty": "approximate",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Sixth Coalition: Prussia, Russia, Austria, Württemberg and Bavaria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Victor",
+        "Marmont",
+        "Ney"
+      ],
+      "opponent": [
+        "Blücher",
+        "Schwarzenberg",
+        "Sacken"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000–45,000 at La Rothière",
+      "opponent": "c. 80,000–110,000 at La Rothière"
+    },
+    "casualties": "At La Rothière French c. 5,000–6,000 and 50 or more guns; allies c. 6,000",
+    "outcome": "defeat",
+    "summary": "Napoleon opens the campaign in France by striking Blücher at Brienne, but three days later is beaten in the snow at La Rothière.",
+    "detail": "The allied armies crossed the Rhine around the turn of the year 1814 and advanced into France almost unopposed. Napoleon left Paris on 25 January with a small army of veterans and raw conscripts.\n\nOn 29 January he attacked Blücher at Brienne, where he had been a cadet at the military school. The French took the château, and Blücher narrowly escaped capture; that night Cossacks came close to seizing Napoleon too. The Prussians fell back to join Schwarzenberg's forces.\n\nOn 1 February Blücher, reinforced from the Army of Bohemia, attacked the heavily outnumbered French at La Rothière in falling snow. The French held until dark, then retreated to Troyes, having lost many guns. Desertion among the young conscripts rose.",
+    "significance": "La Rothière seemed to spell the end, but the allies then divided their armies, giving Napoleon his chance to strike back.",
+    "certainty": "high",
+    "sources": [
+      "Michael V. Leggiere, The Fall of Napoleon: The Allied Invasion of France, 1813–1814 (2007)",
+      "F. Loraine Petre, Napoleon at Bay, 1814 (1914)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "six-days-campaign-1814",
+    "title": "The Six Days' Campaign",
+    "geometry": "area",
+    "radiusKm": 35,
+    "markers": [
+      {
+        "name": "Champaubert",
+        "lon": 3.78,
+        "lat": 48.88
+      },
+      {
+        "name": "Montmirail",
+        "lon": 3.54,
+        "lat": 48.87
+      },
+      {
+        "name": "Vauchamps",
+        "lon": 3.62,
+        "lat": 48.88
+      }
+    ],
+    "kind": "campaign",
+    "start": "1814-02-10",
+    "end": "1814-02-14",
+    "datePrecision": "day",
+    "place": "Between the Marne and the Petit Morin, Champagne",
+    "lon": 3.62,
+    "lat": 48.92,
+    "locationCertainty": "approximate",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Prussia and Russia (Army of Silesia)"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Marmont",
+        "Mortier",
+        "Grouchy"
+      ],
+      "opponent": [
+        "Blücher",
+        "Yorck",
+        "Sacken",
+        "Olsufiev"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000",
+      "opponent": "c. 50,000–56,000, widely dispersed"
+    },
+    "casualties": "Allies c. 14,000–20,000 killed, wounded and captured; French c. 3,000–4,000",
+    "outcome": "victory",
+    "summary": "In five days Napoleon falls on Blücher's strung-out army and defeats it in four battles: Champaubert, Montmirail, Château-Thierry and Vauchamps.",
+    "detail": "After La Rothière, Blücher advanced on Paris along the Marne with his corps spread out over many kilometres, while Schwarzenberg moved slowly along the Seine. Napoleon marched north across bad roads and struck into the gap.\n\nOn 10 February he destroyed Olsufiev's Russian corps at Champaubert, capturing its commander. On 11 February he turned west and beat Sacken and Yorck at Montmirail, and on 12 February drove them back across the Marne at Château-Thierry. On 14 February he turned on Blücher himself at Vauchamps, where Grouchy's cavalry fell on the retreating Prussian and Russian squares.\n\nNapoleon then swung south and checked Schwarzenberg at Montereau on 18 February. The campaign showed his skill undimmed, and it convinced him that he could still win better terms than those offered at the Congress of Châtillon.",
+    "significance": "The Six Days are often counted among Napoleon's finest operations, but they could not change the balance of numbers and led him to reject a negotiated peace.",
+    "certainty": "high",
+    "uncertaintyNote": "Allied losses are variously estimated; the campaign's name is conventional, since the four actions fell within five days.",
+    "sources": [
+      "Michael V. Leggiere, The Fall of Napoleon: The Allied Invasion of France, 1813–1814 (2007)",
+      "F. Loraine Petre, Napoleon at Bay, 1814 (1914)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "laon-1814",
+    "title": "Battle of Laon",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Craonne",
+        "lon": 3.79,
+        "lat": 49.44
+      },
+      {
+        "name": "Athies-sous-Laon",
+        "lon": 3.68,
+        "lat": 49.57
+      }
+    ],
+    "kind": "battle",
+    "start": "1814-03-09",
+    "end": "1814-03-10",
+    "datePrecision": "day",
+    "place": "Laon, Aisne",
+    "lon": 3.62,
+    "lat": 49.56,
+    "locationCertainty": "exact",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Prussia and Russia (Army of Silesia)"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Marmont",
+        "Ney"
+      ],
+      "opponent": [
+        "Blücher",
+        "Gneisenau",
+        "Yorck",
+        "Kleist"
+      ]
+    },
+    "strength": {
+      "focus": "c. 37,000",
+      "opponent": "c. 85,000–100,000"
+    },
+    "casualties": "French c. 6,000 and many guns; allies c. 4,000",
+    "outcome": "defeat",
+    "summary": "Napoleon attacks Blücher's army on the hill of Laon; a night assault shatters Marmont's corps and the French fall back.",
+    "detail": "Blücher, reinforced by the corps of Bülow and Winzingerode, took up a strong position on and around the hilltop town of Laon. Napoleon had already fought a costly battle against the Russians at Craonne on 7 March, and he now attacked with far fewer men than he believed he faced.\n\nOn 9 March the French attacks from the south-west made little progress, while Marmont's corps came up separately on the Reims road to the east. That night Yorck and Kleist fell on Marmont's bivouacs at Athies and routed his corps, capturing much of its artillery. On 10 March Napoleon renewed his attacks before withdrawing to Soissons.\n\nThe allies did not exploit their success fully: Blücher was ill, and Gneisenau, acting in his place, was cautious. Napoleon recovered enough to retake Reims on 13 March.",
+    "significance": "Laon ended Napoleon's hopes of destroying Blücher's army and left him with too few men to hold back the allies for long.",
+    "certainty": "high",
+    "sources": [
+      "Michael V. Leggiere, The Fall of Napoleon: The Allied Invasion of France, 1813–1814 (2007)",
+      "F. Loraine Petre, Napoleon at Bay, 1814 (1914)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "arcis-sur-aube-1814",
+    "title": "Battle of Arcis-sur-Aube",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1814-03-20",
+    "end": "1814-03-21",
+    "datePrecision": "day",
+    "place": "Arcis-sur-Aube, Aube",
+    "lon": 4.14,
+    "lat": 48.53,
+    "locationCertainty": "exact",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Austria, Russia, Bavaria and Württemberg (Army of Bohemia)"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Sébastiani"
+      ],
+      "opponent": [
+        "Schwarzenberg",
+        "Wrede"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000 rising to c. 28,000",
+      "opponent": "c. 80,000–100,000"
+    },
+    "casualties": "French c. 3,000–4,000; allies c. 4,000",
+    "outcome": "defeat",
+    "summary": "Expecting to strike a retreating rearguard, Napoleon finds himself facing Schwarzenberg's whole army and must withdraw; he then gambles on a march east.",
+    "detail": "Napoleon moved south to strike at Schwarzenberg's communications, believing the Army of Bohemia was falling back. At Arcis on 20 March he found it concentrating against him in overwhelming strength. The French held the town through the day; Napoleon exposed himself recklessly, and at one point a shell exploded beneath his horse, killing it, while he was unhurt.\n\nOn 21 March, seeing the full size of the allied army, he withdrew across the Aube. He then marched east towards Saint-Dizier, intending to draw the allies after him by threatening their supply lines and to gather the garrisons of the eastern fortresses.\n\nThe allies instead captured a letter explaining his plan and, on 24 March, decided to ignore him and march on Paris.",
+    "significance": "Arcis was Napoleon's last battle of the 1814 campaign against a main allied army; his eastward gamble left the road to Paris open.",
+    "certainty": "high",
+    "sources": [
+      "Michael V. Leggiere, The Fall of Napoleon: The Allied Invasion of France, 1813–1814 (2007)",
+      "F. Loraine Petre, Napoleon at Bay, 1814 (1914)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "capitulation-paris-1814",
+    "title": "Battle and capitulation of Paris",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Montmartre",
+        "lon": 2.34,
+        "lat": 48.89
+      },
+      {
+        "name": "Belleville",
+        "lon": 2.38,
+        "lat": 48.87
+      }
+    ],
+    "kind": "treaty",
+    "start": "1814-03-30",
+    "end": "1814-03-31",
+    "datePrecision": "day",
+    "place": "Paris",
+    "lon": 2.36,
+    "lat": 48.87,
+    "locationCertainty": "exact",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Sixth Coalition: Russia, Prussia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Marmont",
+        "Mortier",
+        "Joseph Bonaparte"
+      ],
+      "opponent": [
+        "Schwarzenberg",
+        "Blücher",
+        "Barclay de Tolly",
+        "Alexander I"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000 including National Guards",
+      "opponent": "c. 100,000"
+    },
+    "casualties": "French c. 4,000–7,000; allies c. 8,000",
+    "outcome": "negotiated",
+    "summary": "After a day of fighting on the heights of Belleville and Montmartre, Marmont and Mortier sign the capitulation of Paris; the allied sovereigns enter the capital.",
+    "detail": "Marching on Paris, the allies crushed Marmont and Mortier and a force of National Guards at Fère-Champenoise on 25 March. The two marshals fell back to defend the capital. The Empress Marie-Louise and the King of Rome left for the Loire on 29 March, and Joseph Bonaparte, nominally in charge, soon followed.\n\nOn 30 March the allies attacked the heights on the north and east of the city: the Romainville plateau, Belleville, Pantin and Montmartre. Regulars, National Guards and students of the École Polytechnique fought hard, but by late afternoon the position was hopeless. In the early hours of 31 March the marshals signed a capitulation allowing their troops to withdraw.\n\nLater that day Alexander I and Frederick William III rode into Paris at the head of their troops. Talleyrand formed a provisional government, and on 2 April the Senate declared Napoleon deposed.",
+    "significance": "The fall of Paris, the first foreign occupation of the city since the fifteenth century, decided the war: without his capital Napoleon could not go on.",
+    "certainty": "high",
+    "uncertaintyNote": "French casualty estimates vary, partly because National Guard losses were poorly recorded.",
+    "sources": [
+      "Michael V. Leggiere, The Fall of Napoleon: The Allied Invasion of France, 1813–1814 (2007)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "toulouse-1814",
+    "title": "Battle of Toulouse",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1814-04-10",
+    "datePrecision": "day",
+    "place": "Heights of Calvinet (Mont Rave), east of Toulouse",
+    "lon": 1.46,
+    "lat": 43.6,
+    "locationCertainty": "approximate",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain, Portugal and Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Soult"
+      ],
+      "opponent": [
+        "Wellington",
+        "Beresford",
+        "Picton",
+        "Freire"
+      ]
+    },
+    "strength": {
+      "focus": "c. 42,000",
+      "opponent": "c. 49,000–50,000"
+    },
+    "casualties": "French c. 3,200; allies c. 4,500–4,600, many of them Spanish",
+    "outcome": "defeat",
+    "summary": "Wellington storms the heights east of Toulouse and forces Soult to abandon the city, in a battle fought after Napoleon had already abdicated.",
+    "detail": "After his defeat at Orthez on 27 February, Soult fell back eastwards to Toulouse, while Bordeaux declared for the Bourbons. At Toulouse he fortified the city and the ridge of Calvinet, or Mont Rave, which overlooked it from the east.\n\nOn 10 April, Easter Sunday, Wellington attacked. A Spanish assault on the northern end of the ridge was repulsed with heavy loss, and Picton turned a feint against the canal bridges into a costly attack. The decisive move was made by Beresford's two divisions, which marched along the marshy valley of the Ers under fire before wheeling to storm the ridge and take the redoubts.\n\nSoult evacuated Toulouse on the night of 11–12 April and Wellington entered the city on 12 April. That evening official news arrived that Napoleon had abdicated; the lives lost had been spent in a war already over.",
+    "significance": "Toulouse ended the Peninsular campaign and the war in southern France, a bitter postscript to six years of struggle.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether Soult knew of the abdication before the battle was later disputed; the balance of evidence is that neither commander had official news.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. VII (1930)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Wellington's Dispatches, ed. John Gurwood"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "abdication-fontainebleau-1814",
+    "title": "First abdication at Fontainebleau",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1814-04-04",
+    "end": "1814-04-06",
+    "datePrecision": "day",
+    "place": "Palace of Fontainebleau, Seine-et-Marne",
+    "lon": 2.7,
+    "lat": 48.4,
+    "locationCertainty": "exact",
+    "phase": "fall",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Sixth Coalition and the French Senate"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Macdonald",
+        "Caulaincourt"
+      ],
+      "opponent": [
+        "Alexander I",
+        "Talleyrand"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "His marshals refuse to march on Paris and Marmont's corps goes over to the enemy; Napoleon abdicates, first in favour of his son, then unconditionally.",
+    "detail": "Napoleon reached Fontainebleau as Paris fell and gathered what troops he could, intending to attack the allies in the capital. On 4 April his senior marshals, led by Ney, told him the army would not follow. He signed an abdication in favour of his son, with Marie-Louise as regent, and sent Caulaincourt, Ney and Macdonald to present it to Alexander.\n\nThat night Marmont's corps, under his subordinates, marched into the allied lines at Essonne by prior arrangement with the enemy, leaving Napoleon without cover. The allies now demanded an abdication without conditions, and on 6 April Napoleon signed it. The Senate had already called Louis XVIII to the throne.\n\nOn the night of 12–13 April Napoleon took poison, but it failed to kill him. On 20 April he took leave of the Old Guard in the courtyard of the palace and set out for exile.",
+    "significance": "The abdication ended the First Empire and restored the Bourbons after more than twenty years.",
+    "certainty": "high",
+    "uncertaintyNote": "Marmont's precise role in ordering his corps' move remains disputed; the episode made his title, Duke of Ragusa, a byword for treason in French.",
+    "sources": [
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)",
+      "Munro Price, Napoleon: The End of Glory (2014)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "treaty-fontainebleau-elba-1814",
+    "title": "Treaty of Fontainebleau and exile to Elba",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Fontainebleau",
+        "lon": 2.7,
+        "lat": 48.4
+      },
+      {
+        "name": "Fréjus",
+        "lon": 6.74,
+        "lat": 43.43
+      }
+    ],
+    "kind": "treaty",
+    "start": "1814-04-11",
+    "end": "1814-05-04",
+    "datePrecision": "day",
+    "place": "Portoferraio, Elba",
+    "lon": 10.32,
+    "lat": 42.81,
+    "locationCertainty": "exact",
+    "phase": "fall",
+    "sides": {
+      "focus": "Napoleon",
+      "opponent": "Austria, Russia and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Caulaincourt",
+        "Macdonald",
+        "Ney"
+      ],
+      "opponent": [
+        "Alexander I",
+        "Metternich",
+        "Hardenberg"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "The allies grant Napoleon the island of Elba as a sovereign principality and the title of Emperor; he lands at Portoferraio on 4 May.",
+    "detail": "The Treaty of Fontainebleau, agreed on 11 April 1814 by the plenipotentiaries of Austria, Russia and Prussia, gave Napoleon sovereignty over Elba for life, kept his imperial title, and promised him an annual income of two million francs from the French government. Marie-Louise received the duchies of Parma, Piacenza and Guastalla. Britain acceded to parts of the treaty but did not sign it.\n\nNapoleon left Fontainebleau on 20 April escorted by allied commissioners. In Provence hostile crowds threatened him, and he travelled part of the way in disguise. He sailed from Fréjus in the British frigate Undaunted and landed at Portoferraio on 4 May, accompanied by a small guard.\n\nOn Elba he reorganised the administration, roads and iron mines. Marie-Louise and his son never joined him, and the French pension was not paid.",
+    "significance": "The settlement left Napoleon a sovereign, with an army of sorts, within a few days' sail of France, a risk that became clear in February 1815.",
+    "certainty": "high",
+    "sources": [
+      "Treaty of Fontainebleau (11 April 1814), text",
+      "Neil Campbell, Napoleon at Fontainebleau and Elba (1869)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "congress-vienna-1814",
+    "title": "Congress of Vienna",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1814-09",
+    "end": "1815-06-09",
+    "datePrecision": "month",
+    "place": "Vienna",
+    "lon": 16.37,
+    "lat": 48.21,
+    "locationCertainty": "exact",
+    "phase": "fall",
+    "sides": {
+      "focus": "France (Bourbon monarchy)",
+      "opponent": "Austria, Britain, Prussia and Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Talleyrand"
+      ],
+      "opponent": [
+        "Metternich",
+        "Castlereagh",
+        "Alexander I",
+        "Hardenberg",
+        "Wellington"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "The monarchs and ministers of Europe gather in Vienna to redraw the map after Napoleon; the Final Act is signed nine days before Waterloo.",
+    "detail": "The First Peace of Paris of 30 May 1814 had settled France's borders and left the remaining questions to a congress. From September 1814 statesmen gathered in Vienna amid a season of balls and entertainments. The real business was done by the great powers in small committees.\n\nThe gravest dispute was over Poland and Saxony: Russia wanted most of the Duchy of Warsaw and Prussia all of Saxony. Talleyrand exploited the division to bring defeated France back into the concert of powers, and on 3 January 1815 Britain, Austria and France signed a secret defensive alliance. A compromise followed: Russia took most of Poland, Prussia two-fifths of Saxony and lands on the Rhine.\n\nWhen Napoleon escaped from Elba the powers declared him an outlaw on 13 March and renewed their alliance. The Final Act of 9 June 1815 created a German Confederation and a United Kingdom of the Netherlands, and condemned the slave trade.",
+    "significance": "The Vienna settlement shaped the European order for decades and inaugurated the Concert of Europe, managing great-power relations through conferences.",
+    "certainty": "high",
+    "uncertaintyNote": "The congress never formally opened in plenary session; the start date given is when the principal delegations assembled.",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "Adam Zamoyski, Rites of Peace: The Fall of Napoleon and the Congress of Vienna (2007)",
+      "Mark Jarrett, The Congress of Vienna and its Legacy (2013)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "return-from-elba-1815",
+    "title": "Return from Elba and march on Paris",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Laffrey",
+        "lon": 5.77,
+        "lat": 45.01
+      },
+      {
+        "name": "Grenoble",
+        "lon": 5.72,
+        "lat": 45.19
+      },
+      {
+        "name": "Lyon",
+        "lon": 4.84,
+        "lat": 45.76
+      }
+    ],
+    "kind": "campaign",
+    "start": "1815-02-26",
+    "end": "1815-03-20",
+    "datePrecision": "day",
+    "place": "Golfe-Juan, Provence, to Paris",
+    "lon": 7.08,
+    "lat": 43.57,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Napoleon",
+      "opponent": "Kingdom of France (Louis XVIII)"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Cambronne",
+        "Bertrand",
+        "Drouot"
+      ],
+      "opponent": [
+        "Louis XVIII",
+        "Ney",
+        "Comte d'Artois"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1,000 on landing",
+      "opponent": "the royal army, which went over to Napoleon"
+    },
+    "outcome": "victory",
+    "summary": "Napoleon escapes from Elba, lands at Golfe-Juan with about a thousand men and wins back France without a battle as the troops sent to stop him go over to him.",
+    "detail": "Discontent with the restored Bourbons was widespread, especially among soldiers and officers on half-pay, and Napoleon heard rumours that the allies might move him further away. On 26 February 1815 he sailed from Portoferraio with his small guard and landed at Golfe-Juan on 1 March.\n\nAvoiding royalist Provence, he took the mountain roads through Grasse, Digne and Gap. On 7 March, at Laffrey south of Grenoble, a battalion of the 5th Line barred the way. Napoleon walked forward alone and offered himself to their muskets; the soldiers broke ranks to join him. Colonel Labédoyère brought over the 7th Line, and Grenoble opened its gates that night. Lyon followed on 10 March.\n\nMarshal Ney, sent against him, declared for Napoleon on 14 March. Louis XVIII left Paris for Ghent on the night of 19–20 March, and Napoleon entered the Tuileries on the evening of 20 March.",
+    "significance": "The 'flight of the eagle' restored Napoleon without bloodshed but ensured a new war against a Europe that had declared him an outlaw.",
+    "certainty": "high",
+    "uncertaintyNote": "Words attributed to Napoleon at Laffrey exist in several versions and are not quoted here.",
+    "sources": [
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)",
+      "David G. Chandler, Waterloo: The Hundred Days (1980)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tolentino-1815",
+    "title": "Battle of Tolentino",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1815-05-02",
+    "end": "1815-05-03",
+    "datePrecision": "day",
+    "place": "Tolentino, the Marche (Papal States)",
+    "lon": 13.28,
+    "lat": 43.21,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Kingdom of Naples under Murat",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Murat"
+      ],
+      "opponent": [
+        "Bianchi",
+        "Neipperg"
+      ]
+    },
+    "strength": {
+      "focus": "c. 25,000–30,000",
+      "opponent": "c. 11,000–12,000"
+    },
+    "casualties": "Neapolitans c. 1,700–4,000 killed and wounded, with many more captured or deserting in the retreat; Austrians c. 700–800",
+    "outcome": "defeat",
+    "summary": "Joachim Murat, King of Naples, rises against Austria in the name of Italian independence and is beaten at Tolentino; his army dissolves and he loses his throne.",
+    "detail": "Murat had saved his throne in 1814 by joining the allies, but he knew the Congress of Vienna was likely to restore the Bourbon king of Naples. When Napoleon returned, Murat struck first. On 30 March 1815 he issued the Rimini proclamation calling Italians to unite for independence, and advanced north to the Po, where his offensive stalled.\n\nFalling back, he turned on Bianchi's Austrian corps near Tolentino before it could join Neipperg's. On 2 and 3 May his Neapolitan columns attacked the Austrian positions on the heights and failed to break them. News that Neipperg threatened his line of retreat led him to withdraw, and the army fell apart in a disorderly flight.\n\nBy the Convention of Casalanza on 20 May Naples was surrendered to the Austrians and the Bourbon Ferdinand restored. Murat fled to France, where Napoleon refused his services.",
+    "significance": "Murat's premature war gave the allies a pretext and deprived Napoleon of any Italian diversion; a rash landing in Calabria later ended with Murat's execution in October 1815.",
+    "certainty": "medium",
+    "uncertaintyNote": "Strengths and losses are poorly documented; Murat acted on his own account rather than in concert with Napoleon.",
+    "sources": [
+      "John A. Davis, Naples and Napoleon: Southern Italy and the European Revolutions, 1780–1860 (2006)",
+      "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "ligny-1815",
+    "title": "Battle of Ligny",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1815-06-16",
+    "datePrecision": "day",
+    "place": "Ligny, near Fleurus, United Netherlands (Belgium)",
+    "lon": 4.58,
+    "lat": 50.51,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "French Empire (Armée du Nord)",
+      "opponent": "Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Grouchy",
+        "Vandamme",
+        "Gérard"
+      ],
+      "opponent": [
+        "Blücher",
+        "Gneisenau",
+        "Zieten"
+      ]
+    },
+    "strength": {
+      "focus": "c. 68,000–77,000",
+      "opponent": "c. 83,000–84,000"
+    },
+    "casualties": "French c. 11,000–12,000; Prussians c. 16,000–18,000, with a further 8,000–10,000 dispersed or deserting",
+    "outcome": "victory",
+    "summary": "Napoleon beats Blücher's Prussians in his last victory, but the defeated army retreats north towards Wellington rather than east towards home.",
+    "detail": "Napoleon crossed the Sambre at Charleroi on 15 June, aiming to strike between Wellington's army and Blücher's before they could unite. On 16 June, while Ney engaged Wellington's troops at Quatre Bras, Napoleon attacked three Prussian corps holding a line of villages along the Ligny brook.\n\nThe fighting for Ligny and Saint-Amand was ferocious, with houses and churchyards taken and retaken. D'Erlon's corps, which might have fallen on the Prussian flank, marched and countermarched between the two battlefields and fought at neither. In the evening the Imperial Guard broke the Prussian centre at Ligny. Blücher, leading a cavalry charge, was trapped under his fallen horse and narrowly escaped capture.\n\nWith Blücher missing, Gneisenau ordered a retreat north towards Wavre, keeping the Prussian army within reach of Wellington. Napoleon did not send Grouchy in pursuit until the next day.",
+    "significance": "Ligny was a real but incomplete victory; the Prussian retreat towards Wavre made possible their intervention at Waterloo two days later.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether Gneisenau chose Wavre to support Wellington or simply to stay on his line of communications has been debated.",
+    "sources": [
+      "Peter Hofschröer, 1815: The Waterloo Campaign, vol. I (1998)",
+      "David G. Chandler, Waterloo: The Hundred Days (1980)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "quatre-bras-1815",
+    "title": "Battle of Quatre Bras",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1815-06-16",
+    "datePrecision": "day",
+    "place": "Quatre Bras crossroads, near Genappe, United Netherlands (Belgium)",
+    "lon": 4.45,
+    "lat": 50.57,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "French Empire (Armée du Nord)",
+      "opponent": "Britain, the Netherlands, Brunswick, Hanover and Nassau"
+    },
+    "commanders": {
+      "focus": [
+        "Ney",
+        "Reille",
+        "Kellermann"
+      ],
+      "opponent": [
+        "Wellington",
+        "Prince of Orange",
+        "Picton",
+        "Duke of Brunswick"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000–22,000",
+      "opponent": "c. 8,000 at first, rising to c. 36,000 by evening"
+    },
+    "casualties": "French c. 4,000–4,300; allies c. 4,800–5,400",
+    "outcome": "inconclusive",
+    "summary": "Ney's delayed attack on the Quatre Bras crossroads is held off by Wellington's army as it arrives piecemeal through the day.",
+    "detail": "Quatre Bras controlled the road linking Wellington's army to Blücher's. On 15 June Netherlands troops under Prince Bernhard of Saxe-Weimar occupied it on their own initiative, and on 16 June Ney, cautious and short of clear orders, did not attack in strength until early afternoon.\n\nBy then Wellington's reinforcements were marching in. Picton's division, the Brunswickers and later Alten's division and the Guards came up in turn and fought in the rye fields and the Bossu wood. The Duke of Brunswick was killed leading his men. Kellermann's cuirassiers broke the 69th Foot and captured a colour, but were driven off by artillery and musketry.\n\nBy evening the allies held the crossroads. Hearing next morning of Blücher's defeat at Ligny, Wellington withdrew northwards to the ridge of Mont-Saint-Jean.",
+    "significance": "Quatre Bras kept the allied armies from being separated and let Wellington choose his ground at Waterloo.",
+    "certainty": "high",
+    "sources": [
+      "David G. Chandler, Waterloo: The Hundred Days (1980)",
+      "Andrew W. Field, Waterloo: The French Perspective (2012)",
+      "Wellington's Dispatches, ed. John Gurwood"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "waterloo-1815",
+    "title": "Battle of Waterloo",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Hougoumont",
+        "lon": 4.39,
+        "lat": 50.67
+      },
+      {
+        "name": "La Haye Sainte",
+        "lon": 4.41,
+        "lat": 50.68
+      },
+      {
+        "name": "Plancenoit",
+        "lon": 4.43,
+        "lat": 50.66
+      }
+    ],
+    "kind": "battle",
+    "start": "1815-06-18",
+    "datePrecision": "day",
+    "place": "Mont-Saint-Jean, south of Waterloo, United Netherlands (Belgium)",
+    "lon": 4.41,
+    "lat": 50.68,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "French Empire (Armée du Nord)",
+      "opponent": "Seventh Coalition: Britain, the Netherlands, Hanover, Brunswick, Nassau and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "d'Erlon",
+        "Reille",
+        "Lobau"
+      ],
+      "opponent": [
+        "Wellington",
+        "Blücher",
+        "Bülow",
+        "Zieten",
+        "Uxbridge"
+      ]
+    },
+    "strength": {
+      "focus": "c. 72,000–73,000, c. 250 guns",
+      "opponent": "Wellington c. 68,000, c. 150 guns; Prussians c. 50,000 engaged by evening"
+    },
+    "casualties": "French c. 25,000 killed and wounded and c. 8,000–9,000 captured; Wellington's army c. 15,000–17,000; Prussians c. 7,000",
+    "outcome": "defeat",
+    "summary": "Napoleon's last battle: his attacks break against Wellington's ridge until the Prussians arrive on his flank and the Guard is repulsed, turning defeat into rout.",
+    "detail": "Rain delayed the French attack until late morning. An assault on the farm of Hougoumont grew into a day-long struggle that absorbed thousands of men. In the early afternoon d'Erlon's corps attacked Wellington's left in massed columns, was checked, and was then ridden down by the British heavy cavalry, which pressed on too far and was itself cut up. Picton was killed.\n\nThrough the late afternoon Ney led repeated cavalry charges against the allied squares without infantry support. By then Bülow's Prussian corps was attacking at Plancenoit on the French right, drawing in Lobau's corps and the Young Guard. Around 6.30 p.m. La Haye Sainte fell when its King's German Legion garrison ran out of ammunition, and the allied centre was badly shaken.\n\nNapoleon's final throw, an attack by battalions of the Imperial Guard, was repulsed by British Foot Guards and Colborne's 52nd. With Zieten's Prussians arriving on the allied left, the French army broke. Wellington and Blücher met near La Belle Alliance that night.",
+    "significance": "Waterloo ended the Hundred Days and Napoleon's career, and closed more than two decades of war between France and Europe.",
+    "certainty": "high",
+    "uncertaintyNote": "Timings of the main phases, strengths of each army and the extent of the Prussian contribution have long been debated between British and German historians.",
+    "sources": [
+      "David G. Chandler, Waterloo: The Hundred Days (1980)",
+      "Peter Hofschröer, 1815: The Waterloo Campaign, vol. II (1999)",
+      "Alessandro Barbero, The Battle: A New History of Waterloo (2005)",
+      "Wellington's Waterloo dispatch (19 June 1815)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "second-abdication-1815",
+    "title": "Second abdication",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1815-06-22",
+    "datePrecision": "day",
+    "place": "Élysée Palace, Paris",
+    "lon": 2.32,
+    "lat": 48.87,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "French Chambers and the Seventh Coalition"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Lucien Bonaparte"
+      ],
+      "opponent": [
+        "Fouché",
+        "Lafayette"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Four days after Waterloo, faced with a hostile parliament, Napoleon abdicates for the second time in favour of his son.",
+    "detail": "Napoleon reached Paris on 21 June, hoping to raise new forces and rule by emergency powers. The Chamber of Representatives, stirred by Lafayette and quietly managed by Fouché, declared itself in permanent session and made clear that it would depose him if he did not go.\n\nLucien Bonaparte urged his brother to dissolve the chamber by force, but Napoleon declined. On 22 June he signed an abdication in favour of his son, proclaimed as Napoleon II by his supporters, though the boy was in Austria and never reigned. A provisional government under Fouché took power and opened negotiations with the allies.\n\nNapoleon withdrew to Malmaison, Josephine's former house, on 25 June and left for the coast on 29 June as Prussian cavalry approached. Paris capitulated on 3 July, and Louis XVIII re-entered his capital on 8 July.",
+    "significance": "The second abdication ended the Hundred Days and Napoleon's reign for good, and opened the way for the second Bourbon restoration.",
+    "certainty": "high",
+    "sources": [
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)",
+      "Munro Price, Napoleon: The End of Glory (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bellerophon-1815",
+    "title": "Surrender to HMS Bellerophon",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Île d'Aix",
+        "lon": -1.17,
+        "lat": 46.01
+      },
+      {
+        "name": "Rochefort",
+        "lon": -0.96,
+        "lat": 45.94
+      }
+    ],
+    "kind": "political",
+    "start": "1815-07-15",
+    "datePrecision": "day",
+    "place": "Basque Roads, off Île d'Aix, near Rochefort",
+    "lon": -1.22,
+    "lat": 46.04,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Napoleon",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Bertrand",
+        "Las Cases"
+      ],
+      "opponent": [
+        "Frederick Maitland"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Unable to slip through the British blockade to America, Napoleon gives himself up to Captain Maitland of HMS Bellerophon.",
+    "detail": "Napoleon reached Rochefort on 3 July hoping to sail for the United States in two French frigates, but the Royal Navy was watching the coast, and HMS Bellerophon under Captain Frederick Maitland lay off the Basque Roads. Plans to escape by small boat or merchant ship came to nothing, and on 12 July Napoleon crossed to the Île d'Aix.\n\nHis envoys negotiated with Maitland, who agreed to receive him and carry him to England but gave no promises about his future. Napoleon wrote to the Prince Regent asking, like Themistocles, for the hospitality of the British people. On the morning of 15 July he boarded the Bellerophon.\n\nThe ship reached Torbay on 24 July and then Plymouth, where crowds of sightseers rowed out to glimpse him. The British government decided on exile to St Helena, and on 7 August he was transferred to HMS Northumberland for the voyage.",
+    "significance": "The surrender ended Napoleon's political life; he died on St Helena in 1821, while the Second Treaty of Paris of November 1815 imposed harsher terms on France.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether Maitland implied that Napoleon would be allowed to live in England was disputed afterwards by Napoleon's companions.",
+    "sources": [
+      "Frederick Lewis Maitland, Narrative of the Surrender of Buonaparte and of his Residence on Board HMS Bellerophon (1826)",
+      "David Cordingly, Billy Ruffian: The Bellerophon and the Downfall of Napoleon (2003)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 2
+  }
+]

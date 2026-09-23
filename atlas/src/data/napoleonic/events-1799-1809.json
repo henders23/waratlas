@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "brumaire-1799",
+    "title": "Coup of 18 Brumaire",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1799-11-09",
+    "end": "1799-11-10",
+    "datePrecision": "day",
+    "place": "Paris and the Château de Saint-Cloud",
+    "lon": 2.215,
+    "lat": 48.84,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "Bonaparte and the Brumaire conspirators",
+      "opponent": "The Directory and the Council of Five Hundred"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Sieyès",
+        "Lucien Bonaparte",
+        "Murat"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "At Saint-Cloud, Bonaparte and Sieyès overturn the Directory. After a near-fiasco before the Five Hundred, grenadiers clear the hall and three provisional consuls take power.",
+    "detail": "Back from Egypt in October, Bonaparte joined a plot already laid by the Director Sieyès to replace the discredited Directory with a stronger executive. On 18 Brumaire (9 November) the Council of Elders, citing an alleged Jacobin conspiracy, moved both legislative chambers to the palace of Saint-Cloud outside Paris and gave Bonaparte command of the troops around the capital. The Directors resigned or were held under guard.\n\nThe next day nearly went wrong. Bonaparte's halting address to the Elders fell flat, and when he entered the Council of Five Hundred he was jostled by deputies shouting for him to be outlawed. His brother Lucien, the council's president, rallied the guard, and grenadiers led by Murat and Leclerc cleared the orangery at bayonet point. That night a rump of compliant deputies named Bonaparte, Sieyès and Roger Ducos provisional consuls.\n\nThe Constitution of the Year VIII, drafted within weeks and endorsed by a plebiscite whose returns Lucien inflated, made Bonaparte First Consul and the dominant power in the state.",
+    "significance": "It ended the Directory and began fifteen years of personal rule: from now on the Revolution's wars would be directed by one soldier-statesman.",
+    "certainty": "high",
+    "sources": [
+      "Malcolm Crook, Napoleon Comes to Power: Democracy and Dictatorship in Revolutionary France, 1795–1804 (1998)",
+      "Philip Dwyer, Napoleon: The Path to Power, 1769–1799 (2007)",
+      "Isser Woloch, Napoleon and His Collaborators: The Making of a Dictatorship (2001)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "siege-of-genoa-1800",
+    "title": "Siege of Genoa",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1800-04-20",
+    "end": "1800-06-04",
+    "datePrecision": "day",
+    "place": "Genoa, Ligurian Republic (Italy)",
+    "lon": 8.93,
+    "lat": 44.41,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Masséna",
+        "Soult"
+      ],
+      "opponent": [
+        "Ott",
+        "Melas",
+        "Keith"
+      ]
+    },
+    "strength": {
+      "focus": "c. 12,000–15,000 in the city",
+      "opponent": "c. 24,000 besiegers, with a British squadron offshore"
+    },
+    "outcome": "negotiated",
+    "summary": "Masséna, cut off in Genoa by Austrian armies and a British blockade, holds out for weeks as the city starves, pinning down forces Bonaparte needs to be elsewhere.",
+    "detail": "In April 1800 the Austrian commander Melas split the French Army of Italy along the Ligurian coast, driving Suchet west towards the Var and shutting Masséna into Genoa. General Ott's troops closed the landward side while Admiral Keith's squadron blockaded the port and bombarded it from the sea.\n\nMasséna defended aggressively, launching repeated sorties into the surrounding hills, in one of which Soult was wounded and captured. Food ran out long before courage did. Soldiers ate horses, dogs and bread made of bran and cocoa, while Genoese civilians died of hunger and typhus in large numbers; Austrian prisoners held on hulks in the harbour starved too.\n\nOn 4 June Masséna agreed terms. Pointedly avoiding the word capitulation, the convention let the garrison march out with its arms to rejoin French forces. By then Bonaparte's Army of the Reserve was already across the Alps and behind Melas.",
+    "significance": "Genoa's resistance held Ott's corps in Liguria while Bonaparte descended into Lombardy, and its surrender drew Austrian troops away just before Marengo.",
+    "certainty": "high",
+    "uncertaintyNote": "The start of the siege is dated variously from Melas's offensive of 6 April to the completion of the investment around 20 April. Civilian deaths are not reliably counted; estimates run to many thousands.",
+    "sources": [
+      "James R. Arnold, Marengo and Hohenlinden: Napoleon's Rise to Power (2005)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "great-st-bernard-1800",
+    "title": "Crossing of the Great St Bernard",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Fort Bard",
+        "lon": 7.744,
+        "lat": 45.608
+      }
+    ],
+    "kind": "campaign",
+    "start": "1800-05-15",
+    "end": "1800-05-20",
+    "datePrecision": "day",
+    "place": "Great St Bernard Pass, Valais–Aosta Valley",
+    "lon": 7.171,
+    "lat": 45.869,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Army of the Reserve",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Berthier",
+        "Lannes"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000 by this pass"
+    },
+    "outcome": "n/a",
+    "summary": "Bonaparte's Army of the Reserve hauls its guns over the snowbound Great St Bernard Pass into Italy, appearing in the rear of the Austrian army besieging Genoa.",
+    "detail": "Rather than march to relieve Genoa directly, Bonaparte assembled a new Army of the Reserve around Dijon and Geneva and sent it over the Alps. Between 15 and 20 May the main body, led by Lannes's advance guard, climbed from Martigny over the Great St Bernard, some 2,470 metres high, while smaller columns used the Little St Bernard, Mont Cenis, Simplon and St Gotthard passes.\n\nGuns were dismounted and dragged in hollowed-out tree trunks by soldiers and local peasants; the monks of the hospice fed the columns as they passed. Bonaparte himself crossed on 20 May, riding a mule rather than the rearing charger of David's painting.\n\nThe descent was nearly blocked by the small Austrian garrison of Fort Bard in the Aosta valley, which held out until 1 June. Infantry filed past on mountain paths and guns were slipped by at night along the muffled road, and the army pushed on to Milan.",
+    "significance": "The crossing placed a French army across Melas's communications, turning the whole Austrian position in northern Italy and setting up the decisive encounter at Marengo.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for the force crossing by the Great St Bernard alone vary between about 35,000 and 40,000.",
+    "sources": [
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "James R. Arnold, Marengo and Hohenlinden: Napoleon's Rise to Power (2005)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "marengo-1800",
+    "title": "Battle of Marengo",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1800-06-14",
+    "datePrecision": "day",
+    "place": "Marengo, near Alessandria, Piedmont",
+    "lon": 8.68,
+    "lat": 44.89,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Army of the Reserve",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Desaix",
+        "Kellermann the younger",
+        "Lannes",
+        "Victor"
+      ],
+      "opponent": [
+        "Melas",
+        "Zach"
+      ]
+    },
+    "strength": {
+      "focus": "c. 23,000, rising to c. 28,000 with Desaix",
+      "opponent": "c. 30,000"
+    },
+    "casualties": "French c. 5,000–7,000 killed, wounded and captured; Austrians c. 9,000–9,500, including some 3,000 prisoners",
+    "outcome": "victory",
+    "summary": "Surprised and beaten back all afternoon, Bonaparte's army is saved by Desaix's returning division and Kellermann's cavalry charge, which turn defeat into a victory that secures his rule.",
+    "detail": "Bonaparte, believing Melas would not fight, had detached Desaix's division southwards when the Austrians poured out of Alessandria across the Bormida on the morning of 14 June. Through the day Victor's and Lannes's corps were pushed back across the plain around the hamlet of Marengo; by mid-afternoon Melas, lightly wounded and sure of victory, handed over the pursuit to his chief of staff Zach and rode back to Alessandria.\n\nDesaix, recalled by urgent messages, arrived towards five o'clock. His fresh division counter-attacked the Austrian column, supported by a battery massed by Marmont, and the younger Kellermann launched a cavalry charge into its flank. Zach was captured and the Austrian advance collapsed into a rout back to the Bormida. Desaix was shot dead in the attack.\n\nThe next day Melas signed the Convention of Alessandria, evacuating Lombardy and Piedmont as far as the Mincio.",
+    "significance": "Marengo consolidated the new Consulate at home and recovered northern Italy. The official accounts were soon rewritten to make the near-defeat look like a planned victory.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary between accounts, and the later official French narratives reshaped the battle's course; timings of Desaix's arrival differ.",
+    "sources": [
+      "James R. Arnold, Marengo and Hohenlinden: Napoleon's Rise to Power (2005)",
+      "David Hollins, Marengo 1800: Napoleon's Day of Fate (2000)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hohenlinden-1800",
+    "title": "Battle of Hohenlinden",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1800-12-03",
+    "datePrecision": "day",
+    "place": "Hohenlinden, east of Munich, Bavaria",
+    "lon": 11.995,
+    "lat": 48.157,
+    "locationCertainty": "approximate",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Army of the Rhine",
+      "opponent": "Austria and Bavaria"
+    },
+    "commanders": {
+      "focus": [
+        "Moreau",
+        "Richepanse",
+        "Ney",
+        "Grouchy"
+      ],
+      "opponent": [
+        "Archduke John",
+        "Lauer"
+      ]
+    },
+    "strength": {
+      "focus": "c. 56,000",
+      "opponent": "c. 60,000"
+    },
+    "casualties": "French c. 3,000 killed and wounded; Austrians and Bavarians c. 12,000–14,000, more than half of them prisoners",
+    "outcome": "victory",
+    "summary": "In snow and forest east of Munich, Moreau destroys the Austrian army of the young Archduke John, forcing Vienna to seek peace.",
+    "detail": "When the armistice after Marengo expired, the eighteen-year-old Archduke John, advised by staff officers, advanced west from the Inn in wintry weather hoping to catch Moreau's Army of the Rhine off balance. His columns entered the dense Ebersberg forest on narrow tracks, separated from one another, making for the clearing at Hohenlinden.\n\nOn 3 December the main Austrian column ran into Grouchy's and Ney's divisions at the forest edge and was held there in falling snow. Meanwhile Richepanse's division, sent through the woods to the south, came out on the road behind the Austrians and struck their rear, with Decaen following. Trapped between the two French forces on the forest roads, the Austrian centre broke up; thousands of men and dozens of guns were taken.\n\nMoreau pursued across the Inn and the Salzach towards Vienna. On 25 December Austria signed the Armistice of Steyr.",
+    "significance": "Hohenlinden, more than Marengo, forced Austria out of the Second Coalition, and it made Moreau for a time Bonaparte's only military rival.",
+    "certainty": "high",
+    "uncertaintyNote": "Strength and loss figures differ between sources, especially the number of prisoners.",
+    "sources": [
+      "James R. Arnold, Marengo and Hohenlinden: Napoleon's Rise to Power (2005)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "treaty-of-luneville-1801",
+    "title": "Treaty of Lunéville",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1801-02-09",
+    "datePrecision": "day",
+    "place": "Lunéville, Lorraine",
+    "lon": 6.5,
+    "lat": 48.59,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Austria and the Holy Roman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Joseph Bonaparte"
+      ],
+      "opponent": [
+        "Ludwig von Cobenzl"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Beaten at Marengo and Hohenlinden, Austria makes peace, confirming France's frontier on the Rhine and its sister republics in Italy, Switzerland and the Netherlands.",
+    "detail": "Negotiations between Joseph Bonaparte and the Austrian diplomat Cobenzl had dragged on at Lunéville since November 1800; Moreau's advance on Vienna ended Austrian resistance. The treaty, signed on 9 February 1801, confirmed and extended the terms of Campo Formio.\n\nThe left bank of the Rhine passed to France, and the Emperor Francis agreed on behalf of the Holy Roman Empire, which ratified the cession. The princes who lost lands there were to be compensated inside Germany, a principle that led to the sweeping redistribution of church lands and free cities in 1803. France's client Batavian, Helvetian, Cisalpine and Ligurian republics were recognised. Austria kept Venetia, but the Habsburg Grand Duke of Tuscany gave up his duchy, which became the Kingdom of Etruria for a Bourbon prince of Parma.\n\nBritain was left without a continental ally.",
+    "significance": "Lunéville ended the war on the continent, set in motion the remaking of Germany, and left Britain to negotiate alone at Amiens.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Treaty of Lunéville, 9 February 1801 (text)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "copenhagen-1801",
+    "title": "Battle of Copenhagen",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1801-04-02",
+    "datePrecision": "day",
+    "place": "King's Deep, off Copenhagen, Denmark",
+    "lon": 12.62,
+    "lat": 55.69,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "Denmark–Norway (League of Armed Neutrality)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Olfert Fischer",
+        "Crown Prince Frederick"
+      ],
+      "opponent": [
+        "Nelson",
+        "Hyde Parker"
+      ]
+    },
+    "casualties": "Danes c. 1,000–1,800 killed and wounded and many captured; British c. 950 killed and wounded",
+    "outcome": "n/a",
+    "summary": "Nelson's squadron batters the Danish line of moored blockships and floating batteries before Copenhagen, forcing Denmark to an armistice and breaking the Armed Neutrality of the North.",
+    "detail": "In 1800 Russia, Denmark–Norway, Sweden and Prussia revived the League of Armed Neutrality to resist British searches of neutral shipping, a coalition Bonaparte courted and Britain saw as a threat to its naval stores from the Baltic. A British fleet under Sir Hyde Parker, with Nelson second in command, was sent to break it.\n\nOn 2 April Nelson took twelve ships of the line through the shallow King's Deep to attack the Danish defensive line of hulks, blockships and floating batteries moored in front of the city, supported by the Trekroner fort. The Danes fought stubbornly, reinforced from the shore, and three British ships went aground. When Parker signalled to discontinue the action, Nelson famously ignored him. By mid-afternoon most of the Danish line was silenced or taken, and Nelson proposed a truce, which became an armistice.\n\nNews then arrived that Tsar Paul I had been murdered on 23–24 March; his successor abandoned the league.",
+    "significance": "The battle and Paul's death broke the Armed Neutrality and reopened the Baltic to Britain, removing a key support for Bonaparte's anti-British strategy on the eve of peace talks.",
+    "certainty": "high",
+    "uncertaintyNote": "France was not a belligerent. Denmark is shown on the side of France and its allies only because the Armed Neutrality served French interests, so the pin is not coloured as a French defeat. Danish casualty figures vary considerably between accounts.",
+    "sources": [
+      "Ole Feldbæk, The Battle of Copenhagen 1801: Nelson and the Danes (2002)",
+      "Dudley Pope, The Great Gamble: Nelson at Copenhagen (1972)",
+      "N.A.M. Rodger, The Command of the Ocean (2004)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "capitulation-of-alexandria-1801",
+    "title": "French surrender in Egypt",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Aboukir Bay (British landing, 8 March)",
+        "lon": 30.07,
+        "lat": 31.32
+      },
+      {
+        "name": "Cairo (surrendered 27 June)",
+        "lon": 31.24,
+        "lat": 30.04
+      }
+    ],
+    "kind": "treaty",
+    "start": "1801-08-30",
+    "end": "1801-09-02",
+    "datePrecision": "day",
+    "place": "Alexandria, Egypt",
+    "lon": 29.92,
+    "lat": 31.2,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Army of the East",
+      "opponent": "Britain and the Ottoman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Menou",
+        "Belliard"
+      ],
+      "opponent": [
+        "Hutchinson",
+        "Abercromby"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Besieged in Alexandria after British landings and the fall of Cairo, Menou surrenders the remnant of Bonaparte's Army of the East, ending the French occupation of Egypt.",
+    "detail": "Abandoned by Bonaparte in 1799 and weakened after Kléber's assassination in 1800, the Army of the East under Menou faced a British expedition that landed at Aboukir Bay on 8 March 1801 while an Ottoman army advanced from Syria. On 21 March Menou attacked the British lines east of Alexandria and was repulsed; Sir Ralph Abercromby was mortally wounded in the battle.\n\nHis successor Hutchinson moved up the Nile. General Belliard surrendered Cairo on 27 June and his troops were shipped home. Menou held Alexandria until late August, when, besieged and short of supplies, he agreed to capitulate; the convention was signed on 30 August–2 September. The French were repatriated in British ships, but under the terms the antiquities collected by the expedition, including the Rosetta Stone, were handed over to Britain.",
+    "significance": "It ended Bonaparte's Egyptian venture and French ambitions in the Levant, though the scholarship of the expedition endured in the Description de l'Égypte.",
+    "certainty": "high",
+    "uncertaintyNote": "Dates for the capitulation are given variously as 30 or 31 August and 2 September 1801, reflecting signature and ratification.",
+    "sources": [
+      "Piers Mackesy, British Victory in Egypt, 1801: The End of Napoleon's Conquest (1995)",
+      "Paul Strathern, Napoleon in Egypt (2007)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "peace-of-amiens-1802",
+    "title": "Peace of Amiens",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1802-03-25",
+    "datePrecision": "day",
+    "place": "Amiens, Picardy",
+    "lon": 2.296,
+    "lat": 49.894,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Republic, Spain and the Batavian Republic",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Joseph Bonaparte"
+      ],
+      "opponent": [
+        "Cornwallis"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Britain and France make peace at Amiens, ending almost a decade of war. Europe is briefly at peace for the first time since 1792.",
+    "detail": "Preliminaries were agreed in London in October 1801, and the definitive treaty was signed at Amiens on 25 March 1802 by Joseph Bonaparte and Lord Cornwallis, with representatives of Spain and the Batavian Republic.\n\nBritain agreed to return most of its colonial conquests, keeping only Trinidad (from Spain) and Ceylon (from the Dutch). Malta was to go back to the Knights of St John under great-power guarantee, and France undertook to evacuate Naples and the Papal States. Much was left unsaid: nothing covered French influence in Italy, Switzerland, the Netherlands or Germany, or commercial relations.\n\nBritish visitors flocked to Paris, but trust soon broke down. Bonaparte annexed Piedmont, intervened in Switzerland and sent an expedition to reconquer Saint-Domingue; Britain refused to leave Malta. On 18 May 1803 Britain declared war again.",
+    "significance": "The only general peace of the era lasted fourteen months; its failure opened a war between Britain and France that ran, with one short break, until 1815.",
+    "certainty": "high",
+    "uncertaintyNote": "Some sources give 27 March 1802 for the signature; 25 March is the usual date.",
+    "sources": [
+      "John D. Grainger, The Amiens Truce: Britain and Bonaparte, 1801–1803 (2004)",
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "boulogne-camp-1803",
+    "title": "The Army of England at Boulogne",
+    "geometry": "area",
+    "radiusKm": 40,
+    "markers": [
+      {
+        "name": "Boulogne",
+        "lon": 1.614,
+        "lat": 50.726
+      }
+    ],
+    "kind": "campaign",
+    "start": "1803-06",
+    "end": "1805-08",
+    "datePrecision": "month",
+    "place": "Boulogne and the Channel coast, Pas-de-Calais",
+    "lon": 1.64,
+    "lat": 50.75,
+    "locationCertainty": "approximate",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Republic, then Empire",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Soult",
+        "Ney",
+        "Davout",
+        "Bruix"
+      ],
+      "opponent": [
+        "Keith",
+        "Cornwallis"
+      ]
+    },
+    "strength": {
+      "focus": "c. 150,000–200,000 in the camps"
+    },
+    "outcome": "n/a",
+    "summary": "For two years a great army drills in camps around Boulogne while a flotilla of invasion craft is built to cross the Channel. It never sails.",
+    "detail": "After war resumed in May 1803, Bonaparte concentrated his best troops in camps along the Channel coast from Étaples to Ambleteuse, centred on Boulogne. Harbours were dredged and a flotilla of well over a thousand flat-bottomed gunboats, prames and transports was built to carry the army across in the brief calm he hoped to find. Britain answered with volunteer levies, Martello towers and the constant watch of the Royal Navy offshore.\n\nThe invasion depended on winning control of the Channel, if only for a few days, and that never happened. Napoleon's plan of 1805 to draw British fleets away to the West Indies failed when Villeneuve's combined fleet fell back to Ferrol and Cádiz.\n\nThe long months of training were not wasted. Organised into permanent corps under the new marshals, the Army of England became the Grande Armée. In late August 1805, with Austria arming, Napoleon turned it east towards the Rhine.",
+    "significance": "Boulogne forged the army that won Ulm and Austerlitz, and the threat of invasion shaped British strategy and home defence.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for both the army and the flotilla vary widely; how seriously Napoleon intended to invade is still debated.",
+    "sources": [
+      "Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006)",
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "execution-of-enghien-1804",
+    "title": "Execution of the duc d'Enghien",
+    "geometry": "city",
+    "kind": "death",
+    "start": "1804-03-21",
+    "datePrecision": "day",
+    "place": "Château de Vincennes, near Paris",
+    "lon": 2.435,
+    "lat": 48.843,
+    "locationCertainty": "exact",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Republic (Consulate)",
+      "opponent": "Bourbon émigrés"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Savary",
+        "Murat"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "A Bourbon prince, kidnapped from neutral Baden, is tried overnight by a military commission and shot in the moat at Vincennes, shocking the courts of Europe.",
+    "detail": "Early in 1804 the police uncovered a royalist plot, financed from Britain, to assassinate the First Consul; Georges Cadoudal was arrested and General Pichegru found dead in his cell. Believing a Bourbon prince was to lead the rising, Bonaparte fixed on Louis-Antoine de Bourbon-Condé, duc d'Enghien, who was living at Ettenheim in Baden, just across the Rhine.\n\nOn the night of 14–15 March French dragoons crossed the frontier and seized him. He was taken to Vincennes, tried during the night of 20–21 March by a military commission on charges of bearing arms against France, and shot in the castle moat before dawn. There was no evidence that he knew of the Cadoudal conspiracy.\n\nAcross Europe the violation of neutral territory and the killing of a prince of the blood caused outrage; Russia protested and went into mourning. In France the affair helped bind former regicides to Bonaparte, and two months later he was proclaimed Emperor.",
+    "significance": "The execution poisoned relations with Russia and the old dynasties and cleared the way for the hereditary Empire proclaimed on 18 May 1804.",
+    "certainty": "high",
+    "uncertaintyNote": "The celebrated verdict that it was 'worse than a crime, a blunder' is attributed variously to Fouché, Talleyrand and Boulay de la Meurthe.",
+    "sources": [
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)",
+      "Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "coronation-1804",
+    "title": "Coronation of Napoleon",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1804-12-02",
+    "datePrecision": "day",
+    "place": "Cathedral of Notre-Dame, Paris",
+    "lon": 2.35,
+    "lat": 48.853,
+    "locationCertainty": "exact",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "—"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Josephine",
+        "Pius VII"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "In Notre-Dame, before Pope Pius VII, Napoleon crowns himself Emperor of the French and then crowns Josephine.",
+    "detail": "The Senate had proclaimed Napoleon hereditary Emperor of the French on 18 May 1804, and a plebiscite approved the change. The coronation was meant to marry revolutionary legitimacy with the sanction of the Church, and Pope Pius VII was persuaded to travel to Paris for it.\n\nOn 2 December, after a long procession through freezing streets, the ceremony was held in a Notre-Dame redecorated for the occasion. The Pope anointed Napoleon and blessed the regalia, but Napoleon placed the laurel crown on his own head, as had been agreed beforehand, and then crowned Josephine, whom he had married in a religious ceremony only the night before. After the Pope withdrew, Napoleon swore the constitutional oath to uphold the equality of rights and the sale of national lands.\n\nJacques-Louis David recorded the scene in a vast canvas. Six months later Napoleon was also crowned King of Italy in Milan.",
+    "significance": "The coronation gave the new dynasty a sacred and dynastic gloss, and signalled to Europe's monarchs that France was now an empire with an emperor's ambitions.",
+    "certainty": "high",
+    "sources": [
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)",
+      "Thierry Lentz, Nouvelle histoire du Premier Empire, vol. 1 (2002)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ulm-1805",
+    "title": "Capitulation of Ulm",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Elchingen (14 October)",
+        "lon": 10.1,
+        "lat": 48.45
+      }
+    ],
+    "kind": "siege",
+    "start": "1805-09-25",
+    "end": "1805-10-20",
+    "datePrecision": "day",
+    "place": "Ulm, Swabia (Baden-Württemberg)",
+    "lon": 9.99,
+    "lat": 48.4,
+    "locationCertainty": "exact",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire and German allies",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Ney",
+        "Murat",
+        "Soult"
+      ],
+      "opponent": [
+        "Mack",
+        "Archduke Ferdinand"
+      ]
+    },
+    "strength": {
+      "focus": "c. 200,000 in the Grande Armée",
+      "opponent": "c. 70,000 in Mack's army"
+    },
+    "casualties": "Some 23,000–27,000 Austrians surrendered at Ulm itself; in the whole campaign Mack's army lost perhaps 50,000–60,000, mostly prisoners. French losses were light.",
+    "outcome": "victory",
+    "summary": "The Grande Armée sweeps from the Rhine round the Austrian army in Swabia; Mack, trapped in Ulm, surrenders with over 20,000 men.",
+    "detail": "When Austria invaded Bavaria in September 1805, General Mack advanced to Ulm on the upper Danube, expecting the French to come through the Black Forest and the Russians to join him. Instead the Grande Armée wheeled from the Rhine in a vast arc through Franconia and crossed the Danube downstream, cutting him off from Vienna.\n\nMack's attempts to break out failed. On 14 October Ney stormed the bridge and abbey heights at Elchingen, and other columns were caught and forced to surrender. Archduke Ferdinand escaped with some cavalry. Surrounded in Ulm by rain-sodden French corps, Mack agreed on 17 October to capitulate if not relieved, and on 20 October his troops marched out and laid down their arms before Napoleon.\n\nThe manoeuvre cost the French comparatively little in battle, though the forced marches in autumn rain wore down the ranks.",
+    "significance": "Ulm destroyed Austria's main field army in Germany and opened the road to Vienna, which the French entered on 13 November.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner totals for the campaign are given differently depending on which surrenders are counted.",
+    "sources": [
+      "Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Robert Goetz, 1805: Austerlitz – Napoleon and the Destruction of the Third Coalition (2005)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "trafalgar-1805",
+    "title": "Battle of Trafalgar",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1805-10-21",
+    "datePrecision": "day",
+    "place": "Off Cape Trafalgar, Andalusia",
+    "lon": -6.25,
+    "lat": 36.3,
+    "locationCertainty": "approximate",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire and Spain",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Villeneuve",
+        "Gravina"
+      ],
+      "opponent": [
+        "Nelson",
+        "Collingwood"
+      ]
+    },
+    "strength": {
+      "focus": "33 ships of the line",
+      "opponent": "27 ships of the line"
+    },
+    "casualties": "Franco-Spanish c. 4,000 killed and c. 2,500 wounded, with about 7,000 captured, and 18–19 ships taken or destroyed; British c. 1,700 killed and wounded, no ships lost",
+    "outcome": "defeat",
+    "summary": "Nelson's fleet cuts through the Franco-Spanish line off Cape Trafalgar and takes or destroys eighteen ships. Nelson is killed in the hour of victory.",
+    "detail": "Ordered to take the combined fleet from Cádiz into the Mediterranean, and knowing he was about to be replaced, Villeneuve sailed on 19–20 October. On the morning of 21 October the British found his 33 ships strung out in a ragged crescent off Cape Trafalgar.\n\nNelson attacked in two columns, himself leading the weather column in Victory and Collingwood the lee column in Royal Sovereign, to break the enemy line and overwhelm its centre and rear before the van could return. The approach under fire was slow and costly, but once through the line, British gunnery told in a savage close-range mêlée. Villeneuve's flagship Bucentaure was taken; the French Achille blew up. A marksman in the tops of Redoutable shot Nelson, who died below decks that afternoon; Gravina was mortally wounded.\n\nA great storm followed, and many prizes and their prize crews were wrecked or scuttled, killing hundreds more.",
+    "significance": "Trafalgar ended any real prospect of a French invasion of Britain and confirmed British naval supremacy, driving Napoleon towards economic warfare against Britain.",
+    "certainty": "high",
+    "uncertaintyNote": "Franco-Spanish losses are uncertain, partly because of deaths in the storm; figures vary between accounts.",
+    "sources": [
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "Julian S. Corbett, The Campaign of Trafalgar (1910)",
+      "Roy Adkins, Trafalgar: The Biography of a Battle (2004)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "austerlitz-1805",
+    "title": "Battle of Austerlitz",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Pratzen Heights",
+        "lon": 16.76,
+        "lat": 49.13
+      }
+    ],
+    "kind": "battle",
+    "start": "1805-12-02",
+    "datePrecision": "day",
+    "place": "Austerlitz (Slavkov u Brna), Moravia",
+    "lon": 16.76,
+    "lat": 49.13,
+    "locationCertainty": "exact",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Russia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Soult",
+        "Davout",
+        "Lannes",
+        "Bernadotte"
+      ],
+      "opponent": [
+        "Kutuzov",
+        "Alexander I",
+        "Francis II",
+        "Weyrother",
+        "Buxhoeveden"
+      ]
+    },
+    "strength": {
+      "focus": "c. 73,000",
+      "opponent": "c. 85,000"
+    },
+    "casualties": "French c. 9,000 killed and wounded; allies c. 16,000 killed and wounded and 11,000–12,000 captured",
+    "outcome": "victory",
+    "summary": "On the anniversary of his coronation, Napoleon lures the Russo-Austrian army off the Pratzen Heights, seizes them and splits the allied army in the 'Battle of the Three Emperors'.",
+    "detail": "Deep in Moravia with a stretched army, Napoleon deliberately gave up the commanding Pratzen plateau and weakened his right, inviting the allies, led by Tsar Alexander and advised by the Austrian staff officer Weyrother, to attack it and cut him off from Vienna. Davout's corps, marching hard from Vienna, arrived to shore up that flank.\n\nOn the foggy morning of 2 December the allied columns came down off the heights against the villages of Telnitz and Sokolnitz. As the sun broke through, Soult's divisions climbed the Pratzen and took the plateau from its surprised defenders, breaking the allied army in two. The Russian Imperial Guard counter-attacked and was driven back by the French Guard cavalry. In the north Lannes and Murat held Bagration.\n\nSoult then turned south against the allied left, pinning it between his men and Davout's. Some fled across the frozen ponds; accounts of thousands drowning in the ice were exaggerated.",
+    "significance": "Austerlitz broke the Third Coalition: Austria sued for peace within days and the Russian army withdrew, leaving Napoleon master of central Europe.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths and losses differ between sources; the 30th Bulletin inflated the number drowned in the Satschan ponds.",
+    "sources": [
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "29th and 30th Bulletins of the Grande Armée (December 1805)",
+      "Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006)",
+      "Robert Goetz, 1805: Austerlitz – Napoleon and the Destruction of the Third Coalition (2005)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "treaty-of-pressburg-1805",
+    "title": "Treaty of Pressburg",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1805-12-26",
+    "datePrecision": "day",
+    "place": "Pressburg (Bratislava), Hungary",
+    "lon": 17.11,
+    "lat": 48.144,
+    "locationCertainty": "exact",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Talleyrand"
+      ],
+      "opponent": [
+        "Prince Johann von Liechtenstein",
+        "Gyulai"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Austria pays for Austerlitz: it surrenders Venetia to Napoleon's Kingdom of Italy and the Tyrol to Bavaria, and recognises new kings in Bavaria and Württemberg.",
+    "detail": "Signed in the Primate's Palace at Pressburg on 26 December 1805, the peace imposed heavy losses on the Habsburgs. Venetia, Istria and Dalmatia went to the Kingdom of Italy, of which Napoleon was king. The Tyrol and Vorarlberg, long loyal Habsburg lands, went to Bavaria, and Austria's scattered Swabian territories to Württemberg and Baden. In compensation Austria received Salzburg.\n\nFrancis recognised the electors of Bavaria and Württemberg as kings and accepted Napoleon's title as King of Italy. He also agreed to pay an indemnity of 40 million francs.\n\nTalleyrand urged a gentler peace that might make Austria a partner against Russia; Napoleon rejected the advice. The Russian army had already retreated home, and Prussia, which had been on the verge of joining the coalition, hastily came to terms with France.",
+    "significance": "The treaty ended the Third Coalition in the south, redrew Germany in favour of France's allies and left a humiliated Austria bent on revenge, which it sought in 1809.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "Frederick W. Kagan, The End of the Old Order: Napoleon and Europe, 1801–1805 (2006)",
+      "Treaty of Pressburg, 26 December 1805 (text)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "maida-1806",
+    "title": "Battle of Maida",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1806-07-04",
+    "datePrecision": "day",
+    "place": "Plain of Sant'Eufemia near Maida, Calabria",
+    "lon": 16.28,
+    "lat": 38.87,
+    "locationCertainty": "approximate",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire (Kingdom of Naples)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Reynier"
+      ],
+      "opponent": [
+        "Sir John Stuart"
+      ]
+    },
+    "strength": {
+      "focus": "c. 5,500–6,500",
+      "opponent": "c. 5,200"
+    },
+    "casualties": "French c. 1,500–2,000 killed, wounded and captured; British c. 330 killed and wounded",
+    "outcome": "defeat",
+    "summary": "A small British force landed in Calabria defeats Reynier's French with steady musketry, a first sign that British lines could beat French columns.",
+    "detail": "Early in 1806 Napoleon drove the Bourbons from Naples and made his brother Joseph king; the Bourbon court fled to Sicily under British protection. To encourage resistance in Calabria, Sir John Stuart landed a small British army in the Gulf of Sant'Eufemia at the start of July.\n\nOn 4 July General Reynier came down from the hills to attack. On the plain below Maida the French advanced against the British line and were broken by close-range volleys and a bayonet charge; a flank attack on the British left was held by Stuart's reserve. The French fled with heavy losses.\n\nStuart soon re-embarked, and the Calabrian revolt his victory encouraged turned into a brutal guerrilla war. French troops under Masséna and Reynier put it down over the following years with massacres and reprisals, and insurgent bands committed atrocities of their own.",
+    "significance": "Strategically slight, Maida lifted British morale and fed debate about line against column. The Calabrian war foreshadowed the far larger struggle in Spain.",
+    "certainty": "high",
+    "uncertaintyNote": "Reynier's strength and French losses vary considerably between accounts.",
+    "sources": [
+      "Richard Hopton, The Battle of Maida 1806: Fifteen Minutes of Glory (2002)",
+      "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "confederation-of-the-rhine-1806",
+    "title": "Confederation of the Rhine",
+    "geometry": "area",
+    "radiusKm": 280,
+    "markers": [
+      {
+        "name": "Regensburg (Imperial Diet)",
+        "lon": 12.1,
+        "lat": 49.02
+      }
+    ],
+    "kind": "political",
+    "start": "1806-07-12",
+    "end": "1806-08-06",
+    "datePrecision": "day",
+    "place": "Western and southern Germany",
+    "lon": 9.8,
+    "lat": 49.3,
+    "locationCertainty": "approximate",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "French Empire and German client states",
+      "opponent": "Holy Roman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Dalberg"
+      ],
+      "opponent": [
+        "Francis II"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Sixteen German princes leave the Holy Roman Empire and join a confederation under Napoleon's protection; Francis II lays down the ancient imperial crown.",
+    "detail": "On 12 July 1806, in Paris, Bavaria, Württemberg, Baden, Hesse-Darmstadt, Nassau and a group of smaller states signed the Act of Confederation. Napoleon became its Protector and Karl Theodor von Dalberg, Archbishop of Mainz, its Prince-Primate. The members promised troops for France's wars; in return they were confirmed in their sovereignty and allowed to swallow the lands of scores of imperial knights and petty princes.\n\nOn 1 August the member states announced their secession to the Imperial Diet at Regensburg, and France declared that it no longer recognised the Empire. Under an ultimatum from Napoleon, Francis II abdicated as Holy Roman Emperor on 6 August 1806, remaining Emperor of Austria. The Empire, a thousand years old by its own reckoning, was dissolved.\n\nThe Confederation later grew to include Saxony, Westphalia and almost all of Germany outside Prussia and Austria.",
+    "significance": "It ended the Holy Roman Empire, tied the 'third Germany' to France as a source of soldiers, and alarmed Prussia into war.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "Peter H. Wilson, Heart of Europe: A History of the Holy Roman Empire (2016)",
+      "Brendan Simms, The Struggle for Mastery in Germany, 1779–1850 (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jena-auerstedt-1806",
+    "title": "Battles of Jena and Auerstedt",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Auerstedt (Hassenhausen)",
+        "lon": 11.61,
+        "lat": 51.1
+      }
+    ],
+    "kind": "battle",
+    "start": "1806-10-14",
+    "datePrecision": "day",
+    "place": "Jena and Auerstedt, Thuringia",
+    "lon": 11.5,
+    "lat": 50.94,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Prussia and Saxony"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout",
+        "Lannes",
+        "Soult",
+        "Ney",
+        "Augereau"
+      ],
+      "opponent": [
+        "Duke of Brunswick",
+        "Hohenlohe",
+        "Rüchel",
+        "Frederick William III"
+      ]
+    },
+    "strength": {
+      "focus": "c. 90,000–96,000 at Jena (not all engaged); c. 27,000 at Auerstedt",
+      "opponent": "c. 53,000 at Jena; c. 50,000–60,000 at Auerstedt"
+    },
+    "casualties": "French c. 12,000–13,000 killed and wounded on both fields; Prussians and Saxons perhaps 25,000 killed and wounded and as many captured",
+    "outcome": "victory",
+    "summary": "In a single day the Prussian army is shattered twice: Napoleon crushes Hohenlohe at Jena while, a few miles north, Davout's lone corps defeats the main Prussian army at Auerstedt.",
+    "detail": "Prussia went to war in October 1806, before Russian help could arrive. Napoleon advanced through the Thuringian forest; Prince Louis Ferdinand was killed at Saalfeld on 10 October, and the French swung round the Prussian left.\n\nOn 14 October Napoleon, believing he faced the enemy's main body, attacked Hohenlohe on the plateau above Jena with overwhelming force. Lannes's corps pushed through the fog, the Prussian infantry stood in the open near Vierzehnheiligen under skirmisher fire, and by afternoon Hohenlohe's army, and Rüchel's relieving corps, were routed.\n\nThe main Prussian army, under the Duke of Brunswick with the king present, was in fact to the north. At Auerstedt it met Davout's III Corps, outnumbered roughly two to one. Brunswick was mortally wounded early, and Davout's divisions held and then advanced, driving the Prussians back in disorder into the fugitives from Jena. Bernadotte's corps, between the two fields, fought at neither.",
+    "significance": "The twin defeat destroyed the army of Frederick the Great's heirs in a day, led to the collapse of Prussia within weeks and spurred the Prussian reforms that followed.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses on both fields, and especially prisoners taken in the pursuit, are counted differently in different works.",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Conquest of Prussia, 1806 (1907)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Peter Paret, The Cognitive Challenge of War: Prussia 1806 (2009)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "berlin-decree-1806",
+    "title": "Fall of Berlin and the Berlin Decree",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1806-10-27",
+    "end": "1806-11-21",
+    "datePrecision": "day",
+    "place": "Berlin, Prussia",
+    "lon": 13.4,
+    "lat": 52.52,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Prussia and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Napoleon rides into Berlin as Prussia's fortresses surrender. From the Prussian capital he declares the British Isles under blockade: the start of the Continental System.",
+    "detail": "After Jena and Auerstedt the Prussian state fell apart with astonishing speed. Davout's corps entered Berlin first, and on 27 October Napoleon made a formal entry through the Brandenburg Gate; at Potsdam he had visited the tomb of Frederick the Great and taken the dead king's sword. Hohenlohe surrendered at Prenzlau on 28 October, fortress after fortress capitulated, and Blücher was cornered at Lübeck in early November. Frederick William III fled to East Prussia to join the Russians.\n\nOn 21 November Napoleon issued the Berlin Decree. It declared the British Isles in a state of blockade, banned all trade and correspondence with them, and ordered British goods and subjects in French-controlled territory seized. With no fleet to enforce a blockade, the aim was to strangle British exports to the continent. The Milan Decrees of 1807 extended the system to neutral ships that submitted to British rules.",
+    "significance": "The Continental System became a central aim of Napoleonic policy, driving later interventions in Portugal, Spain, the papal states and ultimately Russia.",
+    "certainty": "high",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Conquest of Prussia, 1806 (1907)",
+      "Eli F. Heckscher, The Continental System: An Economic Interpretation (1922)",
+      "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "eylau-1807",
+    "title": "Battle of Eylau",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1807-02-07",
+    "end": "1807-02-08",
+    "datePrecision": "day",
+    "place": "Preussisch-Eylau (Bagrationovsk), East Prussia",
+    "lon": 20.64,
+    "lat": 54.39,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Russia and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Murat",
+        "Augereau",
+        "Davout",
+        "Ney"
+      ],
+      "opponent": [
+        "Bennigsen",
+        "Lestocq"
+      ]
+    },
+    "strength": {
+      "focus": "c. 45,000 at first, c. 75,000 by the end",
+      "opponent": "c. 67,000 Russians, joined by c. 9,000 Prussians"
+    },
+    "casualties": "French c. 20,000–25,000 killed and wounded; Russians c. 15,000–25,000",
+    "outcome": "inconclusive",
+    "summary": "In a snowstorm in East Prussia, a winter battle of appalling slaughter ends with the Russians withdrawing but the French too exhausted to pursue.",
+    "detail": "Bennigsen's Russian army turned to fight at Preussisch-Eylau after Napoleon had tried to catch it in a winter offensive. On 7 February the two armies fought for the town itself into the night.\n\nOn 8 February, in bitter cold, Napoleon attacked before his outlying corps arrived. Augereau's corps advanced into a blinding snowstorm, lost direction and marched into the massed fire of Russian guns, and was all but destroyed. To save the centre, Murat led some 10,000 cavalry in one of the largest charges of the era, riding through the Russian lines and back.\n\nDavout's corps came up on the Russian left in the afternoon and pushed it back, but Lestocq's Prussians arrived to steady it, and Ney appeared on the other flank only at nightfall. Bennigsen withdrew during the night, leaving the field to the French; both armies went into winter quarters. Thousands of wounded died in the snow.",
+    "significance": "Eylau was Napoleon's first serious check and gave the lie to his invincibility; the campaign could be decided only in the summer.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses are heavily disputed; French official figures were much lower than modern estimates.",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Campaign in Poland, 1806–1807 (1901)",
+      "James R. Arnold and Ralph R. Reinertsen, Crisis in the Snows: Russia Confronts Napoleon – The Eylau Campaign 1806–1807 (2007)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "siege-of-danzig-1807",
+    "title": "Siege of Danzig",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1807-03-19",
+    "end": "1807-05-24",
+    "datePrecision": "day",
+    "place": "Danzig (Gdańsk), West Prussia",
+    "lon": 18.65,
+    "lat": 54.35,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire, Poles, Saxons and German allies",
+      "opponent": "Prussia and Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Lefebvre",
+        "Chasseloup-Laubat"
+      ],
+      "opponent": [
+        "Kalckreuth"
+      ]
+    },
+    "strength": {
+      "focus": "c. 25,000, later rising to c. 45,000",
+      "opponent": "c. 14,000–16,000 garrison"
+    },
+    "outcome": "victory",
+    "summary": "After a two-month siege Marshal Lefebvre takes the great Baltic port of Danzig, securing the French rear and stores for the summer campaign.",
+    "detail": "Danzig, a heavily fortified port at the mouth of the Vistula, threatened the French left flank and could be supplied from the sea. In March 1807 Napoleon sent Marshal Lefebvre with a mixed corps of French, Poles, Saxons and Badeners to take it, with the engineer Chasseloup-Laubat directing the siege works.\n\nThe Prussian governor, the veteran Kalckreuth, defended the city stubbornly, and the besiegers dug their approaches through frozen ground and then spring mud. A Russian relief force landed at the mouth of the Vistula was beaten off in mid-May, and a British sloop that tried to run supplies in went aground and was captured.\n\nWith his defences breached and no hope of relief, Kalckreuth capitulated on 24 May on honourable terms; the garrison marched out on 27 May.",
+    "significance": "The fall of Danzig freed troops and provided large stores for the summer campaign that ended at Friedland. Lefebvre was made Duke of Danzig.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for both besiegers and garrison vary; the siege is sometimes dated from early March.",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Campaign in Poland, 1806–1807 (1901)",
+      "David G. Chandler, Dictionary of the Napoleonic Wars (1979)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "friedland-1807",
+    "title": "Battle of Friedland",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1807-06-14",
+    "datePrecision": "day",
+    "place": "Friedland (Pravdinsk), East Prussia",
+    "lon": 21.02,
+    "lat": 54.44,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Lannes",
+        "Ney",
+        "Victor",
+        "Sénarmont"
+      ],
+      "opponent": [
+        "Bennigsen",
+        "Bagration",
+        "Gorchakov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 80,000 by evening",
+      "opponent": "c. 60,000"
+    },
+    "casualties": "French c. 8,000–10,000 killed and wounded; Russians c. 20,000",
+    "outcome": "victory",
+    "summary": "Bennigsen crosses the Alle to crush what he thinks is an isolated French corps, and is trapped with the river at his back when Napoleon arrives in force.",
+    "detail": "On 14 June, the anniversary of Marengo, Bennigsen pushed his army across the river Alle at Friedland to destroy Lannes's corps, which he believed was isolated. Lannes held him through the morning while Napoleon brought up his other corps.\n\nIn the late afternoon Ney's corps attacked the Russian left, penned in a bend of the river around the town. Its advance faltered under heavy fire, but Victor's artillery commander Sénarmont pushed his guns forward to close range and shot the Russian masses to pieces with canister. Ney's men stormed into Friedland and set the bridges on fire. Russian troops fought desperately, and many drowned trying to ford the Alle; the Russian right, north of the town, escaped with difficulty.\n\nTwo days later Königsberg fell, and the Russian army withdrew to the Niemen.",
+    "significance": "Friedland ended Russia's will to continue the war and led directly to the peace talks at Tilsit.",
+    "certainty": "high",
+    "uncertaintyNote": "Russian losses are estimated between about 15,000 and 25,000.",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Campaign in Poland, 1806–1807 (1901)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Dominic Lieven, Russia Against Napoleon (2009)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "treaties-of-tilsit-1807",
+    "title": "Treaties of Tilsit",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Raft on the Niemen (25 June)",
+        "lon": 21.9,
+        "lat": 55.09
+      }
+    ],
+    "kind": "treaty",
+    "start": "1807-06-25",
+    "end": "1807-07-09",
+    "datePrecision": "day",
+    "place": "Tilsit (Sovetsk), East Prussia",
+    "lon": 21.88,
+    "lat": 55.08,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Russia and Prussia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Talleyrand"
+      ],
+      "opponent": [
+        "Alexander I",
+        "Frederick William III",
+        "Kurakin"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Napoleon and Alexander I meet on a raft in the Niemen and divide Europe between them. Prussia is cut down by half; Russia joins the war on British trade.",
+    "detail": "After Friedland the Tsar asked for an armistice. On 25 June 1807 the two emperors met in a pavilion on a raft moored in the middle of the Niemen at Tilsit, and for two weeks they talked, dined and reviewed troops together while the king of Prussia was kept waiting.\n\nThe treaty with Russia, signed on 7 July, made the two empires allies. Alexander recognised Napoleon's new German and Italian arrangements and secretly agreed to join the Continental System and to act against Britain if it refused Russian mediation. Russia was given a free hand against Sweden and the Ottomans.\n\nThe treaty with Prussia, signed on 9 July, was punitive. Prussia lost all lands west of the Elbe, which went into the new Kingdom of Westphalia under Jérôme Bonaparte, and most of its share of the partitions of Poland, which formed the Duchy of Warsaw under the King of Saxony. Danzig became a free city under French control, and heavy indemnities and occupation followed.",
+    "significance": "Tilsit marked the height of Napoleon's power in Europe, but its humiliation of Prussia and its strains on Russia sowed the seeds of the wars of 1812–13.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "copenhagen-1807",
+    "title": "British bombardment of Copenhagen",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Køge (29 August)",
+        "lon": 12.18,
+        "lat": 55.46
+      }
+    ],
+    "kind": "siege",
+    "start": "1807-08-16",
+    "end": "1807-09-07",
+    "datePrecision": "day",
+    "place": "Copenhagen, Denmark",
+    "lon": 12.57,
+    "lat": 55.68,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "Denmark–Norway (neutral, then allied to France)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Peymann"
+      ],
+      "opponent": [
+        "Gambier",
+        "Cathcart",
+        "Wellesley"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 25,000–30,000 troops and a large fleet"
+    },
+    "casualties": "Some 200 Copenhagen civilians killed and several hundred wounded; military losses modest on both sides",
+    "outcome": "defeat",
+    "summary": "Fearing Napoleon will seize the Danish fleet, Britain lands an army, bombards neutral Copenhagen with shells and rockets, and carries off the whole Danish navy.",
+    "detail": "After Tilsit the British government, believing Napoleon meant to force Denmark into his system and use its fleet, demanded that the Danes hand over their warships for the duration of the war. When Crown Prince Frederick refused, an expedition under Admiral Gambier and Lord Cathcart landed on Zealand in mid-August and invested Copenhagen. Sir Arthur Wellesley scattered Danish militia at Køge on 29 August.\n\nOn the nights of 2 to 5 September British batteries and bomb vessels bombarded the city with mortar shells and Congreve rockets. Fires destroyed a large part of the old town, including the Church of Our Lady, and civilians were killed in their homes. General Peymann capitulated on 7 September.\n\nThe British took away the Danish fleet, some fifteen or more ships of the line with frigates and smaller vessels, and stripped the naval stores. Denmark promptly allied with France and remained at war with Britain until 1814.",
+    "significance": "The pre-emptive strike denied Napoleon a fleet but drove Denmark–Norway into his alliance, and it was widely condemned as an attack on a neutral city.",
+    "certainty": "high",
+    "uncertaintyNote": "France was not a belligerent in the operation. Denmark is shown on the side of France and its allies because the attack drove it into alliance with Napoleon, and the loss of the Danish fleet was a blow to his plans. Civilian casualty figures vary between accounts.",
+    "sources": [
+      "Thomas Munch-Petersen, Defying Napoleon: How Britain Bombarded Copenhagen and Seized the Danish Fleet in 1807 (2007)",
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "Rory Muir, Britain and the Defeat of Napoleon, 1807–1815 (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "invasion-of-portugal-1807",
+    "title": "Invasion of Portugal and flight of the court",
+    "geometry": "city",
+    "kind": "campaign",
+    "start": "1807-11-19",
+    "end": "1807-11-30",
+    "datePrecision": "day",
+    "place": "Lisbon, Portugal",
+    "lon": -9.14,
+    "lat": 38.71,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire and Spain",
+      "opponent": "Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Junot"
+      ],
+      "opponent": [
+        "Prince Regent John"
+      ]
+    },
+    "strength": {
+      "focus": "c. 25,000 French, with Spanish auxiliaries"
+    },
+    "outcome": "victory",
+    "summary": "Junot's army struggles across the mountains to Lisbon, arriving just after the Portuguese royal family has sailed for Brazil under British escort.",
+    "detail": "Portugal, Britain's oldest ally, would not close its ports to British trade. By the secret Treaty of Fontainebleau of 27 October 1807, France and Spain agreed to partition the kingdom, and Spain allowed French troops to cross its territory.\n\nJunot's corps, many of them young conscripts, entered Portugal on 19 November and pushed on to Lisbon through the rugged, rain-soaked Beira hills, losing stragglers and horses at every stage. Spanish columns entered the north and south.\n\nThe Prince Regent John, persuaded by the British envoy and with the Royal Navy offshore, embarked the court, much of the nobility, the treasury and the state archives, perhaps 10,000 people in all, and sailed for Brazil on 29 November. Junot entered Lisbon the next day with an exhausted advance guard of a few thousand men and found the royal family gone.",
+    "significance": "The occupation brought French armies into the Iberian Peninsula, the starting point of the Peninsular War. The court's move made Rio de Janeiro the capital of the Portuguese empire.",
+    "certainty": "high",
+    "uncertaintyNote": "The number who sailed with the court is uncertain; estimates range from several thousand to about 15,000.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dos-de-mayo-1808",
+    "title": "Dos de Mayo rising",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Monteleone artillery park",
+        "lon": -3.704,
+        "lat": 40.427
+      }
+    ],
+    "kind": "battle",
+    "start": "1808-05-02",
+    "end": "1808-05-03",
+    "datePrecision": "day",
+    "place": "Madrid, Spain",
+    "lon": -3.7,
+    "lat": 40.417,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "People of Madrid"
+    },
+    "commanders": {
+      "focus": [
+        "Murat"
+      ],
+      "opponent": [
+        "Daoíz",
+        "Velarde"
+      ]
+    },
+    "casualties": "Several hundred Madrileños killed in the fighting and executions; French c. 150–200 killed",
+    "outcome": "victory",
+    "summary": "Madrid rises against the French troops occupying the city. Murat crushes the revolt and has prisoners shot, but the news sets Spain alight.",
+    "detail": "By spring 1808 some 100,000 French troops were in Spain under the guise of alliance, and Murat held Madrid. The royal family had been summoned to Bayonne. On 2 May a crowd gathered at the royal palace as the last of the Bourbon princes were being taken away, and French troops fired on them.\n\nFighting spread across the city. Townspeople armed with knives and old muskets attacked French soldiers in the streets, and Murat's Imperial Guard cavalry, including the Mamelukes, charged through the Puerta del Sol. At the Monteleone artillery park two Spanish artillery officers, Luis Daoíz and Pedro Velarde, defied orders and joined the rising; both were killed when the French stormed it.\n\nBy afternoon the revolt was crushed. That night and on 3 May French firing squads shot prisoners on the Príncipe Pío hill and elsewhere, a scene later painted by Goya.",
+    "significance": "Brutally repressed, the rising became a national symbol; within weeks provinces across Spain rose against the French, beginning a war that drained the Empire for six years.",
+    "certainty": "high",
+    "uncertaintyNote": "Spanish deaths are disputed; figures of roughly 400 to 500 are common, but estimates vary widely.",
+    "sources": [
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Ronald Fraser, Napoleon's Cursed War: Popular Resistance in the Spanish Peninsular War (2008)",
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "bayonne-abdications-1808",
+    "title": "Abdications of Bayonne",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1808-05-05",
+    "end": "1808-05-06",
+    "datePrecision": "day",
+    "place": "Bayonne (Château de Marracq), France",
+    "lon": -1.475,
+    "lat": 43.49,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Spanish Bourbons"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon"
+      ],
+      "opponent": [
+        "Charles IV",
+        "Ferdinand VII"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Having lured the feuding Spanish Bourbons across the border, Napoleon forces both Charles IV and his son Ferdinand to give up the throne, which he gives to his brother Joseph.",
+    "detail": "In March 1808 the Mutiny of Aranjuez overthrew the hated favourite Godoy and forced Charles IV to abdicate in favour of his son Ferdinand VII. Napoleon, whose troops already occupied much of northern Spain and Madrid, offered to arbitrate, and father and son were drawn in turn to Bayonne, just inside France.\n\nIn scenes of family bitterness Napoleon pressed Ferdinand to return the crown to his father, and on 5 May Charles ceded his rights to Napoleon; on 6 May Ferdinand renounced his own. The princes were sent into comfortable captivity in France, Ferdinand at Talleyrand's château of Valençay.\n\nNapoleon then named his brother Joseph King of Spain and summoned an assembly of Spanish notables to Bayonne, which approved a new constitution in July. Joseph entered Madrid only to leave it again within days after Bailén.",
+    "significance": "The dynastic coup turned Spain from ally into enemy and gave the risings a legitimate cause in the captive Ferdinand.",
+    "certainty": "high",
+    "sources": [
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "first-siege-of-zaragoza-1808",
+    "title": "First siege of Zaragoza",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1808-06-15",
+    "end": "1808-08-14",
+    "datePrecision": "day",
+    "place": "Zaragoza (Saragossa), Aragon",
+    "lon": -0.88,
+    "lat": 41.65,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Spanish patriots of Aragon"
+    },
+    "commanders": {
+      "focus": [
+        "Lefebvre-Desnouettes",
+        "Verdier"
+      ],
+      "opponent": [
+        "José de Palafox"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Townspeople, peasants and soldiers of Zaragoza beat off French assaults street by street for two months until news of Bailén forces the besiegers to withdraw.",
+    "detail": "When Aragon rose in late May 1808, the young officer José de Palafox took command at Zaragoza, an old city with medieval walls, convents and no modern fortifications. French columns under Lefebvre-Desnouettes arrived in mid-June expecting an easy entry and were repulsed.\n\nReinforced and placed under Verdier, the French bombarded the city and on 4 August broke into it, but the defenders held the streets and houses in bitter hand-to-hand fighting. The episode of Agustina de Aragón, who worked a gun at the Portillo gate after its crew fell, became a legend of the defence.\n\nAfter news of Dupont's surrender at Bailén, the French lifted the siege on 14 August and fell back towards the Ebro.",
+    "significance": "Zaragoza showed that Spanish cities could hold out against French regulars and became a rallying symbol of the national resistance.",
+    "certainty": "high",
+    "uncertaintyNote": "Numbers of defenders fluctuated greatly and are poorly documented; the siege is sometimes dated from 15 June or from later in June.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Ronald Fraser, Napoleon's Cursed War: Popular Resistance in the Spanish Peninsular War (2008)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bailen-1808",
+    "title": "Battle of Bailén",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1808-07-19",
+    "end": "1808-07-22",
+    "datePrecision": "day",
+    "place": "Bailén, Andalusia",
+    "lon": -3.78,
+    "lat": 38.08,
+    "locationCertainty": "approximate",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Dupont",
+        "Vedel"
+      ],
+      "opponent": [
+        "Castaños",
+        "Reding"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000 (including Vedel's divisions)",
+      "opponent": "c. 30,000"
+    },
+    "casualties": "French c. 2,000 killed and wounded and c. 17,000–18,000 surrendered; Spanish c. 1,000 killed and wounded",
+    "outcome": "defeat",
+    "summary": "In the heat of Andalusia a Spanish army traps Dupont's corps and forces it to surrender: the first capitulation of a Napoleonic army in open field.",
+    "detail": "Sent to subdue Andalusia, General Dupont sacked Córdoba in June and then fell back north towards the Sierra Morena, burdened with loot, sick men and a long baggage train. Castaños's Army of Andalusia, with a Swiss-born commander, Teodoro Reding, leading its advance, moved to cut him off.\n\nOn 19 July Dupont's column, trying to force its way through Reding's divisions at Bailén, attacked again and again in fierce heat and without water, and was beaten back each time; some of his Swiss regiments changed sides. Vedel's division arrived from the north too late to break through.\n\nDupont agreed to capitulate on 22 July, including Vedel's troops, who had not been beaten. The terms promised repatriation to France, but the Spanish authorities did not honour them. Most of the prisoners were held in hulks at Cádiz and then on the barren island of Cabrera, where thousands died.",
+    "significance": "Bailén shattered the myth of French invincibility, forced Joseph to abandon Madrid and inspired resistance elsewhere in Europe, especially in Austria.",
+    "certainty": "high",
+    "uncertaintyNote": "Strength and surrender figures vary between sources; the number surrendered is usually given as about 17,000–18,000.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "vimeiro-1808",
+    "title": "Battle of Vimeiro",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Roliça (17 August)",
+        "lon": -9.18,
+        "lat": 39.31
+      }
+    ],
+    "kind": "battle",
+    "start": "1808-08-21",
+    "datePrecision": "day",
+    "place": "Vimeiro, Estremadura, Portugal",
+    "lon": -9.32,
+    "lat": 39.18,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Junot",
+        "Kellermann"
+      ],
+      "opponent": [
+        "Wellesley",
+        "Burrard"
+      ]
+    },
+    "strength": {
+      "focus": "c. 13,000–14,000",
+      "opponent": "c. 18,000 British and c. 2,000 Portuguese"
+    },
+    "casualties": "French c. 2,000 killed, wounded and captured; British c. 700",
+    "outcome": "defeat",
+    "summary": "Sir Arthur Wellesley's British army, newly landed in Portugal, beats off Junot's attacks at Vimeiro. The Convention of Cintra then ships the French home.",
+    "detail": "A British expedition under Sir Arthur Wellesley landed at Mondego Bay at the start of August 1808 to support the Portuguese rising, and pushed south towards Lisbon, driving back a French detachment at Roliça on 17 August.\n\nOn 21 August Junot attacked Wellesley's position on the ridges around the village of Vimeiro. The French columns came on bravely but were halted by British skirmishers and lines firing close-range volleys, supported by the new shrapnel shell; a flanking attack on the ridge to the north-east also failed. The French withdrew in disorder, but Sir Harry Burrard, who had just arrived and superseded Wellesley, forbade a pursuit.\n\nTen days later the Convention of Cintra allowed Junot's army to be carried home to France by the Royal Navy with its arms and baggage. The outcry in Britain led to a court of inquiry for the three generals involved.",
+    "significance": "Vimeiro freed Portugal and gave Britain a foothold in the Peninsula; it was the first battle in Wellesley's long duel with Napoleon's marshals.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for French strength and losses differ modestly between sources.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "congress-of-erfurt-1808",
+    "title": "Congress of Erfurt",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1808-09-27",
+    "end": "1808-10-14",
+    "datePrecision": "day",
+    "place": "Erfurt, Thuringia",
+    "lon": 11.03,
+    "lat": 50.98,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Talleyrand"
+      ],
+      "opponent": [
+        "Alexander I"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Napoleon stages a glittering meeting with Alexander I and a crowd of German princes to renew the Tilsit alliance, but the Tsar will not commit to restraining Austria.",
+    "detail": "Needing to take his army into Spain after Bailén, Napoleon wanted assurance that Russia would keep Austria quiet. He met Alexander at Erfurt amid balls, hunts, performances by the Comédie-Française and a parade of dependent German kings and princes. During the congress he also received Goethe.\n\nThe convention signed on 12 October renewed the alliance and recognised Russia's claims to Finland and the Danubian principalities, but Alexander would only give vague promises of support if Austria attacked. Behind the scenes Talleyrand, no longer foreign minister, privately encouraged the Tsar to resist Napoleon's demands, as he later admitted. Napoleon also sounded out the possibility of marrying one of Alexander's sisters, and was politely deflected.",
+    "significance": "Erfurt exposed the limits of the Franco-Russian alliance and emboldened Austria to go to war in 1809.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "Dominic Lieven, Russia Against Napoleon (2009)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "somosierra-1808",
+    "title": "Battle of Somosierra",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1808-11-30",
+    "datePrecision": "day",
+    "place": "Somosierra Pass, Sierra de Guadarrama",
+    "lon": -3.58,
+    "lat": 41.13,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire and Duchy of Warsaw",
+      "opponent": "Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Kozietulski"
+      ],
+      "opponent": [
+        "San Juan"
+      ]
+    },
+    "casualties": "The Polish light horse lost heavily, perhaps half of the squadron engaged; Spanish losses uncertain, with most of their guns taken",
+    "outcome": "victory",
+    "summary": "A squadron of the Polish Guard light horse charges up a mountain road through four batteries to open the pass to Madrid.",
+    "detail": "In November 1808 Napoleon led some 200,000 men into Spain to restore Joseph and scattered the Spanish armies in a series of battles. On 30 November his advance on Madrid was blocked at the pass of Somosierra, where General Benito de San Juan's small army held a winding road covered by batteries placed one above another.\n\nWith the infantry slowed on the slopes in the morning mist, Napoleon ordered the escort squadron of the Polish Chevau-légers of the Imperial Guard, under Jan Kozietulski, to charge up the road. The Poles rode through fire from the successive batteries and took the guns at the summit, though they suffered heavy losses; French infantry and cavalry followed and the Spanish broke. San Juan was later murdered by his own mutinous troops.\n\nMadrid capitulated on 4 December.",
+    "significance": "Somosierra opened the road to Madrid and became a lasting legend of Polish courage.",
+    "certainty": "medium",
+    "uncertaintyNote": "Strengths and losses on both sides are disputed, as is the exact course of the charge and how many squadrons took part.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "second-siege-of-zaragoza-1808",
+    "title": "Second siege of Zaragoza",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1808-12-20",
+    "end": "1809-02-20",
+    "datePrecision": "day",
+    "place": "Zaragoza (Saragossa), Aragon",
+    "lon": -0.88,
+    "lat": 41.65,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Lannes",
+        "Moncey",
+        "Junot",
+        "Mortier"
+      ],
+      "opponent": [
+        "José de Palafox"
+      ]
+    },
+    "casualties": "Spanish soldiers and civilians perhaps 40,000–50,000 dead, most from typhus and hunger; French c. 10,000",
+    "outcome": "victory",
+    "summary": "The French return to Zaragoza and take it house by house. Two months of mining, bombardment and epidemic leave the city in ruins and tens of thousands dead.",
+    "detail": "After Napoleon's victories of November 1808, two French corps returned to Zaragoza, now held by a larger army under Palafox and crowded with refugees. The outer defences fell by late January 1809, and Lannes, taking over the siege, began the systematic destruction of the city.\n\nSappers mined through walls from house to house and blew up convents and blocks of buildings with their defenders inside, while artillery bombarded the city day and night. The defenders contested every building and cellar. Typhus spread through the overcrowded city, killing soldiers and civilians in far greater numbers than the fighting. Palafox himself fell ill.\n\nOn 20 February the junta surrendered. The French found the city a ruin, its streets filled with the dead and dying.",
+    "significance": "The fall of Zaragoza broke resistance in Aragon, but the ferocity of the defence became the emblem of the Spanish war and a warning of its cost.",
+    "certainty": "high",
+    "uncertaintyNote": "Death tolls are estimates; figures of 50,000 and more are sometimes given, and the division between soldiers and civilians is uncertain.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 2 (1903)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Ronald Fraser, Napoleon's Cursed War: Popular Resistance in the Spanish Peninsular War (2008)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "corunna-1809",
+    "title": "Battle of Corunna",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1809-01-16",
+    "datePrecision": "day",
+    "place": "Elviña, outside La Coruña, Galicia",
+    "lon": -8.42,
+    "lat": 43.34,
+    "locationCertainty": "exact",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Soult"
+      ],
+      "opponent": [
+        "Sir John Moore",
+        "Hope",
+        "Baird"
+      ]
+    },
+    "strength": {
+      "focus": "c. 16,000",
+      "opponent": "c. 15,000"
+    },
+    "casualties": "British c. 800–900 killed and wounded; French c. 1,000–1,500",
+    "outcome": "inconclusive",
+    "summary": "At the end of a harrowing winter retreat, Sir John Moore's army turns and holds off Soult outside Corunna, securing its evacuation by sea. Moore is killed.",
+    "detail": "In December 1808 Sir John Moore struck at French communications in northern Spain, drawing Napoleon away from the south. When Napoleon turned on him, Moore retreated through the snowbound mountains of Galicia to the coast. The retreat was a grim ordeal: discipline broke down, stragglers were cut down or froze, and drunken soldiers looted villages, though the rearguard fought well. Napoleon left the pursuit to Soult.\n\nAt Corunna the transports were late. On 16 January Soult attacked the British line on the heights around the village of Elviña. Hard fighting for the village swayed back and forth, and the French were held. Moore was struck by a cannonball and died that evening; Sir David Baird lost an arm.\n\nThat night and the next day the army embarked, and Moore was buried in the town's ramparts.",
+    "significance": "The army was saved to fight again, but Britain's first campaign in Spain ended in evacuation and the loss of its commander.",
+    "certainty": "high",
+    "uncertaintyNote": "Tactically a British repulse of the French attack, strategically a French success in driving the British from Spain; outcome is therefore marked inconclusive.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Christopher Hibbert, Corunna (1961)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "raszyn-1809",
+    "title": "Battle of Raszyn",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1809-04-19",
+    "datePrecision": "day",
+    "place": "Raszyn, south-west of Warsaw, Duchy of Warsaw",
+    "lon": 20.92,
+    "lat": 52.15,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "Duchy of Warsaw and Saxony (French allies)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Poniatowski"
+      ],
+      "opponent": [
+        "Archduke Ferdinand"
+      ]
+    },
+    "strength": {
+      "focus": "c. 14,000",
+      "opponent": "c. 25,000–30,000"
+    },
+    "casualties": "Losses were moderate on both sides, perhaps 1,000–2,500 each; figures vary",
+    "outcome": "defeat",
+    "summary": "Prince Poniatowski's outnumbered Polish army holds the Austrians at Raszyn for a day, then gives up Warsaw, only to counter-attack into Austrian Galicia.",
+    "detail": "When Austria went to war in April 1809, Archduke Ferdinand invaded the Duchy of Warsaw, created by Napoleon at Tilsit. Prince Józef Poniatowski, with a small army of Poles and a Saxon contingent, took position behind the marshy stream at Raszyn to cover the capital.\n\nOn 19 April the Austrians attacked. The Poles fought stubbornly around the village and the causeway through the marshes, and nightfall found them still holding much of their line, but the Saxons were then recalled and Poniatowski withdrew. By a convention of 21 April he evacuated Warsaw without a fight, and the Austrians occupied the city.\n\nInstead of retreating further, Poniatowski crossed the Vistula and invaded Austrian Galicia, taking Lublin, Sandomierz and Zamość and raising the Poles there. Ferdinand's offensive lost its purpose and he eventually withdrew.",
+    "significance": "Tactically a hard-fought draw that cost Warsaw, Raszyn opened a campaign in which the Poles gained Galicia's western lands at the peace.",
+    "certainty": "medium",
+    "uncertaintyNote": "Often described as a tactical draw; casualty figures differ widely between Polish and Austrian accounts.",
+    "sources": [
+      "John H. Gill, Thunder on the Danube: Napoleon's Defeat of the Habsburgs (3 vols, 2008–10)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)",
+      "F. Loraine Petre, Napoleon and the Archduke Charles (1909)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "tyrolean-rising-1809",
+    "title": "Tyrolean rising",
+    "geometry": "area",
+    "radiusKm": 90,
+    "markers": [
+      {
+        "name": "Bergisel",
+        "lon": 11.4,
+        "lat": 47.247
+      },
+      {
+        "name": "Mantua (Hofer shot, 20 February 1810)",
+        "lon": 10.79,
+        "lat": 45.16
+      }
+    ],
+    "kind": "campaign",
+    "start": "1809-04-09",
+    "end": "1809-12",
+    "datePrecision": "day",
+    "place": "Tyrol, around Innsbruck",
+    "lon": 11.39,
+    "lat": 47.26,
+    "locationCertainty": "approximate",
+    "phase": "wagram",
+    "sides": {
+      "focus": "Kingdom of Bavaria and French Empire",
+      "opponent": "Tyrolean insurgents and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Lefebvre",
+        "Wrede",
+        "Deroy"
+      ],
+      "opponent": [
+        "Andreas Hofer",
+        "Speckbacher",
+        "Haspinger",
+        "Chasteler"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "Tyrolean peasants led by the innkeeper Andreas Hofer rise against Bavarian rule and win three battles on the Bergisel above Innsbruck, before being crushed after Austria makes peace.",
+    "detail": "Tyrol had been handed to Bavaria at Pressburg, and Bavarian reforms, conscription and attacks on local religious customs caused deep resentment. When Austria went to war in April 1809, the Tyrolese rose in coordination with Vienna, and within days they had captured the Bavarian and French garrisons of Innsbruck.\n\nAndreas Hofer, an innkeeper from the Passeier valley, emerged as leader. His irregulars defeated the Bavarians on the Bergisel above Innsbruck in May, and again in August after Marshal Lefebvre had reoccupied the city, and Hofer ruled Tyrol for a time in the Emperor's name.\n\nThe Treaty of Schönbrunn abandoned Tyrol. French, Bavarian and Italian troops converged on it, and the rebels were beaten on the Bergisel on 1 November. Villages were burnt and resistance was hunted down. Hofer hid in a mountain hut, was betrayed in January 1810 and was shot at Mantua on 20 February on Napoleon's orders.",
+    "significance": "The rising became a symbol of popular resistance to Napoleon in the German lands; Hofer was later revered as a national hero in Austria.",
+    "certainty": "high",
+    "uncertaintyNote": "Dates and numbering of the Bergisel battles vary by count; insurgent numbers fluctuated widely and casualty totals are poorly documented.",
+    "sources": [
+      "F. Gunther Eyck, Loyal Rebels: Andreas Hofer and the Tyrolean Uprising of 1809 (1986)",
+      "John H. Gill, Thunder on the Danube: Napoleon's Defeat of the Habsburgs (3 vols, 2008–10)",
+      "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "abensberg-eckmuhl-1809",
+    "title": "Abensberg–Eckmühl campaign",
+    "geometry": "area",
+    "radiusKm": 40,
+    "markers": [
+      {
+        "name": "Abensberg (20 April)",
+        "lon": 11.85,
+        "lat": 48.81
+      },
+      {
+        "name": "Eckmühl (Eggmühl, 22 April)",
+        "lon": 12.19,
+        "lat": 48.83
+      },
+      {
+        "name": "Ratisbon (Regensburg, 23 April)",
+        "lon": 12.1,
+        "lat": 49.02
+      }
+    ],
+    "kind": "campaign",
+    "start": "1809-04-19",
+    "end": "1809-04-23",
+    "datePrecision": "day",
+    "place": "Lower Bavaria, between Abensberg, Eckmühl and Ratisbon",
+    "lon": 12.02,
+    "lat": 48.86,
+    "locationCertainty": "approximate",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire and Confederation of the Rhine",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout",
+        "Lannes",
+        "Lefebvre"
+      ],
+      "opponent": [
+        "Archduke Charles",
+        "Archduke Louis",
+        "Hiller",
+        "Rosenberg"
+      ]
+    },
+    "casualties": "Austrian losses over the five days are commonly put at c. 30,000–40,000 killed, wounded and captured; French and allied c. 15,000",
+    "outcome": "victory",
+    "summary": "Arriving to find his army dangerously dispersed, Napoleon wins a string of battles over five days in Bavaria and drives Archduke Charles back across the Danube.",
+    "detail": "Austria invaded Bavaria on 10 April 1809 while Berthier, in temporary command, had the French and allied forces spread out along the Danube. Napoleon arrived on 17 April and set about concentrating them.\n\nOn 19 April Davout's corps, marching from Ratisbon, fought its way past the Austrians at Teugn-Hausen. The next day Napoleon, with Bavarian and Württemberg troops and Lannes, broke through the Austrian centre at Abensberg, and on 21 April Hiller's wing was pursued through Landshut. Meanwhile Charles, with the main body, attacked Davout. On 22 April Napoleon marched north and struck the Austrian left at Eckmühl, where Davout's corps and a massed cavalry attack drove Charles from the field.\n\nCharles escaped across the Danube at Ratisbon. On 23 April the French stormed the town, with Lannes leading the assault up the scaling ladders; Napoleon was grazed on the foot by a spent ball.",
+    "significance": "The campaign regained the initiative after a dangerous start and opened the road to Vienna, which the French entered on 13 May, but the Austrian army escaped to fight again.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses over the separate actions are counted differently; strengths changed daily.",
+    "sources": [
+      "John H. Gill, Thunder on the Danube, vol. 1: Abensberg (2008)",
+      "F. Loraine Petre, Napoleon and the Archduke Charles (1909)",
+      "Gunther E. Rothenberg, Napoleon's Great Adversaries: The Archduke Charles and the Austrian Army, 1792–1814 (1982)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "aspern-essling-1809",
+    "title": "Battle of Aspern-Essling",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Lobau island",
+        "lon": 16.5,
+        "lat": 48.19
+      }
+    ],
+    "kind": "battle",
+    "start": "1809-05-21",
+    "end": "1809-05-22",
+    "datePrecision": "day",
+    "place": "Aspern and Essling, Marchfeld, east of Vienna",
+    "lon": 16.5,
+    "lat": 48.22,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Lannes",
+        "Masséna",
+        "Bessières"
+      ],
+      "opponent": [
+        "Archduke Charles",
+        "Hiller",
+        "Hohenzollern"
+      ]
+    },
+    "strength": {
+      "focus": "c. 60,000–75,000 engaged by the second day",
+      "opponent": "c. 95,000–100,000"
+    },
+    "casualties": "French c. 20,000–23,000 killed and wounded; Austrians c. 20,000–23,000",
+    "outcome": "defeat",
+    "summary": "Crossing the Danube by a fragile bridge, Napoleon is attacked by Archduke Charles and after two days of slaughter around two villages must withdraw: his first major defeat in person.",
+    "detail": "From occupied Vienna Napoleon bridged the swollen Danube by way of the island of Lobau and pushed troops onto the Marchfeld plain. On 21 May Archduke Charles attacked the bridgehead. Masséna held the village of Aspern and Lannes Essling while fewer than half the French army was across; Austrian parties floated heavy barges and hulks downstream to break the bridge.\n\nOvernight more troops crossed, and on 22 May Lannes led an attack on the Austrian centre that made good progress until the main bridge broke again, cutting off reserves and ammunition. Charles, leading from the front, rallied his troops, and the Austrians retook Aspern. The French fell back to the villages and, after dark, to Lobau.\n\nLannes, hit by a cannonball that shattered his legs, died on 31 May, the first of Napoleon's marshals to be killed in battle.",
+    "significance": "Aspern-Essling showed that the reformed Austrian army could beat Napoleon in person, and it forced six weeks of careful preparation before the next crossing.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths and losses are disputed: the French engaged far fewer on the first day than the second, and figures vary widely.",
+    "sources": [
+      "John H. Gill, Thunder on the Danube, vol. 2: The Fall of Vienna and the Battle of Aspern (2009)",
+      "Gunther E. Rothenberg, Napoleon's Great Adversaries: The Archduke Charles and the Austrian Army, 1792–1814 (1982)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "wagram-1809",
+    "title": "Battle of Wagram",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Markgrafneusiedl",
+        "lon": 16.63,
+        "lat": 48.28
+      }
+    ],
+    "kind": "battle",
+    "start": "1809-07-05",
+    "end": "1809-07-06",
+    "datePrecision": "day",
+    "place": "Deutsch-Wagram, Marchfeld, north-east of Vienna",
+    "lon": 16.58,
+    "lat": 48.29,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire, Kingdom of Italy and German allies",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Napoleon",
+        "Davout",
+        "Masséna",
+        "Macdonald",
+        "Eugène de Beauharnais",
+        "Bernadotte"
+      ],
+      "opponent": [
+        "Archduke Charles",
+        "Archduke John",
+        "Bellegarde",
+        "Klenau"
+      ]
+    },
+    "strength": {
+      "focus": "c. 160,000–190,000",
+      "opponent": "c. 130,000–140,000"
+    },
+    "casualties": "French and allies c. 30,000–40,000 killed, wounded and captured; Austrians c. 35,000–40,000",
+    "outcome": "victory",
+    "summary": "Napoleon recrosses the Danube in force and, in the largest battle yet fought in Europe, wears down Archduke Charles's army on the Marchfeld and forces Austria to seek an armistice.",
+    "detail": "After weeks of preparation on Lobau, the French crossed to the Marchfeld on the stormy night of 4–5 July, this time by several solid bridges. On 5 July evening attacks on the Austrian line along the Russbach heights failed, and Bernadotte's Saxons were driven from Deutsch-Wagram in confusion.\n\nOn 6 July Charles attacked both French flanks, and on the French left the Austrians pushed Masséna's men back towards the Danube bridges. Napoleon held the centre with a grand battery of about a hundred guns and ordered Davout to turn the Austrian left at Markgrafneusiedl. As Davout rolled up the Russbach line, Macdonald's corps advanced in a huge, costly column against the Austrian centre. Charles, his left crumbling and Archduke John's army too far away to help, ordered an orderly retreat.\n\nThe Austrian army was defeated but not destroyed. After a further action at Znaim, Charles agreed an armistice on 12 July.",
+    "significance": "Wagram ended the War of the Fifth Coalition and brought Austria to terms, but its enormous cost showed the growing strength of Napoleon's enemies and the declining quality of his own armies.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for strengths and losses vary considerably between sources.",
+    "sources": [
+      "Gunther E. Rothenberg, The Emperor's Last Victory: Napoleon and the Battle of Wagram (2004)",
+      "John H. Gill, Thunder on the Danube, vol. 3: Wagram and Znaim (2010)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "talavera-1809",
+    "title": "Battle of Talavera",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1809-07-27",
+    "end": "1809-07-28",
+    "datePrecision": "day",
+    "place": "Talavera de la Reina, New Castile",
+    "lon": -4.82,
+    "lat": 39.97,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire (King Joseph)",
+      "opponent": "Britain and Spain"
+    },
+    "commanders": {
+      "focus": [
+        "Joseph Bonaparte",
+        "Jourdan",
+        "Victor",
+        "Sebastiani"
+      ],
+      "opponent": [
+        "Wellesley",
+        "Cuesta"
+      ]
+    },
+    "strength": {
+      "focus": "c. 46,000",
+      "opponent": "c. 20,000 British and c. 35,000 Spanish"
+    },
+    "casualties": "British c. 5,300–5,400 killed, wounded and missing; French c. 7,000–7,400; Spanish losses smaller",
+    "outcome": "defeat",
+    "summary": "Wellesley's British and Cuesta's Spanish armies beat off repeated French attacks at Talavera in two days of bloody fighting, but the campaign ends in retreat.",
+    "detail": "After driving Soult from Oporto in May 1809, Sir Arthur Wellesley advanced into Spain to combine with General Cuesta's Spanish army against Madrid. At Talavera on the Tagus they were met by King Joseph, Marshal Jourdan and Marshal Victor.\n\nThe allies held a line from the town to the Cerro de Medellín hill. Victor attacked the hill in a night assault on 27 July and again at dawn, and on 28 July the French launched a general attack against the British sector. The British lines repulsed the columns with heavy losses, though an over-eager pursuit by the Guards nearly broke Wellesley's centre and a charge by the 23rd Light Dragoons was cut up in a hidden ravine. The dry grass caught fire, burning many wounded to death.\n\nThe French withdrew, but Soult was advancing on the allies' rear, and Wellesley fell back into Portugal, leaving many wounded to the French.",
+    "significance": "Talavera brought Wellesley the title of Viscount Wellington but convinced him that he could not depend on Spanish cooperation, shaping his defensive strategy for 1810.",
+    "certainty": "high",
+    "uncertaintyNote": "Spanish losses and the degree of Spanish participation are disputed.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 2 (1903)",
+      "Rory Muir, Wellington: The Path to Victory, 1769–1814 (2013)",
+      "Wellington's Dispatches (ed. Gurwood), July–August 1809"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "walcheren-expedition-1809",
+    "title": "Walcheren expedition",
+    "geometry": "area",
+    "radiusKm": 30,
+    "markers": [
+      {
+        "name": "Flushing (Vlissingen)",
+        "lon": 3.57,
+        "lat": 51.44
+      },
+      {
+        "name": "Antwerp",
+        "lon": 4.4,
+        "lat": 51.22
+      }
+    ],
+    "kind": "campaign",
+    "start": "1809-07-30",
+    "end": "1809-12-23",
+    "datePrecision": "day",
+    "place": "Walcheren and the Scheldt estuary, Zeeland",
+    "lon": 3.58,
+    "lat": 51.52,
+    "locationCertainty": "approximate",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire and Kingdom of Holland",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Monnet",
+        "Bernadotte"
+      ],
+      "opponent": [
+        "Earl of Chatham",
+        "Sir Richard Strachan"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 39,000–40,000 troops and a large fleet"
+    },
+    "casualties": "British c. 100 killed in action but c. 4,000 dead of disease and many thousands left chronically ill",
+    "outcome": "victory",
+    "summary": "Britain's largest expedition of the war lands on Walcheren to strike at Antwerp, stalls after taking Flushing, and wastes away in the fever-ridden island.",
+    "detail": "Hoping to destroy the new French naval base and fleet at Antwerp and to help Austria, the British government sent some 40,000 troops and a large fleet to the Scheldt at the end of July 1809, under the Earl of Chatham and Sir Richard Strachan.\n\nThe army landed on Walcheren on 30 July, but progress was slow. Flushing was besieged and bombarded, much of the town burning, and General Monnet surrendered on 15–16 August. By then the French had reinforced Antwerp, where Bernadotte took command of hastily assembled troops and National Guards, and the chance was gone. The commanders quarrelled, the navy blamed the army and the army the navy.\n\nMeanwhile 'Walcheren fever', probably malaria combined with typhus and dysentery, spread through the troops left on the low, marshy island. Thousands died and many more were left permanently weakened. The last British troops left in December.",
+    "significance": "The fiasco discredited the Portland ministry and led to the duel between Castlereagh and Canning. Antwerp remained a French naval base.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for deaths from disease vary between about 3,900 and 4,100 in the usual counts.",
+    "sources": [
+      "Gordon C. Bond, The Grand Expedition: The British Invasion of Holland in 1809 (1979)",
+      "Martin R. Howard, Walcheren 1809: The Scandalous Destruction of a British Army (2012)",
+      "Rory Muir, Britain and the Defeat of Napoleon, 1807–1815 (1996)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "treaty-of-schonbrunn-1809",
+    "title": "Treaty of Schönbrunn",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1809-10-14",
+    "datePrecision": "day",
+    "place": "Schönbrunn Palace, Vienna",
+    "lon": 16.312,
+    "lat": 48.185,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Champagny"
+      ],
+      "opponent": [
+        "Prince Johann von Liechtenstein"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Austria makes a punishing peace, losing its outlet to the Adriatic, lands in Poland and the Alps, and some three and a half million subjects.",
+    "detail": "Signed at Schönbrunn, where Napoleon had made his headquarters, on 14 October 1809, the peace stripped Austria of large territories. Salzburg, Berchtesgaden and the Innviertel went to Bavaria; West Galicia and Kraków to the Duchy of Warsaw; the Tarnopol district to Russia; and Carniola, western Carinthia, Istria and Croatia south of the Sava to France, forming the new Illyrian Provinces and cutting Austria off from the sea.\n\nAustria also had to pay a large indemnity, join the Continental System and recognise Joseph as King of Spain. The Tyrolese, who had risen for the Habsburgs, were abandoned.\n\nTwo days earlier a young German, Friedrich Staps, had been arrested at a review at Schönbrunn carrying a knife with which he meant to kill Napoleon; he was shot. Within months Austria's new foreign minister, Metternich, arranged Napoleon's marriage to the Archduchess Marie-Louise.",
+    "significance": "Schönbrunn ended the war of 1809 and brought Austria into a French alliance through the marriage of 1810, but Napoleon's power rested ever more on force.",
+    "certainty": "high",
+    "uncertaintyNote": "The indemnity is usually given as 85 million francs; the population lost is estimated at about 3.5 million.",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "John H. Gill, Thunder on the Danube, vol. 3: Wagram and Znaim (2010)",
+      "Treaty of Schönbrunn, 14 October 1809 (text)"
+    ],
+    "importance": 2
+  }
+]
