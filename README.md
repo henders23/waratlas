@@ -58,7 +58,7 @@ All times are UK time (BST).
 
 ### Cost
 
-Both agents ran on subscription plans, so I didn't pay per token. These figures are what the tokens logged by each session would cost at list API prices. They cover everything up to the video request, including subagents.
+These figures are what the tokens logged by each session would cost at list API prices, not what I was actually billed. They cover everything up to the video request, including subagents.
 
 | | Claude Opus 5.5 | GPT-6 Sol |
 |---|---|---|
