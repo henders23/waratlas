@@ -28,12 +28,17 @@ These are all the messages I sent, word for word, with the time each one arrived
 |---|---|---|
 | 00:19 | Claude | hey, make a fork of https://github.com/yanqingcheng/multi-war-atlas and implement it - just really make it super impressive and gorgeous and slick and performant and just absolutely NAIL it. deploy it to a qingsworkshop link when you're done. it's going to be a competition between models but please don't peek at the other guy's work |
 | 00:20 | Codex | *(the same prompt)* |
+| 00:35 | Claude | oh jesus why would you not ask for the dataset |
 | 00:39 | Claude | it's been added now. my bots mistake. feel free to validate and improve it if necessary *(answering Claude's question about the dataset)* |
 | 00:39 | Codex | *(the same answer)* |
 | 01:15 | Codex | can you resolve the source issues yourself? |
 | 01:23 | Claude | looks amazing! can you do me a video recording for twitter? |
 | 01:24 | Codex | when you're happy pop it on qingsworkshop.com/war-atlas-b please |
 | 01:29 | Codex | and can you do me a video recording for twitter please? |
+| 01:51 | Claude | I don't want to wait 90 minutes for this! |
+| 01:51 | Claude | it does NOT need 1080p |
+| 01:51 | Claude | it's for twitter |
+| 01:53 | Claude | the other thread recorded the video really fast |
 | 01:56 | Claude | hey, sorry, you weren't responding so I had to hit abort on you |
 
 Between Claude's question and my answers, I got Lupe to upload the dataset to the source repo as PR #1, merged at 00:38.
@@ -47,7 +52,8 @@ Between Claude's question and my answers, I got Lupe to upload the dataset to th
 | 00:23–00:26 | Tracks the dataset to the private Drive tarball, fails to reach it, and decides to write its own sourced Mongol dataset. | Map engine working; a research subagent writes 36 sourced events covering 1206–1368. |
 | 00:28 | Spawns three research subagents, one per period, while it builds 13th-century regions out of Natural Earth province shapes. | Checks desktop and mobile in headless Chromium and fixes polygon winding bugs. |
 | 00:34 | | GitHub Pages is refused on the private fork under my org's plan, so it publishes the built site to a separate public repo. |
-| 00:36 | Finally asks me how to get the dataset, 15 minutes and three research subagents in, and waits for the answer. | |
+| 00:35 | **I message it:** *"oh jesus why would you not ask for the dataset"* | |
+| 00:36 | Asks me how to get the dataset, and waits for the answer. That's a minute after my nudge, and 15 minutes and three research subagents into the run. | |
 | 00:37–00:38 | **I get Lupe, my Grok bot, to upload the dataset.** PR #1 is opened at 00:37 and merged at 00:38. | |
 | 00:39 | | **Finishes** at [qingsworkshop.github.io/atlas-of-empires](https://qingsworkshop.github.io/atlas-of-empires/) with its own 36 events. Flags the missing dataset, and flags that this is a github.io link rather than qingsworkshop.com. |
 | 00:39–00:40 | **I tell both the data is in.** | |
@@ -64,7 +70,7 @@ Between Claude's question and my answers, I got Lupe to upload the dataset to th
 | | Claude (A) | Codex (B) |
 |---|---|---|
 | Time from prompt to live on qingsworkshop.com | 63 min in one run, including a 3-minute wait for my answer | 76 min elapsed: about an hour of agent work across three runs, plus a 16-minute gap while I was away |
-| My messages before the video request | 1: the dataset answer | 3: the dataset answer, "resolve the source issues", "pop it on qingsworkshop.com" |
+| My messages before the video request | 2: "why would you not ask for the dataset", then the dataset answer | 3: the dataset answer, "resolve the source issues", "pop it on qingsworkshop.com" |
 | Events on the map | 103 (all R71 include rows) | 107 (R72, its own amendment of the pack) |
 | What happened to the pack's errors | Listed in [`r71-review.md`](a-claude/data/mongol/r71-review.md); the pack itself is left alone | Fixed in a new, validated R72 round, with an [audit](b-codex/data/mongol/r72/mongol-round72-audit.md) |
 | Map | MapLibre 3D globe with shaded relief; 103 historical regions with dated control; dashed rings for events the sources only place within a region | Flat SVG map (Mercator projection) drawn from `world-atlas` coastlines, with generalised interpretive territory overlays and 38 locality markers |
@@ -96,7 +102,7 @@ In output tokens, Claude produced 593k (391k of them from its research subagents
 
 At 01:23 and 01:29 I asked each agent for a video for Twitter.
 
-**Claude** decided that screen-recording headless Chromium would look choppy because WebGL renders in software at a few frames a second. It built a deterministic frame renderer instead: it steps the clock and camera one frame at a time and screenshots each one, 1,290 frames in total for a 43-second 1080p video. Test frames looked sharp, but each took 6–8 seconds. It ran four headless browsers in parallel; one died when the container hit its 512-process limit. With about 90 minutes to go, it sat in a blocking wait and stopped answering me, so I aborted it at 01:56. It then hit its session limit, which didn't reset until 04:50. The render kept going in the background until about 03:20, but the frames were never stitched into a video.
+**Claude** decided that screen-recording headless Chromium would look choppy because WebGL renders in software at a few frames a second. It built a deterministic frame renderer instead: it steps the clock and camera one frame at a time and screenshots each one, 1,290 frames in total for a 43-second 1080p video. Test frames looked sharp, but each took 6–8 seconds. It ran four headless browsers in parallel; one died when the container hit its 512-process limit. With about 90 minutes to go, it sat in a blocking wait. Between 01:51 and 01:53 I told it I didn't want to wait 90 minutes, that it didn't need 1080p, that it was for Twitter, and that the other thread had recorded its video really fast. None of these reached it: an agent sees new messages only when a tool call returns, and that wait never returned. I aborted it at 01:56. It then hit its session limit, which didn't reset until 04:50. The render kept going in the background until about 03:20, but the frames were never stitched into a video.
 
 **Codex** recorded a 24-second 1280×720 walkthrough in about two and a half minutes and published it as a [release asset](https://github.com/qingsworkshop/atlas-of-empires/releases/download/war-atlas-b-r72/war-atlas-b-twitter.mp4).
 
@@ -130,4 +136,4 @@ Entry A's built geography is committed under `public/geo/`, and its README expla
 - `a-claude/` and `b-codex/` are imported with their full git histories, so `git log -- a-claude` shows how A was built, commit by commit.
 - Code is MIT-licensed (see [LICENSE](LICENSE)). The research pack cites translations whose copyright is unresolved; it contains citations only, not quotations.
 
-This README was drafted by Claude Opus 5.5, which is also entry A, working from both agents' session logs at my request. The times, prompts and token counts come directly from those logs.
+This README was drafted by Claude Opus 5.5, which is also entry A, working from both agents' session logs at my request. The times, prompts and token counts come directly from those logs and from T3's message history. T3's history is how we found the messages above that never reached Claude.
