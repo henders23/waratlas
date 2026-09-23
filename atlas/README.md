@@ -34,6 +34,8 @@ To record frames for a video, run `WAR=napoleonic node scripts/record.mjs …`. 
 
 ## Deployment
 
-`vercel.json` is entry A's configuration, kept unchanged: it builds with `ATLAS_BASE=/war-atlas-a/` for the `war-atlas-a` Vercel project. To deploy this version at a different path, change `ATLAS_BASE` and the output folder to match.
+The Vercel project `waratlas` deploys from `main` in `henders23/waratlas`. It builds from the repo root, so the `vercel.json` at the root installs and builds this folder and serves `atlas/dist` at the site root. Every push to `main` redeploys it.
+
+`atlas/vercel.json` is entry A's original configuration (served under `/war-atlas-a/`). Vercel ignores it while the project builds from the repo root.
 
 Relief imagery comes from AWS Terrain Tiles; coastlines, rivers and provinces from Natural Earth. The map is rendered with MapLibre GL.
