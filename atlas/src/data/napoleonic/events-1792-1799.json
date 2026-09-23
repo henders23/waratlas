@@ -1,0 +1,2019 @@
+[
+  {
+    "id": "valmy-1792",
+    "title": "Cannonade of Valmy",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Valmy windmill ridge",
+        "lon": 4.77,
+        "lat": 49.08
+      }
+    ],
+    "kind": "battle",
+    "start": "1792-09-20",
+    "datePrecision": "day",
+    "place": "Valmy, Champagne (Marne)",
+    "lon": 4.77,
+    "lat": 49.08,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic (Armies of the North and Centre)",
+      "opponent": "Prussia and Austria, with French émigrés"
+    },
+    "commanders": {
+      "focus": [
+        "Kellermann",
+        "Dumouriez"
+      ],
+      "opponent": [
+        "Duke of Brunswick",
+        "Frederick William II"
+      ]
+    },
+    "strength": {
+      "focus": "c. 36,000 engaged (c. 50,000 present)",
+      "opponent": "c. 34,000 engaged"
+    },
+    "casualties": "French c. 300 killed and wounded; Prussians c. 180",
+    "outcome": "victory",
+    "summary": "An artillery duel on a Champagne ridge halts the Prussian march on Paris. The day after, the Convention abolishes the monarchy.",
+    "detail": "Brunswick's Prussian army had taken Longwy and Verdun and was pushing through the Argonne towards Paris, expecting the raw armies of the Revolution to scatter. Dumouriez and Kellermann instead joined forces on the heights around Valmy, astride the Prussian line of retreat, and on 20 September Kellermann's troops held the ridge by the windmill under a heavy cannonade.\n\nThe French regular artillery, much of it the old royal arm, answered shot for shot. When the Prussian infantry advanced and saw the line standing firm, Brunswick called off the attack. Losses were trifling on both sides; the battle was won by nerve rather than bloodshed.\n\nRain, dysentery and a collapsing supply line did the rest. After ten days of fruitless negotiation the Prussians fell back to the frontier, leaving the Republic, proclaimed the next day, alive.",
+    "significance": "Valmy saved the Revolution in its first crisis and became its founding military legend, proof that citizen armies could stand against the most famous army in Europe.",
+    "certainty": "high",
+    "uncertaintyNote": "Strength figures vary with how much of each army is counted as engaged; the French had perhaps 50,000 in the area.",
+    "sources": [
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Arthur Chuquet, Les Guerres de la Révolution, vol. 3: Valmy (1887)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "jemappes-1792",
+    "title": "Battle of Jemappes",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1792-11-06",
+    "datePrecision": "day",
+    "place": "Jemappes, near Mons, Austrian Netherlands (Belgium)",
+    "lon": 3.89,
+    "lat": 50.45,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Dumouriez",
+        "Duc de Chartres (Louis-Philippe)"
+      ],
+      "opponent": [
+        "Duke Albert of Saxe-Teschen",
+        "Clerfayt"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000",
+      "opponent": "c. 13,000–14,000"
+    },
+    "casualties": "French c. 2,000 killed and wounded; Austrians c. 1,200 killed and wounded and some hundreds captured",
+    "outcome": "victory",
+    "summary": "Dumouriez storms the entrenched Austrian heights outside Mons, the Republic's first great offensive victory, and overruns the Austrian Netherlands within weeks.",
+    "detail": "Carrying the war onto enemy soil after Valmy, Dumouriez invaded the Austrian Netherlands with an army nearly three times the size of the force defending it. Duke Albert of Saxe-Teschen had fortified a line of wooded heights and villages west of Mons, and on 6 November the French attacked frontally in dense columns, singing as they came.\n\nThe assault was costly and at times close to faltering, but weight of numbers told. The young Duc de Chartres, the future King Louis-Philippe, rallied wavering battalions in the centre, and by afternoon the Austrians were retreating in good order.\n\nMons opened its gates the next day and Brussels fell on 14 November. By the end of the year French armies held almost the whole country, and the Convention soon offered fraternity and help to all peoples wishing to recover their liberty.",
+    "significance": "Jemappes turned a defensive war into a war of expansion. The occupation of Belgium and the opening of the Scheldt helped bring Britain and the Dutch Republic into the war early in 1793.",
+    "certainty": "high",
+    "sources": [
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "vendee-war-1793",
+    "title": "War in the Vendée",
+    "geometry": "area",
+    "radiusKm": 90,
+    "markers": [
+      {
+        "name": "Cholet",
+        "lon": -0.88,
+        "lat": 47.06
+      },
+      {
+        "name": "Nantes",
+        "lon": -1.55,
+        "lat": 47.22
+      },
+      {
+        "name": "Savenay",
+        "lon": -1.94,
+        "lat": 47.36
+      }
+    ],
+    "kind": "campaign",
+    "start": "1793-03-10",
+    "end": "1796-03-29",
+    "datePrecision": "day",
+    "place": "The Vendée and the Mauges, western France",
+    "lon": -1,
+    "lat": 46.85,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Vendéan royalist insurgents (Catholic and Royal Army)"
+    },
+    "commanders": {
+      "focus": [
+        "Kléber",
+        "Marceau",
+        "Westermann",
+        "Turreau",
+        "Hoche"
+      ],
+      "opponent": [
+        "Cathelineau",
+        "d'Elbée",
+        "La Rochejaquelein",
+        "Charette",
+        "Stofflet"
+      ]
+    },
+    "casualties": "Perhaps 150,000–200,000 dead on all sides, most of them Vendéan civilians and combatants; estimates are fiercely disputed",
+    "outcome": "victory",
+    "summary": "Conscription riots in the Catholic west become a royalist rising. The Republic crushes it with battles, drownings at Nantes and the ‘infernal columns’.",
+    "detail": "In March 1793 the levy of 300,000 men sparked risings across the bocage south of the Loire, a region already alienated by the Revolution's treatment of the Church. Peasant bands under local nobles and commoners such as Cathelineau and Stofflet formed a Catholic and Royal Army, took Saumur in June but failed before Nantes, where Cathelineau was mortally wounded.\n\nDefeated at Cholet in October 1793, the Vendéans crossed the Loire with their families in the doomed march known as the Virée de Galerne, and were destroyed at Le Mans and Savenay in December. Reprisals followed: at Nantes, Carrier's mass drownings in the Loire; in early 1794, Turreau's ‘infernal columns’ burned villages and killed civilians indiscriminately.\n\nGuerrilla war continued under Charette and Stofflet until Hoche combined force with conciliation. Both leaders were captured and shot in early 1796.",
+    "significance": "The Vendée tied down large Republican forces during the crisis of 1793 and left a lasting wound in French memory; whether its repression amounted to genocide is still argued.",
+    "certainty": "high",
+    "uncertaintyNote": "The death toll is highly uncertain; demographic estimates range from well under 150,000 to over 200,000 for the region as a whole. The end date is conventionally taken as Charette's execution at Nantes on 29 March 1796, though unrest recurred later.",
+    "sources": [
+      "Jean-Clément Martin, La Vendée et la France (1987)",
+      "Charles Tilly, The Vendée (1964)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "neerwinden-1793",
+    "title": "Battle of Neerwinden",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1793-03-18",
+    "datePrecision": "day",
+    "place": "Neerwinden, near Tienen (Tirlemont), Austrian Netherlands (Belgium)",
+    "lon": 5.05,
+    "lat": 50.76,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Dumouriez",
+        "Miranda",
+        "Valence"
+      ],
+      "opponent": [
+        "Prince of Saxe-Coburg",
+        "Archduke Charles",
+        "Clerfayt"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000–45,000",
+      "opponent": "c. 39,000–43,000"
+    },
+    "casualties": "French c. 4,000 killed and wounded and c. 1,000 captured, followed by heavy desertion; Austrians c. 2,500–3,000",
+    "outcome": "defeat",
+    "summary": "Coburg's Austrians beat Dumouriez east of Brussels. Belgium is lost within weeks, and Dumouriez, plotting against the Convention, defects to the enemy.",
+    "detail": "Early in 1793 Dumouriez had turned north to invade the Dutch Republic, but an Austrian counter-offensive under the Prince of Saxe-Coburg forced him back to defend Belgium. On 18 March he attacked Coburg's army around the village of Neerwinden in eight separate columns.\n\nThe French right and centre fought hard for the villages, which changed hands several times, but on the left Miranda's wing was broken and fell back without informing the rest of the army. Dumouriez had to retreat, and his demoralised volunteers melted away in the days that followed.\n\nThe defeat brought his political quarrel with the Convention to a head. On 1–2 April he arrested the commissioners sent to investigate him and handed them to the Austrians; when his army refused to march on Paris, he rode over to the enemy on 5 April with a handful of officers.",
+    "significance": "Neerwinden undid the conquest of Belgium and, with Dumouriez's treason, fed the atmosphere of betrayal in which the Committee of Public Safety was created in April 1793.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures differ considerably between French and Austrian accounts, especially for French losses to desertion after the battle.",
+    "sources": [
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "toulon-1793",
+    "title": "Siege of Toulon",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Fort Mulgrave (‘Little Gibraltar’)",
+        "lon": 5.91,
+        "lat": 43.08
+      }
+    ],
+    "kind": "siege",
+    "start": "1793-08-28",
+    "end": "1793-12-19",
+    "datePrecision": "day",
+    "place": "Toulon, Provence",
+    "lon": 5.93,
+    "lat": 43.12,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Britain, Spain, Naples and Piedmont, with French royalists"
+    },
+    "commanders": {
+      "focus": [
+        "Dugommier",
+        "Carteaux",
+        "Captain Bonaparte"
+      ],
+      "opponent": [
+        "Lord Hood",
+        "O'Hara",
+        "Juan de Lángara"
+      ]
+    },
+    "casualties": "Several thousand on each side; after the fall, hundreds of Toulonnais were shot in reprisal",
+    "outcome": "victory",
+    "summary": "Royalist Toulon admits an Anglo-Spanish fleet. A young artillery captain, Napoleon Bonaparte, devises the plan that drives it out, and wins his first fame.",
+    "detail": "In the federalist revolt of summer 1793 Toulon, France's Mediterranean naval base, rose against the Jacobins and on 28 August opened its harbour to Lord Hood's British and Spanish fleet. Republican troops closed round the town, and in September a 24-year-old artillery captain, Napoleon Bonaparte, took charge of the besiegers' guns.\n\nBonaparte saw that the key was not the town but the promontory commanding the inner and outer harbours. If batteries there could fire on the anchorage, the allied fleet would have to leave. Under the capable Dugommier the plan was adopted, and on the night of 16–17 December the French stormed the British redoubt called Fort Mulgrave. Bonaparte was wounded in the thigh.\n\nThe allies evacuated on 18–19 December, taking thousands of royalist refugees with them. Parties under Sidney Smith burned the arsenal and part of the French fleet. The Republic's retribution on those left behind was savage.",
+    "significance": "Toulon made Bonaparte's name: he was promoted brigadier-general and came to the notice of Robespierre's brother and Barras. It also restored the Mediterranean base, though much of its fleet was lost.",
+    "certainty": "high",
+    "uncertaintyNote": "The siege is dated here from the allied occupation (28 August); regular siege operations began in early September. Bonaparte's share in the plan is well attested but was later inflated in his own accounts. Reprisal deaths are variously estimated from several hundred to over a thousand.",
+    "sources": [
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 1",
+      "Bernard Ireland, The Fall of Toulon (2005)",
+      "Philip Dwyer, Napoleon: The Path to Power 1769–1799 (2007)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hondschoote-1793",
+    "title": "Battle of Hondschoote",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Dunkirk",
+        "lon": 2.38,
+        "lat": 51.03
+      }
+    ],
+    "kind": "battle",
+    "start": "1793-09-06",
+    "end": "1793-09-08",
+    "datePrecision": "day",
+    "place": "Hondschoote, French Flanders",
+    "lon": 2.58,
+    "lat": 50.98,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Hanover, Britain and Hesse"
+    },
+    "commanders": {
+      "focus": [
+        "Houchard",
+        "Jourdan"
+      ],
+      "opponent": [
+        "Freytag",
+        "Wallmoden",
+        "Duke of York"
+      ]
+    },
+    "casualties": "French c. 3,000; allies c. 3,000–4,000 killed, wounded and captured",
+    "outcome": "victory",
+    "summary": "Houchard defeats the Hanoverian covering army near Dunkirk, forcing the Duke of York to abandon his siege of the port and his guns.",
+    "detail": "Britain's first war aim in 1793 was Dunkirk, and in August the Duke of York besieged it with British, Hanoverian and Hessian troops while a covering force under Freytag, later Wallmoden, watched the approaches from inland. The Committee of Public Safety scraped together reinforcements for the Army of the North under Houchard.\n\nAfter three days of fighting in the hedged, waterlogged country between 6 and 8 September, the French drove the covering force out of Hondschoote in a series of hard frontal attacks. Unable to hold on, York raised the siege and withdrew, leaving much of his siege artillery.\n\nHouchard failed to pursue and cut off the retreating allies. The Committee, suspicious of every general, had him arrested; he was guillotined in November 1793.",
+    "significance": "Hondschoote was the first real victory of the Year II armies and saved Dunkirk, but Houchard's fate showed the lethal pressure the Terror put on its commanders.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths and losses are poorly agreed; only part of each army was engaged.",
+    "sources": [
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "wattignies-1793",
+    "title": "Battle of Wattignies",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Maubeuge",
+        "lon": 3.97,
+        "lat": 50.28
+      }
+    ],
+    "kind": "battle",
+    "start": "1793-10-15",
+    "end": "1793-10-16",
+    "datePrecision": "day",
+    "place": "Wattignies (Wattignies-la-Victoire), near Maubeuge",
+    "lon": 4.02,
+    "lat": 50.2,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Jourdan",
+        "Carnot"
+      ],
+      "opponent": [
+        "Prince of Saxe-Coburg",
+        "Clerfayt"
+      ]
+    },
+    "strength": {
+      "focus": "c. 45,000",
+      "opponent": "c. 26,000 in the covering force"
+    },
+    "casualties": "French c. 3,000–5,000; Austrians c. 2,500–3,000",
+    "outcome": "victory",
+    "summary": "Jourdan, with Carnot at his side, breaks the Austrian covering army on the Wattignies plateau and relieves the besieged fortress of Maubeuge.",
+    "detail": "In the autumn of 1793 Coburg's Austrians were besieging Maubeuge, one of the last fortresses barring the road into northern France. The Committee of Public Safety sent Jourdan, newly promoted to command the Army of the North, to relieve it, and Lazare Carnot, the Committee's military organiser, came to the front himself.\n\nOn 15 October attacks on both Austrian wings failed with heavy loss. That night Jourdan and Carnot shifted troops to the right, and on 16 October, in fog, massed columns stormed the plateau at Wattignies, the key to Clerfayt's position. Coburg raised the siege and withdrew across the Sambre.\n\nThe victory owed as much to the French superiority in numbers as to tactics, and the garrison of Maubeuge did little to help. But it came at a moment of acute danger and was hailed in Paris.",
+    "significance": "Wattignies ended the allied threat to northern France for 1793 and made the reputations of Jourdan and Carnot, the ‘organiser of victory’.",
+    "certainty": "high",
+    "uncertaintyNote": "Carnot's personal role in the decisive attack was emphasised in later Republican tradition.",
+    "sources": [
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tourcoing-1794",
+    "title": "Battle of Tourcoing",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1794-05-17",
+    "end": "1794-05-18",
+    "datePrecision": "day",
+    "place": "Tourcoing, French Flanders",
+    "lon": 3.16,
+    "lat": 50.72,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Austria, Britain and Hanover"
+    },
+    "commanders": {
+      "focus": [
+        "Souham",
+        "Moreau",
+        "Macdonald"
+      ],
+      "opponent": [
+        "Prince of Saxe-Coburg",
+        "Duke of York",
+        "Clerfayt",
+        "Archduke Charles"
+      ]
+    },
+    "strength": {
+      "focus": "c. 70,000–80,000",
+      "opponent": "c. 70,000, much of it never engaged"
+    },
+    "casualties": "French c. 3,000; allies c. 4,000–5,500 and many guns",
+    "outcome": "victory",
+    "summary": "An ambitious allied plan to encircle the French in Flanders collapses; Souham defeats the converging columns one by one and the Duke of York narrowly escapes capture.",
+    "detail": "In spring 1794 the allies planned to cut off the French troops who had pushed into Flanders around Courtrai and Menin. Mack's scheme sent six columns converging on Tourcoing from widely separated starting points, relying on precise timing over bad roads.\n\nWith Pichegru absent, Souham and Moreau concentrated against the columns that arrived first. On 18 May York's British and Hanoverian column, isolated and far forward, was attacked from several sides and driven back in disorder; York himself had to flee on horseback. Archduke Charles's column, among others, never came into action.\n\nThe allies attacked again at Tournai on 22 May without result. The episode exposed the divisions between the coalition's commanders and the strength of the French, now fielding larger, better-organised armies than their opponents.",
+    "significance": "Tourcoing broke the allied offensive in Flanders and opened the way for the decisive French advance of the summer of 1794.",
+    "certainty": "high",
+    "uncertaintyNote": "Loss figures, especially for guns taken, vary between sources.",
+    "sources": [
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)",
+      "Alfred H. Burne, The Noble Duke of York (1949)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "glorious-first-of-june-1794",
+    "title": "The Glorious First of June",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Brest",
+        "lon": -4.49,
+        "lat": 48.39
+      }
+    ],
+    "kind": "naval",
+    "start": "1794-05-28",
+    "end": "1794-06-01",
+    "datePrecision": "day",
+    "place": "Atlantic Ocean, some 400 nautical miles west of Ushant",
+    "lon": -18.5,
+    "lat": 47.8,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Villaret-Joyeuse",
+        "Jean Bon Saint-André"
+      ],
+      "opponent": [
+        "Lord Howe"
+      ]
+    },
+    "strength": {
+      "focus": "26 ships of the line",
+      "opponent": "25 ships of the line"
+    },
+    "casualties": "French c. 4,000 killed and wounded and c. 3,000 captured, seven ships lost; British c. 1,200 killed and wounded",
+    "outcome": "defeat",
+    "summary": "Howe's Channel Fleet breaks the French line in the Atlantic and takes six ships, but the vital grain convoy from America reaches Brest.",
+    "detail": "France faced famine in 1794, and a great convoy of grain ships was sailing from Chesapeake Bay. Villaret-Joyeuse took the Brest fleet to sea to cover it, with the representative Jean Bon Saint-André aboard to keep him zealous. Howe's Channel Fleet found him far out in the Atlantic, and after skirmishes on 28 and 29 May and days of fog the main battle was fought on 1 June.\n\nHowe ordered each of his ships to cut through the French line and engage from leeward. Only some managed it, but the result was a close-quarters mêlée in which the British gunnery prevailed. Six French ships were captured and a seventh, the Vengeur du Peuple, sank, becoming a Republican legend of defiance.\n\nYet Villaret had drawn Howe away from the convoy, which reached Brest safely a few days later. Both nations celebrated.",
+    "significance": "The first great fleet battle of the wars confirmed British tactical superiority at sea, but France's strategic aim, the grain, was achieved.",
+    "certainty": "high",
+    "uncertaintyNote": "The fleets fought over a wide stretch of ocean around 47°48′N, 18°30′W; the pin marks that position. French casualty figures are uncertain.",
+    "sources": [
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "Michael Duffy and Roger Morriss (eds), The Glorious First of June 1794: A Naval Battle and its Aftermath (2001)",
+      "William James, The Naval History of Great Britain, vol. 1 (1822)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fleurus-1794",
+    "title": "Battle of Fleurus",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Charleroi",
+        "lon": 4.44,
+        "lat": 50.41
+      }
+    ],
+    "kind": "battle",
+    "start": "1794-06-26",
+    "datePrecision": "day",
+    "place": "Fleurus, near Charleroi, Austrian Netherlands (Belgium)",
+    "lon": 4.55,
+    "lat": 50.48,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic (Army of the Sambre-et-Meuse)",
+      "opponent": "Austria and the Dutch Republic"
+    },
+    "commanders": {
+      "focus": [
+        "Jourdan",
+        "Kléber",
+        "Marceau",
+        "Lefebvre",
+        "Saint-Just (representative)"
+      ],
+      "opponent": [
+        "Prince of Saxe-Coburg",
+        "Prince of Orange"
+      ]
+    },
+    "strength": {
+      "focus": "c. 75,000–80,000",
+      "opponent": "c. 50,000"
+    },
+    "casualties": "Several thousand on each side; French perhaps c. 5,000, allies somewhat fewer",
+    "outcome": "victory",
+    "summary": "Jourdan beats Coburg on a wide front north of Charleroi, helped by the first military observation balloon. Belgium falls to France for twenty years.",
+    "detail": "After repeated failures, the French finally took Charleroi on 25 June 1794, just before Coburg arrived to relieve it. Next day he attacked Jourdan's army, drawn up in a long arc north of the town, in five columns.\n\nThe fighting lasted all day and at several points the French line gave ground; Marceau's division on the right was badly shaken. But Jourdan fed reserves to each threatened sector, Lefebvre held the centre at Fleurus, and Coburg, learning that Charleroi had already fallen, broke off the battle. Above the field the balloon l'Entreprenant, crewed by the aerostatic company under Coutelle, reported allied movements, the first such use in war.\n\nThe allies began a general retreat. Brussels was entered on 10 July, and Austria effectively gave up the Netherlands.",
+    "significance": "Fleurus decided the war in the Low Countries: Belgium was annexed and the road to the Dutch Republic opened. A month later the victories helped make Robespierre dispensable.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures differ widely between sources; the effect of the balloon on the outcome is debated.",
+    "sources": [
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 2 (1929)",
+      "David G. Chandler, Dictionary of the Napoleonic Wars (1979)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "dutch-republic-conquest-1795",
+    "title": "Winter Conquest of the Dutch Republic",
+    "geometry": "area",
+    "radiusKm": 110,
+    "markers": [
+      {
+        "name": "Amsterdam",
+        "lon": 4.9,
+        "lat": 52.37
+      },
+      {
+        "name": "Den Helder (fleet captured)",
+        "lon": 4.76,
+        "lat": 52.96
+      },
+      {
+        "name": "Nijmegen",
+        "lon": 5.86,
+        "lat": 51.84
+      }
+    ],
+    "kind": "campaign",
+    "start": "1794-12-27",
+    "end": "1795-01-23",
+    "datePrecision": "day",
+    "place": "The United Provinces (Netherlands)",
+    "lon": 5.2,
+    "lat": 52.3,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic, with Dutch Patriots",
+      "opponent": "Dutch Republic and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Pichegru",
+        "Daendels",
+        "Lahure"
+      ],
+      "opponent": [
+        "William V, Prince of Orange",
+        "Walmoden",
+        "Harcourt"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "In a savage frost Pichegru's army crosses the frozen rivers into Holland. The Stadholder flees, and French hussars take the icebound Dutch fleet near Den Helder.",
+    "detail": "The Dutch Republic's water defences had long made it hard to invade. In the bitter winter of 1794–95 they froze. From late December Pichegru's troops crossed the Maas and Waal on the ice, while the British army, whose commander the Duke of York had been recalled, retreated north-east in terrible conditions towards Germany, losing thousands to cold and sickness.\n\nDutch Patriots rose in the towns. Stadholder William V sailed for England on 18 January 1795, and French troops entered Amsterdam the next day to a largely friendly welcome. On 23 January a small detachment of hussars and infantry under Lieutenant-Colonel Lahure reached the Dutch warships frozen in near Den Helder and accepted their surrender: a famous oddity, a fleet taken by cavalry.\n\nThe Batavian Republic was proclaimed, and the Treaty of The Hague in May bound it to France with a heavy indemnity.",
+    "significance": "France gained a sister republic, its navy and its wealth; Britain lost its main continental ally and seized Dutch colonies such as the Cape in response.",
+    "certainty": "high",
+    "uncertaintyNote": "The capture of the fleet is often romanticised as a cavalry charge across the ice; in fact the ships, already ordered not to resist, surrendered to the approaching detachment.",
+    "sources": [
+      "Simon Schama, Patriots and Liberators: Revolution in the Netherlands 1780–1813 (1977)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "peace-of-basel-1795",
+    "title": "Peace of Basel",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1795-04-05",
+    "datePrecision": "day",
+    "place": "Basel, Switzerland",
+    "lon": 7.59,
+    "lat": 47.56,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Prussia (and Spain, 22 July 1795)"
+    },
+    "commanders": {
+      "focus": [
+        "François Barthélemy"
+      ],
+      "opponent": [
+        "Hardenberg"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Prussia makes a separate peace with the Republic, abandoning the coalition and quietly accepting French occupation of the Rhine's left bank. Spain follows in July.",
+    "detail": "By 1795 Prussia was more interested in the partition of Poland than in the war in the west, and short of money now that British subsidies had lapsed. At Basel on 5 April its envoy, Hardenberg, signed peace with the French ambassador François Barthélemy.\n\nPrussia left the war, and a later convention created a neutral zone covering northern Germany. In secret articles Prussia accepted French occupation of its lands west of the Rhine pending a general peace, in return for the promise of compensation on the right bank.\n\nOn 22 July Spain made its own peace at Basel, ceding its half of Hispaniola; the next year it became France's ally against Britain. Hesse-Kassel also came to terms.",
+    "significance": "Basel broke the First Coalition, leaving Austria and Britain to fight on, and gave northern Germany a decade of neutrality that ended at Jena in 1806.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Text of the Treaty of Basel, 5 April 1795"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "quiberon-1795",
+    "title": "Quiberon Expedition",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Fort Penthièvre",
+        "lon": -3.13,
+        "lat": 47.53
+      },
+      {
+        "name": "Auray",
+        "lon": -2.98,
+        "lat": 47.67
+      }
+    ],
+    "kind": "battle",
+    "start": "1795-06-27",
+    "end": "1795-07-21",
+    "datePrecision": "day",
+    "place": "Quiberon peninsula, Brittany",
+    "lon": -3.12,
+    "lat": 47.5,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "French émigré regiments and Chouans, landed by Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Hoche"
+      ],
+      "opponent": [
+        "Puisaye",
+        "d'Hervilly",
+        "Sombreuil"
+      ]
+    },
+    "casualties": "Several thousand émigrés and Chouans killed or captured; about 750 prisoners were afterwards shot",
+    "outcome": "victory",
+    "summary": "A British-backed landing of émigré regiments on the Breton coast is bottled up on the Quiberon peninsula and destroyed by Hoche; hundreds of prisoners are shot.",
+    "detail": "Britain hoped to reignite the royalist west. In late June 1795 a squadron under Warren landed several thousand émigré troops, many of them in British pay, at Carnac, where Chouan bands came to join them. Divided command between Puisaye and d'Hervilly wasted precious days, and Hoche was able to seal off the Quiberon peninsula, into which the royalists withdrew.\n\nOn the night of 20–21 July, guided by deserters, Hoche's troops surprised Fort Penthièvre and drove the royalists to the tip of the peninsula. Some escaped to British boats; Sombreuil, commanding a newly landed division, surrendered with the rest.\n\nDespite hopes of clemency, military commissions condemned the émigrés as traitors taken in arms, and around 750, Sombreuil among them, were shot near Auray and Vannes.",
+    "significance": "Quiberon ended hopes of a British-supported royalist restoration by invasion and made Hoche the Republic's most celebrated young general.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether Sombreuil was promised quarter at the surrender was disputed at the time and remains unclear.",
+    "sources": [
+      "Maurice Hutt, Chouannerie and Counter-Revolution: Puisaye, the Princes and the British Government in the 1790s (1983)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "N.A.M. Rodger, The Command of the Ocean (2004)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "vendemiaire-1795",
+    "title": "13 Vendémiaire",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Church of Saint-Roch",
+        "lon": 2.333,
+        "lat": 48.865
+      }
+    ],
+    "kind": "political",
+    "start": "1795-10-05",
+    "datePrecision": "day",
+    "place": "Paris, around the Tuileries and Saint-Roch",
+    "lon": 2.333,
+    "lat": 48.863,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic (the National Convention)",
+      "opponent": "Royalist and moderate Paris sections"
+    },
+    "commanders": {
+      "focus": [
+        "Barras",
+        "Bonaparte",
+        "Murat"
+      ],
+      "opponent": [
+        "Danican"
+      ]
+    },
+    "strength": {
+      "focus": "c. 5,000–6,000 troops with artillery",
+      "opponent": "perhaps 20,000–25,000 National Guards"
+    },
+    "casualties": "A few hundred killed and wounded, mostly among the insurgents",
+    "outcome": "victory",
+    "summary": "Bonaparte's cannon smash a royalist-leaning rising of the Paris sections against the Convention, the ‘whiff of grapeshot’ that launched his political career.",
+    "detail": "The Convention's decree that two-thirds of the new legislature must come from its own ranks enraged the wealthier sections of Paris, where royalist sympathy was growing. On 13 Vendémiaire Year IV (5 October 1795) their National Guards marched on the Tuileries.\n\nBarras, given charge of the defence, turned to Bonaparte, who was in Paris without a command. Murat's cavalry fetched cannon from the camp at Sablons, and they were posted to sweep the approaches. When the columns advanced along the rue Saint-Honoré, the guns fired grapeshot at close range around the church of Saint-Roch, and the attack dissolved within hours.\n\nIt was a small affair by the standards of the Revolution's journées, but decisive. The Directory was installed on schedule, and Bonaparte was rewarded with command of the Army of the Interior.",
+    "significance": "Vendémiaire showed that the army, not the crowd, now decided politics in Paris, and made Bonaparte indispensable to Barras; in March 1796 he received the Army of Italy.",
+    "certainty": "high",
+    "uncertaintyNote": "Numbers of insurgents under arms and casualties are poorly recorded. The ‘whiff of grapeshot’ is Carlyle's later phrase.",
+    "sources": [
+      "Philip Dwyer, Napoleon: The Path to Power 1769–1799 (2007)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 1",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "montenotte-1796",
+    "title": "Battle of Montenotte",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1796-04-12",
+    "datePrecision": "day",
+    "place": "Montenotte, Ligurian Apennines (Cairo Montenotte, Liguria)",
+    "lon": 8.38,
+    "lat": 44.39,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Masséna",
+        "Laharpe"
+      ],
+      "opponent": [
+        "Argenteau",
+        "Beaulieu"
+      ]
+    },
+    "casualties": "French c. 800; Austrians c. 2,500 including prisoners",
+    "outcome": "victory",
+    "summary": "Bonaparte's first victory as an army commander: concentrating against an exposed Austrian wing in the Apennines, he opens the wedge between the Austrian and Piedmontese armies.",
+    "detail": "Bonaparte took over a ragged, unpaid Army of Italy on the Riviera in March 1796. The enemy were divided: Beaulieu's Austrians to the east, Colli's Piedmontese to the west. When an Austrian wing under Argenteau pushed forward over the mountains towards Savona and was checked at the redoubt of Monte Negino, Bonaparte saw his chance.\n\nOn 12 April Laharpe attacked Argenteau frontally while Masséna swung round his flank through the mist. The outnumbered Austrians broke, losing heavily in prisoners.\n\nFurther blows followed at Millesimo, Dego and Mondovì. Cut off from its ally, Piedmont signed the armistice of Cherasco on 28 April, handing over its fortresses and leaving the French free to turn on the Austrians in Lombardy.",
+    "significance": "Montenotte began the Italian campaign that made Bonaparte famous, and showed his method: concentrate quickly against the hinge between divided enemies.",
+    "certainty": "high",
+    "uncertaintyNote": "Strengths actually engaged are uncertain; Argenteau's force in the action numbered only a few thousand.",
+    "sources": [
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lodi-1796",
+    "title": "Battle of Lodi",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1796-05-10",
+    "datePrecision": "day",
+    "place": "Lodi, bridge over the Adda, Lombardy",
+    "lon": 9.5,
+    "lat": 45.31,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Masséna",
+        "Berthier",
+        "Lannes"
+      ],
+      "opponent": [
+        "Sebottendorf",
+        "Beaulieu"
+      ]
+    },
+    "strength": {
+      "focus": "c. 15,000–17,000 at hand",
+      "opponent": "c. 9,500 in the rearguard"
+    },
+    "casualties": "French c. 350–900; Austrians c. 2,000 including prisoners",
+    "outcome": "victory",
+    "summary": "French grenadiers storm the long bridge over the Adda under fire. A modest rearguard action, it becomes a legend and opens the road to Milan.",
+    "detail": "After Piedmont's armistice, Bonaparte crossed the Po behind the Austrian army, and Beaulieu fell back eastwards across the Adda. On 10 May the French caught his rearguard under Sebottendorf defending the wooden bridge at Lodi, some 200 metres long, with guns covering its far end.\n\nBonaparte sited his own artillery himself, and at about six in the evening sent a column of grenadiers across. It wavered under the Austrian fire until Masséna, Berthier, Lannes and other officers rushed to its head; at the same time cavalry forded the river upstream. The Austrians retreated, having lost guns and many prisoners.\n\nThe main Austrian army escaped, and militarily Lodi decided little. But the tale of the bridge spread quickly, and Bonaparte entered Milan on 15 May.",
+    "significance": "Lodi mattered for what it did to Bonaparte's reputation, and by his own later account to his sense of his own destiny. It opened Lombardy to French occupation and requisition.",
+    "certainty": "high",
+    "uncertaintyNote": "French losses are disputed; Bonaparte's reports minimised them. The story that his soldiers nicknamed him ‘the little corporal’ after Lodi is traditional and hard to verify.",
+    "sources": [
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Correspondance de Napoléon Ier, vol. 1 (1858)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mantua-1797",
+    "title": "Siege and Surrender of Mantua",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1796-06-04",
+    "end": "1797-02-02",
+    "datePrecision": "day",
+    "place": "Mantua (Mantova), Lombardy",
+    "lon": 10.79,
+    "lat": 45.16,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Sérurier",
+        "Bonaparte"
+      ],
+      "opponent": [
+        "Canto d'Irles",
+        "Wurmser"
+      ]
+    },
+    "casualties": "Many thousands of the garrison and townspeople died of disease and hunger; c. 16,000 men, many of them sick, capitulated",
+    "outcome": "victory",
+    "summary": "After eight months of blockade and four failed relief attempts, the fortress of Mantua, shut in by fever-ridden marshes, surrenders to the French.",
+    "detail": "Mantua, ringed by lakes formed by the Mincio, was the key to Austrian power in northern Italy. The French blockaded it from early June 1796, abandoned the siege when Wurmser advanced in late July, then closed in again. In September Wurmser himself, defeated at Bassano, fought his way into the fortress with the remains of his army, adding thousands more mouths to feed.\n\nThe marshes bred malaria, and the garrison and inhabitants suffered terribly from fever, hunger and exhaustion; horses were eaten and many thousands died. Every Austrian offensive of 1796–97 was aimed at relieving the city, and every one was defeated.\n\nAfter Rivoli, Wurmser accepted terms. On 2 February 1797 the fortress capitulated and its garrison, many of them too sick to march, went into captivity; Wurmser was allowed to leave freely.",
+    "significance": "The fall of Mantua completed the French conquest of northern Italy and freed Bonaparte to invade Austria in the spring of 1797.",
+    "certainty": "high",
+    "uncertaintyNote": "The date of the start of the blockade is variously given as late May or early June 1796; deaths in the garrison are variously estimated.",
+    "sources": [
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Philip Dwyer, Napoleon: The Path to Power 1769–1799 (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "castiglione-1796",
+    "title": "Battle of Castiglione",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1796-08-05",
+    "datePrecision": "day",
+    "place": "Between Castiglione delle Stiviere and Solferino, Lombardy",
+    "lon": 10.5,
+    "lat": 45.38,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Augereau",
+        "Masséna",
+        "Fiorella"
+      ],
+      "opponent": [
+        "Wurmser"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000",
+      "opponent": "c. 25,000"
+    },
+    "casualties": "French c. 1,100–1,500; Austrians c. 2,000 killed and wounded and c. 1,000 captured",
+    "outcome": "victory",
+    "summary": "Bonaparte defeats the first Austrian attempt to relieve Mantua, beating Wurmser's divided columns in turn and breaking him at Castiglione with a flank attack.",
+    "detail": "At the end of July 1796 Wurmser came down from the Tyrol with a new Austrian army in two widely separated columns, one each side of Lake Garda. Bonaparte took the hard decision to abandon the siege of Mantua, spiking his siege guns, and concentrated everything against the enemy's divided forces.\n\nAfter defeating Quasdanovich's western column at Lonato on 3 August, he turned on Wurmser's main body. On 5 August Augereau and Masséna pinned the Austrians in front, while Sérurier's division, led by Fiorella in place of the sick Sérurier, marched in from the south against their left flank and rear. Wurmser pulled back to the Mincio and then to the Tyrol.\n\nAugereau, who had steadied the army in the crisis, later took his ducal title from the town.",
+    "significance": "Castiglione, with Lonato, defeated the first of four Austrian attempts to relieve Mantua and displayed Bonaparte's use of interior lines at its best.",
+    "certainty": "high",
+    "sources": [
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "arcole-1796",
+    "title": "Battle of Arcole",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1796-11-15",
+    "end": "1796-11-17",
+    "datePrecision": "day",
+    "place": "Arcole, marshes of the Alpone, Veneto",
+    "lon": 11.28,
+    "lat": 45.36,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Augereau",
+        "Masséna",
+        "Lannes"
+      ],
+      "opponent": [
+        "Alvinczi"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000",
+      "opponent": "c. 24,000"
+    },
+    "casualties": "French c. 4,500; Austrians c. 6,000–7,000 including prisoners",
+    "outcome": "victory",
+    "summary": "Three days of fighting along causeways through the Alpone marshes. Bonaparte's attempt to lead a charge across the bridge becomes an icon; persistence finally forces Alvinczi back.",
+    "detail": "In November 1796 a third Austrian relief army under Alvinczi advanced on Verona, where Bonaparte's army was tired, sick and outnumbered. Rather than fight on open ground, he struck at the Austrian flank and communications by crossing the Adige at Ronco and advancing along narrow dykes through the marshes towards Villanova.\n\nThe small bridge over the Alpone at Arcole blocked the way. On 15 November repeated assaults failed; when Bonaparte seized a flag and tried to lead one himself, he was swept off the causeway into a ditch, and his aide Muiron was killed. Fighting continued on 16 and 17 November until French pressure, and a ruse with a few trumpeters sent round the Austrian flank, persuaded Alvinczi to withdraw.\n\nThe cost was heavy on both sides, and the army was close to exhaustion.",
+    "significance": "Arcole defeated the third attempt to relieve Mantua. Gros's painting of Bonaparte on the bridge made it one of the founding images of his legend.",
+    "certainty": "high",
+    "uncertaintyNote": "Details of Bonaparte's personal exploit were embroidered in his bulletins and in later art; losses are disputed.",
+    "sources": [
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rivoli-1797",
+    "title": "Battle of Rivoli",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Plateau of Rivoli",
+        "lon": 10.81,
+        "lat": 45.57
+      }
+    ],
+    "kind": "battle",
+    "start": "1797-01-14",
+    "end": "1797-01-15",
+    "datePrecision": "day",
+    "place": "Plateau of Rivoli (Rivoli Veronese), above the Adige",
+    "lon": 10.81,
+    "lat": 45.57,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Army of Italy",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Joubert",
+        "Masséna"
+      ],
+      "opponent": [
+        "Alvinczi",
+        "Quasdanovich",
+        "Lusignan"
+      ]
+    },
+    "strength": {
+      "focus": "c. 22,000–23,000",
+      "opponent": "c. 28,000"
+    },
+    "casualties": "French c. 3,000–5,000; Austrians c. 12,000–14,000, most of them prisoners",
+    "outcome": "victory",
+    "summary": "Alvinczi's final relief attempt is shattered on the Rivoli plateau. Masséna's night march and Joubert's stand turn near-encirclement into a crushing victory.",
+    "detail": "In January 1797 Alvinczi descended the Adige valley from the Tyrol in six separate columns, aiming to envelop Joubert's division on the plateau of Rivoli. Bonaparte, guessing correctly where the main blow would fall, hurried there overnight, and Masséna's division marched through the night from Verona to join him.\n\nOn 14 January the Austrian columns converged from the north, from the valley road below and, under Lusignan, round the French rear. For some hours the position looked desperate. But the columns arrived piecemeal, the valley column was thrown back as it struggled up the Osteria gorge, and Lusignan's force, isolated behind the French, was trapped and forced to surrender.\n\nBonaparte then hurried south with Masséna to defeat Provera's attempt to break through to Mantua at La Favorita on 16 January.",
+    "significance": "Rivoli was the decisive battle of the Italian campaign: it destroyed the last Austrian army able to save Mantua and opened the road to Austria itself.",
+    "certainty": "high",
+    "uncertaintyNote": "Austrian losses depend on how many stragglers taken in the pursuit are counted; French losses are variously given.",
+    "sources": [
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "cape-st-vincent-1797",
+    "title": "Battle of Cape St Vincent",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Cape St Vincent",
+        "lon": -9,
+        "lat": 37.02
+      }
+    ],
+    "kind": "naval",
+    "start": "1797-02-14",
+    "datePrecision": "day",
+    "place": "Atlantic, south-west of Cape St Vincent, Portugal",
+    "lon": -9.45,
+    "lat": 36.85,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "Spain (allied to the French Republic)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "José de Córdoba"
+      ],
+      "opponent": [
+        "Sir John Jervis",
+        "Nelson",
+        "Collingwood"
+      ]
+    },
+    "strength": {
+      "focus": "27 ships of the line",
+      "opponent": "15 ships of the line"
+    },
+    "casualties": "Spanish c. 800 killed and wounded and c. 3,000 captured, four ships taken; British c. 300 killed and wounded",
+    "outcome": "defeat",
+    "summary": "Jervis attacks a much larger Spanish fleet and takes four ships. Nelson leaves the line without orders and boards two Spanish ships in succession.",
+    "detail": "Spain had joined France in 1796, and its fleet, sailing from Cartagena towards Cádiz, was intended to combine with the French for a possible invasion of Britain or Ireland. Jervis, commanding the Mediterranean fleet, met it off Cape St Vincent with fifteen ships to twenty-seven, the Spanish ships poorly manned and strung out in two groups.\n\nJervis drove his line between the two groups. As the larger Spanish group tried to escape round the British rear, Commodore Nelson in the Captain turned out of line on his own initiative to block it. His ship was battered, but he boarded the San Nicolás and from her the San José, while Collingwood and others brought fire to bear. Four Spanish ships were taken; the huge Santísima Trinidad escaped.\n\nThe victory came at a moment of acute anxiety in Britain.",
+    "significance": "St Vincent ended the immediate danger of a Franco-Spanish combination, earned Jervis his earldom and made Nelson a national figure.",
+    "certainty": "high",
+    "uncertaintyNote": "The position is approximate; Spanish casualty figures vary.",
+    "sources": [
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "William James, The Naval History of Great Britain, vol. 2 (1823)",
+      "Roger Knight, The Pursuit of Victory: The Life and Achievement of Horatio Nelson (2005)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "leoben-1797",
+    "title": "Preliminaries of Leoben",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1797-04-18",
+    "datePrecision": "day",
+    "place": "Leoben, Styria",
+    "lon": 15.09,
+    "lat": 47.38,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Republic (Bonaparte)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte"
+      ],
+      "opponent": [
+        "Merveldt",
+        "Marquis de Gallo"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "With his army deep in Styria and within reach of Vienna, Bonaparte signs peace preliminaries with Austria on his own authority, bypassing the Directory.",
+    "detail": "In March 1797 Bonaparte crossed the Julian Alps against the Archduke Charles, now commanding in Italy, and pushed rapidly north through Carinthia into Styria. His vanguard reached the Semmering, little more than 100 kilometres from Vienna, where the court prepared to flee. But his army was far from home and the Rhine armies had not yet advanced, so he offered an armistice.\n\nAt Leoben on 18 April he signed preliminaries of peace. Austria would give up Belgium and Lombardy; in secret articles it was to be compensated with the Venetian mainland, even though Venice was a neutral state.\n\nBonaparte acted without the Directory's authority, presenting Paris with a fait accompli. On the same days Hoche and Moreau were at last crossing the Rhine, too late to matter.",
+    "significance": "Leoben ended the fighting of the First Coalition on the continent and showed Bonaparte acting as a statesman in his own right.",
+    "certainty": "high",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
+      "Philip Dwyer, Napoleon: The Path to Power 1769–1799 (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fall-of-venice-1797",
+    "title": "Fall of the Venetian Republic",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1797-05-12",
+    "datePrecision": "day",
+    "place": "Venice",
+    "lon": 12.34,
+    "lat": 45.44,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Republic of Venice"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Baraguey d'Hilliers"
+      ],
+      "opponent": [
+        "Doge Ludovico Manin"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "Under French threat, Venice's Great Council votes itself out of existence, ending over a thousand years of the Most Serene Republic. French troops enter the city days later.",
+    "detail": "Neutral but defenceless, Venice had seen its mainland territories fought over and plundered by both sides throughout 1796. In April 1797, with Bonaparte away in Austria, the Veronese rose against the French garrison, and on 20 April Venetian forts fired on a French ship entering the Lido, killing its captain.\n\nBonaparte, who had already agreed at Leoben that Austria should have Venetian territory, used these incidents as his pretext and declared war on 1 May. On 12 May the Great Council, meeting under threat and without a quorum, voted to abolish the aristocratic constitution; Doge Manin abdicated, and a provisional municipality took over. French troops entered on 16 May.\n\nThe French removed art, ships and treasure, including the bronze horses of St Mark's.",
+    "significance": "The end of Venice was the most cynical act of the Italian campaign; at Campo Formio the city itself was handed to Austria.",
+    "certainty": "high",
+    "sources": [
+      "John Julius Norwich, A History of Venice (1982)",
+      "Philip Dwyer, Napoleon: The Path to Power 1769–1799 (2007)",
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "camperdown-1797",
+    "title": "Battle of Camperdown",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1797-10-11",
+    "datePrecision": "day",
+    "place": "North Sea, off Camperduin, Holland",
+    "lon": 4.45,
+    "lat": 52.75,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "Batavian Republic (allied to the French Republic)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Jan Willem de Winter"
+      ],
+      "opponent": [
+        "Adam Duncan"
+      ]
+    },
+    "strength": {
+      "focus": "c. 16 ships of the line and smaller vessels",
+      "opponent": "16 ships of the line"
+    },
+    "casualties": "British c. 1,000 killed and wounded; Dutch c. 1,100 killed and wounded and several thousand captured",
+    "outcome": "defeat",
+    "summary": "Duncan's North Sea fleet, only months after mutiny, smashes the Batavian fleet off the Dutch coast in the hardest-fought sea battle of the war, capturing de Winter himself.",
+    "detail": "The Dutch fleet at the Texel was meant to support a French descent on Ireland or Britain, and in the summer of 1797 Duncan had kept up the blockade even while most of his ships were paralysed by the Nore mutiny. When de Winter finally put to sea in October, Duncan's fleet caught him off the coast near Camperduin on 11 October.\n\nDuncan attacked at once in two loose groups, breaking the Dutch line at two points to fight before the enemy could reach shallow water. The Dutch fought with great courage, and the casualties on both sides were unusually heavy, since the Dutch aimed at hulls rather than rigging. After hours of close combat de Winter's flagship Vrijheid, dismasted, struck, and about half the Dutch line was taken.",
+    "significance": "Camperdown destroyed the Batavian navy as a fighting force and ended the threat of a Dutch-supported invasion; it restored confidence in the Royal Navy after the mutinies.",
+    "certainty": "high",
+    "uncertaintyNote": "Counts of ships captured vary with how 50-gun ships and frigates are classed (usually given as nine to eleven vessels). The position is approximate.",
+    "sources": [
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "William James, The Naval History of Great Britain, vol. 2 (1823)",
+      "Simon Schama, Patriots and Liberators: Revolution in the Netherlands 1780–1813 (1977)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "campo-formio-1797",
+    "title": "Treaty of Campo Formio",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Campo Formio (Campoformido)",
+        "lon": 13.16,
+        "lat": 46.02
+      }
+    ],
+    "kind": "treaty",
+    "start": "1797-10-17",
+    "datePrecision": "day",
+    "place": "Passariano (Villa Manin), near Campo Formio (Campoformido), Friuli",
+    "lon": 13,
+    "lat": 45.93,
+    "locationCertainty": "exact",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte"
+      ],
+      "opponent": [
+        "Count Ludwig von Cobenzl"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Austria makes peace: it cedes Belgium, recognises the Cisalpine Republic and secretly accepts the Rhine frontier, taking Venice as its reward. The First Coalition is over.",
+    "detail": "Negotiations after Leoben dragged on through the summer, while in Paris the coup of 18 Fructidor (4 September), backed by troops Bonaparte sent, purged royalist deputies and stiffened the Directory. Bonaparte then negotiated with Cobenzl at Passariano, the Friulian villa of the last Doge of Venice, largely on his own terms.\n\nThe treaty, signed on the night of 17 October and named after the nearby village of Campo Formio, gave France Belgium and the Ionian Islands and confirmed the Cisalpine Republic in Lombardy. Austria received Venice, Istria and Dalmatia. Secret articles promised French possession of most of the left bank of the Rhine, to be settled with the Empire at a congress at Rastatt.\n\nBritain alone remained at war with France.",
+    "significance": "Campo Formio ended the First Coalition, redrew the map of Italy and made Bonaparte the most famous man in France; it was a truce as much as a peace.",
+    "certainty": "high",
+    "uncertaintyNote": "The treaty is dated 17 October; some accounts give 18 October because signature ran past midnight.",
+    "sources": [
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Text of the Treaty of Campo Formio, 17 October 1797"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "irish-rising-1798",
+    "title": "The Irish Rising and Humbert's Landing",
+    "geometry": "area",
+    "radiusKm": 190,
+    "markers": [
+      {
+        "name": "Vinegar Hill",
+        "lon": -6.55,
+        "lat": 52.5
+      },
+      {
+        "name": "Castlebar",
+        "lon": -9.3,
+        "lat": 53.86
+      },
+      {
+        "name": "Ballinamuck",
+        "lon": -7.72,
+        "lat": 53.87
+      }
+    ],
+    "kind": "campaign",
+    "start": "1798-05-23",
+    "end": "1798-09-23",
+    "datePrecision": "day",
+    "place": "Ireland: Leinster, Ulster and Connacht",
+    "lon": -7.7,
+    "lat": 53.3,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "United Irishmen, with a small French expeditionary force",
+      "opponent": "Britain (the Irish government, army, militia and yeomanry)"
+    },
+    "commanders": {
+      "focus": [
+        "Humbert",
+        "Wolfe Tone",
+        "Bagenal Harvey",
+        "Henry Joy McCracken"
+      ],
+      "opponent": [
+        "Lord Cornwallis",
+        "Lake",
+        "Hutchinson"
+      ]
+    },
+    "casualties": "Perhaps 10,000–30,000 dead, overwhelmingly Irish rebels and civilians; estimates vary widely",
+    "outcome": "defeat",
+    "summary": "The United Irishmen rise in hope of French aid; the rising is crushed with great brutality. In August Humbert lands in Mayo, routs the redcoats at Castlebar, but must surrender.",
+    "detail": "Inspired by the French Revolution, the United Irishmen planned a republican rising with French help; Hoche's expedition to Bantry Bay had failed in the winter storms of 1796. Arrests broke much of their leadership, but the rising began on 23–24 May 1798. It was strongest in Wexford, where the rebels held the county for weeks until defeated at Vinegar Hill on 21 June, and flared in Antrim and Down. Atrocities were committed on both sides, from the burning of loyalist prisoners at Scullabogue to floggings, pitch-capping and summary executions by the crown forces.\n\nFrench help came too late. General Humbert landed at Killala Bay on 22 August with about 1,000 men, gathered Irish recruits, and on 27 August put a larger government force to flight at Castlebar, a rout mocked as the ‘Races of Castlebar’. Surrounded at Ballinamuck on 8 September, the French surrendered as prisoners of war; their Irish allies were cut down or hanged. Wolfe Tone, captured with another French squadron in October, died in prison.",
+    "significance": "The rising was the bloodiest episode in modern Irish history and led directly to the Act of Union of 1800; France's failure to send timely help was a lost strategic opportunity.",
+    "certainty": "high",
+    "uncertaintyNote": "The death toll is very uncertain; older figures of 30,000 or more are now often thought too high. Strength at Castlebar is disputed; the crown forces probably outnumbered the Franco-Irish force by two or more to one.",
+    "sources": [
+      "Thomas Pakenham, The Year of Liberty: The Great Irish Rebellion of 1798 (1969)",
+      "Marianne Elliott, Partners in Revolution: The United Irishmen and France (1982)",
+      "N.A.M. Rodger, The Command of the Ocean (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "malta-1798",
+    "title": "Capture of Malta",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1798-06-09",
+    "end": "1798-06-12",
+    "datePrecision": "day",
+    "place": "Valletta, Malta",
+    "lon": 14.51,
+    "lat": 35.9,
+    "locationCertainty": "exact",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Order of St John (Knights of Malta)"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Vaubois",
+        "Desaix"
+      ],
+      "opponent": [
+        "Grand Master Ferdinand von Hompesch"
+      ]
+    },
+    "casualties": "Light on both sides",
+    "outcome": "victory",
+    "summary": "On its way to Egypt, Bonaparte's armada seizes Malta from the Knights of St John almost without a fight, taking the island's fortress-harbour and treasure.",
+    "detail": "The great expedition that sailed from Toulon and other ports in May 1798, some 35,000 soldiers in hundreds of transports, arrived off Malta on 9 June. Bonaparte demanded water for his whole fleet; when the Grand Master, Hompesch, would allow only a few ships in at a time, the French landed at several points on 10 June.\n\nThe Order was divided, many of its French knights unwilling to fight their countrymen, and the Maltese militia had little faith in its rulers. After scattered resistance Hompesch agreed a capitulation on 12 June, surrendering the formidable fortifications of Valletta, which could have withstood a long siege.\n\nBonaparte stayed a week, abolishing the Order, feudal privileges and the Inquisition, and removing the Order's silver and treasure. Vaubois was left with a garrison as the fleet sailed on for Alexandria.",
+    "significance": "Malta gave France a base in the central Mediterranean, but within months the Maltese rose against French requisitions; blockaded by Britain, Valletta surrendered in September 1800.",
+    "certainty": "high",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "Paul Strathern, Napoleon in Egypt (2007)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 4"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "pyramids-1798",
+    "title": "Battle of the Pyramids",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Pyramids of Giza",
+        "lon": 31.13,
+        "lat": 29.98
+      }
+    ],
+    "kind": "battle",
+    "start": "1798-07-21",
+    "datePrecision": "day",
+    "place": "Embabeh (Imbaba), west bank of the Nile opposite Cairo",
+    "lon": 31.21,
+    "lat": 30.08,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Mamluk rulers of Egypt"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Desaix",
+        "Reynier",
+        "Bon",
+        "Dugua"
+      ],
+      "opponent": [
+        "Murad Bey",
+        "Ibrahim Bey"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000–25,000",
+      "opponent": "c. 6,000 Mamluk cavalry and a larger number of infantry and auxiliaries"
+    },
+    "casualties": "French c. 300 killed and wounded; Mamluks and their followers several thousand, many drowned in the Nile",
+    "outcome": "victory",
+    "summary": "Within sight of the distant pyramids, French divisional squares shatter the charges of Murad Bey's Mamluk horsemen. Cairo falls three days later.",
+    "detail": "After landing at Alexandria on 1 July, Bonaparte's army marched south through the desert and along the Nile, suffering from heat and thirst. Near Embabeh, on the west bank opposite Cairo, it met the Mamluk beys: Murad with his cavalry and an entrenched camp of infantry on the river, Ibrahim with further forces on the east bank.\n\nBonaparte formed his five divisions into great hollow squares, with guns at the corners. The Mamluk cavalry, splendid horsemen but untrained for such warfare, charged repeatedly and were cut down by volleys and grapeshot. The squares then advanced on the entrenched camp, which collapsed; many of its defenders drowned trying to cross the Nile.\n\nMurad escaped to Upper Egypt, where Desaix would pursue him for a year. Ibrahim withdrew to Syria, and the French entered Cairo on 24 July.",
+    "significance": "The battle delivered Egypt's capital to Bonaparte and ended Mamluk power in Lower Egypt; its name, chosen by Bonaparte, gave his legend an exotic setting.",
+    "certainty": "high",
+    "uncertaintyNote": "The pyramids of Giza were some 15 kilometres away. Mamluk and Egyptian numbers and losses are poorly recorded and often inflated in French accounts.",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 4",
+      "Abd al-Rahman al-Jabarti, chronicle of the French occupation of Egypt (trans. S. Moreh, 1975)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "battle-of-the-nile-1798",
+    "title": "Battle of the Nile",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Aboukir (Nelson's) Island",
+        "lon": 30.09,
+        "lat": 31.35
+      }
+    ],
+    "kind": "naval",
+    "start": "1798-08-01",
+    "end": "1798-08-02",
+    "datePrecision": "day",
+    "place": "Aboukir Bay, near Alexandria, Egypt",
+    "lon": 30.12,
+    "lat": 31.34,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Brueys",
+        "Villeneuve",
+        "Du Petit-Thouars"
+      ],
+      "opponent": [
+        "Nelson",
+        "Foley",
+        "Saumarez"
+      ]
+    },
+    "strength": {
+      "focus": "13 ships of the line and 4 frigates",
+      "opponent": "13 ships of the line and a 50-gun ship"
+    },
+    "casualties": "French perhaps 2,000–5,000 killed and wounded and c. 3,000 captured; British c. 900 killed and wounded",
+    "outcome": "defeat",
+    "summary": "Nelson finds the French fleet at anchor in Aboukir Bay and destroys it in a night battle. The flagship L'Orient explodes, and Bonaparte's army is marooned in Egypt.",
+    "detail": "Nelson had hunted the French expedition across the Mediterranean for weeks. On the afternoon of 1 August 1798 he found Brueys's fleet anchored in a line across Aboukir Bay, apparently secure against the shoals. Nelson attacked at once, though night was falling.\n\nCaptain Foley in the Goliath, seeing room between the leading French ship and the shoal, led several ships round the head of the line to engage it from the landward side, where the French guns were not even cleared for action; the rest attacked from seaward. The French van was crushed between two fires. At about ten o'clock the flagship L'Orient, 120 guns, blew up after a fire, killing most of her crew; Brueys had already been killed.\n\nBy the next day eleven of the thirteen French ships of the line had been taken or destroyed. Only Villeneuve escaped with two ships of the line and two frigates.",
+    "significance": "The Nile gave Britain command of the Mediterranean, trapped the Army of the Orient, and encouraged the Ottomans, Russia and Austria to form the Second Coalition against France.",
+    "certainty": "high",
+    "uncertaintyNote": "French casualties are uncertain; figures in the sources range widely.",
+    "sources": [
+      "N.A.M. Rodger, The Command of the Ocean (2004)",
+      "Brian Lavery, Nelson and the Nile: The Naval War against Bonaparte 1798 (1998)",
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "cairo-revolt-1798",
+    "title": "Revolt of Cairo",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Al-Azhar mosque",
+        "lon": 31.26,
+        "lat": 30.05
+      }
+    ],
+    "kind": "battle",
+    "start": "1798-10-21",
+    "end": "1798-10-22",
+    "datePrecision": "day",
+    "place": "Cairo, Egypt",
+    "lon": 31.26,
+    "lat": 30.05,
+    "locationCertainty": "exact",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Townspeople of Cairo"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Dupuy",
+        "Dommartin"
+      ]
+    },
+    "casualties": "French c. 250–300 killed; Egyptians perhaps 2,000–3,000 killed",
+    "outcome": "victory",
+    "summary": "Cairo rises against French taxes and occupation. Bonaparte bombards the old city and his cavalry ride into the great mosque of al-Azhar.",
+    "detail": "Bonaparte presented himself as a friend of Islam and liberator from the Mamluks, but the occupation brought heavy new taxes, requisitions, the demolition of city gates and the insult of foreign soldiers in the streets. News that the Ottoman Sultan had declared war on France added a religious call to resistance.\n\nOn 21 October 1798 crowds in the districts around al-Azhar attacked French soldiers and residents; the military governor, General Dupuy, was killed, as was Bonaparte's aide Sulkowski. Barricades went up across the old city. The next day French artillery on the citadel and the Muqattam heights bombarded the quarter around the mosque, and troops then stormed it, entering al-Azhar itself on horseback and desecrating it.\n\nIn the aftermath leading shaykhs and many suspected rebels were executed.",
+    "significance": "The revolt exposed the hollowness of the French claim to be welcomed as liberators and hardened the occupation. Egyptian memory, through the chronicler al-Jabarti, preserved its violence.",
+    "certainty": "high",
+    "uncertaintyNote": "Egyptian casualties are uncertain; French estimates were probably inflated to emphasise the scale of the repression, and some accounts give considerably lower figures.",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "Abd al-Rahman al-Jabarti, chronicle of the French occupation of Egypt (trans. S. Moreh, 1975)",
+      "Paul Strathern, Napoleon in Egypt (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jaffa-1799",
+    "title": "Siege of Jaffa and the Massacre of Prisoners",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1799-03-03",
+    "end": "1799-03-10",
+    "datePrecision": "day",
+    "place": "Jaffa (Yafo, Tel Aviv-Yafo), Ottoman Palestine",
+    "lon": 34.75,
+    "lat": 32.05,
+    "locationCertainty": "exact",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Ottoman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Lannes",
+        "Bon",
+        "Kléber"
+      ]
+    },
+    "casualties": "The town was sacked after storming; some 2,000–3,000 or more prisoners were killed on the beach over several days",
+    "outcome": "victory",
+    "summary": "Bonaparte storms Jaffa and his troops sack the town. Several thousand surrendered Ottoman soldiers are then shot and bayoneted on the beach on his orders.",
+    "detail": "Early in 1799 Bonaparte invaded Ottoman Syria to forestall an attack on Egypt. After taking El Arish, where part of the garrison was released on a promise not to fight again, the army reached Jaffa on 3 March. The governor refused to surrender, and a French envoy was killed. On 7 March the walls were breached and the town stormed.\n\nFor hours the soldiers sacked Jaffa, killing inhabitants indiscriminately. Several thousand defenders surrendered on a promise of their lives. Bonaparte, short of food and unwilling to spare escorts or release men who might fight again, had them led to the shore and killed between 8 and 10 March, many with the bayonet to save ammunition.\n\nPlague then broke out in the army. Gros's later painting of Bonaparte visiting the sick at Jaffa turned the episode into propaganda.",
+    "significance": "Jaffa is the darkest stain on Bonaparte's early career, recorded by French eyewitnesses as well as enemies; it helped stiffen resistance at Acre.",
+    "certainty": "high",
+    "uncertaintyNote": "Numbers of prisoners killed range from about 2,000 to over 4,000 in different accounts. Claims that most were parole-breakers from El Arish are disputed.",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "Philip Dwyer, Napoleon: The Path to Power 1769–1799 (2007)",
+      "Paul Strathern, Napoleon in Egypt (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "acre-1799",
+    "title": "Siege of Acre",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1799-03-20",
+    "end": "1799-05-21",
+    "datePrecision": "day",
+    "place": "Acre (Akko), Ottoman Palestine",
+    "lon": 35.07,
+    "lat": 32.92,
+    "locationCertainty": "exact",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Ottoman Empire and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Kléber",
+        "Caffarelli",
+        "Lannes"
+      ],
+      "opponent": [
+        "Jezzar Pasha",
+        "Sir Sidney Smith",
+        "Phélippeaux"
+      ]
+    },
+    "casualties": "French perhaps 2,000–2,500 killed and wounded in the siege, with more lost to plague; defenders' losses unknown but heavy",
+    "outcome": "defeat",
+    "summary": "Jezzar Pasha's walled port, supplied and reinforced from the sea by Sidney Smith's squadron, withstands two months of French assaults. Bonaparte retreats to Egypt.",
+    "detail": "Acre was the stronghold of Ahmad al-Jezzar, the formidable pasha of Sidon. Before the siege began, Sidney Smith's ships captured the flotilla carrying Bonaparte's heavy siege guns, which were landed to strengthen the defence. The émigré engineer Phélippeaux, who had been at military school with Bonaparte, directed the repair of the old walls.\n\nWith only field guns, the French made repeated assaults on a single tower, suffering heavy losses in narrow breaches under fire from walls and ships. Kléber and Bonaparte meanwhile defeated an Ottoman relief army at Mount Tabor. In May, Ottoman reinforcements arrived by sea, a final assault failed, and plague spread through the camp; the engineer Caffarelli died of wounds.\n\nOn the night of 20–21 May Bonaparte raised the siege and marched back to Egypt, burning crops and abandoning guns, his bulletins presenting the campaign as a success.",
+    "significance": "Acre ended Bonaparte's ambitions in the Levant; he later said that it had changed his destiny. Smith's role made it a celebrated British success.",
+    "certainty": "high",
+    "uncertaintyNote": "French losses are uncertain. Allegations that plague-stricken soldiers were given lethal doses of opium at Jaffa during the retreat are disputed.",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 4",
+      "Paul Strathern, Napoleon in Egypt (2007)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "stockach-1799",
+    "title": "Battle of Stockach",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Liptingen",
+        "lon": 8.93,
+        "lat": 47.93
+      }
+    ],
+    "kind": "battle",
+    "start": "1799-03-25",
+    "datePrecision": "day",
+    "place": "Between Liptingen and Stockach, Swabia (Baden-Württemberg)",
+    "lon": 8.97,
+    "lat": 47.87,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Danube)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Jourdan",
+        "Saint-Cyr",
+        "Soult"
+      ],
+      "opponent": [
+        "Archduke Charles"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000",
+      "opponent": "c. 50,000–60,000"
+    },
+    "casualties": "French c. 3,500–4,000; Austrians c. 5,000–6,000",
+    "outcome": "defeat",
+    "summary": "The Archduke Charles checks Jourdan's advance into Germany near Lake Constance. The French fall back across the Rhine, opening the War of the Second Coalition badly for France.",
+    "detail": "When the Second Coalition took shape in early 1799, the Directory ordered offensives on every front. Jourdan crossed the Rhine with the Army of the Danube in March, but was outnumbered by the Austrians under the Archduke Charles and was pushed back at Ostrach on 21 March.\n\nOn 25 March Jourdan attacked again near Stockach, with his forces spread wide. The French at first gained ground around Liptingen, but the Archduke, leading reserves personally, restored the battle and drove them back. Jourdan retreated into the Black Forest and then across the Rhine, and resigned his command.\n\nA month later, French envoys leaving the Congress of Rastatt were murdered by Austrian hussars, an outrage that inflamed opinion in France.",
+    "significance": "Stockach exposed France's overstretched Rhine front and allowed the Austrians to turn to Switzerland, where the campaign of 1799 would be decided.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for strength and losses differ considerably between sources.",
+    "sources": [
+      "Gunther E. Rothenberg, Napoleon's Great Adversaries: Archduke Charles and the Austrian Army 1792–1814 (1982)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mount-tabor-1799",
+    "title": "Battle of Mount Tabor",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Mount Tabor",
+        "lon": 35.39,
+        "lat": 32.69
+      }
+    ],
+    "kind": "battle",
+    "start": "1799-04-16",
+    "datePrecision": "day",
+    "place": "Plain of Esdraelon near al-Fula (Afula), below Mount Tabor",
+    "lon": 35.31,
+    "lat": 32.62,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Ottoman Empire (army of Damascus)"
+    },
+    "commanders": {
+      "focus": [
+        "Kléber",
+        "Bonaparte",
+        "Murat"
+      ],
+      "opponent": [
+        "Abdullah Pasha of Damascus"
+      ]
+    },
+    "strength": {
+      "focus": "c. 2,000, rising to c. 4,000–5,000",
+      "opponent": "perhaps 25,000–35,000, largely cavalry"
+    },
+    "casualties": "French light; Ottoman losses heavy but unknown",
+    "outcome": "victory",
+    "summary": "Kléber's small division holds off a large Ottoman relief army in squares for hours until Bonaparte arrives on its flank and scatters it.",
+    "detail": "While the siege of Acre continued, an Ottoman army gathered in Damascus to relieve it, crossing the Jordan into Galilee. Kléber was sent with his division to meet it, and on 16 April found himself on the open plain near al-Fula, facing far larger numbers of horsemen and irregulars.\n\nForming his men in two squares, Kléber held out from early morning through the heat of the day as waves of cavalry surged round him. In the afternoon Bonaparte, marching from Acre with Bon's division, appeared on the Ottoman flank and rear, and signalled his arrival with cannon. Caught between the two forces, the Ottoman army broke and fled towards the Jordan, where Murat had seized the crossings.\n\nThe French burned nearby villages in reprisal for local support to the enemy.",
+    "significance": "Mount Tabor removed the threat to the siege of Acre, but won Bonaparte time rather than victory.",
+    "certainty": "medium",
+    "uncertaintyNote": "Ottoman numbers come mainly from French reports and are probably exaggerated; the exact site of the fighting is approximate.",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 4",
+      "Paul Strathern, Napoleon in Egypt (2007)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "cassano-1799",
+    "title": "Battle of Cassano",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Verderio",
+        "lon": 9.43,
+        "lat": 45.67
+      }
+    ],
+    "kind": "battle",
+    "start": "1799-04-27",
+    "end": "1799-04-28",
+    "datePrecision": "day",
+    "place": "Cassano d'Adda, Lombardy",
+    "lon": 9.52,
+    "lat": 45.53,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of Italy)",
+      "opponent": "Russia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Moreau",
+        "Sérurier",
+        "Grenier"
+      ],
+      "opponent": [
+        "Suvorov",
+        "Melas",
+        "Chasteler"
+      ]
+    },
+    "casualties": "French c. 2,500 killed and wounded and several thousand captured, including Sérurier's division; allies c. 2,000–6,000",
+    "outcome": "defeat",
+    "summary": "Suvorov forces the line of the Adda. The French army in Italy is broken, Sérurier's division surrenders, and the Russians and Austrians enter Milan.",
+    "detail": "Aleksandr Suvorov, Russia's most famous general, arrived in northern Italy in April 1799 to command the combined Russian and Austrian armies, and at once demanded speed and the bayonet. The French under Schérer, already beaten by the Austrians at Magnano, had fallen back to the Adda, and Moreau took over command only on the eve of battle.\n\nMoreau's army was spread thinly along the river. Between 26 and 28 April the allies crossed at several points; the main fighting was at Cassano on 27 April, where the French bridgehead was stormed. Upstream, Sérurier's division was cut off at Verderio and forced to surrender on 28 April.\n\nSuvorov entered Milan on 29 April. The Cisalpine Republic collapsed, and within weeks most of Bonaparte's Italian conquests had been lost.",
+    "significance": "Cassano opened Suvorov's triumphant Italian campaign and undid in a few weeks the settlement of Campo Formio.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty and prisoner figures vary widely between sources.",
+    "sources": [
+      "Christopher Duffy, Eagles over the Alps: Suvorov in Italy and Switzerland, 1799 (1999)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "trebbia-1799",
+    "title": "Battle of the Trebbia",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Piacenza",
+        "lon": 9.69,
+        "lat": 45.05
+      }
+    ],
+    "kind": "battle",
+    "start": "1799-06-17",
+    "end": "1799-06-19",
+    "datePrecision": "day",
+    "place": "River Trebbia, west of Piacenza, Emilia",
+    "lon": 9.6,
+    "lat": 45.03,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of Naples)",
+      "opponent": "Russia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Macdonald",
+        "Victor",
+        "Dombrowski"
+      ],
+      "opponent": [
+        "Suvorov",
+        "Melas",
+        "Bagration"
+      ]
+    },
+    "strength": {
+      "focus": "c. 33,000–35,000",
+      "opponent": "c. 30,000–37,000"
+    },
+    "casualties": "French c. 12,000–16,000 including prisoners; allies c. 5,000–6,000",
+    "outcome": "defeat",
+    "summary": "Macdonald, marching up from Naples to join Moreau, is caught by Suvorov on the Trebbia. After three days of savage fighting his army is broken.",
+    "detail": "When the allies overran Lombardy, Macdonald's army, which had occupied Naples, marched north to link up with Moreau near Genoa. Suvorov, typically, did not wait. Leaving a screen against Moreau, he force-marched his men in summer heat and struck Macdonald on the Tidone on 17 June, then along the shallow, stony bed of the Trebbia on 18 and 19 June.\n\nThe fighting was among the bloodiest of the war, with repeated frontal attacks across the river and heavy losses on both sides. Macdonald's divisions, including Polish legionaries under Dombrowski, fought hard but could not break the allies, and Moreau's relief came too late.\n\nOn the night of 19–20 June Macdonald retreated, leaving thousands of wounded in Piacenza to be taken prisoner, and eventually reached Genoa by a mountain route.",
+    "significance": "The Trebbia ended French hopes of holding the Italian peninsula in 1799; southern Italy was lost and the Parthenopean Republic crushed.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses vary greatly between sources; many French casualties were wounded left behind in Piacenza.",
+    "sources": [
+      "Christopher Duffy, Eagles over the Alps: Suvorov in Italy and Switzerland, 1799 (1999)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "aboukir-1799",
+    "title": "Battle of Aboukir",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1799-07-25",
+    "datePrecision": "day",
+    "place": "Aboukir peninsula, near Alexandria, Egypt",
+    "lon": 30.06,
+    "lat": 31.32,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Ottoman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Murat",
+        "Lannes",
+        "Kléber"
+      ],
+      "opponent": [
+        "Mustafa Pasha"
+      ]
+    },
+    "strength": {
+      "focus": "c. 8,000–10,000"
+    },
+    "casualties": "French c. 900 killed and wounded; the Ottoman force was largely destroyed, thousands killed or drowned",
+    "outcome": "victory",
+    "summary": "An Ottoman army landed by British ships at Aboukir is destroyed by Bonaparte, Murat's cavalry driving it into the sea. A month later Bonaparte slips away to France.",
+    "detail": "In July 1799 an Ottoman force from Rhodes, escorted by British and Ottoman warships, landed at Aboukir, where the French fleet had been destroyed a year before, and stormed the small fort. Bonaparte, back in Egypt after Acre, gathered troops quickly and attacked on 25 July.\n\nThe Ottoman infantry held entrenched lines across the peninsula, but the French broke the first line and then, after a costly check, the second. Murat's cavalry charged through to the camp; Murat himself, wounded in the jaw, captured Mustafa Pasha. Most of the Ottoman soldiers were killed or drowned trying to reach the ships offshore. The fort held out until 2 August.\n\nFrom newspapers passed to him during exchanges with Sidney Smith, Bonaparte learned of the disasters in Italy and Germany. On 23 August he sailed secretly for France, leaving Kléber in command.",
+    "significance": "Aboukir let Bonaparte leave Egypt on a victory, masking the failure of the expedition; he landed at Fréjus on 9 October and a month later seized power.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman strength is very uncertain: French accounts give up to 18,000, while modern estimates are often much lower.",
+    "sources": [
+      "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
+      "David G. Chandler, The Campaigns of Napoleon (1966), part 4",
+      "Paul Strathern, Napoleon in Egypt (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "novi-1799",
+    "title": "Battle of Novi",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1799-08-15",
+    "datePrecision": "day",
+    "place": "Novi (Novi Ligure), Piedmont",
+    "lon": 8.79,
+    "lat": 44.76,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of Italy)",
+      "opponent": "Russia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Joubert",
+        "Moreau",
+        "Saint-Cyr",
+        "Pérignon"
+      ],
+      "opponent": [
+        "Suvorov",
+        "Kray",
+        "Melas",
+        "Bagration"
+      ]
+    },
+    "strength": {
+      "focus": "c. 35,000",
+      "opponent": "c. 45,000–50,000"
+    },
+    "casualties": "French c. 11,000–12,000 including prisoners; allies c. 8,000",
+    "outcome": "defeat",
+    "summary": "Joubert, sent to restore French fortunes in Italy, is killed early in the battle. Suvorov's attacks on the heights above Novi finally break the French army.",
+    "detail": "The Directory gave the young general Joubert the Army of Italy, hoping for a victory that might also make him the sword of a political coup. He advanced from the Apennines towards Alessandria, but hesitated on learning that Mantua had fallen and freed Kray's Austrians to join Suvorov. On 15 August the allies attacked his army on the hills around Novi.\n\nJoubert was shot dead early in the morning while rallying skirmishers, and Moreau, who had stayed to help him, took command. For hours the French held the heights against repeated assaults, but in the afternoon Melas's Austrians turned the French right. The retreat through narrow valleys became a rout, and generals Pérignon and Grouchy were among the prisoners.\n\nIt was Suvorov's last victory in Italy; within days he was ordered to Switzerland.",
+    "significance": "Novi completed the allied reconquest of northern Italy. Joubert's death left the plotters of Paris looking for another general, and Bonaparte arrived in October.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for both sides vary considerably.",
+    "sources": [
+      "Christopher Duffy, Eagles over the Alps: Suvorov in Italy and Switzerland, 1799 (1999)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "anglo-russian-invasion-of-holland-1799",
+    "title": "Anglo-Russian Invasion of Holland",
+    "geometry": "area",
+    "radiusKm": 35,
+    "markers": [
+      {
+        "name": "Callantsoog (landing)",
+        "lon": 4.7,
+        "lat": 52.84
+      },
+      {
+        "name": "Bergen",
+        "lon": 4.7,
+        "lat": 52.67
+      },
+      {
+        "name": "Castricum",
+        "lon": 4.67,
+        "lat": 52.55
+      }
+    ],
+    "kind": "campaign",
+    "start": "1799-08-27",
+    "end": "1799-10-18",
+    "datePrecision": "day",
+    "place": "North Holland peninsula, Batavian Republic (Netherlands)",
+    "lon": 4.72,
+    "lat": 52.7,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic and Batavian Republic",
+      "opponent": "Britain and Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Brune",
+        "Daendels",
+        "Vandamme"
+      ],
+      "opponent": [
+        "Duke of York",
+        "Abercromby",
+        "Hermann"
+      ]
+    },
+    "strength": {
+      "focus": "c. 25,000–30,000",
+      "opponent": "c. 40,000–45,000"
+    },
+    "casualties": "Several thousand on each side in the battles of Bergen, Alkmaar and Castricum",
+    "outcome": "victory",
+    "summary": "A British and Russian army lands in North Holland and takes the Batavian fleet, but is checked by Brune at Bergen and Castricum and agrees to withdraw.",
+    "detail": "Britain and Russia hoped to raise the Dutch against French rule. On 27 August Abercromby landed near Callantsoog and secured Den Helder; on 30 August the Batavian fleet in the Vlieter, its crews mutinous and Orangist in sympathy, surrendered without a fight.\n\nThe Duke of York then arrived with more British troops and a Russian corps. But the peninsula was narrow, cut by dykes and canals, and the Franco-Batavian army under Brune fought well. At Bergen on 19 September the Russians attacked prematurely and were repulsed, their general Hermann captured. The allies won a hard-fought action near Alkmaar on 2 October, but at Castricum on 6 October Brune checked them again.\n\nWith autumn rains, sickness and scant Dutch support, York signed the Convention of Alkmaar on 18 October and evacuated his army.",
+    "significance": "The failure of the Holland expedition, with Masséna's victory at Zurich, ended the Second Coalition's hopes for 1799 and soured Anglo-Russian relations.",
+    "certainty": "high",
+    "uncertaintyNote": "Allied strength is given variously; the Russian contingent is usually put at about 12,000–17,000 men.",
+    "sources": [
+      "Piers Mackesy, Statesmen at War: The Strategy of Overthrow 1798–99 (1974)",
+      "Simon Schama, Patriots and Liberators: Revolution in the Netherlands 1780–1813 (1977)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "suvorov-alps-1799",
+    "title": "Suvorov's Crossing of the Alps",
+    "geometry": "area",
+    "radiusKm": 55,
+    "markers": [
+      {
+        "name": "Devil's Bridge",
+        "lon": 8.59,
+        "lat": 46.65
+      },
+      {
+        "name": "Muotatal",
+        "lon": 8.76,
+        "lat": 46.98
+      },
+      {
+        "name": "Panix Pass",
+        "lon": 9.1,
+        "lat": 46.84
+      }
+    ],
+    "kind": "campaign",
+    "start": "1799-09-24",
+    "end": "1799-10-08",
+    "datePrecision": "day",
+    "place": "Central Swiss Alps: St Gotthard, Reuss valley, Muotatal and Panix Pass",
+    "lon": 8.8,
+    "lat": 46.8,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of Helvetia)",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Masséna",
+        "Lecourbe",
+        "Mortier",
+        "Molitor"
+      ],
+      "opponent": [
+        "Suvorov",
+        "Rosenberg",
+        "Bagration"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 21,000 at the outset"
+    },
+    "casualties": "Russians perhaps 5,000 killed, wounded, captured or lost in the mountains; French losses also considerable",
+    "outcome": "inconclusive",
+    "summary": "Suvorov storms the St Gotthard and the Devil's Bridge to reach his allies at Zurich, only to find them beaten. He fights his way out over snowbound passes.",
+    "detail": "Under a new allied plan, Suvorov was ordered from Italy into Switzerland to join Korsakov's Russians before Zurich. On 24 September his army stormed the St Gotthard Pass, and the next day fought its way down the Reuss gorge past the Devil's Bridge, broken by Lecourbe's troops, repairing it under fire.\n\nAt Altdorf Suvorov found no road along Lake Lucerne, so he led his men over the Kinzig Pass into the Muotatal, where he learned that Masséna had crushed Korsakov at Zurich. Trapped, the Russians beat off French attacks in the Muotatal on 30 September and 1 October and then turned east over the Pragel Pass to Glarus.\n\nFinding the roads blocked, Suvorov led his starving, barefoot army over the snow-covered Panix Pass in early October and descended to the Rhine valley at Ilanz, having lost a large part of his force and his guns.",
+    "significance": "The march is a legend of Russian military history, but it achieved nothing strategically: Switzerland stayed French and Russia soon left the coalition.",
+    "certainty": "high",
+    "uncertaintyNote": "Russian losses on the march are variously estimated; many figures include stragglers and wounded abandoned in the mountains. The outcome is judged inconclusive because the Russians won most of the fights but failed in their aim.",
+    "sources": [
+      "Christopher Duffy, Eagles over the Alps: Suvorov in Italy and Switzerland, 1799 (1999)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zurich-1799",
+    "title": "Second Battle of Zurich",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Dietikon (Limmat crossing)",
+        "lon": 8.4,
+        "lat": 47.4
+      },
+      {
+        "name": "Schänis (Soult defeats Hotze)",
+        "lon": 9.05,
+        "lat": 47.16
+      }
+    ],
+    "kind": "battle",
+    "start": "1799-09-25",
+    "end": "1799-09-26",
+    "datePrecision": "day",
+    "place": "Zurich, Switzerland (Helvetic Republic)",
+    "lon": 8.54,
+    "lat": 47.38,
+    "locationCertainty": "exact",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of Helvetia)",
+      "opponent": "Russia and Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Masséna",
+        "Oudinot",
+        "Soult",
+        "Mortier"
+      ],
+      "opponent": [
+        "Korsakov",
+        "Hotze"
+      ]
+    },
+    "strength": {
+      "focus": "c. 33,000 at Zurich (c. 75,000 in the whole army)",
+      "opponent": "c. 25,000 Russians at Zurich"
+    },
+    "casualties": "Russians c. 8,000 killed, wounded and captured and most of their guns; French c. 4,000",
+    "outcome": "victory",
+    "summary": "Masséna crosses the Limmat at dawn and crushes Korsakov's Russians around Zurich, while Soult defeats the Austrians on the Linth. Suvorov arrives to find no army to join.",
+    "detail": "In August 1799 the Archduke Charles's Austrians were withdrawn from Switzerland to the middle Rhine, leaving Korsakov's inexperienced Russian corps to hold Zurich until Suvorov arrived from Italy. Masséna, who had held his line on the Limmat and the Albis all summer, saw his opportunity.\n\nBefore dawn on 25 September French troops crossed the Limmat by boat and pontoon bridge at Dietikon, downstream from the city, and drove north and east round Korsakov's position while other divisions pressed from the west. The Russians fought stubbornly but were hemmed in around Zurich. On 26 September Korsakov broke out towards the Rhine, losing much of his artillery and baggage.\n\nOn the same days Soult crossed the Linth and defeated the Austrians at Schänis; their commander Hotze was killed.",
+    "significance": "Zurich was the decisive French victory of 1799. It saved France from invasion, wrecked the allied plan in Switzerland and helped drive Russia out of the Second Coalition.",
+    "certainty": "high",
+    "uncertaintyNote": "Russian losses are variously given from about 6,000 to over 8,000; the size of the forces actually engaged is debated.",
+    "sources": [
+      "Christopher Duffy, Eagles over the Alps: Suvorov in Italy and Switzerland, 1799 (1999)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 3
+  }
+]

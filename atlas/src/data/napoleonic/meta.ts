@@ -1,0 +1,126 @@
+import type { City, Phase, Reign } from '../schema';
+
+export const PHASES: Phase[] = [
+  {
+    id: 'first-coalition', title: 'The Republic in danger', from: 1792.25, to: 1796.2,
+    story: 'Revolutionary France declares war on Austria in April 1792, and Prussia, Britain, Spain and the Dutch soon join against it. Invasion is stopped at Valmy; the king is executed; the Republic conscripts a nation in arms and crushes risings at home. By 1795 its armies hold Belgium and the Rhineland, and Prussia and Spain have made peace.',
+    camera: { center: [4, 48.5], zoom: 4.6 },
+  },
+  {
+    id: 'italy', title: 'Bonaparte in Italy', from: 1796.2, to: 1798.35,
+    story: 'A 26-year-old general takes command of a ragged army on the Riviera. In a year of dazzling manoeuvre he knocks Piedmont out of the war, drives the Austrians from Lombardy, besieges Mantua and marches on Vienna. At Campo Formio he dictates peace, ends the thousand-year Republic of Venice and returns to Paris a hero.',
+    camera: { center: [10.5, 45.2], zoom: 5.2 },
+  },
+  {
+    id: 'egypt', title: 'Egypt and the Second Coalition', from: 1798.35, to: 1799.77,
+    story: 'Bonaparte sails for Egypt to strike at Britain’s road to India, takes Malta and Cairo, then loses his fleet to Nelson at the Nile. While he fails before Acre, a second coalition of Austria, Russia and Britain drives the French out of Italy under Suvorov. Masséna holds Switzerland at Zurich; Bonaparte slips home.',
+    camera: { center: [21, 38], zoom: 3.9 },
+  },
+  {
+    id: 'consulate', title: 'Brumaire, Marengo, Amiens', from: 1799.77, to: 1803.38,
+    story: 'A coup makes Bonaparte First Consul. He crosses the Alps and wins at Marengo; Moreau wins at Hohenlinden, and Austria signs at Lunéville. Britain, alone, makes peace at Amiens in 1802. For a year Europe is at peace, while the First Consul reorganises France, Italy, Switzerland and Germany.',
+    camera: { center: [8, 47], zoom: 4.7 },
+  },
+  {
+    id: 'austerlitz', title: 'Boulogne, Trafalgar, Austerlitz', from: 1803.38, to: 1806.58,
+    story: 'War with Britain resumes. Napoleon crowns himself Emperor and gathers an army at Boulogne to invade England, then wheels it across Germany when Austria and Russia join in. Mack surrenders at Ulm; Nelson destroys the Franco-Spanish fleet at Trafalgar; at Austerlitz the Emperor wins his most famous battle. The Holy Roman Empire dies.',
+    camera: { center: [10, 48.5], zoom: 4.5 },
+  },
+  {
+    id: 'prussia', title: 'Jena to Tilsit', from: 1806.58, to: 1807.78,
+    story: 'Prussia goes to war alone and is destroyed at Jena and Auerstedt in a single day. Napoleon enters Berlin and declares a blockade of British trade across the continent. Winter war in Poland brings the bloody stalemate of Eylau, then victory at Friedland. On a raft in the Niemen, Napoleon and Tsar Alexander divide Europe.',
+    camera: { center: [16, 52.5], zoom: 4.6 },
+  },
+  {
+    id: 'spain', title: 'The Spanish ulcer', from: 1807.78, to: 1809.26,
+    story: 'To close Portugal to British trade, French troops march through Spain, then seize it. Napoleon forces the Spanish Bourbons to abdicate and makes his brother Joseph king. Spain rises. A French army surrenders at Bailén, a British one lands in Portugal, and Napoleon comes in person to retake Madrid and chase Moore to Corunna.',
+    camera: { center: [-4.5, 40.5], zoom: 5 },
+  },
+  {
+    id: 'wagram', title: 'Austria rises again', from: 1809.26, to: 1810,
+    story: 'With the Emperor’s best troops in Spain, Austria strikes in April 1809. Napoleon takes Vienna but is thrown back across the Danube at Aspern-Essling, his first defeat in person. Six weeks later he wins the vast, costly battle of Wagram. The Tyrol rises and is crushed, and Austria cedes its coastlands at Schönbrunn.',
+    camera: { center: [14, 47.8], zoom: 5 },
+  },
+  {
+    id: 'zenith', title: 'The Grand Empire', from: 1810, to: 1812.45,
+    story: 'Napoleon marries a Habsburg archduchess, annexes Holland and the North Sea coast and rules, directly or through relatives and allies, from Hamburg to Rome. Only Iberia still bleeds: Masséna is stopped before the Lines of Torres Vedras, and Wellington storms Ciudad Rodrigo and Badajoz. Relations with Russia sour over the blockade.',
+    camera: { center: [6, 46], zoom: 4.1 },
+  },
+  {
+    id: 'russia', title: 'The road to Moscow', from: 1812.45, to: 1813,
+    story: 'The largest army Europe has seen crosses the Niemen in June 1812. The Russians retreat, burn and fight at Smolensk and Borodino. Napoleon enters an emptied Moscow, which burns; the Tsar will not treat. The retreat through the Russian winter, harried by Cossacks, ends at the Berezina. Barely one man in ten returns.',
+    camera: { center: [29, 54.5], zoom: 4.6 },
+  },
+  {
+    id: 'germany', title: 'The War of Liberation', from: 1813, to: 1813.95,
+    story: 'Prussia changes sides and rises in arms. Napoleon raises a new army and wins at Lützen and Bautzen, but an armistice lets Austria and Sweden join the coalition. Wellington breaks French Spain at Vitoria. In October three allied armies close on Napoleon at Leipzig, the Battle of the Nations, and the empire in Germany collapses.',
+    camera: { center: [11, 50.5], zoom: 4.8 },
+  },
+  {
+    id: 'fall', title: 'The fall of the Empire', from: 1813.95, to: 1815.15,
+    story: 'The allies cross the Rhine and Wellington crosses the Pyrenees. With a young, outnumbered army Napoleon fights his most brilliant defensive campaign in Champagne, but the allies march on Paris, which capitulates. His marshals refuse to fight on and he abdicates at Fontainebleau. Exiled to Elba, he watches the Congress of Vienna quarrel.',
+    camera: { center: [3.5, 47.5], zoom: 5 },
+  },
+  {
+    id: 'hundred-days', title: 'The Hundred Days', from: 1815.15, to: 1815.85,
+    story: 'Napoleon escapes from Elba, lands in Provence and marches on Paris without a shot fired against him; Louis XVIII flees. The powers declare him an outlaw. He strikes first into Belgium, beats Blücher at Ligny, and on 18 June is defeated by Wellington and Blücher at Waterloo. He surrenders to the British and is sent to St Helena.',
+    camera: { center: [3.5, 49.5], zoom: 5.2 },
+  },
+];
+
+// The governments of France.
+export const REIGNS: Reign[] = [
+  { name: 'Legislative Assembly', from: 1792.25, to: 1792.72, regency: true },
+  { name: 'National Convention', from: 1792.72, to: 1795.84, regency: true },
+  { name: 'The Directory', from: 1795.84, to: 1799.86, regency: true },
+  { name: 'First Consul Bonaparte', from: 1799.86, to: 1804.38 },
+  { name: 'Emperor Napoleon I', from: 1804.38, to: 1814.26 },
+  { name: 'King Louis XVIII', from: 1814.26, to: 1815.22, regency: true },
+  { name: 'Emperor Napoleon I, the Hundred Days', from: 1815.22, to: 1815.47 },
+  { name: 'Provisional government', from: 1815.47, to: 1815.52, regency: true },
+  { name: 'King Louis XVIII', from: 1815.52, to: 1815.86, regency: true },
+];
+
+export const CITIES: City[] = [
+  { name: 'Paris', lon: 2.35, lat: 48.86, rank: 1 },
+  { name: 'London', lon: -0.12, lat: 51.51, rank: 1 },
+  { name: 'Vienna', lon: 16.37, lat: 48.21, rank: 1 },
+  { name: 'Berlin', lon: 13.4, lat: 52.52, rank: 1 },
+  { name: 'St Petersburg', lon: 30.32, lat: 59.94, rank: 1 },
+  { name: 'Moscow', lon: 37.62, lat: 55.75, rank: 1 },
+  { name: 'Madrid', lon: -3.7, lat: 40.42, rank: 1 },
+  { name: 'Constantinople', modern: 'Istanbul', lon: 28.98, lat: 41.01, rank: 1 },
+  { name: 'Lisbon', lon: -9.14, lat: 38.72, rank: 2 },
+  { name: 'Rome', lon: 12.48, lat: 41.9, rank: 2 },
+  { name: 'Naples', lon: 14.25, lat: 40.85, rank: 2 },
+  { name: 'Milan', lon: 9.19, lat: 45.46, rank: 2 },
+  { name: 'Venice', lon: 12.33, lat: 45.44, rank: 2 },
+  { name: 'Turin', lon: 7.69, lat: 45.07, rank: 2 },
+  { name: 'Florence', lon: 11.26, lat: 43.77, rank: 2 },
+  { name: 'Amsterdam', lon: 4.9, lat: 52.37, rank: 2 },
+  { name: 'Brussels', lon: 4.35, lat: 50.85, rank: 2 },
+  { name: 'Hamburg', lon: 9.99, lat: 53.55, rank: 2 },
+  { name: 'Frankfurt', lon: 8.68, lat: 50.11, rank: 2 },
+  { name: 'Munich', lon: 11.58, lat: 48.14, rank: 2 },
+  { name: 'Prague', lon: 14.42, lat: 50.09, rank: 2 },
+  { name: 'Warsaw', lon: 21.01, lat: 52.23, rank: 2 },
+  { name: 'Königsberg', modern: 'Kaliningrad', lon: 20.51, lat: 54.71, rank: 2 },
+  { name: 'Vilna', modern: 'Vilnius', lon: 25.28, lat: 54.69, rank: 2 },
+  { name: 'Riga', lon: 24.11, lat: 56.95, rank: 2 },
+  { name: 'Kiev', modern: 'Kyiv', lon: 30.52, lat: 50.45, rank: 2 },
+  { name: 'Pest-Buda', modern: 'Budapest', lon: 19.04, lat: 47.5, rank: 2 },
+  { name: 'Stockholm', lon: 18.07, lat: 59.33, rank: 2 },
+  { name: 'Copenhagen', lon: 12.57, lat: 55.68, rank: 2 },
+  { name: 'Barcelona', lon: 2.17, lat: 41.39, rank: 2 },
+  { name: 'Seville', lon: -5.98, lat: 37.39, rank: 2 },
+  { name: 'Cádiz', lon: -6.29, lat: 36.53, rank: 2 },
+  { name: 'Lyon', lon: 4.84, lat: 45.76, rank: 2 },
+  { name: 'Marseille', lon: 5.37, lat: 43.3, rank: 2 },
+  { name: 'Bordeaux', lon: -0.58, lat: 44.84, rank: 2 },
+  { name: 'Dublin', lon: -6.26, lat: 53.35, rank: 2 },
+  { name: 'Edinburgh', lon: -3.19, lat: 55.95, rank: 2 },
+  { name: 'Bucharest', lon: 26.1, lat: 44.43, rank: 2 },
+  { name: 'Belgrade', lon: 20.46, lat: 44.82, rank: 2 },
+  { name: 'Athens', lon: 23.73, lat: 37.98, rank: 2 },
+  { name: 'Cairo', lon: 31.24, lat: 30.04, rank: 2 },
+];
