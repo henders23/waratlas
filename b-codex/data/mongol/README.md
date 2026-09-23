@@ -1,0 +1,1 @@
+The frozen Mongol Instinct R71 denominator is preserved in `r71/` and its original archive. The atlas uses the R72 amendment in `r72/`, which corrects five source date labels and resolves the orphan merge by splitting the combined Khwarazm–Khorasan candidate into four sourced city events. See `r72/mongol-round72-audit.md` for provenance and limits.
