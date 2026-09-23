@@ -1,0 +1,2290 @@
+[
+  {
+    "id": "sarajevo-assassination-1914",
+    "title": "Assassination at Sarajevo",
+    "geometry": "city",
+    "kind": "death",
+    "start": "1914-06-28",
+    "datePrecision": "day",
+    "place": "Sarajevo, Bosnia-Herzegovina (Austria-Hungary)",
+    "lon": 18.429,
+    "lat": 43.858,
+    "locationCertainty": "exact",
+    "phase": "july-crisis",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Young Bosnia conspirators"
+    },
+    "commanders": {
+      "focus": [
+        "Archduke Franz Ferdinand"
+      ],
+      "opponent": [
+        "Gavrilo Princip",
+        "Nedeljko Čabrinović"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Gavrilo Princip, a 19-year-old Bosnian Serb, shoots dead Archduke Franz Ferdinand, heir to the Habsburg throne, and his wife Sophie as their car halts near Sarajevo's Latin Bridge.",
+    "detail": "Franz Ferdinand came to Sarajevo to watch army manoeuvres, and chose to drive through the Bosnian capital on Vidovdan, the Serbian national day. Waiting along the Appel Quay were seven young conspirators of the Young Bosnia movement, armed with pistols and bombs supplied through the Black Hand, a secret nationalist society led by Colonel Dragutin Dimitrijević ('Apis'), chief of Serbian military intelligence.\n\nThe first attempt failed: Nedeljko Čabrinović's bomb bounced off the archduke's car and wounded officers in the vehicle behind. After a reception at the town hall the party set out to visit the wounded, but the drivers had not been told of the change of route. When the leading cars turned into Franz Joseph Street and stopped to reverse, Princip stepped forward and fired twice at close range. Sophie died almost at once and the archduke within minutes.\n\nPrincip, too young to be executed under Habsburg law, was sentenced to twenty years and died of tuberculosis in the fortress of Theresienstadt in April 1918.",
+    "significance": "The murders gave Vienna the pretext it sought to crush Serbia, and set in train the July Crisis that turned a Balkan quarrel into a European war.",
+    "certainty": "high",
+    "uncertaintyNote": "How far the Serbian government knew of the plot remains debated: Prime Minister Pašić appears to have heard something of it, but official Serbian complicity was never demonstrated.",
+    "sources": [
+      "Christopher Clark, The Sleepwalkers: How Europe Went to War in 1914 (2012)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Margaret MacMillan, The War That Ended Peace (2013)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "austria-declares-war-serbia-1914",
+    "title": "Ultimatum and war on Serbia",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Vienna",
+        "lon": 16.37,
+        "lat": 48.21
+      }
+    ],
+    "kind": "political",
+    "start": "1914-07-23",
+    "end": "1914-07-29",
+    "datePrecision": "day",
+    "place": "Vienna and Belgrade",
+    "lon": 20.457,
+    "lat": 44.817,
+    "locationCertainty": "exact",
+    "phase": "july-crisis",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Serbia"
+    },
+    "commanders": {
+      "focus": [
+        "Franz Joseph",
+        "Berchtold",
+        "Conrad von Hötzendorf"
+      ],
+      "opponent": [
+        "Pašić",
+        "Prince Regent Alexander"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Backed by Germany's 'blank cheque', Austria-Hungary sends Serbia an ultimatum designed to be refused, rejects Belgrade's conciliatory reply and declares war on 28 July. Belgrade is shelled that night.",
+    "detail": "On 5–6 July Kaiser Wilhelm II and Chancellor Bethmann Hollweg assured Vienna of German support for firm action against Serbia. Austro-Hungarian ministers, led by the foreign minister Count Berchtold and urged on by the chief of staff Conrad von Hötzendorf, spent weeks drafting terms, delayed partly by the Hungarian premier Tisza's hesitation and by a French state visit to St Petersburg.\n\nThe ultimatum was delivered in Belgrade on the evening of 23 July with a 48-hour limit. It demanded the suppression of anti-Habsburg propaganda and organisations and the participation of Austro-Hungarian officials in the inquiry into the plot. Serbia's reply, handed over just before the deadline, accepted most points but refused the last in the form demanded. The Austro-Hungarian minister broke off relations within minutes.\n\nAustria-Hungary declared war on 28 July, by telegram. That night river monitors on the Danube and batteries across the Sava opened fire on Belgrade, the first shots of the war.",
+    "significance": "The local war Vienna wanted could not be contained: Russia moved to support Serbia, and the alliance system turned the Austro-Serbian conflict into a continental one within a week.",
+    "certainty": "high",
+    "sources": [
+      "Christopher Clark, The Sleepwalkers: How Europe Went to War in 1914 (2012)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "declarations-of-war-1914",
+    "title": "Mobilisation and declarations of war",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "St Petersburg",
+        "lon": 30.32,
+        "lat": 59.94
+      },
+      {
+        "name": "Paris",
+        "lon": 2.35,
+        "lat": 48.86
+      },
+      {
+        "name": "London",
+        "lon": -0.13,
+        "lat": 51.5
+      }
+    ],
+    "kind": "political",
+    "start": "1914-07-30",
+    "end": "1914-08-04",
+    "datePrecision": "day",
+    "place": "Berlin, German Empire",
+    "lon": 13.39,
+    "lat": 52.52,
+    "locationCertainty": "exact",
+    "phase": "july-crisis",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia, France and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Wilhelm II",
+        "Bethmann Hollweg",
+        "Moltke"
+      ],
+      "opponent": [
+        "Nicholas II",
+        "Poincaré",
+        "Asquith",
+        "Grey"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Within six days Russia mobilises, Germany declares war on Russia and France and invades Belgium, and Britain enters the war over Belgian neutrality.",
+    "detail": "On 30 July Tsar Nicholas II approved general mobilisation in support of Serbia. Germany's only war plan, shaped by Schlieffen and the younger Moltke, required a rapid offensive against France through Belgium before Russia could fully deploy, so Berlin could not answer mobilisation with mobilisation alone. After ultimatums went unanswered, Germany declared war on Russia on 1 August and on France on 3 August.\n\nOn 2 August Germany demanded free passage through Belgium, whose neutrality the powers, Prussia included, had guaranteed in 1839. Belgium refused, and German troops crossed the frontier on the morning of 4 August. Britain's Liberal cabinet, divided until then, sent an ultimatum requiring Germany to respect Belgian neutrality; Bethmann Hollweg complained to the British ambassador that Britain was going to war for a 'scrap of paper'. The ultimatum expired at 11 p.m. London time on 4 August.\n\nCrowds cheered in several capitals, but historians now stress that the public mood across Europe was more mixed, with apprehension as common as enthusiasm.",
+    "significance": "A Balkan war became a general European war, and with the British Empire involved it became a world war.",
+    "certainty": "high",
+    "uncertaintyNote": "The distribution of responsibility for the war among the powers remains one of the most contested questions in modern history.",
+    "sources": [
+      "Christopher Clark, The Sleepwalkers: How Europe Went to War in 1914 (2012)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Margaret MacMillan, The War That Ended Peace (2013)",
+      "David Stevenson, 1914–1918: The History of the First World War (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liege-1914",
+    "title": "Invasion of Belgium and siege of Liège",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Fort de Loncin",
+        "lon": 5.5,
+        "lat": 50.67
+      }
+    ],
+    "kind": "siege",
+    "start": "1914-08-05",
+    "end": "1914-08-16",
+    "datePrecision": "day",
+    "place": "Liège, Belgium",
+    "lon": 5.57,
+    "lat": 50.63,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Belgium"
+    },
+    "commanders": {
+      "focus": [
+        "Emmich",
+        "Ludendorff"
+      ],
+      "opponent": [
+        "Leman"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000 in the initial assault brigades",
+      "opponent": "c. 30,000–40,000 in the forts and fortified position"
+    },
+    "outcome": "victory",
+    "summary": "German brigades storm through the ring of forts around Liège to open the road into Belgium; super-heavy howitzers then smash the forts one by one.",
+    "detail": "Liège, commanding the Meuse crossings on the direct route from Germany into the Belgian plain, was ringed by twelve concrete forts built in the 1880s. Its seizure was the first task of the German plan, and six brigades under General von Emmich attacked on the night of 5–6 August, hoping to slip between the forts.\n\nThe assault was costly and confused. When the commander of one brigade was killed, Erich Ludendorff, a staff officer attached to it, took charge, pushed into the city and on 7 August accepted the surrender of the undefended citadel. The forts, however, held out. They fell only after German and Austro-Hungarian super-heavy siege howitzers, including the 42 cm Krupp guns, were brought up. On 15 August a shell detonated the magazine of Fort de Loncin, where General Leman was pulled unconscious from the ruins and captured. The last forts surrendered on 16 August.\n\nFrom the first days, German troops convinced of francs-tireurs shot civilians and burned villages around the city.",
+    "significance": "Belgian resistance delayed the German right wing by a few days and made Ludendorff a national hero; the violation of Belgium became the Allies' central moral argument.",
+    "certainty": "high",
+    "uncertaintyNote": "How much the siege actually delayed the German timetable is debated; most historians now think the delay was short.",
+    "sources": [
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Holger Herwig, The Marne, 1914 (2009)",
+      "Sewell Tyng, The Campaign of the Marne 1914 (1935)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "battle-of-the-frontiers-1914",
+    "title": "Battle of the Frontiers",
+    "geometry": "area",
+    "radiusKm": 200,
+    "markers": [
+      {
+        "name": "Morhange",
+        "lon": 6.64,
+        "lat": 48.92
+      },
+      {
+        "name": "Rossignol (Ardennes)",
+        "lon": 5.49,
+        "lat": 49.72
+      },
+      {
+        "name": "Charleroi",
+        "lon": 4.44,
+        "lat": 50.41
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-08-14",
+    "end": "1914-08-24",
+    "datePrecision": "day",
+    "place": "Lorraine, the Ardennes and the Sambre, France and Belgium",
+    "lon": 5.5,
+    "lat": 49.6,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Moltke",
+        "Crown Prince Rupprecht",
+        "Duke Albrecht of Württemberg",
+        "Crown Prince Wilhelm",
+        "Bülow"
+      ],
+      "opponent": [
+        "Joffre",
+        "de Castelnau",
+        "Ruffey",
+        "Lanrezac"
+      ]
+    },
+    "casualties": "French c. 260,000 in August 1914, including c. 27,000 killed on 22 August alone; German losses also very heavy",
+    "outcome": "victory",
+    "summary": "France's offensives into Lorraine and the Ardennes collapse under German firepower, and the Allied left is beaten on the Sambre. On 22 August alone some 27,000 French soldiers die.",
+    "detail": "Joffre's Plan XVII sent French armies eastward into the lost province of Lorraine and north-east into the wooded Ardennes, believing the German centre to be weak. French infantry, still in red trousers and trained to attack with the bayonet, ran into entrenched German troops supported by machine guns and heavy artillery.\n\nIn Lorraine, Rupprecht of Bavaria's Sixth Army threw back de Castelnau's Second Army at Morhange on 20 August. In the Ardennes, French columns met German armies advancing the other way in fog-bound forests around Rossignol, Virton and Neufchâteau on 22 August, and were cut to pieces. On the Sambre, Bülow's Second Army pushed Lanrezac's Fifth Army back from Charleroi on 21–23 August, while the British held up Kluck's First Army at Mons.\n\nBy 24 August every French thrust had failed, and the German right wing was pouring through Belgium towards Paris. Joffre, calm under pressure, began a general retreat and sacked dozens of generals.",
+    "significance": "The bloodiest days in French military history exposed the doctrine of the offensive and left the Allies retreating towards the Marne.",
+    "certainty": "high",
+    "uncertaintyNote": "French losses for August 1914 are reconstructed from incomplete records; the 22 August figure is widely cited but approximate. German losses are less precisely known.",
+    "sources": [
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Holger Herwig, The Marne, 1914 (2009)",
+      "Robert A. Doughty, Pyrrhic Victory: French Strategy and Operations in the Great War (2005)",
+      "Terence Zuber, The Battle of the Frontiers: Ardennes 1914 (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cer-1914",
+    "title": "Battle of Cer",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Šabac",
+        "lon": 19.69,
+        "lat": 44.75
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-08-15",
+    "end": "1914-08-24",
+    "datePrecision": "day",
+    "place": "Cer mountain, between the Drina and Šabac, Serbia",
+    "lon": 19.48,
+    "lat": 44.62,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Serbia"
+    },
+    "commanders": {
+      "focus": [
+        "Potiorek",
+        "Frank"
+      ],
+      "opponent": [
+        "Putnik",
+        "Stepanović"
+      ]
+    },
+    "casualties": "Austro-Hungarian c. 23,000–25,000 including prisoners; Serbian c. 16,000–18,000",
+    "outcome": "defeat",
+    "summary": "Serbia's veteran army routs the Austro-Hungarian invaders on the Cer ridge, winning the first Allied victory of the war and driving the enemy back across the Drina.",
+    "detail": "General Potiorek, governor of Bosnia and responsible for security on the day of the Sarajevo murders, was determined to punish Serbia quickly. His Fifth Army crossed the Drina on 12 August into the difficult hill country of north-western Serbia, while troops of the Second Army, which was already being redirected to Galicia, crossed the Sava near Šabac.\n\nThe Serbian army, hardened by the Balkan Wars of 1912–13 and directed by Voivode Radomir Putnik, moved fast to meet them. On the night of 15–16 August Stepa Stepanović's Second Army clashed with Austro-Hungarian troops on the long wooded ridge of Cer mountain. Days of confused fighting followed in which Serbian counter-attacks broke the invaders' hold on the ridge, and by 24 August the Austro-Hungarian forces had retreated across the rivers.\n\nThe invasion was marked by the killing of Serbian civilians, some of them hanged or shot as supposed guerrillas; the Swiss criminologist Archibald Reiss documented these crimes for the Serbian government.",
+    "significance": "Cer humiliated Austria-Hungary in the war it had started, and showed that Serbia would not be quickly crushed.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures differ between Serbian and Austro-Hungarian sources.",
+    "sources": [
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "James Lyon, Serbia and the Balkan Front, 1914 (2015)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rape-of-belgium-1914",
+    "title": "Massacres at Dinant and Leuven",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Dinant",
+        "lon": 4.91,
+        "lat": 50.26
+      },
+      {
+        "name": "Andenne",
+        "lon": 5.09,
+        "lat": 50.49
+      },
+      {
+        "name": "Tamines",
+        "lon": 4.61,
+        "lat": 50.43
+      }
+    ],
+    "kind": "massacre",
+    "start": "1914-08-19",
+    "end": "1914-08-28",
+    "datePrecision": "day",
+    "place": "Louvain (Leuven), Belgium",
+    "lon": 4.7,
+    "lat": 50.88,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Belgian civilians"
+    },
+    "casualties": "c. 6,500 civilians killed by German troops in Belgium and northern France, August–October 1914, including c. 670 at Dinant and c. 250 at Leuven",
+    "outcome": "n/a",
+    "summary": "Believing themselves under attack by civilian snipers, German troops shoot hundreds of Belgian townspeople at Andenne, Tamines and Dinant, and burn Leuven's university library.",
+    "detail": "German soldiers entered Belgium primed by memories of the francs-tireurs of 1870. Nervous, exhausted and often firing on each other in the confusion, units repeatedly concluded that civilians were shooting at them and took collective reprisals: hostages were shot, houses burned and townspeople executed in groups.\n\nThe worst killings came in a few days in late August. At Andenne on 20 August some 200 people were killed; at Tamines on 22 August more than 380. At Dinant on 23 August troops of the Saxon army shot some 670 men, women and children, including infants, in the squares and along the Meuse. At Leuven, from 25 August, panic among German troops led to days of shooting and arson in which about 250 inhabitants died and the university library, with its medieval manuscripts and some 230,000 volumes, was burned.\n\nThe German government denied any wrongdoing and insisted the victims had been armed resisters. Allied propaganda, in turn, embroidered the events with invented tales of mutilation, which later made many sceptical of the real atrocities.",
+    "significance": "The 'Rape of Belgium' shaped Allied and neutral opinion against Germany for the rest of the war, and the burning of Leuven became a symbol of war on culture itself.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures follow Horne and Kramer's documentation. Their work established that there was no organised franc-tireur resistance; the German claims were long accepted in Germany.",
+    "sources": [
+      "John Horne and Alan Kramer, German Atrocities, 1914: A History of Denial (2001)",
+      "Larry Zuckerman, The Rape of Belgium: The Untold Story of World War I (2004)",
+      "Alan Kramer, Dynamic of Destruction: Culture and Mass Killing in the First World War (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "mons-1914",
+    "title": "Battle of Mons",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1914-08-23",
+    "datePrecision": "day",
+    "place": "Mons–Condé Canal, near Mons, Belgium",
+    "lon": 3.95,
+    "lat": 50.45,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Kluck"
+      ],
+      "opponent": [
+        "Sir John French",
+        "Smith-Dorrien"
+      ]
+    },
+    "strength": {
+      "focus": "Elements of the First Army, several corps",
+      "opponent": "c. 70,000 (BEF, two corps)"
+    },
+    "casualties": "British c. 1,600; German losses higher but disputed, estimates c. 2,000–5,000",
+    "outcome": "victory",
+    "summary": "In its first major battle, the small British Expeditionary Force holds the Mons canal for a day against Kluck's First Army before being forced into a long retreat.",
+    "detail": "The British Expeditionary Force, a professional army of four infantry divisions and a cavalry division, had taken position on the left of the French Fifth Army along the industrial Mons–Condé canal. Kluck's First Army, sweeping through Belgium on the German outer flank, stumbled into it on 23 August.\n\nThe British, well trained in rapid rifle fire, inflicted heavy losses on the German infantry attacking across open ground, and German accounts later credited the defenders with more machine guns than they had. But the canal line had a vulnerable salient north of Mons, and as German numbers told, Smith-Dorrien's II Corps fell back to a second position. When news came that Lanrezac's Fifth Army was retreating on its right, the BEF had to withdraw as well.\n\nThe retreat from Mons lasted almost two weeks and more than 300 kilometres. Smith-Dorrien turned to fight a costly delaying action at Le Cateau on 26 August before the march south continued towards the Marne.",
+    "significance": "Mons became a British legend, but its real importance was that the BEF survived the retreat intact to take part in the Marne counter-offensive.",
+    "certainty": "high",
+    "uncertaintyNote": "German casualties at Mons are poorly documented and British accounts long exaggerated them.",
+    "sources": [
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Jack Sheldon, The German Army on the Western Front 1914 (2017)",
+      "J.E. Edmonds, Military Operations: France and Belgium, 1914, vol. 1 (British official history, 1922)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "galicia-1914",
+    "title": "Battle of Galicia and fall of Lemberg",
+    "geometry": "area",
+    "radiusKm": 200,
+    "markers": [
+      {
+        "name": "Lemberg (Lviv)",
+        "lon": 24.03,
+        "lat": 49.84
+      },
+      {
+        "name": "Komarów",
+        "lon": 23.48,
+        "lat": 50.63
+      },
+      {
+        "name": "Rawa Ruska (Rava-Ruska)",
+        "lon": 23.62,
+        "lat": 50.23
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-08-23",
+    "end": "1914-09-11",
+    "datePrecision": "day",
+    "place": "Galicia, Austria-Hungary (south-eastern Poland and western Ukraine)",
+    "lon": 23.6,
+    "lat": 50.2,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Conrad von Hötzendorf",
+        "Auffenberg",
+        "Dankl",
+        "Brudermann"
+      ],
+      "opponent": [
+        "Ivanov",
+        "Ruzsky",
+        "Brusilov"
+      ]
+    },
+    "casualties": "Austro-Hungarian c. 300,000–400,000, including c. 100,000 prisoners; Russian c. 225,000–250,000",
+    "outcome": "defeat",
+    "summary": "Conrad's offensive into Russian Poland wins early successes, but Russian armies overwhelm his right in eastern Galicia, take Lemberg and drive the Austro-Hungarians back 150 kilometres.",
+    "detail": "Conrad von Hötzendorf attacked north from Galicia into Russian Poland while part of his army was still on its way back from Serbia. His First and Fourth Armies won encounter battles at Kraśnik and Komarów in late August, but Russian strength was building fast in the east, where Ruzsky's Third and Brusilov's Eighth Armies advanced on Lemberg, the Galician capital.\n\nThe weak Austro-Hungarian forces there were beaten on the Zlota Lipa and Gnila Lipa rivers, and Lemberg was abandoned without a fight on 3 September. Conrad turned his armies to strike back at Rawa Ruska and Gródek, but the fighting only exposed their flanks. On 11 September he ordered a general retreat to the San and then the Dunajec, leaving the great fortress of Przemyśl besieged behind him.\n\nThe army lost a large share of its professional officers and NCOs in a month. The retreat also brought savage reprisals against Ruthenian (Ukrainian) civilians suspected of pro-Russian sympathy.",
+    "significance": "The Habsburg army never recovered from these losses and grew ever more dependent on German support; Russian armies stood at the Carpathians.",
+    "certainty": "high",
+    "uncertaintyNote": "Loss figures for the Galician battles vary widely between sources and depend on the dates counted.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Alexander Watson, Ring of Steel (2014)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tannenberg-1914",
+    "title": "Battle of Tannenberg",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Hohenstein (Olsztynek)",
+        "lon": 20.28,
+        "lat": 53.58
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-08-26",
+    "end": "1914-08-30",
+    "datePrecision": "day",
+    "place": "Near Allenstein (Olsztyn), East Prussia (Poland)",
+    "lon": 20.2,
+    "lat": 53.6,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Hindenburg",
+        "Ludendorff",
+        "Hoffmann",
+        "François"
+      ],
+      "opponent": [
+        "Samsonov",
+        "Zhilinsky"
+      ]
+    },
+    "strength": {
+      "focus": "c. 166,000",
+      "opponent": "c. 206,000"
+    },
+    "casualties": "German c. 12,000–20,000; Russian c. 30,000 killed and wounded and c. 92,000 captured",
+    "outcome": "victory",
+    "summary": "The German Eighth Army encircles and destroys Samsonov's Russian Second Army in the forests of southern East Prussia. Samsonov shoots himself; some 92,000 Russians are captured.",
+    "detail": "Russia honoured its promise to France by invading East Prussia within weeks of mobilising. After Rennenkampf's First Army pushed the Germans back at Gumbinnen, the German commander Prittwitz talked of retreating behind the Vistula and was replaced by the retired General Paul von Hindenburg, with Erich Ludendorff as his chief of staff.\n\nA redeployment already sketched by the staff officer Max Hoffmann left a thin screen facing Rennenkampf and moved most of the Eighth Army by rail south-west against Samsonov's Second Army, which was advancing slowly and separated from its neighbour. Russian orders sent by uncoded wireless told the Germans what their enemy intended. From 26 August German corps struck both of Samsonov's flanks, and Hermann von François's I Corps pushed round behind the Russian centre, closing the ring near Neidenburg.\n\nTrapped in the forests, starving and leaderless, the Russian centre disintegrated. Samsonov walked into the woods and shot himself on 29–30 August. Ludendorff named the battle after nearby Tannenberg, to avenge symbolically the Teutonic Knights' defeat there in 1410.",
+    "significance": "Tannenberg saved East Prussia and made Hindenburg and Ludendorff the most celebrated commanders in Germany, the foundation of their later dominance over the German war effort.",
+    "certainty": "high",
+    "uncertaintyNote": "German casualty figures vary with the period counted; the Russian prisoner total is the German count.",
+    "sources": [
+      "Dennis Showalter, Tannenberg: Clash of Empires (1991)",
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "marne-1914",
+    "title": "First Battle of the Marne",
+    "geometry": "area",
+    "radiusKm": 130,
+    "markers": [
+      {
+        "name": "Meaux (Ourcq)",
+        "lon": 2.88,
+        "lat": 48.96
+      },
+      {
+        "name": "Marshes of Saint-Gond",
+        "lon": 3.85,
+        "lat": 48.82
+      },
+      {
+        "name": "Verdun",
+        "lon": 5.38,
+        "lat": 49.16
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-09-05",
+    "end": "1914-09-12",
+    "datePrecision": "day",
+    "place": "Between Paris and Verdun, France",
+    "lon": 3.7,
+    "lat": 48.85,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Moltke",
+        "Kluck",
+        "Bülow",
+        "Hentsch"
+      ],
+      "opponent": [
+        "Joffre",
+        "Gallieni",
+        "Franchet d'Espèrey",
+        "Foch",
+        "Maunoury",
+        "Sir John French"
+      ]
+    },
+    "strength": {
+      "focus": "c. 900,000–1,000,000",
+      "opponent": "c. 1,000,000–1,100,000"
+    },
+    "casualties": "French c. 250,000; German c. 250,000; British c. 13,000 (figures for the whole of early September, approximate)",
+    "outcome": "defeat",
+    "summary": "As Kluck's First Army wheels east of Paris, Joffre strikes its exposed flank. A gap opens between the German right-wing armies and Moltke's army falls back to the Aisne.",
+    "detail": "By early September the German right wing was across the Marne, but it was exhausted and thinned out. Kluck's First Army, pursuing the Allies, turned south-east of Paris instead of enveloping it. General Gallieni, the governor of Paris, and Joffre saw the chance: on 5–6 September Maunoury's new Sixth Army attacked from Paris into Kluck's flank along the Ourcq, famously reinforced in part by troops carried in requisitioned Paris taxis.\n\nKluck swung his corps back north-west to meet the threat, opening a gap of some 40 kilometres between his army and Bülow's Second. Into it advanced the BEF and Franchet d'Espèrey's Fifth Army, while further east Foch's Ninth Army clung on at the marshes of Saint-Gond. At Moltke's headquarters in Luxembourg, far from the front, confidence collapsed. His emissary, Lieutenant-Colonel Richard Hentsch, sanctioned Bülow's withdrawal on 9 September, and the German armies fell back to the heights above the Aisne.\n\nMoltke was quietly replaced by Erich von Falkenhayn on 14 September.",
+    "significance": "The Marne ended Germany's hope of a quick victory in the west and condemned both sides to a long war of attrition.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the Marne are approximate and hard to separate from the preceding retreat. Hentsch's role and the extent of his authority remain debated; the taxis carried only a few thousand men.",
+    "sources": [
+      "Holger Herwig, The Marne, 1914 (2009)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Robert A. Doughty, Pyrrhic Victory: French Strategy and Operations in the Great War (2005)",
+      "Sewell Tyng, The Campaign of the Marne 1914 (1935)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "masurian-lakes-1914",
+    "title": "First Battle of the Masurian Lakes",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Lötzen (Giżycko)",
+        "lon": 21.76,
+        "lat": 54.04
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-09-07",
+    "end": "1914-09-14",
+    "datePrecision": "day",
+    "place": "Masurian Lakes, East Prussia (Poland)",
+    "lon": 21.9,
+    "lat": 54.0,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Hindenburg",
+        "Ludendorff",
+        "François"
+      ],
+      "opponent": [
+        "Rennenkampf"
+      ]
+    },
+    "casualties": "Russian c. 100,000–125,000, including c. 45,000 prisoners; German c. 10,000–40,000",
+    "outcome": "victory",
+    "summary": "Reinforced from the west, Hindenburg turns on Rennenkampf's First Army and drives it out of East Prussia, though the Russians escape encirclement.",
+    "detail": "After Tannenberg the Eighth Army, strengthened by two corps sent from France at the height of the campaign in the west, turned north-east against Rennenkampf's First Army, which had advanced to the line of the Deime and the lakes but done little to help Samsonov.\n\nThe Germans attacked on 7 September, with the main effort on the southern flank, where François's corps pushed through the gaps between the Masurian lakes around Lötzen to get behind the Russian left. Rennenkampf, sensing the danger, ordered a fighting retreat and used counter-attacks to cover it. His army, marching hard, got back across the frontier by 13–14 September, leaving large numbers of prisoners and guns behind.\n\nThe victory cleared Russian troops from East Prussia for the time being, though a renewed Russian advance later in the autumn showed that the northern front remained contested.",
+    "significance": "It completed the liberation of East Prussia and confirmed the Hindenburg–Ludendorff partnership, though the escape of Rennenkampf's army denied Germany a second Tannenberg.",
+    "certainty": "high",
+    "uncertaintyNote": "German losses are reported very differently in different sources.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Dennis Showalter, Tannenberg: Clash of Empires (1991)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "yser-1914",
+    "title": "Race to the Sea and the Yser",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Nieuwpoort sluices",
+        "lon": 2.75,
+        "lat": 51.13
+      },
+      {
+        "name": "Diksmuide",
+        "lon": 2.86,
+        "lat": 51.03
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-09-17",
+    "end": "1914-10-31",
+    "datePrecision": "day",
+    "place": "Yser river between Nieuwpoort and Diksmuide, Belgium",
+    "lon": 2.82,
+    "lat": 51.07,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Belgium and France"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn",
+        "Duke Albrecht of Württemberg"
+      ],
+      "opponent": [
+        "King Albert I",
+        "Foch",
+        "Ronarc'h"
+      ]
+    },
+    "casualties": "Belgian c. 20,000 in the Yser battle; German and French losses also heavy",
+    "outcome": "defeat",
+    "summary": "After the Aisne, each side tries to outflank the other northward until the front reaches the sea. On the Yser the Belgians halt the Germans by flooding the polders.",
+    "detail": "When the German armies halted on the Aisne in mid-September, both sides tried to turn the other's open northern flank. Successive battles in Picardy, around Albert and Arras, and at La Bassée and Armentières extended the front north by stages through late September and October: the so-called Race to the Sea.\n\nThe last gap lay in Flanders. From 18 October a newly formed German Fourth Army, much of it made up of recently raised reserve corps, attacked the exhausted Belgian army along the Yser. French marines under Admiral Ronarc'h held Diksmuide, and the Belgians, their numbers dwindling, were close to breaking.\n\nThey were saved by water. Between 27 and 30 October Belgian engineers, guided by local lock-keepers, opened the sluices at Nieuwpoort at high tide and let the sea into the low polders between the river and the railway embankment. The flooded strip stopped the German attacks, and remained a barrier until 1918.",
+    "significance": "The Yser flooding kept a sliver of Belgium free and closed the Western Front at the coast: from the sea to Switzerland the lines were now continuous.",
+    "certainty": "high",
+    "uncertaintyNote": "The Race to the Sea has no precise start or end; the dates given run from the first outflanking battles to the completion of the inundation. Diksmuide itself fell on 10 November.",
+    "sources": [
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Jack Sheldon, The German Army at Ypres 1914 (2010)",
+      "Sophie de Schaepdrijver, De Groote Oorlog: Het koninkrijk België tijdens de Eerste Wereldoorlog (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "przemysl-1915",
+    "title": "Siege and fall of Przemyśl",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1914-09-24",
+    "end": "1915-03-22",
+    "datePrecision": "day",
+    "place": "Przemyśl, Galicia (Poland)",
+    "lon": 22.77,
+    "lat": 49.78,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Kusmanek"
+      ],
+      "opponent": [
+        "Radko Dimitriev",
+        "Selivanov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 120,000–130,000 garrison"
+    },
+    "casualties": "c. 117,000–120,000 Austro-Hungarian troops captured at the surrender",
+    "outcome": "defeat",
+    "summary": "Twice besieged by the Russians, the great Galician fortress of Przemyśl holds out through the winter until hunger forces its surrender in March 1915, with some 120,000 men.",
+    "detail": "Przemyśl, a ring fortress on the San guarding the approaches to the Carpathians and Hungary, was left behind the Russian lines when the Austro-Hungarian armies retreated from Galicia in September 1914. Its huge garrison beat off a costly Russian assault in early October and was briefly relieved, but was cut off again in November.\n\nConrad's efforts to rescue it drove the Habsburg army into a disastrous winter offensive in the Carpathians in January–March 1915, where frostbite, avalanches and Russian counter-attacks cost several hundred thousand casualties. Inside the fortress, soldiers and civilians ate the horses and rations were cut to starvation levels. A last breakout attempt on 19 March failed within hours.\n\nOn 22 March General Kusmanek blew up the forts, bridges and remaining ammunition and surrendered. Some 120,000 men, including nine generals, went into Russian captivity. German and Austro-Hungarian forces retook the ruined fortress on 3 June 1915 during the Gorlice–Tarnów offensive.",
+    "significance": "The fall of Przemyśl was the Habsburg monarchy's greatest humiliation of the war so far, and the failed attempts to relieve it bled the army white in the Carpathians.",
+    "certainty": "high",
+    "uncertaintyNote": "The first siege is dated from mid- to late September 1914. The number captured varies between c. 110,000 and c. 120,000 depending on whether non-combatants are included.",
+    "sources": [
+      "Alexander Watson, The Fortress: The Great Siege of Przemyśl (2019)",
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Graydon A. Tunstall, Written in Blood: The Battles for Fortress Przemyśl in WWI (2016)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "antwerp-1914",
+    "title": "Siege of Antwerp",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1914-09-28",
+    "end": "1914-10-10",
+    "datePrecision": "day",
+    "place": "Antwerp, Belgium",
+    "lon": 4.4,
+    "lat": 51.22,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Belgium and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Beseler"
+      ],
+      "opponent": [
+        "King Albert I",
+        "Deguise"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "German siege guns batter the forts of Antwerp, Belgium's national redoubt. The Belgian field army escapes westward to the Yser before the city surrenders.",
+    "detail": "The Belgian army had fallen back on the fortified port of Antwerp in August and made sorties from it against the German lines of communication. In late September Falkenhayn ordered it taken, and General von Beseler's siege corps brought up the same super-heavy howitzers that had reduced Liège and Namur.\n\nThe bombardment began on 28 September and the outer forts fell quickly. Churchill, as First Lord of the Admiralty, rushed the half-trained Royal Naval Division to the city and briefly went there himself, but the reinforcement could not change the outcome. On 6–7 October King Albert took the decision to evacuate the field army along the coast towards Ostend and the Yser, a move that saved it to fight again.\n\nAntwerp's garrison surrendered on 10 October. Several thousand Belgian and British troops who strayed across the border were interned in the neutral Netherlands, and hundreds of thousands of civilians fled there too.",
+    "significance": "The fall of Antwerp freed German troops for the drive on the Channel ports, but the escape of the Belgian army ensured Belgium stayed in the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Refugee figures are approximate; estimates of those who crossed into the Netherlands in October 1914 reach around a million.",
+    "sources": [
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Jack Sheldon, The German Army at Ypres 1914 (2010)",
+      "Sophie de Schaepdrijver, De Groote Oorlog: Het koninkrijk België tijdens de Eerste Wereldoorlog (1997)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "first-ypres-1914",
+    "title": "First Battle of Ypres",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Ypres (Ieper)",
+        "lon": 2.885,
+        "lat": 50.85
+      },
+      {
+        "name": "Langemarck (Langemark)",
+        "lon": 2.92,
+        "lat": 50.91
+      },
+      {
+        "name": "Gheluvelt",
+        "lon": 2.99,
+        "lat": 50.83
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-10-19",
+    "end": "1914-11-22",
+    "datePrecision": "day",
+    "place": "East of Ypres (Ieper), Flanders, Belgium",
+    "lon": 2.95,
+    "lat": 50.86,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn",
+        "Duke Albrecht of Württemberg",
+        "Crown Prince Rupprecht"
+      ],
+      "opponent": [
+        "Sir John French",
+        "Haig",
+        "Foch",
+        "d'Urbal"
+      ]
+    },
+    "casualties": "British c. 55,000–58,000; French c. 50,000–85,000; German c. 130,000–135,000",
+    "outcome": "defeat",
+    "summary": "In a month of desperate fighting, British, French and Belgian troops hold the salient around Ypres against repeated German offensives. The old British regular army is largely destroyed.",
+    "detail": "Falkenhayn's last attempt to break through in the west in 1914 was aimed at the Channel coast through the Flemish town of Ypres. From 19 October German armies, including new reserve corps filled with young volunteers and older reservists, attacked the BEF and French troops who had just arrived in the area.\n\nThe fighting was relentless. At Langemarck on 22–23 October inexperienced German units suffered heavy losses, later mythologised in Germany as the 'massacre of the innocents'. On 31 October the Germans broke into Gheluvelt, and Haig's line was only restored by a counter-attack of the 2nd Worcesters. A final assault by the Prussian Guard on 11 November was stopped near Nonne Bosschen. Foch fed in French reinforcements throughout, and his determination to hold the line was decisive.\n\nWhen the battle died down in the winter rain, the Allies held a salient bulging into the German line east of Ypres, overlooked from the ridges on three sides.",
+    "significance": "First Ypres ended the war of movement in the west. The Ypres salient would be fought over for four more years, and the British Army now had to be rebuilt from volunteers.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for First Ypres are contested and depend on the period counted; French losses in particular are uncertain.",
+    "sources": [
+      "Jack Sheldon, The German Army at Ypres 1914 (2010)",
+      "Ian F.W. Beckett, Ypres: The First Battle, 1914 (2004)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ottoman-entry-1914",
+    "title": "Black Sea raid: Ottoman entry",
+    "geometry": "area",
+    "radiusKm": 300,
+    "markers": [
+      {
+        "name": "Sevastopol",
+        "lon": 33.52,
+        "lat": 44.62
+      },
+      {
+        "name": "Odessa",
+        "lon": 30.73,
+        "lat": 46.48
+      },
+      {
+        "name": "Novorossiysk",
+        "lon": 37.77,
+        "lat": 44.72
+      }
+    ],
+    "kind": "raid",
+    "start": "1914-10-29",
+    "datePrecision": "day",
+    "place": "Russian Black Sea coast (Crimea and Ukraine)",
+    "lon": 33.8,
+    "lat": 45.0,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Ottoman Empire and Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Souchon",
+        "Enver Pasha"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "The Ottoman fleet, led by the German battlecruiser Goeben under Admiral Souchon, bombards Russian Black Sea ports without warning, bringing the Ottoman Empire into the war.",
+    "detail": "On 2 August 1914 the Ottoman war minister Enver Pasha and the grand vizier signed a secret alliance with Germany. Britain's seizure of two dreadnoughts building for the Ottoman navy in British yards angered Ottoman opinion, and on 10 August the German battlecruiser Goeben and light cruiser Breslau, escaping British pursuit across the Mediterranean, entered the Dardanelles. They were nominally sold to the Ottoman navy and renamed Yavuz Sultan Selim and Midilli, but kept their German crews and their commander, Rear-Admiral Wilhelm Souchon.\n\nThe Ottoman cabinet was divided about fighting. Enver and Souchon settled the question: on 29 October Ottoman ships, led by Goeben, attacked Sevastopol, Odessa, Novorossiysk and Feodosia, sinking a Russian gunboat and minelayer. Most ministers had not been consulted.\n\nRussia declared war on 2 November, Britain and France on 5 November. On 14 November the Sheikh ul-Islam proclaimed a holy war against the Entente powers.",
+    "significance": "Ottoman entry opened fronts in the Caucasus, Mesopotamia, Sinai and the Dardanelles, closed Russia's warm-water supply route and set the stage for the destruction of the empire itself.",
+    "certainty": "high",
+    "uncertaintyNote": "How far the attack was a German initiative and how far Enver's is debated; he appears to have authorised it knowingly.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)",
+      "Mustafa Aksakal, The Ottoman Road to War in 1914 (2008)",
+      "Paul Halpern, A Naval History of World War I (1994)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tsingtao-1914",
+    "title": "Siege of Tsingtao",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1914-10-31",
+    "end": "1914-11-07",
+    "datePrecision": "day",
+    "place": "Tsingtao (Qingdao), Kiautschou Bay leased territory, China",
+    "lon": 120.38,
+    "lat": 36.07,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Japan and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Meyer-Waldeck"
+      ],
+      "opponent": [
+        "Kamio Mitsuomi",
+        "Barnardiston"
+      ]
+    },
+    "strength": {
+      "focus": "c. 4,500–5,000",
+      "opponent": "c. 23,000 Japanese and c. 1,500 British"
+    },
+    "casualties": "Japanese and British c. 2,000; German c. 700 killed and wounded, with the rest of the garrison captured",
+    "outcome": "defeat",
+    "summary": "Japan, having declared war on Germany in August, besieges and takes Germany's fortified naval base at Tsingtao on the Chinese coast after a week of heavy bombardment.",
+    "detail": "Germany had seized Kiautschou Bay in 1897 and made Tsingtao the base of its East Asia Squadron. Japan, allied to Britain since 1902 and eager to replace Germany in China, declared war on 23 August. In September Japanese troops landed on the Shandong peninsula, violating Chinese neutrality, and closed on the port, where they were joined by a small British contingent.\n\nThe German garrison, reinforced by reservists and naval personnel, held a line of redoubts across the neck of the peninsula. After weeks of careful approach work, the Japanese opened a systematic bombardment with heavy siege guns on 31 October, supported by warships offshore; Japanese seaplanes flew some of the first aircraft operations from a ship. As trenches were pushed forward and ammunition ran out, the governor, Captain Alfred Meyer-Waldeck, surrendered on 7 November.\n\nAround 4,700 Germans went into captivity in Japan, where many remained until 1920.",
+    "significance": "Tsingtao ended German power in the Far East and gave Japan a foothold in Shandong whose confirmation at Versailles in 1919 provoked the May Fourth Movement in China.",
+    "certainty": "high",
+    "uncertaintyNote": "The dates given are those of the main bombardment and assault; the investment of the fortress began in late September. Casualty figures vary between sources.",
+    "sources": [
+      "Charles B. Burdick, The Japanese Siege of Tsingtau (1976)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Frederick R. Dickinson, War and National Reinvention: Japan in the Great War, 1914–1919 (1999)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "coronel-1914",
+    "title": "Battle of Coronel",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1914-11-01",
+    "datePrecision": "day",
+    "place": "Pacific Ocean off Coronel, Chile",
+    "lon": -73.8,
+    "lat": -36.98,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Spee"
+      ],
+      "opponent": [
+        "Cradock"
+      ]
+    },
+    "strength": {
+      "focus": "2 armoured cruisers, 3 light cruisers",
+      "opponent": "2 armoured cruisers, 1 light cruiser, 1 armed merchant cruiser"
+    },
+    "casualties": "British c. 1,600 killed (all hands on Good Hope and Monmouth); German 3 wounded",
+    "outcome": "victory",
+    "summary": "Admiral von Spee's East Asia Squadron sinks two British armoured cruisers off the Chilean coast at sunset. Admiral Cradock and some 1,600 men die; Britain suffers its first naval defeat in a century.",
+    "detail": "At the outbreak of war Vice-Admiral Maximilian von Spee took his East Asia Squadron, led by the armoured cruisers Scharnhorst and Gneisenau, across the Pacific towards South America. Rear-Admiral Sir Christopher Cradock, with an ageing squadron and ambiguous orders from the Admiralty, went looking for him, leaving behind the slow old battleship Canopus that might have given him firepower.\n\nThe squadrons met off Coronel on the evening of 1 November in a heavy sea. Spee manoeuvred so that the British ships were silhouetted against the setting sun while his own were lost in the gloom of the coast. His crews were crack gunners, and within an hour Good Hope and Monmouth were burning wrecks. Both sank with every man aboard, Cradock among them. The light cruiser Glasgow and the armed merchant cruiser Otranto escaped in the darkness.\n\nThe Germans lost almost nothing, but had used about half their heavy ammunition, which could not be replaced so far from home.",
+    "significance": "The shock prompted the Admiralty to send two battlecruisers to the South Atlantic, sealing Spee's fate five weeks later.",
+    "certainty": "high",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Robert K. Massie, Castles of Steel (2003)",
+      "Julian S. Corbett, Naval Operations, vol. 1 (British official history, 1920)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tanga-1914",
+    "title": "Battle of Tanga",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1914-11-02",
+    "end": "1914-11-05",
+    "datePrecision": "day",
+    "place": "Tanga, German East Africa (Tanzania)",
+    "lon": 39.1,
+    "lat": -5.07,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (India)"
+    },
+    "commanders": {
+      "focus": [
+        "Lettow-Vorbeck"
+      ],
+      "opponent": [
+        "Aitken"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1,000, mostly African askari",
+      "opponent": "c. 8,000 (Indian Expeditionary Force B)"
+    },
+    "casualties": "British and Indian c. 800; German c. 150",
+    "outcome": "victory",
+    "summary": "A British-Indian amphibious assault on the port of Tanga is routed by Lettow-Vorbeck's much smaller force of askari, opening four years of war in East Africa.",
+    "detail": "Britain intended to seize the northern port of German East Africa with a force sent from India, many of whose units were poorly trained and had spent weeks cramped aboard ship. Its commander, Major-General Arthur Aitken, was confident of an easy success and gave the enemy warning by first asking the town to surrender.\n\nThe landing on 2–3 November was slow, giving Lieutenant-Colonel Paul von Lettow-Vorbeck time to rush reinforcements to Tanga by the Usambara railway. When the British advanced on 4 November through plantations and bush, they met determined German askari and European volunteers. Some Indian units broke under fire, and swarms of angry wild bees, disturbed by the fighting, attacked men on both sides. A German counter-attack drove the attackers back to the beaches.\n\nAitken re-embarked his force on 5 November, abandoning rifles, machine guns and ammunition that the Germans gladly collected.",
+    "significance": "Tanga was one of Britain's most embarrassing defeats of the war and made Lettow-Vorbeck's reputation; his campaign would tie down far larger Allied forces until 1918, at terrible cost to African porters and civilians.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures differ between British and German accounts.",
+    "sources": [
+      "Hew Strachan, The First World War in Africa (2004)",
+      "Edward Paice, Tip and Run: The Untold Tragedy of the Great War in Africa (2007)",
+      "Ross Anderson, The Forgotten Front: The East African Campaign 1914–1918 (2004)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "emden-cocos-1914",
+    "title": "Sydney destroys the Emden",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Direction Island cable station",
+        "lon": 96.89,
+        "lat": -12.09
+      }
+    ],
+    "kind": "naval",
+    "start": "1914-11-09",
+    "datePrecision": "day",
+    "place": "North Keeling Island, Cocos (Keeling) Islands, Indian Ocean",
+    "lon": 96.82,
+    "lat": -11.83,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (Australia)"
+    },
+    "commanders": {
+      "focus": [
+        "Müller"
+      ],
+      "opponent": [
+        "Glossop"
+      ]
+    },
+    "casualties": "German c. 134 killed; Australian 4 killed",
+    "outcome": "defeat",
+    "summary": "The Australian cruiser HMAS Sydney catches and wrecks the raider Emden, which had spent two months terrorising Allied shipping across the Indian Ocean.",
+    "detail": "Detached from Spee's squadron in August, the light cruiser Emden under Captain Karl von Müller became the most successful surface raider of the war. She captured or sank some two dozen merchant ships in the Indian Ocean, shelled the oil tanks at Madras in September and, in a surprise raid on Penang in October, sank a Russian cruiser and a French destroyer. Müller's care for the crews of captured ships won him respect even in Britain.\n\nOn 9 November Emden landed a party to destroy the cable and wireless station on Direction Island in the Cocos group. The operators sent a warning, and HMAS Sydney, escorting a nearby convoy carrying Australian and New Zealand troops, arrived within hours. Faster and more heavily gunned, Sydney shattered the German cruiser in a running action, and Müller ran his burning ship aground on North Keeling Island.\n\nThe landing party under Hellmuth von Mücke seized an old schooner and, after an epic journey through Arabia, reached Constantinople in 1915.",
+    "significance": "The Emden's destruction freed Indian Ocean shipping and troop convoys, and was the Royal Australian Navy's first victory in a single-ship action.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of ships taken by Emden is given variously, depending on whether ships released after capture are counted.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Robert K. Massie, Castles of Steel (2003)",
+      "Julian S. Corbett, Naval Operations, vol. 1 (British official history, 1920)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "kolubara-1914",
+    "title": "Battle of the Kolubara",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Suvobor ridge",
+        "lon": 20.2,
+        "lat": 44.1
+      },
+      {
+        "name": "Belgrade",
+        "lon": 20.46,
+        "lat": 44.82
+      }
+    ],
+    "kind": "battle",
+    "start": "1914-11-16",
+    "end": "1914-12-15",
+    "datePrecision": "day",
+    "place": "Kolubara valley and Suvobor, western Serbia",
+    "lon": 20.2,
+    "lat": 44.3,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Serbia"
+    },
+    "commanders": {
+      "focus": [
+        "Potiorek"
+      ],
+      "opponent": [
+        "Putnik",
+        "Mišić"
+      ]
+    },
+    "casualties": "Across the 1914 campaigns in Serbia, Austro-Hungarian losses c. 225,000 and Serbian c. 170,000; the Kolubara battle accounts for a large share",
+    "outcome": "defeat",
+    "summary": "Potiorek's third invasion takes Belgrade, but a Serbian counter-offensive from the Suvobor heights shatters his overextended armies and drives them from Serbia by mid-December.",
+    "detail": "Undeterred by defeat at Cer and a costly second offensive on the Drina in September, Potiorek invaded Serbia again in November. Heavy rain turned roads into mud, but his armies pushed the outgunned Serbians back across the Kolubara river, took Valjevo and, on 2 December, entered Belgrade, which the Serbians had abandoned.\n\nThe Serbian army was short of artillery ammunition and demoralised, and Putnik pulled it back to shorten the line. General Živojin Mišić, commanding the First Army, argued instead for attack. Once shells arrived from France, he struck from the Suvobor ridge on 3 December into Austro-Hungarian forces at the end of their overstretched supply lines. The counter-offensive spread along the whole front, the invaders gave way, and Serbian troops re-entered Belgrade on 15 December.\n\nPotiorek was dismissed. But the retreating armies left typhus behind them, and an epidemic over the winter killed tens of thousands of Serbian soldiers, civilians and prisoners.",
+    "significance": "Serbia had now defeated three invasions, a humiliation for Austria-Hungary that would only be reversed with German and Bulgarian help in 1915.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the separate 1914 Serbian battles are hard to disentangle and differ markedly between sources.",
+    "sources": [
+      "James Lyon, Serbia and the Balkan Front, 1914 (2015)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "falklands-1914",
+    "title": "Battle of the Falkland Islands",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Port Stanley",
+        "lon": -57.85,
+        "lat": -51.69
+      }
+    ],
+    "kind": "naval",
+    "start": "1914-12-08",
+    "datePrecision": "day",
+    "place": "South Atlantic, south-east of the Falkland Islands",
+    "lon": -57.0,
+    "lat": -52.6,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Spee"
+      ],
+      "opponent": [
+        "Sturdee"
+      ]
+    },
+    "strength": {
+      "focus": "2 armoured cruisers, 3 light cruisers",
+      "opponent": "2 battlecruisers, 3 armoured cruisers, 2 light cruisers"
+    },
+    "casualties": "German c. 1,900 killed, including Spee and his two sons; British 10 killed",
+    "outcome": "defeat",
+    "summary": "Arriving to raid Port Stanley, Spee finds two British battlecruisers coaling in the harbour. In a long chase they sink Scharnhorst, Gneisenau and two light cruisers; Spee dies with his squadron.",
+    "detail": "After Coronel the Admiralty, with Fisher back as First Sea Lord, detached the battlecruisers Invincible and Inflexible under Vice-Admiral Sturdee to hunt Spee. They reached the Falklands on 7 December. The next morning Spee's squadron, rounding Cape Horn, approached Port Stanley intending to destroy the coaling station and wireless.\n\nThe Germans saw the tripod masts of the battlecruisers above the land, and turned away. Sturdee's ships raised steam and, in clear weather, ran them down. Spee ordered his light cruisers to scatter and turned his two armoured cruisers to fight, to buy them time. Outranged and outgunned, Scharnhorst sank in the afternoon with all hands, including Spee, and Gneisenau followed; British cruisers hunted down Nürnberg and Leipzig. Only the light cruiser Dresden escaped, to be cornered in Chilean waters in March 1915.\n\nThe British rescued about 200 German survivors from the icy sea.",
+    "significance": "The Falklands avenged Coronel and ended the threat of German surface squadrons on the oceans; henceforth Germany's war at sea against trade would be waged by U-boats and occasional raiders.",
+    "certainty": "high",
+    "uncertaintyNote": "The battle's position ranged over a long chase to the south-east of the islands; the point given is approximate.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Robert K. Massie, Castles of Steel (2003)",
+      "Julian S. Corbett, Naval Operations, vol. 1 (British official history, 1920)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sarikamish-1914",
+    "title": "Battle of Sarıkamış",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1914-12-22",
+    "end": "1915-01-17",
+    "datePrecision": "day",
+    "place": "Sarıkamış (Sarikamish), Russian Caucasus (Turkey)",
+    "lon": 42.56,
+    "lat": 40.33,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Enver Pasha",
+        "Hafız Hakkı"
+      ],
+      "opponent": [
+        "Myshlaevsky",
+        "Yudenich"
+      ]
+    },
+    "strength": {
+      "focus": "c. 90,000–100,000",
+      "opponent": "c. 60,000–80,000"
+    },
+    "casualties": "Ottoman c. 60,000–80,000, the majority from cold and disease; Russian c. 16,000–30,000 including sick and frostbitten",
+    "outcome": "defeat",
+    "summary": "Enver Pasha's midwinter offensive against the Russian Caucasus founders in the snowbound mountains. The Ottoman Third Army is all but destroyed, most of its men killed by cold.",
+    "detail": "Enver Pasha, the Ottoman war minister, took personal command of the Third Army in eastern Anatolia and planned a bold envelopment of Russian forces around the railhead of Sarıkamış, hoping to recover the provinces lost in 1878 and rouse the Muslims of the Caucasus. The plan ignored the season and the terrain: his columns had to cross passes above 2,500 metres in deep snow, with little food and no winter clothing.\n\nThe offensive began on 22 December. Thousands of men froze to death on the mountain tracks, and the formations that reached Sarıkamış were too weak to take it. The Russian command wavered, but General Nikolai Yudenich kept his nerve, and from late December counter-attacks encircled and destroyed the Ottoman IX Corps. By mid-January the Third Army had ceased to exist as a fighting force, and typhus spread among the survivors and the civilian population.\n\nEnver returned to Constantinople, publicly praising the loyalty of an Armenian soldier who had saved him, while Ottoman leaders privately blamed Armenians for the defeat.",
+    "significance": "The catastrophe crippled Ottoman power in the Caucasus, and the scapegoating of Armenians in its aftermath fed directly into the genocide of 1915.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman losses are very uncertain; some estimates run as high as 90,000 of the original force, and the proportion lost to cold is not measurable.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)",
+      "Michael A. Reynolds, Shattering Empires: The Clash and Collapse of the Ottoman and Russian Empires 1908–1918 (2011)",
+      "W.E.D. Allen and Paul Muratoff, Caucasian Battlefields (1953)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "christmas-truce-1914",
+    "title": "The Christmas truce",
+    "geometry": "area",
+    "radiusKm": 40,
+    "markers": [
+      {
+        "name": "Ploegsteert Wood",
+        "lon": 2.88,
+        "lat": 50.73
+      },
+      {
+        "name": "Frelinghien",
+        "lon": 2.94,
+        "lat": 50.71
+      }
+    ],
+    "kind": "political",
+    "start": "1914-12-24",
+    "end": "1914-12-26",
+    "datePrecision": "day",
+    "place": "Western Front in Flanders and French Flanders, chiefly the British sector",
+    "lon": 2.85,
+    "lat": 50.7,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "German soldiers",
+      "opponent": "British and French soldiers"
+    },
+    "outcome": "n/a",
+    "summary": "Along stretches of the Western Front, German and British soldiers stop firing on Christmas Eve and meet in no man's land to exchange gifts, bury the dead and, in places, play football.",
+    "detail": "By December 1914 the armies in Flanders faced each other from waterlogged trenches, often only a few dozen metres apart. On Christmas Eve, in many sectors held by the BEF, German soldiers put candles and small Christmas trees on their parapets and sang carols. British troops answered, and shouted conversations led to meetings between the lines.\n\nOn Christmas Day, along perhaps two-thirds of the British front, men of both sides went into no man's land. They buried the dead who had lain there for weeks, exchanged cigarettes, food, buttons and addresses, and took photographs. Contemporary letters describe football being played in at least some places, though accounts of organised matches are harder to confirm. Similar fraternisation occurred in parts of the French and Belgian lines, though less widely.\n\nIn most places fighting resumed on 26 December or soon after. Senior commanders, alarmed, issued orders against fraternisation, and no comparable truce happened again on this scale.",
+    "significance": "The truce became one of the most famous episodes of the war, a moment of shared humanity that showed the gap between the men in the trenches and the war their states were waging.",
+    "certainty": "high",
+    "uncertaintyNote": "The truce was local and unofficial, and its extent varied from sector to sector; the football matches in particular have been embellished in later memory.",
+    "sources": [
+      "Malcolm Brown and Shirley Seaton, Christmas Truce (1984)",
+      "Stanley Weintraub, Silent Night: The Story of the World War I Christmas Truce (2001)",
+      "Tony Ashworth, Trench Warfare 1914–1918: The Live and Let Live System (1980)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "dogger-bank-1915",
+    "title": "Battle of Dogger Bank",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Blücher sunk",
+        "lon": 5.42,
+        "lat": 54.42
+      }
+    ],
+    "kind": "naval",
+    "start": "1915-01-24",
+    "datePrecision": "day",
+    "place": "North Sea, near the Dogger Bank",
+    "lon": 4.5,
+    "lat": 54.6,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Hipper"
+      ],
+      "opponent": [
+        "Beatty"
+      ]
+    },
+    "strength": {
+      "focus": "3 battlecruisers, 1 armoured cruiser, light forces",
+      "opponent": "5 battlecruisers, light forces"
+    },
+    "casualties": "German c. 950 killed, most in the Blücher; British c. 15 killed",
+    "outcome": "defeat",
+    "summary": "Forewarned by decoded German signals, Beatty's battlecruisers intercept Hipper's raiding force in the North Sea and sink the armoured cruiser Blücher, though the rest escape.",
+    "detail": "German battlecruisers under Rear-Admiral Franz Hipper had shelled Scarborough, Whitby and Hartlepool in December 1914, killing more than a hundred civilians. When Hipper sailed again in January to attack British fishing and patrol boats on the Dogger Bank, the Admiralty's code-breakers in Room 40 read his orders, and Vice-Admiral David Beatty was waiting.\n\nOn the morning of 24 January Hipper turned for home, and Beatty's faster battlecruisers chased him south-east. The slow Blücher, at the rear of the German line, was battered to a standstill. A British shell hit the aft turrets of Hipper's flagship Seydlitz and started a fire in the ammunition handling rooms that nearly destroyed the ship. Then Beatty's flagship Lion was disabled, and confused flag signals led the other British ships to concentrate on the sinking Blücher instead of pursuing the fleeing battlecruisers.\n\nBlücher capsized with heavy loss of life; about 200 survivors were picked up.",
+    "significance": "A British victory, but a frustrating one. The Germans learned from Seydlitz's near-loss to guard their magazines against flash fires; the British did not, with grave consequences at Jutland.",
+    "certainty": "high",
+    "uncertaintyNote": "German casualty figures differ slightly between sources.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Robert K. Massie, Castles of Steel (2003)",
+      "Andrew Gordon, The Rules of the Game: Jutland and British Naval Command (1996)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "suez-canal-raid-1915",
+    "title": "Ottoman attack on the Suez Canal",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Ismailia",
+        "lon": 32.27,
+        "lat": 30.6
+      }
+    ],
+    "kind": "raid",
+    "start": "1915-02-03",
+    "end": "1915-02-04",
+    "datePrecision": "day",
+    "place": "Suez Canal between Tussum and Serapeum, Egypt",
+    "lon": 32.31,
+    "lat": 30.48,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Djemal Pasha",
+        "Kress von Kressenstein"
+      ],
+      "opponent": [
+        "Maxwell"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20,000",
+      "opponent": "c. 30,000 along the canal"
+    },
+    "casualties": "Ottoman c. 1,500 including prisoners; British and Indian c. 160",
+    "outcome": "defeat",
+    "summary": "An Ottoman army that has crossed the Sinai desert tries to force the Suez Canal on pontoons. The attempt is shot to pieces by Indian troops and Allied warships.",
+    "detail": "Djemal Pasha, commanding the Ottoman Fourth Army in Syria, hoped that an attack on the Suez Canal, Britain's imperial artery, would cut communications with India and Australia and provoke an Egyptian uprising. With his German chief of staff, Friedrich Kress von Kressenstein, he led some 20,000 men across the Sinai in January 1915, carrying metal pontoons and moving mainly by night to avoid British aircraft.\n\nThe British, with Indian divisions and Egyptian artillery manning the west bank, had flooded low ground and brought warships into the canal and the Bitter Lakes. Before dawn on 3 February Ottoman troops began launching pontoons near Tussum. Only a handful of boats got across before they were destroyed by rifle, machine-gun and naval fire, and the few men who landed were killed or captured. After a day of fighting Djemal ordered a withdrawal, which the British did not seriously pursue.\n\nNo rising in Egypt followed.",
+    "significance": "The raid failed, but it convinced the British to keep large forces in Egypt, and German-led raids on the canal continued into 1916.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman losses are uncertain; figures depend on British counts of dead and prisoners.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)",
+      "George Macmunn and Cyril Falls, Military Operations: Egypt and Palestine, vol. 1 (British official history, 1928)",
+      "Edward J. Erickson, Ordered to Die: A History of the Ottoman Army in the First World War (2001)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "neuve-chapelle-1915",
+    "title": "Battle of Neuve Chapelle",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1915-03-10",
+    "end": "1915-03-13",
+    "datePrecision": "day",
+    "place": "Neuve-Chapelle, Pas-de-Calais, France",
+    "lon": 2.78,
+    "lat": 50.58,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (Britain and India)"
+    },
+    "commanders": {
+      "focus": [
+        "Crown Prince Rupprecht"
+      ],
+      "opponent": [
+        "Haig",
+        "Rawlinson",
+        "Willcocks"
+      ]
+    },
+    "casualties": "British and Indian c. 11,000–12,500; German c. 10,000–12,000",
+    "outcome": "inconclusive",
+    "summary": "Britain's first planned offensive of trench warfare breaks into the German line after a short, intense bombardment, then stalls as reserves and communications fail.",
+    "detail": "Haig's First Army attacked a salient in the German line at Neuve Chapelle on 10 March, using aerial photographs to map the enemy trenches and a concentrated bombardment of some 35 minutes. The Indian Corps and IV Corps overran the village and a wide stretch of the front line within hours.\n\nThen the familiar pattern of the Western Front set in. Telephone lines were cut, messages took hours to travel back and forth, reserves were slow to move up and artillery ammunition ran short. The Germans rushed in reinforcements, dug a new line and counter-attacked on 12 March. When the battle ended the British had gained a strip of ground about a kilometre deep at a cost roughly equal to the defenders'.\n\nSir John French blamed the failure on a shortage of shells, a complaint that grew into the 'shell scandal' in May and helped bring down Asquith's Liberal government.",
+    "significance": "Neuve Chapelle showed that a trench line could be broken but not a breakthrough exploited, a problem that would dominate the next three years of fighting.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary; German losses in particular are estimated.",
+    "sources": [
+      "J.E. Edmonds, Military Operations: France and Belgium, 1915, vol. 1 (British official history, 1927)",
+      "Hew Strachan, The First World War (2003)",
+      "Jack Sheldon, The German Army on the Western Front 1915 (2012)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "dardanelles-naval-attack-1915",
+    "title": "Naval attack on the Dardanelles",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Çanakkale (Chanak)",
+        "lon": 26.41,
+        "lat": 40.15
+      },
+      {
+        "name": "Kilitbahir",
+        "lon": 26.38,
+        "lat": 40.15
+      }
+    ],
+    "kind": "naval",
+    "start": "1915-03-18",
+    "datePrecision": "day",
+    "place": "Dardanelles Strait below the Narrows, near Erenköy Bay",
+    "lon": 26.35,
+    "lat": 40.08,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Cevat Pasha",
+        "Merten"
+      ],
+      "opponent": [
+        "de Robeck",
+        "Guépratte"
+      ]
+    },
+    "strength": {
+      "focus": "Forts, mobile howitzers and minefields",
+      "opponent": "16 battleships with supporting ships"
+    },
+    "casualties": "Allied c. 700 killed, most in the French battleship Bouvet; Ottoman c. 100–150",
+    "outcome": "victory",
+    "summary": "An Anglo-French fleet tries to force the Dardanelles by sea power alone. Mines laid in a bay the Allies thought swept sink three battleships and cripple three more.",
+    "detail": "In January 1915 the British War Council, urged on by Churchill, approved a naval attempt to force the Dardanelles, reach Constantinople and knock the Ottoman Empire out of the war, while opening a sea route to Russia. Bombardments from February silenced the outer forts, but converted trawlers crewed by civilians could not clear the minefields under fire from mobile Ottoman howitzers.\n\nOn 18 March Vice-Admiral John de Robeck sent sixteen British and French battleships into the strait to overpower the forts at the Narrows. The bombardment went well at first. Then the French battleship Bouvet struck a mine and capsized in minutes, taking most of her crew with her. In the afternoon HMS Irresistible and HMS Ocean were also mined and later sank, and the battlecruiser Inflexible and two French battleships were badly damaged. The mines had been laid on the night of 7–8 March by the small minelayer Nusret, parallel to the shore in Erenköy Bay, where the Allied ships were manoeuvring.\n\nDe Robeck broke off the attack and did not renew it.",
+    "significance": "The naval failure led directly to the decision to land troops on the Gallipoli peninsula, and 18 March is still commemorated in Turkey as a national victory.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether the forts were close to running out of ammunition, so that a renewed attack might have succeeded, has been debated since 1915.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Robin Prior, Gallipoli: The End of the Myth (2009)",
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "second-ypres-1915",
+    "title": "Second Ypres and the first gas attack",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Ypres (Ieper)",
+        "lon": 2.885,
+        "lat": 50.85
+      },
+      {
+        "name": "St Julien (Sint-Juliaan)",
+        "lon": 2.94,
+        "lat": 50.89
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-04-22",
+    "end": "1915-05-25",
+    "datePrecision": "day",
+    "place": "Between Steenstraat and Poelkapelle, north of Ypres, Belgium",
+    "lon": 2.91,
+    "lat": 50.9,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, France and Canada"
+    },
+    "commanders": {
+      "focus": [
+        "Duke Albrecht of Württemberg",
+        "Falkenhayn"
+      ],
+      "opponent": [
+        "Smith-Dorrien",
+        "Plumer",
+        "Putz",
+        "Alderson"
+      ]
+    },
+    "casualties": "British Empire c. 59,000; French c. 10,000–20,000; German c. 35,000",
+    "outcome": "inconclusive",
+    "summary": "On the evening of 22 April German troops release a cloud of chlorine gas against French colonial and territorial troops north of Ypres, tearing a gap in the line. Canadian troops help seal it.",
+    "detail": "German troops had dug in some 5,700 cylinders of chlorine along a stretch of about six kilometres north of Ypres, under the guidance of the chemist Fritz Haber. Late on the afternoon of 22 April, with the wind blowing towards the Allied lines, they opened the valves. A greenish-yellow cloud drifted over the French 45th (Algerian) and 87th Territorial Divisions. Men with no protection choked, collapsed or fled, and a gap opened in the line.\n\nThe Germans, who had intended only a limited attack and had few reserves ready, advanced cautiously behind the gas. The Canadian Division on the flank, and British and French reinforcements, improvised a new line, and the Canadians held on at St Julien against a second gas attack on 24 April, many soldiers protecting themselves with cloths soaked in water or urine.\n\nWeeks of German attacks and costly Allied counter-attacks followed. Smith-Dorrien, who advised pulling back, was removed, and the salient was shortened in early May, leaving Ypres itself within easy range of German guns.",
+    "significance": "Second Ypres marked the first large-scale use of poison gas on the Western Front and a threshold in the war's escalation; both sides adopted chemical weapons and gas masks within months.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for Second Ypres are contested, and the number of deaths caused directly by gas on 22 April is unknown; contemporary claims were often exaggerated. Germany had first used gas shells, ineffectively, on the Eastern Front at Bolimów in January 1915.",
+    "sources": [
+      "Tim Cook, No Place to Run: The Canadian Corps and Gas Warfare in the First World War (1999)",
+      "L.F. Haber, The Poisonous Cloud: Chemical Warfare in the First World War (1986)",
+      "Hew Strachan, The First World War (2003)",
+      "Jack Sheldon, The German Army at Ypres 1915 (2012)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "armenian-genocide-1915",
+    "title": "The Armenian genocide",
+    "geometry": "area",
+    "radiusKm": 450,
+    "markers": [
+      {
+        "name": "Constantinople (Istanbul): arrests of 24 April",
+        "lon": 28.98,
+        "lat": 41.01
+      },
+      {
+        "name": "Van",
+        "lon": 43.38,
+        "lat": 38.5
+      },
+      {
+        "name": "Deir ez-Zor",
+        "lon": 40.14,
+        "lat": 35.34
+      }
+    ],
+    "kind": "massacre",
+    "start": "1915-04-24",
+    "end": "1916-12",
+    "datePrecision": "month",
+    "place": "Eastern Anatolia and the deportation routes to the Syrian desert, Ottoman Empire",
+    "lon": 39.5,
+    "lat": 38.8,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Ottoman Empire (Committee of Union and Progress government)",
+      "opponent": "Armenian civilians"
+    },
+    "commanders": {
+      "focus": [
+        "Talaat Pasha",
+        "Enver Pasha",
+        "Bahaeddin Şakir"
+      ]
+    },
+    "casualties": "c. 600,000 to over 1,000,000 Armenians killed or dead from starvation and disease; most estimates cluster around 1 million",
+    "outcome": "n/a",
+    "summary": "The Ottoman government arrests Armenian leaders in Constantinople and orders the deportation of Armenians from Anatolia. Men are massacred and women, children and the old are driven on death marches to the Syrian desert.",
+    "detail": "After the disaster at Sarıkamış and with Allied landings expected at the Dardanelles, the leaders of the ruling Committee of Union and Progress came to regard the empire's Armenian Christians as an internal enemy. The armed defence of Van in April was used to justify the claim of a general uprising. On the night of 24 April 1915 some 240 Armenian intellectuals and community leaders were arrested in Constantinople; most were later killed.\n\nIn late May a deportation law sanctioned the removal of Armenians from the eastern provinces, and soon from almost the whole of Anatolia. In town after town men were separated and shot or bayoneted, often by irregulars of the Special Organisation or by local Kurdish tribesmen. Women, children and the old were marched south for weeks without food or water, robbed, raped and killed along the way; many were abducted or forcibly converted. Survivors reached camps in the Syrian desert, where tens of thousands more were massacred around Deir ez-Zor in 1916.\n\nAssyrian and Greek Orthodox communities were also subjected to massacres and deportations in these years.",
+    "significance": "The destruction of the Ottoman Armenians was one of the defining crimes of the century and the model for the concept of genocide. Turkey still disputes the term.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of victims is estimated from incomplete pre-war population figures and survivor counts, and ranges from c. 600,000 to 1.5 million. The Turkish state rejects the term genocide, but it is the consensus of historians of the subject. Killings began before 24 April and continued beyond 1916.",
+    "sources": [
+      "Ronald Grigor Suny, 'They Can Live in the Desert but Nowhere Else': A History of the Armenian Genocide (2015)",
+      "Raymond Kévorkian, The Armenian Genocide: A Complete History (2011)",
+      "Taner Akçam, The Young Turks' Crime Against Humanity (2012)",
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "gallipoli-landings-1915",
+    "title": "Gallipoli landings",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Cape Helles (V and W Beaches)",
+        "lon": 26.18,
+        "lat": 40.05
+      },
+      {
+        "name": "Kum Kale (French landing)",
+        "lon": 26.2,
+        "lat": 40.0
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-04-25",
+    "end": "1915-05-08",
+    "datePrecision": "day",
+    "place": "Anzac Cove (Arıburnu) and Cape Helles, Gallipoli peninsula, Ottoman Empire (Turkey)",
+    "lon": 26.29,
+    "lat": 40.24,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (Britain, Australia, New Zealand) and France"
+    },
+    "commanders": {
+      "focus": [
+        "Liman von Sanders",
+        "Mustafa Kemal",
+        "Esat Pasha"
+      ],
+      "opponent": [
+        "Ian Hamilton",
+        "Birdwood",
+        "Hunter-Weston",
+        "d'Amade"
+      ]
+    },
+    "strength": {
+      "focus": "c. 60,000–80,000 in the Fifth Army around the straits",
+      "opponent": "c. 75,000 in the Mediterranean Expeditionary Force"
+    },
+    "casualties": "Heavy on both sides; Anzac c. 2,000 on the first day, with thousands more at Helles in the first two weeks; Ottoman losses comparable or greater",
+    "outcome": "victory",
+    "summary": "Allied troops land at dawn on the Gallipoli peninsula. The Anzacs are pinned below the ridges by Mustafa Kemal's counter-attacks; at Cape Helles the British suffer terribly at V and W Beaches.",
+    "detail": "After the naval failure of 18 March, General Sir Ian Hamilton was given a month to prepare a landing to clear the peninsula. The Ottoman Fifth Army, under the German General Otto Liman von Sanders, used the time to dig in and deploy reserves.\n\nBefore dawn on 25 April the Australian and New Zealand Army Corps landed north of Gaba Tepe, at a cove later called Anzac, where steep, scrub-covered ravines scattered the units. As they climbed towards the heights of Sari Bair, Lieutenant-Colonel Mustafa Kemal led his 19th Division's regiments against them and drove them back to a narrow perimeter. At Cape Helles British troops landed on five beaches. At W Beach the Lancashire Fusiliers fought through wire and machine-gun fire, and at V Beach men pouring from the converted collier River Clyde were shot down in the gangways. The French landed at Kum Kale on the Asian shore as a diversion before re-embarking.\n\nAttacks on the village of Krithia and the hill of Achi Baba in late April and early May failed at heavy cost.",
+    "significance": "The campaign became a costly stalemate. The landing is commemorated as Anzac Day, a founding moment in Australian and New Zealand national identity, while the defence became a foundation of modern Turkish national memory, and made Mustafa Kemal's name.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the landings and the first weeks vary widely by source and by the period counted.",
+    "sources": [
+      "Robin Prior, Gallipoli: The End of the Myth (2009)",
+      "C.E.W. Bean, The Story of Anzac, vols 1–2 (Official History of Australia in the War, 1921–24)",
+      "Edward J. Erickson, Gallipoli: The Ottoman Campaign (2010)",
+      "Peter Hart, Gallipoli (2011)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "gorlice-tarnow-1915",
+    "title": "Gorlice–Tarnów offensive",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Tarnów",
+        "lon": 20.99,
+        "lat": 50.01
+      },
+      {
+        "name": "Przemyśl (retaken 3 June)",
+        "lon": 22.77,
+        "lat": 49.78
+      },
+      {
+        "name": "Lemberg (retaken 22 June)",
+        "lon": 24.03,
+        "lat": 49.84
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-05-02",
+    "end": "1915-06-22",
+    "datePrecision": "day",
+    "place": "Between Gorlice and Tarnów, western Galicia (Poland)",
+    "lon": 21.1,
+    "lat": 49.72,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Mackensen",
+        "Seeckt",
+        "Falkenhayn",
+        "Archduke Joseph Ferdinand"
+      ],
+      "opponent": [
+        "Radko Dimitriev",
+        "Ivanov"
+      ]
+    },
+    "casualties": "Russian losses in the offensive c. 400,000 or more, a large proportion as prisoners; German and Austro-Hungarian c. 90,000 or more",
+    "outcome": "victory",
+    "summary": "After a crushing bombardment, Mackensen's German–Austro-Hungarian armies break the Russian front in western Galicia, retake Przemyśl and Lemberg and drive the Russians out of almost all of Galicia.",
+    "detail": "By spring 1915 Austria-Hungary was near breaking point after the Carpathian winter battles, and Italy was about to join the Allies. Falkenhayn agreed to send German divisions east. A new Eleventh Army under August von Mackensen, with Hans von Seeckt as chief of staff, assembled secretly on a narrow front between Gorlice and Tarnów, facing Radko Dimitriev's thinly stretched Russian Third Army.\n\nOn the morning of 2 May a heavy bombardment of unprecedented weight on the Eastern Front smashed the shallow Russian trenches, and German and Austro-Hungarian infantry broke through. Russian reserves were short of rifles and shells and were fed in piecemeal; retreating troops lost their cohesion. Within two weeks the attackers had reached the San. Przemyśl was retaken on 3 June and Lemberg on 22 June.\n\nThe offensive did not end there: in July it was turned north into Russian Poland, beginning the Russian Great Retreat.",
+    "significance": "Gorlice–Tarnów was the greatest Central Powers breakthrough of the war to date. It saved Austria-Hungary from collapse and began a Russian retreat that would cost Poland, Lithuania and millions of men.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty and prisoner figures for the offensive vary widely between sources and with the dates counted.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Richard L. DiNardo, Breakthrough: The Gorlice–Tarnow Campaign, 1915 (2010)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "lusitania-1915",
+    "title": "Sinking of the Lusitania",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Queenstown (Cobh)",
+        "lon": -8.29,
+        "lat": 51.85
+      }
+    ],
+    "kind": "naval",
+    "start": "1915-05-07",
+    "datePrecision": "day",
+    "place": "Off the Old Head of Kinsale, Ireland",
+    "lon": -8.55,
+    "lat": 51.41,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain (and neutral United States passengers)"
+    },
+    "commanders": {
+      "focus": [
+        "Schwieger"
+      ],
+      "opponent": [
+        "Turner"
+      ]
+    },
+    "casualties": "c. 1,200 passengers and crew killed, including 128 Americans",
+    "outcome": "n/a",
+    "summary": "The U-boat U-20 torpedoes the Cunard liner Lusitania off southern Ireland. She sinks in about eighteen minutes, and some 1,200 people, including 128 Americans, die.",
+    "detail": "In February 1915 Germany declared the waters around the British Isles a war zone in which Allied merchant ships could be sunk without warning. The German embassy placed notices in American newspapers warning travellers against sailing in British ships.\n\nThe Lusitania, one of the fastest and most famous liners afloat, left New York on 1 May with nearly 2,000 people aboard. On the afternoon of 7 May, near the end of her voyage, Kapitänleutnant Walther Schwieger's U-20 fired a single torpedo into her starboard side. A second, larger explosion followed, and the ship listed so sharply that most lifeboats could not be launched. She sank within about eighteen minutes, and some 1,200 people drowned or died of cold, among them many women and children.\n\nThe ship was carrying rifle ammunition and other munitions in her cargo, as Germany claimed. The sinking provoked fury in Britain and the United States, anti-German riots in several British cities and sharp notes from President Wilson.",
+    "significance": "The sinking turned American opinion sharply against Germany, and US pressure forced Germany to restrict submarine warfare in 1915–16, a restraint whose abandonment in 1917 would bring America into the war.",
+    "certainty": "high",
+    "uncertaintyNote": "The cause of the second explosion (boiler, coal dust or cargo) remains disputed. Death tolls are given as between c. 1,195 and 1,201 depending on the source.",
+    "sources": [
+      "Colin Simpson, Lusitania (1972)",
+      "Diana Preston, Wilful Murder: The Sinking of the Lusitania (2002)",
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Erik Larson, Dead Wake: The Last Crossing of the Lusitania (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "italy-enters-war-1915",
+    "title": "Italy enters the war",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1915-05-23",
+    "datePrecision": "day",
+    "place": "Rome, Kingdom of Italy",
+    "lon": 12.48,
+    "lat": 41.9,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "opponent": [
+        "Salandra",
+        "Sonnino",
+        "Victor Emmanuel III",
+        "Cadorna"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Lured by the secret Treaty of London's promises of Austrian territory, Italy abandons its Triple Alliance ties and declares war on Austria-Hungary, opening a new front in the Alps.",
+    "detail": "Italy was formally allied to Germany and Austria-Hungary in 1914 but declared neutrality, arguing that Austria's attack on Serbia was not a defensive war. Over the following months the prime minister Antonio Salandra and the foreign minister Sidney Sonnino bargained with both sides for the Italian-speaking lands still under Habsburg rule.\n\nThe Allies could offer more at Austria's expense. By the secret Treaty of London, signed on 26 April 1915, Italy was promised the Trentino, the South Tyrol up to the Brenner Pass, Trieste, Istria, much of Dalmatia and a share of any Ottoman and colonial spoils. Most deputies, following the former premier Giolitti, favoured neutrality, but noisy interventionist demonstrations in the 'radiant May', with the poet Gabriele D'Annunzio and the renegade socialist Benito Mussolini among their voices, and the king's support for the government overrode them.\n\nItaly declared war on Austria-Hungary on 23 May, with hostilities beginning the next day. It did not declare war on Germany until August 1916.",
+    "significance": "Italy's entry opened a costly new front for Austria-Hungary, but the promises of 1915 led to bitter disappointment at the peace conference that fed the rise of Fascism.",
+    "certainty": "high",
+    "sources": [
+      "Mark Thompson, The White War: Life and Death on the Italian Front 1915–1919 (2008)",
+      "John Gooch, The Italian Army and the First World War (2014)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "isonzo-1915",
+    "title": "First battles of the Isonzo",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Gorizia (Görz)",
+        "lon": 13.62,
+        "lat": 45.94
+      },
+      {
+        "name": "Monte San Michele",
+        "lon": 13.55,
+        "lat": 45.89
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-06-23",
+    "end": "1915-08-03",
+    "datePrecision": "day",
+    "place": "Isonzo (Soča) river and the Carso (Kras) plateau, Austria-Hungary (Italy–Slovenia)",
+    "lon": 13.55,
+    "lat": 45.88,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Boroević"
+      ],
+      "opponent": [
+        "Cadorna",
+        "Duke of Aosta"
+      ]
+    },
+    "casualties": "First and second battles combined: Italian c. 55,000–60,000; Austro-Hungarian c. 45,000–55,000",
+    "outcome": "inconclusive",
+    "summary": "Cadorna hurls Italian infantry against Austro-Hungarian positions on the heights above the Isonzo and the stony Carso plateau. Two offensives gain almost nothing at enormous cost.",
+    "detail": "Italy's chief of staff, General Luigi Cadorna, planned to attack eastward across the Isonzo towards Trieste and Ljubljana. His army was slow to mobilise and short of heavy guns, and Austria-Hungary used the delay to occupy strong positions on the mountains above Gorizia and along the edge of the Carso, a waterless limestone plateau where trenches had to be blasted from rock and shellfire sent splinters of stone flying like shrapnel.\n\nThe First Battle of the Isonzo, from 23 June to 7 July, and the Second, from 18 July to 3 August, were costly frontal assaults. Italian infantry, often with inadequate artillery support and uncut wire in front of them, attacked Monte San Michele and the bridgehead at Gorizia again and again. General Svetozar Boroević's outnumbered defenders held, counter-attacking to regain lost positions. Cholera spread in the lines in the summer heat.\n\nTwo more offensives in October–December 1915 repeated the pattern.",
+    "significance": "These were the first of eleven Isonzo battles that would cost Italy hundreds of thousands of lives for a few kilometres of ground, and tied down Austro-Hungarian forces needed elsewhere.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the individual Isonzo battles differ considerably between Italian and Austrian sources.",
+    "sources": [
+      "Mark Thompson, The White War: Life and Death on the Italian Front 1915–1919 (2008)",
+      "John R. Schindler, Isonzo: The Forgotten Sacrifice of the Great War (2001)",
+      "John Gooch, The Italian Army and the First World War (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "great-retreat-1915",
+    "title": "The Great Retreat and fall of Warsaw",
+    "geometry": "area",
+    "radiusKm": 280,
+    "markers": [
+      {
+        "name": "Warsaw",
+        "lon": 21.01,
+        "lat": 52.23
+      },
+      {
+        "name": "Novogeorgievsk (Modlin)",
+        "lon": 20.7,
+        "lat": 52.44
+      },
+      {
+        "name": "Brest-Litovsk (Brest)",
+        "lon": 23.66,
+        "lat": 52.09
+      }
+    ],
+    "kind": "campaign",
+    "start": "1915-07-13",
+    "end": "1915-09-19",
+    "datePrecision": "day",
+    "place": "Russian Poland and Lithuania (Poland, Belarus and Lithuania)",
+    "lon": 22.8,
+    "lat": 52.6,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn",
+        "Hindenburg",
+        "Ludendorff",
+        "Mackensen",
+        "Gallwitz",
+        "Prince Leopold of Bavaria"
+      ],
+      "opponent": [
+        "Grand Duke Nicholas",
+        "Alekseyev",
+        "Nicholas II"
+      ]
+    },
+    "casualties": "Russian losses in 1915 c. 2 million killed, wounded and captured, about half of them prisoners; Central Powers losses also heavy",
+    "outcome": "victory",
+    "summary": "Converging German and Austro-Hungarian offensives force the Russian armies out of Poland. Warsaw falls on 5 August, and a chain of fortresses follows, as millions of refugees stream east.",
+    "detail": "In July 1915 the Central Powers turned their success in Galicia against the Russian salient in Poland. Gallwitz's Twelfth Army attacked across the Narew in the north on 13 July while Mackensen advanced north from Galicia, threatening to cut off the Russian armies around Warsaw.\n\nGeneral Alekseyev, commanding the Russian North-Western Front, chose to retreat rather than be encircled. Warsaw was evacuated and German troops under Prince Leopold of Bavaria entered it on 5 August. The fortresses Russia had built to hold the line fell one after another: Kovno on 17–18 August; Novogeorgievsk, with some 90,000 men, on 19–20 August; Brest-Litovsk on 26 August; Grodno in early September. Vilna fell on 19 September.\n\nThe retreating army pursued a scorched-earth policy and drove or encouraged civilians to leave with it. Russian commanders deported Jews and ethnic Germans from the front zone as supposed spies. Millions of refugees poured into the Russian interior. In September Nicholas II dismissed Grand Duke Nicholas and took personal command.",
+    "significance": "Russia lost Poland and much of Lithuania and suffered losses that shook its army and society. The tsar's assumption of command tied the monarchy's fate to the army's defeats.",
+    "certainty": "high",
+    "uncertaintyNote": "Russian losses for 1915 are estimates, and refugee numbers (usually given as 3 million or more by the end of 1915) are approximate.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Peter Gatrell, A Whole Empire Walking: Refugees in Russia during World War I (1999)",
+      "Alexander Watson, Ring of Steel (2014)",
+      "Orlando Figes, A People's Tragedy: The Russian Revolution 1891–1924 (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "suvla-bay-1915",
+    "title": "Suvla Bay and Sari Bair",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Chunuk Bair (Conkbayırı)",
+        "lon": 26.32,
+        "lat": 40.23
+      },
+      {
+        "name": "Lone Pine",
+        "lon": 26.3,
+        "lat": 40.23
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-08-06",
+    "end": "1915-08-21",
+    "datePrecision": "day",
+    "place": "Suvla Bay and the Sari Bair range, Gallipoli peninsula, Ottoman Empire (Turkey)",
+    "lon": 26.27,
+    "lat": 40.3,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (Britain, Australia, New Zealand, India)"
+    },
+    "commanders": {
+      "focus": [
+        "Liman von Sanders",
+        "Mustafa Kemal"
+      ],
+      "opponent": [
+        "Ian Hamilton",
+        "Stopford",
+        "Birdwood",
+        "Godley"
+      ]
+    },
+    "casualties": "Allied c. 40,000–45,000 in the August offensive; Ottoman losses comparable",
+    "outcome": "victory",
+    "summary": "A new British landing at Suvla Bay and an assault on the Sari Bair heights try to break the Gallipoli deadlock. New Zealanders briefly hold Chunuk Bair, but Mustafa Kemal's counter-attacks retake it.",
+    "detail": "Hamilton's August plan combined a breakout from Anzac towards the heights of Sari Bair with a landing of fresh British divisions at Suvla Bay to the north. Diversionary attacks began on 6 August, including the Australian assault at Lone Pine, where the Ottoman trenches were taken in savage hand-to-hand fighting, and the doomed charge of the Australian Light Horse at the Nek on 7 August.\n\nThe night columns climbing towards Sari Bair lost their way in the ravines. The New Zealanders reached the summit of Chunuk Bair on 8 August and held it through a day of heavy losses, but on 10 August a counter-attack led by Mustafa Kemal swept the British off the ridge. At Suvla the landing on 6–7 August met little opposition, but the elderly General Sir Frederick Stopford and his inexperienced troops moved so slowly that Ottoman reinforcements occupied the surrounding hills first.\n\nThe offensive ended with the costly failure of the attack on Scimitar Hill and Hill 60 from 21 August.",
+    "significance": "The August offensive was the Allies' last real chance at Gallipoli; its failure made evacuation all but inevitable, and Hamilton was recalled in October.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the August offensive vary by source and by the dates included.",
+    "sources": [
+      "Robin Prior, Gallipoli: The End of the Myth (2009)",
+      "Edward J. Erickson, Gallipoli: The Ottoman Campaign (2010)",
+      "C.E.W. Bean, The Story of Anzac, vol. 2 (Official History of Australia in the War, 1924)",
+      "Peter Hart, Gallipoli (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "loos-1915",
+    "title": "Battle of Loos",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Hulluch",
+        "lon": 2.82,
+        "lat": 50.49
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-09-25",
+    "end": "1915-10-13",
+    "datePrecision": "day",
+    "place": "Loos-en-Gohelle, Pas-de-Calais, France",
+    "lon": 2.8,
+    "lat": 50.46,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain (and France)"
+    },
+    "commanders": {
+      "focus": [
+        "Crown Prince Rupprecht"
+      ],
+      "opponent": [
+        "Sir John French",
+        "Haig"
+      ]
+    },
+    "casualties": "British c. 50,000–60,000; German c. 20,000–26,000",
+    "outcome": "inconclusive",
+    "summary": "Britain's largest attack of 1915, launched with chlorine gas for the first time, takes Loos but fails at Hulluch, where two fresh divisions are cut down on the second day.",
+    "detail": "Loos was the British part of a great Allied autumn offensive in which the French attacked in Champagne and Artois. Haig's First Army had to attack across open coalfield dotted with slag heaps and pit-head towers, and to compensate for a shortage of shells it released about 140 tonnes of chlorine from cylinders on the morning of 25 September. In some sectors the wind carried the gas over the German lines; in others it hung in no man's land or drifted back into British trenches.\n\nThe first day brought real gains. Scottish battalions took the village of Loos and pushed on to Hill 70. But Sir John French had held the reserve, two untried New Army divisions, too far back. When the 21st and 24th Divisions finally attacked towards Hulluch on 26 September, after a night march, the Germans had brought up reinforcements, and the advancing columns were caught by machine-gun fire before uncut wire. Later attacks around the Hohenzollern Redoubt achieved little.\n\nAmong the dead was Rudyard Kipling's son John.",
+    "significance": "The failure at Loos, and the row over the reserves, led to French's replacement by Haig as commander-in-chief in December 1915.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for Loos are contested, especially German losses. The battle's end is variously given as 8 October or mid-October.",
+    "sources": [
+      "Nick Lloyd, Loos 1915 (2006)",
+      "J.E. Edmonds, Military Operations: France and Belgium, 1915, vol. 2 (British official history, 1928)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "salonika-landing-1915",
+    "title": "Allied landing at Salonika",
+    "geometry": "city",
+    "kind": "campaign",
+    "start": "1915-10-05",
+    "datePrecision": "day",
+    "place": "Salonika (Thessaloniki), Greece",
+    "lon": 22.94,
+    "lat": 40.64,
+    "locationCertainty": "exact",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Bulgaria and the Central Powers",
+      "opponent": "France and Britain"
+    },
+    "commanders": {
+      "opponent": [
+        "Sarrail",
+        "Mahon"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "British and French troops land at the neutral Greek port of Salonika, too late to save Serbia. The Macedonian front they open will tie down Allied armies for three years.",
+    "detail": "With Bulgaria mobilising against Serbia, the Greek prime minister Eleftherios Venizelos, who favoured the Allies, invited them to send troops to Salonika to support Greece's treaty obligations to Serbia. The first British and French units, some taken from Gallipoli, began landing on 5 October. The same day King Constantine, who favoured neutrality and was married to the Kaiser's sister, forced Venizelos from office, leaving the Allies on Greek soil against the wishes of the Greek government.\n\nGeneral Maurice Sarrail's French troops advanced up the Vardar valley into Serbian Macedonia in October and November, hoping to link up with the Serbian army. But the Bulgarians had already cut the route. After fighting at Krivolak and Kosturino in December, the Allies fell back to Salonika and fortified a vast entrenched camp around the city.\n\nThe Germans later mocked the Salonika army as their largest internment camp, and malaria claimed far more of its men than enemy fire.",
+    "significance": "Salonika became a permanent Allied front in the Balkans, and the quarrel over it split Greece into two rival governments, the 'National Schism'.",
+    "certainty": "high",
+    "sources": [
+      "Alan Palmer, The Gardeners of Salonika (1965)",
+      "David Dutton, The Politics of Diplomacy: Britain and France in the Balkans in the First World War (1998)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "conquest-of-serbia-1915",
+    "title": "Bulgaria's entry and the conquest of Serbia",
+    "geometry": "area",
+    "radiusKm": 200,
+    "markers": [
+      {
+        "name": "Belgrade (fell 9 October)",
+        "lon": 20.46,
+        "lat": 44.82
+      },
+      {
+        "name": "Niš (fell 5 November)",
+        "lon": 21.9,
+        "lat": 43.32
+      },
+      {
+        "name": "Kragujevac",
+        "lon": 20.91,
+        "lat": 44.01
+      }
+    ],
+    "kind": "campaign",
+    "start": "1915-10-06",
+    "end": "1915-11-24",
+    "datePrecision": "day",
+    "place": "Kingdom of Serbia",
+    "lon": 21.2,
+    "lat": 43.9,
+    "locationCertainty": "approximate",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Germany, Austria-Hungary and Bulgaria",
+      "opponent": "Serbia"
+    },
+    "commanders": {
+      "focus": [
+        "Mackensen",
+        "Gallwitz",
+        "Kövess",
+        "Boyadzhiev",
+        "Tsar Ferdinand"
+      ],
+      "opponent": [
+        "Putnik",
+        "King Peter I",
+        "Mišić"
+      ]
+    },
+    "strength": {
+      "focus": "c. 600,000 (German, Austro-Hungarian and Bulgarian)",
+      "opponent": "c. 250,000–300,000"
+    },
+    "outcome": "victory",
+    "summary": "German and Austro-Hungarian armies under Mackensen cross the Danube and take Belgrade; a week later Bulgaria attacks from the east. Caught between them, the Serbian army is forced out of its country.",
+    "detail": "Serbia had survived 1914, but typhus and the losses of the first campaigns had weakened it badly. In September 1915 Bulgaria, still bitter at its losses in the Second Balkan War and wooed with promises of Macedonia, signed an alliance with the Central Powers and mobilised. Falkenhayn gave Field Marshal August von Mackensen a combined German and Austro-Hungarian force to settle with Serbia and open a land route to the Ottoman Empire.\n\nOn 6 October the bombardment began, and Gallwitz's German Eleventh and Kövess's Austro-Hungarian Third Armies forced the Danube and the Sava. Belgrade fell on 9 October after street fighting. On 14 October Bulgaria declared war, and its armies advanced into eastern Serbia and Macedonia, cutting the railway to Salonika and the hope of Allied help. The Serbian army fought delaying actions southward through Kragujevac and Niš, which fell on 5 November, into the plain of Kosovo.\n\nThere, in late November, with no way out to the south, Putnik and the government chose a winter retreat across the mountains to the Adriatic.",
+    "significance": "The conquest of Serbia opened the Berlin–Constantinople railway, brought Bulgaria into the war and left the Central Powers dominant in the Balkans.",
+    "certainty": "high",
+    "uncertaintyNote": "Troop strengths for both sides are approximate.",
+    "sources": [
+      "Richard L. DiNardo, Invasion: The Conquest of Serbia, 1915 (2015)",
+      "Hew Strachan, The First World War (2003)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "Andrej Mitrović, Serbia's Great War 1914–1918 (2007)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "ctesiphon-1915",
+    "title": "Battle of Ctesiphon",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Kut al-Amara (siege from 7 December)",
+        "lon": 45.82,
+        "lat": 32.51
+      }
+    ],
+    "kind": "battle",
+    "start": "1915-11-22",
+    "end": "1915-11-25",
+    "datePrecision": "day",
+    "place": "Ctesiphon (Salman Pak), south-east of Baghdad, Ottoman Mesopotamia (Iraq)",
+    "lon": 44.58,
+    "lat": 33.09,
+    "locationCertainty": "exact",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (Britain and India)"
+    },
+    "commanders": {
+      "focus": [
+        "Nureddin Pasha",
+        "Goltz"
+      ],
+      "opponent": [
+        "Townshend",
+        "Nixon"
+      ]
+    },
+    "strength": {
+      "focus": "c. 18,000–20,000",
+      "opponent": "c. 14,000"
+    },
+    "casualties": "British and Indian c. 4,500; Ottoman c. 6,000–9,000",
+    "outcome": "victory",
+    "summary": "Townshend's Anglo-Indian division, overstretched in its advance on Baghdad, fights the Ottomans to a bloody standstill beside the ruined arch of Ctesiphon, then retreats to Kut, where it is besieged.",
+    "detail": "Britain landed Indian troops at the head of the Persian Gulf in November 1914 to protect the oil installations at Abadan, took Basra, and then pushed up the Tigris. Encouraged by easy successes in 1915, General Sir John Nixon and the authorities in India and London allowed Major-General Charles Townshend's 6th (Poona) Division to advance on Baghdad, despite its long, fragile river supply line and shortage of medical care.\n\nAt Ctesiphon, beside the great arch of a Sasanian palace some 40 kilometres from Baghdad, Townshend attacked well-prepared Ottoman positions under Nureddin Pasha on 22 November. His troops took the first line, but lost about a third of their strength. Ottoman reinforcements arrived, and after further fighting Townshend withdrew on 25 November.\n\nHis exhausted force retreated down the Tigris, harried all the way, and reached Kut al-Amara on 3 December. Ottoman troops, with the elderly German Field Marshal Colmar von der Goltz as overall commander, surrounded it from 7 December.",
+    "significance": "Ctesiphon ended the British advance on Baghdad and led to the siege of Kut, which ended in April 1916 in the surrender of Townshend's army.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman casualty figures are poorly documented and vary considerably.",
+    "sources": [
+      "Charles Townshend, When God Made Hell: The British Invasion of Mesopotamia and the Creation of Iraq, 1914–1921 (2010)",
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East (2015)",
+      "F.J. Moberly, The Campaign in Mesopotamia, vol. 2 (British official history, 1924)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "serbian-retreat-1915",
+    "title": "The Serbian retreat through Albania",
+    "geometry": "area",
+    "radiusKm": 150,
+    "markers": [
+      {
+        "name": "Scutari (Shkodër)",
+        "lon": 19.51,
+        "lat": 42.07
+      },
+      {
+        "name": "Durazzo (Durrës)",
+        "lon": 19.45,
+        "lat": 41.32
+      },
+      {
+        "name": "Corfu",
+        "lon": 19.92,
+        "lat": 39.62
+      }
+    ],
+    "kind": "campaign",
+    "start": "1915-11-25",
+    "end": "1916-02",
+    "datePrecision": "month",
+    "place": "Mountains of Kosovo, Montenegro and northern Albania to the Adriatic coast",
+    "lon": 20.0,
+    "lat": 42.3,
+    "locationCertainty": "approximate",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Austria-Hungary, Germany and Bulgaria",
+      "opponent": "Serbia"
+    },
+    "commanders": {
+      "opponent": [
+        "Putnik",
+        "King Peter I",
+        "Pašić"
+      ]
+    },
+    "casualties": "Tens of thousands of soldiers and civilians died of cold, hunger, disease and attacks on the march and after reaching the coast",
+    "outcome": "victory",
+    "summary": "Rather than surrender, the Serbian army, government and many civilians retreat on foot across the snowbound mountains of Montenegro and Albania to the Adriatic. The survivors are shipped to Corfu.",
+    "detail": "At the end of November 1915 the Serbian army, trapped in Kosovo, destroyed its heavy guns and set out westward over the mountains of Montenegro and northern Albania, along routes that were little more than tracks. The elderly King Peter went with them, and Putnik, too ill to walk, was carried in a sedan chair. Tens of thousands of civilians followed, along with Austro-Hungarian prisoners of war.\n\nIn deep snow and bitter cold, without adequate food, the columns were decimated by exposure, hunger and typhus, and some were attacked by hostile Albanian tribesmen. Those who reached the coast at Scutari, San Giovanni di Medua and Durazzo found little food waiting, and the Allies argued over how to move them. From January 1916 Italian, French and British ships evacuated the survivors, some 140,000–150,000 soldiers, to the Greek island of Corfu. Many were too weak to recover; so many died on the islet of Vido that bodies were buried at sea.\n\nRe-equipped by the French, the Serbian army was sent to the Salonika front in 1916.",
+    "significance": "The retreat became Serbia's national epic of suffering and survival. The army's preservation kept Serbia in the war and gave it a claim to a leading role in the Yugoslav state created in 1918.",
+    "certainty": "high",
+    "uncertaintyNote": "The numbers who set out, died and were evacuated are all uncertain; estimates of the dead range from tens of thousands to well over 100,000 including civilians.",
+    "sources": [
+      "Andrej Mitrović, Serbia's Great War 1914–1918 (2007)",
+      "Hew Strachan, The First World War (2003)",
+      "Alan Palmer, The Gardeners of Salonika (1965)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gallipoli-evacuation-1915",
+    "title": "Evacuation of Gallipoli",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Suvla Bay",
+        "lon": 26.27,
+        "lat": 40.3
+      },
+      {
+        "name": "Cape Helles (evacuated 8–9 January 1916)",
+        "lon": 26.18,
+        "lat": 40.05
+      }
+    ],
+    "kind": "campaign",
+    "start": "1915-12-19",
+    "end": "1916-01-09",
+    "datePrecision": "day",
+    "place": "Anzac, Suvla and Cape Helles, Gallipoli peninsula, Ottoman Empire (Turkey)",
+    "lon": 26.29,
+    "lat": 40.24,
+    "locationCertainty": "exact",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire and France"
+    },
+    "commanders": {
+      "focus": [
+        "Liman von Sanders"
+      ],
+      "opponent": [
+        "Monro",
+        "Birdwood"
+      ]
+    },
+    "casualties": "Almost none during the evacuation itself. For the whole campaign, Allied c. 250,000–300,000 casualties and Ottoman c. 250,000–300,000, with c. 45,000 Allied and c. 55,000–85,000 Ottoman dead",
+    "outcome": "victory",
+    "summary": "In the one well-executed operation of the campaign, the Allies secretly withdraw from Anzac and Suvla in December and from Cape Helles in January, leaving the Ottoman defenders in possession of the peninsula.",
+    "detail": "After the failure of the August offensive and Bulgaria's entry into the war, which opened a direct rail link from Germany to Constantinople and heavy guns for the Ottomans, the Gallipoli bridgeheads had no future. Hamilton's successor, General Sir Charles Monro, recommended evacuation soon after arriving in late October, and Kitchener, visiting in November, reluctantly agreed. A blizzard in late November killed and crippled hundreds of men in the open trenches at Suvla.\n\nThe withdrawal from Anzac and Suvla was carried out over successive nights, ending on 19–20 December. Troops left in silence with muffled boots, while self-firing 'drip rifles' and a thinning garrison kept up the appearance of normal activity. Cape Helles, where the Ottomans were now expecting an evacuation, followed on the night of 8–9 January 1916. In both, some 100,000 men were taken off with almost no loss.\n\nThe Allies had held the peninsula for eight and a half months.",
+    "significance": "Gallipoli ended in Allied failure and Ottoman victory, damaging Churchill's career and strengthening Mustafa Kemal's; it deepened national consciousness in Australia, New Zealand and Turkey alike.",
+    "certainty": "high",
+    "uncertaintyNote": "Total casualty figures for the campaign vary widely by source, especially Ottoman figures, which range from c. 160,000 to over 250,000 including sick.",
+    "sources": [
+      "Robin Prior, Gallipoli: The End of the Myth (2009)",
+      "Edward J. Erickson, Gallipoli: The Ottoman Campaign (2010)",
+      "C.E.W. Bean, The Story of Anzac, vol. 2 (Official History of Australia in the War, 1924)",
+      "Peter Hart, Gallipoli (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "montenegro-1916",
+    "title": "Conquest of Montenegro",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Cetinje",
+        "lon": 18.92,
+        "lat": 42.39
+      }
+    ],
+    "kind": "campaign",
+    "start": "1916-01-08",
+    "end": "1916-01-25",
+    "datePrecision": "day",
+    "place": "Mount Lovćen and Cetinje, Kingdom of Montenegro",
+    "lon": 18.84,
+    "lat": 42.4,
+    "locationCertainty": "approximate",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Montenegro"
+    },
+    "commanders": {
+      "focus": [
+        "Kövess"
+      ],
+      "opponent": [
+        "King Nicholas I",
+        "Janko Vukotić"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "Austro-Hungarian troops storm Mount Lovćen above the Bay of Kotor and take the Montenegrin capital, Cetinje. King Nicholas flees to Italy and his army capitulates.",
+    "detail": "Montenegro, Serbia's small ally, had fought alongside it since 1914, and its army covered the Serbian retreat to the coast in the winter of 1915–16, notably at Mojkovac in early January. Its artillery on Mount Lovćen had long overlooked the Austro-Hungarian naval base in the Bay of Kotor.\n\nOn 8 January 1916 General Hermann Kövess's Third Army, supported by warships in the bay, began an assault on the Lovćen massif. After three days of fighting in snow and rock the Montenegrins abandoned the mountain, and Austro-Hungarian troops entered Cetinje on 13 January. King Nicholas opened negotiations, then left the country for Italy, while his government and army capitulated later in the month. Austro-Hungarian forces went on to occupy northern and central Albania.\n\nNicholas's departure, and doubts over his conduct in the surrender talks, discredited the Petrović dynasty. In 1918 Montenegro was absorbed into the new Kingdom of Serbs, Croats and Slovenes and the king was deposed.",
+    "significance": "The fall of Montenegro completed the Central Powers' conquest of the western Balkans and secured the Bay of Kotor as a base for Austro-Hungarian and German submarines in the Mediterranean.",
+    "certainty": "high",
+    "uncertaintyNote": "The exact date of the Montenegrin capitulation is given variously in late January 1916, as the negotiations were confused.",
+    "sources": [
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "Hew Strachan, The First World War (2003)",
+      "Elizabeth Roberts, Realm of the Black Mountain: A History of Montenegro (2007)"
+    ],
+    "importance": 1
+  }
+]

@@ -159,7 +159,7 @@ export const WARS: WarEntry[] = [
     title: 'The First World War',
     span: '1914 – 1918',
     teaser: 'From Sarajevo to Versailles: trenches from the Channel to Switzerland, fronts from the Alps to Mesopotamia, and the fall of four empires.',
-    stats: '',
+    stats: '126 events · 97 regions',
     accent: '#c8a46a',
     load: () => import('./ww1').then((m) => m.WW1),
   },

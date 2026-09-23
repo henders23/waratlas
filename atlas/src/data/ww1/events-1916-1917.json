@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "erzurum-1916",
+    "title": "Fall of Erzurum",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1916-02-11",
+    "end": "1916-02-16",
+    "datePrecision": "day",
+    "place": "Erzurum, eastern Anatolia (Turkey)",
+    "lon": 41.27,
+    "lat": 39.91,
+    "locationCertainty": "exact",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Mahmut Kâmil Pasha"
+      ],
+      "opponent": [
+        "Yudenich",
+        "Grand Duke Nicholas"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "In a mid-winter offensive through deep snow, Yudenich's Caucasus Army storms the ring of forts around Erzurum and takes the great fortress city of eastern Anatolia.",
+    "detail": "With Gallipoli evacuated, the Russian command expected Ottoman divisions to be shipped east, and Yudenich resolved to strike first. In January 1916 his Caucasus Army broke the Ottoman Third Army's line at Köprüköy and pursued it back to Erzurum, the fortified hub of the eastern provinces, in weather the defenders thought ruled out a campaign.\n\nErzurum was ringed by forts on the Deveboynu ridge, some of them modern, but the garrison was weak, short of guns and demoralised after the winter disaster at Sarıkamış a year before. From 11 February Russian columns, some climbing ice-bound heights at night, assaulted the outer works one after another. As the forts fell the Ottoman command ordered a retreat, and Russian Cossacks entered the city on 16 February, taking thousands of prisoners and several hundred guns.\n\nFor the Armenians of the region, most of whom had already been deported or killed in 1915, the Russian advance came too late; Muslim civilians now fled westward in their turn.",
+    "significance": "Erzurum's fall opened eastern Anatolia to the Russians, who went on to take Trebizond and Erzincan in 1916, and it was a blow to Enver Pasha's prestige at the moment of Ottoman success at Gallipoli and Kut.",
+    "certainty": "high",
+    "uncertaintyNote": "The event falls just before Verdun and so belongs to the 'balkans' phase by start date. Prisoner and gun totals vary widely between Russian and Ottoman accounts.",
+    "sources": [
+      "W.E.D. Allen and Paul Muratoff, Caucasian Battlefields (1953)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Michael A. Reynolds, Shattering Empires (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "verdun-1916",
+    "title": "Battle of Verdun",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Fort Douaumont",
+        "lon": 5.438,
+        "lat": 49.216
+      },
+      {
+        "name": "Fort Vaux",
+        "lon": 5.47,
+        "lat": 49.2
+      },
+      {
+        "name": "Le Mort-Homme",
+        "lon": 5.265,
+        "lat": 49.228
+      }
+    ],
+    "kind": "battle",
+    "start": "1916-02-21",
+    "end": "1916-12-18",
+    "datePrecision": "day",
+    "place": "North and east of Verdun, Meuse, France",
+    "lon": 5.4,
+    "lat": 49.2,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn",
+        "Crown Prince Wilhelm",
+        "Knobelsdorf"
+      ],
+      "opponent": [
+        "Joffre",
+        "Pétain",
+        "Nivelle",
+        "Mangin"
+      ]
+    },
+    "casualties": "French c. 377,000 (c. 160,000 dead or missing); German c. 337,000; figures disputed",
+    "outcome": "defeat",
+    "summary": "Germany attacks the fortress zone of Verdun to break France's army. Ten months of shellfire, gas and close fighting leave some 700,000 casualties and the front almost where it began.",
+    "detail": "On 21 February 1916, after a bombardment by some 1,200 guns, the German Fifth Army attacked on the east bank of the Meuse. Four days later a handful of Brandenburgers walked into Fort Douaumont, barely garrisoned. Pétain, given command, organised a rotation of divisions and a lorry supply route from Bar-le-Duc, later called the Voie Sacrée, and the line held.\n\nThe battle then spread to the west bank, where Le Mort-Homme and Hill 304 changed hands through the spring. In June the Germans took Fort Vaux after its garrison ran out of water, and pushed with phosgene shells towards Fort Souville, the last height before the city. The Brusilov Offensive and the Somme drained German reserves, and the offensive stalled in July.\n\nFrom October Nivelle and Mangin, using creeping barrages and heavy guns, recaptured Douaumont on 24 October and Vaux in early November, and a final attack in December regained much of the lost ground. The ground itself, pulverised villages and forests, remains scarred today.",
+    "significance": "Verdun became France's defining ordeal and a symbol of national endurance; it consumed the German army too, discredited Falkenhayn and forced the British to take the lead on the Somme.",
+    "certainty": "high",
+    "uncertaintyNote": "Falkenhayn's later claim that he aimed to 'bleed France white' rests on a memorandum whose authenticity historians doubt. Casualty totals vary between official and scholarly counts; the figures given are the commonly cited ones.",
+    "sources": [
+      "Alistair Horne, The Price of Glory: Verdun 1916 (1962)",
+      "Paul Jankowski, Verdun: The Longest Battle of the Great War (2013)",
+      "Robert T. Foley, German Strategy and the Path to Verdun (2005)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "east-african-campaign-1916",
+    "title": "Smuts and Lettow-Vorbeck in East Africa",
+    "geometry": "area",
+    "radiusKm": 550,
+    "markers": [
+      {
+        "name": "Moshi (Kilimanjaro)",
+        "lon": 37.34,
+        "lat": -3.35
+      },
+      {
+        "name": "Dar es Salaam",
+        "lon": 39.28,
+        "lat": -6.82
+      },
+      {
+        "name": "Tabora",
+        "lon": 32.8,
+        "lat": -5.02
+      }
+    ],
+    "kind": "campaign",
+    "start": "1916-03-05",
+    "end": "1917-11-25",
+    "datePrecision": "month",
+    "place": "German East Africa (Tanzania)",
+    "lon": 36.5,
+    "lat": -7.0,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany (Schutztruppe)",
+      "opponent": "British Empire, Belgium and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Lettow-Vorbeck"
+      ],
+      "opponent": [
+        "Smuts",
+        "Van Deventer",
+        "Tombeur"
+      ]
+    },
+    "casualties": "Military deaths, mostly from disease, in the tens of thousands; perhaps 100,000 or more African carriers died on the Allied side alone",
+    "outcome": "inconclusive",
+    "summary": "Smuts's imperial army overruns most of German East Africa, but Lettow-Vorbeck's small askari force slips away, fighting on as disease and famine kill far more than bullets.",
+    "detail": "In March 1916 Jan Smuts, the South African general, opened a large offensive from British East Africa round Kilimanjaro. His columns, and a Belgian force from the Congo that took Tabora in September, occupied the northern highlands, the central railway and in September the capital, Dar es Salaam. Yet each time Smuts tried to encircle him, Lettow-Vorbeck withdrew southward, trading ground for time.\n\nThe campaign was fought against the country as much as the enemy. Malaria, dysentery and tsetse destroyed white and Indian units and their animals; South African battalions were sent home by the thousand. Supplies moved on the heads of carriers, recruited and often conscripted, who died in huge numbers. Both sides requisitioned food, and famine followed the armies.\n\nUnder Van Deventer, the British pressed on through 1917 with African troops of the King's African Rifles and Nigerian units, winning a costly battle at Mahiwa in October. In November Lettow-Vorbeck, his force much reduced, crossed the Rovuma into Portuguese East Africa.",
+    "significance": "The campaign tied down far larger Allied forces than the Germans committed, at an appalling cost to African soldiers, carriers and civilians that was long left out of the war's history.",
+    "certainty": "medium",
+    "uncertaintyNote": "Carrier and civilian deaths were poorly recorded; estimates of carrier deaths in the British service alone range from roughly 45,000 to over 100,000, and civilian famine deaths in the region may have run to hundreds of thousands.",
+    "sources": [
+      "Hew Strachan, The First World War in Africa (2004)",
+      "Edward Paice, Tip and Run: The Untold Tragedy of the Great War in Africa (2007)",
+      "Ross Anderson, The Forgotten Front: The East African Campaign 1914–1918 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lake-naroch-1916",
+    "title": "Lake Naroch Offensive",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1916-03-18",
+    "end": "1916-03-30",
+    "datePrecision": "day",
+    "place": "Around Lake Naroch (Narach), Vilna province (Belarus)",
+    "lon": 26.75,
+    "lat": 54.8,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Eichhorn"
+      ],
+      "opponent": [
+        "Evert"
+      ]
+    },
+    "strength": {
+      "focus": "c. 75,000",
+      "opponent": "c. 350,000"
+    },
+    "casualties": "Russian c. 100,000 (including many deaths from exposure); German c. 20,000",
+    "outcome": "victory",
+    "summary": "Answering French appeals for help at Verdun, Russia throws a huge numerical superiority against the German line near Lake Naroch, and loses some 100,000 men in the spring thaw.",
+    "detail": "At the Chantilly conference Russia had promised to attack in 1916, and the crisis at Verdun brought the date forward. On 18 March the Russian Second Army, part of Evert's Western Front, attacked the German Tenth Army on either side of Lake Naroch with a local superiority of perhaps four or five to one.\n\nThe preparation was poor. The bombardment was heavy but badly aimed, the infantry advanced in dense waves across open ground into uncut wire and flanking machine-gun fire, and artillery and infantry hardly co-ordinated. The ground froze at night and thawed by day into marsh, and thousands of wounded died of exposure. Minor gains on the first days were lost to local counter-attacks, and by the end of March the offensive had petered out.\n\nIn late April the Germans counter-attacked and recovered all they had lost.",
+    "significance": "Naroch confirmed the Russian northern commanders' pessimism about attacking German troops, which is why the summer's main blow fell instead on the Austrians under Brusilov, whose methods differed sharply.",
+    "certainty": "high",
+    "uncertaintyNote": "The close of the offensive is variously dated between the last days of March and early April. Casualty figures are approximate.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Prit Buttar, Russia's Last Gasp: The Eastern Front 1916–17 (2016)",
+      "David Stevenson, 1914–1918: The History of the First World War (2004)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "trebizond-1916",
+    "title": "Capture of Trebizond",
+    "geometry": "city",
+    "kind": "campaign",
+    "start": "1916-04-18",
+    "datePrecision": "day",
+    "place": "Trebizond (Trabzon), Black Sea coast of Anatolia",
+    "lon": 39.72,
+    "lat": 41.0,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "opponent": [
+        "Yudenich",
+        "Lyakhov"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Advancing along the Black Sea coast with the fleet's help, Russian troops enter Trebizond after the Ottoman garrison withdraws, securing a sea-supplied port for the Caucasus Army.",
+    "detail": "After Erzurum, Yudenich wanted a port through which to supply his army by sea rather than over the mountain roads from Georgia. General Lyakhov's coastal detachment worked westward along the Black Sea shore from February, with warships of the Black Sea Fleet shelling Ottoman positions and landing troops behind them.\n\nIn early April, reinforced by troops shipped from Novorossiysk, the Russians forced the Ottoman line on the Kara Dere river. The Ottoman Third Army, exhausted and outflanked, judged the city indefensible and evacuated it, and Russian troops marched into Trebizond on 18 April 1916.\n\nThe town had seen terrible scenes the year before, when its Armenian population was deported and many were drowned at sea. Under Russian occupation much of its Muslim population now fled. In the summer Yudenich went on to defeat an Ottoman counter-offensive and take Erzincan.",
+    "significance": "Trebizond gave the Russians a secure supply base on the coast and marked the high point of their advance into Anatolia, which revolution would soon unravel.",
+    "certainty": "high",
+    "sources": [
+      "W.E.D. Allen and Paul Muratoff, Caucasian Battlefields (1953)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Paul Halpern, A Naval History of World War I (1994)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "easter-rising-1916",
+    "title": "Easter Rising",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "General Post Office, Sackville Street",
+        "lon": -6.2606,
+        "lat": 53.3494
+      }
+    ],
+    "kind": "political",
+    "start": "1916-04-24",
+    "end": "1916-04-29",
+    "datePrecision": "day",
+    "place": "Dublin, Ireland",
+    "lon": -6.26,
+    "lat": 53.345,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Irish republican insurgents (Irish Volunteers and Irish Citizen Army)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Patrick Pearse",
+        "James Connolly",
+        "Tom Clarke"
+      ],
+      "opponent": [
+        "Lowe",
+        "Maxwell"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1,200–1,600",
+      "opponent": "c. 16,000 by the end of the week"
+    },
+    "casualties": "c. 480 killed, more than half of them civilians; over 2,000 wounded",
+    "outcome": "n/a",
+    "summary": "Irish republicans seize the General Post Office and other buildings in Dublin and proclaim a republic. After six days of fighting and shellfire they surrender; the executions that follow transform Irish opinion.",
+    "detail": "The Irish Republican Brotherhood's military council planned a rising for Easter 1916 and sought German arms. The attempt failed: the arms ship Aud was intercepted and scuttled, and Roger Casement, landed from a U-boat in Kerry, was arrested. Confusing countermanding orders cut the turnout, and on Easter Monday, 24 April, only some 1,200 Volunteers and Citizen Army members occupied positions across Dublin. Pearse read a proclamation of the Irish Republic outside the General Post Office.\n\nThe British poured in troops and artillery; a gunboat shelled Liberty Hall, and much of Sackville Street burned. Some of the fiercest fighting was at Mount Street Bridge. Civilians, caught in crossfire, made up most of the dead. On 29 April Pearse surrendered unconditionally.\n\nMany Dubliners had at first been hostile to the rebels. Opinion shifted as General Maxwell's courts martial sent fifteen leaders to firing squads in early May, including the wounded Connolly; Casement was hanged in August.",
+    "significance": "Militarily a failure, the Rising and its repression discredited constitutional nationalism, prepared Sinn Féin's triumph in 1918 and began the road to Irish independence.",
+    "certainty": "high",
+    "uncertaintyNote": "No Central Powers forces took part; Germany's role was limited to the failed arms shipment. The outcome is therefore marked n/a, though the Rising was crushed. The death toll follows recent research (c. 485).",
+    "sources": [
+      "Charles Townshend, Easter 1916: The Irish Rebellion (2005)",
+      "Fearghal McGarry, The Rising: Ireland, Easter 1916 (2010)",
+      "Keith Jeffery, 1916: A Global History (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kut-1916",
+    "title": "Surrender of Kut",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1916-04-29",
+    "datePrecision": "day",
+    "place": "Kut al-Amara, Mesopotamia (Iraq)",
+    "lon": 45.82,
+    "lat": 32.51,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (Britain and India)"
+    },
+    "commanders": {
+      "focus": [
+        "Khalil Pasha",
+        "von der Goltz"
+      ],
+      "opponent": [
+        "Townshend",
+        "Aylmer",
+        "Gorringe"
+      ]
+    },
+    "casualties": "c. 13,000 British and Indian troops and followers captured; relief forces lost c. 23,000; perhaps 4,000 prisoners died in captivity",
+    "outcome": "victory",
+    "summary": "After a siege of nearly five months and the failure of every relief attempt, Townshend surrenders his starving garrison at Kut to the Ottoman Sixth Army.",
+    "detail": "Townshend's 6th (Poona) Division, beaten at Ctesiphon, had fallen back into a loop of the Tigris at Kut in December 1915. Encircled by Ottoman forces, it waited for relief while rations dwindled and horses, then mules, were eaten. Indian soldiers, some of whom would not eat horseflesh, suffered especially from scurvy and hunger.\n\nFrom January to April relief columns under Aylmer and then Gorringe attacked prepared Ottoman lines at Sheikh Sa'ad, the Wadi, Hanna, the Dujaila redoubt and Sannaiyat, in floods and mud, losing some 23,000 men without breaking through. A final attempt to run the river steamer Julnar through with supplies failed on 24 April. An offer of money to Khalil Pasha to let the garrison go, carried by T.E. Lawrence and Aubrey Herbert, was refused.\n\nOn 29 April Townshend surrendered. He was held in comfort; his men were marched north to Anatolia, and thousands died on the march and in labour camps.",
+    "significance": "Kut was the largest surrender of a British army before 1942 and a heavy blow to British prestige in the Muslim world; it forced a reorganisation of the Mesopotamian campaign under the War Office.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for the garrison vary with whether non-combatant followers are counted (c. 13,000 in all). Deaths in captivity are estimated rather than counted.",
+    "sources": [
+      "Charles Townshend, When God Made Hell: The British Invasion of Mesopotamia (2010)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "F.J. Moberly, The Campaign in Mesopotamia 1914–1918, official history, vol. 2 (1924)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "strafexpedition-1916",
+    "title": "Strafexpedition (Battle of Asiago)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Asiago",
+        "lon": 11.51,
+        "lat": 45.875
+      },
+      {
+        "name": "Arsiero",
+        "lon": 11.35,
+        "lat": 45.8
+      },
+      {
+        "name": "Monte Pasubio",
+        "lon": 11.18,
+        "lat": 45.79
+      }
+    ],
+    "kind": "battle",
+    "start": "1916-05-15",
+    "end": "1916-06-27",
+    "datePrecision": "day",
+    "place": "Trentino and the Asiago plateau (Altopiano dei Sette Comuni), Italy",
+    "lon": 11.45,
+    "lat": 45.86,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Conrad",
+        "Archduke Eugen",
+        "Dankl",
+        "Kövess"
+      ],
+      "opponent": [
+        "Cadorna",
+        "Pecori Giraldi"
+      ]
+    },
+    "casualties": "Italian c. 140,000–150,000 (including c. 40,000 prisoners); Austro-Hungarian c. 80,000–100,000",
+    "outcome": "inconclusive",
+    "summary": "Conrad's 'punishment expedition' bursts out of the Trentino onto the Asiago plateau and almost reaches the Venetian plain before Italian reserves, and Brusilov's offensive in the east, halt it.",
+    "detail": "Conrad had long wanted to punish Italy for changing sides, and in spring 1916 he gathered two armies in the Trentino, stripping divisions from Galicia against German advice. On 15 May a heavy bombardment opened the offensive against an Italian front whose commanders had neglected their defences.\n\nThe Austrians advanced through the mountains, took Arsiero and on 28 May Asiago itself. For a moment they threatened to descend to the plain behind the Italian armies on the Isonzo. Cadorna reacted quickly, rushing troops by rail and lorry to form a new army in the Vicenza plain, while the defence stiffened on Monte Pasubio and the southern edge of the plateau. Supply over mountain roads slowed the attackers.\n\nThe Brusilov Offensive, opening on 4 June, forced Conrad to send divisions east. From mid-June the Italians counter-attacked, and the Austrians withdrew to a shorter line across the plateau. The crisis brought down Salandra's government.",
+    "significance": "The offensive won ground but no decision, and by weakening the Galician front it helped make possible the Austro-Hungarian collapse before Brusilov.",
+    "certainty": "high",
+    "uncertaintyNote": "The end of the battle is dated variously from the Austrian halt in early June to their withdrawal in late June. Casualty figures differ between Italian and Austrian sources.",
+    "sources": [
+      "Mark Thompson, The White War: Life and Death on the Italian Front 1915–1919 (2008)",
+      "John R. Schindler, Isonzo: The Forgotten Sacrifice of the Great War (2001)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sykes-picot-1916",
+    "title": "Sykes–Picot Agreement",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1916-05-16",
+    "datePrecision": "day",
+    "place": "London (exchange of notes between the British and French governments)",
+    "lon": -0.13,
+    "lat": 51.505,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Ottoman Empire (partitioned on paper)",
+      "opponent": "Britain and France, with Russian assent"
+    },
+    "commanders": {
+      "opponent": [
+        "Mark Sykes",
+        "François Georges-Picot",
+        "Grey",
+        "Cambon"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Britain and France secretly agree how to divide the Ottoman Arab provinces after victory, drawing zones of direct rule and influence across Syria, Mesopotamia and Palestine.",
+    "detail": "The diplomats Mark Sykes and François Georges-Picot negotiated through the winter of 1915–16 and reached a draft in January 1916; Russia gave its consent in return for recognition of its claims in eastern Anatolia and at Constantinople, and the agreement was confirmed by an exchange of letters in May.\n\nFrance was to rule directly along the Syrian coast and in south-eastern Anatolia and to hold a sphere of influence inland round Damascus and Mosul; Britain was to rule Basra and Baghdad and to have a sphere stretching from Transjordan to Kirkuk. Palestine, with its holy places, was to be under an international administration. Arab states were envisaged within the spheres of influence, but under European tutelage.\n\nThe terms sat uneasily beside British promises to Sharif Hussein of Mecca in the Hussein–McMahon correspondence, which were themselves ambiguous. When the Bolsheviks published the secret treaties in November 1917, the agreement became an enduring symbol of Western bad faith.",
+    "significance": "Though much revised in 1918–20, it framed the post-war mandates in Syria, Lebanon, Iraq and Palestine and still shapes how the region's borders are remembered.",
+    "certainty": "high",
+    "uncertaintyNote": "The agreement was concluded through documents exchanged over several days in May 1916 rather than signed at a single place; the London location and 16 May date are conventional.",
+    "sources": [
+      "James Barr, A Line in the Sand: Britain, France and the Struggle that Shaped the Middle East (2011)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "David Fromkin, A Peace to End All Peace (1989)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jutland-1916",
+    "title": "Battle of Jutland",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1916-05-31",
+    "end": "1916-06-01",
+    "datePrecision": "day",
+    "place": "North Sea, west of Jutland, Denmark",
+    "lon": 6.0,
+    "lat": 56.85,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany (High Seas Fleet)",
+      "opponent": "Britain (Grand Fleet)"
+    },
+    "commanders": {
+      "focus": [
+        "Scheer",
+        "Hipper"
+      ],
+      "opponent": [
+        "Jellicoe",
+        "Beatty"
+      ]
+    },
+    "strength": {
+      "focus": "c. 99 ships (16 dreadnoughts, 5 battlecruisers)",
+      "opponent": "c. 151 ships (28 dreadnoughts, 9 battlecruisers)"
+    },
+    "casualties": "British c. 6,100 killed and 14 ships lost (3 battlecruisers); German c. 2,550 killed and 11 ships lost (1 battlecruiser, 1 pre-dreadnought)",
+    "outcome": "inconclusive",
+    "summary": "The only full clash of the dreadnought fleets. Britain loses more ships and men, but Scheer escapes to port and the Grand Fleet's command of the North Sea is unshaken.",
+    "detail": "Scheer hoped to lure part of the Grand Fleet into a trap, but British codebreakers knew the High Seas Fleet was at sea and Jellicoe sailed from Scapa Flow before it left the Jade. On the afternoon of 31 May Beatty's battlecruisers met Hipper's. In the running fight Indefatigable and Queen Mary blew up with nearly all hands, their magazines exposed by poor flash protection.\n\nBeatty turned north and drew the Germans onto Jellicoe's battleships. Twice in the early evening Scheer found his line crossed by the whole Grand Fleet and twice turned away under cover of smoke and torpedo attacks; the battlecruiser Invincible was destroyed in the exchange. In confused night actions the German fleet broke through the rear of the British line and reached home, losing the pre-dreadnought Pommern and scuttling the battlecruiser Lützow.\n\nBritish shells, gunnery signals and night-fighting had shown serious flaws, and controversy between the admirals' partisans ran for decades.",
+    "significance": "Germany claimed victory, but the High Seas Fleet never again sought battle on such terms; the blockade held, and German naval hopes turned to the U-boat.",
+    "certainty": "high",
+    "uncertaintyNote": "The fleet actions took place over a wide area; the plotted point is an approximate centre. Ship counts depend on how small craft are counted.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Andrew Gordon, The Rules of the Game: Jutland and British Naval Command (1996)",
+      "John Brooks, Dreadnought Gunnery and the Battle of Jutland (2005)",
+      "Nicholas Jellicoe, Jutland: The Unfinished Battle (2016)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "brusilov-offensive-1916",
+    "title": "Brusilov Offensive",
+    "geometry": "area",
+    "radiusKm": 260,
+    "markers": [
+      {
+        "name": "Luck (Lutsk)",
+        "lon": 25.33,
+        "lat": 50.75
+      },
+      {
+        "name": "Czernowitz (Chernivtsi)",
+        "lon": 25.94,
+        "lat": 48.29
+      },
+      {
+        "name": "Kovel",
+        "lon": 24.71,
+        "lat": 51.21
+      }
+    ],
+    "kind": "battle",
+    "start": "1916-06-04",
+    "end": "1916-09-20",
+    "datePrecision": "day",
+    "place": "Volhynia, Galicia and the Bukovina (Ukraine)",
+    "lon": 25.6,
+    "lat": 49.6,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Austria-Hungary and Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Conrad",
+        "Archduke Joseph Ferdinand",
+        "Linsingen",
+        "Pflanzer-Baltin"
+      ],
+      "opponent": [
+        "Brusilov",
+        "Kaledin",
+        "Lechitsky",
+        "Shcherbachev"
+      ]
+    },
+    "casualties": "Austro-Hungarian c. 600,000–750,000 (including some 350,000–400,000 prisoners); German c. 150,000–350,000; Russian c. 500,000–1,000,000; all disputed",
+    "outcome": "defeat",
+    "summary": "Brusilov's South-Western Front attacks along its whole length at once and shatters the Austro-Hungarian armies, taking Luck and the Bukovina: Russia's greatest success of the war.",
+    "detail": "Brusilov abandoned the practice of massing everything at one point. His four armies attacked simultaneously across some 300 km after careful preparation: short, accurate bombardments, saps pushed close to the enemy wire, and reserves hidden until needed. On 4 June the Austro-Hungarian Fourth Army, well entrenched but overconfident and weakened by transfers to the Trentino, gave way near Luck, and Kaledin's Eighth Army advanced some 75 km in days. In the south Lechitsky's Ninth Army broke the Seventh Army and took Czernowitz and most of the Bukovina.\n\nWhole Austro-Hungarian units surrendered. German divisions were rushed from the west and from Verdun, and Linsingen and later Hindenburg took over large sectors of the Habsburg front. From July the Russians turned north against Kovel, where the Guard Army was slaughtered attacking across the Stokhod marshes, and by September the offensive had run into the ground.",
+    "significance": "It crippled the Habsburg army, which thereafter depended on German command, relieved Verdun and Italy, brought Romania into the war and toppled Falkenhayn, but the cost exhausted Russia's own army.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures are among the most disputed of the war; Russian losses in the Kovel attacks alone were very heavy, and totals depend on the closing date chosen.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Timothy C. Dowling, The Brusilov Offensive (2008)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "Alexander Watson, Ring of Steel (2014)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "arab-revolt-1916",
+    "title": "The Arab Revolt begins",
+    "geometry": "area",
+    "radiusKm": 330,
+    "markers": [
+      {
+        "name": "Mecca",
+        "lon": 39.83,
+        "lat": 21.42
+      },
+      {
+        "name": "Medina (held by the Ottomans)",
+        "lon": 39.61,
+        "lat": 24.47
+      },
+      {
+        "name": "Jeddah",
+        "lon": 39.17,
+        "lat": 21.49
+      }
+    ],
+    "kind": "campaign",
+    "start": "1916-06-10",
+    "end": "1916-09-22",
+    "datePrecision": "day",
+    "place": "The Hejaz, western Arabia (Saudi Arabia)",
+    "lon": 39.5,
+    "lat": 22.9,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Arab forces of the Sharif of Mecca, backed by Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Fakhri Pasha",
+        "Ghalib Pasha"
+      ],
+      "opponent": [
+        "Sharif Hussein",
+        "Faisal",
+        "Abdullah",
+        "Ali"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Sharif Hussein of Mecca raises the revolt against Ottoman rule. His followers take Mecca, Jeddah and Taif with British naval help, but fail against the strong garrison of Medina.",
+    "detail": "Hussein, the Hashemite Sharif of Mecca, had bargained with Britain through the Hussein–McMahon correspondence for support of an Arab kingdom. Alarmed by the arrival of Ottoman troops in the Hejaz and by the execution of Arab nationalists in Syria by Djemal Pasha, he moved in June 1916. His sons attacked Medina on 5 June, and on 10 June the rising began in Mecca.\n\nThe small Ottoman garrison in Mecca held out in its forts for some weeks before surrendering. Jeddah fell on 16 June after bombardment by Royal Navy ships and seaplanes, and other Red Sea ports followed; in September Abdullah's forces took Taif and its garrison. But tribal levies could not take Medina, which Fakhri Pasha, supplied by the Hejaz railway, held for the rest of the war.\n\nBy late 1916 an Ottoman counter-stroke threatened the revolt with collapse, and Britain sent advisers, money, gold and arms; among the officers was T.E. Lawrence.",
+    "significance": "The revolt split the Ottoman claim to lead the Muslim world, opened a new front on the flank of the Palestine campaign and laid the ground for Hashemite claims at the peace conference.",
+    "certainty": "high",
+    "uncertaintyNote": "The start is dated 5 June (attack on Medina) or 10 June (rising in Mecca); the latter is used here. The end date marks the fall of Taif; the revolt itself continued until 1918.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Scott Anderson, Lawrence in Arabia (2013)",
+      "Robert Johnson, The Great War and the Middle East (2016)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "somme-1916",
+    "title": "Battle of the Somme",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Thiepval",
+        "lon": 2.686,
+        "lat": 50.054
+      },
+      {
+        "name": "Pozières",
+        "lon": 2.723,
+        "lat": 50.037
+      },
+      {
+        "name": "Flers (first tanks, 15 September)",
+        "lon": 2.826,
+        "lat": 50.048
+      }
+    ],
+    "kind": "battle",
+    "start": "1916-07-01",
+    "end": "1916-11-18",
+    "datePrecision": "day",
+    "place": "Astride the River Somme between Albert and Péronne, France",
+    "lon": 2.78,
+    "lat": 50.01,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn",
+        "Fritz von Below",
+        "Gallwitz"
+      ],
+      "opponent": [
+        "Haig",
+        "Rawlinson",
+        "Foch",
+        "Fayolle"
+      ]
+    },
+    "casualties": "British Empire c. 420,000; French c. 200,000; German c. 430,000–600,000 (hotly disputed)",
+    "outcome": "inconclusive",
+    "summary": "The Anglo-French offensive on the Somme opens with the worst day in British military history and grinds on for four and a half months, advancing some ten kilometres at a cost of over a million casualties.",
+    "detail": "Planned as a joint offensive, the Somme became largely British after Verdun drew in French divisions. After a week-long bombardment that failed to cut much of the wire or destroy the deep German dugouts, thirteen British divisions attacked on 1 July. North of the Albert–Bapaume road the assault largely failed; the British suffered some 57,000 casualties, about 19,000 of them killed. South of the river, and on the British right, French and British troops took their objectives.\n\nThe battle became one of attrition. A night approach and dawn attack on 14 July briefly broke the German second line; South Africans fought in Delville Wood and Australians at Pozières. On 15 September at Flers–Courcelette tanks went into action for the first time, frightening defenders but too few and unreliable to break through. Thiepval, a first-day objective, fell only at the end of September, and the last attacks on the Ancre in November ended in rain and mud.\n\nGerman losses, under orders to retake every lost trench, were also immense.",
+    "significance": "The Somme relieved Verdun, taught the British army hard lessons in artillery and tactics, and wore down the German army so badly that its commanders resolved to retreat to the Hindenburg Line; in Britain it came to symbolise the war's futility.",
+    "certainty": "high",
+    "uncertaintyNote": "German casualties are the most contested figure of the war: the British official history's c. 680,000 is generally rejected, and German returns suggest c. 430,000–500,000. First-day figures (57,470 British casualties, 19,240 killed) are well established.",
+    "sources": [
+      "William Philpott, Bloody Victory: The Sacrifice on the Somme (2009)",
+      "Robin Prior and Trevor Wilson, The Somme (2005)",
+      "Jack Sheldon, The German Army on the Somme 1914–1916 (2005)",
+      "Gary Sheffield, The Somme (2003)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "deir-ez-zor-1916",
+    "title": "Massacres of Armenian deportees in the Syrian desert",
+    "geometry": "area",
+    "radiusKm": 200,
+    "markers": [
+      {
+        "name": "Meskene (Maskanah) camp",
+        "lon": 38.08,
+        "lat": 35.97
+      },
+      {
+        "name": "Ras al-Ayn",
+        "lon": 40.07,
+        "lat": 36.85
+      }
+    ],
+    "kind": "massacre",
+    "start": "1916-07",
+    "end": "1916-12",
+    "datePrecision": "month",
+    "place": "Deir ez-Zor and the Euphrates valley, Syria",
+    "lon": 40.14,
+    "lat": 35.33,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Ottoman Empire (Committee of Union and Progress)",
+      "opponent": "Armenian deportees"
+    },
+    "casualties": "Estimates range from tens of thousands to around 200,000 killed in 1916",
+    "outcome": "n/a",
+    "summary": "In the 'second phase' of the Armenian genocide, survivors of the 1915 deportations held in camps along the Euphrates are driven into the desert around Deir ez-Zor and massacred.",
+    "detail": "By early 1916 hundreds of thousands of Armenians deported from Anatolia in 1915 were crowded into transit camps along the Euphrates between Aleppo and Deir ez-Zor, dying of hunger, typhus and exposure. In the spring and summer the Ottoman authorities decided to liquidate the camps.\n\nAt Deir ez-Zor the governor Ali Suad Bey had allowed deportees a measure of survival; he was replaced in the summer by Salih Zeki, under whom columns were marched out into the desert towards Marat, Suwar and the Khabur valley and killed there, often by irregulars and local tribesmen recruited for the purpose. Survivors described caves and ravines filled with bodies, and some victims were burned. Other convoys were massacred near Ras al-Ayn.\n\nForeign consuls and missionaries, and a few German officers and officials, reported what they saw; the German government, Constantinople's ally, protested little.",
+    "significance": "The 1916 killings completed the destruction of the deported Armenians and made Deir ez-Zor the chief site of remembrance of the genocide.",
+    "certainty": "medium",
+    "uncertaintyNote": "The massacres were not documented by the perpetrators in a way that allows precise counting; estimates depend on survivor testimony and on how many deportees reached the camps. Dates are approximate, spanning spring to late 1916.",
+    "sources": [
+      "Raymond Kévorkian, The Armenian Genocide: A Complete History (2011)",
+      "Ronald Grigor Suny, \"They Can Live in the Desert but Nowhere Else\": A History of the Armenian Genocide (2015)",
+      "Taner Akçam, The Young Turks' Crime Against Humanity (2012)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fromelles-1916",
+    "title": "Attack at Fromelles",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1916-07-19",
+    "end": "1916-07-20",
+    "datePrecision": "day",
+    "place": "Near Fromelles, Nord, France",
+    "lon": 2.86,
+    "lat": 50.6,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Australia and Britain"
+    },
+    "commanders": {
+      "opponent": [
+        "Haking",
+        "McCay"
+      ]
+    },
+    "casualties": "Australian c. 5,500; British c. 1,500; German c. 1,500",
+    "outcome": "victory",
+    "summary": "A hastily planned diversionary attack by the newly arrived 5th Australian Division and a British division costs over 7,000 casualties in a single night, for no gain.",
+    "detail": "To stop the Germans moving reserves to the Somme, the British XI Corps under Haking planned an attack on a salient near Fromelles known as the Sugarloaf. The 5th Australian Division, only just arrived in France, and the British 61st Division attacked on the evening of 19 July across flat, waterlogged ground, in daylight and in full view of the German 6th Bavarian Reserve Division.\n\nThe bombardment had failed to suppress the German machine guns. The British were stopped almost at once; some Australian units got into the German lines but were cut off and forced back, or captured, the next morning. The Australian division suffered some 5,500 casualties in about 24 hours, among the worst in the nation's history. Hundreds of the dead were buried by the Germans in mass graves at Pheasant Wood, found only in 2008–09 and reburied in a new cemetery.",
+    "significance": "Fromelles was a small action in the scale of the Somme but a national trauma for Australia, and a byword for poorly planned diversionary attacks.",
+    "certainty": "high",
+    "sources": [
+      "Charles Bean, Official History of Australia in the War of 1914–1918, vol. 3 (1929)",
+      "Robin Corfield, Don't Forget Me, Cobber: The Battle of Fromelles (2000)",
+      "Paul Cobb, Fromelles 1916 (2007)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "romani-1916",
+    "title": "Battle of Romani",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1916-08-03",
+    "end": "1916-08-05",
+    "datePrecision": "day",
+    "place": "Near Romani, northern Sinai, Egypt",
+    "lon": 32.64,
+    "lat": 30.99,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Ottoman Empire and Germany",
+      "opponent": "British Empire (Britain, Australia and New Zealand)"
+    },
+    "commanders": {
+      "focus": [
+        "Kress von Kressenstein"
+      ],
+      "opponent": [
+        "Murray",
+        "H.A. Lawrence",
+        "Chauvel"
+      ]
+    },
+    "strength": {
+      "focus": "c. 16,000",
+      "opponent": "c. 14,000"
+    },
+    "casualties": "British Empire c. 1,100; Ottoman c. 1,200 killed and c. 4,000 captured",
+    "outcome": "defeat",
+    "summary": "An Ottoman-German force crossing the Sinai to threaten the Suez Canal is halted among the sand dunes at Romani by Australian and New Zealand mounted troops and British infantry.",
+    "detail": "Kress von Kressenstein led an Ottoman force, with German and Austrian machine-gun and artillery detachments, across northern Sinai in the summer heat towards the British railhead at Romani, some 35 km east of the canal. In the early hours of 4 August it attacked the high dunes south of the British infantry positions.\n\nThe Australian Light Horse brigades of Chauvel's ANZAC Mounted Division, heavily outnumbered, fought a slow withdrawal through the night, buying time until New Zealand mounted riflemen, British yeomanry and infantry of the 52nd (Lowland) Division came into action. By the evening of 4 August the attack had failed, and on the 5th the British counter-attacked, taking some 4,000 prisoners. Pursuit in the heat was ragged, and Kress withdrew in good order to El Arish.",
+    "significance": "Romani ended the Ottoman threat to the Suez Canal and turned the British to the offensive across Sinai, a route that led to Gaza and eventually Jerusalem.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman casualty and prisoner figures come mainly from British sources.",
+    "sources": [
+      "George MacMunn and Cyril Falls, Military Operations: Egypt and Palestine, vol. 1 (1928)",
+      "Henry Gullett, The Australian Imperial Force in Sinai and Palestine, official history vol. 7 (1923)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "sixth-isonzo-1916",
+    "title": "Sixth Battle of the Isonzo and the capture of Gorizia",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Monte Sabotino",
+        "lon": 13.6,
+        "lat": 45.98
+      },
+      {
+        "name": "Monte San Michele",
+        "lon": 13.55,
+        "lat": 45.89
+      }
+    ],
+    "kind": "battle",
+    "start": "1916-08-06",
+    "end": "1916-08-17",
+    "datePrecision": "day",
+    "place": "Görz (Gorizia), on the Isonzo (Soča), Italy",
+    "lon": 13.62,
+    "lat": 45.94,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Boroević"
+      ],
+      "opponent": [
+        "Cadorna",
+        "Duke of Aosta",
+        "Capello"
+      ]
+    },
+    "casualties": "Italian c. 50,000; Austro-Hungarian c. 40,000",
+    "outcome": "defeat",
+    "summary": "Moving troops swiftly back from the Trentino, Cadorna storms Monte Sabotino and Monte San Michele and takes Gorizia, Italy's first real victory of the war.",
+    "detail": "With Austro-Hungarian reserves drawn off by the Strafexpedition and the Brusilov Offensive, Cadorna shifted divisions by rail from the Trentino to the Isonzo in secrecy. On 6 August the Third Army attacked after a heavy, well-concentrated bombardment. Monte Sabotino, which had resisted every earlier attack, fell within hours to troops who had dug their approach trenches close to the summit; the attack was planned in part by a staff officer named Pietro Badoglio.\n\nOn the Carso, Monte San Michele was taken at last. Boroević ordered a withdrawal across the river, and on 8–9 August Italian troops entered Gorizia, a largely deserted and battered town. Attempts to push on to the hills east of the city met a new Austrian line and were broken off after a week.\n\nThe victory lifted Italian morale; days later, on 28 August, Italy declared war on Germany.",
+    "significance": "Gorizia gave Italy a symbolic success and a bridgehead over the Isonzo, but the Austro-Hungarian line held a few kilometres further east and the war of attrition on the river resumed.",
+    "certainty": "high",
+    "sources": [
+      "Mark Thompson, The White War (2008)",
+      "John R. Schindler, Isonzo: The Forgotten Sacrifice of the Great War (2001)",
+      "John Gooch, The Italian Army and the First World War (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "romania-enters-war-1916",
+    "title": "Romania enters the war",
+    "geometry": "area",
+    "radiusKm": 170,
+    "markers": [
+      {
+        "name": "Kronstadt (Brașov), taken 29 August",
+        "lon": 25.59,
+        "lat": 45.66
+      }
+    ],
+    "kind": "political",
+    "start": "1916-08-27",
+    "end": "1916-09-18",
+    "datePrecision": "day",
+    "place": "Transylvania, Kingdom of Hungary (Romania)",
+    "lon": 24.9,
+    "lat": 46.1,
+    "locationCertainty": "approximate",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Romania"
+    },
+    "commanders": {
+      "focus": [
+        "Arz von Straussenburg"
+      ],
+      "opponent": [
+        "King Ferdinand",
+        "Brătianu",
+        "Averescu"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Encouraged by Brusilov's success and promised Transylvania by the Entente, Romania declares war on Austria-Hungary and sends its armies over the Carpathians.",
+    "detail": "Romania had stayed neutral in 1914, balancing between the two blocs. Brusilov's victories persuaded the prime minister, Ion Brătianu, that the moment had come. A secret treaty with the Entente, signed on 17 August, promised Transylvania, the Bukovina and the Banat, and on 27 August Romania declared war on Austria-Hungary. Germany, the Ottoman Empire and Bulgaria declared war on Romania within days.\n\nThree Romanian armies crossed the Carpathian passes into Transylvania, where Austria-Hungary had only weak forces. They took Kronstadt on 29 August and advanced slowly into the Székely lands, welcomed by many Romanians there while Hungarian and Saxon civilians fled westward. But the advance was cautious, supply lines were poor, and the long southern frontier on the Danube was left thinly held. Promised Russian support and an Allied offensive from Salonika did not materialise on the scale Romania had hoped.",
+    "significance": "Romania's entry shocked the Central Powers and cost Falkenhayn his post, but its army proved ill-prepared to face the counter-attack that Germany now organised.",
+    "certainty": "high",
+    "sources": [
+      "Glenn E. Torrey, The Romanian Battlefront in World War I (2011)",
+      "Michael B. Barrett, Prelude to Blitzkrieg: The 1916 Austro-German Campaign in Romania (2013)",
+      "David Stevenson, 1914–1918 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hindenburg-ludendorff-1916",
+    "title": "Hindenburg and Ludendorff take supreme command",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1916-08-29",
+    "datePrecision": "day",
+    "place": "Pless (Pszczyna), Upper Silesia, German Empire (Poland)",
+    "lon": 18.95,
+    "lat": 49.98,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "—"
+    },
+    "commanders": {
+      "focus": [
+        "Hindenburg",
+        "Ludendorff",
+        "Wilhelm II",
+        "Falkenhayn"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "After Verdun's failure and Romania's entry, the Kaiser dismisses Falkenhayn and puts Hindenburg and Ludendorff at the head of the German army.",
+    "detail": "By late August 1916 Falkenhayn's standing had collapsed. Verdun had not broken France, the Somme and Brusilov had strained the army to its limit, and he had failed to foresee Romania's intervention. Hindenburg and Ludendorff, the victors of Tannenberg, had long intrigued against him with the support of the chancellor, Bethmann Hollweg. On 29 August, at imperial headquarters at Pless, Wilhelm II named Hindenburg Chief of the General Staff, with Ludendorff as First Quartermaster General. Falkenhayn took command of an army against Romania.\n\nThe new Third Supreme Command halted the attacks at Verdun, ordered a new defensive system in the west and launched the Hindenburg Programme to double munitions output, followed by the Auxiliary Service Law mobilising civilian labour. Ludendorff, the dominant partner, increasingly drove political decisions as well, from unrestricted submarine warfare to the dismissal of Bethmann Hollweg in July 1917.",
+    "significance": "It gave Germany a more effective defensive strategy and war economy but also a near-military dictatorship that subordinated politics to victory at almost any cost.",
+    "certainty": "high",
+    "sources": [
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "Robert T. Foley, German Strategy and the Path to Verdun (2005)",
+      "Martin Kitchen, The Silent Dictatorship (1976)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "turtucaia-1916",
+    "title": "Battle of Turtucaia",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1916-09-02",
+    "end": "1916-09-06",
+    "datePrecision": "day",
+    "place": "Turtucaia (Tutrakan), on the Danube, Romania (Bulgaria)",
+    "lon": 26.62,
+    "lat": 44.05,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Bulgaria and Germany",
+      "opponent": "Romania"
+    },
+    "commanders": {
+      "focus": [
+        "Mackensen",
+        "Toshev"
+      ],
+      "opponent": [
+        "Teodorescu"
+      ]
+    },
+    "casualties": "Romanian c. 6,000 killed and wounded and c. 25,000–28,000 captured; Bulgarian and German c. 8,000–9,000",
+    "outcome": "victory",
+    "summary": "Mackensen's Bulgarian and German troops storm the Danube fortress of Turtucaia in five days, capturing most of its garrison and shattering Romanian confidence.",
+    "detail": "While Romania's main armies advanced into Transylvania, Mackensen struck from Bulgaria into the Dobruja, the Romanian-held territory south of the Danube that Bulgaria had lost in 1913. The Bulgarian Third Army, with German support, moved against Turtucaia, a bridgehead fortress with a ring of forts but a garrison of largely raw troops, inadequate artillery and no line of retreat except across the river.\n\nFrom 2 September the attackers closed in and on 5–6 September broke through the forts. Romanian reinforcements from Bucharest arrived too late and piecemeal, and panic spread among the defenders. Several thousand men drowned or were killed trying to escape across the Danube; around 25,000 or more surrendered.\n\nThe disaster led the Romanian command to switch troops from Transylvania to the south, just as the German counter-offensive in the Carpathians was taking shape.",
+    "significance": "Turtucaia was Bulgaria's great victory of the war and the turning point of the Romanian campaign, stripping the offensive in Transylvania of its momentum.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner totals vary between Bulgarian and Romanian accounts (c. 25,000 to over 28,000).",
+    "sources": [
+      "Glenn E. Torrey, The Romanian Battlefront in World War I (2011)",
+      "Michael B. Barrett, Prelude to Blitzkrieg (2013)",
+      "Richard C. Hall, Balkan Breakthrough: The Battle of Dobro Pole 1918 (2010)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "monastir-1916",
+    "title": "Monastir Offensive",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Kajmakčalan (Kaymakchalan)",
+        "lon": 21.8,
+        "lat": 40.97
+      },
+      {
+        "name": "Florina",
+        "lon": 21.41,
+        "lat": 40.78
+      }
+    ],
+    "kind": "battle",
+    "start": "1916-09-12",
+    "end": "1916-11-19",
+    "datePrecision": "day",
+    "place": "Monastir (Bitola), Macedonia (North Macedonia)",
+    "lon": 21.34,
+    "lat": 41.03,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Bulgaria and Germany",
+      "opponent": "Serbia, France, Russia and Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Otto von Below",
+        "Boyadzhiev"
+      ],
+      "opponent": [
+        "Sarrail",
+        "Mišić"
+      ]
+    },
+    "casualties": "Allied c. 50,000 (much from sickness); Bulgarian and German c. 60,000; estimates vary",
+    "outcome": "defeat",
+    "summary": "Sarrail's multinational Army of the Orient pushes north from Salonika. Serbian troops storm the heights of Kaymakchalan, and French and Serbian soldiers enter Monastir in November.",
+    "detail": "Sarrail's offensive was meant to support Romania's entry into the war. The Bulgarians struck first in August, pushing the Allies back near Florina, but in September Serbian, French and Russian troops counter-attacked. The rebuilt Serbian army, returning to its own soil for the first time since the retreat of 1915, stormed the 2,500-metre peak of Kaymakchalan in bitter fighting in late September.\n\nThrough October the Allies forced their way across the bend of the Crna river in rain and early snow against Bulgarian and German troops. Outflanked, the defenders abandoned Monastir, and on 19 November French and Serbian troops entered the town, the first Serbian town liberated. The advance halted just beyond it, on heights from which Bulgarian guns would shell the town for the next two years.",
+    "significance": "The capture of Monastir raised Serbian morale but did nothing to help the collapsing Romanians, and the Salonika front settled back into a malaria-ridden stalemate.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty figures for the Macedonian front are poorly established, and many losses were to disease rather than battle.",
+    "sources": [
+      "Alan Palmer, The Gardeners of Salonika (1965)",
+      "Richard C. Hall, Balkan Breakthrough: The Battle of Dobro Pole 1918 (2010)",
+      "David Dutton, The Politics of Diplomacy: Britain and France in the Balkans in the First World War (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fall-of-bucharest-1916",
+    "title": "Conquest of Wallachia and fall of Bucharest",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Hermannstadt (Sibiu), 26–29 September",
+        "lon": 24.15,
+        "lat": 45.8
+      },
+      {
+        "name": "Târgu Jiu, Jiu valley breakthrough",
+        "lon": 23.28,
+        "lat": 45.04
+      },
+      {
+        "name": "Sistova (Svishtov), Danube crossing",
+        "lon": 25.35,
+        "lat": 43.62
+      }
+    ],
+    "kind": "campaign",
+    "start": "1916-09-26",
+    "end": "1916-12-06",
+    "datePrecision": "day",
+    "place": "Bucharest, Kingdom of Romania",
+    "lon": 26.1,
+    "lat": 44.43,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Germany, Austria-Hungary, Bulgaria and the Ottoman Empire",
+      "opponent": "Romania and Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn",
+        "Mackensen"
+      ],
+      "opponent": [
+        "Prezan",
+        "Averescu"
+      ]
+    },
+    "casualties": "Romanian losses in the 1916 campaign c. 250,000–350,000 killed, wounded and captured; Central Powers far fewer",
+    "outcome": "victory",
+    "summary": "Falkenhayn drives the Romanians out of Transylvania, forces the Carpathian passes and joins Mackensen's army from the Danube; Bucharest falls on 6 December.",
+    "detail": "Falkenhayn's Ninth Army struck at Hermannstadt on 26 September, sending the Alpine Corps through the mountains behind the Romanian First Army, which escaped only with heavy loss. Kronstadt was retaken in early October, and by mid-month the Romanians had been pushed back to the Carpathian passes, which they held through weeks of hard fighting in the snow.\n\nIn mid-November the Germans broke through the Jiu valley near Târgu Jiu and poured into the Wallachian plain. On 23 November Mackensen crossed the Danube at Sistova. A Romanian counter-attack on the Argeș river at the start of December, planned by Prezan, came close to success but was defeated, and German troops entered Bucharest on 6 December.\n\nThe government and remnants of the army withdrew to Moldavia, around Iași, where refugees, soldiers and civilians suffered terribly from typhus and hunger that winter. British engineers wrecked the Ploiești oilfields before they fell.",
+    "significance": "The campaign gave the Central Powers Romania's grain and, once repaired, its oil, lengthening their ability to fight, and left Russia with an extra front to hold.",
+    "certainty": "high",
+    "uncertaintyNote": "Romanian losses are uncertain; many men were captured, and the high mortality from disease in Moldavia over the winter blurs military and civilian totals.",
+    "sources": [
+      "Glenn E. Torrey, The Romanian Battlefront in World War I (2011)",
+      "Michael B. Barrett, Prelude to Blitzkrieg (2013)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "death-of-franz-joseph-1916",
+    "title": "Death of Emperor Franz Joseph",
+    "geometry": "city",
+    "kind": "death",
+    "start": "1916-11-21",
+    "datePrecision": "day",
+    "place": "Schönbrunn Palace, Vienna",
+    "lon": 16.312,
+    "lat": 48.185,
+    "locationCertainty": "exact",
+    "phase": "attrition",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "—"
+    },
+    "commanders": {
+      "focus": [
+        "Franz Joseph",
+        "Karl I"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Franz Joseph dies at Schönbrunn aged 86 after 68 years on the throne. His young great-nephew Karl inherits an empire exhausted by war and increasingly dependent on Germany.",
+    "detail": "Franz Joseph had come to the throne in the revolutionary year 1848 and for most of his subjects had always been emperor. By 1916 he was a frail, dutiful figure, still working at his desk; he died of pneumonia on the evening of 21 November. A month earlier his prime minister, Count Stürgkh, had been shot dead in a Vienna restaurant by the socialist Friedrich Adler, a sign of the strain on the home front.\n\nHis successor, Karl, aged 29, had served at the front and wanted peace. He recalled the Austrian parliament, amnestied political prisoners and soon took over supreme command from Archduke Friedrich, dismissing Conrad as chief of staff in early 1917. In 1917 he sent secret peace feelers to France through his brother-in-law, Prince Sixtus of Bourbon-Parma; their exposure in 1918 humiliated him and bound Austria-Hungary still more tightly to Germany.",
+    "significance": "The death of the emperor removed the most powerful symbol of Habsburg unity at the moment when hunger, nationalism and military defeat were eroding it.",
+    "certainty": "high",
+    "sources": [
+      "Alan Sked, The Decline and Fall of the Habsburg Empire 1815–1918 (1989)",
+      "Alexander Watson, Ring of Steel (2014)",
+      "Pieter M. Judson, The Habsburg Empire: A New History (2016)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "us-entry-1917",
+    "title": "Zimmermann telegram and American entry into the war",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Room 40, Admiralty, London (telegram decoded)",
+        "lon": -0.128,
+        "lat": 51.506
+      }
+    ],
+    "kind": "political",
+    "start": "1917-01-16",
+    "end": "1917-04-06",
+    "datePrecision": "day",
+    "place": "Western Approaches (proxy location: Washington lies outside the atlas map)",
+    "lon": -9.0,
+    "lat": 50.3,
+    "locationCertainty": "uncertain",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Zimmermann",
+        "Bethmann Hollweg"
+      ],
+      "opponent": [
+        "Woodrow Wilson"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "A German offer of alliance to Mexico, decoded by British intelligence, and the sinking of American ships by U-boats bring the United States into the war on 6 April 1917.",
+    "detail": "In January 1917 the German foreign secretary, Arthur Zimmermann, sent a coded telegram to his minister in Mexico: if the United States entered the war, Mexico should be offered an alliance and the recovery of Texas, New Mexico and Arizona. British naval codebreakers in Room 40 intercepted and read it, and in February passed it to the Americans in a way that hid how it had been obtained.\n\nWilson had broken off relations when Germany resumed unrestricted submarine warfare on 1 February. The telegram's publication on 1 March, and Zimmermann's own admission that it was genuine, inflamed opinion. In mid-March U-boats sank several American merchant ships in the Western Approaches and elsewhere. On 2 April Wilson asked Congress for war to make the world 'safe for democracy'; the Senate agreed on 4 April and the House on 6 April.\n\nThe American army was tiny, and only the first division reached France that June; but American money, ships and food came at once.",
+    "significance": "American entry assured the Allies of resources Germany could not match and, from 1918, of a flood of fresh troops, while making Wilson's ideas central to the eventual peace.",
+    "certainty": "high",
+    "uncertaintyNote": "The decisions were taken in Berlin and Washington, and Washington lies outside the atlas's longitude range. The event is plotted in the Western Approaches, where the U-boat sinkings of American ships that helped provoke the declaration took place; the point is symbolic, not a precise location.",
+    "sources": [
+      "Barbara Tuchman, The Zimmermann Telegram (1958)",
+      "Thomas Boghardt, The Zimmermann Telegram: Intelligence, Diplomacy, and America's Entry into World War I (2012)",
+      "Michael S. Neiberg, The Path to War: How the First World War Created Modern America (2016)",
+      "David Stevenson, 1914–1918 (2004)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "unrestricted-submarine-warfare-1917",
+    "title": "Unrestricted submarine warfare",
+    "geometry": "area",
+    "radiusKm": 420,
+    "kind": "naval",
+    "start": "1917-02-01",
+    "end": "1917-07",
+    "datePrecision": "month",
+    "place": "Western Approaches to the British Isles",
+    "lon": -9.5,
+    "lat": 49.5,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, the Allies and neutral shipping"
+    },
+    "commanders": {
+      "focus": [
+        "Holtzendorff",
+        "Scheer"
+      ],
+      "opponent": [
+        "Jellicoe"
+      ]
+    },
+    "casualties": "Allied and neutral shipping lost: c. 500,000 tons in February, c. 550,000 in March and c. 850,000 in April 1917",
+    "outcome": "inconclusive",
+    "summary": "Germany declares that U-boats will sink without warning any ship in the waters round Britain, gambling that it can starve Britain out before American power can tell.",
+    "detail": "Admiral von Holtzendorff, chief of the naval staff, argued in December 1916 that sinking some 600,000 tons of shipping a month would force Britain to seek peace within about five months. At a crown council at Pless on 9 January 1917, with Hindenburg and Ludendorff in support, the Kaiser agreed, overriding Bethmann Hollweg's fears of American intervention. The announcement came on 31 January, and the campaign began the next day.\n\nAt first the results exceeded the admirals' hopes. Losses rose each month, peaking in April 1917, when about one ship in four leaving British ports failed to return; British grain stocks fell to a few weeks' supply, and neutral shipowners kept their ships in port. The Western Approaches, where the trade routes converged, became the killing ground.\n\nThe Admiralty resisted convoys, arguing they were impractical, until trial convoys in May showed their worth. As they spread through the summer, losses began to fall, though they remained heavy into 1918.",
+    "significance": "The campaign brought the United States into the war and came closer than any other German weapon to defeating Britain; its failure, through convoys, sealed Germany's gamble.",
+    "certainty": "high",
+    "uncertaintyNote": "Monthly tonnage figures differ slightly between British and German counts and according to whether losses to mines and in the Mediterranean are included.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Lawrence Sondhaus, The Great War at Sea (2014)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "Arthur J. Marder, From the Dreadnought to Scapa Flow, vol. 4 (1969)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "operation-alberich-1917",
+    "title": "Retreat to the Hindenburg Line (Operation Alberich)",
+    "geometry": "area",
+    "radiusKm": 55,
+    "markers": [
+      {
+        "name": "Bapaume",
+        "lon": 2.85,
+        "lat": 50.1
+      },
+      {
+        "name": "Péronne",
+        "lon": 2.93,
+        "lat": 49.93
+      },
+      {
+        "name": "Noyon",
+        "lon": 3.0,
+        "lat": 49.58
+      }
+    ],
+    "kind": "campaign",
+    "start": "1917-02-09",
+    "end": "1917-04-05",
+    "datePrecision": "day",
+    "place": "Between Arras and Soissons, France",
+    "lon": 2.98,
+    "lat": 49.82,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Ludendorff",
+        "Crown Prince Rupprecht"
+      ],
+      "opponent": [
+        "Haig",
+        "Nivelle"
+      ]
+    },
+    "outcome": "inconclusive",
+    "summary": "The German army withdraws up to 40 km to the newly built Hindenburg Line, leaving behind a deliberately devastated zone of razed villages, felled trees, fouled wells and booby traps.",
+    "detail": "After the Somme, Hindenburg and Ludendorff ordered a powerful new defensive position, the Siegfriedstellung, known to the British as the Hindenburg Line, built from late 1916 behind the great salient between Arras and the Aisne, largely by prisoners of war and forced labourers. Withdrawing to it would shorten the front by some 40 km and free more than a dozen divisions.\n\nFrom 9 February engineers systematically destroyed the zone to be abandoned: towns and villages were blown up, roads cratered, orchards cut down, wells fouled and delayed-action mines left in buildings, one of which destroyed Bapaume town hall weeks later. Civilians fit to work were deported east; the old, the young and mothers were concentrated in towns such as Noyon and Ham and left behind. The main withdrawal took place between 16 and 20 March, and British and French troops followed cautiously into the wasteland.",
+    "significance": "The retreat disrupted the Allies' spring plans, particularly Nivelle's, and showed a German army now fighting for time on the defensive in the west.",
+    "certainty": "high",
+    "uncertaintyNote": "The Hindenburg Line was reached by the Allied advance in early April; end dates vary. The number of civilians deported is not reliably established.",
+    "sources": [
+      "Jack Sheldon, The German Army in the Spring Offensives 1917 (2015)",
+      "Hew Strachan, The First World War (2003)",
+      "David Stevenson, 1914–1918 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fall-of-baghdad-1917",
+    "title": "Fall of Baghdad",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Kut al-Amara (retaken 24 February)",
+        "lon": 45.82,
+        "lat": 32.51
+      }
+    ],
+    "kind": "campaign",
+    "start": "1917-02-23",
+    "end": "1917-03-11",
+    "datePrecision": "day",
+    "place": "Baghdad, Mesopotamia (Iraq)",
+    "lon": 44.39,
+    "lat": 33.34,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (Britain and India)"
+    },
+    "commanders": {
+      "focus": [
+        "Khalil Pasha"
+      ],
+      "opponent": [
+        "Maude"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "A rebuilt Anglo-Indian army under Maude forces the Tigris above Kut, pursues the Ottoman Sixth Army upriver and enters Baghdad on 11 March 1917.",
+    "detail": "After the humiliation of Kut, the Mesopotamian campaign was reorganised under the War Office. Maude built up his force, its river transport and a light railway through 1916, and from December methodically cleared Ottoman positions on the Tigris below Kut in weeks of attritional fighting.\n\nOn 23 February 1917 British and Indian troops crossed the Tigris at the Shumran bend, outflanking the Ottoman lines. Khalil Pasha's army, already weakened by the diversion of troops to Persia, retreated, and Kut was reoccupied. Maude pursued upriver, forced the Diyala river against stiff resistance in early March, and Ottoman forces abandoned Baghdad. British troops entered the city on 11 March, after looting had already begun.\n\nA proclamation in Maude's name promised the city's people liberation rather than conquest. Maude himself died of cholera in Baghdad that November.",
+    "significance": "The capture of the ancient capital restored British prestige after Kut and Gallipoli and began the British presence that shaped modern Iraq.",
+    "certainty": "high",
+    "uncertaintyNote": "The start date marks the crossing at Shumran; the offensive had begun on 13 December 1916.",
+    "sources": [
+      "Charles Townshend, When God Made Hell (2010)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "F.J. Moberly, The Campaign in Mesopotamia 1914–1918, official history, vol. 3 (1926)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "february-revolution-1917",
+    "title": "February Revolution and the abdication of Nicholas II",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Pskov (abdication, 15 March)",
+        "lon": 28.33,
+        "lat": 57.82
+      }
+    ],
+    "kind": "political",
+    "start": "1917-03-08",
+    "end": "1917-03-16",
+    "datePrecision": "day",
+    "place": "Petrograd (Saint Petersburg), Russia",
+    "lon": 30.315,
+    "lat": 59.939,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Revolutionary Petrograd (workers, garrison and Duma leaders)",
+      "opponent": "Tsarist government"
+    },
+    "commanders": {
+      "focus": [
+        "Rodzianko",
+        "Prince Lvov",
+        "Kerensky"
+      ],
+      "opponent": [
+        "Nicholas II",
+        "Khabalov"
+      ]
+    },
+    "casualties": "c. 1,300–1,500 killed and wounded in Petrograd",
+    "outcome": "n/a",
+    "summary": "Bread queues and strikes in Petrograd become a revolution when the garrison mutinies. Within a week Nicholas II abdicates, ending three centuries of Romanov rule.",
+    "detail": "On 8 March 1917 (23 February in the Russian calendar), International Women's Day, women queueing for bread and textile workers came out onto the streets of Petrograd; strikes spread across the city over the next days. On 11 March troops fired on crowds, but on the 12th soldiers of the Volynsky Guard Regiment mutinied and the garrison went over to the revolution. Prisons were opened and police stations burned.\n\nTwo centres of power emerged in the Tauride Palace: a committee of the Duma, which formed a Provisional Government under Prince Lvov, and the Petrograd Soviet of Workers' and Soldiers' Deputies, whose Order No. 1 put army units under elected committees. The generals advised the tsar that only his abdication could save the war effort. On 15 March, in his train at Pskov, Nicholas abdicated for himself and his son; his brother Michael declined the throne the next day.\n\nIn April Germany allowed Lenin and other exiles to travel home across its territory.",
+    "significance": "The revolution ended the monarchy and began the disintegration of the Russian army and state, opening the way for the Bolshevik seizure of power and Russia's exit from the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Dates are given in the Western (Gregorian) calendar; Russia then used the Julian calendar, thirteen days behind. No Central Powers participant was involved, so the sides are the revolution's own parties and the outcome is n/a.",
+    "sources": [
+      "Orlando Figes, A People's Tragedy: The Russian Revolution 1891–1924 (1996)",
+      "Tsuyoshi Hasegawa, The February Revolution, Petrograd, 1917 (2nd edn, 2017)",
+      "S.A. Smith, Russia in Revolution: An Empire in Crisis 1890–1928 (2017)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "gaza-1917",
+    "title": "First and Second Battles of Gaza",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1917-03-26",
+    "end": "1917-04-19",
+    "datePrecision": "day",
+    "place": "Gaza, Palestine",
+    "lon": 34.46,
+    "lat": 31.5,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Ottoman Empire and Germany",
+      "opponent": "British Empire (Britain, Australia and New Zealand)"
+    },
+    "commanders": {
+      "focus": [
+        "Kress von Kressenstein"
+      ],
+      "opponent": [
+        "Murray",
+        "Dobell",
+        "Chetwode"
+      ]
+    },
+    "casualties": "First Gaza: British c. 4,000, Ottoman c. 2,400. Second Gaza: British c. 6,400, Ottoman c. 2,000",
+    "outcome": "victory",
+    "summary": "Twice in four weeks the British Eastern Force attacks Gaza, gateway to Palestine. The first attack is called off on the verge of success; the second, a frontal assault with tanks and gas, fails bloodily.",
+    "detail": "Having crossed Sinai, Murray's force attacked Gaza on 26 March 1917. Infantry fought through dense cactus hedges towards the Ali Muntar ridge while Australian and New Zealand mounted troops swung round and encircled the town from the north. By evening the garrison was close to surrender, but with Ottoman reinforcements approaching and his horses short of water, the British commanders ordered a withdrawal. Murray's report to London presented the battle as a near-victory.\n\nKress von Kressenstein used the respite to fortify a line from Gaza towards Beersheba. On 17–19 April the British attacked again, this time frontally, supported by eight tanks and gas shells, used for the first time in the theatre. The attack was a costly failure against entrenched machine guns.\n\nMurray and Dobell were removed, and in June Allenby arrived to take command, with reinforcements and instructions to take Jerusalem by Christmas.",
+    "significance": "The failures at Gaza stalled the Palestine campaign for six months and led to Allenby's appointment and the more imaginative Beersheba operation that autumn.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman casualty figures are less secure than British ones.",
+    "sources": [
+      "George MacMunn and Cyril Falls, Military Operations: Egypt and Palestine, vol. 1 (1928)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Matthew Hughes, Allenby and British Strategy in the Middle East 1917–1919 (1999)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "arras-1917",
+    "title": "Battle of Arras and Vimy Ridge",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Vimy Ridge (Hill 145)",
+        "lon": 2.774,
+        "lat": 50.379
+      },
+      {
+        "name": "Monchy-le-Preux",
+        "lon": 2.892,
+        "lat": 50.271
+      },
+      {
+        "name": "Bullecourt",
+        "lon": 2.927,
+        "lat": 50.19
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-04-09",
+    "end": "1917-05-16",
+    "datePrecision": "day",
+    "place": "East of Arras, Pas-de-Calais, France",
+    "lon": 2.85,
+    "lat": 50.3,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (Britain, Canada and Australia)"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhausen",
+        "Crown Prince Rupprecht"
+      ],
+      "opponent": [
+        "Haig",
+        "Allenby",
+        "Horne",
+        "Byng"
+      ]
+    },
+    "casualties": "British Empire c. 150,000–160,000; German c. 120,000–130,000; figures disputed",
+    "outcome": "inconclusive",
+    "summary": "A British offensive to support Nivelle opens with striking success, including the Canadian capture of Vimy Ridge, then bogs down into weeks of costly attrition.",
+    "detail": "On Easter Monday, 9 April 1917, in sleet, the British Third Army and the Canadian Corps of First Army attacked behind a carefully planned bombardment and creeping barrage. Troops sheltered in tunnels under Arras before the assault. The four Canadian divisions, attacking together for the first time, took most of Vimy Ridge that day and the rest by 12 April. Further south the British advanced up to 5 km, the longest single-day gain on the Western Front since trench warfare began.\n\nThe Germans, whose reserves had been held too far back, soon recovered. Mounted and infantry attacks at Monchy-le-Preux were costly, and Australian attacks at Bullecourt against the Hindenburg Line in April and May were bloody. Haig kept attacking to support the French after Nivelle's offensive failed. Overhead, in 'Bloody April', the Royal Flying Corps lost aircraft and crews at a dreadful rate to German fighters.",
+    "significance": "Vimy became a founding moment of Canadian nationhood; the battle as a whole showed improved British methods yet had the highest daily casualty rate of any major British offensive of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "German losses are especially uncertain. Canadian casualties at Vimy were c. 10,600, including c. 3,600 killed.",
+    "sources": [
+      "Jonathan Nicholls, Cheerful Sacrifice: The Battle of Arras 1917 (1990)",
+      "Geoffrey Hayes, Andrew Iarocci and Mike Bechthold (eds), Vimy Ridge: A Canadian Reassessment (2007)",
+      "Jack Sheldon, The German Army in the Spring Offensives 1917 (2015)",
+      "Gary Sheffield, The Chief: Douglas Haig and the British Army (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nivelle-offensive-1917",
+    "title": "Nivelle Offensive (Chemin des Dames)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Craonne",
+        "lon": 3.79,
+        "lat": 49.44
+      },
+      {
+        "name": "Berry-au-Bac (first French tank attack)",
+        "lon": 3.9,
+        "lat": 49.4
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-04-16",
+    "end": "1917-05-09",
+    "datePrecision": "day",
+    "place": "Chemin des Dames ridge, north of the Aisne, France",
+    "lon": 3.62,
+    "lat": 49.44,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France"
+    },
+    "commanders": {
+      "focus": [
+        "Crown Prince Wilhelm",
+        "Boehn",
+        "Fritz von Below"
+      ],
+      "opponent": [
+        "Nivelle",
+        "Mangin",
+        "Mazel",
+        "Micheler"
+      ]
+    },
+    "casualties": "French c. 130,000–190,000; German c. 160,000 (including c. 30,000 prisoners); disputed",
+    "outcome": "victory",
+    "summary": "Nivelle promises to break the German line in 48 hours. His offensive on the Chemin des Dames gains a few kilometres at terrible cost, destroying his reputation and the French army's patience.",
+    "detail": "Nivelle, fresh from his Verdun counter-attacks, persuaded politicians that massed artillery and a rapid infantry assault could achieve a breakthrough within two days. His plan was widely discussed and captured by the Germans, and their retreat to the Hindenburg Line had already dislocated part of it. The German defenders on the Chemin des Dames, a steep ridge honeycombed with caves and quarries, deepened their positions and held their reserves ready for counter-attack.\n\nOn 16 April, in cold rain and snow, the Fifth and Sixth Armies attacked. The barrage outran the infantry, machine guns in untouched positions cut down the attackers, and the French tanks at Berry-au-Bac were destroyed in large numbers. Senegalese troops suffered especially heavy losses. The ridge was partly taken in the following weeks, and the Fourth Army gained ground in Champagne, but there was no breakthrough.\n\nOn 15 May Nivelle was replaced by Pétain.",
+    "significance": "The failure of the promised decisive victory broke the French army's endurance and triggered the mutinies of 1917, ending France's capacity for major offensives for a year.",
+    "certainty": "high",
+    "uncertaintyNote": "Classed as a Central Powers (defensive) victory because the offensive failed in its aims, though the French captured ground and many prisoners. French losses depend on the period counted; c. 134,000 for the first ten days is often cited.",
+    "sources": [
+      "Robert A. Doughty, Pyrrhic Victory: French Strategy and Operations in the Great War (2005)",
+      "Leonard V. Smith, Stéphane Audoin-Rouzeau and Annette Becker, France and the Great War (2003)",
+      "Jack Sheldon, The German Army in the Spring Offensives 1917 (2015)",
+      "David Stevenson, 1914–1918 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "french-army-mutinies-1917",
+    "title": "French army mutinies",
+    "geometry": "area",
+    "radiusKm": 70,
+    "markers": [
+      {
+        "name": "Soissons",
+        "lon": 3.32,
+        "lat": 49.38
+      }
+    ],
+    "kind": "political",
+    "start": "1917-04",
+    "end": "1917-06",
+    "datePrecision": "month",
+    "place": "Behind the Chemin des Dames and Champagne fronts, France",
+    "lon": 3.5,
+    "lat": 49.3,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Mutinous French units",
+      "opponent": "French high command"
+    },
+    "commanders": {
+      "opponent": [
+        "Pétain"
+      ]
+    },
+    "casualties": "c. 3,400 courts-martial convictions, including over 500 death sentences, of which c. 50 were carried out",
+    "outcome": "n/a",
+    "summary": "After the Chemin des Dames disaster, units in about half the French army refuse to take part in further attacks. Pétain restores order with a mix of concessions and limited repression.",
+    "detail": "From late April, and especially in late May and early June 1917, soldiers in dozens of French divisions refused orders to go up to the line for new attacks. They held meetings, marched and sang the Internationale, and some talked of marching on Paris, but most said they would defend their trenches while refusing futile offensives. Their grievances were concrete: long-promised leave, poor food and rest, and above all the waste of lives in attacks like Nivelle's.\n\nPétain, commander-in-chief from 15 May, visited units, improved leave, rest camps and rations, and declared a strategy of limited, well-prepared operations while waiting for the Americans and the tanks. At the same time courts martial tried thousands of soldiers; over 500 were sentenced to death, but most sentences were commuted and some fifty executed.\n\nThe Germans, remarkably, learned little of the crisis until it had passed, and made no attempt to exploit it.",
+    "significance": "The mutinies marked the limit of French endurance: thereafter the French army would defend and mount limited attacks, leaving the British to carry the main offensive burden in 1917.",
+    "certainty": "high",
+    "uncertaintyNote": "Guy Pedroncini's study of the archives established the figures of c. 554 death sentences and 49 executions; others count slightly differently. The first incidents are dated to the last days of April, the peak to late May and early June.",
+    "sources": [
+      "Guy Pedroncini, Les Mutineries de 1917 (1967)",
+      "Leonard V. Smith, Between Mutiny and Obedience: The Case of the French Fifth Infantry Division during World War I (1994)",
+      "André Loez, 14–18. Les refus de la guerre: une histoire des mutins (2010)",
+      "Robert A. Doughty, Pyrrhic Victory (2005)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tenth-isonzo-1917",
+    "title": "Tenth Battle of the Isonzo",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Monte Kuk",
+        "lon": 13.645,
+        "lat": 46.025
+      },
+      {
+        "name": "Hermada (Grmada)",
+        "lon": 13.6,
+        "lat": 45.785
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-05-12",
+    "end": "1917-06-08",
+    "datePrecision": "day",
+    "place": "The Isonzo (Soča) front from Plava to the Carso, Italy and Slovenia",
+    "lon": 13.62,
+    "lat": 45.92,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Boroević"
+      ],
+      "opponent": [
+        "Cadorna",
+        "Capello",
+        "Duke of Aosta"
+      ]
+    },
+    "casualties": "Italian c. 150,000; Austro-Hungarian c. 75,000; estimates vary",
+    "outcome": "inconclusive",
+    "summary": "Cadorna's spring offensive on the Isonzo takes Monte Kuk and pushes towards the Hermada on the coast, but an Austro-Hungarian counter-attack recovers much of the lost ground.",
+    "detail": "In May 1917 Cadorna launched his tenth offensive on the Isonzo with more guns than ever before, including British batteries. The first blow fell north of Gorizia, where Italian troops took Monte Kuk and the Vodice ridge and came close to Monte Santo after fierce fighting.\n\nOn 23 May the main attack opened on the Carso. The Third Army advanced several kilometres towards Trieste, reaching the foot of the Hermada, the last strong position before the port. But the Italians were exhausted and their losses enormous. On 4 June Boroević counter-attacked at Flondar and retook much of the coastal ground.\n\nThe battle cost the Italians about twice as many casualties as the defenders. Italian morale, already strained by the discipline of Cadorna's regime, with its summary executions and decimations, suffered further.",
+    "significance": "Another costly near-miss, the battle deepened war-weariness in both armies and convinced Austria-Hungary that it needed German help to relieve the Isonzo front, leading to Caporetto.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty figures differ considerably between sources.",
+    "sources": [
+      "Mark Thompson, The White War (2008)",
+      "John R. Schindler, Isonzo: The Forgotten Sacrifice of the Great War (2001)",
+      "John Gooch, The Italian Army and the First World War (2014)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "messines-1917",
+    "title": "Battle of Messines",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Spanbroekmolen crater",
+        "lon": 2.858,
+        "lat": 50.777
+      },
+      {
+        "name": "Hill 60",
+        "lon": 2.93,
+        "lat": 50.824
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-06-07",
+    "end": "1917-06-14",
+    "datePrecision": "day",
+    "place": "Messines–Wytschaete ridge (Mesen–Wijtschate), south of Ypres, Belgium",
+    "lon": 2.88,
+    "lat": 50.78,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (Britain, Ireland, Australia and New Zealand)"
+    },
+    "commanders": {
+      "focus": [
+        "Sixt von Armin",
+        "Laffert"
+      ],
+      "opponent": [
+        "Plumer",
+        "Harington"
+      ]
+    },
+    "casualties": "British Empire c. 24,000; German c. 25,000 (including c. 7,000 prisoners); disputed",
+    "outcome": "defeat",
+    "summary": "Nineteen great mines are blown under the German lines at dawn, and Plumer's Second Army takes the Messines ridge in a model limited attack.",
+    "detail": "For over a year British, Canadian and Australian tunnelling companies had dug galleries deep beneath the Messines ridge, fighting an underground war against German miners. At 3.10 a.m. on 7 June 1917 nineteen mines packed with some 450 tonnes of explosive were fired almost simultaneously. The blast was reportedly heard in southern England; thousands of German soldiers were killed outright or buried.\n\nNine divisions, among them the New Zealand Division, the 3rd Australian and, side by side, the 36th (Ulster) and 16th (Irish) Divisions, advanced behind a dense barrage and took the ridge within hours. Plumer and his chief of staff Harington had planned in meticulous detail, with limited objectives that could be held against counter-attack. Losses rose later in the day as troops crowded onto the crest under German shellfire, and fighting continued for a week.\n\nTwo mines did not go off; one exploded in a thunderstorm in 1955.",
+    "significance": "Messines secured the southern flank for the Ypres offensive and showed what careful, limited 'bite and hold' attacks could achieve; the delay before the main Third Ypres attack squandered its advantage.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of German soldiers killed by the mines is often given as about 10,000, but this is not firmly established. German casualty totals depend on the period counted.",
+    "sources": [
+      "Robin Prior and Trevor Wilson, Passchendaele: The Untold Story (1996)",
+      "Peter Barton, Peter Doyle and Johan Vandewalle, Beneath Flanders Fields: The Tunnellers' War 1914–1918 (2004)",
+      "Ian Passingham, Pillars of Fire: The Battle of Messines Ridge (1998)",
+      "Jack Sheldon, The German Army at Passchendaele (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "greece-enters-war-1917",
+    "title": "Constantine leaves Greece; Greece joins the Allies",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1917-06-11",
+    "end": "1917-06-30",
+    "datePrecision": "day",
+    "place": "Athens, Greece",
+    "lon": 23.73,
+    "lat": 37.98,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "King Constantine and the royalist government",
+      "opponent": "Venizelos and the Entente"
+    },
+    "commanders": {
+      "focus": [
+        "Constantine I"
+      ],
+      "opponent": [
+        "Venizelos",
+        "Jonnart"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Under Allied pressure, the pro-German-leaning King Constantine leaves Greece. Venizelos returns to Athens as prime minister of a reunited country, which enters the war on the Allied side.",
+    "detail": "Greece had been torn by the 'National Schism' between King Constantine, who insisted on neutrality and was married to the Kaiser's sister, and the former prime minister Eleftherios Venizelos, who favoured the Entente. In 1916 Venizelos set up a rival government at Salonika, and in December 1916 Allied landing parties clashed with royalist troops in Athens, after which the Allies blockaded royalist Greece.\n\nIn June 1917 the French high commissioner Charles Jonnart, backed by Allied troops, demanded the king's departure. Constantine left on 11 June without formally abdicating, and his second son Alexander became king. Venizelos returned to Athens as head of a single government and at the end of June Greece broke with the Central Powers and entered the war.\n\nGreek divisions joined the Salonika front and fought in the final offensive of 1918.",
+    "significance": "Greek entry secured the Allied base at Salonika and added troops to the Macedonian front, but the schism poisoned Greek politics for decades.",
+    "certainty": "high",
+    "uncertaintyNote": "Greece's formal entry into the war is dated variously between 27 and 30 June 1917, depending on the diplomatic step taken as decisive.",
+    "sources": [
+      "George B. Leon, Greece and the Great Powers 1914–1917 (1974)",
+      "Alan Palmer, The Gardeners of Salonika (1965)",
+      "Mark Mazower, Salonica, City of Ghosts (2004)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "gotha-raid-london-1917",
+    "title": "First Gotha raid on London",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Upper North Street School, Poplar",
+        "lon": -0.016,
+        "lat": 51.512
+      }
+    ],
+    "kind": "raid",
+    "start": "1917-06-13",
+    "datePrecision": "day",
+    "place": "City and East End of London",
+    "lon": -0.082,
+    "lat": 51.517,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Ernst Brandenburg"
+      ]
+    },
+    "casualties": "162 killed and 432 injured, including 18 children at a Poplar school",
+    "outcome": "n/a",
+    "summary": "Fourteen German Gotha bombers attack London in broad daylight, killing 162 people, including 18 young children in a Poplar school: the deadliest air raid on Britain of the war.",
+    "detail": "Airships had bombed London since 1915, but by 1917 they were increasingly vulnerable. The German army formed a bomber squadron of twin-engined Gotha aircraft, based near Ghent under Hauptmann Ernst Brandenburg, to attack England by day. A first raid, turned back from London by cloud, killed nearly a hundred people in and around Folkestone on 25 May.\n\nAround midday on 13 June 1917 fourteen Gothas reached London, flying in formation too high for the defending fighters and guns. Their bombs fell on the City and the East End; Liverpool Street station was hit, and a bomb on the Upper North Street school in Poplar killed eighteen children, most aged four to six. All the aircraft returned safely.\n\nThe raid caused public fury and near panic. Fighter squadrons were brought back from France, and a further raid in July led to the Smuts report, which recommended an independent air service.",
+    "significance": "The Gotha raids brought total war to civilians in the capital and led directly to the creation of the Royal Air Force in April 1918 and a modern air defence system for London.",
+    "certainty": "high",
+    "uncertaintyNote": "Twenty or more Gothas set out; around fourteen bombed London. The outcome is marked n/a as there was no engagement between forces.",
+    "sources": [
+      "Ian Castle, London 1917–18: The Bomber Blitz (2010)",
+      "Christopher Cole and E.F. Cheesman, The Air Defence of Britain 1914–1918 (1984)",
+      "Jerry White, Zeppelin Nights: London in the First World War (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kerensky-offensive-1917",
+    "title": "Kerensky Offensive",
+    "geometry": "area",
+    "radiusKm": 110,
+    "markers": [
+      {
+        "name": "Zborów (Zboriv)",
+        "lon": 25.14,
+        "lat": 49.66
+      },
+      {
+        "name": "Kalusz (Kalush)",
+        "lon": 24.37,
+        "lat": 49.02
+      },
+      {
+        "name": "Tarnopol (Ternopil)",
+        "lon": 25.59,
+        "lat": 49.55
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-07-01",
+    "end": "1917-08-03",
+    "datePrecision": "day",
+    "place": "Eastern Galicia (western Ukraine)",
+    "lon": 24.95,
+    "lat": 49.35,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Prince Leopold of Bavaria",
+        "Hoffmann",
+        "Böhm-Ermolli"
+      ],
+      "opponent": [
+        "Kerensky",
+        "Brusilov",
+        "Kornilov",
+        "Gutor"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "The Provisional Government launches a last offensive in Galicia to revive the army and satisfy its allies. After early gains the troops stop fighting, and a German counter-attack turns retreat into rout.",
+    "detail": "Kerensky, now war minister, toured the front urging the soldiers to fight for revolutionary Russia, and the Provisional Government hoped a victory would restore discipline and its standing with the Allies. On 1 July, after a heavy bombardment, the Seventh and Eleventh Armies attacked towards Lemberg. At Zborów the Czechoslovak Brigade, formed of former Austro-Hungarian soldiers, broke through Austro-Hungarian lines. From 6 July Kornilov's Eighth Army routed the Austrians further south and took Halicz and Kalusz.\n\nBut units debated orders in their committees, refused to relieve the attackers or simply went home, and the advance soon stalled. On 19 July German divisions brought from the west counter-attacked near Zborów. The Russian Eleventh Army collapsed; soldiers fled, looting as they went. Tarnopol fell, and by early August the Central Powers had cleared almost all of Galicia and the Bukovina.",
+    "significance": "The offensive's failure destroyed what was left of the Russian army's fighting power and fatally weakened the Provisional Government, helping the Bolsheviks towards power.",
+    "certainty": "high",
+    "uncertaintyNote": "The German counter-offensive (from 19 July) falls after the phase boundary but is treated here as the offensive's conclusion. Russian losses are poorly recorded, especially for the retreat.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Orlando Figes, A People's Tragedy (1996)",
+      "Allan K. Wildman, The End of the Russian Imperial Army, vol. 2 (1987)",
+      "Prit Buttar, The Splintered Empires: The Eastern Front 1917–21 (2017)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "aqaba-1917",
+    "title": "Capture of Aqaba",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1917-07-06",
+    "datePrecision": "day",
+    "place": "Aqaba, at the head of the Gulf of Aqaba (Jordan)",
+    "lon": 35.0,
+    "lat": 29.53,
+    "locationCertainty": "exact",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Arab forces of the Sharif of Mecca"
+    },
+    "commanders": {
+      "opponent": [
+        "Auda abu Tayi",
+        "Sharif Nasir",
+        "T.E. Lawrence"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "After a two-month desert march, Arab tribal forces with T.E. Lawrence fall on Aqaba from the landward side, and its small Ottoman garrison surrenders.",
+    "detail": "Aqaba, a small port at the head of the Red Sea's eastern gulf, was well defended against attack from the sea but weakly from inland. In May 1917 a party under Sharif Nasir, with Auda abu Tayi of the Howeitat and Lawrence, set out from Wejh on a long ride north through the desert, recruiting tribesmen as they went and raiding the Hejaz railway.\n\nOn 2 July they overwhelmed an Ottoman battalion at Aba el Lissan on the plateau above the coast, killing and capturing several hundred. The route down through the Wadi Itm lay open, and after negotiation the remaining garrison at Aqaba surrendered on 6 July. Lawrence crossed Sinai to Cairo to report and arrange supplies for the hungry force and its prisoners.\n\nAqaba became the base from which Faisal's Northern Army, supplied by sea, operated on the right flank of Allenby's advance into Palestine and Syria.",
+    "significance": "The capture moved the Arab Revolt north out of the Hejaz and linked it directly to the British campaign in Palestine, making Lawrence's name.",
+    "certainty": "high",
+    "uncertaintyNote": "Much of the detail rests on Lawrence's own account in Seven Pillars of Wisdom, which is not always reliable; numbers engaged and captured vary.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Scott Anderson, Lawrence in Arabia (2013)",
+      "Jeremy Wilson, Lawrence of Arabia: The Authorised Biography (1989)"
+    ],
+    "importance": 2
+  }
+]

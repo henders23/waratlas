@@ -1,0 +1,2010 @@
+[
+  {
+    "id": "third-ypres-1917",
+    "title": "Third Ypres (Passchendaele)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Passchendaele (Passendale)",
+        "lon": 3.021,
+        "lat": 50.899
+      },
+      {
+        "name": "Ypres (Ieper)",
+        "lon": 2.885,
+        "lat": 50.851
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-07-31",
+    "end": "1917-11-10",
+    "datePrecision": "day",
+    "place": "The Ypres salient, West Flanders, Belgium",
+    "lon": 2.96,
+    "lat": 50.87,
+    "locationCertainty": "approximate",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, the Dominions and France"
+    },
+    "commanders": {
+      "focus": [
+        "Crown Prince Rupprecht",
+        "Sixt von Armin"
+      ],
+      "opponent": [
+        "Haig",
+        "Gough",
+        "Plumer",
+        "Currie"
+      ]
+    },
+    "casualties": "British Empire c. 245,000–275,000; German c. 215,000–260,000 (both heavily disputed)",
+    "outcome": "inconclusive",
+    "summary": "Haig's great Flanders offensive grinds for three and a half months through shellfire and rain-soaked mud to capture the ruined village of Passchendaele, a few miles from where it began.",
+    "detail": "Haig hoped to break out of the Ypres salient, clear the Belgian coast and its U-boat bases, and wear down a German army he believed near exhaustion. Gough's Fifth Army attacked on 31 July after a ten-day bombardment that smashed the drainage of the low Flanders plain. Almost at once unseasonably heavy rain turned the battlefield into a swamp, and the August attacks against the Germans' deep defences and concrete pillboxes gained little at great cost.\n\nIn September Plumer's Second Army took the lead with short, heavily supported 'bite-and-hold' advances. Menin Road, Polygon Wood and Broodseinde on 4 October each took ground and inflicted heavy losses on German counter-attack divisions. Haig pressed on as the rain returned; at Poelcappelle and First Passchendaele exhausted men foundered in mud where the wounded could drown in shell holes. The Canadian Corps finally took the village of Passchendaele on 6 November, and the offensive was closed down on 10 November.\n\nThe ridge had been gained, but not the coast, and the salient was now deeper and more exposed.",
+    "significance": "Passchendaele became a byword for futile attrition. It drained the British army and Haig's standing with Lloyd George just as Russia collapsed and Germany prepared to shift divisions west.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures are among the most contested of the war. The British official historian's claim of some 400,000 German losses is generally rejected; most modern estimates put the two sides' losses at broadly similar levels.",
+    "sources": [
+      "Robin Prior and Trevor Wilson, Passchendaele: The Untold Story (1996)",
+      "Nick Lloyd, Passchendaele: A New History (2017)",
+      "Jack Sheldon, The German Army at Passchendaele (2007)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "riga-1917",
+    "title": "Capture of Riga",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Üxküll (Ikšķile), Düna crossing",
+        "lon": 24.5,
+        "lat": 56.83
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-09-01",
+    "end": "1917-09-05",
+    "datePrecision": "day",
+    "place": "Riga, Livonia (Latvia)",
+    "lon": 24.11,
+    "lat": 56.95,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Hutier",
+        "Bruchmüller"
+      ],
+      "opponent": [
+        "Parsky"
+      ]
+    },
+    "casualties": "German c. 4,000–5,000; Russian c. 25,000, including some 9,000 prisoners",
+    "outcome": "victory",
+    "summary": "After a short, precisely planned bombardment, Hutier's Eighth Army crosses the Düna above Riga and takes the Baltic port in three days, as the Russian army of the Revolution falls back.",
+    "detail": "Riga was the anchor of the Russian northern front, held by a Twelfth Army whose discipline had been eroded by months of revolutionary agitation. On 1 September Oskar von Hutier's Eighth Army struck across the Düna (Daugava) near Üxküll, upstream of the city.\n\nThe attack was prepared with unusual care. Colonel Georg Bruchmüller's artillery fired a hurricane bombardment of a few hours, mixing gas and high explosive against batteries and command posts rather than trying to obliterate the trenches, and infantry crossed the river on pontoons behind it. Some Russian units resisted stoutly, others melted away, and the Twelfth Army withdrew east to avoid encirclement. German troops entered Riga on 3 September.\n\nThe victory was cheap, and it was used as a laboratory. The artillery methods and infiltrating infantry tactics tried here were later carried to Caporetto and to the great German offensives of 1918 in the west.",
+    "significance": "The fall of Riga alarmed Petrograd, fed the Kornilov affair that fatally weakened the Provisional Government, and proved the assault methods Germany would use in 1918.",
+    "certainty": "high",
+    "uncertaintyNote": "Russian losses are uncertain given the disorganisation of the retreat. The name 'Hutier tactics' later given to these methods overstates one general's role.",
+    "sources": [
+      "David T. Zabecki, Steel Wind: Colonel Georg Bruchmüller and the Birth of Modern Artillery (1994)",
+      "David Stevenson, 1914–1918: The History of the First World War (2004)",
+      "Orlando Figes, A People's Tragedy: The Russian Revolution 1891–1924 (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "caporetto-1917",
+    "title": "Battle of Caporetto",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Tolmein (Tolmin)",
+        "lon": 13.73,
+        "lat": 46.18
+      },
+      {
+        "name": "Flitsch (Bovec)",
+        "lon": 13.55,
+        "lat": 46.34
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-10-24",
+    "end": "1917-11-19",
+    "datePrecision": "day",
+    "place": "Caporetto (Kobarid), upper Isonzo valley (Slovenia)",
+    "lon": 13.58,
+    "lat": 46.25,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Otto von Below",
+        "Krafft von Dellmensingen",
+        "Boroević"
+      ],
+      "opponent": [
+        "Cadorna",
+        "Capello",
+        "Diaz"
+      ]
+    },
+    "casualties": "Italian c. 10,000 killed, c. 30,000 wounded and c. 265,000–295,000 captured; Central Powers c. 70,000",
+    "outcome": "victory",
+    "summary": "A German–Austrian strike through the mountains at Caporetto shatters the Italian line on the Isonzo and drives Cadorna's armies back more than a hundred kilometres to the Piave.",
+    "detail": "With Austria-Hungary badly strained after eleven battles on the Isonzo, Germany lent seven divisions to a new Fourteenth Army under Otto von Below. Early on 24 October, after a short bombardment that included gas shells at Flitsch, it attacked down the valleys around Caporetto in fog and rain. Assault troops pushed along the valley floors and past the Italian strongpoints on the heights; a young Erwin Rommel's mountain battalion took Monte Matajur with thousands of prisoners.\n\nThe Italian Second Army, badly deployed and poorly informed, broke. Within days the whole front from the Alps to the sea was in retreat across the Friuli plain, the roads choked with soldiers who had thrown away their rifles and with hundreds of thousands of civilian refugees. Cadorna blamed his men's cowardice; he was replaced by Armando Diaz on 9 November.\n\nThe line held on the Piave and Monte Grappa in mid-November, stiffened by Italian reserves and by British and French divisions rushed from the Western Front.",
+    "significance": "Caporetto nearly knocked Italy out of the war. It led to the Allied Supreme War Council at Rapallo, and the defence of the Piave became a rallying point for a more determined Italian war effort.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for prisoners and for the soldiers who dispersed in the retreat vary widely; perhaps 300,000–400,000 more were temporarily separated from their units. The battle's end date is given variously as early November or the stabilisation of the Piave line in mid-November.",
+    "sources": [
+      "Mark Thompson, The White War: Life and Death on the Italian Front 1915–1919 (2008)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)",
+      "David Stevenson, 1914–1918: The History of the First World War (2004)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "beersheba-1917",
+    "title": "Battle of Beersheba",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1917-10-31",
+    "datePrecision": "day",
+    "place": "Beersheba (Be'er Sheva), southern Palestine",
+    "lon": 34.79,
+    "lat": 31.25,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (Britain, Australia and New Zealand)"
+    },
+    "commanders": {
+      "focus": [
+        "Ismet Bey (İnönü)"
+      ],
+      "opponent": [
+        "Allenby",
+        "Chauvel"
+      ]
+    },
+    "strength": {
+      "focus": "c. 4,000–5,000 in the Beersheba garrison"
+    },
+    "outcome": "defeat",
+    "summary": "Allenby turns the Gaza–Beersheba line from the desert flank. At dusk Australian light horsemen charge the last Ottoman trenches and seize Beersheba's wells before they can be destroyed.",
+    "detail": "Two frontal attacks on Gaza had failed in the spring of 1917. Allenby, sent out to reinvigorate the Egyptian Expeditionary Force, planned instead to strike the eastern end of the Ottoman line at Beersheba, a small town whose wells were vital to any force operating in the waterless country beyond. Deception measures helped persuade the Ottoman command that the main blow would again fall at Gaza.\n\nOn 31 October British infantry attacked from the south-west while Chauvel's Desert Mounted Corps swung around to the east. By late afternoon the town was still not taken and the horses badly needed water. As light faded, the 4th and 12th Australian Light Horse Regiments charged across open ground at the trenches, jumped them, and rode into Beersheba, capturing most of the wells intact along with more than a thousand prisoners.\n\nThe Ottoman defence of southern Palestine began to unravel. Gaza fell on 7 November, and the Eighth Army fell back northwards.",
+    "significance": "Beersheba opened the road to Jerusalem and made Allenby's reputation. The charge, one of the last successful large mounted attacks, became a lasting part of Australian memory of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "The strength of the garrison and the scale of Ottoman losses are given differently in British and Turkish accounts.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans: The Great War in the Middle East, 1914–1920 (2015)",
+      "H. S. Gullett, The Australian Imperial Force in Sinai and Palestine (Official History of Australia in the War, vol. 7, 1923)",
+      "Matthew Hughes, Allenby and British Strategy in the Middle East, 1917–1919 (1999)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "balfour-declaration-1917",
+    "title": "Balfour Declaration",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1917-11-02",
+    "datePrecision": "day",
+    "place": "Foreign Office, London",
+    "lon": -0.128,
+    "lat": 51.503,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Ottoman Empire (sovereign in Palestine)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "opponent": [
+        "Balfour",
+        "Lloyd George"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "In a letter to Lord Rothschild, Foreign Secretary Arthur Balfour declares British support for 'a national home for the Jewish people' in Palestine, still an Ottoman province.",
+    "detail": "The declaration was a short letter from the Foreign Secretary, Arthur Balfour, to Walter Rothschild, a leading figure in British Jewry, intended for the Zionist Federation. Approved by the War Cabinet after months of lobbying by Chaim Weizmann and others, it stated that the government viewed with favour the establishment in Palestine of a national home for the Jewish people, and would use its best endeavours to achieve it, provided nothing was done to prejudice the civil and religious rights of the existing non-Jewish communities.\n\nThe motives were mixed: a genuine sympathy among some ministers, a wish to win Jewish opinion in Russia and the United States for the Allied cause, and a desire to secure a British hold on Palestine after the war. The land in question was still Ottoman, and Allenby's army was only now breaking through at Gaza.\n\nThe promise sat uneasily beside British wartime assurances to Sharif Hussein of Mecca and the Anglo-French Sykes–Picot agreement of 1916.",
+    "significance": "Incorporated into the League of Nations mandate for Palestine, the declaration shaped the country's history through the interwar years and remains central to the conflicting narratives of Israelis and Palestinians.",
+    "certainty": "high",
+    "uncertaintyNote": "The relative weight of the government's motives remains debated. The letter was dated 2 November and published a week later.",
+    "sources": [
+      "Jonathan Schneer, The Balfour Declaration: The Origins of the Arab-Israeli Conflict (2010)",
+      "Tom Segev, One Palestine, Complete: Jews and Arabs under the British Mandate (2000)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "october-revolution-1917",
+    "title": "The October Revolution",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Winter Palace",
+        "lon": 30.314,
+        "lat": 59.94
+      },
+      {
+        "name": "Smolny Institute",
+        "lon": 30.395,
+        "lat": 59.946
+      }
+    ],
+    "kind": "political",
+    "start": "1917-11-07",
+    "end": "1917-11-08",
+    "datePrecision": "day",
+    "place": "Petrograd (St Petersburg), Russia",
+    "lon": 30.32,
+    "lat": 59.94,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Bolsheviks (Petrograd Military Revolutionary Committee)",
+      "opponent": "Russian Provisional Government"
+    },
+    "commanders": {
+      "focus": [
+        "Lenin",
+        "Trotsky"
+      ],
+      "opponent": [
+        "Kerensky"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Bolshevik-led soldiers, sailors and Red Guards seize Petrograd and arrest the Provisional Government in the Winter Palace. Lenin's new regime immediately calls for peace.",
+    "detail": "By autumn 1917 the Provisional Government of Alexander Kerensky had little authority left. The failed summer offensive, the loss of Riga and the Kornilov affair had discredited it, soldiers were deserting in droves and peasants were seizing land. Lenin, back from hiding in Finland, pressed his party to take power before the Second Congress of Soviets met.\n\nOn the night of 6–7 November (24–25 October in the Russian calendar) units under the Military Revolutionary Committee of the Petrograd Soviet, organised largely by Trotsky, occupied bridges, stations, the telephone exchange and the state bank with little resistance. Kerensky left the city to seek loyal troops. The Winter Palace, defended by cadets and a women's battalion, was taken in the early hours of 8 November and the ministers arrested.\n\nThe Congress of Soviets, after Mensheviks and Socialist Revolutionaries walked out, approved Lenin's decrees on land and on peace, which called for an immediate armistice on all fronts.",
+    "significance": "The revolution took Russia out of the war, freeing German armies for the west, and founded the Soviet state. Its example of revolution born of war haunted every belligerent government in 1918–19.",
+    "certainty": "high",
+    "uncertaintyNote": "Dates are given here in the Western (Gregorian) calendar; Russia then used the Julian calendar, hence 'October'. The Bolsheviks are placed in the focus slot only as the party whose policy of peace served the Central Powers; the event was an internal Russian revolution.",
+    "sources": [
+      "Orlando Figes, A People's Tragedy: The Russian Revolution 1891–1924 (1996)",
+      "Rex A. Wade, The Russian Revolution, 1917 (2000)",
+      "S. A. Smith, Russia in Revolution: An Empire in Crisis, 1890 to 1928 (2017)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "cambrai-1917",
+    "title": "Battle of Cambrai",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Flesquières",
+        "lon": 3.117,
+        "lat": 50.125
+      },
+      {
+        "name": "Bourlon Wood",
+        "lon": 3.14,
+        "lat": 50.18
+      }
+    ],
+    "kind": "battle",
+    "start": "1917-11-20",
+    "end": "1917-12-07",
+    "datePrecision": "day",
+    "place": "South-west of Cambrai, Nord, France",
+    "lon": 3.1,
+    "lat": 50.12,
+    "locationCertainty": "approximate",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Marwitz",
+        "Crown Prince Rupprecht"
+      ],
+      "opponent": [
+        "Byng",
+        "Haig"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 470 tanks with Third Army"
+    },
+    "casualties": "British c. 44,000–47,000; German c. 41,000–53,000",
+    "outcome": "inconclusive",
+    "summary": "Massed British tanks and a surprise bombardment break into the Hindenburg Line at Cambrai. Church bells ring in Britain, but a German counter-stroke ten days later wins most of the ground back.",
+    "detail": "Byng's Third Army attacked on 20 November on dry, unbroken chalk ground with some 470 tanks, many carrying bundles of brushwood to drop into the wide German trenches. Instead of a long preliminary bombardment, the guns fired without prior registration, using new survey and calibration methods, so surprise was complete. In a single morning the attackers penetrated several kilometres through the Hindenburg Line, taking thousands of prisoners; at Flesquières, however, German gunners knocked out a string of tanks and held up the advance.\n\nThe cavalry could not exploit the gap, the tanks broke down or were lost, and the British became bogged down in a costly fight for Bourlon Wood. In Britain church bells were rung in celebration.\n\nOn 30 November Marwitz's Second Army counter-attacked with short bombardments and infiltrating storm troops. It regained most of the lost ground and more in places, causing shock and an official inquiry in Britain.",
+    "significance": "Cambrai showed that surprise, predicted artillery fire and tanks could restore the attack, pointing the way to 1918. The German counter-attack showed the same for their own new infantry methods.",
+    "certainty": "high",
+    "uncertaintyNote": "Tank numbers vary with whether supply and wireless tanks are counted (roughly 380 fighting tanks). Casualty figures differ between sources.",
+    "sources": [
+      "Bryn Hammond, Cambrai 1917: The Myth of the First Great Tank Battle (2008)",
+      "Jack Sheldon, The German Army at Cambrai (2009)",
+      "David Stevenson, 1914–1918 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "jerusalem-1917",
+    "title": "Capture of Jerusalem",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Jaffa Gate",
+        "lon": 35.228,
+        "lat": 31.777
+      }
+    ],
+    "kind": "campaign",
+    "start": "1917-12-09",
+    "end": "1917-12-11",
+    "datePrecision": "day",
+    "place": "Jerusalem, Ottoman Palestine",
+    "lon": 35.23,
+    "lat": 31.78,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Ottoman Empire and Germany",
+      "opponent": "British Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhayn"
+      ],
+      "opponent": [
+        "Allenby"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Ottoman forces withdraw and the mayor surrenders Jerusalem. Two days later Allenby enters the Old City on foot through the Jaffa Gate.",
+    "detail": "After Beersheba and Gaza, Allenby's army pushed north up the coastal plain and turned into the Judean hills in late November, fighting hard for the ridges west of Jerusalem such as Nebi Samwil. The Ottoman forces, now under the Yildirim Army Group led by the German general Erich von Falkenhayn, counter-attacked but were worn down and short of men and supplies.\n\nBoth sides wanted to avoid fighting in the Holy City. On the night of 8–9 December the Ottoman garrison withdrew eastwards, and on 9 December the mayor, Hussein al-Husseini, came out under a white flag to surrender the city to the first British soldiers he met. On 11 December Allenby made a deliberately modest entry, dismounting to walk through the Jaffa Gate, and read a proclamation promising to protect the holy places of all faiths.\n\nThe front then settled north of the city for the winter. For Jerusalem's inhabitants, already weakened by wartime famine, deportations and disease, four centuries of Ottoman rule were over.",
+    "significance": "The capture gave Lloyd George's government a much-needed prestige victory at the end of a grim year, and began three decades of British rule in Palestine.",
+    "certainty": "high",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Matthew Hughes, Allenby and British Strategy in the Middle East, 1917–1919 (1999)",
+      "Cyril Falls, Military Operations: Egypt and Palestine, vol. 2 (British Official History, 1930)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "russian-armistice-1917",
+    "title": "Armistice on the Eastern Front",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1917-12-15",
+    "datePrecision": "day",
+    "place": "Brest-Litovsk (Brest, Belarus)",
+    "lon": 23.66,
+    "lat": 52.08,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany, Austria-Hungary, Bulgaria and the Ottoman Empire",
+      "opponent": "Soviet Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Hoffmann"
+      ],
+      "opponent": [
+        "Joffe"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "At the German eastern headquarters in Brest-Litovsk, Soviet delegates sign an armistice with the Central Powers, ending the fighting on the Eastern Front.",
+    "detail": "Within days of taking power the Bolsheviks appealed for a general armistice. The Allies ignored the call, and the Soviet government turned to the Central Powers alone. A delegation led by Adolf Joffe, which deliberately included a worker, a soldier, a sailor, a peasant and a woman revolutionary, arrived at the ruined fortress town of Brest-Litovsk, where the German Supreme Command in the East, directed by General Max Hoffmann, had its headquarters.\n\nA preliminary ceasefire was agreed in early December, and on 15 December a formal armistice was signed, to run for a month and renew automatically. The Soviet side won a clause restricting the transfer of troops to other fronts, which the Germans largely evaded, and permission for fraternisation, which they hoped would spread revolution.\n\nPeace talks opened on 22 December. The Bolsheviks used them as a platform for propaganda aimed at war-weary workers across Europe, while the Central Powers made clear that they meant to keep the occupied western borderlands of the old empire.",
+    "significance": "The armistice ended three and a half years of war in the east and allowed Germany to begin moving dozens of divisions to the Western Front for a decisive offensive in 1918.",
+    "certainty": "high",
+    "uncertaintyNote": "Romania, isolated by Russia's exit, concluded its own armistice at Focșani on 9 December.",
+    "sources": [
+      "John W. Wheeler-Bennett, Brest-Litovsk: The Forgotten Peace, March 1918 (1938)",
+      "David Stevenson, 1914–1918 (2004)",
+      "Orlando Figes, A People's Tragedy (1996)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "fourteen-points-1918",
+    "title": "Wilson's Fourteen Points",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1918-01-08",
+    "datePrecision": "day",
+    "place": "United States Capitol, Washington DC",
+    "lon": -77.009,
+    "lat": 38.89,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Central Powers",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "opponent": [
+        "Woodrow Wilson"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Before a joint session of Congress, President Wilson sets out fourteen points for a just peace: open diplomacy, free seas and trade, arms reduction, self-determination and a league of nations.",
+    "detail": "The Bolsheviks' publication of the Allies' secret treaties and their appeal for a peace without annexations put pressure on the Allied governments to state their war aims. Lloyd George did so on 5 January; three days later Wilson went much further in an address to Congress drafted with the help of 'the Inquiry', a group of experts gathered by his adviser Colonel House.\n\nThe first points were general: open covenants of peace openly arrived at, freedom of navigation, the removal of economic barriers, reduction of armaments and an impartial adjustment of colonial claims. Then came territorial terms: the evacuation of Russian territory and of Belgium, the return of Alsace-Lorraine to France, Italian frontiers along lines of nationality, autonomous development for the peoples of Austria-Hungary and the Ottoman Empire, an independent Poland with access to the sea. The last point proposed a general association of nations.\n\nThe Allies had not been consulted and some of them had serious reservations. German leaders dismissed the speech at the time.",
+    "significance": "In October 1918 Germany asked for an armistice on the basis of the Fourteen Points, and many Germans later felt Versailles betrayed them. The language of self-determination spread far beyond Europe.",
+    "certainty": "high",
+    "sources": [
+      "Margaret MacMillan, Peacemakers: The Paris Conference of 1919 and Its Attempt to End War (2001)",
+      "Adam Tooze, The Deluge: The Great War and the Remaking of Global Order 1916–1931 (2014)",
+      "David Stevenson, 1914–1918 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "operation-faustschlag-1918",
+    "title": "Operation Faustschlag",
+    "geometry": "area",
+    "radiusKm": 650,
+    "markers": [
+      {
+        "name": "Dünaburg (Daugavpils)",
+        "lon": 26.53,
+        "lat": 55.87
+      },
+      {
+        "name": "Pskov",
+        "lon": 28.33,
+        "lat": 57.82
+      },
+      {
+        "name": "Kiev (Kyiv)",
+        "lon": 30.52,
+        "lat": 50.45
+      }
+    ],
+    "kind": "campaign",
+    "start": "1918-02-18",
+    "end": "1918-03-03",
+    "datePrecision": "day",
+    "place": "From the Baltic to Ukraine",
+    "lon": 28,
+    "lat": 54,
+    "locationCertainty": "approximate",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Soviet Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Hoffmann",
+        "Ludendorff"
+      ],
+      "opponent": [
+        "Trotsky",
+        "Lenin"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "When Trotsky walks out of the peace talks declaring 'neither war nor peace', German armies advance almost unopposed along the whole Eastern Front, taking vast territory in under two weeks.",
+    "detail": "At Brest-Litovsk the Central Powers demanded Poland, Lithuania and western Latvia, and on 9 February they signed a separate peace with the Ukrainian People's Republic. Trotsky, hoping for revolution in Germany, refused to sign and on 10 February announced that Russia was leaving the war without a treaty. The German command answered by declaring the armistice at an end.\n\nFrom 18 February German troops moved east, often by rail, meeting almost no organised resistance from a Russian army that had largely dissolved. Dünaburg fell on the first day, then Minsk, Pskov and Reval (Tallinn) within a week; in the south German and later Austro-Hungarian forces moved into Ukraine and entered Kiev on 1 March in support of the Ukrainian government.\n\nIn Petrograd Lenin, threatening to resign, persuaded a divided Bolshevik Central Committee to accept German terms, and the Soviet government moved its capital to Moscow. The advance halted when the treaty was signed on 3 March, though operations in Ukraine, Finland and the south continued for months.",
+    "significance": "The 'eleven days' war' forced the Bolsheviks to accept a far harsher peace and gave Germany an eastern empire, but also tied down a large occupation force that was sorely missed in the west.",
+    "certainty": "high",
+    "uncertaintyNote": "The Ukrainian treaty of 9 February is often called the 'Bread Peace'. Distances advanced varied greatly by sector.",
+    "sources": [
+      "John W. Wheeler-Bennett, Brest-Litovsk: The Forgotten Peace (1938)",
+      "Vejas Gabriel Liulevicius, War Land on the Eastern Front (2000)",
+      "Orlando Figes, A People's Tragedy (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "brest-litovsk-1918",
+    "title": "Treaty of Brest-Litovsk",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1918-03-03",
+    "datePrecision": "day",
+    "place": "Brest-Litovsk (Brest, Belarus)",
+    "lon": 23.66,
+    "lat": 52.08,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany, Austria-Hungary, Bulgaria and the Ottoman Empire",
+      "opponent": "Soviet Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Kühlmann",
+        "Czernin",
+        "Hoffmann"
+      ],
+      "opponent": [
+        "Trotsky",
+        "Joffe",
+        "Sokolnikov"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Under renewed German invasion, Soviet Russia signs a dictated peace, giving up Poland, the Baltic lands, Finland and Ukraine, with a large share of the old empire's people, farmland and industry.",
+    "detail": "The treaty was signed for Russia by Grigory Sokolnikov, who pointedly declared that it was being accepted without being read. Russia renounced sovereignty over Poland, Lithuania and Courland, whose future the Central Powers would decide, and agreed to evacuate Livonia, Estonia, Finland and Ukraine, recognising the Ukrainian state that Germany had already bound to itself. In the Caucasus, the districts of Kars, Ardahan and Batum were given up to the Ottoman Empire. A supplementary agreement in August added a large indemnity.\n\nThe lands lost held roughly a third of the pre-war empire's population and much of its grain, coal and iron. The Congress of Soviets ratified the treaty on 15 March over bitter opposition, and Left Socialist Revolutionaries left the government in protest.\n\nIn Germany the treaty was hailed by annexationists and approved by the Reichstag, with the Social Democrats abstaining. To many in the Allied countries it showed what a German victory in the west would mean.",
+    "significance": "Brest-Litovsk marked the height of German power in the east. It freed divisions for the spring offensive in France, but was annulled by the Armistice of November 1918 and by the Soviet government.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for the population and resources lost vary with how the territories are defined; around a third of the population and more than half of industry and most coal production are commonly cited.",
+    "sources": [
+      "John W. Wheeler-Bennett, Brest-Litovsk: The Forgotten Peace (1938)",
+      "David Stevenson, 1914–1918 (2004)",
+      "Orlando Figes, A People's Tragedy (1996)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "operation-michael-1918",
+    "title": "Operation Michael",
+    "geometry": "area",
+    "radiusKm": 65,
+    "markers": [
+      {
+        "name": "Saint-Quentin",
+        "lon": 3.29,
+        "lat": 49.85
+      },
+      {
+        "name": "Villers-Bretonneux",
+        "lon": 2.52,
+        "lat": 49.87
+      },
+      {
+        "name": "Montdidier",
+        "lon": 2.57,
+        "lat": 49.65
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-03-21",
+    "end": "1918-04-05",
+    "datePrecision": "day",
+    "place": "The Somme front between Arras and La Fère, France",
+    "lon": 2.95,
+    "lat": 49.85,
+    "locationCertainty": "approximate",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Ludendorff",
+        "Otto von Below",
+        "Marwitz",
+        "Hutier"
+      ],
+      "opponent": [
+        "Haig",
+        "Gough",
+        "Byng",
+        "Pétain",
+        "Foch"
+      ]
+    },
+    "strength": {
+      "focus": "c. 70 divisions in the initial assault, with c. 6,600 guns"
+    },
+    "casualties": "German c. 230,000–240,000; British c. 175,000–180,000; French c. 75,000–80,000",
+    "outcome": "victory",
+    "summary": "Germany's great spring offensive smashes into the British Fifth Army in fog, advancing up to 60 kilometres in two weeks before stalling short of Amiens.",
+    "detail": "Ludendorff had to win before American strength arrived. Reinforced from the east, three German armies attacked at 4.40 am on 21 March on a front of some 80 kilometres. Bruchmüller's five-hour bombardment of gas and high explosive fell on batteries, headquarters and trenches, and storm troops advanced through thick morning fog, bypassing strongpoints. The thinly held British Fifth Army lost its forward zone within hours; on the first day the British suffered some 38,000 casualties, about 21,000 of them prisoners.\n\nThe British fell back across the old Somme battlefields, and a gap threatened to open between them and the French. Ludendorff, lacking a clear operational goal, reinforced success, turning his main effort towards Amiens. But the attackers outran their artillery and supplies, paused to loot British stores, and faced mounting Allied reserves. The advance was stopped at Villers-Bretonneux and before Montdidier, and Ludendorff halted the offensive on 5 April.\n\nIt was the biggest territorial gain in the west since 1914, but it created a long, vulnerable salient and cost Germany many of its best troops.",
+    "significance": "Michael came close to separating the British and French armies and forced the Allies to unify command under Foch. Its failure to reach Amiens began the exhaustion of the German army.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary between sources and depend on the closing date used; figures for German losses are especially uncertain.",
+    "sources": [
+      "Martin Middlebrook, The Kaiser's Battle: 21 March 1918 (1978)",
+      "David T. Zabecki, The German 1918 Offensives: A Case Study in the Operational Level of War (2006)",
+      "David Stevenson, With Our Backs to the Wall: Victory and Defeat in 1918 (2011)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "doullens-conference-1918",
+    "title": "Doullens Conference",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1918-03-26",
+    "datePrecision": "day",
+    "place": "Town hall, Doullens, Somme, France",
+    "lon": 2.34,
+    "lat": 50.157,
+    "locationCertainty": "exact",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France and Britain"
+    },
+    "commanders": {
+      "opponent": [
+        "Foch",
+        "Clemenceau",
+        "Milner",
+        "Haig",
+        "Pétain"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "With the German offensive threatening to split the Allied armies, British and French leaders meeting at Doullens give Foch the task of coordinating their operations on the Western Front.",
+    "detail": "By 24 March the German breakthrough threatened to prise the British and French armies apart. Pétain, anxious to cover Paris, seemed to Haig ready to fall back south-west, while the British looked towards the Channel ports. Haig, who had long resisted a unified command, now asked for someone who would fight.\n\nOn 26 March President Poincaré, Clemenceau, Lord Milner for the British War Cabinet, Haig, Pétain, Foch and Sir Henry Wilson met in the town hall at Doullens, a few kilometres behind the crumbling front. They agreed that Foch should coordinate the action of the Allied armies, above all to hold Amiens and the junction between them. Foch's first message was that there must be no further retreat.\n\nHis authority was widened at Beauvais on 3 April to the strategic direction of operations, and in mid-April he became General-in-Chief of the Allied Armies in France, with the Americans and later the Italians and Belgians associated.",
+    "significance": "Doullens created the unified Allied command that managed the reserves in the spring crisis and later coordinated the counter-offensives of the summer and autumn.",
+    "certainty": "high",
+    "sources": [
+      "Elizabeth Greenhalgh, Foch in Command: The Forging of a First World War General (2011)",
+      "Elizabeth Greenhalgh, Victory through Coalition: Britain and France during the First World War (2005)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "lys-1918",
+    "title": "Battle of the Lys (Georgette)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Mount Kemmel (Kemmelberg)",
+        "lon": 2.812,
+        "lat": 50.78
+      },
+      {
+        "name": "Hazebrouck",
+        "lon": 2.54,
+        "lat": 50.72
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-04-09",
+    "end": "1918-04-29",
+    "datePrecision": "day",
+    "place": "The Lys valley, French Flanders and West Flanders",
+    "lon": 2.78,
+    "lat": 50.66,
+    "locationCertainty": "approximate",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, Portugal and France"
+    },
+    "commanders": {
+      "focus": [
+        "Quast",
+        "Sixt von Armin",
+        "Ludendorff"
+      ],
+      "opponent": [
+        "Haig",
+        "Horne",
+        "Plumer",
+        "Foch"
+      ]
+    },
+    "casualties": "Allied c. 110,000–120,000; German c. 90,000–110,000",
+    "outcome": "inconclusive",
+    "summary": "Ludendorff's second blow falls on a weak sector in Flanders held by a Portuguese division. The British line bends towards Hazebrouck, and Haig issues his 'backs to the wall' order.",
+    "detail": "Operation Georgette was a scaled-down version of a plan to break the British front in Flanders and drive towards the Channel ports. On 9 April, after another heavy bombardment and again in fog, the German Sixth Army struck south of Armentières. The Portuguese 2nd Division, tired and due to be relieved, was overwhelmed, and the attackers crossed the Lys. The next day the Fourth Army attacked further north, retaking Messines.\n\nWith the vital rail junction of Hazebrouck threatened, Haig issued an order of the day on 11 April telling his men that with their backs to the wall each must fight to the end. Armentières fell, and the British gave up the Passchendaele ridge won at such cost months before. Reinforcements, including Australian troops and French divisions sent by Foch, stiffened the line. On 25 April the Germans took Mount Kemmel from the French, but a further attack on 29 April failed.\n\nLudendorff then called the offensive off, leaving another salient and a British army badly depleted but unbroken.",
+    "significance": "Georgette failed to reach the Channel ports or Hazebrouck, and the German army's shrinking reserves were further drained.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary considerably between sources. Portuguese losses on 9 April, mostly prisoners, are usually put at around 7,000.",
+    "sources": [
+      "David T. Zabecki, The German 1918 Offensives (2006)",
+      "David Stevenson, With Our Backs to the Wall (2011)",
+      "Chris Baker, The Battle for Flanders: German Defeat on the Lys 1918 (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "zeebrugge-raid-1918",
+    "title": "Zeebrugge Raid",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Ostend (Oostende)",
+        "lon": 2.92,
+        "lat": 51.23
+      }
+    ],
+    "kind": "raid",
+    "start": "1918-04-23",
+    "datePrecision": "day",
+    "place": "Zeebrugge mole and canal entrance, West Flanders, Belgium",
+    "lon": 3.2,
+    "lat": 51.335,
+    "locationCertainty": "exact",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Schröder"
+      ],
+      "opponent": [
+        "Keyes"
+      ]
+    },
+    "casualties": "British c. 580–600, including c. 225 killed; German light",
+    "outcome": "inconclusive",
+    "summary": "On St George's Day the Royal Navy storms the Zeebrugge mole and sinks blockships in the canal mouth to bottle up the U-boats based at Bruges. The bold raid achieves only a brief obstruction.",
+    "detail": "German submarines and destroyers operated from Bruges, reaching the sea by canals to Zeebrugge and Ostend. Vice-Admiral Roger Keyes planned to block both exits. In the early hours of 23 April, under a smokescreen, the old cruiser Vindictive came alongside the long curving mole at Zeebrugge and landed sailors and Royal Marines to attack its batteries, while an old submarine packed with explosives blew a gap in the viaduct linking the mole to the shore.\n\nThe diversion allowed three concrete-filled blockships to steam for the canal entrance. Two were scuttled in the channel, though not quite in the right position. The storming parties suffered heavily on the exposed mole, and several Victoria Crosses were later awarded. The simultaneous attempt at Ostend failed when the blockships missed the entrance.\n\nWithin days the Germans were able to bring smaller craft and submarines through at high tide, dredging a passage around the wrecks.",
+    "significance": "Operationally limited, the raid was a great propaganda success at a dark moment of the German spring offensive and became one of the most celebrated actions in Royal Navy history.",
+    "certainty": "high",
+    "uncertaintyNote": "The degree to which the canal was obstructed, and for how long, has been debated since 1918.",
+    "sources": [
+      "Paul G. Halpern, A Naval History of World War I (1994)",
+      "Paul Kendall, The Zeebrugge Raid 1918: The Finest Feat of Arms (2008)",
+      "Henry Newbolt, Naval Operations, vol. 5 (British Official History, 1931)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "treaty-of-bucharest-1918",
+    "title": "Treaty of Bucharest",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1918-05-07",
+    "datePrecision": "day",
+    "place": "Cotroceni Palace, Bucharest, Romania",
+    "lon": 26.07,
+    "lat": 44.435,
+    "locationCertainty": "exact",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany, Austria-Hungary, Bulgaria and the Ottoman Empire",
+      "opponent": "Romania"
+    },
+    "commanders": {
+      "focus": [
+        "Kühlmann",
+        "Czernin",
+        "Mackensen"
+      ],
+      "opponent": [
+        "Marghiloman"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Isolated by Russia's collapse, Romania signs a harsh peace, ceding Dobruja and Carpathian border districts and handing its oil and grain to Germany.",
+    "detail": "Romania's army had recovered after the disasters of 1916 and fought well at Mărășești in the summer of 1917, but once Russia left the war the government, based at Iași in Moldavia, had no choice but to seek terms. An armistice at Focșani in December was followed by preliminary peace at Buftea in March, and a new government under the Germanophile Alexandru Marghiloman signed the final treaty in Bucharest on 7 May.\n\nRomania gave southern Dobruja to Bulgaria and put the rest under joint Central Powers administration, and ceded mountain passes and border districts to Austria-Hungary. Germany secured control of Romanian oil through long leases and of its grain surplus, with occupation troops to remain for years. As partial compensation the Central Powers accepted Romania's union with Bessarabia, voted in Chișinău in April.\n\nKing Ferdinand never signed the treaty, and it was not ratified. When the Central Powers collapsed Romania re-entered the war on 10 November, a day before the Armistice.",
+    "significance": "Bucharest completed the Central Powers' dominance of eastern Europe and exposed their war aims, but it lasted barely six months and was annulled by the Armistice.",
+    "certainty": "high",
+    "sources": [
+      "Glenn E. Torrey, The Romanian Battlefront in World War I (2011)",
+      "David Stevenson, 1914–1918 (2004)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "aisne-1918",
+    "title": "Third Battle of the Aisne (Blücher-Yorck)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Soissons",
+        "lon": 3.32,
+        "lat": 49.38
+      },
+      {
+        "name": "Château-Thierry",
+        "lon": 3.4,
+        "lat": 49.046
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-05-27",
+    "end": "1918-06-06",
+    "datePrecision": "day",
+    "place": "Chemin des Dames to the Marne, Aisne, France",
+    "lon": 3.55,
+    "lat": 49.3,
+    "locationCertainty": "approximate",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Crown Prince Wilhelm",
+        "Boehn",
+        "Ludendorff"
+      ],
+      "opponent": [
+        "Duchêne",
+        "Pétain",
+        "Foch"
+      ]
+    },
+    "casualties": "Allied c. 125,000–135,000 including some 50,000 prisoners; German c. 100,000–130,000",
+    "outcome": "victory",
+    "summary": "A surprise German assault over the Chemin des Dames ridge breaks the French Sixth Army and reaches the Marne within four days, less than 100 kilometres from Paris.",
+    "detail": "Blücher-Yorck was meant as a diversion, to draw French reserves south before Ludendorff struck again in Flanders. The Chemin des Dames was held by the French Sixth Army under General Duchêne, including four worn British divisions sent there to rest after the spring battles. Against Pétain's instructions for defence in depth, Duchêne packed his troops into the forward positions.\n\nIn the early hours of 27 May some 4,000 German guns opened one of the heaviest bombardments of the war. By nightfall the attackers had crossed the ridge and the Aisne, taking bridges intact and advancing more than 15 kilometres, the greatest single day's gain on the Western Front since 1914. Soissons fell on 28 May, and by 30 May German troops were on the Marne at Château-Thierry. Paris was shelled and a government evacuation was considered.\n\nSuccess seduced Ludendorff into pressing on. French reserves and newly arrived American divisions held the Marne crossings, and the offensive ground to a halt in early June in a deep, poorly supplied salient.",
+    "significance": "The Aisne was the high-water mark of German success in 1918 and caused panic in Paris, but it created a salient that would become the target of the decisive Allied counter-attack in July.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty and prisoner figures vary between sources and with the closing date used.",
+    "sources": [
+      "David T. Zabecki, The German 1918 Offensives (2006)",
+      "Elizabeth Greenhalgh, The French Army and the First World War (2014)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "belleau-wood-1918",
+    "title": "Château-Thierry and Belleau Wood",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Château-Thierry",
+        "lon": 3.4,
+        "lat": 49.046
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-05-31",
+    "end": "1918-06-26",
+    "datePrecision": "day",
+    "place": "Bois de Belleau, west of Château-Thierry, Aisne, France",
+    "lon": 3.29,
+    "lat": 49.08,
+    "locationCertainty": "exact",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and France"
+    },
+    "commanders": {
+      "focus": [
+        "Conta"
+      ],
+      "opponent": [
+        "Bundy",
+        "Harbord",
+        "Degoutte"
+      ]
+    },
+    "casualties": "US 2nd Division at Belleau Wood c. 9,000–10,000, including c. 1,800 killed; German losses heavy but uncertain",
+    "outcome": "defeat",
+    "summary": "American divisions help hold the Marne at Château-Thierry, then the US Marines fight a costly three-week battle to clear Belleau Wood.",
+    "detail": "As the Aisne offensive reached the Marne, Pétain threw in the nearest reserves, among them the United States 2nd and 3rd Divisions. From 31 May a machine-gun battalion of the 3rd Division, alongside French colonial troops, helped defend the bridges at Château-Thierry. To the west the 2nd Division, including a brigade of US Marines under James Harbord, took position astride the Paris road near the village of Lucy-le-Bocage.\n\nOn 6 June the Marines attacked across open wheat fields into Belleau Wood, a tangle of boulders and undergrowth held by German machine-gunners. They suffered more than a thousand casualties that day, the worst in the Corps' history to that point. The fighting in the wood went on for three weeks, with repeated attacks, gas and hand-to-hand fighting, until it was reported cleared on 26 June. The neighbouring village of Vaux was taken by the 2nd Division's army infantry on 1 July.\n\nThe tactics were crude and costly, but the performance of the Americans impressed French and German observers alike.",
+    "significance": "Tactically minor, Château-Thierry and Belleau Wood were the first sizeable American actions of the war, and signalled to both sides that US troops would fight hard.",
+    "certainty": "high",
+    "uncertaintyNote": "The early claims that the Americans alone 'saved Paris' are exaggerated; French forces bore most of the defence of the Marne.",
+    "sources": [
+      "Edward M. Coffman, The War to End All Wars: The American Military Experience in World War I (1968)",
+      "Robert B. Asprey, At Belleau Wood (1965)",
+      "Mark E. Grotelueschen, The AEF Way of War: The American Army and Combat in World War I (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "piave-1918",
+    "title": "Battle of the Piave",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Montello",
+        "lon": 12.13,
+        "lat": 45.82
+      },
+      {
+        "name": "Monte Grappa",
+        "lon": 11.8,
+        "lat": 45.87
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-06-15",
+    "end": "1918-06-23",
+    "datePrecision": "day",
+    "place": "The Piave river and Monte Grappa, Veneto, Italy",
+    "lon": 12.2,
+    "lat": 45.8,
+    "locationCertainty": "approximate",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy, Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Emperor Karl",
+        "Boroević",
+        "Conrad"
+      ],
+      "opponent": [
+        "Diaz"
+      ]
+    },
+    "casualties": "Austro-Hungarian c. 120,000–150,000; Italian c. 85,000–90,000",
+    "outcome": "defeat",
+    "summary": "Austria-Hungary's last great offensive, split between the Asiago plateau and the Piave, crosses the river but is thrown back after a week by Italian counter-attacks and floodwaters.",
+    "detail": "Under German pressure to attack, the Austro-Hungarian high command could not agree on a single point of effort. Conrad attacked from the Tyrol on the Asiago plateau and Monte Grappa, while Boroević struck across the Piave, dividing forces that were already short of food, horses and ammunition. The Italians, well informed by deserters and intelligence, bombarded the assembly areas before the attack began on 15 June.\n\nIn the mountains the offensive failed within a day against Italian, British and French defenders. On the Piave, Boroević's troops crossed on the Montello hill and near the coast and gained a foothold several kilometres deep. But the river rose in flood, sweeping away bridges, and Italian aircraft and artillery hammered the crossings. With the bridgeheads starved of supplies and Diaz counter-attacking, Emperor Karl ordered a withdrawal across the river on 20 June, completed by 23 June.\n\nThe Italians called it the Battle of the Solstice. The Habsburg army never again mounted a major offensive.",
+    "significance": "The failure on the Piave broke the offensive power and morale of the Austro-Hungarian army and restored Italian confidence after Caporetto.",
+    "certainty": "high",
+    "uncertaintyNote": "Austro-Hungarian losses are variously reported; figures above about 140,000 include sick and missing.",
+    "sources": [
+      "Mark Thompson, The White War (2008)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary (1997)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "second-marne-1918",
+    "title": "Second Battle of the Marne",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Reims",
+        "lon": 4.03,
+        "lat": 49.26
+      },
+      {
+        "name": "Villers-Cotterêts forest",
+        "lon": 3.1,
+        "lat": 49.27
+      },
+      {
+        "name": "Dormans",
+        "lon": 3.64,
+        "lat": 49.07
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-07-15",
+    "end": "1918-08-06",
+    "datePrecision": "day",
+    "place": "The Marne salient between Soissons and Reims, France",
+    "lon": 3.6,
+    "lat": 49.18,
+    "locationCertainty": "approximate",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France, the United States, Britain and Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Ludendorff",
+        "Crown Prince Wilhelm",
+        "Boehn"
+      ],
+      "opponent": [
+        "Foch",
+        "Pétain",
+        "Mangin",
+        "Gouraud",
+        "Degoutte"
+      ]
+    },
+    "casualties": "German c. 140,000–170,000 including c. 29,000 prisoners; French c. 95,000; British c. 16,000; American c. 12,000",
+    "outcome": "defeat",
+    "summary": "Germany's last offensive, either side of Reims, is stopped within days. Foch then launches a massive counter-stroke from the Villers-Cotterêts forest, and the tide of the war turns.",
+    "detail": "On 15 July Ludendorff attacked on both sides of Reims, hoping to draw Allied reserves from Flanders. Forewarned by deserters and intelligence, Gouraud's Fourth Army east of Reims left its forward line lightly held and destroyed the attackers on its main position. West of the city the Germans crossed the Marne near Dormans but made little progress against French, American and Italian troops.\n\nOn 18 July Mangin's Tenth Army and Degoutte's Sixth, with hundreds of light tanks and the US 1st and 2nd Divisions in the spearhead, attacked out of the Villers-Cotterêts forest without a preliminary bombardment, striking the western flank of the Marne salient. Surprise was complete, and the guns soon commanded the road and rail links through Soissons. Ludendorff cancelled his planned Flanders offensive and pulled back, abandoning the Marne crossings. Soissons was retaken on 2 August, and by 6 August the Germans stood on the Vesle.\n\nFoch was made a Marshal of France that day.",
+    "significance": "The battle marked the point at which the initiative passed permanently to the Allies. Ludendorff's hopes of victory were ended, and the counter-offensives that followed lasted until the Armistice.",
+    "certainty": "high",
+    "uncertaintyNote": "The German attack of 15–17 July is often treated as a separate operation (the Marne–Reims offensive or 'Friedensturm'); the Allied counter-offensive from 18 July is sometimes treated as the start of the Hundred Days. Casualty figures vary.",
+    "sources": [
+      "Michael S. Neiberg, The Second Battle of the Marne (2008)",
+      "Elizabeth Greenhalgh, Foch in Command (2011)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "influenza-pandemic-1918",
+    "title": "The Influenza Pandemic",
+    "geometry": "area",
+    "radiusKm": 1500,
+    "markers": [
+      {
+        "name": "Brest",
+        "lon": -4.49,
+        "lat": 48.39
+      },
+      {
+        "name": "Freetown",
+        "lon": -13.23,
+        "lat": 8.48
+      },
+      {
+        "name": "Boston",
+        "lon": -71.06,
+        "lat": 42.36
+      }
+    ],
+    "kind": "campaign",
+    "start": "1918-08",
+    "end": "1919-03",
+    "datePrecision": "month",
+    "place": "Worldwide; Europe and the war fronts shown",
+    "lon": 5,
+    "lat": 48,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Central Powers",
+      "opponent": "Allied Powers"
+    },
+    "casualties": "Worldwide deaths commonly estimated at c. 50 million, with estimates ranging from about 20 to 100 million",
+    "outcome": "n/a",
+    "summary": "A deadly second wave of influenza sweeps the world in the autumn of 1918, killing soldiers and civilians alike, the young and healthy above all, on a scale greater than the war itself.",
+    "detail": "A first, relatively mild wave of influenza passed through armies and cities in the spring and early summer of 1918, weakening units on both sides of the Western Front. In late August a far more lethal form appeared almost simultaneously in three ports linked by wartime shipping: Brest in France, Freetown in Sierra Leone and Boston in the United States. Carried by troopships, trains and crowded camps, it spread around the world within weeks.\n\nUnusually, it killed large numbers of young adults, often through pneumonia within days of falling ill. Armies lost men in hospitals and troopships; cities closed schools and theatres, and gravediggers could not keep pace. India suffered the heaviest toll, perhaps well over ten million dead. Among the Central Powers, hungry populations weakened by the blockade were badly hit. A third wave followed in early 1919.\n\nIt became known as the 'Spanish flu' because neutral Spain's uncensored press reported it openly; its true origins remain uncertain.",
+    "significance": "The pandemic killed more people than the fighting of the entire war and deepened the misery of the war's last months and the peace, though its influence on the military outcome is hard to measure.",
+    "certainty": "medium",
+    "uncertaintyNote": "Global mortality is highly uncertain because of poor records, especially in Asia and Africa; estimates have risen over time. The ring here marks Europe only, for a pandemic that reached almost every part of the world.",
+    "sources": [
+      "Niall P. A. S. Johnson and Juergen Mueller, 'Updating the Accounts: Global Mortality of the 1918–1920 \"Spanish\" Influenza Pandemic', Bulletin of the History of Medicine 76 (2002)",
+      "Laura Spinney, Pale Rider: The Spanish Flu of 1918 and How It Changed the World (2017)",
+      "John M. Barry, The Great Influenza: The Epic Story of the Deadliest Plague in History (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "amiens-1918",
+    "title": "Battle of Amiens",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Amiens",
+        "lon": 2.3,
+        "lat": 49.894
+      },
+      {
+        "name": "Villers-Bretonneux",
+        "lon": 2.52,
+        "lat": 49.87
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-08-08",
+    "end": "1918-08-12",
+    "datePrecision": "day",
+    "place": "East of Amiens, astride the Somme, France",
+    "lon": 2.66,
+    "lat": 49.84,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (Britain, Australia, Canada) and France"
+    },
+    "commanders": {
+      "focus": [
+        "Marwitz",
+        "Hutier"
+      ],
+      "opponent": [
+        "Rawlinson",
+        "Monash",
+        "Currie",
+        "Debeney",
+        "Haig"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 500 tanks with the British Fourth Army"
+    },
+    "casualties": "Allied c. 40,000–45,000; German c. 70,000–75,000, of whom some 30,000–50,000 prisoners",
+    "outcome": "defeat",
+    "summary": "In fog and surprise, Australian, Canadian and British troops with hundreds of tanks punch through the German line east of Amiens: Ludendorff's 'black day of the German army'.",
+    "detail": "Rawlinson's Fourth Army prepared its attack in great secrecy. The Canadian Corps was moved south from Flanders under elaborate deception, and more than 2,000 guns registered their targets silently using new survey and sound-ranging techniques. At 4.20 am on 8 August the barrage fell without warning, and Australian and Canadian divisions, with British III Corps on the northern flank and the French First Army to the south, advanced through ground mist behind some 500 tanks.\n\nBy the end of the day the attackers had driven up to 11 kilometres into the German positions and destroyed several divisions. Around 12,000–15,000 Germans surrendered, many without much resistance, and some reinforcements were jeered as strike-breakers by retreating troops. Ludendorff later called it the black day of the German army.\n\nResistance stiffened as the Allies reached the old Somme battlefields and tank losses mounted, and Haig, advised by his commanders, halted the battle on 11–12 August rather than batter on. It was a sign of a new method: stop when momentum is lost and strike elsewhere.",
+    "significance": "Amiens convinced the German high command and the Kaiser that the war could no longer be won. It opened the Hundred Days, the sequence of Allied offensives that ended the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty and prisoner totals vary with the closing date and with sources; German prisoner figures range from about 30,000 to 50,000 for the whole battle.",
+    "sources": [
+      "J. P. Harris with Niall Barr, Amiens to the Armistice: The BEF in the Hundred Days' Campaign (1998)",
+      "Jonathan Boff, Winning and Losing on the Western Front: The British Third Army and the Defeat of Germany in 1918 (2012)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "st-mihiel-1918",
+    "title": "St Mihiel Offensive",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Saint-Mihiel",
+        "lon": 5.54,
+        "lat": 48.89
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-09-12",
+    "end": "1918-09-16",
+    "datePrecision": "day",
+    "place": "The St Mihiel salient, Meuse, France",
+    "lon": 5.72,
+    "lat": 48.95,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and France"
+    },
+    "commanders": {
+      "focus": [
+        "Gallwitz",
+        "Fuchs"
+      ],
+      "opponent": [
+        "Pershing",
+        "Liggett",
+        "Billy Mitchell"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 500,000 American and c. 110,000 French troops"
+    },
+    "casualties": "American c. 7,000; German c. 15,000 prisoners plus killed and wounded",
+    "outcome": "defeat",
+    "summary": "The First US Army, in its first independent offensive, pinches out the German salient at St Mihiel in little more than a day, supported by the largest air force yet assembled.",
+    "detail": "The St Mihiel salient had jutted into the French lines south of Verdun since 1914, cutting railways and threatening the rear of the Allied front. Pershing, determined that the Americans should fight as a single national army, won Foch's agreement to reduce it before turning to the Meuse-Argonne.\n\nOn 12 September, after a short bombardment, American corps attacked the southern face of the salient and a mixed force the western face, with a French colonial corps pressing the tip. Colonel William Mitchell coordinated some 1,400 Allied aircraft. The German command had already begun to evacuate the salient, and many defenders were caught mid-withdrawal. The two American pincers met near Vigneulles on the morning of 13 September, and by 16 September the salient was gone.\n\nTraffic jams, and the ease of success against a retreating enemy, hid the inexperience of American staffs. Some officers believed the advance should have been pushed on towards Metz, but the army was already committed to shift its weight north within two weeks.",
+    "significance": "St Mihiel showed that an American army could plan and fight a major operation, and gave the AEF confidence, perhaps overconfidence, for the far harder Meuse-Argonne battle.",
+    "certainty": "high",
+    "sources": [
+      "Edward M. Coffman, The War to End All Wars (1968)",
+      "James H. Hallas, Squandered Victory: The American First Army at St. Mihiel (1995)",
+      "Mark E. Grotelueschen, The AEF Way of War (2007)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "dobro-pole-1918",
+    "title": "Battle of Dobro Pole",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Lake Doiran",
+        "lon": 22.75,
+        "lat": 41.2
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-09-15",
+    "end": "1918-09-18",
+    "datePrecision": "day",
+    "place": "Dobro Pole, Moglena mountains, Macedonian front (North Macedonia–Greece border)",
+    "lon": 21.83,
+    "lat": 41.14,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Bulgaria and Germany",
+      "opponent": "Serbia, France, Britain and Greece"
+    },
+    "commanders": {
+      "focus": [
+        "Todorov",
+        "Scholtz"
+      ],
+      "opponent": [
+        "Franchet d'Espèrey",
+        "Mišić",
+        "Stepanović"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Serbian and French troops storm the Bulgarian mountain positions at Dobro Pole and break the Macedonian front open. Within two weeks the Bulgarian army is in retreat and revolt.",
+    "detail": "For nearly three years the Allied 'Army of the Orient' at Salonika had been stalled in the Macedonian mountains, derided in the west and ravaged by malaria. In 1918 its new commander, Louis Franchet d'Espèrey, chose to attack where the terrain seemed least likely: the steep ridges of Dobro Pole, where Serbian soldiers were eager to fight their way home.\n\nAfter a day-long bombardment, French and Serbian divisions attacked on 15 September and took the summit positions by nightfall. Serbian troops poured through the breach and advanced into the Vardar valley. A British and Greek attack at Lake Doiran on 18–19 September was bloodily repulsed, but it could not save the Bulgarian position.\n\nThe Bulgarian army, hungry, badly clothed and tired of a war that had already given Bulgaria most of what it sought, largely stopped fighting. Units retreated, and thousands of mutinous soldiers marched on the capital, proclaiming a republic at Radomir. French cavalry entered Üsküb (Skopje) on 29 September, cutting the German forces in two.",
+    "significance": "Dobro Pole knocked the first of the Central Powers out of the war, opened the road to the Danube and helped persuade Ludendorff, on 28–29 September, that Germany must seek an armistice.",
+    "certainty": "high",
+    "uncertaintyNote": "The Dobro Pole position is placed approximately. Losses in the breakthrough are poorly documented, and the Bulgarian command was in disarray, with the commander-in-chief Zhekov absent through illness.",
+    "sources": [
+      "Richard C. Hall, Balkan Breakthrough: The Battle of Dobro Pole 1918 (2010)",
+      "Alan Palmer, The Gardeners of Salonika (1965)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "megiddo-1918",
+    "title": "Battle of Megiddo",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Tel Megiddo",
+        "lon": 35.184,
+        "lat": 32.585
+      },
+      {
+        "name": "Nazareth",
+        "lon": 35.3,
+        "lat": 32.7
+      },
+      {
+        "name": "Deraa (Daraa)",
+        "lon": 36.1,
+        "lat": 32.62
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-09-19",
+    "end": "1918-09-25",
+    "datePrecision": "day",
+    "place": "The coastal plain of Sharon to the valley of Esdraelon (Jezreel), Palestine",
+    "lon": 35,
+    "lat": 32.45,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Ottoman Empire and Germany",
+      "opponent": "British Empire, France and the Arab Northern Army"
+    },
+    "commanders": {
+      "focus": [
+        "Liman von Sanders",
+        "Mustafa Kemal",
+        "Jevad Pasha"
+      ],
+      "opponent": [
+        "Allenby",
+        "Chauvel",
+        "Faisal"
+      ]
+    },
+    "casualties": "EEF c. 5,000–6,000; Ottoman forces largely destroyed, with c. 25,000 prisoners in the first week",
+    "outcome": "defeat",
+    "summary": "Allenby's infantry break the Ottoman line on the coast and his cavalry ride through into the valley of Armageddon, trapping two Ottoman armies. Liman von Sanders escapes Nazareth only narrowly.",
+    "detail": "Through the summer Allenby built up his forces on the coastal plain while elaborate deception, including dummy horse lines and camps in the Jordan valley, convinced his opponents that he would attack east of the Jordan. Arab forces under Faisal, with T. E. Lawrence, cut the railway around Deraa to further distract the Ottoman command.\n\nOn 19 September a short, intense bombardment opened the attack near the coast, and British and Indian infantry broke the thin Ottoman line within hours. The Desert Mounted Corps then rode north through the gap and swung east through the Carmel passes into the valley of Esdraelon, reaching el-Afule and Beisan by the next day. At Nazareth, German headquarters, Liman von Sanders escaped just ahead of the cavalry. Royal Air Force aircraft bombed the retreating columns in the Wadi Fara, turning the road into a scene of destruction.\n\nThe Ottoman Seventh and Eighth Armies ceased to exist as fighting forces. Haifa and Acre fell on 23 September, and Amman on 25 September.",
+    "significance": "Megiddo was one of the most complete victories of the war, destroying Ottoman power in Palestine and opening the way to Damascus and Aleppo.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner totals rise to some 75,000 when the whole pursuit to Aleppo is included. Ottoman strength at the front was far below its paper establishment.",
+    "sources": [
+      "Cyril Falls, Armageddon: 1918 (1964)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Matthew Hughes, Allenby and British Strategy in the Middle East, 1917–1919 (1999)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "meuse-argonne-1918",
+    "title": "Meuse-Argonne Offensive",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Montfaucon",
+        "lon": 5.14,
+        "lat": 49.27
+      },
+      {
+        "name": "Sedan",
+        "lon": 4.94,
+        "lat": 49.7
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-09-26",
+    "end": "1918-11-11",
+    "datePrecision": "day",
+    "place": "Between the Argonne forest and the Meuse, north-west of Verdun, France",
+    "lon": 5.05,
+    "lat": 49.32,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and France"
+    },
+    "commanders": {
+      "focus": [
+        "Gallwitz",
+        "Marwitz"
+      ],
+      "opponent": [
+        "Pershing",
+        "Liggett",
+        "Gouraud"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 1.2 million American troops engaged over the course of the battle"
+    },
+    "casualties": "American c. 120,000, including c. 26,000 killed; German c. 100,000–125,000",
+    "outcome": "defeat",
+    "summary": "The largest battle in American history: over seven weeks the First US Army grinds forward through forests and fortified ridges north of Verdun, reaching the heights above Sedan by the Armistice.",
+    "detail": "Foch's general offensive opened on 26 September with the American attack between the Argonne forest and the Meuse, alongside the French Fourth Army west of the forest. The ground favoured the defenders: wooded ridges, ravines and the fortified heights of Montfaucon, Romagne and the Kriemhilde position of the Hindenburg Line system, dominated by German guns on the heights east of the Meuse.\n\nThe first day's gains were good, but Montfaucon held out until the second day and inexperienced divisions soon lost cohesion. Roads became clogged, supplies and wounded could not move, and German reserves arrived. Through October the Americans fought a costly battle of attrition; a battalion of the 77th Division, the 'Lost Battalion', was cut off in the Argonne for several days. Pershing handed the First Army to Hunter Liggett in mid-October, who reorganised it.\n\nThe renewed attack of 1 November broke through, and American troops pushed rapidly north to the Meuse and the heights overlooking Sedan before the fighting ended on 11 November.",
+    "significance": "The offensive tied down many German divisions at a critical time and made the United States a decisive military presence, but at a heavy cost that exposed the AEF's inexperience.",
+    "certainty": "high",
+    "uncertaintyNote": "American figures are well documented; German losses, especially prisoners, less so.",
+    "sources": [
+      "Edward G. Lengel, To Conquer Hell: The Meuse-Argonne, 1918 (2008)",
+      "Robert H. Ferrell, America's Deadliest Battle: Meuse-Argonne, 1918 (2007)",
+      "Edward M. Coffman, The War to End All Wars (1968)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "st-quentin-canal-1918",
+    "title": "Breaking the Hindenburg Line (St Quentin Canal)",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Riqueval bridge",
+        "lon": 3.253,
+        "lat": 49.953
+      },
+      {
+        "name": "Bellicourt tunnel",
+        "lon": 3.235,
+        "lat": 49.97
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-09-29",
+    "end": "1918-10-05",
+    "datePrecision": "day",
+    "place": "St Quentin Canal between Bellenglise and Vendhuile, Aisne, France",
+    "lon": 3.24,
+    "lat": 49.94,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "British Empire (Britain, Australia) and the United States"
+    },
+    "commanders": {
+      "focus": [
+        "Marwitz"
+      ],
+      "opponent": [
+        "Rawlinson",
+        "Monash",
+        "Read"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "British, Australian and American troops break the strongest part of the Hindenburg Line. The 46th Division crosses the St Quentin Canal wearing lifebelts and seizes the Riqueval bridge intact.",
+    "detail": "The Hindenburg Line was the most elaborate defensive system on the Western Front. Along much of the Fourth Army's front the St Quentin Canal ran through a deep cutting, a formidable anti-tank ditch; further north it passed underground through the Bellicourt tunnel, which the Germans had fortified. After an immense bombardment including, for the first time on this scale, British mustard gas shells, Rawlinson attacked on 29 September, as part of Foch's convergent offensive along the whole front.\n\nAt the tunnel sector the inexperienced US 27th and 30th Divisions, attached to the Australian Corps, suffered heavily; some isolated American groups were overrun and the Australians had to fight through to complete the task. To the south the 46th (North Midland) Division, not thought an elite formation, crossed the canal in morning fog using lifebelts from Channel ferries, rafts and ladders, took the Riqueval bridge before it could be blown, and captured some 4,000 prisoners.\n\nBy 5 October the last defences, the Beaurevoir line, had fallen and the British were into open country.",
+    "significance": "The breaking of the Hindenburg Line, coinciding with Bulgaria's collapse, led Ludendorff and Hindenburg to demand an immediate approach to President Wilson for an armistice.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty totals for the whole battle are not reliably separated from the wider Allied offensive of late September and early October.",
+    "sources": [
+      "J. P. Harris with Niall Barr, Amiens to the Armistice (1998)",
+      "Peter Hart, 1918: A Very British Victory (2008)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "armistice-of-salonika-1918",
+    "title": "Armistice of Salonika",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1918-09-29",
+    "datePrecision": "day",
+    "place": "Salonika (Thessaloniki), Greece",
+    "lon": 22.94,
+    "lat": 40.64,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Bulgaria",
+      "opponent": "Allied Army of the Orient"
+    },
+    "commanders": {
+      "focus": [
+        "Lyapchev",
+        "Lukov"
+      ],
+      "opponent": [
+        "Franchet d'Espèrey"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Bulgaria, its army broken and in mutiny, signs an armistice with the Allies at Salonika, the first of the Central Powers to leave the war.",
+    "detail": "Within ten days of the breakthrough at Dobro Pole, the government of Alexander Malinov sought terms. A delegation including the minister Andrey Lyapchev and General Ivan Lukov crossed the lines and met Franchet d'Espèrey in Salonika, where the armistice was signed on 29 September to take effect the next day.\n\nThe terms were a military capitulation. Bulgaria was to evacuate the occupied parts of Greece and Serbia, demobilise all but a small force, hand over arms and transport, and allow Allied troops to use its territory and railways. Bulgarian units west of Skopje became prisoners. German and Austrian personnel had to leave.\n\nAt home the soldiers' revolt at Radomir was put down with German help, but King Ferdinand, who had taken Bulgaria into the war in 1915, abdicated on 3 October in favour of his son Boris III and left the country.",
+    "significance": "Bulgaria's surrender cut Germany's land link to the Ottoman Empire, exposed Austria-Hungary's southern flank and the Romanian oilfields, and was one of the shocks that led the German command to seek an armistice.",
+    "certainty": "high",
+    "sources": [
+      "Richard C. Hall, Balkan Breakthrough: The Battle of Dobro Pole 1918 (2010)",
+      "David Stevenson, With Our Backs to the Wall (2011)",
+      "Alan Palmer, The Gardeners of Salonika (1965)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "damascus-1918",
+    "title": "Fall of Damascus",
+    "geometry": "city",
+    "kind": "campaign",
+    "start": "1918-10-01",
+    "datePrecision": "day",
+    "place": "Damascus, Syria",
+    "lon": 36.29,
+    "lat": 33.51,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire and the Arab Northern Army"
+    },
+    "commanders": {
+      "opponent": [
+        "Allenby",
+        "Chauvel",
+        "Faisal",
+        "Lawrence"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Australian light horsemen ride through Damascus at dawn, and Arab forces loyal to Faisal enter later the same day and raise the flag of the Arab Revolt over the city.",
+    "detail": "After Megiddo the Desert Mounted Corps and Faisal's Arab Northern Army converged on Damascus from the south and south-west, harrying the remnants of the Ottoman armies. On 30 September Australian troops blocked the Barada gorge, cutting the escape route to Beirut and inflicting heavy losses on retreating columns.\n\nEarly on 1 October the 10th Australian Light Horse Regiment passed through the city, where local notables had already raised the Arab flag. Arab forces, with T. E. Lawrence, arrived later that morning to be acclaimed by crowds, and an Arab administration was set up. The city was in chaos, with looting, fires, and thousands of sick and wounded Ottoman soldiers dying in crowded hospitals.\n\nOn 3 October Faisal rode into Damascus and met Allenby, who told him that under Anglo-French agreements he could administer Syria east of the coastal zone but under Allied supervision, with France to have its sphere. The pursuit continued north, and Aleppo fell on 25–26 October.",
+    "significance": "Damascus marked the end of four centuries of Ottoman rule in Syria and the brief high point of Arab hopes of independence, which France would crush in 1920.",
+    "certainty": "high",
+    "uncertaintyNote": "Who entered Damascus first became a matter of controversy, with the Arab forces' role emphasised by Lawrence and disputed in Australian accounts.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "James Barr, Setting the Desert on Fire: T. E. Lawrence and Britain's Secret War in Arabia, 1916–1918 (2006)",
+      "Matthew Hughes, Allenby and British Strategy in the Middle East, 1917–1919 (1999)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "vittorio-veneto-1918",
+    "title": "Battle of Vittorio Veneto",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Vittorio (Vittorio Veneto)",
+        "lon": 12.3,
+        "lat": 45.99
+      },
+      {
+        "name": "Monte Grappa",
+        "lon": 11.8,
+        "lat": 45.87
+      }
+    ],
+    "kind": "battle",
+    "start": "1918-10-24",
+    "end": "1918-11-04",
+    "datePrecision": "day",
+    "place": "The Piave and Monte Grappa to Vittorio, Veneto, Italy",
+    "lon": 12.25,
+    "lat": 45.88,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy, Britain, France and the United States"
+    },
+    "commanders": {
+      "focus": [
+        "Boroević",
+        "Archduke Joseph"
+      ],
+      "opponent": [
+        "Diaz",
+        "Caviglia",
+        "Cavan"
+      ]
+    },
+    "casualties": "Italian and Allied c. 37,000–40,000; Austro-Hungarian c. 300,000–430,000 prisoners",
+    "outcome": "defeat",
+    "summary": "A year to the day after Caporetto, Diaz attacks across the Piave. The Habsburg army, already dissolving along national lines, collapses, and hundreds of thousands are taken prisoner.",
+    "detail": "Diaz waited until he judged the moment right, and in late October the Italians attacked on Monte Grappa and across the swollen Piave. On the mountain the Austro-Hungarian defenders held stubbornly for days. On the river, British and Italian troops of Lord Cavan's Tenth Army seized the island of Papadopoli and forced crossings, and by 28–29 October several bridgeheads had been joined.\n\nBy then the Monarchy was dissolving behind the front. National councils were proclaiming independent states, Hungarian units demanded to go home to defend their own country, and whole divisions refused to fight or to relieve the line. The Italians took Vittorio on 30 October, splitting the Austro-Hungarian armies, and the retreat became a rout.\n\nAn armistice was signed at Villa Giusti on 3 November, but because of confusion over when it took effect, Italian troops advanced for another day and a half, occupying Trento and landing at Trieste and taking vast numbers of prisoners who believed the fighting was over.",
+    "significance": "Vittorio Veneto destroyed the last Habsburg army in the field. For Italy it redeemed Caporetto and became the symbol of national victory, later exploited by Fascism.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner totals, many taken after the Austrian command had ordered its troops to stop fighting, range from about 300,000 to the Italian claim of over 400,000. How far the victory was won in battle rather than by Habsburg disintegration remains debated.",
+    "sources": [
+      "Mark Thompson, The White War (2008)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary (1997)",
+      "Alexander Watson, Ring of Steel: Germany and Austria-Hungary at War, 1914–1918 (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "czechoslovakia-1918",
+    "title": "Czechoslovakia Proclaimed",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Turčiansky Svätý Martin (Martin)",
+        "lon": 18.92,
+        "lat": 49.07
+      }
+    ],
+    "kind": "political",
+    "start": "1918-10-28",
+    "end": "1918-10-30",
+    "datePrecision": "day",
+    "place": "Prague, Bohemia (Czech Republic)",
+    "lon": 14.42,
+    "lat": 50.087,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Czechoslovak National Committee"
+    },
+    "commanders": {
+      "opponent": [
+        "Masaryk",
+        "Beneš",
+        "Rašín",
+        "Švehla"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "As Vienna accepts Wilson's terms, the Czech National Committee takes over the administration in Prague and proclaims an independent Czechoslovak state without a shot fired.",
+    "detail": "Emperor Karl's manifesto of 16 October, offering to turn Austria into a federation of nations, came too late. Wilson replied that the Allies now recognised the Czechoslovak National Council in Paris, led by Tomáš Masaryk and Edvard Beneš, as a de facto belligerent government, and that the Monarchy's peoples must decide their own future.\n\nOn 28 October, when news arrived that Vienna had accepted Wilson's terms, crowds filled the streets of Prague believing the war was over. The National Committee, whose leaders included Alois Rašín and Antonín Švehla, took control of the grain office and other authorities and issued its first law establishing an independent Czechoslovak state. The Habsburg military commander, cut off from Vienna, gave way. Two days later Slovak leaders meeting at Turčiansky Svätý Martin declared for union with the Czechs.\n\nMasaryk, who had spent the war abroad organising the Czechoslovak Legions and lobbying the Allies, was elected president and returned to Prague in December.",
+    "significance": "Czechoslovakia's peaceful birth was one of the decisive acts in the dissolution of Austria-Hungary, and it emerged as one of the successor states that redrew the map of central Europe.",
+    "certainty": "high",
+    "uncertaintyNote": "The borders of the new state, including the German-speaking regions of Bohemia and Moravia, remained contested for months.",
+    "sources": [
+      "Pieter M. Judson, The Habsburg Empire: A New History (2016)",
+      "Mark Cornwall, The Undermining of Austria-Hungary: The Battle for Hearts and Minds (2000)",
+      "Margaret MacMillan, Peacemakers (2001)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "state-of-scs-1918",
+    "title": "State of Slovenes, Croats and Serbs",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Pola (Pula)",
+        "lon": 13.85,
+        "lat": 44.87
+      },
+      {
+        "name": "Belgrade",
+        "lon": 20.46,
+        "lat": 44.82
+      }
+    ],
+    "kind": "political",
+    "start": "1918-10-29",
+    "end": "1918-12-01",
+    "datePrecision": "day",
+    "place": "Zagreb, Croatia-Slavonia (Croatia)",
+    "lon": 15.98,
+    "lat": 45.81,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "National Council of Slovenes, Croats and Serbs"
+    },
+    "commanders": {
+      "opponent": [
+        "Korošec",
+        "Pribićević",
+        "Trumbić"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "The Croatian Sabor breaks with Austria-Hungary and a State of Slovenes, Croats and Serbs is proclaimed in Zagreb. A month later it unites with Serbia and Montenegro in a new kingdom.",
+    "detail": "On 29 October the Croatian Sabor in Zagreb dissolved all ties with Hungary and Austria and transferred authority to the National Council of Slovenes, Croats and Serbs, headed by the Slovene priest-politician Anton Korošec. The new state claimed the South Slav lands of the Monarchy, from Slovenia to Bosnia and Dalmatia.\n\nIt was fragile from the start. It had no army to speak of, rural unrest and bands of deserters were spreading, and Italian forces were moving to occupy the Adriatic lands promised to Italy in 1915. Emperor Karl handed over the Austro-Hungarian fleet at Pola to the National Council on 31 October; the next night Italian frogmen, unaware, sank the flagship Viribus Unitis in the harbour.\n\nFacing these dangers, the National Council sent delegates to Belgrade, and on 1 December 1918 Prince Regent Alexander proclaimed the Kingdom of Serbs, Croats and Slovenes, later called Yugoslavia. The terms of union, hastily settled, left deep disagreements between Serbian centralists and Croatian federalists.",
+    "significance": "The South Slav state was one of the main heirs of Austria-Hungary, realising the aim of Serbian and Yugoslav nationalists, but its unresolved tensions shaped the region's troubled twentieth century.",
+    "certainty": "high",
+    "sources": [
+      "Ivo Banac, The National Question in Yugoslavia: Origins, History, Politics (1984)",
+      "Pieter M. Judson, The Habsburg Empire: A New History (2016)",
+      "Margaret MacMillan, Peacemakers (2001)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "armistice-of-mudros-1918",
+    "title": "Armistice of Mudros",
+    "geometry": "site",
+    "kind": "treaty",
+    "start": "1918-10-30",
+    "datePrecision": "day",
+    "place": "HMS Agamemnon, Mudros harbour, Lemnos, Greece",
+    "lon": 25.27,
+    "lat": 39.86,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "Britain (for the Allies)"
+    },
+    "commanders": {
+      "focus": [
+        "Rauf Bey"
+      ],
+      "opponent": [
+        "Gough-Calthorpe"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Aboard a British battleship off Lemnos, Ottoman delegates sign an armistice that opens the Straits to the Allied fleets and ends the empire's war.",
+    "detail": "With Bulgaria out of the war, the Ottoman Empire was cut off from Germany and its armies in Syria and Mesopotamia were collapsing. The wartime triumvirate of Enver, Talat and Cemal resigned, and a new government under Ahmed Izzet Pasha sent the navy minister Rauf Bey to negotiate. He met Vice-Admiral Sir Somerset Gough-Calthorpe aboard HMS Agamemnon in Mudros harbour, the base from which the Gallipoli campaign had been supplied.\n\nThe armistice, signed on 30 October and effective at noon the next day, opened the Dardanelles and Bosphorus, handed the Straits forts to the Allies and required demobilisation and the surrender of garrisons in Arabia, Syria and Mesopotamia. Article 7 allowed the Allies to occupy any strategic point if their security was threatened, a clause soon used widely. British forces in Mesopotamia pressed on to occupy Mosul after the armistice.\n\nEnver, Talat and Cemal fled on a German vessel on the night of 1–2 November. An Allied fleet anchored off Constantinople on 13 November.",
+    "significance": "Mudros ended the Ottoman war, and the occupation that followed helped provoke the Turkish national movement under Mustafa Kemal that would overturn the later peace settlement.",
+    "certainty": "high",
+    "uncertaintyNote": "Mosul's occupation after the armistice, and its legality, became a long-running dispute between Britain and Turkey.",
+    "sources": [
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Erik-Jan Zürcher, Turkey: A Modern History (1993)",
+      "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "villa-giusti-1918",
+    "title": "Armistice of Villa Giusti",
+    "geometry": "site",
+    "kind": "treaty",
+    "start": "1918-11-03",
+    "end": "1918-11-04",
+    "datePrecision": "day",
+    "place": "Villa Giusti, near Padua, Italy",
+    "lon": 11.86,
+    "lat": 45.38,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy (for the Allies)"
+    },
+    "commanders": {
+      "focus": [
+        "Weber von Webenau"
+      ],
+      "opponent": [
+        "Badoglio",
+        "Diaz"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "At a villa outside Padua, Austria-Hungary's delegates sign an armistice with Italy. It takes effect the next afternoon, by which time the empire it was signed for has ceased to exist.",
+    "detail": "Austro-Hungarian envoys under General Viktor Weber von Webenau crossed the lines at the end of October and were taken to the Villa Giusti near Padua, where the Italian deputy chief of staff Pietro Badoglio presented terms agreed by the Allies. On 3 November the armistice was signed, to take effect at 3 pm on 4 November.\n\nThe terms required the Habsburg army to withdraw from all occupied territory and to evacuate the South Tyrol, Trentino, the Isonzo lands, Istria and Dalmatia up to lines corresponding broadly to Italy's claims under the 1915 Treaty of London, and gave the Allies free movement across Austro-Hungarian territory, which would allow an attack on Germany from the south.\n\nThe Austro-Hungarian command had ordered its troops to cease fighting early on 3 November, before the signature, and in the thirty-six hours before the armistice took effect Italian forces rounded up very large numbers of soldiers who believed the war was over.\n\nOn 11 November Emperor Karl renounced any part in affairs of state in Austria, and the next day German-Austria was proclaimed a republic.",
+    "significance": "Villa Giusti ended the war on the Italian front and the military history of the Habsburg Monarchy, leaving Germany alone and exposed on its southern border.",
+    "certainty": "high",
+    "uncertaintyNote": "The villa is placed approximately, south-west of Padua. The confusion over the ceasefire time and the prisoners taken in it remains a matter of bitterness in Austrian memory.",
+    "sources": [
+      "Mark Thompson, The White War (2008)",
+      "Alexander Watson, Ring of Steel (2014)",
+      "Holger Herwig, The First World War: Germany and Austria-Hungary (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kiel-mutiny-1918",
+    "title": "Kiel Mutiny",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Wilhelmshaven (Schillig Roads)",
+        "lon": 8.12,
+        "lat": 53.52
+      }
+    ],
+    "kind": "political",
+    "start": "1918-11-03",
+    "end": "1918-11-04",
+    "datePrecision": "day",
+    "place": "Kiel, Schleswig-Holstein, Germany",
+    "lon": 10.14,
+    "lat": 54.32,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Imperial German Navy",
+      "opponent": "Mutinous sailors and workers"
+    },
+    "commanders": {
+      "focus": [
+        "Scheer",
+        "Hipper",
+        "Souchon"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Sailors refuse to put to sea for a last battle with the Royal Navy. At Kiel their protest becomes an uprising, and councils of sailors, soldiers and workers spread revolution across Germany.",
+    "detail": "In late October the naval command, without informing the new government, prepared a sortie of the High Seas Fleet against the British Grand Fleet. Crews at Schillig Roads off Wilhelmshaven, convinced that they were to be sacrificed to save the navy's honour just as peace was being sought, refused orders and extinguished boilers on the night of 29–30 October. The fleet operation was abandoned, and one squadron was sent to Kiel, where several hundred sailors were arrested.\n\nOn 3 November sailors and dockyard workers marched in Kiel to demand their comrades' release. A patrol opened fire, killing several people. The next day sailors elected councils, disarmed officers and took control of the ships and the town, joined by the soldiers of the garrison. The Social Democrat Gustav Noske, sent by the government, was elected their chairman.\n\nWithin days sailors carried the movement by train to Hamburg, Bremen, Lübeck and the cities of the interior; Kurt Eisner proclaimed a republic in Bavaria on 7–8 November.",
+    "significance": "The mutiny sparked the German Revolution, which within a week brought down the monarchy and made it impossible for the old regime to continue the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Reports of the number killed in the shooting of 3 November vary, usually between seven and nine. The naval command's aims in planning the sortie are still debated.",
+    "sources": [
+      "Daniel Horn, The German Naval Mutinies of World War I (1969)",
+      "Mark Jones, Founding Weimar: Violence and the German Revolution of 1918–1919 (2016)",
+      "Paul G. Halpern, A Naval History of World War I (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "german-republic-1918",
+    "title": "Abdication of Wilhelm II and the Republic",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Spa (German Supreme Headquarters)",
+        "lon": 5.86,
+        "lat": 50.49
+      }
+    ],
+    "kind": "political",
+    "start": "1918-11-09",
+    "end": "1918-11-10",
+    "datePrecision": "day",
+    "place": "Reichstag, Berlin, Germany",
+    "lon": 13.376,
+    "lat": 52.519,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Wilhelm II and the imperial regime",
+      "opponent": "German revolutionaries and Social Democrats"
+    },
+    "commanders": {
+      "focus": [
+        "Wilhelm II",
+        "Prince Max of Baden",
+        "Groener"
+      ],
+      "opponent": [
+        "Ebert",
+        "Scheidemann",
+        "Liebknecht"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "With revolution in Berlin, Prince Max announces the Kaiser's abdication and hands power to Friedrich Ebert. Scheidemann proclaims a republic from the Reichstag, and Wilhelm flees to the Netherlands.",
+    "detail": "By early November the revolution had reached Berlin. At Spa, Wilhelm II talked of leading the army home to restore order, but on 9 November General Wilhelm Groener, Ludendorff's successor, told him that the army would no longer follow him. The same morning, with workers and soldiers marching in the capital, Chancellor Prince Max of Baden announced the Kaiser's abdication on his own authority and handed the chancellorship to the Social Democrat leader Friedrich Ebert.\n\nAround 2 pm Philipp Scheidemann proclaimed a German republic from a window of the Reichstag, partly to forestall the radical Karl Liebknecht, who later proclaimed a socialist republic from the royal palace. On 10 November a Council of People's Deputies of Majority and Independent Social Democrats took office, and Ebert reached an understanding with Groener that the army would support the government against radical revolution.\n\nWilhelm crossed into the Netherlands on 10 November. He formally abdicated on 28 November and lived in exile at Doorn until his death in 1941. The other German princes had been deposed or were abdicating in the same days.",
+    "significance": "The fall of the Hohenzollerns ended the German Empire and brought to power the moderate socialists who would sign the Armistice and found the Weimar Republic, inheriting the blame for defeat.",
+    "certainty": "high",
+    "sources": [
+      "Mark Jones, Founding Weimar: Violence and the German Revolution of 1918–1919 (2016)",
+      "Alexander Watson, Ring of Steel (2014)",
+      "John C. G. Röhl, Wilhelm II: Into the Abyss of War and Exile, 1900–1941 (2014)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "armistice-of-compiegne-1918",
+    "title": "Armistice of Compiègne",
+    "geometry": "site",
+    "kind": "treaty",
+    "start": "1918-11-11",
+    "datePrecision": "day",
+    "place": "Clearing of Rethondes, forest of Compiègne, Oise, France",
+    "lon": 2.906,
+    "lat": 49.427,
+    "locationCertainty": "exact",
+    "phase": "peace",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France and Britain (for the Allied and Associated Powers)"
+    },
+    "commanders": {
+      "focus": [
+        "Erzberger"
+      ],
+      "opponent": [
+        "Foch",
+        "Wemyss",
+        "Weygand"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "In Foch's railway carriage in the forest of Compiègne, German delegates sign an armistice in the early morning. At 11 am the guns fall silent on the Western Front.",
+    "detail": "After weeks of exchanges of notes with President Wilson, and Ludendorff's dismissal on 26 October, a German delegation led by the Centre Party politician Matthias Erzberger crossed the lines on 7 November. They were taken to Marshal Foch's train in a clearing near Rethondes and given seventy-two hours to accept the Allied terms.\n\nThe terms were designed to make renewed war impossible. Germany was to evacuate Belgium, France, Luxembourg and Alsace-Lorraine within two weeks, and the left bank of the Rhine, with bridgeheads at Mainz, Koblenz and Cologne, would be occupied. It was to hand over thousands of guns, machine guns and aircraft, its submarines and huge quantities of railway stock and lorries, and intern its surface fleet. The treaties of Brest-Litovsk and Bucharest were annulled, and the blockade would continue.\n\nWith revolution at home and the Kaiser gone, the delegates signed shortly after 5 am on 11 November, for the ceasefire to begin at 11 am. Fighting continued until the last minute, and thousands of men became casualties on the final morning.",
+    "significance": "The Armistice ended the fighting on the Western Front after more than four years. Because German territory was barely invaded, the myth that the army had been stabbed in the back found fertile ground.",
+    "certainty": "high",
+    "uncertaintyNote": "The armistice ran for 36 days and was renewed three times until the peace treaty came into force. Casualty figures for 11 November itself are uncertain.",
+    "sources": [
+      "Bullitt Lowry, Armistice 1918 (1996)",
+      "David Stevenson, With Our Backs to the Wall (2011)",
+      "Elizabeth Greenhalgh, Foch in Command (2011)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "polish-independence-1918",
+    "title": "Polish Independence",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1918-11-11",
+    "end": "1918-11-14",
+    "datePrecision": "day",
+    "place": "Warsaw, Poland",
+    "lon": 21.01,
+    "lat": 52.23,
+    "locationCertainty": "exact",
+    "phase": "peace",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Polish independence movement"
+    },
+    "commanders": {
+      "opponent": [
+        "Piłsudski",
+        "Daszyński"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Released from German custody, Józef Piłsudski arrives in Warsaw and receives command of Polish forces as German garrisons are disarmed. Poland returns to the map after 123 years.",
+    "detail": "The three partitioning empires of Poland all collapsed in 1917–18. In Warsaw the Central Powers had set up a Regency Council under their own protectorate; in Lublin a socialist provisional government under Ignacy Daszyński was proclaimed on 7 November; in Kraków a Polish commission had taken over from the Austrians; and in eastern Galicia Poles and Ukrainians were already fighting for Lwów (Lviv).\n\nJózef Piłsudski, the legion commander interned by the Germans at Magdeburg since 1917, was released and arrived in Warsaw on 10 November. The next day, as Polish volunteers and members of the underground Polish Military Organisation disarmed German troops across the city, the Regency Council gave him command of the army; on 14 November it dissolved itself and handed him full authority. A soldiers' council among the German garrison negotiated its evacuation.\n\n11 November, the same day as the Armistice in the west, later became Poland's Independence Day.",
+    "significance": "The rebirth of Poland fulfilled one of Wilson's Fourteen Points, but its frontiers were settled only after years of fighting with Ukrainians, Lithuanians, Germans and above all Soviet Russia.",
+    "certainty": "high",
+    "sources": [
+      "Norman Davies, God's Playground: A History of Poland, vol. 2 (1981)",
+      "Jochen Böhler, Civil War in Central Europe, 1918–1921: The Reconstruction of Poland (2018)",
+      "Alexander Watson, Ring of Steel (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "spartacist-uprising-1919",
+    "title": "Spartacist Uprising",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1919-01-05",
+    "end": "1919-01-15",
+    "datePrecision": "day",
+    "place": "Berlin newspaper district, Germany",
+    "lon": 13.395,
+    "lat": 52.507,
+    "locationCertainty": "exact",
+    "phase": "peace",
+    "sides": {
+      "focus": "German government (Majority Social Democrats) and Freikorps",
+      "opponent": "Communists (Spartacists), Independent Socialists and revolutionary shop stewards"
+    },
+    "commanders": {
+      "focus": [
+        "Ebert",
+        "Noske"
+      ],
+      "opponent": [
+        "Liebknecht",
+        "Luxemburg",
+        "Ledebour"
+      ]
+    },
+    "casualties": "c. 150–200 killed, mostly insurgents and civilians",
+    "outcome": "n/a",
+    "summary": "Radicals occupy Berlin's newspaper offices and call for the overthrow of Ebert's government. Noske crushes the rising with Freikorps troops, and Rosa Luxemburg and Karl Liebknecht are murdered.",
+    "detail": "The revolution of November had left Germany divided between the moderate Social Democrats, who wanted an elected National Assembly, and radicals who wanted rule by workers' councils. The Communist Party was founded at the turn of the year from the Spartacus League. On 4 January the government dismissed Berlin's Independent Socialist police chief, Emil Eichhorn, and the next day huge crowds marched in protest.\n\nArmed groups occupied the Social Democratic newspaper Vorwärts and other publishing houses and railway stations, and a revolutionary committee including Karl Liebknecht proclaimed the government deposed. But the rising was badly led, and most soldiers in the city stayed neutral. Gustav Noske, given charge of the government's forces, brought in the new volunteer Freikorps. From 11 January they stormed the Vorwärts building with artillery and cleared the occupied buildings, and some prisoners were shot out of hand.\n\nOn 15 January Luxemburg and Liebknecht were arrested and murdered by officers of a guards cavalry division; Luxemburg's body was thrown into the Landwehr canal.",
+    "significance": "The uprising and its suppression split the German left permanently and tied the new republic to the old army and the Freikorps, whose violence would shape the politics of Weimar.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures are uncertain. Luxemburg herself had doubted the wisdom of the rising; the label 'Spartacist uprising' simplifies a movement largely driven by other radical groups.",
+    "sources": [
+      "Mark Jones, Founding Weimar: Violence and the German Revolution of 1918–1919 (2016)",
+      "Richard Bessel, Germany after the First World War (1993)",
+      "Eric D. Weitz, Weimar Germany: Promise and Tragedy (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "paris-peace-conference-1919",
+    "title": "Paris Peace Conference Opens",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1919-01-18",
+    "datePrecision": "day",
+    "place": "French Foreign Ministry, Quai d'Orsay, Paris",
+    "lon": 2.316,
+    "lat": 48.862,
+    "locationCertainty": "exact",
+    "phase": "peace",
+    "sides": {
+      "focus": "The defeated Central Powers (excluded)",
+      "opponent": "Allied and Associated Powers"
+    },
+    "commanders": {
+      "opponent": [
+        "Clemenceau",
+        "Wilson",
+        "Lloyd George",
+        "Orlando"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "The victorious powers meet in Paris to remake the world. The defeated are not invited, and the key decisions fall to the leaders of Britain, France, Italy and the United States.",
+    "detail": "The conference opened on 18 January, the anniversary of the proclamation of the German Empire at Versailles in 1871, with an address by President Poincaré. Clemenceau was elected its president. Delegations came from some thirty countries and from peoples seeking recognition across the world, among them Arabs, Koreans, Armenians and the young Ho Chi Minh, who petitioned without success. Russia, in civil war, was absent, and Germany and its allies were excluded until terms were ready.\n\nThe real work was done at first by a Council of Ten, then from March by a Council of Four: Wilson, Lloyd George, Clemenceau and Orlando. Wilson, the first American president to travel to Europe while in office, gave priority to the Covenant of the League of Nations, whose draft he presented on 14 February. Scores of commissions of experts debated frontiers, reparations and the fate of the colonies, while wars continued in eastern Europe and hunger spread in central Europe under the continuing blockade.",
+    "significance": "Over the following year and more the conference produced the League of Nations and the treaties with Germany, Austria, Hungary, Bulgaria and the Ottoman Empire that shaped the interwar world.",
+    "certainty": "high",
+    "sources": [
+      "Margaret MacMillan, Peacemakers: The Paris Conference of 1919 and Its Attempt to End War (2001)",
+      "Alan Sharp, The Versailles Settlement: Peacemaking after the First World War, 1919–1923 (2nd edn, 2008)",
+      "Adam Tooze, The Deluge (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "scapa-flow-scuttling-1919",
+    "title": "Scuttling of the German Fleet at Scapa Flow",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1919-06-21",
+    "datePrecision": "day",
+    "place": "Scapa Flow, Orkney, Scotland",
+    "lon": -3.18,
+    "lat": 58.88,
+    "locationCertainty": "approximate",
+    "phase": "peace",
+    "sides": {
+      "focus": "Germany (interned High Seas Fleet)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Reuter"
+      ],
+      "opponent": [
+        "Fremantle"
+      ]
+    },
+    "casualties": "Nine German sailors killed",
+    "outcome": "n/a",
+    "summary": "While the British guard squadron is at sea on exercise, the interned German fleet at Scapa Flow sinks itself on its admiral's signal, rather than be handed over to the victors.",
+    "detail": "Under the Armistice the core of the High Seas Fleet, seventy-four warships, had steamed into internment in November 1918 and were moved to the great British anchorage at Scapa Flow in Orkney. Their skeleton crews lived for months aboard, restless and poorly supplied, while the peace conference decided the ships' fate.\n\nRear-Admiral Ludwig von Reuter, believing that the treaty would hand the fleet to the Allies and that hostilities might resume when the Armistice expired, prepared secret orders. On the morning of 21 June, with the British First Battle Squadron away on exercise, he signalled his ships to scuttle. Seacocks were opened, and battleships and battlecruisers began to heel over and sink in front of astonished onlookers, including a party of schoolchildren on a tender.\n\nBritish guard ships and returning warships managed to beach some vessels, and fired on German crews; nine Germans were killed. Fifty-two ships sank, among them most of the capital ships.",
+    "significance": "The scuttling denied the fleet to the Allies, angered them just before the treaty signing, and was celebrated in Germany as a restoration of naval honour. Salvage of the wrecks went on for decades.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of ships sunk is usually given as 52 of 74. The position shown is the approximate anchorage area in the south of the Flow.",
+    "sources": [
+      "Dan van der Vat, The Grand Scuttle: The Sinking of the German Fleet at Scapa Flow in 1919 (1982)",
+      "Paul G. Halpern, A Naval History of World War I (1994)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "treaty-of-versailles-1919",
+    "title": "Treaty of Versailles",
+    "geometry": "site",
+    "kind": "treaty",
+    "start": "1919-06-28",
+    "datePrecision": "day",
+    "place": "Hall of Mirrors, Palace of Versailles, France",
+    "lon": 2.1204,
+    "lat": 48.8049,
+    "locationCertainty": "exact",
+    "phase": "peace",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Allied and Associated Powers"
+    },
+    "commanders": {
+      "focus": [
+        "Hermann Müller",
+        "Johannes Bell"
+      ],
+      "opponent": [
+        "Clemenceau",
+        "Wilson",
+        "Lloyd George"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Five years to the day after Sarajevo, German delegates sign the peace treaty in the Hall of Mirrors. Germany loses territory, colonies and most of its armed forces, and accepts responsibility for the war's damage.",
+    "detail": "The terms were handed to the German delegation on 7 May with little room for negotiation, and were received in Germany with outrage. Germany was to return Alsace-Lorraine to France, give up most of Posen and West Prussia to Poland, creating the 'corridor' to the Baltic, and lose smaller territories to Belgium and later, by plebiscite, to Denmark and Poland. Danzig became a Free City and the Saar was placed under the League of Nations. All colonies were surrendered, to be administered as mandates.\n\nThe army was limited to 100,000 men without tanks or heavy artillery, the air force and submarines forbidden, and the Rhineland occupied for up to fifteen years and permanently demilitarised. Article 231 stated German responsibility for the loss and damage caused by the war, the basis for reparations whose total was left to be fixed later.\n\nScheidemann's government resigned rather than sign. Faced with an Allied ultimatum and the threat of invasion, the National Assembly gave way, and the new ministers Hermann Müller and Johannes Bell signed on 28 June.",
+    "significance": "Versailles formally ended the war with Germany and founded the League of Nations, but was never ratified by the United States and was resented by nearly all Germans, becoming a weapon for its enemies in the Weimar years.",
+    "certainty": "high",
+    "uncertaintyNote": "Historians continue to debate whether the treaty was too harsh, too lenient, or simply unenforced. Germany lost roughly 13 per cent of its European territory and about a tenth of its population.",
+    "sources": [
+      "Margaret MacMillan, Peacemakers (2001)",
+      "Alan Sharp, The Versailles Settlement: Peacemaking after the First World War, 1919–1923 (2nd edn, 2008)",
+      "Manfred F. Boemeke, Gerald D. Feldman and Elisabeth Glaser (eds), The Treaty of Versailles: A Reassessment after 75 Years (1998)"
+    ],
+    "importance": 3
+  }
+]

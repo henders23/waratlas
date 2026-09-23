@@ -131,9 +131,9 @@ npm run dev
 
 Entry A's built geography is committed under `public/geo/`, and its README explains how to rebuild it from Natural Earth. The deployment sections in each README describe my own hosting and are kept as the agents wrote them.
 
-## After the competition: a second war
+## After the competition: more wars
 
-[`atlas/`](atlas/) is a later version of entry A with a second war, the Napoleonic Wars (1792–1815). It opens on a start screen where you choose the Mongol atlas or the Napoleonic one. It was built after the competition, so `a-claude/` and `b-codex/` are left exactly as they were entered. Its README explains how the Napoleonic data was made.
+[`atlas/`](atlas/) is a later version of entry A with two more wars: the Napoleonic Wars (1792–1815) and the First World War (1914–1918). It opens on a start screen where you choose a war. It was built after the competition, so `a-claude/` and `b-codex/` are left exactly as they were entered. Its README explains how the new data was made.
 
 ## About this repo
 

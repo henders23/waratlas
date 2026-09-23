@@ -44,7 +44,7 @@ const polities = [
   { id: 'netherlands', name: 'Netherlands', color: '#e89a5a' },
   { id: 'luxembourg', name: 'Luxembourg', color: '#d8c8a0' },
   { id: 'switzerland', name: 'Switzerland', color: '#c4a8ea' },
-  { id: 'spain', name: 'Spain', color: '#e8b64c' },
+  { id: 'spain', name: 'Spain', color: '#bdb4a2' },
   { id: 'denmark', name: 'Denmark', color: '#d4605e' },
   { id: 'norway', name: 'Norway', color: '#c86a6a' },
   { id: 'sweden', name: 'Sweden', color: '#72a2da' },
