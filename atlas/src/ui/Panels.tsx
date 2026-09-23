@@ -221,7 +221,13 @@ export function About({ war, onClose }: { war: WarData; onClose: () => void }) {
     <dialog ref={ref} className="about" onClose={onClose} onClick={(e) => e.target === ref.current && ref.current?.close()}>
       <button className="close" onClick={() => ref.current?.close()} aria-label="Close">×</button>
       <h2>About this atlas</h2>
-      {war.id === 'napoleonic' ? <NapoleonicAbout war={war} counts={counts} /> : <MongolAbout war={war} counts={counts} />}
+      {war.id === 'napoleonic' ? (
+        <NapoleonicAbout war={war} counts={counts} />
+      ) : war.id === 'ww1' ? (
+        <Ww1About war={war} counts={counts} />
+      ) : (
+        <MongolAbout war={war} counts={counts} />
+      )}
       <h3>Keyboard</h3>
       <p className="keys">
         <kbd>Space</kbd> play or pause · <kbd>←</kbd> <kbd>→</kbd> a month · <kbd>Shift</kbd>+<kbd>←</kbd> <kbd>→</kbd> a year ·{' '}
@@ -284,6 +290,32 @@ function NapoleonicAbout({ war, counts }: { war: WarData; counts: Counts }) {
       <p>
         Army routes are left out. A confident arrow across a map implies a precision that the wider story of a campaign rarely has, and
         the Mongol atlas beside this one draws none either.
+      </p>
+    </>
+  );
+}
+
+function Ww1About({ war, counts }: { war: WarData; counts: Counts }) {
+  return (
+    <>
+      <p>
+        An exhibit in Qing’s Workshop. Drag the timeline, or press play, to follow the First World War from the assassination at Sarajevo on
+        28 June 1914 to the armistice of 11 November 1918, and on through the collapse of the empires to the Treaty of Versailles on
+        28 June 1919. Click any marker for the event behind it.
+      </p>
+      <h3>What the markers are</h3>
+      <p>
+        The {war.events.length} events are the battles, campaigns, treaties, revolutions and atrocities that shaped the war, chosen and written
+        for this atlas from the standard histories. {counts.city} are pinned to a named city and {counts.site} to a battlefield or a position
+        at sea. The other {counts.area} are campaigns and fronts with no single place, drawn as dashed regions. Pins are amber when the
+        Central Powers won and blue when the Allies did. Casualty figures for the great battles are fiercely disputed; each card gives a
+        consensus range, says where it is contested and lists its sources.
+      </p>
+      <h3>What the colours are</h3>
+      <p>{war.territoryNote}</p>
+      <p>
+        The strong colours follow the Central Powers because the ground they held and occupied is what changed most: the map shows their
+        armies’ reach growing to its peak in the summer of 1918 and vanishing within months. It is a way of drawing the fronts, not a side taken.
       </p>
     </>
   );

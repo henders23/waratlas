@@ -55,6 +55,18 @@ function Emblem({ id }: { id: string }) {
         <path d="M20 42V24l6.5 9L32 20l5.5 13L44 24v18z" fill="#17120b" />
       </svg>
     );
+  if (id === 'ww1')
+    // A line of trench zigzagging across the disc, under a flare.
+    return (
+      <svg className="ch-emblem" viewBox="0 0 64 64" aria-hidden>
+        <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" strokeOpacity=".35" />
+        <circle cx="32" cy="32" r="23" fill="currentColor" />
+        <path d="M12 38l5-4 4 4 5-5 4 4 5-5 4 4 5-4 4 3 4-2" fill="none" stroke="#17120b" strokeWidth="3" strokeLinejoin="round" strokeLinecap="round" />
+        <path d="M13 44h38" stroke="#17120b" strokeWidth="1.6" strokeDasharray="2.5 2.5" />
+        <circle cx="38" cy="20" r="3.2" fill="#17120b" />
+        <path d="M38 24.5v5" stroke="#17120b" strokeWidth="1.4" />
+      </svg>
+    );
   // A crowned N inside a laurel wreath, in the same solid-disc style.
   const leaves = [];
   for (const side of [-1, 1])

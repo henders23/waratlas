@@ -130,7 +130,7 @@ export interface WarEntry {
   load?: () => Promise<WarDef>;
 }
 
-// The portfolio of eight core wars. Two have finished atlases.
+// The portfolio of eight core wars. Three have finished atlases.
 export const WARS: WarEntry[] = [
   { id: 'second-punic', title: 'Second Punic War', span: '218 – 201 BC' },
   {
@@ -154,6 +154,14 @@ export const WARS: WarEntry[] = [
     load: () => import('./napoleonic').then((m) => m.NAPOLEONIC),
   },
   { id: 'spanish-american', title: 'Spanish American Wars of Independence', span: '1810 – 1826' },
-  { id: 'ww1', title: 'First World War', span: '1914 – 1918' },
+  {
+    id: 'ww1',
+    title: 'The First World War',
+    span: '1914 – 1918',
+    teaser: 'From Sarajevo to Versailles: trenches from the Channel to Switzerland, fronts from the Alps to Mesopotamia, and the fall of four empires.',
+    stats: '',
+    accent: '#c8a46a',
+    load: () => import('./ww1').then((m) => m.WW1),
+  },
   { id: 'ww2', title: 'Second World War', span: '1939 – 1945' },
 ];

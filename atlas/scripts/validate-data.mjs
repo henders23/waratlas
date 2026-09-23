@@ -8,6 +8,7 @@ import { join } from 'node:path';
 const WARS = {
   mongol: { years: [1200, 1295], theatre: [-20, -12, 150, 70], pack: true, phaseByDate: false },
   napoleonic: { years: [1792, 1815.9], theatre: [-20, 25, 45, 66], pack: false, phaseByDate: true },
+  ww1: { years: [1914.4, 1919.5], theatre: [-80, -55, 125, 70], pack: false, phaseByDate: true },
 };
 const KINDS = ['battle', 'siege', 'sack', 'massacre', 'political', 'death', 'treaty', 'raid', 'naval', 'campaign'];
 const CERT = ['high', 'medium', 'low'];

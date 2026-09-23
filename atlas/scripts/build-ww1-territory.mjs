@@ -1,0 +1,228 @@
+// Writes src/data/ww1/territory.json: who controlled each region of scripts/regions/ww1.mjs
+// from the eve of war in 1914 to the Treaty of Versailles in June 1919.
+// Each step is [date, polity, status?]; status is 'core' (default), 'vassal' or 'contested'
+// (a front line, an invasion or an insurrection). The focus side is the Central Powers and the
+// lands they occupied, so the strong colours grow to the 1918 peak and then vanish.
+// Usage: node scripts/build-ww1-territory.mjs
+import { writeFileSync } from 'node:fs';
+
+const note =
+  'Atlas synthesis of who held each region, drawn over modern provincial boundaries grouped along the 1914 frontiers. The Central Powers and the lands they occupied are drawn in strong colour; everyone else, Allied or neutral, in muted colour. \'Contested\' marks a front line running through a region, an invasion or an insurrection: on the Western Front, the hatched departments are those the trenches crossed for four years. Occupied regions were rarely taken whole, and the successor states of 1918–19 fought over borders the peace treaties had not yet drawn. Everything is approximate to the month.';
+
+const polities = [
+  // The Central Powers and the lands they held.
+  { id: 'germany', name: 'German Empire', color: '#d9a441', family: 'focus' },
+  { id: 'austria-hungary', name: 'Austria-Hungary', color: '#ecd37c', family: 'focus' },
+  { id: 'ottoman', name: 'Ottoman Empire', color: '#d4794b', family: 'focus' },
+  { id: 'bulgaria', name: 'Bulgaria', color: '#c9955a', family: 'focus' },
+  { id: 'occ-de', name: 'German occupation', color: '#d9a441', family: 'focus' },
+  { id: 'occ-ah', name: 'Austro-Hungarian occupation', color: '#ecd37c', family: 'focus' },
+  { id: 'occ-bg', name: 'Bulgarian occupation', color: '#c9955a', family: 'focus' },
+  { id: 'ober-ost', name: 'Ober Ost', color: '#e3b456', family: 'focus' },
+  { id: 'occ-poland', name: 'Occupied Poland', color: '#e0b060', family: 'focus' },
+  { id: 'poland-regency', name: 'Kingdom of Poland', color: '#e0b060', family: 'focus' },
+  { id: 'ukraine-state', name: 'Ukraine under German occupation', color: '#e8c46a', family: 'focus' },
+
+  // The Allies.
+  { id: 'france', name: 'France', color: '#6f9fe6' },
+  { id: 'britain', name: 'British Empire', color: '#e0584c' },
+  { id: 'belgium', name: 'Belgium', color: '#e3c24a' },
+  { id: 'russia', name: 'Russian Empire', color: '#7cc293' },
+  { id: 'russia-rep', name: 'Russia', color: '#7cc293' },
+  { id: 'italy', name: 'Italy', color: '#6fb57a' },
+  { id: 'serbia', name: 'Serbia', color: '#a07ad0' },
+  { id: 'montenegro', name: 'Montenegro', color: '#b49ad6' },
+  { id: 'romania', name: 'Romania', color: '#5fb6c4' },
+  { id: 'greece', name: 'Greece', color: '#5a9fd8' },
+  { id: 'portugal', name: 'Portugal', color: '#8fc07a' },
+  { id: 'hejaz', name: 'Kingdom of Hejaz', color: '#9ccf8a' },
+  { id: 'arab', name: 'Arab government (Faisal)', color: '#9ccf8a' },
+  { id: 'russian-occ', name: 'Russian occupation', color: '#7cc293' },
+  { id: 'allied-occ', name: 'Allied occupation', color: '#8fb0e0' },
+
+  // Neutrals.
+  { id: 'netherlands', name: 'Netherlands', color: '#e89a5a' },
+  { id: 'luxembourg', name: 'Luxembourg', color: '#d8c8a0' },
+  { id: 'switzerland', name: 'Switzerland', color: '#c4a8ea' },
+  { id: 'spain', name: 'Spain', color: '#e8b64c' },
+  { id: 'denmark', name: 'Denmark', color: '#d4605e' },
+  { id: 'norway', name: 'Norway', color: '#c86a6a' },
+  { id: 'sweden', name: 'Sweden', color: '#72a2da' },
+  { id: 'albania', name: 'Albania', color: '#c8a080' },
+  { id: 'persia', name: 'Persia', color: '#bda57e' },
+  { id: 'bulgaria-n', name: 'Bulgaria', color: '#c9955a' },
+
+  // The world after the empires.
+  { id: 'soviet', name: 'Soviet Russia', color: '#d0607a' },
+  { id: 'germany-rep', name: 'German Republic', color: '#bfa27a' },
+  { id: 'german-austria', name: 'German-Austria', color: '#e2cf96' },
+  { id: 'hungary-rep', name: 'Hungary', color: '#d8b870' },
+  { id: 'ottoman-arm', name: 'Ottoman Empire (under armistice)', color: '#c8906e' },
+  { id: 'poland', name: 'Poland', color: '#e0668a' },
+  { id: 'czechoslovakia', name: 'Czechoslovakia', color: '#6fa0c8' },
+  { id: 'slovene-croat', name: 'State of Slovenes, Croats and Serbs', color: '#a07ad0' },
+  { id: 'scs', name: 'Kingdom of Serbs, Croats and Slovenes', color: '#a07ad0' },
+  { id: 'ukraine-pr', name: 'Ukrainian People’s Republic', color: '#e8d36a' },
+  { id: 'wukr', name: 'West Ukrainian People’s Republic', color: '#e8d36a' },
+  { id: 'lithuania', name: 'Lithuania', color: '#c8a860' },
+  { id: 'latvia', name: 'Latvia', color: '#b86070' },
+  { id: 'estonia', name: 'Estonia', color: '#4a88c8' },
+  { id: 'finland', name: 'Finland', color: '#8ab8e0' },
+  { id: 'transcaucasia', name: 'Transcaucasian republics', color: '#a0c4a0' },
+];
+
+// Russia's governments: the Tsar, the Provisional Government, the Bolsheviks.
+const RUSSIA = [['1914', 'russia'], ['1917-03-12', 'russia-rep'], ['1917-11-07', 'soviet']];
+// Germany proper becomes a republic on 9 November 1918.
+const REICH = [['1914', 'germany'], ['1918-11-09', 'germany-rep']];
+
+/** Merge base steps with extra steps by date; a later list wins on an equal date. */
+function merge(...lists) {
+  const key = (d) => {
+    const [y, m = 1, dd = 1] = d.split('-').map(Number);
+    return y + (m - 1) / 12 + (dd - 1) / 365;
+  };
+  const byDate = new Map();
+  for (const s of lists.flat()) byDate.set(s[0], [...s]);
+  return [...byDate.values()].sort((a, b) => key(a[0]) - key(b[0]));
+}
+
+const regions = {
+  // ── France and the Low Countries ────────────────────────────────────────
+  paris: [['1914', 'france']],
+  lille: [['1914', 'france'], ['1914-08-24', 'france', 'contested'], ['1914-10-13', 'occ-de'], ['1918-10-17', 'france']],
+  artois: [['1914', 'france'], ['1914-08-28', 'france', 'contested'], ['1918-10-01', 'france']],
+  aisne: [['1914', 'france'], ['1914-08-29', 'france', 'contested'], ['1914-09-15', 'occ-de', 'contested'], ['1918-10-13', 'france', 'contested'], ['1918-11-11', 'france']],
+  ardennes: [['1914', 'france'], ['1914-08-25', 'occ-de'], ['1918-11-08', 'france']],
+  champagne: [['1914', 'france'], ['1914-09-02', 'france', 'contested'], ['1918-10-10', 'france']],
+  verdun: [['1914', 'france'], ['1914-08-20', 'france', 'contested'], ['1918-11-11', 'france']],
+  'western-france': [['1914', 'france']],
+  'southern-france': [['1914', 'france']],
+  'alsace-lorraine': [['1914', 'germany'], ['1914-08-07', 'germany', 'contested'], ['1914-08-26', 'germany'], ['1918-11-09', 'germany-rep'], ['1918-11-17', 'france', 'contested'], ['1918-11-22', 'france']],
+  flanders: [['1914', 'belgium'], ['1914-10-15', 'belgium', 'contested'], ['1918-10-20', 'belgium']],
+  belgium: [['1914', 'belgium'], ['1914-08-04', 'belgium', 'contested'], ['1914-10-10', 'occ-de'], ['1918-10-17', 'belgium', 'contested'], ['1918-11-22', 'belgium']],
+  luxembourg: [['1914', 'luxembourg'], ['1914-08-02', 'occ-de'], ['1918-11-11', 'luxembourg']],
+  netherlands: [['1914', 'netherlands']],
+
+  // ── British Isles, Scandinavia and the western neutrals ─────────────────
+  england: [['1914', 'britain']],
+  scotland: [['1914', 'britain']],
+  ireland: [['1914', 'britain'], ['1916-04-24', 'britain', 'contested'], ['1916-04-30', 'britain'], ['1919-01-21', 'britain', 'contested']],
+  denmark: [['1914', 'denmark']],
+  norway: [['1914', 'norway']],
+  sweden: [['1914', 'sweden']],
+  switzerland: [['1914', 'switzerland']],
+  spain: [['1914', 'spain']],
+  portugal: [['1914', 'portugal']],
+
+  // ── The German Empire ───────────────────────────────────────────────────
+  rhineland: merge(REICH, [['1918-12-01', 'allied-occ']]),
+  'north-germany': merge(REICH, [['1918-11-04', 'germany', 'contested'], ['1918-11-09', 'germany-rep']]),
+  brandenburg: merge(REICH, [['1919-01-05', 'germany-rep', 'contested'], ['1919-01-15', 'germany-rep']]),
+  saxony: REICH,
+  'southwest-germany': REICH,
+  bavaria: merge(REICH, [['1919-04-06', 'germany-rep', 'contested'], ['1919-05-03', 'germany-rep']]),
+  pomerania: REICH,
+  'west-prussia': REICH,
+  'east-prussia': merge(REICH, [['1914-08-17', 'russian-occ', 'contested'], ['1914-09-15', 'germany'], ['1914-11-07', 'germany', 'contested'], ['1915-02-21', 'germany']]),
+  posen: merge(REICH, [['1918-12-27', 'poland', 'contested'], ['1919-02-16', 'poland']]),
+  silesia: REICH,
+
+  // ── Austria-Hungary ─────────────────────────────────────────────────────
+  austria: [['1914', 'austria-hungary'], ['1918-10-30', 'german-austria']],
+  tyrol: [['1914', 'austria-hungary'], ['1915-05-24', 'austria-hungary', 'contested'], ['1918-11-03', 'italy', 'contested']],
+  bohemia: [['1914', 'austria-hungary'], ['1918-10-28', 'czechoslovakia']],
+  'west-galicia': [['1914', 'austria-hungary'], ['1914-09-15', 'russian-occ', 'contested'], ['1915-05-10', 'austria-hungary'], ['1918-10-31', 'poland']],
+  'east-galicia': [
+    ['1914', 'austria-hungary'], ['1914-08-26', 'austria-hungary', 'contested'], ['1914-09-03', 'russian-occ'], ['1915-06-22', 'austria-hungary'],
+    ['1916-06-10', 'russian-occ', 'contested'], ['1917-07-25', 'austria-hungary'], ['1918-11-01', 'wukr', 'contested'],
+  ],
+  bukovina: [['1914', 'austria-hungary'], ['1914-09-02', 'russian-occ'], ['1915-02-17', 'austria-hungary'], ['1916-06-18', 'russian-occ'], ['1917-08-03', 'austria-hungary'], ['1918-11-11', 'romania']],
+  hungary: [['1914', 'austria-hungary'], ['1918-10-31', 'hungary-rep'], ['1919-03-21', 'hungary-rep', 'contested']],
+  transylvania: [['1914', 'austria-hungary'], ['1916-08-28', 'romania', 'contested'], ['1916-10-10', 'austria-hungary'], ['1918-10-31', 'hungary-rep'], ['1918-12-01', 'romania']],
+  vojvodina: [['1914', 'austria-hungary'], ['1918-10-31', 'hungary-rep'], ['1918-11-10', 'serbia'], ['1918-12-01', 'scs']],
+  croatia: [['1914', 'austria-hungary'], ['1918-10-29', 'slovene-croat'], ['1918-12-01', 'scs']],
+  littoral: [['1914', 'austria-hungary'], ['1915-06-23', 'austria-hungary', 'contested'], ['1917-10-24', 'austria-hungary'], ['1918-10-29', 'slovene-croat'], ['1918-11-03', 'italy', 'contested']],
+  dalmatia: [['1914', 'austria-hungary'], ['1918-10-29', 'slovene-croat'], ['1918-11-04', 'italy', 'contested'], ['1918-12-01', 'scs', 'contested']],
+  bosnia: [['1914', 'austria-hungary'], ['1914-09-06', 'austria-hungary', 'contested'], ['1914-11-01', 'austria-hungary'], ['1918-10-29', 'slovene-croat'], ['1918-12-01', 'scs']],
+
+  // ── Italy ───────────────────────────────────────────────────────────────
+  friuli: [['1914', 'italy'], ['1917-10-24', 'occ-ah', 'contested'], ['1917-11-10', 'occ-ah'], ['1918-10-30', 'italy', 'contested'], ['1918-11-04', 'italy']],
+  veneto: [['1914', 'italy'], ['1916-05-15', 'italy', 'contested'], ['1916-06-25', 'italy'], ['1917-11-10', 'italy', 'contested'], ['1918-11-04', 'italy']],
+  'north-italy': [['1914', 'italy']],
+  'central-italy': [['1914', 'italy']],
+  'south-italy': [['1914', 'italy']],
+  sicily: [['1914', 'italy']],
+  sardinia: [['1914', 'italy']],
+
+  // ── The Balkans ─────────────────────────────────────────────────────────
+  serbia: [
+    ['1914', 'serbia'], ['1914-08-12', 'serbia', 'contested'], ['1914-12-15', 'serbia'], ['1915-10-06', 'serbia', 'contested'], ['1915-11-25', 'occ-ah'],
+    ['1918-09-29', 'serbia', 'contested'], ['1918-11-01', 'serbia'], ['1918-12-01', 'scs'],
+  ],
+  macedonia: [['1914', 'serbia'], ['1915-10-14', 'serbia', 'contested'], ['1915-12-01', 'occ-bg'], ['1916-09-12', 'occ-bg', 'contested'], ['1918-09-29', 'serbia'], ['1918-12-01', 'scs']],
+  montenegro: [['1914', 'montenegro'], ['1916-01-08', 'montenegro', 'contested'], ['1916-01-25', 'occ-ah'], ['1918-11-01', 'serbia', 'contested'], ['1918-12-01', 'scs']],
+  albania: [['1914', 'albania'], ['1914-09-03', 'albania', 'contested'], ['1916-02-27', 'occ-ah', 'contested'], ['1918-10-14', 'albania', 'contested']],
+  salonika: [['1914', 'greece'], ['1915-10-05', 'allied-occ', 'contested'], ['1918-09-30', 'greece']],
+  kavala: [['1914', 'greece'], ['1916-08-18', 'occ-bg'], ['1918-10-15', 'greece']],
+  greece: [['1914', 'greece']],
+  bulgaria: [['1914', 'bulgaria-n'], ['1915-10-14', 'bulgaria'], ['1918-09-30', 'bulgaria-n']],
+  wallachia: [['1914', 'romania'], ['1916-11-23', 'romania', 'contested'], ['1916-12-06', 'occ-de'], ['1918-11-10', 'romania']],
+  dobruja: [['1914', 'romania'], ['1916-09-01', 'romania', 'contested'], ['1916-10-22', 'occ-bg'], ['1918-11-10', 'romania', 'contested'], ['1918-12-01', 'romania']],
+  moldavia: [['1914', 'romania'], ['1917-07-24', 'romania', 'contested'], ['1917-09-08', 'romania']],
+  bessarabia: merge(RUSSIA, [['1917-11-07', 'russia-rep', 'contested'], ['1918-01-26', 'romania', 'contested'], ['1918-04-09', 'romania']]),
+
+  // ── The Russian Empire ──────────────────────────────────────────────────
+  warsaw: [['1914', 'russia'], ['1914-10-01', 'russia', 'contested'], ['1915-08-05', 'occ-poland'], ['1916-11-05', 'poland-regency'], ['1918-11-11', 'poland']],
+  lublin: [['1914', 'russia'], ['1914-08-23', 'russia', 'contested'], ['1914-09-15', 'russia'], ['1915-07-01', 'russia', 'contested'], ['1915-07-30', 'occ-ah'], ['1918-11-07', 'poland']],
+  lithuania: [['1914', 'russia'], ['1915-08-01', 'russia', 'contested'], ['1915-09-19', 'ober-ost'], ['1918-11-11', 'lithuania', 'contested']],
+  courland: [['1914', 'russia'], ['1915-05-01', 'russia', 'contested'], ['1915-09-01', 'ober-ost'], ['1918-11-18', 'latvia', 'contested']],
+  livonia: merge(RUSSIA, [['1915-09-01', 'russia', 'contested'], ['1917-03-12', 'russia-rep', 'contested'], ['1917-09-03', 'ober-ost', 'contested'], ['1918-02-24', 'ober-ost'], ['1918-11-18', 'latvia', 'contested']]),
+  estonia: merge(RUSSIA, [['1918-02-24', 'ober-ost'], ['1918-11-11', 'estonia', 'contested']]),
+  belarus: merge(RUSSIA, [['1915-08-26', 'russia', 'contested'], ['1917-03-12', 'russia-rep', 'contested'], ['1917-11-07', 'soviet', 'contested'], ['1918-02-20', 'ober-ost'], ['1918-12-10', 'soviet', 'contested']]),
+  'right-bank-ukraine': merge(RUSSIA, [['1917-11-20', 'ukraine-pr'], ['1918-02-08', 'soviet', 'contested'], ['1918-03-01', 'ukraine-state'], ['1918-12-14', 'ukraine-pr', 'contested'], ['1919-02-05', 'soviet', 'contested']]),
+  'left-bank-ukraine': merge(RUSSIA, [['1917-11-20', 'ukraine-pr'], ['1917-12-25', 'soviet', 'contested'], ['1918-04-01', 'ukraine-state'], ['1918-12-20', 'soviet', 'contested']]),
+  'south-ukraine': merge(RUSSIA, [['1917-11-20', 'ukraine-pr'], ['1918-01-15', 'soviet', 'contested'], ['1918-03-13', 'ukraine-state'], ['1918-12-18', 'allied-occ', 'contested'], ['1919-04-06', 'soviet', 'contested']]),
+  petrograd: RUSSIA,
+  'central-russia': RUSSIA,
+  don: merge(RUSSIA, [['1917-11-07', 'soviet', 'contested']]),
+  finland: [['1914', 'russia'], ['1917-03-12', 'russia-rep'], ['1917-12-06', 'finland'], ['1918-01-27', 'finland', 'contested'], ['1918-05-16', 'finland']],
+  caucasus: [['1914', 'russia'], ['1917-03-12', 'russia-rep'], ['1918-04-22', 'transcaucasia', 'contested'], ['1918-11-17', 'transcaucasia']],
+
+  // ── The Ottoman Empire and its borders ──────────────────────────────────
+  thrace: [['1914', 'ottoman'], ['1918-10-30', 'ottoman-arm'], ['1918-11-13', 'allied-occ', 'contested']],
+  gallipoli: [['1914', 'ottoman'], ['1915-04-25', 'ottoman', 'contested'], ['1916-01-09', 'ottoman'], ['1918-10-30', 'ottoman-arm']],
+  'west-anatolia': [['1914', 'ottoman'], ['1918-10-30', 'ottoman-arm'], ['1919-05-15', 'ottoman-arm', 'contested']],
+  'central-anatolia': [['1914', 'ottoman'], ['1918-10-30', 'ottoman-arm'], ['1918-12-17', 'allied-occ', 'contested']],
+  'east-anatolia': [
+    ['1914', 'ottoman'], ['1914-11-02', 'ottoman', 'contested'], ['1915-01-17', 'ottoman'], ['1915-05-19', 'ottoman', 'contested'], ['1916-02-16', 'russian-occ', 'contested'],
+    ['1918-02-12', 'ottoman', 'contested'], ['1918-04-01', 'ottoman'], ['1918-10-30', 'ottoman-arm'],
+  ],
+  syria: [['1914', 'ottoman'], ['1918-09-25', 'ottoman', 'contested'], ['1918-10-01', 'arab']],
+  palestine: [['1914', 'ottoman'], ['1917-03-26', 'ottoman', 'contested'], ['1917-11-16', 'britain', 'contested'], ['1918-09-25', 'britain']],
+  mosul: [['1914', 'ottoman'], ['1918-10-30', 'ottoman-arm'], ['1918-11-08', 'britain']],
+  baghdad: [['1914', 'ottoman'], ['1915-11-22', 'ottoman', 'contested'], ['1916-04-29', 'ottoman'], ['1916-12-13', 'ottoman', 'contested'], ['1917-03-11', 'britain']],
+  basra: [['1914', 'ottoman'], ['1914-11-06', 'britain', 'contested'], ['1914-11-22', 'britain']],
+  hejaz: [['1914', 'ottoman'], ['1916-06-10', 'hejaz', 'contested'], ['1919-01-10', 'hejaz']],
+  sinai: [['1914', 'britain'], ['1914-11-05', 'britain', 'contested'], ['1916-12-21', 'britain']],
+  egypt: [['1914', 'britain'], ['1919-03-08', 'britain', 'contested']],
+  libya: [['1914', 'italy'], ['1914-11-01', 'italy', 'contested']],
+  cyprus: [['1914', 'britain']],
+  persia: [['1914', 'persia'], ['1915-01-01', 'persia', 'contested']],
+};
+
+const out = new URL('../src/data/ww1/territory.json', import.meta.url);
+const j = JSON.stringify;
+const lines = [
+  '{',
+  `  "note": ${j(note)},`,
+  '  "polities": [',
+  polities.map((p) => `    ${j(p)}`).join(',\n'),
+  '  ],',
+  '  "regions": {',
+  Object.entries(regions).map(([id, steps]) => `    ${j(id)}: ${j(steps)}`).join(',\n'),
+  '  }',
+  '}',
+];
+writeFileSync(out, lines.join('\n') + '\n');
+console.log(`wrote ${Object.keys(regions).length} regions, ${polities.length} polities`);
