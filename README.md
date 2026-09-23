@@ -43,11 +43,11 @@ The dataset was merged into the source repo at 00:38, as PR #1, just before my 0
 | Time | Claude (A) | Codex (B) |
 |---|---|---|
 | 00:19–00:20 | Prompt arrives. | Prompt arrives. |
-| 00:21 | Finds the brief references a dataset that isn't in the repo. | Same finding. Notes that it has "asked where that dataset lives" and carries on building anyway. |
+| 00:21 | Finds the brief references a dataset that isn't in the repo, and doesn't ask me about it. | Same finding. **Asks me straight away** where the data is, with the options "I'll provide the data/location" or "Use a researched public timeline for now". Then it ploughs on without waiting for an answer. |
 | 00:23–00:26 | Tracks the dataset to the private Drive tarball, fails to reach it, and decides to write its own sourced Mongol dataset. | Map engine working; a research subagent writes 36 sourced events covering 1206–1368. |
 | 00:28 | Spawns three research subagents, one per period, while it builds 13th-century regions out of Natural Earth province shapes. | Checks desktop and mobile in headless Chromium and fixes polygon winding bugs. |
 | 00:34 | | GitHub Pages is refused on the private fork under my org's plan, so it publishes the built site to a separate public repo. |
-| 00:36 | Stops and asks me how to get the dataset. | |
+| 00:36 | Finally asks me how to get the dataset, 15 minutes and three research subagents in, and waits for the answer. | |
 | 00:39 | | **Finishes** at [qingsworkshop.github.io/atlas-of-empires](https://qingsworkshop.github.io/atlas-of-empires/) with its own 36 events. Flags the missing dataset, and flags that this is a github.io link rather than qingsworkshop.com. |
 | 00:39–00:40 | **I tell both the data is in.** | |
 | 00:40–00:44 | Pulls the pack and rewrites its validator so the build fails unless every include row appears exactly once. Redirects its three research agents onto the 103 canonical rows. | |
