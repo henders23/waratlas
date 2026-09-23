@@ -9,6 +9,8 @@ import { formatDate } from './data/time';
 
 const war = loadMongol();
 const HEADLINE_SECONDS = 3.4;
+// ?capture renders deterministic frames for video: no CSS animation, no easing.
+const capture = new URLSearchParams(location.search).has('capture');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 function readHash() {
@@ -39,7 +41,7 @@ export function App() {
     const base = `${import.meta.env.BASE_URL}geo/`;
     const a = new AtlasMap(mapEl.current!, war, base);
     atlas.current = a;
-    (window as { __atlas?: AtlasMap }).__atlas = a;
+    Object.assign(window, { __atlas: a, __store: store, __war: war });
     a.onReady = () => {
       setReady(true);
       setArea(a.mongolArea(store.get().t));
@@ -77,7 +79,7 @@ export function App() {
       last = now;
       const s = store.get();
       let t = s.t;
-      if (s.playing) {
+      if (s.playing && !capture) {
         const slow = dwell > 0 ? 0.22 : 1;
         dwell = Math.max(0, dwell - dt);
         t = Math.min(war.to, t + dt * s.speed * slow);
@@ -96,7 +98,7 @@ export function App() {
       } else {
         prevPhase = phaseAt(war.phases, t).id;
       }
-      if (s.headline && now > headlineUntil) store.set({ headline: null });
+      if (s.headline && now > headlineUntil && !capture) store.set({ headline: null });
       prevT = t;
       // Screenshot tooling sets __freeze so software renderers can settle a frame.
       if (!(window as { __freeze?: boolean }).__freeze) atlas.current?.update(t);
@@ -112,7 +114,7 @@ export function App() {
 
   // Fly to a selected event and keep the URL shareable.
   useEffect(() => {
-    if (selEv && ready) atlas.current?.flyToEvent(selEv);
+    if (selEv && ready && !capture) atlas.current?.flyToEvent(selEv);
   }, [selEv, ready]);
   useEffect(() => {
     if (playing) return;
@@ -158,7 +160,7 @@ export function App() {
   const headEv = headline ? byId.get(headline) : undefined;
 
   return (
-    <div className={`app${selEv || panel === 'chronicle' ? ' has-panel' : ''}${ready ? ' ready' : ''}`}>
+    <div className={`app${capture ? ' capture' : ''}${selEv || panel === 'chronicle' ? ' has-panel' : ''}${ready ? ' ready' : ''}`}>
       <div className="map" ref={mapEl} />
       <div className="vignette" />
       <Header war={war} />

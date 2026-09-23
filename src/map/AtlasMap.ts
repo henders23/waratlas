@@ -496,7 +496,8 @@ export class AtlasMap {
 
   private updateEvents(t: number) {
     const { selected, hovered, showPast } = store.get();
-    const now = performance.now() / 1000;
+    // Frame-by-frame video capture drives the pulse clock itself.
+    const now = (window as { __clock?: number }).__clock ?? performance.now() / 1000;
     for (const e of this.war.events) {
       const appear = clamp01((t - e.t0 + 0.06) / 0.06);
       let vis = 0;

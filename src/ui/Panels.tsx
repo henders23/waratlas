@@ -63,13 +63,15 @@ export function Clock({ war, empireKm2 }: { war: WarData; empireKm2: number }) {
   );
 }
 
+const CAPTURE = new URLSearchParams(location.search).has('capture');
+
 function AnimatedNumber({ value, digits }: { value: number; digits: number }) {
   const [shown, setShown] = useState(value);
   const cur = useRef(value);
   useEffect(() => {
     let raf = 0;
     const tick = () => {
-      cur.current += (value - cur.current) * 0.18;
+      cur.current += (value - cur.current) * (CAPTURE ? 1 : 0.18);
       if (Math.abs(value - cur.current) < 0.005) cur.current = value;
       setShown(cur.current);
       if (cur.current !== value) raf = requestAnimationFrame(tick);

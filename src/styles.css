@@ -271,3 +271,6 @@ dialog.about::backdrop { background: rgba(3,5,10,.6); -webkit-backdrop-filter: b
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+
+/* Frame-by-frame video capture: every frame shows its final state. */
+.capture *, .capture *::before, .capture *::after { animation: none !important; transition: none !important; }
