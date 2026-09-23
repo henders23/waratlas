@@ -302,7 +302,7 @@ export class AtlasMap {
     const z = this.map.getZoom();
     this.map.getContainer().style.setProperty('--z', String(z));
     this.map.getContainer().classList.toggle('z-far', z < 2.6);
-    this.map.getContainer().classList.toggle('z-near', z >= 3.6);
+    this.map.getContainer().classList.toggle('z-near', z >= 3.0);
   }
 
   private bindPointer() {
