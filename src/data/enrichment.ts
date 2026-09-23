@@ -1,4 +1,4 @@
-/** Display metadata for the 103 included events in the round-71 denominator. */
+/** Display metadata for the 107 included events in the round-72 denominator. */
 export type EventCategory = 'formation' | 'campaign' | 'turning' | 'culture' | 'fracture';
 
 export type EventEnrichment = {
@@ -41,6 +41,10 @@ export const enrichment: Record<string, { title: string; category: EventCategory
   'mongol:capture-samarkand-1220': { title: 'Samarkand falls', category: 'campaign', marker: { lon: 66.97, lat: 39.65, location: 'Samarkand' } },
   'mongol:pursuit-muhammad-1220-1221': { title: 'The pursuit of Sultan Muhammad', category: 'campaign' },
   'mongol:capture-merv-1221': { title: 'Merv falls', category: 'campaign', marker: { lon: 62.18, lat: 37.66, location: 'Merv archaeological site' } },
+  'mongol:capture-gurganj-1221': { title: 'Gurganj falls', category: 'campaign', marker: { lon: 58.16, lat: 42.33, location: 'Gurganj (Kunya-Urgench)' } },
+  'mongol:capture-nishapur-1221': { title: 'Nishapur falls', category: 'campaign', marker: { lon: 58.79, lat: 36.21, location: 'Nishapur locality' } },
+  'mongol:first-capture-herat-1221': { title: 'Herat first taken', category: 'campaign', marker: { lon: 62.2, lat: 34.35, location: 'Herat locality' } },
+  'mongol:recapture-herat-1222': { title: 'Herat retaken after revolt', category: 'campaign', marker: { lon: 62.2, lat: 34.35, location: 'Herat locality' } },
   'mongol:battle-parwan-1221': { title: 'Jalal al-Din wins at Parwan', category: 'turning' },
   'mongol:capture-termez-1220': { title: 'Termez stormed', category: 'campaign', marker: { lon: 67.27, lat: 37.22, location: 'Termez' } },
   'mongol:capture-bamyan-1221': { title: 'Bamyan falls', category: 'campaign', marker: { lon: 67.83, lat: 34.82, location: 'Bamyan' } },

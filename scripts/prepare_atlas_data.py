@@ -1,7 +1,7 @@
-"""Project the frozen R71 disposition pack into atlas display data.
+"""Project the reviewed R72 denominator amendment into atlas display data.
 
-The upstream CSV is retained byte-for-byte. This projection makes explicit
-UI date corrections and keeps source/geometry caveats attached to each row.
+R71 remains immutable. R72 corrects five dates and splits the orphan aggregate.
+The projection keeps source and geometry caveats attached to each row.
 """
 import csv
 import json
@@ -9,16 +9,12 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / 'data/mongol/r71/mongol_denominator_round71.csv'
+SOURCE = ROOT / 'data/mongol/r72/mongol_denominator_round72.csv'
 TARGET = ROOT / 'src/data/denominator.json'
 
-# Corrections supported by each row's disposition_reason; the frozen pack is not edited.
+# The R72 source carries all historical date corrections. This is only a
+# shorter display label for a long-running war bounded by the atlas window.
 DATE_CORRECTIONS = {
-    'mongol:wulahai-capture-1209': '1209',
-    'mongol:invasion-champa-1282-1284': '1282–1284',
-    'mongol:second-invasion-dai-viet-1285': '1285',
-    'mongol:sambyeolcho-revolt-1270-1273': '1270–1273',
-    'mongol:conquest-dali-yunnan-1253-1254': '1253–1254',
     'mongol:qaidu-qubilai-war-atlas-window': '1260s–1294',
 }
 PLACEMENT_CORRECTIONS = {
@@ -26,20 +22,19 @@ PLACEMENT_CORRECTIONS = {
     'mongol:chormaqan-transcaucasia': 1235,
     'mongol:qaidu-qubilai-war-atlas-window': 1265,
 }
-EXPECTED_ORPHAN_MERGE = 'mongol-cand:qarakhitai_khwarazm_central_asia:10:urgench-nishapur-herat'
-
 with SOURCE.open(newline='', encoding='utf-8') as stream:
     rows = list(csv.DictReader(stream))
 
-assert len(rows) == 109, f'Expected 109 candidates, got {len(rows)}'
+assert len(rows) == 113, f'Expected 113 candidates, got {len(rows)}'
 include = [row for row in rows if row['disposition'] == 'include']
 merge = [row for row in rows if row['disposition'] == 'merge']
-assert len(include) == 103 and len(merge) == 6, 'R71 disposition count changed'
+superseded = [row for row in rows if row['disposition'] == 'superseded']
+assert len(include) == 107 and len(merge) == 5 and len(superseded) == 1, 'R72 disposition count changed'
 ids = [row['canonical_id'] for row in include]
-assert len(set(ids)) == 103, 'Duplicate include canonical ID'
+assert len(set(ids)) == 107, 'Duplicate include canonical ID'
 assert set(DATE_CORRECTIONS).issubset(ids), 'Date correction target missing'
 orphans = [row['candidate_id'] for row in merge if row['canonical_id'] not in ids]
-assert orphans == [EXPECTED_ORPHAN_MERGE], f'Unexpected merge target anomaly: {orphans}'
+assert not orphans, f'Orphan merge target: {orphans}'
 
 result = []
 for row in include:
@@ -70,4 +65,4 @@ for row in include:
 
 result.sort(key=lambda row: (row['year'], row['dateLabel'], row['id']))
 TARGET.write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-print(f'Prepared {len(result)} include records; {len(merge)} merges omitted; known orphan merge disclosed.')
+print(f'Prepared {len(result)} include records; {len(merge)} merges and {len(superseded)} superseded aggregate omitted.')

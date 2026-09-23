@@ -21,7 +21,7 @@ export type AtlasEvent = {
 };
 
 const missing = rows.filter(row => !enrichment[row.id]);
-if (missing.length) throw new Error(`Missing R71 atlas enrichment: ${missing.map(row => row.id).join(', ')}`);
+if (missing.length) throw new Error(`Missing R72 atlas enrichment: ${missing.map(row => row.id).join(', ')}`);
 
 export const events: AtlasEvent[] = rows.map(row => ({
   ...row,
