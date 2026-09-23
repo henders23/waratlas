@@ -36,7 +36,7 @@ These are all the messages I sent, word for word, with the time each one arrived
 | 01:29 | Codex | and can you do me a video recording for twitter please? |
 | 01:56 | Claude | hey, sorry, you weren't responding so I had to hit abort on you |
 
-The dataset was merged into the source repo at 00:38, as PR #1, just before my 00:39 answers.
+Between Claude's question and my answers, I got Lupe to upload the dataset to the source repo as PR #1, merged at 00:38.
 
 ## What happened
 
@@ -48,6 +48,7 @@ The dataset was merged into the source repo at 00:38, as PR #1, just before my 0
 | 00:28 | Spawns three research subagents, one per period, while it builds 13th-century regions out of Natural Earth province shapes. | Checks desktop and mobile in headless Chromium and fixes polygon winding bugs. |
 | 00:34 | | GitHub Pages is refused on the private fork under my org's plan, so it publishes the built site to a separate public repo. |
 | 00:36 | Finally asks me how to get the dataset, 15 minutes and three research subagents in, and waits for the answer. | |
+| 00:37–00:38 | **I get Lupe, my Grok bot, to upload the dataset.** PR #1 is opened at 00:37 and merged at 00:38. | |
 | 00:39 | | **Finishes** at [qingsworkshop.github.io/atlas-of-empires](https://qingsworkshop.github.io/atlas-of-empires/) with its own 36 events. Flags the missing dataset, and flags that this is a github.io link rather than qingsworkshop.com. |
 | 00:39–00:40 | **I tell both the data is in.** | |
 | 00:40–00:44 | Pulls the pack and rewrites its validator so the build fails unless every include row appears exactly once. Redirects its three research agents onto the 103 canonical rows. | |
