@@ -31,4 +31,6 @@ cd ../../.. && python3 scripts/prepare_atlas_data.py && npm run build
 
 The source lives in the private GitHub fork `qingsworkshop/multi-war-atlas-b`. The public static build lives in `qingsworkshop/atlas-of-empires` and is served by GitHub Pages at `https://qingsworkshop.github.io/atlas-of-empires/`.
 
-To publish an update, run `GITHUB_PAGES=true npm run build`, then copy `dist/` to the public site's `main` branch. The Pages repository contains only built static assets; it is separate because the organization’s current plan rejected GitHub Pages on the private source fork.
+To publish an update to Pages, run `GITHUB_PAGES=true npm run build`, then copy `dist/` to the public site's `main` branch. The Pages repository contains only built static assets; it is separate because the organization’s current plan rejected GitHub Pages on the private source fork.
+
+The workshop route uses `ATLAS_BASE_PATH=/war-atlas-b/ npm run build`; its generated files are copied into `public/war-atlas-b/` in `yanqingcheng/qings-workshop-homepage`. That site rewrites `/war-atlas-b` to the export's `index.html`.
