@@ -25,6 +25,13 @@ export interface NamedMarker {
   lat: number;
 }
 
+/** A public-domain picture from Wikimedia Commons shown at the top of an event card. */
+export interface EventImage {
+  /** the Commons file name, without the "File:" prefix */
+  file: string;
+  caption: string;
+}
+
 export interface WarEvent {
   id: string;
   /** candidate_id of the research-pack row this event renders, where the war has a pack */
@@ -55,6 +62,7 @@ export interface WarEvent {
   uncertaintyNote?: string;
   sources: string[];
   importance: 1 | 2 | 3;
+  image?: EventImage;
 }
 
 export interface Phase {

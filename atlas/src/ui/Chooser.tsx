@@ -11,7 +11,7 @@ export function Chooser({ onPick, onPrefetch }: { onPick: (id: string) => void; 
     <main className="chooser">
       <Graticule />
       <header className="ch-head">
-        <span className="kicker">An exhibit from Qing’s Workshop</span>
+        <span className="kicker">Edited by Paul Hendrie</span>
         <h1>Atlas of Wars</h1>
         <p>Choose a war. Each one plays out on a living globe: drag through the years or press play, and open the events that shaped it.</p>
       </header>
