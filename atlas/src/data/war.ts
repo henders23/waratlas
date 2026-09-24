@@ -1,4 +1,4 @@
-import type { City, Outcome, Phase, Reign, WarEvent } from './schema';
+import type { City, EventImage, Outcome, Phase, Reign, WarEvent } from './schema';
 import { toYear } from './time';
 
 export type { Phase, Reign, City, PhaseId } from './schema';
@@ -39,6 +39,8 @@ export interface WarDef {
   from: number;
   to: number;
   events: WarEvent[];
+  /** pictures for event cards, keyed by event id */
+  images?: Record<string, EventImage>;
   territory: TerritoryJson;
   phases: Phase[];
   reigns: Reign[];
@@ -70,7 +72,7 @@ export interface WarDef {
   };
 }
 
-export interface WarData extends Omit<WarDef, 'events' | 'territory'> {
+export interface WarData extends Omit<WarDef, 'events' | 'images' | 'territory'> {
   events: AtlasEvent[];
   polities: Map<string, Polity>;
   timelines: Map<string, Step[]>;
@@ -87,7 +89,7 @@ export function buildWar(def: WarDef): WarData {
     .map((e) => {
       const t0 = toYear(e.start);
       const t1 = e.end ? toYear(e.end) + SPAN[e.datePrecision === 'day' ? 'day' : e.datePrecision] : t0 + SPAN[e.datePrecision];
-      return { ...e, t0, t1: Math.max(t1, t0 + 1 / 24), index: 0 };
+      return { ...e, image: e.image ?? def.images?.[e.id], t0, t1: Math.max(t1, t0 + 1 / 24), index: 0 };
     })
     .sort((a, b) => a.t0 - b.t0 || b.importance - a.importance)
     .map((e, index) => ({ ...e, index }));
@@ -99,8 +101,9 @@ export function buildWar(def: WarDef): WarData {
       steps.map(([d, polity, status]) => ({ t: toYear(d), polity, status: (status ?? 'core') as Status })),
     );
   }
-  const { events: _e, territory, ...rest } = def;
+  const { events: _e, images: _i, territory, ...rest } = def;
   void _e;
+  void _i;
   return { ...rest, events, polities, timelines, territoryNote: territory.note, timeScale: (def.to - def.from) / 88 };
 }
 

@@ -199,7 +199,7 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
       {intro && (
         <div className="intro">
           <div className="intro-card">
-            <span className="kicker">An exhibit from Qing’s Workshop</span>
+            <span className="kicker">Atlas of Wars</span>
             <h1>{war.text.intro.title}</h1>
             <p className="intro-dates">{war.text.intro.dates}</p>
             <p>{war.text.intro.blurb.replace('{n}', String(war.events.length))}</p>

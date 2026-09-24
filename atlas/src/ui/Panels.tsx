@@ -248,7 +248,7 @@ function MongolAbout({ war, counts }: { war: WarData; counts: Counts }) {
   return (
     <>
       <p>
-        An exhibit in Qing’s Workshop. Drag the timeline, or press play, to watch eighty-eight years of Mongol expansion
+        Drag the timeline, or press play, to watch eighty-eight years of Mongol expansion
         between Chinggis Qan’s enthronement in 1206 and Qubilai’s death in 1294. Click any marker for the event behind it.
       </p>
       <h3>What the markers are</h3>
@@ -273,7 +273,7 @@ function NapoleonicAbout({ war, counts }: { war: WarData; counts: Counts }) {
   return (
     <>
       <p>
-        An exhibit in Qing’s Workshop. Drag the timeline, or press play, to watch twenty-three years of war between revolutionary and
+        Drag the timeline, or press play, to watch twenty-three years of war between revolutionary and
         imperial France and the rest of Europe, from the declaration of war on Austria in April 1792 to Napoleon’s surrender and exile in 1815.
         Click any marker for the event behind it.
       </p>
@@ -299,7 +299,7 @@ function Ww1About({ war, counts }: { war: WarData; counts: Counts }) {
   return (
     <>
       <p>
-        An exhibit in Qing’s Workshop. Drag the timeline, or press play, to follow the First World War from the assassination at Sarajevo on
+        Drag the timeline, or press play, to follow the First World War from the assassination at Sarajevo on
         28 June 1914 to the armistice of 11 November 1918, and on through the collapse of the empires to the Treaty of Versailles on
         28 June 1919. Click any marker for the event behind it.
       </p>

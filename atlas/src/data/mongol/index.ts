@@ -1,6 +1,7 @@
 import type { WarDef, TerritoryJson } from '../war';
 import type { WarEvent } from '../schema';
 import territory from './territory.json';
+import images from './images.json';
 import { PHASES, REIGNS, CITIES } from './meta';
 
 const eventFiles = import.meta.glob<WarEvent[]>('./events-*.json', { eager: true, import: 'default' });
@@ -12,6 +13,7 @@ export const MONGOL: WarDef = {
   from: 1206,
   to: 1294.5,
   events: Object.values(eventFiles).flat(),
+  images,
   territory: territory as TerritoryJson,
   phases: PHASES,
   reigns: REIGNS,

@@ -1,6 +1,7 @@
 import type { WarDef, TerritoryJson } from '../war';
 import type { WarEvent } from '../schema';
 import territory from './territory.json';
+import images from './images.json';
 import { PHASES, REIGNS, CITIES } from './meta';
 
 const eventFiles = import.meta.glob<WarEvent[]>('./events-*.json', { eager: true, import: 'default' });
@@ -12,6 +13,7 @@ export const NAPOLEONIC: WarDef = {
   from: 1792.25,
   to: 1815.85,
   events: Object.values(eventFiles).flat(),
+  images,
   territory: territory as TerritoryJson,
   phases: PHASES,
   reigns: REIGNS,

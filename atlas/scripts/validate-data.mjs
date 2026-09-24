@@ -148,6 +148,14 @@ function validateWar(war, only) {
       }
     }
   }
+  if (!only.length) {
+    const images = JSON.parse(readFileSync(join(dir, 'images.json'), 'utf8'));
+    for (const [id, img] of Object.entries(images)) {
+      if (!seen.has(id)) errors.push(`${war}/images.json: no event with id ${id}`);
+      if (!img.file || /^File:|_|%/.test(img.file)) errors.push(`${war}/images.json ${id}: file must be a plain Commons file name`);
+      if (!img.caption) errors.push(`${war}/images.json ${id}: missing caption`);
+    }
+  }
   if (cfg.pack && !only.length) {
     const missing = INCLUDED.filter((id) => !covered.has(id));
     if (missing.length) errors.push(`pack include rows with no event (${missing.length}): ${missing.join(', ')}`);

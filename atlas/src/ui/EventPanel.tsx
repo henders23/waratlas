@@ -1,3 +1,5 @@
+import { useState } from 'react';
+import type { EventImage } from '../data/schema';
 import type { AtlasEvent, WarData } from '../data/war';
 import { formatRange } from '../data/time';
 import { KIND_LABEL, OUTCOME_COLORS, pinDataUrl } from '../map/icons';
@@ -39,6 +41,7 @@ export function EventPanel({ ev, war, onClose }: { ev: AtlasEvent; war: WarData;
         </p>
       </header>
       <div className="ev-body">
+        {ev.image && <EventFigure image={ev.image} />}
         <p className="ev-summary">{ev.summary}</p>
         <div className="ev-sides">
           <div>
@@ -88,5 +91,24 @@ export function EventPanel({ ev, war, onClose }: { ev: AtlasEvent; war: WarData;
         <button disabled={!next} onClick={() => go(next)}>{next ? next.title : ''} →</button>
       </footer>
     </aside>
+  );
+}
+
+const COMMONS = 'https://commons.wikimedia.org/wiki/';
+
+/** A public-domain picture from Wikimedia Commons; it hides itself if the file fails to load. */
+function EventFigure({ image }: { image: EventImage }) {
+  const [failed, setFailed] = useState(false);
+  if (failed) return null;
+  const name = encodeURIComponent(image.file.replace(/ /g, '_'));
+  return (
+    <figure className="ev-figure">
+      <a href={`${COMMONS}File:${name}`} target="_blank" rel="noreferrer">
+        <img src={`${COMMONS}Special:FilePath/${name}?width=640`} alt={image.caption} loading="lazy" onError={() => setFailed(true)} />
+      </a>
+      <figcaption>
+        {image.caption} <span>· Wikimedia Commons</span>
+      </figcaption>
+    </figure>
   );
 }

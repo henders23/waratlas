@@ -1,6 +1,6 @@
 # Multi-war history atlas — intent brief
 
-Qing’s words from seat chat (Lupe), 2026-09-22 / 2026-09-23. Do not soften or invent beyond this.
+The original brief, 2026-09-22 / 2026-09-23. Do not soften or invent beyond this.
 
 ## Product
 
