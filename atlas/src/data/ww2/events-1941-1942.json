@@ -5,22 +5,56 @@
     "geometry": "area",
     "radiusKm": 900,
     "markers": [
-      {"name": "Brest-Litovsk", "lon": 23.69, "lat": 52.10},
-      {"name": "Lvov (Lviv)", "lon": 24.03, "lat": 49.84},
-      {"name": "Kaunas", "lon": 23.90, "lat": 54.90}
+      {
+        "name": "Brest-Litovsk",
+        "lon": 23.69,
+        "lat": 52.1
+      },
+      {
+        "name": "Lvov (Lviv)",
+        "lon": 24.03,
+        "lat": 49.84
+      },
+      {
+        "name": "Kaunas",
+        "lon": 23.9,
+        "lat": 54.9
+      }
     ],
     "kind": "campaign",
     "start": "1941-06-22",
     "end": "1941-12-05",
     "datePrecision": "day",
     "place": "The Soviet Union's western borderlands, from the Baltic to the Black Sea",
-    "lon": 28.0,
-    "lat": 53.0,
+    "lon": 28,
+    "lat": 53,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany, Romania, Finland, Hungary, Italy and Slovakia", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Hitler", "Brauchitsch", "Halder", "Leeb", "Bock", "Rundstedt"], "opponent": ["Stalin", "Timoshenko", "Zhukov", "Pavlov", "Kirponos"]},
-    "strength": {"focus": "c. 3.3 million German troops, with c. 600,000 allied; c. 3,500 tanks and c. 2,500 aircraft", "opponent": "c. 2.7–3 million in the western military districts"},
+    "sides": {
+      "focus": "Germany, Romania, Finland, Hungary, Italy and Slovakia",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler",
+        "Brauchitsch",
+        "Halder",
+        "Leeb",
+        "Bock",
+        "Rundstedt"
+      ],
+      "opponent": [
+        "Stalin",
+        "Timoshenko",
+        "Zhukov",
+        "Pavlov",
+        "Kirponos"
+      ]
+    },
+    "strength": {
+      "focus": "c. 3.3 million German troops, with c. 600,000 allied; c. 3,500 tanks and c. 2,500 aircraft",
+      "opponent": "c. 2.7–3 million in the western military districts"
+    },
     "casualties": "Soviet losses in 1941 c. 4.5 million, including c. 3 million captured; German c. 800,000 casualties by the end of November",
     "outcome": "victory",
     "summary": "At dawn on 22 June 1941 Germany and its allies invade the Soviet Union along an 1,800-mile front, opening the largest and most murderous campaign in history.",
@@ -49,8 +83,20 @@
     "lat": 52.08,
     "locationCertainty": "exact",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Schlieper"], "opponent": ["Gavrilov", "Fomin", "Zubachev"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Schlieper"
+      ],
+      "opponent": [
+        "Gavrilov",
+        "Fomin",
+        "Zubachev"
+      ]
+    },
     "casualties": "German 45th Infantry Division c. 450 killed and c. 1,000 wounded; Soviet c. 2,000 or more killed and several thousand captured",
     "outcome": "victory",
     "summary": "On the frontier itself, the garrison of the old Tsarist fortress at Brest fights on for days after the front has rolled past, its last defenders holding out into July.",
@@ -60,7 +106,7 @@
     "uncertaintyNote": "The date when the last resistance ended is uncertain; Soviet accounts long told of defenders surviving into August, and some details of the legend cannot be verified. Garrison and loss figures vary between sources.",
     "sources": [
       "Rostislav Aliev, The Siege of Brest 1941 (2013)",
-      "Christian Ganzer, ed., Brest, Summer 1941 (2016)",
+      "Richard Overy, Russia's War (1997)",
       "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)"
     ],
     "importance": 1
@@ -71,8 +117,16 @@
     "geometry": "area",
     "radiusKm": 220,
     "markers": [
-      {"name": "Białystok", "lon": 23.16, "lat": 53.13},
-      {"name": "Minsk", "lon": 27.56, "lat": 53.90}
+      {
+        "name": "Białystok",
+        "lon": 23.16,
+        "lat": 53.13
+      },
+      {
+        "name": "Minsk",
+        "lon": 27.56,
+        "lat": 53.9
+      }
     ],
     "kind": "battle",
     "start": "1941-06-22",
@@ -83,8 +137,21 @@
     "lat": 53.5,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Bock", "Guderian", "Hoth", "Kluge"], "opponent": ["Pavlov"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Guderian",
+        "Hoth",
+        "Kluge"
+      ],
+      "opponent": [
+        "Pavlov"
+      ]
+    },
     "casualties": "Soviet Western Front c. 420,000 killed, missing or captured (Germans claimed c. 320,000 prisoners); German losses far lower",
     "outcome": "victory",
     "summary": "Army Group Centre's two panzer groups race around the Soviet Western Front and meet at Minsk, trapping hundreds of thousands of Red Army soldiers in the first great encirclement of the war.",
@@ -105,21 +172,46 @@
     "geometry": "area",
     "radiusKm": 900,
     "markers": [
-      {"name": "Kamianets-Podilskyi", "lon": 26.58, "lat": 48.68},
-      {"name": "Rumbula, near Riga", "lon": 24.23, "lat": 56.89},
-      {"name": "Ninth Fort, Kaunas", "lon": 23.86, "lat": 54.94}
+      {
+        "name": "Kamianets-Podilskyi",
+        "lon": 26.58,
+        "lat": 48.68
+      },
+      {
+        "name": "Rumbula, near Riga",
+        "lon": 24.23,
+        "lat": 56.89
+      },
+      {
+        "name": "Ninth Fort, Kaunas",
+        "lon": 23.86,
+        "lat": 54.94
+      }
     ],
     "kind": "massacre",
     "start": "1941-06-22",
     "end": "1944",
     "datePrecision": "day",
     "place": "German-occupied Soviet territory, from the Baltic states to Ukraine",
-    "lon": 27.0,
+    "lon": 27,
     "lat": 52.5,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany (SS, police and army), with local auxiliaries and Romanian forces", "opponent": "Jews of the occupied Soviet Union, with Roma, Soviet officials and others"},
-    "commanders": {"focus": ["Himmler", "Heydrich", "Jeckeln", "Stahlecker", "Nebe", "Ohlendorf", "Rasch"]},
+    "sides": {
+      "focus": "Germany (SS, police and army), with local auxiliaries and Romanian forces",
+      "opponent": "Jews of the occupied Soviet Union, with Roma, Soviet officials and others"
+    },
+    "commanders": {
+      "focus": [
+        "Himmler",
+        "Heydrich",
+        "Jeckeln",
+        "Stahlecker",
+        "Nebe",
+        "Ohlendorf",
+        "Rasch"
+      ]
+    },
     "casualties": "c. 1.5–2 million Jews murdered by shooting in the occupied Soviet territories, most of them in 1941–42",
     "outcome": "n/a",
     "summary": "Behind the advancing armies, SS Einsatzgruppen, police battalions and local collaborators shoot Jewish men, then whole communities, at pits on the edge of hundreds of towns.",
@@ -148,7 +240,10 @@
     "lat": 54.63,
     "locationCertainty": "exact",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany (SD and Einsatzkommando 9), with the Lithuanian Special Squad", "opponent": "Jews of Wilno, with Poles and Soviet prisoners of war"},
+    "sides": {
+      "focus": "Germany (SD and Einsatzkommando 9), with the Lithuanian Special Squad",
+      "opponent": "Jews of Wilno, with Poles and Soviet prisoners of war"
+    },
     "casualties": "c. 70,000–100,000 people murdered, of whom c. 70,000 were Jews",
     "outcome": "n/a",
     "summary": "In the woods outside Wilno, German SD men and a Lithuanian killing squad shoot tens of thousands of Jews at pits the Soviets had dug for fuel tanks.",
@@ -173,11 +268,14 @@
     "end": "1945-05",
     "datePrecision": "day",
     "place": "Prisoner camps in the occupied Soviet Union, Poland and Germany",
-    "lon": 24.0,
-    "lat": 52.0,
+    "lon": 24,
+    "lat": 52,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany (Wehrmacht and SS)", "opponent": "Soviet prisoners of war"},
+    "sides": {
+      "focus": "Germany (Wehrmacht and SS)",
+      "opponent": "Soviet prisoners of war"
+    },
     "casualties": "c. 3 million of c. 5.7 million Soviet prisoners died in German hands; c. 2 million of them by February 1942",
     "outcome": "n/a",
     "summary": "Millions of captured Red Army soldiers are herded into open-air enclosures and left to die of hunger, cold and disease; political officers and Jews among them are shot.",
@@ -197,7 +295,11 @@
     "title": "Battle of Smolensk",
     "geometry": "site",
     "markers": [
-      {"name": "Yelnya", "lon": 33.18, "lat": 54.57}
+      {
+        "name": "Yelnya",
+        "lon": 33.18,
+        "lat": 54.57
+      }
     ],
     "kind": "battle",
     "start": "1941-07-10",
@@ -208,8 +310,24 @@
     "lat": 54.78,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Bock", "Guderian", "Hoth", "Kluge"], "opponent": ["Timoshenko", "Konev", "Zhukov", "Rokossovsky"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Guderian",
+        "Hoth",
+        "Kluge"
+      ],
+      "opponent": [
+        "Timoshenko",
+        "Konev",
+        "Zhukov",
+        "Rokossovsky"
+      ]
+    },
     "casualties": "Soviet c. 760,000, of which c. 485,000 killed, missing or captured; German c. 100,000 or more",
     "outcome": "victory",
     "summary": "Army Group Centre encircles another Soviet army group around Smolensk, on the road to Moscow, but two months of furious counter-attacks slow the German advance for the first time.",
@@ -233,12 +351,20 @@
     "end": "1941-08-14",
     "datePrecision": "day",
     "place": "Placentia Bay, off Argentia, Newfoundland (Canada)",
-    "lon": -54.0,
+    "lon": -54,
     "lat": 47.3,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "The Axis (not a party)", "opponent": "Britain and the United States"},
-    "commanders": {"opponent": ["Churchill", "Roosevelt"]},
+    "sides": {
+      "focus": "The Axis (not a party)",
+      "opponent": "Britain and the United States"
+    },
+    "commanders": {
+      "opponent": [
+        "Churchill",
+        "Roosevelt"
+      ]
+    },
     "outcome": "n/a",
     "summary": "Churchill and Roosevelt meet aboard warships in a Newfoundland bay and set out shared aims for the post-war world, though the United States is still not at war.",
     "detail": "Churchill crossed the Atlantic in the new battleship Prince of Wales, Roosevelt arrived aboard the cruiser Augusta, having told the press he was going fishing. Over four days in Placentia Bay the two leaders, with their military chiefs, met for the first time as heads of government, held a shared Sunday service on the battleship's quarterdeck, and discussed Japan, the Atlantic and aid to Britain and the Soviet Union.\n\nTheir joint declaration, published on 14 August, set out eight principles: no territorial gains, no changes of territory against the wishes of the peoples concerned, the right of peoples to choose their own government, freer trade, economic cooperation, freedom from fear and want, freedom of the seas, and the disarmament of aggressors pending a wider system of security.\n\nThe Charter promised more than either man meant to deliver. Churchill soon insisted that self-determination did not apply to the British Empire, but colonial nationalists in India, Burma and Africa took it at its word.",
@@ -258,21 +384,45 @@
     "geometry": "area",
     "radiusKm": 1200,
     "markers": [
-      {"name": "Hvalfjörður", "lon": -21.6, "lat": 64.37},
-      {"name": "Murmansk", "lon": 33.08, "lat": 68.97},
-      {"name": "Archangel", "lon": 40.52, "lat": 64.54}
+      {
+        "name": "Hvalfjörður",
+        "lon": -21.6,
+        "lat": 64.37
+      },
+      {
+        "name": "Murmansk",
+        "lon": 33.08,
+        "lat": 68.97
+      },
+      {
+        "name": "Archangel",
+        "lon": 40.52,
+        "lat": 64.54
+      }
     ],
     "kind": "naval",
     "start": "1941-08-21",
     "end": "1945-05",
     "datePrecision": "day",
     "place": "The Norwegian and Barents Seas, from Iceland and Scotland to Murmansk and Archangel",
-    "lon": 15.0,
-    "lat": 71.0,
+    "lon": 15,
+    "lat": 71,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Britain, the United States and the Soviet Union"},
-    "commanders": {"focus": ["Raeder", "Dönitz"], "opponent": ["Tovey", "Fraser"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, the United States and the Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Raeder",
+        "Dönitz"
+      ],
+      "opponent": [
+        "Tovey",
+        "Fraser"
+      ]
+    },
     "casualties": "c. 85 merchant ships and 16 Royal Navy warships lost; c. 3,000 Allied seamen killed",
     "outcome": "defeat",
     "summary": "Two months after Barbarossa the first British convoy sails for Archangel, opening a supply route round the North Cape to the Soviet Union through ice, darkness and German attack.",
@@ -282,7 +432,7 @@
     "uncertaintyNote": "Loss totals vary slightly depending on whether ships sunk in port or on return voyages are counted. The ring is indicative of a long sea route, not a single battle; the outcome reflects the convoys' overall success.",
     "sources": [
       "Richard Woodman, Arctic Convoys 1941–1945 (1994)",
-      "Bernard Edwards, The Road to Russia: Arctic Convoys 1942 (2002)",
+      "S. W. Roskill, The War at Sea, vols I–II (HMSO, 1954–56)",
       "Gerhard Weinberg, A World at Arms (1994)"
     ],
     "importance": 2
@@ -293,20 +443,44 @@
     "geometry": "area",
     "radiusKm": 200,
     "markers": [
-      {"name": "Kiev (Kyiv)", "lon": 30.52, "lat": 50.45},
-      {"name": "Lokhvitsa, where the pincers met", "lon": 33.27, "lat": 50.36}
+      {
+        "name": "Kiev (Kyiv)",
+        "lon": 30.52,
+        "lat": 50.45
+      },
+      {
+        "name": "Lokhvitsa, where the pincers met",
+        "lon": 33.27,
+        "lat": 50.36
+      }
     ],
     "kind": "battle",
     "start": "1941-08-23",
     "end": "1941-09-26",
     "datePrecision": "day",
     "place": "East of Kiev (Kyiv), Ukraine",
-    "lon": 32.0,
+    "lon": 32,
     "lat": 50.3,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Rundstedt", "Bock", "Guderian", "Kleist", "Reichenau"], "opponent": ["Kirponos", "Budyonny", "Timoshenko"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Rundstedt",
+        "Bock",
+        "Guderian",
+        "Kleist",
+        "Reichenau"
+      ],
+      "opponent": [
+        "Kirponos",
+        "Budyonny",
+        "Timoshenko"
+      ]
+    },
     "casualties": "Soviet c. 700,000, including c. 615,000 killed, missing or captured (Germans claimed c. 665,000 prisoners); German c. 100,000",
     "outcome": "victory",
     "summary": "Guderian's panzers drive south and Kleist's north to meet behind Kiev, destroying the Soviet Southwestern Front in the largest encirclement in military history.",
@@ -327,28 +501,53 @@
     "geometry": "area",
     "radiusKm": 650,
     "markers": [
-      {"name": "Abadan", "lon": 48.30, "lat": 30.34},
-      {"name": "Tehran", "lon": 51.39, "lat": 35.69},
-      {"name": "Tabriz", "lon": 46.29, "lat": 38.08}
+      {
+        "name": "Abadan",
+        "lon": 48.3,
+        "lat": 30.34
+      },
+      {
+        "name": "Tehran",
+        "lon": 51.39,
+        "lat": 35.69
+      },
+      {
+        "name": "Tabriz",
+        "lon": 46.29,
+        "lat": 38.08
+      }
     ],
     "kind": "campaign",
     "start": "1941-08-25",
     "end": "1941-09-17",
     "datePrecision": "day",
     "place": "Iran, from the Gulf to the Caspian",
-    "lon": 50.0,
+    "lon": 50,
     "lat": 33.5,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Iran (neutral)", "opponent": "Britain and the Commonwealth and the Soviet Union"},
-    "commanders": {"focus": ["Reza Shah"], "opponent": ["Wavell", "Quinan", "Slim", "Kozlov"]},
+    "sides": {
+      "focus": "Iran (neutral)",
+      "opponent": "Britain and the Commonwealth and the Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Reza Shah"
+      ],
+      "opponent": [
+        "Wavell",
+        "Quinan",
+        "Slim",
+        "Kozlov"
+      ]
+    },
     "casualties": "Iranian several hundred killed, including many sailors at Khorramshahr; British and Soviet losses light",
-    "outcome": "defeat",
+    "outcome": "n/a",
     "summary": "British and Indian troops from Iraq and the Gulf and Soviet armies from the Caucasus invade neutral Iran, seize its oilfields and railway, and force Reza Shah to abdicate.",
     "detail": "After Barbarossa, Britain and the Soviet Union wanted Iran's oil secure and its Trans-Iranian Railway open as a supply route to Russia. They demanded the expulsion of the German community, whose influence they exaggerated, and when Reza Shah stalled they attacked together at dawn on 25 August 1941.\n\nBritish and Indian forces landed at Abadan and Bandar Shahpur, sinking much of Iran's small navy at Khorramshahr, where its commander was killed, and advanced through the Paytak Pass towards Kermanshah; the 10th Indian Division under William Slim was among them. Soviet columns crossed into Azerbaijan and Gilan in the north. Iran's army collapsed within days and the government ordered a ceasefire on 28 August.\n\nReza Shah abdicated in favour of his son Mohammad Reza on 16 September, and the Allies entered Tehran the next day. The country stayed under occupation until after the war, and its people suffered food shortages as the occupiers commandeered transport.",
     "significance": "The invasion opened the Persian Corridor, through which a large share of Western aid to the Soviet Union was to pass, and set the stage for post-war crises over Soviet influence in northern Iran.",
     "certainty": "high",
-    "uncertaintyNote": "Iran was neutral, not an Axis power; it occupies the 'focus' slot only by the data convention, and 'defeat' here means the Allied side prevailed. Casualty figures are poorly recorded.",
+    "uncertaintyNote": "Iran was neutral, not an Axis power; it occupies the 'focus' slot only by the data convention, and 'defeat' here means the Allied side prevailed. Casualty figures are poorly recorded. Iran was neutral, not an Axis power, so the pin is grey rather than coloured as an Axis defeat.",
     "sources": [
       "Richard A. Stewart, Sunrise at Abadan: The British and Soviet Invasion of Iran, 1941 (1988)",
       "Gerhard Weinberg, A World at Arms (1994)",
@@ -361,9 +560,21 @@
     "title": "Siege of Leningrad",
     "geometry": "city",
     "markers": [
-      {"name": "Shlisselburg", "lon": 31.04, "lat": 59.94},
-      {"name": "Road of Life across Lake Ladoga", "lon": 31.3, "lat": 60.1},
-      {"name": "Pulkovo Heights", "lon": 30.33, "lat": 59.77}
+      {
+        "name": "Shlisselburg",
+        "lon": 31.04,
+        "lat": 59.94
+      },
+      {
+        "name": "Road of Life across Lake Ladoga",
+        "lon": 31.3,
+        "lat": 60.1
+      },
+      {
+        "name": "Pulkovo Heights",
+        "lon": 30.33,
+        "lat": 59.77
+      }
     ],
     "kind": "siege",
     "start": "1941-09-08",
@@ -374,8 +585,23 @@
     "lat": 59.94,
     "locationCertainty": "exact",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany and Finland", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Leeb", "Küchler", "Mannerheim"], "opponent": ["Voroshilov", "Zhukov", "Govorov", "Zhdanov"]},
+    "sides": {
+      "focus": "Germany and Finland",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Leeb",
+        "Küchler",
+        "Mannerheim"
+      ],
+      "opponent": [
+        "Voroshilov",
+        "Zhukov",
+        "Govorov",
+        "Zhdanov"
+      ]
+    },
     "casualties": "c. 800,000–1,000,000 civilians dead, most from starvation; Soviet military losses on the Leningrad fronts well over 1 million",
     "outcome": "defeat",
     "summary": "German troops cut the last land route to Leningrad and Hitler resolves to starve the city rather than storm it. Some 800,000 or more civilians die in a siege of nearly 900 days.",
@@ -403,8 +629,17 @@
     "lat": 50.47,
     "locationCertainty": "exact",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany (SS and police), with Ukrainian auxiliary police", "opponent": "Jews of Kiev"},
-    "commanders": {"focus": ["Jeckeln", "Blobel", "Rasch"]},
+    "sides": {
+      "focus": "Germany (SS and police), with Ukrainian auxiliary police",
+      "opponent": "Jews of Kiev"
+    },
+    "commanders": {
+      "focus": [
+        "Jeckeln",
+        "Blobel",
+        "Rasch"
+      ]
+    },
     "casualties": "33,771 Jews shot in two days, according to the killers' own report; c. 100,000 people of all origins murdered at the site by 1943",
     "outcome": "n/a",
     "summary": "Ten days after Kiev falls, German SS and police units shoot nearly 34,000 of the city's Jews in a ravine on its outskirts over two days, one of the largest single massacres of the Holocaust.",
@@ -425,9 +660,21 @@
     "geometry": "area",
     "radiusKm": 260,
     "markers": [
-      {"name": "Vyazma", "lon": 34.30, "lat": 55.21},
-      {"name": "Bryansk", "lon": 34.37, "lat": 53.25},
-      {"name": "Tula", "lon": 37.62, "lat": 54.19}
+      {
+        "name": "Vyazma",
+        "lon": 34.3,
+        "lat": 55.21
+      },
+      {
+        "name": "Bryansk",
+        "lon": 34.37,
+        "lat": 53.25
+      },
+      {
+        "name": "Tula",
+        "lon": 37.62,
+        "lat": 54.19
+      }
     ],
     "kind": "battle",
     "start": "1941-09-30",
@@ -438,8 +685,25 @@
     "lat": 54.8,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Bock", "Guderian", "Hoepner", "Reinhardt", "Kluge"], "opponent": ["Konev", "Budyonny", "Yeremenko", "Zhukov"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Guderian",
+        "Hoepner",
+        "Reinhardt",
+        "Kluge"
+      ],
+      "opponent": [
+        "Konev",
+        "Budyonny",
+        "Yeremenko",
+        "Zhukov"
+      ]
+    },
     "casualties": "Soviet c. 1 million in October alone, including c. 600,000–670,000 prisoners in the Vyazma and Bryansk pockets; German casualties heavy but far smaller",
     "outcome": "victory",
     "summary": "Germany launches its offensive on Moscow, trapping huge Soviet forces at Vyazma and Bryansk, then grinds through mud and frost to within sight of the capital before stalling.",
@@ -459,7 +723,11 @@
     "title": "Odessa massacre",
     "geometry": "city",
     "markers": [
-      {"name": "Dalnik", "lon": 30.60, "lat": 46.42}
+      {
+        "name": "Dalnik",
+        "lon": 30.6,
+        "lat": 46.42
+      }
     ],
     "kind": "massacre",
     "start": "1941-10-22",
@@ -470,8 +738,16 @@
     "lat": 46.48,
     "locationCertainty": "exact",
     "phase": "barbarossa",
-    "sides": {"focus": "Romania (army and gendarmerie), with German Sonderkommando 11b", "opponent": "Jews of Odessa"},
-    "commanders": {"focus": ["Antonescu", "Trestioreanu"]},
+    "sides": {
+      "focus": "Romania (army and gendarmerie), with German Sonderkommando 11b",
+      "opponent": "Jews of Odessa"
+    },
+    "commanders": {
+      "focus": [
+        "Antonescu",
+        "Trestioreanu"
+      ]
+    },
     "casualties": "c. 25,000–34,000 Jews murdered, with further thousands deported to die in Transnistria",
     "outcome": "n/a",
     "summary": "After a bomb destroys the Romanian headquarters in newly captured Odessa, Romanian troops take savage reprisals, shooting, hanging and burning alive tens of thousands of the city's Jews.",
@@ -491,7 +767,11 @@
     "title": "Siege of Sevastopol",
     "geometry": "city",
     "markers": [
-      {"name": "Kerch", "lon": 36.47, "lat": 45.36}
+      {
+        "name": "Kerch",
+        "lon": 36.47,
+        "lat": 45.36
+      }
     ],
     "kind": "siege",
     "start": "1941-10-30",
@@ -502,8 +782,19 @@
     "lat": 44.62,
     "locationCertainty": "exact",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany and Romania", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Manstein"], "opponent": ["Petrov", "Oktyabrsky"]},
+    "sides": {
+      "focus": "Germany and Romania",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Manstein"
+      ],
+      "opponent": [
+        "Petrov",
+        "Oktyabrsky"
+      ]
+    },
     "casualties": "Soviet c. 200,000 killed, wounded or captured over the whole siege, with c. 95,000 captured in July 1942; German and Romanian c. 75,000 or more",
     "outcome": "victory",
     "summary": "Manstein's 11th Army overruns Crimea but cannot take the naval fortress of Sevastopol, which holds out for eight months until a final assault with the heaviest guns ever built.",
@@ -524,9 +815,21 @@
     "geometry": "area",
     "radiusKm": 120,
     "markers": [
-      {"name": "Tobruk", "lon": 23.96, "lat": 32.08},
-      {"name": "Sidi Rezegh", "lon": 24.18, "lat": 31.94},
-      {"name": "Bardia", "lon": 25.09, "lat": 31.76}
+      {
+        "name": "Tobruk",
+        "lon": 23.96,
+        "lat": 32.08
+      },
+      {
+        "name": "Sidi Rezegh",
+        "lon": 24.18,
+        "lat": 31.94
+      },
+      {
+        "name": "Bardia",
+        "lon": 25.09,
+        "lat": 31.76
+      }
     ],
     "kind": "battle",
     "start": "1941-11-18",
@@ -537,9 +840,26 @@
     "lat": 31.8,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany and Italy", "opponent": "Britain and the Commonwealth"},
-    "commanders": {"focus": ["Rommel", "Bastico", "Crüwell"], "opponent": ["Auchinleck", "Cunningham", "Ritchie"]},
-    "strength": {"focus": "c. 120,000, with c. 390 tanks", "opponent": "c. 118,000, with over 700 tanks"},
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Rommel",
+        "Bastico",
+        "Crüwell"
+      ],
+      "opponent": [
+        "Auchinleck",
+        "Cunningham",
+        "Ritchie"
+      ]
+    },
+    "strength": {
+      "focus": "c. 120,000, with c. 390 tanks",
+      "opponent": "c. 118,000, with over 700 tanks"
+    },
     "casualties": "Axis c. 38,000 killed, wounded or captured; British and Commonwealth c. 18,000",
     "outcome": "defeat",
     "summary": "Eighth Army attacks in the Western Desert to relieve besieged Tobruk. After weeks of confused tank battles around Sidi Rezegh, Rommel is forced back across Cyrenaica.",
@@ -560,21 +880,49 @@
     "geometry": "area",
     "radiusKm": 230,
     "markers": [
-      {"name": "Moscow", "lon": 37.62, "lat": 55.75},
-      {"name": "Kalinin (Tver)", "lon": 35.91, "lat": 56.86},
-      {"name": "Klin", "lon": 36.73, "lat": 56.33}
+      {
+        "name": "Moscow",
+        "lon": 37.62,
+        "lat": 55.75
+      },
+      {
+        "name": "Kalinin (Tver)",
+        "lon": 35.91,
+        "lat": 56.86
+      },
+      {
+        "name": "Klin",
+        "lon": 36.73,
+        "lat": 56.33
+      }
     ],
     "kind": "battle",
     "start": "1941-12-05",
     "end": "1942-01-07",
     "datePrecision": "day",
     "place": "North, west and south of Moscow",
-    "lon": 37.0,
+    "lon": 37,
     "lat": 55.6,
     "locationCertainty": "approximate",
     "phase": "barbarossa",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Bock", "Kluge", "Guderian", "Hoepner"], "opponent": ["Zhukov", "Konev", "Timoshenko", "Rokossovsky"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Kluge",
+        "Guderian",
+        "Hoepner"
+      ],
+      "opponent": [
+        "Zhukov",
+        "Konev",
+        "Timoshenko",
+        "Rokossovsky"
+      ]
+    },
     "casualties": "Soviet c. 370,000, including c. 140,000 killed or missing; German several hundred thousand over the winter, including frostbite cases",
     "outcome": "defeat",
     "summary": "With German troops frozen in front of Moscow, fresh Soviet armies strike back in deep snow, driving the invaders back up to 250 kilometres and ending the hope of a quick German victory.",
@@ -594,8 +942,16 @@
     "title": "Attack on Pearl Harbor",
     "geometry": "site",
     "markers": [
-      {"name": "Battleship Row, Ford Island", "lon": -157.95, "lat": 21.36},
-      {"name": "Hickam Field", "lon": -157.95, "lat": 21.33}
+      {
+        "name": "Battleship Row, Ford Island",
+        "lon": -157.95,
+        "lat": 21.36
+      },
+      {
+        "name": "Hickam Field",
+        "lon": -157.95,
+        "lat": 21.33
+      }
     ],
     "kind": "raid",
     "start": "1941-12-07",
@@ -605,9 +961,25 @@
     "lat": 21.35,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "United States"},
-    "commanders": {"focus": ["Yamamoto", "Nagumo", "Fuchida"], "opponent": ["Kimmel", "Short"]},
-    "strength": {"focus": "6 carriers, 353 aircraft in two waves, 5 midget submarines", "opponent": "8 battleships in harbour; c. 390 aircraft on Oahu"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Yamamoto",
+        "Nagumo",
+        "Fuchida"
+      ],
+      "opponent": [
+        "Kimmel",
+        "Short"
+      ]
+    },
+    "strength": {
+      "focus": "6 carriers, 353 aircraft in two waves, 5 midget submarines",
+      "opponent": "8 battleships in harbour; c. 390 aircraft on Oahu"
+    },
     "casualties": "American 2,403 killed, including 68 civilians, and c. 1,178 wounded; 8 battleships damaged, of which Arizona and Oklahoma were total losses; c. 180 aircraft destroyed. Japanese 64 killed, 29 aircraft lost",
     "outcome": "victory",
     "summary": "On a Sunday morning, aircraft from six Japanese carriers strike the US Pacific Fleet at anchor at Pearl Harbor, sinking or crippling its battleships and bringing the United States into the war.",
@@ -629,9 +1001,21 @@
     "geometry": "area",
     "radiusKm": 450,
     "markers": [
-      {"name": "Kota Bharu", "lon": 102.24, "lat": 6.13},
-      {"name": "Singora (Songkhla)", "lon": 100.60, "lat": 7.20},
-      {"name": "Slim River", "lon": 101.40, "lat": 3.83}
+      {
+        "name": "Kota Bharu",
+        "lon": 102.24,
+        "lat": 6.13
+      },
+      {
+        "name": "Singora (Songkhla)",
+        "lon": 100.6,
+        "lat": 7.2
+      },
+      {
+        "name": "Slim River",
+        "lon": 101.4,
+        "lat": 3.83
+      }
     ],
     "kind": "campaign",
     "start": "1941-12-08",
@@ -642,8 +1026,21 @@
     "lat": 4.2,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Britain and the Commonwealth"},
-    "commanders": {"focus": ["Yamashita", "Tsuji"], "opponent": ["Percival", "Heath", "Bennett"]},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Yamashita",
+        "Tsuji"
+      ],
+      "opponent": [
+        "Percival",
+        "Heath",
+        "Bennett"
+      ]
+    },
     "casualties": "British, Indian, Australian and Malay forces c. 50,000 killed, wounded or captured before Singapore; Japanese c. 4,600",
     "outcome": "victory",
     "summary": "Japanese troops land in southern Thailand and northern Malaya and in eight weeks drive the larger British and Commonwealth army down the length of the peninsula to Singapore.",
@@ -670,16 +1067,29 @@
     "lat": 3.6,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Britain"},
-    "commanders": {"focus": ["Matsunaga Sadaichi"], "opponent": ["Tom Phillips"]},
-    "strength": {"focus": "c. 85 land-based bombers and torpedo bombers", "opponent": "1 battleship, 1 battlecruiser, 4 destroyers"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Matsunaga Sadaichi"
+      ],
+      "opponent": [
+        "Tom Phillips"
+      ]
+    },
+    "strength": {
+      "focus": "c. 85 land-based bombers and torpedo bombers",
+      "opponent": "1 battleship, 1 battlecruiser, 4 destroyers"
+    },
     "casualties": "British 840 killed, including Admiral Phillips; Japanese 3 or 4 aircraft lost",
     "outcome": "victory",
     "summary": "Japanese naval bombers flying from Indochina sink the battleship Prince of Wales and the battlecruiser Repulse at sea, leaving Britain with no capital ships in the Far East.",
-    "detail": "Prince of Wales and Repulse had reached Singapore on 2 December as 'Force Z', sent by Churchill to deter Japan. On 8 December Admiral Tom Phillips sailed north to attack the invasion convoys off Kota Bharu, without fighter cover. Spotted and having lost the element of surprise, he turned back, then diverted towards a false report of landings at Kuantan.\n\nOn the morning of 10 December, waves of high-level bombers and torpedo bombers of the navy's 22nd Air Flotilla, flying from bases around Saigon, found the ships. Torpedoes jammed the battleship's port propeller shaft and flooded her; Repulse, skilfully handled, dodged many attacks before she too was hit repeatedly and sank. Prince of Wales went down less than an hour later. Destroyers picked up more than 2,000 survivors; Phillips was not among them.\n\nThe Japanese crews dropped a wreath over the site on a later flight, according to well-known accounts.",
+    "detail": "Prince of Wales and Repulse had reached Singapore on 2 December as 'Force Z', sent by Churchill to deter Japan. On 8 December Admiral Tom Phillips sailed north to attack the invasion convoys off Kota Bharu, without fighter cover. Spotted and having lost the element of surprise, he turned back, then diverted towards a false report of landings at Kuantan.\n\nOn the morning of 10 December, waves of high-level bombers and torpedo bombers of the navy's 22nd Air Flotilla, flying from bases around Saigon, found the ships. Torpedoes jammed the battleship's port propeller shaft and flooded her; Repulse, skilfully handled, dodged many attacks before she too was hit repeatedly and sank. Prince of Wales went down less than an hour later. Destroyers picked up more than 2,000 survivors; Phillips was not among them.",
     "significance": "It was the first time capital ships under way had been sunk by aircraft alone, confirming the end of the battleship era and leaving Malaya and the Indian Ocean exposed.",
     "certainty": "high",
-    "uncertaintyNote": "The two wrecks lie a few miles apart; the position given is between them. The story of the wreath is widely repeated but rests on later recollection.",
+    "uncertaintyNote": "The two wrecks lie a few miles apart; the position given is between them.",
     "sources": [
       "Martin Middlebrook and Patrick Mahoney, Battleship: The Loss of the Prince of Wales and the Repulse (1977)",
       "Arthur J. Marder, Old Friends, New Enemies, vol. I (1981)",
@@ -692,9 +1102,21 @@
     "title": "Battle of Hong Kong",
     "geometry": "city",
     "markers": [
-      {"name": "Shing Mun Redoubt, Gin Drinkers Line", "lon": 114.15, "lat": 22.38},
-      {"name": "Wong Nai Chung Gap", "lon": 114.19, "lat": 22.26},
-      {"name": "Stanley", "lon": 114.21, "lat": 22.22}
+      {
+        "name": "Shing Mun Redoubt, Gin Drinkers Line",
+        "lon": 114.15,
+        "lat": 22.38
+      },
+      {
+        "name": "Wong Nai Chung Gap",
+        "lon": 114.19,
+        "lat": 22.26
+      },
+      {
+        "name": "Stanley",
+        "lon": 114.21,
+        "lat": 22.22
+      }
     ],
     "kind": "battle",
     "start": "1941-12-08",
@@ -702,12 +1124,27 @@
     "datePrecision": "day",
     "place": "Kowloon and Hong Kong Island",
     "lon": 114.17,
-    "lat": 22.30,
+    "lat": 22.3,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Britain and the Commonwealth"},
-    "commanders": {"focus": ["Sakai Takashi"], "opponent": ["Maltby", "Mark Young", "Lawson"]},
-    "strength": {"focus": "c. 40,000–50,000", "opponent": "c. 14,000"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Sakai Takashi"
+      ],
+      "opponent": [
+        "Maltby",
+        "Mark Young",
+        "Lawson"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000–50,000",
+      "opponent": "c. 14,000"
+    },
     "casualties": "Allied c. 1,500–2,100 killed and c. 10,000 captured; Japanese c. 2,000–2,700 killed or wounded; many civilians",
     "outcome": "victory",
     "summary": "A small garrison of British, Canadian, Indian and local troops holds Hong Kong for seventeen days against a Japanese division before surrendering on Christmas Day.",
@@ -728,9 +1165,21 @@
     "geometry": "area",
     "radiusKm": 220,
     "markers": [
-      {"name": "Lingayen Gulf", "lon": 120.25, "lat": 16.15},
-      {"name": "Mariveles, Bataan", "lon": 120.49, "lat": 14.43},
-      {"name": "Camp O'Donnell, Capas", "lon": 120.43, "lat": 15.38}
+      {
+        "name": "Lingayen Gulf",
+        "lon": 120.25,
+        "lat": 16.15
+      },
+      {
+        "name": "Mariveles, Bataan",
+        "lon": 120.49,
+        "lat": 14.43
+      },
+      {
+        "name": "Camp O'Donnell, Capas",
+        "lon": 120.43,
+        "lat": 15.38
+      }
     ],
     "kind": "campaign",
     "start": "1941-12-08",
@@ -741,8 +1190,20 @@
     "lat": 15.2,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "United States and the Philippines"},
-    "commanders": {"focus": ["Homma"], "opponent": ["MacArthur", "Wainwright", "King"]},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and the Philippines"
+    },
+    "commanders": {
+      "focus": [
+        "Homma"
+      ],
+      "opponent": [
+        "MacArthur",
+        "Wainwright",
+        "King"
+      ]
+    },
     "casualties": "c. 76,000 Filipino and American troops surrendered on Bataan; on the Death March c. 500–650 Americans and c. 5,000–18,000 Filipinos died, and many thousands more in Camp O'Donnell",
     "outcome": "victory",
     "summary": "Japan wrecks MacArthur's air force and invades Luzon. Filipino and American troops hold out on Bataan for three months, then are driven on a murderous march into captivity.",
@@ -770,13 +1231,27 @@
     "lat": 19.29,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "United States"},
-    "commanders": {"focus": ["Kajioka Sadamichi"], "opponent": ["Winfield Cunningham", "Devereux"]},
-    "strength": {"focus": "c. 2,000 landing troops in the second assault, with carrier support", "opponent": "c. 520 Marines and naval personnel; c. 1,150 civilian contractors"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Kajioka Sadamichi"
+      ],
+      "opponent": [
+        "Winfield Cunningham",
+        "Devereux"
+      ]
+    },
+    "strength": {
+      "focus": "c. 2,000 landing troops in the second assault, with carrier support",
+      "opponent": "c. 520 Marines and naval personnel; c. 1,150 civilian contractors"
+    },
     "casualties": "American c. 120 military and c. 70 civilians killed; c. 1,600 captured. Japanese c. 800–1,000 killed, two destroyers sunk",
     "outcome": "victory",
     "summary": "The small Marine garrison of Wake atoll beats off a Japanese landing on 11 December, sinking two destroyers, before a second assault overwhelms it two weeks later.",
-    "detail": "Wake, a remote atoll between Hawaii and Guam, was being built up as an air and submarine base. Japanese bombers from the Marshalls struck on 8 December (local date), destroying most of the newly arrived Marine fighters on the ground. On 11 December an invasion force under Admiral Kajioka closed in, but the Marines' coastal guns held fire until it was in close range, then hit several ships and sank the destroyer Hayate; the remaining Wildcats sank the destroyer Kisaragi. It was the only time in the war that an amphibious landing was beaten off by coastal defences.\n\nA relief force built around the carrier Saratoga set out from Pearl Harbor but was recalled. Reinforced by two carriers returning from Pearl Harbor, the Japanese landed again before dawn on 23 December and, after hours of close fighting, the island's commander surrendered.\n\nMost prisoners were shipped to China and Japan, but 98 civilian workers were kept on Wake; in October 1943 they were executed on the orders of the island's commander, Sakaibara Shigematsu.",
+    "detail": "Wake, a remote atoll between Hawaii and Guam, was being built up as an air and submarine base. Japanese bombers from the Marshalls struck on 8 December (local date), destroying most of the newly arrived Marine fighters on the ground. On 11 December an invasion force under Admiral Kajioka closed in, but the Marines' coastal guns held fire until it was in close range, then hit several ships and sank the destroyer Hayate; the remaining Wildcats sank the destroyer Kisaragi. It was one of the very few occasions in the war when an amphibious assault was beaten off by shore defences.\n\nA relief force built around the carrier Saratoga set out from Pearl Harbor but was recalled. Reinforced by two carriers returning from Pearl Harbor, the Japanese landed again before dawn on 23 December and, after hours of close fighting, the island's commander surrendered.\n\nMost prisoners were shipped to China and Japan, but 98 civilian workers were kept on Wake; in October 1943 they were executed on the orders of the island's commander, Sakaibara Shigematsu.",
     "significance": "Wake's defence gave Americans a rare story of resistance in the dark first weeks of the war, while its loss cut the route between Hawaii and the Philippines.",
     "certainty": "high",
     "uncertaintyNote": "Japanese casualty figures vary widely. Dates are local (west of the date line), one day ahead of Hawaii.",
@@ -799,8 +1274,20 @@
     "lat": 52.52,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Germany and Italy", "opponent": "United States"},
-    "commanders": {"focus": ["Hitler", "Ribbentrop", "Mussolini"], "opponent": ["Roosevelt"]},
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler",
+        "Ribbentrop",
+        "Mussolini"
+      ],
+      "opponent": [
+        "Roosevelt"
+      ]
+    },
     "outcome": "n/a",
     "summary": "Four days after Pearl Harbor, Hitler declares war on the United States in a speech to the Reichstag, and Mussolini follows. The European and Pacific wars become one.",
     "detail": "Under the Tripartite Pact Germany was obliged to help Japan only if Japan was attacked, not if it attacked. Yet Hitler, who had promised Tokyo his support, did not hesitate. At the Kroll Opera House on 11 December 1941 he denounced Roosevelt in a long speech, while Ribbentrop handed the American chargé d'affaires a declaration of war. Italy declared war the same afternoon, and Congress replied in kind.\n\nHitler's reasons have been much debated. The United States was already supplying Britain under Lend-Lease and its navy was escorting convoys and fighting U-boats in an undeclared war; he believed American entry was a matter of time, and that striking first would free his submarines to attack its shipping. He held the United States in contempt as racially mixed and militarily weak and believed Japan would keep it busy in the Pacific. The decision came even as his armies were in retreat before Moscow.",
@@ -827,8 +1314,18 @@
     "lat": 28.23,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "China (Nationalist)"},
-    "commanders": {"focus": ["Anami Korechika"], "opponent": ["Xue Yue"]},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "China (Nationalist)"
+    },
+    "commanders": {
+      "focus": [
+        "Anami Korechika"
+      ],
+      "opponent": [
+        "Xue Yue"
+      ]
+    },
     "casualties": "Disputed: Chinese claims of over 50,000 Japanese casualties are generally thought much exaggerated; Japanese records give c. 6,000; Chinese losses also heavy",
     "outcome": "defeat",
     "summary": "A Japanese thrust on the Hunan capital is drawn in, surrounded and driven back by Xue Yue's armies, giving Nationalist China a much-needed victory in the dark weeks after Pearl Harbor.",
@@ -849,20 +1346,40 @@
     "geometry": "area",
     "radiusKm": 750,
     "markers": [
-      {"name": "Cape Hatteras", "lon": -75.53, "lat": 35.25},
-      {"name": "New York", "lon": -74.0, "lat": 40.7}
+      {
+        "name": "Cape Hatteras",
+        "lon": -75.53,
+        "lat": 35.25
+      },
+      {
+        "name": "New York",
+        "lon": -74,
+        "lat": 40.7
+      }
     ],
     "kind": "naval",
     "start": "1942-01-13",
     "end": "1942-07",
     "datePrecision": "day",
     "place": "Off the east coast of the United States and Canada, later the Gulf of Mexico and Caribbean",
-    "lon": -74.0,
+    "lon": -74,
     "lat": 36.5,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Germany", "opponent": "United States, Canada and Britain"},
-    "commanders": {"focus": ["Dönitz", "Hardegen"], "opponent": ["King", "Andrews"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States, Canada and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Dönitz",
+        "Hardegen"
+      ],
+      "opponent": [
+        "King",
+        "Andrews"
+      ]
+    },
     "casualties": "c. 400 Allied ships sunk in American waters in the first half of 1942, with several thousand seamen killed; only a handful of U-boats lost",
     "outcome": "victory",
     "summary": "German U-boats strike along the brightly lit American coast, sinking tankers and freighters within sight of shore while the US Navy is slow to adopt convoys.",
@@ -889,8 +1406,19 @@
     "lat": 52.43,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Germany (SS, party and Reich ministries)", "opponent": "Jews of Europe"},
-    "commanders": {"focus": ["Heydrich", "Eichmann", "Müller", "Stuckart", "Bühler"]},
+    "sides": {
+      "focus": "Germany (SS, party and Reich ministries)",
+      "opponent": "Jews of Europe"
+    },
+    "commanders": {
+      "focus": [
+        "Heydrich",
+        "Eichmann",
+        "Müller",
+        "Stuckart",
+        "Bühler"
+      ]
+    },
     "outcome": "n/a",
     "summary": "Fifteen senior SS officers and civil servants meet over lunch in a lakeside villa to coordinate the deportation and murder of the Jews of Europe, numbered at eleven million.",
     "detail": "Reinhard Heydrich, head of the Reich Security Main Office, had been charged in July 1941 with preparing a 'total solution of the Jewish question'. He invited state secretaries from the interior, justice and foreign ministries, the Four-Year Plan, the occupied eastern territories and the General Government in Poland, together with senior SS and party officials, to a meeting first set for December and postponed after Pearl Harbor.\n\nBy the time they met on 20 January 1942, the mass shootings in the east had killed hundreds of thousands, the gas vans at Chełmno were operating and Bełżec was being built. The meeting did not decide on genocide; it confirmed the SS's control of it and bound the ministries into its execution. Adolf Eichmann's minutes listed some eleven million Jews in every European country, including neutral and enemy states, who were to be 'evacuated to the east', worked to death or 'treated accordingly'. Discussion turned to the status of part-Jews and mixed marriages.\n\nOnly one copy of the minutes survived, found by American prosecutors in 1947.",
@@ -910,9 +1438,21 @@
     "geometry": "area",
     "radiusKm": 550,
     "markers": [
-      {"name": "Rangoon (Yangon)", "lon": 96.16, "lat": 16.80},
-      {"name": "Sittang bridge", "lon": 96.98, "lat": 17.43},
-      {"name": "Mandalay", "lon": 96.08, "lat": 21.97}
+      {
+        "name": "Rangoon (Yangon)",
+        "lon": 96.16,
+        "lat": 16.8
+      },
+      {
+        "name": "Sittang bridge",
+        "lon": 96.98,
+        "lat": 17.43
+      },
+      {
+        "name": "Mandalay",
+        "lon": 96.08,
+        "lat": 21.97
+      }
     ],
     "kind": "campaign",
     "start": "1942-01-20",
@@ -923,8 +1463,23 @@
     "lat": 19.5,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan, with the Burma Independence Army", "opponent": "Britain and the Commonwealth and China (Nationalist)"},
-    "commanders": {"focus": ["Iida Shōjirō", "Aung San"], "opponent": ["Alexander", "Slim", "Smyth", "Stilwell", "Sun Li-jen"]},
+    "sides": {
+      "focus": "Japan, with the Burma Independence Army",
+      "opponent": "Britain and the Commonwealth and China (Nationalist)"
+    },
+    "commanders": {
+      "focus": [
+        "Iida Shōjirō",
+        "Aung San"
+      ],
+      "opponent": [
+        "Alexander",
+        "Slim",
+        "Smyth",
+        "Stilwell",
+        "Sun Li-jen"
+      ]
+    },
     "casualties": "British and Indian c. 13,000 killed, wounded or missing; Chinese losses much heavier; Japanese c. 4,500; tens of thousands of Indian refugees died on the trek to India",
     "outcome": "victory",
     "summary": "Japan's 15th Army drives the British out of Burma in five months, taking Rangoon in March and cutting the Burma Road to China, while hundreds of thousands of Indians flee on foot to India.",
@@ -944,9 +1499,21 @@
     "title": "Fall of Singapore",
     "geometry": "city",
     "markers": [
-      {"name": "Bukit Timah", "lon": 103.78, "lat": 1.35},
-      {"name": "Ford factory, site of the surrender", "lon": 103.77, "lat": 1.35},
-      {"name": "Johore causeway", "lon": 103.77, "lat": 1.45}
+      {
+        "name": "Bukit Timah",
+        "lon": 103.78,
+        "lat": 1.35
+      },
+      {
+        "name": "Ford factory, site of the surrender",
+        "lon": 103.77,
+        "lat": 1.35
+      },
+      {
+        "name": "Johore causeway",
+        "lon": 103.77,
+        "lat": 1.45
+      }
     ],
     "kind": "siege",
     "start": "1942-02-08",
@@ -957,9 +1524,23 @@
     "lat": 1.35,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Britain and the Commonwealth"},
-    "commanders": {"focus": ["Yamashita"], "opponent": ["Percival", "Bennett"]},
-    "strength": {"focus": "c. 30,000–35,000 assault troops", "opponent": "c. 85,000"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Yamashita"
+      ],
+      "opponent": [
+        "Percival",
+        "Bennett"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000–35,000 assault troops",
+      "opponent": "c. 85,000"
+    },
     "casualties": "c. 80,000 British, Australian, Indian and local troops captured, adding to c. 50,000 lost in Malaya; Japanese c. 5,000 killed or wounded on the island",
     "outcome": "victory",
     "summary": "A week after crossing the Johore Strait, Yamashita's army forces the surrender of Singapore, Britain's great naval base in the East, with some 80,000 troops passing into captivity.",
@@ -979,8 +1560,16 @@
     "title": "Sook Ching massacre",
     "geometry": "city",
     "markers": [
-      {"name": "Changi Beach", "lon": 103.99, "lat": 1.39},
-      {"name": "Punggol", "lon": 103.91, "lat": 1.41}
+      {
+        "name": "Changi Beach",
+        "lon": 103.99,
+        "lat": 1.39
+      },
+      {
+        "name": "Punggol",
+        "lon": 103.91,
+        "lat": 1.41
+      }
     ],
     "kind": "massacre",
     "start": "1942-02-18",
@@ -988,11 +1577,21 @@
     "datePrecision": "day",
     "place": "Singapore, and later across Malaya",
     "lon": 103.85,
-    "lat": 1.30,
+    "lat": 1.3,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan (Kempeitai and 25th Army)", "opponent": "Chinese of Singapore and Malaya"},
-    "commanders": {"focus": ["Yamashita", "Kawamura Saburō", "Ōishi Masayuki", "Tsuji"]},
+    "sides": {
+      "focus": "Japan (Kempeitai and 25th Army)",
+      "opponent": "Chinese of Singapore and Malaya"
+    },
+    "commanders": {
+      "focus": [
+        "Yamashita",
+        "Kawamura Saburō",
+        "Ōishi Masayuki",
+        "Tsuji"
+      ]
+    },
     "casualties": "Japanese post-war admission c. 5,000; most historians estimate c. 25,000; Chinese community estimates up to 50,000 or more in Singapore",
     "outcome": "n/a",
     "summary": "Days after Singapore falls, the Japanese army screens the island's Chinese men and takes tens of thousands to beaches and plantations to be machine-gunned, in a 'purge through cleansing'.",
@@ -1003,7 +1602,7 @@
     "sources": [
       "Christopher Bayly and Tim Harper, Forgotten Armies (2004)",
       "Kevin Blackburn and Karl Hack, War Memory and the Making of Modern Malaysia and Singapore (2012)",
-      "Hayashi Hirofumi, 'Japanese treatment of Chinese prisoners, 1931–1945', Nature-People-Society 26 (1999)"
+      "Kevin Blackburn and Karl Hack, Did Singapore Have to Fall? (2004)"
     ],
     "importance": 1
   },
@@ -1019,9 +1618,20 @@
     "lat": -12.46,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Australia and the United States"},
-    "commanders": {"focus": ["Nagumo", "Fuchida"]},
-    "strength": {"focus": "c. 188 carrier aircraft and c. 54 land-based bombers", "opponent": "a handful of fighters and anti-aircraft guns"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Australia and the United States"
+    },
+    "commanders": {
+      "focus": [
+        "Nagumo",
+        "Fuchida"
+      ]
+    },
+    "strength": {
+      "focus": "c. 188 carrier aircraft and c. 54 land-based bombers",
+      "opponent": "a handful of fighters and anti-aircraft guns"
+    },
     "casualties": "c. 235–250 killed, including civilians and seamen; 8 ships sunk; c. 30 aircraft destroyed. Japanese losses a few aircraft",
     "outcome": "victory",
     "summary": "Aircraft from the carriers that struck Pearl Harbor attack Darwin, sinking ships in the harbour and killing some 240 people in the first and heaviest raid on the Australian mainland.",
@@ -1041,8 +1651,16 @@
     "title": "Battle of the Java Sea",
     "geometry": "site",
     "markers": [
-      {"name": "Surabaya", "lon": 112.75, "lat": -7.25},
-      {"name": "Sunda Strait", "lon": 105.8, "lat": -5.9}
+      {
+        "name": "Surabaya",
+        "lon": 112.75,
+        "lat": -7.25
+      },
+      {
+        "name": "Sunda Strait",
+        "lon": 105.8,
+        "lat": -5.9
+      }
     ],
     "kind": "naval",
     "start": "1942-02-27",
@@ -1053,9 +1671,24 @@
     "lat": -6.1,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Netherlands, Britain, the United States and Australia"},
-    "commanders": {"focus": ["Takagi Takeo", "Nishimura Shōji"], "opponent": ["Karel Doorman", "Helfrich"]},
-    "strength": {"focus": "2 heavy and 2 light cruisers, 14 destroyers", "opponent": "2 heavy and 3 light cruisers, 9 destroyers"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Netherlands, Britain, the United States and Australia"
+    },
+    "commanders": {
+      "focus": [
+        "Takagi Takeo",
+        "Nishimura Shōji"
+      ],
+      "opponent": [
+        "Karel Doorman",
+        "Helfrich"
+      ]
+    },
+    "strength": {
+      "focus": "2 heavy and 2 light cruisers, 14 destroyers",
+      "opponent": "2 heavy and 3 light cruisers, 9 destroyers"
+    },
     "casualties": "Allied c. 2,300 sailors killed at the Java Sea, more in the actions that followed; 2 cruisers and 3 destroyers sunk on 27 February. Japanese one destroyer damaged",
     "outcome": "victory",
     "summary": "An improvised Allied squadron under the Dutch Admiral Doorman tries to stop the Japanese invasion of Java and is destroyed in a day and night of gunfire and torpedoes.",
@@ -1076,9 +1709,21 @@
     "geometry": "area",
     "radiusKm": 200,
     "markers": [
-      {"name": "Bełżec", "lon": 23.46, "lat": 50.37},
-      {"name": "Sobibór", "lon": 23.59, "lat": 51.45},
-      {"name": "Treblinka", "lon": 22.05, "lat": 52.63}
+      {
+        "name": "Bełżec",
+        "lon": 23.46,
+        "lat": 50.37
+      },
+      {
+        "name": "Sobibór",
+        "lon": 23.59,
+        "lat": 51.45
+      },
+      {
+        "name": "Treblinka",
+        "lon": 22.05,
+        "lat": 52.63
+      }
     ],
     "kind": "massacre",
     "start": "1942-03-17",
@@ -1089,8 +1734,18 @@
     "lat": 51.5,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Germany (SS and police), with Trawniki guards", "opponent": "Jews of Poland and Europe"},
-    "commanders": {"focus": ["Himmler", "Globocnik", "Wirth", "Stangl"]},
+    "sides": {
+      "focus": "Germany (SS and police), with Trawniki guards",
+      "opponent": "Jews of Poland and Europe"
+    },
+    "commanders": {
+      "focus": [
+        "Himmler",
+        "Globocnik",
+        "Wirth",
+        "Stangl"
+      ]
+    },
     "casualties": "c. 1.5–1.7 million Jews murdered in the three camps, with Roma and others",
     "outcome": "n/a",
     "summary": "The SS opens Bełżec, then Sobibór and Treblinka, camps built for nothing but killing. In eighteen months some 1.7 million Jews are gassed there, most of them on the day they arrive.",
@@ -1111,9 +1766,21 @@
     "geometry": "area",
     "radiusKm": 450,
     "markers": [
-      {"name": "Colombo", "lon": 79.85, "lat": 6.93},
-      {"name": "Trincomalee", "lon": 81.23, "lat": 8.57},
-      {"name": "Loss of Dorsetshire and Cornwall", "lon": 77.75, "lat": 1.9}
+      {
+        "name": "Colombo",
+        "lon": 79.85,
+        "lat": 6.93
+      },
+      {
+        "name": "Trincomalee",
+        "lon": 81.23,
+        "lat": 8.57
+      },
+      {
+        "name": "Loss of Dorsetshire and Cornwall",
+        "lon": 77.75,
+        "lat": 1.9
+      }
     ],
     "kind": "raid",
     "start": "1942-04-05",
@@ -1124,8 +1791,20 @@
     "lat": 7.5,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "Britain and the Commonwealth"},
-    "commanders": {"focus": ["Nagumo", "Ozawa"], "opponent": ["Somerville", "Layton"]},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Nagumo",
+        "Ozawa"
+      ],
+      "opponent": [
+        "Somerville",
+        "Layton"
+      ]
+    },
     "casualties": "British c. 1,000 seamen killed; a light carrier, 2 heavy cruisers, 2 destroyers and c. 23 merchant ships sunk; Japanese c. 20 aircraft lost",
     "outcome": "victory",
     "summary": "Nagumo's carriers raid Ceylon, bomb Colombo and Trincomalee, and sink the carrier Hermes and two cruisers, driving the British Eastern Fleet back to East Africa.",
@@ -1146,9 +1825,21 @@
     "geometry": "area",
     "radiusKm": 300,
     "markers": [
-      {"name": "Tokyo", "lon": 139.69, "lat": 35.69},
-      {"name": "Nagoya", "lon": 136.91, "lat": 35.18},
-      {"name": "Kobe", "lon": 135.19, "lat": 34.69}
+      {
+        "name": "Tokyo",
+        "lon": 139.69,
+        "lat": 35.69
+      },
+      {
+        "name": "Nagoya",
+        "lon": 136.91,
+        "lat": 35.18
+      },
+      {
+        "name": "Kobe",
+        "lon": 135.19,
+        "lat": 34.69
+      }
     ],
     "kind": "raid",
     "start": "1942-04-18",
@@ -1158,9 +1849,22 @@
     "lat": 35.2,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "United States"},
-    "commanders": {"focus": ["Yamamoto"], "opponent": ["Doolittle", "Halsey"]},
-    "strength": {"opponent": "16 B-25 bombers flown from the carrier Hornet"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Yamamoto"
+      ],
+      "opponent": [
+        "Doolittle",
+        "Halsey"
+      ]
+    },
+    "strength": {
+      "opponent": "16 B-25 bombers flown from the carrier Hornet"
+    },
     "casualties": "c. 50 killed in Japan; all 16 aircraft lost, 3 airmen killed in crashes, 8 captured of whom 3 were executed; in Japanese reprisals in China c. 250,000 civilians died",
     "outcome": "defeat",
     "summary": "Sixteen army bombers take off from a carrier and strike Tokyo and other Japanese cities, a small raid that shocks Japan's leaders and brings savage reprisals on Chinese civilians.",
@@ -1180,22 +1884,51 @@
     "title": "Battle of the Coral Sea",
     "geometry": "site",
     "markers": [
-      {"name": "Shōhō sunk", "lon": 152.92, "lat": -10.48},
-      {"name": "Lexington sunk", "lon": 155.58, "lat": -15.25},
-      {"name": "Port Moresby", "lon": 147.18, "lat": -9.44}
+      {
+        "name": "Shōhō sunk",
+        "lon": 152.92,
+        "lat": -10.48
+      },
+      {
+        "name": "Lexington sunk",
+        "lon": 155.58,
+        "lat": -15.25
+      },
+      {
+        "name": "Port Moresby",
+        "lon": 147.18,
+        "lat": -9.44
+      }
     ],
     "kind": "naval",
     "start": "1942-05-04",
     "end": "1942-05-08",
     "datePrecision": "day",
     "place": "Coral Sea, between New Guinea, the Solomons and Australia",
-    "lon": 155.0,
+    "lon": 155,
     "lat": -13.5,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "United States and Australia"},
-    "commanders": {"focus": ["Inoue", "Takagi Takeo", "Hara Chūichi"], "opponent": ["Fletcher", "Fitch", "Crace"]},
-    "strength": {"focus": "2 fleet carriers, 1 light carrier, c. 130 carrier aircraft", "opponent": "2 fleet carriers, c. 130 carrier aircraft"},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and Australia"
+    },
+    "commanders": {
+      "focus": [
+        "Inoue",
+        "Takagi Takeo",
+        "Hara Chūichi"
+      ],
+      "opponent": [
+        "Fletcher",
+        "Fitch",
+        "Crace"
+      ]
+    },
+    "strength": {
+      "focus": "2 fleet carriers, 1 light carrier, c. 130 carrier aircraft",
+      "opponent": "2 fleet carriers, c. 130 carrier aircraft"
+    },
     "casualties": "American c. 650 killed; carrier Lexington, a destroyer and an oiler sunk. Japanese c. 950 killed; light carrier Shōhō sunk, Shōkaku badly damaged, c. 90 aircraft lost",
     "outcome": "defeat",
     "summary": "In the first battle between aircraft carriers, fought without the fleets ever seeing each other, the US Navy turns back the Japanese seaborne invasion of Port Moresby.",
@@ -1223,8 +1956,19 @@
     "lat": 14.38,
     "locationCertainty": "exact",
     "phase": "pacific",
-    "sides": {"focus": "Japan", "opponent": "United States and the Philippines"},
-    "commanders": {"focus": ["Homma"], "opponent": ["Wainwright", "Moore"]},
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and the Philippines"
+    },
+    "commanders": {
+      "focus": [
+        "Homma"
+      ],
+      "opponent": [
+        "Wainwright",
+        "Moore"
+      ]
+    },
     "casualties": "American and Filipino c. 800 killed and c. 11,000–13,000 captured; Japanese c. 900 killed and wounded in the landings",
     "outcome": "victory",
     "summary": "After weeks of bombardment, Japanese troops land on the island fortress of Corregidor and General Wainwright surrenders the last American forces in the Philippines.",
@@ -1245,9 +1989,21 @@
     "geometry": "area",
     "radiusKm": 110,
     "markers": [
-      {"name": "Kharkov (Kharkiv)", "lon": 36.23, "lat": 49.99},
-      {"name": "Izyum", "lon": 37.26, "lat": 49.21},
-      {"name": "Barvenkovo", "lon": 37.02, "lat": 48.90}
+      {
+        "name": "Kharkov (Kharkiv)",
+        "lon": 36.23,
+        "lat": 49.99
+      },
+      {
+        "name": "Izyum",
+        "lon": 37.26,
+        "lat": 49.21
+      },
+      {
+        "name": "Barvenkovo",
+        "lon": 37.02,
+        "lat": 48.9
+      }
     ],
     "kind": "battle",
     "start": "1942-05-12",
@@ -1258,8 +2014,23 @@
     "lat": 49.4,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Germany", "opponent": "Soviet Union"},
-    "commanders": {"focus": ["Bock", "Paulus", "Kleist"], "opponent": ["Timoshenko", "Khrushchev", "Kostenko", "Bagramyan"]},
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Paulus",
+        "Kleist"
+      ],
+      "opponent": [
+        "Timoshenko",
+        "Khrushchev",
+        "Kostenko",
+        "Bagramyan"
+      ]
+    },
     "casualties": "Soviet c. 277,000, including c. 170,000 killed, missing or captured (Germans claimed c. 240,000 prisoners); German c. 20,000–30,000",
     "outcome": "victory",
     "summary": "A Soviet spring offensive to retake Kharkov runs straight into German preparations for their own attack; the counter-stroke traps three Soviet armies south of the city.",
@@ -1280,9 +2051,21 @@
     "geometry": "area",
     "radiusKm": 80,
     "markers": [
-      {"name": "Bir Hakeim", "lon": 23.48, "lat": 31.60},
-      {"name": "Gazala", "lon": 23.30, "lat": 32.15},
-      {"name": "Tobruk", "lon": 23.96, "lat": 32.08}
+      {
+        "name": "Bir Hakeim",
+        "lon": 23.48,
+        "lat": 31.6
+      },
+      {
+        "name": "Gazala",
+        "lon": 23.3,
+        "lat": 32.15
+      },
+      {
+        "name": "Tobruk",
+        "lon": 23.96,
+        "lat": 32.08
+      }
     ],
     "kind": "battle",
     "start": "1942-05-26",
@@ -1293,9 +2076,25 @@
     "lat": 31.85,
     "locationCertainty": "approximate",
     "phase": "pacific",
-    "sides": {"focus": "Germany and Italy", "opponent": "Britain and the Commonwealth and Free France"},
-    "commanders": {"focus": ["Rommel", "Crüwell"], "opponent": ["Ritchie", "Auchinleck", "Koenig"]},
-    "strength": {"focus": "c. 90,000, with c. 560 tanks", "opponent": "c. 110,000, with c. 850 tanks"},
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain and the Commonwealth and Free France"
+    },
+    "commanders": {
+      "focus": [
+        "Rommel",
+        "Crüwell"
+      ],
+      "opponent": [
+        "Ritchie",
+        "Auchinleck",
+        "Koenig"
+      ]
+    },
+    "strength": {
+      "focus": "c. 90,000, with c. 560 tanks",
+      "opponent": "c. 110,000, with c. 850 tanks"
+    },
     "casualties": "British and Commonwealth c. 50,000 including prisoners, before the fall of Tobruk; Axis c. 30,000–35,000; Free French at Bir Hakeim c. 900 killed, wounded or captured",
     "outcome": "victory",
     "summary": "Rommel swings round the southern end of the British Gazala line and, after a fierce battle in which the Free French hold Bir Hakeim for two weeks, routs Eighth Army.",

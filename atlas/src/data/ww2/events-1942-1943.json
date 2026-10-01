@@ -1,0 +1,2111 @@
+[
+  {
+    "id": "midway-1942",
+    "title": "Battle of Midway",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Midway Atoll",
+        "lon": -177.37,
+        "lat": 28.21
+      }
+    ],
+    "kind": "naval",
+    "start": "1942-06-04",
+    "end": "1942-06-07",
+    "datePrecision": "day",
+    "place": "Central Pacific, north-west of Midway Atoll",
+    "lon": -178.7,
+    "lat": 30.5,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Yamamoto",
+        "Nagumo"
+      ],
+      "opponent": [
+        "Nimitz",
+        "Fletcher",
+        "Spruance"
+      ]
+    },
+    "strength": {
+      "focus": "4 fleet carriers in the striking force, with battleships and an invasion force behind",
+      "opponent": "3 carriers and the aircraft based on Midway"
+    },
+    "casualties": "Japanese c. 3,000 killed, 4 fleet carriers and a heavy cruiser sunk; US c. 300–360 killed, the carrier Yorktown and a destroyer sunk",
+    "outcome": "defeat",
+    "summary": "Forewarned by codebreakers, American carrier dive bombers sink four Japanese fleet carriers in a single day off Midway, ending Japan's run of offensive victories in the Pacific.",
+    "detail": "Yamamoto planned to seize Midway Atoll and draw the surviving US carriers to their destruction. But the cryptanalysts at Pearl Harbor had read enough of the Japanese naval code to tell Nimitz the target and the timing, and he placed Enterprise, Hornet and the hastily repaired Yorktown north-east of the atoll, waiting.\n\nOn the morning of 4 June Nagumo's aircraft struck Midway. Wave after wave of American attacks from the island and the carriers failed, and the torpedo squadrons were almost wiped out; but they kept the Japanese fighters low and the carrier decks crowded with aircraft being rearmed. At about 10.20 dive bombers from Enterprise and Yorktown arrived together overhead and within minutes Akagi, Kaga and Soryu were burning wrecks. Hiryu's aircraft crippled Yorktown in reply before Hiryu herself was hit that afternoon.\n\nYamamoto abandoned the invasion. Yorktown, under tow, was finished off by a submarine on 6–7 June, and the cruiser Mikuma was sunk by air attack as the Japanese withdrew. Japan lost not only four carriers but many of its experienced aircraft mechanics and aircrew.",
+    "significance": "Midway removed the core of Japan's carrier striking force and gave the United States the initiative in the Pacific; Japan never again mounted a major strategic offensive there.",
+    "certainty": "high",
+    "uncertaintyNote": "The traditional story of a fatal 'five minutes' with decks full of fuelled aircraft has been revised by Parshall and Tully, who argue the Japanese were further from launching a counter-strike than once believed. US death tolls vary with whether Midway's garrison and aircrew are counted.",
+    "sources": [
+      "Jonathan Parshall and Anthony Tully, Shattered Sword (2005)",
+      "Gordon W. Prange, Miracle at Midway (1982)",
+      "Ronald Spector, Eagle Against the Sun (1985)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "lidice-1942",
+    "title": "Destruction of Lidice",
+    "geometry": "city",
+    "kind": "massacre",
+    "start": "1942-06-10",
+    "datePrecision": "day",
+    "place": "Lidice, near Kladno, Protectorate of Bohemia and Moravia (Czech Republic)",
+    "lon": 14.19,
+    "lat": 50.14,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany (SS and police)",
+      "opponent": "Villagers of Lidice"
+    },
+    "commanders": {
+      "focus": [
+        "Karl Hermann Frank",
+        "Kurt Daluege"
+      ]
+    },
+    "casualties": "173 men shot on the spot; most of the c. 200 women died or survived in Ravensbrück; 82 of the children murdered at Chełmno; c. 340 villagers killed in all",
+    "outcome": "n/a",
+    "summary": "In reprisal for the assassination of Reinhard Heydrich, the SS and police shoot the men of a Czech village, deport its women and children, and raze it to the ground.",
+    "detail": "Reinhard Heydrich, head of the Reich Security Main Office and acting Reich Protector of Bohemia and Moravia, was wounded in Prague on 27 May 1942 by two parachutists sent from Britain by the Czechoslovak government in exile, Jozef Gabčík and Jan Kubiš, and died on 4 June. Hitler demanded savage reprisals. On flimsy and false evidence linking the village to the attackers, German security police surrounded Lidice on the night of 9–10 June.\n\nThe men were shot in batches against a barn wall in the morning. The women were sent to Ravensbrück concentration camp. The children were taken away; a few judged racially suitable were handed to German families, and most of the rest were gassed in vans at Chełmno that summer. The village was burned, its buildings demolished and the ground levelled, and its name was struck from the map. A fortnight later the hamlet of Ležáky suffered the same fate, and well over a thousand Czechs were executed in the terror that followed.\n\nThe Germans publicised the destruction as a warning. Instead, towns across the world renamed streets and squares after Lidice.",
+    "significance": "Lidice became a worldwide symbol of Nazi terror in occupied Europe, and its destruction helped push Britain to repudiate the Munich Agreement in August 1942.",
+    "certainty": "high",
+    "uncertaintyNote": "The exact numbers of women who survived and children who were murdered differ slightly between accounts; the figures here are those generally given by the Lidice Memorial.",
+    "sources": [
+      "Robert Gerwarth, Hitler's Hangman: The Life of Heydrich (2011)",
+      "Chad Bryant, Prague in Black (2007)",
+      "Callum MacDonald, The Killing of SS Obergruppenführer Reinhard Heydrich (1989)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "pq17-1942",
+    "title": "Convoy PQ 17",
+    "geometry": "area",
+    "radiusKm": 700,
+    "markers": [
+      {
+        "name": "Convoy scattered (approx.)",
+        "lon": 27.9,
+        "lat": 75.9
+      },
+      {
+        "name": "Archangel",
+        "lon": 40.54,
+        "lat": 64.54
+      }
+    ],
+    "kind": "naval",
+    "start": "1942-06-27",
+    "end": "1942-07-28",
+    "datePrecision": "day",
+    "place": "Barents Sea, between Bear Island and Novaya Zemlya",
+    "lon": 35.0,
+    "lat": 74.0,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, the United States and the Soviet Union (Arctic convoy)"
+    },
+    "commanders": {
+      "focus": [
+        "Schmundt",
+        "Stumpff"
+      ],
+      "opponent": [
+        "Pound",
+        "Tovey",
+        "Broome",
+        "Hamilton"
+      ]
+    },
+    "strength": {
+      "focus": "U-boats and Luftwaffe bombers and torpedo bombers from Norway",
+      "opponent": "35 merchant ships with close escort and distant cover"
+    },
+    "casualties": "24 of the merchant ships sunk; c. 150 seamen killed; some 100,000 tons of cargo lost, including c. 430 tanks and 210 aircraft",
+    "outcome": "victory",
+    "summary": "Fearing an attack by the battleship Tirpitz, the Admiralty orders an Arctic convoy to scatter; U-boats and aircraft hunt down the lone merchant ships one by one.",
+    "detail": "PQ 17 left Iceland on 27 June 1942 for Archangel, carrying tanks, aircraft and lorries for the Soviet Union. It fought its way through the first air attacks in good order. Then, on the evening of 4 July, the First Sea Lord, Sir Dudley Pound, convinced that Tirpitz and other heavy ships were about to fall on the convoy, ordered the cruiser covering force to withdraw and the merchant ships to scatter.\n\nTirpitz did put to sea on 5 July, but was recalled within hours. It hardly mattered. Dispersed across the Barents Sea in the endless daylight of the Arctic summer, without an escort, the merchant ships were picked off by U-boats and bombers. Some crews sheltered in the ice off Novaya Zemlya; the escort trawlers and a few officers gathered small groups together, and stragglers trickled into Archangel over the following weeks. Only 11 of the merchant ships arrived.\n\nThe disaster bred lasting bitterness: among merchant seamen, among the escort crews who had been ordered away, and between the Allies, as Arctic convoys were suspended until September.",
+    "significance": "PQ 17 was the worst convoy disaster of the war and showed how the mere threat of the German surface fleet could paralyse Allied sea power in the Arctic.",
+    "certainty": "high",
+    "uncertaintyNote": "Counts of ships lost vary between 23 and 24 depending on how a ship sunk after reaching Soviet waters is treated. Pound's decision rested on a misreading of incomplete intelligence; its wisdom is still debated.",
+    "sources": [
+      "Stephen Roskill, The War at Sea, vol. II (1956)",
+      "Richard Woodman, Arctic Convoys 1941–1945 (1994)",
+      "Max Hastings, All Hell Let Loose (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "case-blue-1942",
+    "title": "Case Blue: the drive to the Don",
+    "geometry": "area",
+    "radiusKm": 400,
+    "markers": [
+      {
+        "name": "Voronezh",
+        "lon": 39.2,
+        "lat": 51.67
+      },
+      {
+        "name": "Rostov-on-Don",
+        "lon": 39.72,
+        "lat": 47.23
+      }
+    ],
+    "kind": "campaign",
+    "start": "1942-06-28",
+    "end": "1942-07-24",
+    "datePrecision": "day",
+    "place": "Southern Russia and eastern Ukraine, from Kursk to the Don bend and Rostov",
+    "lon": 39.5,
+    "lat": 49.5,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany, with Romania, Hungary and Italy",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Weichs",
+        "List",
+        "Hoth"
+      ],
+      "opponent": [
+        "Timoshenko",
+        "Golikov",
+        "Vatutin"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "Germany's summer offensive bursts across the steppe towards the Don and Rostov, aiming at the oil of the Caucasus. The Soviet armies fall back rather than be encircled again.",
+    "detail": "Hitler's directive for 1942 abandoned a general offensive in favour of one decisive blow in the south: destroy the Red Army west of the Don, then seize the Caucasus oilfields that Germany's war economy craved. Case Blue opened on 28 June east of Kursk, and the panzers of Fourth Panzer Army reached the Don at Voronezh within a week, while further south Sixth Army drove into the great bend of the river.\n\nThis time the Soviet command, chastened by the disasters of 1941 and the failed Kharkov offensive in May, allowed its armies to retreat across the open steppe. The great encirclements Hitler expected never came, though tens of thousands were captured. On 23 July Rostov fell almost without a fight, and five days later Stalin issued Order No. 227, 'Not a step back', threatening penal units and blocking detachments for those who retreated without orders.\n\nImpatient and misreading the Soviet withdrawal as collapse, Hitler on 23 July split the effort: Army Group A was to drive into the Caucasus while Army Group B advanced on Stalingrad at the same time.",
+    "significance": "Case Blue won vast territory but not the destruction of the Red Army it needed; dividing the offensive between the Volga and the Caucasus set the stage for the catastrophe at Stalingrad.",
+    "certainty": "high",
+    "uncertaintyNote": "The end date here marks the fall of Rostov and Hitler's Directive 45; the offensive continued in two separate thrusts, treated in separate events.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Antony Beevor, Stalingrad (1998)",
+      "Gerhard L. Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "first-alamein-1942",
+    "title": "First Battle of El Alamein",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1942-07-01",
+    "end": "1942-07-27",
+    "datePrecision": "day",
+    "place": "El Alamein position, between the coast and the Qattara Depression, Egypt",
+    "lon": 28.95,
+    "lat": 30.83,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Rommel"
+      ],
+      "opponent": [
+        "Auchinleck",
+        "Dorman-Smith"
+      ]
+    },
+    "casualties": "Commonwealth c. 13,000; Axis c. 10,000, including c. 7,000 prisoners (mostly Italian)",
+    "outcome": "defeat",
+    "summary": "After the fall of Tobruk, Rommel's exhausted army pursues the Eighth Army into Egypt but is stopped at El Alamein, 100 km from Alexandria, by Auchinleck's improvised defence.",
+    "detail": "Tobruk had fallen on 21 June with 33,000 prisoners, and Rommel, promoted field marshal, drove on into Egypt in pursuit of the battered Eighth Army. Panic gripped Cairo, where officials burned papers on 'Ash Wednesday', and the British fleet left Alexandria. Auchinleck sacked his army commander and took personal charge, choosing to fight at El Alamein, where the coast and the impassable Qattara Depression left a front of only some 60 km.\n\nRommel attacked on 1 July with a few dozen serviceable tanks and was held. Through July the two worn-out armies traded blows along the low ridges of Ruweisat and Miteirya and the coastal hill of Tel el Eisa, where the 9th Australian Division mauled Italian formations and captured a German signals intercept unit that had been reading British traffic. Auchinleck's counter-attacks were poorly coordinated and costly, and by the end of the month both sides were exhausted and dug in.",
+    "significance": "First Alamein stopped the Axis advance on the Suez Canal and the Middle East; though Auchinleck was sacked in August, it laid the ground for Montgomery's later victory.",
+    "certainty": "high",
+    "uncertaintyNote": "The battle was a tactical stalemate; it is classed as an Allied victory because the Axis offensive was halted. Casualty figures are approximate.",
+    "sources": [
+      "Niall Barr, Pendulum of War: The Three Battles of El Alamein (2004)",
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. III (1960)",
+      "Max Hastings, All Hell Let Loose (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kokoda-1942",
+    "title": "Kokoda Track and Buna–Gona",
+    "geometry": "area",
+    "radiusKm": 110,
+    "markers": [
+      {
+        "name": "Kokoda",
+        "lon": 147.74,
+        "lat": -8.88
+      },
+      {
+        "name": "Buna",
+        "lon": 148.4,
+        "lat": -8.66
+      },
+      {
+        "name": "Port Moresby",
+        "lon": 147.18,
+        "lat": -9.44
+      }
+    ],
+    "kind": "campaign",
+    "start": "1942-07-21",
+    "end": "1943-01-22",
+    "datePrecision": "day",
+    "place": "Owen Stanley Range and northern coast, Papua (Papua New Guinea)",
+    "lon": 147.75,
+    "lat": -9.0,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Australia, with the United States and Papuan carriers"
+    },
+    "commanders": {
+      "focus": [
+        "Horii",
+        "Yokoyama"
+      ],
+      "opponent": [
+        "Blamey",
+        "Rowell",
+        "Potts",
+        "Vasey",
+        "Eichelberger"
+      ]
+    },
+    "casualties": "Kokoda Track: Australian c. 625 killed and over 1,000 wounded; Buna–Gona: Allied c. 3,000 killed or wounded; Japanese c. 12,000–13,000 dead across the campaign, many of starvation and disease",
+    "outcome": "defeat",
+    "summary": "Japanese troops cross the Owen Stanley Range towards Port Moresby along a jungle footpath. Australian troops fight a long retreat, then drive them back to the beachheads of Buna and Gona.",
+    "detail": "After the Coral Sea battle stopped a seaborne landing, the Japanese tried to reach Port Moresby overland. Landing near Gona on 21 July 1942, Major-General Horii's South Seas Detachment pushed up the Kokoda Track, a mountain footpath through rainforest and mud, against a thin screen of young Australian militia of the 39th Battalion and Papuan police.\n\nThrough August and September the Australians, reinforced by veterans of the Middle East, fought a series of delaying actions at Isurava, Efogi and Brigade Hill. By mid-September the Japanese, starving at the end of a broken supply line, could see the lights of Port Moresby from Ioribaiwa; then, with Guadalcanal draining resources, they were ordered back. The Australians followed, retook Kokoda on 2 November and won at Oivi–Gorari. Thousands of Papuan carriers bore supplies forward and the wounded back.\n\nThe Japanese withdrew into fortified beachheads at Buna, Gona and Sanananda, where Australian and American troops, many sick with malaria, took them only in January 1943 after costly frontal attacks. Horii drowned during the retreat.",
+    "significance": "Together with the Australian victory at Milne Bay in August–September, Kokoda ended the Japanese threat to Port Moresby and to Australia's approaches; in Australian memory it holds the place Gallipoli holds for the First World War.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese losses are poorly documented. The wartime nickname 'Fuzzy Wuzzy Angels' for the Papuan carriers obscures the fact that many were conscripted under harsh conditions.",
+    "sources": [
+      "Peter Williams, The Kokoda Campaign 1942: Myth and Reality (2012)",
+      "Dudley McCarthy, South-West Pacific Area – First Year (Australian official history, 1959)",
+      "Ronald Spector, Eagle Against the Sun (1985)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "warsaw-great-deportation-1942",
+    "title": "The Great Deportation from the Warsaw ghetto",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Umschlagplatz",
+        "lon": 20.995,
+        "lat": 52.254
+      },
+      {
+        "name": "Treblinka",
+        "lon": 22.05,
+        "lat": 52.63
+      }
+    ],
+    "kind": "massacre",
+    "start": "1942-07-22",
+    "end": "1942-09-21",
+    "datePrecision": "day",
+    "place": "Warsaw ghetto and Treblinka, General Government (Poland)",
+    "lon": 20.99,
+    "lat": 52.25,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany (SS and police, with Ukrainian, Latvian and Lithuanian auxiliaries)",
+      "opponent": "Jews of the Warsaw ghetto"
+    },
+    "commanders": {
+      "focus": [
+        "Höfle",
+        "Globocnik"
+      ]
+    },
+    "casualties": "c. 265,000 people deported to Treblinka and murdered on arrival; c. 10,000 more killed in the ghetto",
+    "outcome": "n/a",
+    "summary": "In eight weeks the SS deports some 265,000 Jews from the Warsaw ghetto to the gas chambers of Treblinka, destroying the largest Jewish community in Europe.",
+    "detail": "On 22 July 1942 SS officers of Operation Reinhard, the plan to murder the Jews of the General Government, ordered the Jewish Council to deliver 6,000 people a day for 'resettlement in the east'. Its chairman, Adam Czerniaków, took his own life the next day rather than sign the orders. Treblinka, a new extermination camp some 80 km north-east of the city, opened on 23 July.\n\nDay after day the Jewish police, then German and auxiliary units, blockaded streets and dragged people to the Umschlagplatz, a loading yard beside the railway. Packed into freight wagons, almost all were gassed within hours of arrival. Work permits gave only brief protection. On 5 or 6 August the educator Janusz Korczak walked with the children of his orphanage to the trains and died with them. In early September a final 'selection' in a few blocks of streets, the 'cauldron', sent tens of thousands more.\n\nWhen the deportations ended on 21 September, some 35,000 Jews remained legally in the ghetto and perhaps 20,000–25,000 in hiding. Among the survivors the young members of the underground resolved that next time they would fight.",
+    "significance": "The Great Deportation was the largest single killing operation of the Holocaust in Poland; it turned Treblinka into a death factory and led directly to the armed resistance of 1943.",
+    "certainty": "high",
+    "uncertaintyNote": "Estimates of the number deported range from c. 250,000 to over 300,000; c. 265,000 is the figure most often given. The date of Korczak's deportation is variously recorded as 5 or 6 August.",
+    "sources": [
+      "Barbara Engelking and Jacek Leociak, The Warsaw Ghetto: A Guide to the Perished City (2009)",
+      "Yitzhak Arad, Belzec, Sobibor, Treblinka (1987)",
+      "Saul Friedländer, The Years of Extermination (2007)",
+      "Raul Hilberg, The Destruction of the European Jews (3rd edn, 2003)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "caucasus-1942",
+    "title": "The drive to the Caucasus",
+    "geometry": "area",
+    "radiusKm": 350,
+    "markers": [
+      {
+        "name": "Maykop",
+        "lon": 40.1,
+        "lat": 44.61
+      },
+      {
+        "name": "Mount Elbrus",
+        "lon": 42.44,
+        "lat": 43.35
+      },
+      {
+        "name": "Ordzhonikidze (Vladikavkaz)",
+        "lon": 44.68,
+        "lat": 43.02
+      }
+    ],
+    "kind": "campaign",
+    "start": "1942-07-25",
+    "end": "1942-11-19",
+    "datePrecision": "day",
+    "place": "North Caucasus, from the Kuban to the Terek",
+    "lon": 42.5,
+    "lat": 44.4,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany, with Romania",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "List",
+        "Kleist",
+        "Hitler"
+      ],
+      "opponent": [
+        "Tyulenev",
+        "Budyonny",
+        "Maslennikov"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Army Group A races south from Rostov towards the oilfields of Maykop, Grozny and Baku, raising a flag on Elbrus, but stalls in the mountains short of its goals.",
+    "detail": "Crossing the lower Don at the end of July, Army Group A swept across the Kuban steppe at great speed. Maykop, the first of the oil towns, fell on 9 August, but the Soviets had wrecked the wells and refineries so thoroughly that little oil was ever extracted. On 21 August German mountain troops planted the war flag on the summit of Elbrus, the highest peak in Europe; Hitler, who wanted oil not alpinism, was furious.\n\nThen the advance slowed. Fuel had to be trucked or even carried by camel across hundreds of kilometres, the Luftwaffe and reinforcements were drawn away to Stalingrad, and Soviet resistance stiffened in the passes of the main range and along the Terek. Hitler dismissed List in September and commanded the army group himself from East Prussia. In early November Kleist's panzers came within a few kilometres of Ordzhonikidze, gateway to the Georgian Military Road, before being thrown back. Grozny and Baku remained out of reach.\n\nWhen Stalingrad was encircled, Army Group A was left dangerously exposed, and in January 1943 it withdrew, partly through Rostov and partly into the Kuban bridgehead.",
+    "significance": "The failure to take the Caucasus oil ended Germany's best chance of solving its fuel shortage; the oil fields of Baku, source of most Soviet oil, stayed in Soviet hands.",
+    "certainty": "high",
+    "uncertaintyNote": "The end date is set at the opening of the Soviet counter-offensive at Stalingrad; Army Group A's retreat followed in December–January. The Soviet deportations of Karachays, Chechens, Ingush and Balkars in 1943–44 were justified by accusations of collaboration during this occupation.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Joel S.A. Hayward, Stopped at Stalingrad (1998)",
+      "Antony Beevor, Stalingrad (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "guadalcanal-1942",
+    "title": "Guadalcanal campaign",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Henderson Field",
+        "lon": 160.05,
+        "lat": -9.43
+      },
+      {
+        "name": "Savo Island",
+        "lon": 159.81,
+        "lat": -9.13
+      },
+      {
+        "name": "Cape Esperance",
+        "lon": 159.71,
+        "lat": -9.25
+      }
+    ],
+    "kind": "campaign",
+    "start": "1942-08-07",
+    "end": "1943-02-09",
+    "datePrecision": "day",
+    "place": "Guadalcanal and Tulagi, Solomon Islands",
+    "lon": 160.0,
+    "lat": -9.45,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States, with Australia, New Zealand and Solomon Islanders"
+    },
+    "commanders": {
+      "focus": [
+        "Yamamoto",
+        "Hyakutake",
+        "Mikawa",
+        "Kawaguchi"
+      ],
+      "opponent": [
+        "Vandegrift",
+        "Ghormley",
+        "Halsey",
+        "Patch"
+      ]
+    },
+    "strength": {
+      "focus": "c. 36,000 troops landed in all",
+      "opponent": "c. 60,000 troops by the end"
+    },
+    "casualties": "Japanese c. 25,000–30,000 dead, more than half from starvation and disease, and some 1,000 aircraft lost; Allied c. 7,000 dead, most of them at sea",
+    "outcome": "defeat",
+    "summary": "US Marines seize an unfinished Japanese airfield on Guadalcanal. Six months of jungle fighting and night battles at sea follow before Japan evacuates the island.",
+    "detail": "Japan's construction of an airfield on Guadalcanal threatened the sea route from the United States to Australia, and on 7 August 1942 the 1st Marine Division under Vandegrift landed and seized it almost unopposed. Two nights later the Japanese navy sank four Allied cruisers off Savo Island, and the transports withdrew with half the Marines' supplies still aboard. The airfield, named Henderson Field, became the prize of a battle of attrition.\n\nJapan fed troops in by night on fast destroyers, the 'Tokyo Express', and underestimated the garrison: one regiment was destroyed at the Ilu River in August, Kawaguchi's brigade was beaten on 'Edson's' or 'Bloody' Ridge in September, and a full division failed in October. At sea, in a series of carrier and night surface actions culminating in the Naval Battle of Guadalcanal of 13–15 November, the US Navy at heavy cost stopped Japan's attempts to land a decisive force. Solomon Islander scouts and coastwatchers provided vital warning.\n\nStarving and riddled with malaria, Japan's soldiers called it 'Starvation Island'. In early February 1943 destroyers secretly evacuated some 10,000 survivors.",
+    "significance": "Guadalcanal was the first Allied land offensive of the Pacific war; it bled Japan of ships, aircraft and pilots it could not replace, and passed the initiative in the South Pacific to the Allies.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese losses are uncertain because many died unrecorded of disease and hunger; Allied totals vary with how naval deaths are counted.",
+    "sources": [
+      "Richard B. Frank, Guadalcanal (1990)",
+      "Ronald Spector, Eagle Against the Sun (1985)",
+      "Ian W. Toll, The Conquering Tide (2015)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "savo-island-1942",
+    "title": "Battle of Savo Island",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1942-08-09",
+    "datePrecision": "day",
+    "place": "Waters around Savo Island, off Guadalcanal, Solomon Islands",
+    "lon": 159.8,
+    "lat": -9.15,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and Australia"
+    },
+    "commanders": {
+      "focus": [
+        "Mikawa"
+      ],
+      "opponent": [
+        "Crutchley",
+        "Turner",
+        "Fletcher"
+      ]
+    },
+    "strength": {
+      "focus": "7 cruisers and a destroyer",
+      "opponent": "6 heavy cruisers, 2 light cruisers and 15 destroyers in the area"
+    },
+    "casualties": "Allied c. 1,000 killed and 4 heavy cruisers sunk; Japanese c. 60 killed, no ships lost in the action",
+    "outcome": "victory",
+    "summary": "In a night attack, Japanese cruisers surprise the Allied screen off Guadalcanal and sink four heavy cruisers in barely half an hour: one of the worst defeats in US naval history.",
+    "detail": "Within hours of the Guadalcanal landings, Vice-Admiral Mikawa gathered cruisers at Rabaul and raced down 'the Slot' between the Solomon Islands. Allied aircraft sighted his force but the reports were slow and misleading, and the Allied commander of the screen, the British Rear-Admiral Crutchley, was away at a conference with Turner when the Japanese arrived in the small hours of 9 August.\n\nJapanese crews, highly trained in night fighting and armed with the powerful Long Lance torpedo, slipped past the radar picket destroyers. Under flares dropped by their floatplanes they struck the southern group, crippling HMAS Canberra and damaging USS Chicago, then swung round and destroyed the northern group: Vincennes, Quincy and Astoria were all sunk or left sinking. The waters between Savo and Guadalcanal, soon littered with wrecks, came to be called Ironbottom Sound.\n\nMikawa, fearing air attack at dawn, then turned for home without attacking the defenceless transports.",
+    "significance": "Savo Island forced the Allied transports to withdraw, leaving the Marines short of supplies, and showed the Imperial Navy's mastery of night fighting; but Mikawa's failure to strike the transports let the Allies keep their foothold.",
+    "certainty": "high",
+    "uncertaintyNote": "The heavy cruiser Kako was sunk by a US submarine on 10 August, on the way home.",
+    "sources": [
+      "Richard B. Frank, Guadalcanal (1990)",
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. V (1949)",
+      "Ronald Spector, Eagle Against the Sun (1985)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dieppe-1942",
+    "title": "Dieppe Raid",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1942-08-19",
+    "datePrecision": "day",
+    "place": "Dieppe, Normandy coast, France",
+    "lon": 1.08,
+    "lat": 49.92,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Canada and Britain, with Free French and US troops"
+    },
+    "commanders": {
+      "focus": [
+        "Haase",
+        "Rundstedt"
+      ],
+      "opponent": [
+        "Roberts",
+        "Mountbatten"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1,500 defenders in the immediate area, with reserves",
+      "opponent": "c. 6,000 troops, c. 5,000 of them Canadian"
+    },
+    "casualties": "Canadian c. 3,400 killed, wounded or captured (c. 900 dead); British commandos and navy c. 1,000; c. 100 RAF aircraft; German c. 600",
+    "outcome": "victory",
+    "summary": "A large Allied raid on the French port of Dieppe is shot to pieces on the beaches. Of some 5,000 Canadians who sail, more than two-thirds are killed, wounded or captured.",
+    "detail": "Operation Jubilee was meant to test whether a defended port could be seized from the sea, to gather intelligence and to show the Soviet Union that the Western Allies were taking action. The main force came from the 2nd Canadian Division, with British commandos and a handful of US Rangers.\n\nAt dawn on 19 August things went wrong almost at once. Part of the eastern flanking force ran into a German convoy and was scattered, losing surprise. On the main beach in front of the town, troops landed into fire from cliffs and fortified buildings that the light preliminary bombardment had not touched; many of the Churchill tanks could not climb the shingle or were stopped by concrete barriers. Only on the far western flank did No. 4 Commando destroy its target battery as planned. Over the beach and the Channel, the RAF fought one of its biggest air battles and lost more than 100 aircraft. By late morning the survivors were being withdrawn under fire; nearly 2,000 Canadians were taken prisoner.",
+    "significance": "Dieppe taught the Allies, at terrible cost, that a direct assault on a defended port was unworkable; the lessons shaped the planning of D-Day, while Germany drew the false conclusion that an invasion would aim for a port.",
+    "certainty": "high",
+    "uncertaintyNote": "Responsibility for remounting the raid after its first cancellation, and its real purpose, remain controversial. Casualty figures vary slightly between sources.",
+    "sources": [
+      "C.P. Stacey, Six Years of War (Canadian official history, 1955)",
+      "Brian Loring Villa, Unauthorized Action: Mountbatten and the Dieppe Raid (1989)",
+      "Mark Zuehlke, Tragedy at Dieppe (2012)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "stalingrad-1942",
+    "title": "Battle of Stalingrad",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Mamayev Kurgan",
+        "lon": 44.54,
+        "lat": 48.74
+      },
+      {
+        "name": "Tractor factory",
+        "lon": 44.59,
+        "lat": 48.79
+      },
+      {
+        "name": "Kalach-on-Don",
+        "lon": 43.53,
+        "lat": 48.69
+      }
+    ],
+    "kind": "battle",
+    "start": "1942-08-23",
+    "end": "1943-02-02",
+    "datePrecision": "day",
+    "place": "Stalingrad (Volgograd), on the Volga",
+    "lon": 44.52,
+    "lat": 48.71,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany, Romania, Italy and Hungary",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Paulus",
+        "Hoth",
+        "Manstein"
+      ],
+      "opponent": [
+        "Chuikov",
+        "Yeremenko",
+        "Rokossovsky",
+        "Zhukov",
+        "Vasilevsky"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1,000,000 (all Axis forces in the region)",
+      "opponent": "c. 1,100,000 by November"
+    },
+    "casualties": "Axis c. 750,000–850,000 killed, wounded or captured; Soviet c. 1.1 million (c. 480,000 dead); tens of thousands of civilians",
+    "outcome": "defeat",
+    "summary": "German Sixth Army fights its way into Stalingrad street by street but cannot take it. Encircled by a Soviet counter-offensive in November, it surrenders in February 1943.",
+    "detail": "On 23 August 1942 the German Sixth Army reached the Volga north of Stalingrad while the Luftwaffe's massed raids set the city ablaze, killing many thousands of civilians who had not been allowed to leave. Paulus then tried to take the city from the steppe, and the battle became a struggle for factories, grain silos, ruined apartment blocks and the hill of Mamayev Kurgan. Chuikov's 62nd Army, reduced at times to a strip a few hundred metres deep along the river, was fed by night ferries across the Volga and fought at close quarters to deny the Germans the advantage of their aircraft and artillery.\n\nOn 19 November the Soviet counter-offensive, Operation Uranus, broke through the Romanian armies on the flanks and closed the ring at Kalach four days later. Hitler forbade a breakout; Göring's promised airlift delivered a fraction of what was needed, and Manstein's relief attack was halted 50 km short in December. Starving and freezing, the pocket was cut apart from 10 January. Paulus, newly made field marshal, surrendered on 31 January, and the last troops in the north on 2 February. Of some 91,000 prisoners, only about 5,000 ever came home.",
+    "significance": "Stalingrad destroyed an entire German army with its allied contingents and broke the myth of German invincibility; from then on the strategic initiative in the east passed, with one brief interruption, to the Red Army.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures depend on how the battle's area and phases are defined. The number trapped in the pocket is variously given as c. 250,000 to 330,000.",
+    "sources": [
+      "Antony Beevor, Stalingrad (1998)",
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Jochen Hellbeck, Stalingrad: The City that Defeated the Third Reich (2015)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "burma-railway-1942",
+    "title": "The Burma–Thailand railway",
+    "geometry": "area",
+    "radiusKm": 250,
+    "markers": [
+      {
+        "name": "Thanbyuzayat",
+        "lon": 97.73,
+        "lat": 15.97
+      },
+      {
+        "name": "Hellfire Pass",
+        "lon": 98.95,
+        "lat": 14.36
+      },
+      {
+        "name": "Bridge at Tha Makham (Kanchanaburi)",
+        "lon": 99.5,
+        "lat": 14.04
+      }
+    ],
+    "kind": "massacre",
+    "start": "1942-09-16",
+    "end": "1943-10-17",
+    "datePrecision": "day",
+    "place": "From Ban Pong, Thailand, to Thanbyuzayat, Burma (Myanmar)",
+    "lon": 98.8,
+    "lat": 14.9,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Allied prisoners of war and Asian forced labourers"
+    },
+    "casualties": "Of c. 60,000 Allied prisoners, c. 12,000–13,000 died; of c. 180,000–250,000 Asian labourers, perhaps 70,000–90,000 or more died",
+    "outcome": "n/a",
+    "summary": "To supply its army in Burma, Japan builds a 415 km railway through jungle and mountains with prisoners of war and conscripted Asian labourers. Tens of thousands die of overwork, starvation and disease.",
+    "detail": "With the sea route to Rangoon exposed to Allied submarines, the Japanese army resolved to link Thailand and Burma by rail, across mountainous rainforest that pre-war surveyors had judged too difficult. Work went forward from both ends, from Ban Pong in Thailand and from Thanbyuzayat in Burma, where construction formally began in September 1942.\n\nThe labour came from some 60,000 British, Australian, Dutch and American prisoners of war and a far larger number of Asian workers, the romusha: Burmese, Tamils and other Indians from Malaya, Malays, Chinese and Javanese, many lured by false promises or simply rounded up. They cut embankments and rock cuttings largely by hand, with picks, shovels and explosives, and bridged rivers in timber. In 1943, when Tokyo demanded faster progress, the 'Speedo' period drove men through the monsoon in shifts of up to 18 hours. Cholera, dysentery, beriberi and tropical ulcers swept the camps; guards beat and sometimes killed the sick. The Asian labourers, without the organisation, medical officers or records of the prisoners, died in the greatest numbers and are the least remembered.\n\nThe two lines met in October 1943.",
+    "significance": "The 'Death Railway' became the emblem of Japan's treatment of prisoners and of the people of occupied Asia; after the war, Japanese and Korean guards and officers were tried for war crimes connected with it.",
+    "certainty": "high",
+    "uncertaintyNote": "Preparatory work at the Thai end began in June–July 1942; the start date here is the commonly cited beginning of construction in Burma. Deaths among Asian labourers are poorly documented and estimates vary widely.",
+    "sources": [
+      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)",
+      "Gavan Daws, Prisoners of the Japanese (1994)",
+      "Paul H. Kratoska (ed.), The Thailand–Burma Railway, 1942–1946 (2006)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "second-alamein-1942",
+    "title": "Second Battle of El Alamein",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1942-10-23",
+    "end": "1942-11-04",
+    "datePrecision": "day",
+    "place": "El Alamein position, western Egypt",
+    "lon": 28.9,
+    "lat": 30.85,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain and the Commonwealth, with Free French and Greek units"
+    },
+    "commanders": {
+      "focus": [
+        "Rommel",
+        "Stumme"
+      ],
+      "opponent": [
+        "Montgomery",
+        "Alexander",
+        "Leese",
+        "Lumsden"
+      ]
+    },
+    "strength": {
+      "focus": "c. 110,000 men, c. 550 tanks (about half Italian)",
+      "opponent": "c. 195,000 men, c. 1,000 tanks"
+    },
+    "casualties": "Commonwealth c. 13,500 killed, wounded or missing; Axis c. 30,000 prisoners and perhaps 20,000 killed or wounded",
+    "outcome": "defeat",
+    "summary": "After a huge night barrage, Montgomery's Eighth Army grinds through the minefields at El Alamein and breaks Rommel's army, which retreats across Libya.",
+    "detail": "Montgomery, given command of the Eighth Army in August, had beaten back Rommel's last attack at Alam Halfa and then refused to strike until he had overwhelming strength. Ultra decrypts let Allied aircraft and submarines sink the tankers on which the Axis army depended, and Rommel himself was on sick leave in Germany when the battle began.\n\nOn the night of 23 October nearly 900 guns opened fire and infantry, with sappers clearing lanes, advanced into minefields hundreds of metres deep. Operation Lightfoot did not break through as planned, and the armour was jammed in the gaps. For a week Montgomery recast his attacks while Australian infantry pushed along the coast, drawing in Rommel's reserves. Rommel's stand-in, Stumme, died of a heart attack on the first day, and Rommel hurried back. The breakthrough attack, Operation Supercharge, began on 2 November; Rommel's tanks were whittled down to a few dozen, and after a brief order from Hitler to stand fast he began to withdraw on 4 November. Many Italian infantry, without transport, were left behind and captured.",
+    "significance": "The first great British land victory over the German army, El Alamein ended the Axis threat to Egypt and the Suez Canal and, with Torch days later, sealed the fate of the Axis in Africa.",
+    "certainty": "high",
+    "uncertaintyNote": "Axis losses are uncertain, particularly among the killed and wounded; the prisoner figure includes stragglers rounded up during the pursuit.",
+    "sources": [
+      "Niall Barr, Pendulum of War: The Three Battles of El Alamein (2004)",
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. IV (1966)",
+      "James Holland, Together We Stand (2005)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "torch-1942",
+    "title": "Operation Torch",
+    "geometry": "area",
+    "radiusKm": 550,
+    "markers": [
+      {
+        "name": "Casablanca",
+        "lon": -7.6,
+        "lat": 33.59
+      },
+      {
+        "name": "Oran",
+        "lon": -0.64,
+        "lat": 35.7
+      },
+      {
+        "name": "Algiers",
+        "lon": 3.06,
+        "lat": 36.75
+      }
+    ],
+    "kind": "campaign",
+    "start": "1942-11-08",
+    "end": "1942-11-11",
+    "datePrecision": "day",
+    "place": "Atlantic coast of Morocco and Mediterranean coast of Algeria",
+    "lon": -2.3,
+    "lat": 35.0,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Vichy France",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Darlan",
+        "Noguès",
+        "Juin"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Patton",
+        "Fredendall",
+        "Andrew Cunningham"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 100,000 troops in three task forces"
+    },
+    "casualties": "Allied c. 500 killed; Vichy French c. 1,300 killed; figures vary",
+    "outcome": "defeat",
+    "summary": "American and British forces land in Vichy French Morocco and Algeria. After three days of sometimes fierce fighting, the French commanders change sides.",
+    "detail": "Torch was the first large Anglo-American operation of the war, a compromise between American hopes of an early cross-Channel invasion and British preference for the Mediterranean. On 8 November three task forces landed: Patton's Western Task Force, sailed directly from the United States, near Casablanca; a second around Oran; and an Anglo-American force at Algiers. The Allies hoped the French would not fight, and sought to put the political leaders of the French army in North Africa on their side.\n\nResistance was uneven. At Algiers it collapsed within a day, but at Oran two British cutters were shot to pieces trying to force the harbour, and off Casablanca French warships and the unfinished battleship Jean Bart fought the US Navy. Admiral Darlan, Vichy's commander-in-chief, happened to be in Algiers; detained, he ordered a ceasefire on 10 November, and the fighting in Morocco ended the next day. The 'Darlan deal', which left a Vichy collaborator in charge, caused uproar in Britain and America until Darlan was assassinated on 24 December.\n\nGermany reacted fast, flying troops into Tunisia from 9 November.",
+    "significance": "Torch brought American ground forces into the war against Germany, trapped the Axis in Africa between two Allied armies, and led directly to the German occupation of the rest of France.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the landings differ between sources, especially for French losses. The outcome is recorded as an Allied victory over Vichy forces, who were the 'focus' side here.",
+    "sources": [
+      "Rick Atkinson, An Army at Dawn (2002)",
+      "Gerhard L. Weinberg, A World at Arms (1994)",
+      "Julian Jackson, France: The Dark Years 1940–1944 (2001)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "case-anton-1942",
+    "title": "Case Anton: the occupation of Vichy France",
+    "geometry": "area",
+    "radiusKm": 300,
+    "markers": [
+      {
+        "name": "Vichy",
+        "lon": 3.43,
+        "lat": 46.13
+      },
+      {
+        "name": "Marseille",
+        "lon": 5.37,
+        "lat": 43.3
+      }
+    ],
+    "kind": "campaign",
+    "start": "1942-11-11",
+    "end": "1942-11-27",
+    "datePrecision": "day",
+    "place": "The unoccupied zone of southern France, and Corsica",
+    "lon": 3.5,
+    "lat": 44.8,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Vichy France (which did not resist)"
+    },
+    "commanders": {
+      "focus": [
+        "Rundstedt",
+        "Blaskowitz"
+      ],
+      "opponent": [
+        "Pétain",
+        "Laval"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Answering the Allied landings in North Africa, German and Italian troops occupy the southern 'free zone' of France. Vichy's army is ordered not to resist.",
+    "detail": "Since the armistice of 1940 the south of France had remained unoccupied, ruled from the spa town of Vichy by Marshal Pétain's government. Torch ended that arrangement. On the morning of 11 November German columns crossed the demarcation line and drove for the Mediterranean coast, while the Italian army occupied Provence east of the Rhône, Nice and Corsica. The armistice army was confined to barracks, and only General de Lattre de Tassigny tried, in vain, to resist; he was arrested.\n\nPétain protested but stayed in Vichy, which now governed only in name. On 27 November the Germans disbanded the armistice army and tried to seize the fleet at Toulon. Occupation brought the Gestapo and deportations to the whole country: in January 1943 German forces, with French police, rounded up thousands in Marseille and dynamited much of the Old Port quarter. In the Italian zone, by contrast, the occupation authorities for months refused to hand Jews over to the Germans or to Vichy's police.",
+    "significance": "Case Anton ended the fiction of Vichy independence, drove many French officers towards the Allies and pushed young men, fleeing forced labour in Germany, into the maquis.",
+    "certainty": "high",
+    "uncertaintyNote": "The occupation was unopposed, so no military outcome is recorded.",
+    "sources": [
+      "Julian Jackson, France: The Dark Years 1940–1944 (2001)",
+      "Robert O. Paxton, Vichy France: Old Guard and New Order (1972)",
+      "Gerhard L. Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "uranus-1942",
+    "title": "Operation Uranus",
+    "geometry": "area",
+    "radiusKm": 170,
+    "markers": [
+      {
+        "name": "Serafimovich bridgehead",
+        "lon": 42.73,
+        "lat": 49.58
+      },
+      {
+        "name": "Kalach-on-Don",
+        "lon": 43.53,
+        "lat": 48.69
+      },
+      {
+        "name": "Sovetsky",
+        "lon": 43.6,
+        "lat": 48.6
+      }
+    ],
+    "kind": "battle",
+    "start": "1942-11-19",
+    "end": "1942-11-23",
+    "datePrecision": "day",
+    "place": "The Don steppe north-west and south of Stalingrad",
+    "lon": 43.6,
+    "lat": 48.9,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany and Romania",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Paulus",
+        "Dumitrescu",
+        "Hoth"
+      ],
+      "opponent": [
+        "Zhukov",
+        "Vasilevsky",
+        "Vatutin",
+        "Rokossovsky",
+        "Yeremenko"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 1,000,000 men in three fronts"
+    },
+    "casualties": "Romanian Third and Fourth Armies largely destroyed; c. 250,000–330,000 Axis troops encircled at Stalingrad",
+    "outcome": "defeat",
+    "summary": "Two Soviet pincers smash through the Romanian armies guarding Sixth Army's flanks and meet at Kalach four days later, trapping a quarter of a million Axis soldiers at Stalingrad.",
+    "detail": "While Chuikov's men held on in the ruins, Zhukov and Vasilevsky secretly assembled fresh armies, tanks and artillery on the flanks of the German salient, moving them by night and hiding them in the steppe gullies. The long northern and southern flanks were held mainly by Romanian armies, short of anti-tank guns and spread thin.\n\nOn the foggy morning of 19 November the Southwestern and Don Fronts attacked from bridgeheads over the Don at Serafimovich and Kletskaya, tearing open the Romanian Third Army. The next day the Stalingrad Front struck south of the city against the Romanian Fourth Army. German reserves, including a weak panzer corps, were too few and too late. On 22 November Soviet tanks seized the Don bridge at Kalach intact by a coup de main, and on 23 November the pincers met near Sovetsky. Sixth Army, part of Fourth Panzer Army and Romanian remnants were encircled.\n\nPaulus asked for freedom to break out; Hitler, assured by Göring that the Luftwaffe could supply the pocket, ordered him to stand fast.",
+    "significance": "Uranus turned the Stalingrad battle from a German siege into a Soviet encirclement, and was the first great success of the Red Army's mature operational art.",
+    "certainty": "high",
+    "uncertaintyNote": "Estimates of the number of men encircled vary widely, from c. 250,000 to c. 330,000.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Antony Beevor, Stalingrad (1998)",
+      "Richard Overy, Russia's War (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "toulon-1942",
+    "title": "Scuttling of the French fleet at Toulon",
+    "geometry": "city",
+    "kind": "naval",
+    "start": "1942-11-27",
+    "datePrecision": "day",
+    "place": "Toulon naval base, Provence, France",
+    "lon": 5.93,
+    "lat": 43.11,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "French navy (Vichy)"
+    },
+    "commanders": {
+      "opponent": [
+        "Laborde",
+        "Marquis"
+      ]
+    },
+    "casualties": "c. 12 French sailors killed; some 77 ships scuttled",
+    "outcome": "n/a",
+    "summary": "As German troops burst into Toulon to seize the French fleet, its crews scuttle their ships. Battleships, cruisers and destroyers sink or burn at their moorings.",
+    "detail": "Since 1940 the main French fleet, among the most modern in the world, had lain at Toulon, its commanders loyal to Vichy and pledged to keep it out of both German and Allied hands. Admiral de Laborde rejected appeals from Darlan in Algiers to sail for North Africa after Torch. The Germans, distrusting the French, planned Operation Lila to seize the ships intact.\n\nBefore dawn on 27 November German armoured units entered the base. Delayed at the gates and lost in the maze of the arsenal, they reached the quays only to find the crews carrying out long-prepared orders. Scuttling charges exploded, seacocks were opened and ships set ablaze: the battleship Strasbourg, the heavy cruisers, light cruisers, destroyers and submarines settled into the harbour mud, some burning for days. A handful of submarines slipped out; Casabianca and two others reached Allied ports. The Germans and Italians later raised some hulls, but none served them in the war.",
+    "significance": "The scuttling denied Germany and Italy a fleet that could have tipped the naval balance in the Mediterranean, but also meant it would never fight for the Allies.",
+    "certainty": "high",
+    "uncertaintyNote": "No battle was fought; the episode is recorded without an outcome. Counts of ships scuttled vary with how small craft are counted.",
+    "sources": [
+      "Paul Auphan and Jacques Mordal, The French Navy in World War II (1959)",
+      "Julian Jackson, France: The Dark Years 1940–1944 (2001)",
+      "Stephen Roskill, The War at Sea, vol. II (1956)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "bengal-famine-1943",
+    "title": "The Bengal famine",
+    "geometry": "area",
+    "radiusKm": 300,
+    "markers": [
+      {
+        "name": "Calcutta (Kolkata)",
+        "lon": 88.36,
+        "lat": 22.57
+      },
+      {
+        "name": "Midnapore",
+        "lon": 87.32,
+        "lat": 22.42
+      }
+    ],
+    "kind": "campaign",
+    "start": "1943",
+    "end": "1944",
+    "datePrecision": "year",
+    "place": "Bengal, British India (West Bengal, India, and Bangladesh)",
+    "lon": 89.0,
+    "lat": 23.3,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan (its conquest of Burma cut off rice imports)",
+      "opponent": "The people of Bengal; the British and Bengal governments responsible for relief"
+    },
+    "casualties": "c. 2.1–3 million deaths from starvation and disease",
+    "outcome": "n/a",
+    "summary": "In the province closest to the Burma front, wartime shortages, inflation and failures of government turn a poor harvest into a famine that kills some two to three million people.",
+    "detail": "Bengal's poor already lived close to hunger. The Japanese conquest of Burma in 1942 cut off rice imports; in October 1942 a cyclone and floods struck the coastal districts of Midnapore, and fungal disease damaged the crop. Fearing invasion, the authorities had already pursued a 'denial policy', removing boats and surplus rice from the coast. Military spending sent prices soaring, traders and better-off households hoarded, other provinces barred exports of grain, and the government gave priority to feeding Calcutta's war industries and services.\n\nBy the spring of 1943 the price of rice had several times multiplied, and labourers, fishermen and artisans, unable to buy food, began to starve. Hundreds of thousands trekked into Calcutta, where the dying lay in the streets. The provincial and central governments were slow even to declare a famine, and the War Cabinet in London, short of shipping and sceptical of Indian requests, approved only limited grain imports. Relief improved after Wavell became Viceroy in October 1943 and used the army to move food, but cholera, malaria and smallpox went on killing well into 1944.",
+    "significance": "The worst famine in South Asia in the twentieth century, Bengal 1943 became a lasting indictment of colonial rule and a founding case for the modern study of famine as a failure of entitlements rather than simply of food supply.",
+    "certainty": "high",
+    "uncertaintyNote": "There was no Axis party in a direct sense; the slots are used to name the war's role and those who suffered and governed. Death estimates range from c. 1.5 million (official enquiry) to over 3 million. The relative weight of crop failure, market failure and government policy, including Churchill's personal role, is debated by historians.",
+    "sources": [
+      "Amartya Sen, Poverty and Famines (1981)",
+      "Janam Mukherjee, Hungry Bengal (2015)",
+      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)",
+      "Madhusree Mukerjee, Churchill's Secret War (2010)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "iskra-1943",
+    "title": "Operation Iskra: breaking the Leningrad blockade",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Shlisselburg",
+        "lon": 31.03,
+        "lat": 59.94
+      },
+      {
+        "name": "Sinyavino",
+        "lon": 31.07,
+        "lat": 59.83
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-01-12",
+    "end": "1943-01-30",
+    "datePrecision": "day",
+    "place": "South shore of Lake Ladoga, east of Leningrad (St Petersburg)",
+    "lon": 31.1,
+    "lat": 59.9,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Lindemann",
+        "Küchler"
+      ],
+      "opponent": [
+        "Govorov",
+        "Meretskov",
+        "Zhukov",
+        "Voroshilov"
+      ]
+    },
+    "casualties": "Soviet c. 115,000 killed, wounded or missing (c. 34,000 dead); German losses smaller, perhaps c. 30,000",
+    "outcome": "defeat",
+    "summary": "Attacking across the ice of the Neva and from the east, Soviet fronts break through the German ring along Lake Ladoga, opening a narrow land corridor into besieged Leningrad.",
+    "detail": "After 16 months of siege, in which hundreds of thousands of Leningraders had starved to death, the city was linked to the rest of the Soviet Union only by the 'Road of Life' across Lake Ladoga. Operation Iskra ('Spark') aimed at the Shlisselburg–Sinyavino salient, a strip of peat bog and forest some 15 km wide between the Leningrad and Volkhov Fronts.\n\nOn 12 January 1943, after a heavy bombardment, Leningrad Front troops crossed the frozen Neva while the Volkhov Front attacked from the east. The fighting through the snow-covered bogs and fortified workers' settlements was costly, but on 18 January the two fronts met and Shlisselburg was retaken. Attempts to widen the corridor by taking the Sinyavino heights failed.\n\nIn just over two weeks engineers laid a railway through the corridor, and the first train reached Leningrad on 7 February. Though under German artillery fire, the 'Victory Road' carried far more than the ice road ever could.",
+    "significance": "Iskra did not end the siege, which lasted until January 1944, but the land corridor ended the threat of a second starvation winter and was a powerful lift to Soviet morale coming alongside Stalingrad.",
+    "certainty": "high",
+    "uncertaintyNote": "Soviet losses are from Krivosheev's statistical study; German figures are less certain.",
+    "sources": [
+      "David M. Glantz, The Battle for Leningrad 1941–1944 (2002)",
+      "Anna Reid, Leningrad: Tragedy of a City under Siege (2011)",
+      "G.F. Krivosheev (ed.), Soviet Casualties and Combat Losses in the Twentieth Century (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "casablanca-1943",
+    "title": "Casablanca Conference",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1943-01-14",
+    "end": "1943-01-24",
+    "datePrecision": "day",
+    "place": "Anfa, Casablanca, French Morocco",
+    "lon": -7.66,
+    "lat": 33.59,
+    "locationCertainty": "exact",
+    "phase": "turning",
+    "sides": {
+      "focus": "Germany, Italy and Japan (the subject of the talks)",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "opponent": [
+        "Roosevelt",
+        "Churchill",
+        "Marshall",
+        "Brooke"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Roosevelt and Churchill meet in liberated Morocco, choose Sicily as their next target, plan a combined bomber offensive and announce that they will accept only unconditional surrender.",
+    "detail": "With the Axis cornered in Tunisia, Roosevelt and Churchill and their chiefs of staff met at a hotel in the Anfa suburb of Casablanca. Stalin, absorbed in Stalingrad, declined to come. The American chiefs still favoured a cross-Channel invasion in 1943, but the British, better prepared, argued that the shipping and landing craft were not yet there, and the conference agreed to invade Sicily once North Africa was cleared.\n\nThe conference also gave first priority to defeating the U-boats, and issued a directive for a combined bomber offensive from Britain, the RAF by night and the US Eighth Air Force by day, against German industry and morale. The two leaders brought together the rival French generals de Gaulle and Giraud for a stiff, photographed handshake.\n\nAt a press conference on the final day, Roosevelt announced that the Allies would demand the unconditional surrender of Germany, Italy and Japan, a formula he presented as recalling Grant in the American Civil War.",
+    "significance": "Casablanca fixed Anglo-American strategy for 1943, postponing the invasion of France to 1944. The unconditional surrender doctrine reassured Stalin but was later debated as having stiffened enemy resistance.",
+    "certainty": "high",
+    "uncertaintyNote": "No Axis party took part; the focus slot names the powers whose surrender was demanded. Whether unconditional surrender prolonged the war remains contested.",
+    "sources": [
+      "Gerhard L. Weinberg, A World at Arms (1994)",
+      "Michael Howard, Grand Strategy, vol. IV (1972)",
+      "Rick Atkinson, An Army at Dawn (2002)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kasserine-1943",
+    "title": "Battle of Kasserine Pass",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Sidi Bou Zid",
+        "lon": 9.5,
+        "lat": 34.87
+      },
+      {
+        "name": "Thala",
+        "lon": 8.67,
+        "lat": 35.57
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-02-19",
+    "end": "1943-02-24",
+    "datePrecision": "day",
+    "place": "Kasserine Pass, Western Dorsal mountains, Tunisia",
+    "lon": 8.72,
+    "lat": 35.25,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "United States, Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Rommel",
+        "Arnim"
+      ],
+      "opponent": [
+        "Fredendall",
+        "Anderson",
+        "Alexander"
+      ]
+    },
+    "casualties": "US c. 6,000 killed, wounded or captured in the wider fighting from 14 February; Axis c. 2,000",
+    "outcome": "victory",
+    "summary": "German armour routs inexperienced American troops in the mountain passes of central Tunisia, before being stopped short of the Allied supply bases at Thala and Tébessa.",
+    "detail": "In February 1943 the Axis held a bridgehead in Tunisia, reinforced by sea and air, while Rommel's army fell back to the Mareth Line from Libya. Seeing the overstretched US II Corps in the mountains to the west, Arnim and Rommel struck. On 14 February panzers overran American positions at Sidi Bou Zid, cutting off infantry on the hills; a counter-attack the next day was destroyed.\n\nRommel then pushed through the Kasserine Pass, where on 19–20 February the defenders, a scratch force of US engineers and infantry, broke under attack. American tanks and anti-tank guns proved outclassed, and the command structure was confused, with the corps commander, Fredendall, directing the battle from a deep bunker far to the rear. But the Axis commanders quarrelled over the next objective, and at Thala British armour and infantry, joined by US artillery that had made a forced march from Morocco, held the road on 21–22 February. Rommel withdrew on 23–24 February.",
+    "significance": "Kasserine was a humiliating first defeat for the US Army against the Germans, but it was quickly absorbed: Fredendall was replaced by Patton, and the lessons in training, command and combined arms were swiftly learned.",
+    "certainty": "high",
+    "uncertaintyNote": "American losses are often given for the whole sequence of battles from Sidi Bou Zid; figures vary.",
+    "sources": [
+      "Rick Atkinson, An Army at Dawn (2002)",
+      "Martin Blumenson, Kasserine Pass (1967)",
+      "George F. Howe, Northwest Africa: Seizing the Initiative in the West (US official history, 1957)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "third-kharkov-1943",
+    "title": "Third Battle of Kharkov",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1943-02-19",
+    "end": "1943-03-15",
+    "datePrecision": "day",
+    "place": "Kharkov (Kharkiv) and the Donets basin, Ukraine",
+    "lon": 36.23,
+    "lat": 50.0,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Manstein",
+        "Hoth",
+        "Hausser"
+      ],
+      "opponent": [
+        "Vatutin",
+        "Golikov",
+        "Popov"
+      ]
+    },
+    "casualties": "Soviet c. 85,000 killed, wounded or missing; German losses lower, perhaps c. 12,000 in the SS Panzer Corps alone; figures uncertain",
+    "outcome": "victory",
+    "summary": "As overextended Soviet armies drive on towards the Dnieper after Stalingrad, Manstein's counter-stroke shatters them and retakes Kharkov, restoring the German front in the south.",
+    "detail": "After Stalingrad the Red Army rolled westward, liberating Kursk, Belgorod and, on 16 February 1943, Kharkov, which the SS Panzer Corps had abandoned against Hitler's orders. Stalin and the Soviet command, believing the Germans were retreating to the Dnieper, pressed on with armies worn down by weeks of advance, short of tanks and far from their supply bases.\n\nManstein waited until the Soviet spearheads, including Popov's mobile group, were deep and exposed, then struck their flanks from 19 February with panzer divisions brought from the west and the reorganised SS corps. The Soviet Sixth Army and the mobile group were cut to pieces. Turning north, the Germans retook Kharkov after days of street fighting, completed on 15 March, and Belgorod on 18 March, before the spring thaw turned the roads to mud and ended operations.",
+    "significance": "Manstein's 'backhand blow' was the last major German operational victory in the east; it left a great Soviet bulge around Kursk, where the decisive summer battle would be fought.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures on both sides are disputed; Soviet losses in the preceding offensive and in the counter-stroke are often combined.",
+    "sources": [
+      "David M. Glantz, From the Don to the Dnepr (1991)",
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Robert M. Citino, The Wehrmacht Retreats (2012)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bismarck-sea-1943",
+    "title": "Battle of the Bismarck Sea",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1943-03-02",
+    "end": "1943-03-04",
+    "datePrecision": "day",
+    "place": "Bismarck Sea and Huon Gulf, off New Guinea",
+    "lon": 148.2,
+    "lat": -7.1,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and Australia"
+    },
+    "commanders": {
+      "focus": [
+        "Kimura Masatomi",
+        "Imamura"
+      ],
+      "opponent": [
+        "Kenney",
+        "Whitehead"
+      ]
+    },
+    "strength": {
+      "focus": "8 transports and 8 destroyers carrying c. 7,000 troops",
+      "opponent": "US Fifth Air Force and RAAF aircraft"
+    },
+    "casualties": "Japanese c. 3,000 killed, all 8 transports and 4 destroyers sunk; Allied 13 airmen killed",
+    "outcome": "defeat",
+    "summary": "Allied aircraft, using new low-level and skip-bombing tactics, destroy a Japanese convoy carrying reinforcements to Lae in New Guinea.",
+    "detail": "To reinforce its garrison at Lae, the Japanese command sent the 51st Division from Rabaul in a convoy of eight transports escorted by eight destroyers. Codebreakers warned of its sailing, and General Kenney's US Fifth Air Force and the Royal Australian Air Force had been training for exactly this attack.\n\nAfter the convoy was found and bombed on 2 March, the decisive blow fell on the morning of 3 March in the Huon Gulf. Beaufighters raked the ships with cannon fire, and B-25 Mitchells, modified with forward-firing guns, came in at mast height to skip bombs into the hulls while high-flying B-17s attacked from above. Every transport and four of the destroyers were sunk. Over the following days, Allied aircraft and PT boats machine-gunned survivors in the water and in lifeboats, to prevent them reaching land as reinforcements; the decision remains a grim and debated episode.",
+    "significance": "After the Bismarck Sea, Japan stopped sending large convoys to New Guinea, conceding control of the surrounding waters to Allied air power.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese deaths are estimated at c. 2,900–3,000; Allied claims at the time greatly exaggerated the number of ships present.",
+    "sources": [
+      "Ronald Spector, Eagle Against the Sun (1985)",
+      "Thomas E. Griffith, MacArthur's Airman: General George C. Kenney (1998)",
+      "Lex McAulay, Battle of the Bismarck Sea (1991)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "yamamoto-1943",
+    "title": "Death of Yamamoto",
+    "geometry": "site",
+    "kind": "death",
+    "start": "1943-04-18",
+    "datePrecision": "day",
+    "place": "Jungle near Buin, southern Bougainville, Solomon Islands (Papua New Guinea)",
+    "lon": 155.4,
+    "lat": -6.75,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Yamamoto"
+      ],
+      "opponent": [
+        "Nimitz",
+        "Halsey",
+        "Mitscher",
+        "John Mitchell"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Acting on a decoded itinerary, American P-38 fighters intercept and shoot down the aircraft carrying Admiral Yamamoto, architect of Pearl Harbor, over Bougainville.",
+    "detail": "In April 1943 Admiral Yamamoto Isoroku, commander of the Combined Fleet, flew to Rabaul to direct an air offensive against Allied positions in the Solomons and New Guinea, and then planned a morale-raising tour of front-line bases. His detailed schedule was sent by radio to the units concerned, and US Navy codebreakers read it.\n\nWith Nimitz's approval, 18 long-range P-38 Lightnings took off from Guadalcanal on the morning of 18 April and flew some 700 km at wave-top height, navigating by dead reckoning, to arrive over Bougainville just as Yamamoto's two bombers began their descent towards Ballale. Both were shot down; the bomber carrying Yamamoto crashed into the jungle, and a Japanese search party found his body the next day. One American pilot was lost.\n\nJapan withheld the news for more than a month. Yamamoto's ashes received a state funeral in Tokyo in June.",
+    "significance": "The killing of the man who had planned Pearl Harbor and Midway was a blow to Japanese morale; it was carried out at the risk of revealing that the navy's codes were broken, which Japan never suspected.",
+    "certainty": "high",
+    "uncertaintyNote": "The credit for shooting down Yamamoto's aircraft, claimed by Thomas Lanphier and Rex Barber, has been disputed for decades. The crash site is placed approximately.",
+    "sources": [
+      "Ronald Spector, Eagle Against the Sun (1985)",
+      "Donald A. Davis, Lightning Strike (2005)",
+      "Hiroyuki Agawa, The Reluctant Admiral (1979)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "warsaw-ghetto-uprising-1943",
+    "title": "Warsaw Ghetto Uprising",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Miła 18",
+        "lon": 20.986,
+        "lat": 52.25
+      },
+      {
+        "name": "Great Synagogue, Tłomackie",
+        "lon": 21.004,
+        "lat": 52.242
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-04-19",
+    "end": "1943-05-16",
+    "datePrecision": "day",
+    "place": "Warsaw ghetto, General Government (Poland)",
+    "lon": 20.99,
+    "lat": 52.248,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany (SS, police and auxiliaries)",
+      "opponent": "Jewish fighters and civilians of the Warsaw ghetto"
+    },
+    "commanders": {
+      "focus": [
+        "Stroop",
+        "Sammern-Frankenegg"
+      ],
+      "opponent": [
+        "Mordechai Anielewicz",
+        "Marek Edelman",
+        "Paweł Frenkel"
+      ]
+    },
+    "strength": {
+      "focus": "c. 2,000 men with armour and artillery",
+      "opponent": "several hundred fighters with pistols, a few rifles and home-made grenades"
+    },
+    "casualties": "c. 7,000 Jews killed in the ghetto, many burned alive; c. 50,000 captured and sent to Treblinka, Majdanek and labour camps; German losses officially 16 dead, almost certainly understated",
+    "outcome": "n/a",
+    "summary": "When the SS enters the Warsaw ghetto to deport its last inhabitants, Jewish fighters resist. For four weeks the SS burns the ghetto block by block to crush them.",
+    "detail": "After the Great Deportation of 1942 the young people of the ghetto underground built the Jewish Combat Organisation (ŻOB), led by Mordechai Anielewicz, while a separate Jewish Military Union (ŻZW) formed around Betar veterans. In January 1943 armed resistance had already halted a German round-up. Residents dug bunkers beneath the houses.\n\nOn the morning of 19 April, the eve of Passover, German and auxiliary troops entered the ghetto and were driven back by gunfire and petrol bombs. The SS general Jürgen Stroop took command and, unable to winkle the fighters out, began to set the ghetto on fire building by building, flushing people from cellars with smoke and gas. Fighting flared for weeks among the flames. On 8 May the ŻOB command bunker at Miła 18 was surrounded; Anielewicz and many others died there. A few dozen fighters escaped through the sewers to the 'Aryan' side.\n\nOn 16 May Stroop marked the end by blowing up the Great Synagogue and reported to Himmler that 'the Jewish quarter of Warsaw is no more'.",
+    "significance": "The uprising was the largest revolt by Jews during the Holocaust and the first urban uprising in occupied Europe; it became an enduring symbol of resistance and dignity in the face of annihilation.",
+    "certainty": "high",
+    "uncertaintyNote": "The outcome is recorded as n/a: this was a revolt against extermination, not a battle between armies. Numbers come largely from Stroop's own report, which almost certainly understated German losses and may have inflated Jewish ones.",
+    "sources": [
+      "Israel Gutman, Resistance: The Warsaw Ghetto Uprising (1994)",
+      "Barbara Engelking and Jacek Leociak, The Warsaw Ghetto: A Guide to the Perished City (2009)",
+      "Saul Friedländer, The Years of Extermination (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "black-may-1943",
+    "title": "Black May: the U-boats defeated",
+    "geometry": "area",
+    "radiusKm": 1300,
+    "markers": [
+      {
+        "name": "Convoy ONS 5 battle (approx.)",
+        "lon": -43.0,
+        "lat": 55.5
+      }
+    ],
+    "kind": "naval",
+    "start": "1943-05",
+    "end": "1943-05-24",
+    "datePrecision": "month",
+    "place": "The North Atlantic convoy routes and the mid-ocean air gap",
+    "lon": -35.0,
+    "lat": 52.0,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, Canada and the United States"
+    },
+    "commanders": {
+      "focus": [
+        "Dönitz"
+      ],
+      "opponent": [
+        "Max Horton",
+        "Peter Gretton"
+      ]
+    },
+    "casualties": "c. 41 U-boats lost in May 1943, most with all hands; Allied merchant losses in the North Atlantic fell sharply",
+    "outcome": "defeat",
+    "summary": "In a few weeks of convoy battles the U-boats suffer such losses that Dönitz pulls them out of the North Atlantic. The tide of the Battle of the Atlantic turns.",
+    "detail": "In March 1943 the U-boat packs had come close to severing the Atlantic lifeline, sinking dozens of ships from convoys HX 229 and SC 122. Two months later the balance had swung. Very-long-range Liberators closed the mid-ocean air gap; escort carriers and new support groups of destroyers and sloops hunted U-boats away from the convoys; centimetric radar, ship-borne direction-finding and the forward-throwing Hedgehog made escorts far more deadly; and Bletchley Park was again reading the U-boat cipher.\n\nThe turning point came around convoy ONS 5 in early May. Some 40 U-boats attacked it and sank 13 merchant ships, but escorts led by Peter Gretton's group, fighting in fog and gales, sank six U-boats and damaged others. Convoy after convoy followed in which losses were light and U-boats were destroyed; Dönitz's own son died aboard U-954, sunk while attacking SC 130. On 24 May, with more than 40 boats lost that month, Dönitz withdrew his packs from the North Atlantic.",
+    "significance": "Black May secured the shipping route on which the build-up for the invasion of Europe and Britain's survival depended; the U-boats never regained the initiative in the Atlantic.",
+    "certainty": "high",
+    "uncertaintyNote": "Counts of U-boats lost in May 1943 range from 41 to 43 according to how losses outside the Atlantic and accidents are counted. The ONS 5 marker is approximate.",
+    "sources": [
+      "Marc Milner, Battle of the Atlantic (2003)",
+      "Clay Blair, Hitler's U-Boat War: The Hunted, 1942–1945 (1998)",
+      "Richard Overy, Why the Allies Won (1995)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "tunisia-surrender-1943",
+    "title": "The Axis surrender in Tunisia",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Bizerte",
+        "lon": 9.87,
+        "lat": 37.27
+      },
+      {
+        "name": "Cap Bon",
+        "lon": 11.05,
+        "lat": 37.08
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-05-06",
+    "end": "1943-05-13",
+    "datePrecision": "day",
+    "place": "Tunis, Bizerte and the Cap Bon peninsula, Tunisia",
+    "lon": 10.18,
+    "lat": 36.81,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain and the Commonwealth, United States and France"
+    },
+    "commanders": {
+      "focus": [
+        "Arnim",
+        "Messe"
+      ],
+      "opponent": [
+        "Alexander",
+        "Anderson",
+        "Montgomery",
+        "Bradley"
+      ]
+    },
+    "casualties": "c. 230,000–250,000 Axis troops taken prisoner, about half of them German",
+    "outcome": "defeat",
+    "summary": "Allied armies break into Tunis and Bizerte. Cut off from Europe by Allied sea and air power, the Axis armies in Africa surrender: a quarter of a million men go into captivity.",
+    "detail": "Through March and April 1943 the Allied armies closed in on the Axis bridgehead in Tunisia: Montgomery's Eighth Army forced the Mareth Line and the Wadi Akarit, while the First Army and the US II Corps pushed from the west. Rommel, ill and convinced the position was hopeless, left Africa on 9 March. Allied aircraft and submarines strangled the supply route from Sicily, shooting down giant transport aircraft by the dozen.\n\nOn 6 May, after a massive air and artillery bombardment, British armour broke through in the Medjerda valley and entered Tunis the next afternoon, just as US troops took Bizerte. Axis resistance collapsed; units fell back into the Cap Bon peninsula but there was no Dunkirk, for the Royal Navy patrolled the straits. Arnim was captured on 12 May and Messe, commanding the Italian First Army, surrendered on 13 May.",
+    "significance": "The Tunisian surrender, almost as large as Stalingrad, ended the war in Africa, opened the Mediterranean to Allied shipping and cleared the way to Sicily and Italy.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner totals range from c. 230,000 to 275,000 depending on the source and the date counted.",
+    "sources": [
+      "Rick Atkinson, An Army at Dawn (2002)",
+      "I.S.O. Playfair and C.J.C. Molony, The Mediterranean and Middle East, vol. IV (1966)",
+      "Gerhard L. Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dambusters-1943",
+    "title": "The Dambusters raid",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Eder dam",
+        "lon": 9.05,
+        "lat": 51.18
+      },
+      {
+        "name": "Sorpe dam",
+        "lon": 7.97,
+        "lat": 51.35
+      }
+    ],
+    "kind": "raid",
+    "start": "1943-05-16",
+    "end": "1943-05-17",
+    "datePrecision": "day",
+    "place": "Möhne dam, Ruhr, Germany",
+    "lon": 8.06,
+    "lat": 51.49,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain (RAF 617 Squadron, with Canadian, Australian, New Zealand and US aircrew)"
+    },
+    "commanders": {
+      "opponent": [
+        "Guy Gibson",
+        "Harris"
+      ]
+    },
+    "strength": {
+      "opponent": "19 Lancaster bombers"
+    },
+    "casualties": "8 of 19 aircraft lost, 53 aircrew killed; on the ground c. 1,300–1,600 killed in the floods, many of them forced labourers from the Soviet Union",
+    "outcome": "defeat",
+    "summary": "RAF Lancasters drop Barnes Wallis's bouncing mines at low level by moonlight and breach the Möhne and Eder dams, sending floods through the valleys below.",
+    "detail": "Barnes Wallis's weapon, codenamed Upkeep, was a drum-shaped mine spun backwards and released at exactly 60 feet and at a set speed and distance, so that it skipped over anti-torpedo nets, struck the dam wall, sank and exploded against it. A special squadron, No. 617, was formed under Wing Commander Guy Gibson and trained for weeks in low flying at night.\n\nOn the night of 16–17 May 1943 three waves of Lancasters flew to the Ruhr at treetop height. Several were shot down or hit power lines on the way. At the Möhne, under fire from flak towers, the fifth mine dropped broke the wall; the force then flew on to the Eder, undefended but in a steep valley, and breached it too. The Sorpe, an earthen dam, was hit but held. A wall of water swept down the Möhne and Ruhr valleys, destroying bridges, factories and homes. Among the dead were many hundreds of foreign forced labourers, mostly Soviet women, in a camp below the Möhne at Neheim.",
+    "significance": "Operation Chastise was a feat of precision flying and a propaganda triumph in Britain, but the damage to Ruhr industry was repaired within months, and the cost in civilian and forced labourers' lives was heavy.",
+    "certainty": "high",
+    "uncertaintyNote": "Death tolls on the ground vary between sources; the numbers of forced labourers killed are especially uncertain.",
+    "sources": [
+      "James Holland, Dam Busters (2012)",
+      "John Sweetman, The Dambusters Raid (1982)",
+      "Richard Overy, The Bombing War (2013)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cartwheel-1943",
+    "title": "Operation Cartwheel: the isolation of Rabaul",
+    "geometry": "area",
+    "radiusKm": 600,
+    "markers": [
+      {
+        "name": "Rabaul",
+        "lon": 152.18,
+        "lat": -4.2
+      },
+      {
+        "name": "Lae",
+        "lon": 147.0,
+        "lat": -6.73
+      },
+      {
+        "name": "Empress Augusta Bay, Bougainville",
+        "lon": 155.1,
+        "lat": -6.3
+      }
+    ],
+    "kind": "campaign",
+    "start": "1943-06-30",
+    "end": "1944-03",
+    "datePrecision": "day",
+    "place": "New Guinea, New Britain and the Solomon Islands",
+    "lon": 152.0,
+    "lat": -6.5,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States, Australia and New Zealand"
+    },
+    "commanders": {
+      "focus": [
+        "Imamura",
+        "Kusaka",
+        "Adachi"
+      ],
+      "opponent": [
+        "MacArthur",
+        "Halsey",
+        "Blamey",
+        "Kenney"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "In a two-pronged advance through New Guinea and the Solomons, Allied forces encircle Japan's great base at Rabaul, then choose to bypass and neutralise it rather than storm it.",
+    "detail": "Rabaul, on New Britain, was Japan's main fortress in the South Pacific, with five airfields and a fine harbour. Cartwheel coordinated two drives against it: MacArthur's forces along the coast of New Guinea and on to New Britain, and Halsey's up the Solomon Islands chain.\n\nThe campaign opened on 30 June 1943 with landings on New Georgia, where the fighting for Munda airfield proved slow and costly, and at Nassau Bay in New Guinea. In September an Australian amphibious landing and an American airborne drop at Nadzab took Lae, followed by Finschhafen. On 1 November US Marines landed at Empress Augusta Bay on Bougainville, and carrier and land-based aircraft struck Rabaul's harbour and airfields. In December landings on New Britain itself, at Arawe and Cape Gloucester, closed the ring.\n\nRather than assault a garrison of some 100,000 men, the Allied chiefs decided to bypass Rabaul. With the Admiralty Islands taken in early 1944, it was left isolated and impotent until the end of the war.",
+    "significance": "Cartwheel established the 'leapfrogging' strategy of bypassing strongpoints that would carry MacArthur and Nimitz across the Pacific, and destroyed much of Japan's naval air power in the region.",
+    "certainty": "high",
+    "uncertaintyNote": "The operation's end is usually dated to the isolation of Rabaul by the landings in the Admiralty Islands in February–March 1944.",
+    "sources": [
+      "John Miller Jr, Cartwheel: The Reduction of Rabaul (US official history, 1959)",
+      "Ronald Spector, Eagle Against the Sun (1985)",
+      "Ian W. Toll, The Conquering Tide (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kursk-1943",
+    "title": "Battle of Kursk",
+    "geometry": "area",
+    "radiusKm": 200,
+    "markers": [
+      {
+        "name": "Prokhorovka",
+        "lon": 36.73,
+        "lat": 51.04
+      },
+      {
+        "name": "Ponyri",
+        "lon": 36.3,
+        "lat": 52.3
+      },
+      {
+        "name": "Kursk",
+        "lon": 36.19,
+        "lat": 51.73
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-07-05",
+    "end": "1943-08-23",
+    "datePrecision": "day",
+    "place": "The Kursk salient, between Orel and Belgorod, Russia",
+    "lon": 36.4,
+    "lat": 51.6,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Manstein",
+        "Kluge",
+        "Model",
+        "Hoth"
+      ],
+      "opponent": [
+        "Zhukov",
+        "Vasilevsky",
+        "Rokossovsky",
+        "Vatutin",
+        "Konev"
+      ]
+    },
+    "strength": {
+      "focus": "c. 780,000 men, c. 2,900 tanks and assault guns (Citadel)",
+      "opponent": "c. 1.9 million men, c. 5,000 tanks including reserves"
+    },
+    "casualties": "Citadel (5–16 July): German c. 55,000, Soviet c. 180,000; including the Soviet counter-offensives to 23 August, German c. 170,000–200,000, Soviet c. 860,000",
+    "outcome": "defeat",
+    "summary": "Germany's last great offensive in the east, against the Kursk salient, runs into deep Soviet defences and fails within a week. Soviet counter-offensives then retake Orel, Belgorod and Kharkov.",
+    "detail": "Operation Citadel aimed to pinch off the Soviet bulge around Kursk with converging attacks from north and south. Hitler postponed it repeatedly to bring forward new Tiger and Panther tanks. The delay let the Soviets, warned by intelligence, turn the salient into a fortress of minefields, anti-tank strongpoints and trenches, with a whole Steppe Front in reserve behind.\n\nWhen the attack came on 5 July, Model's Ninth Army in the north was halted around Ponyri after gaining barely 12 km. In the south Hoth's Fourth Panzer Army and Army Detachment Kempf ground forward further. On 12 July near Prokhorovka, Rotmistrov's 5th Guards Tank Army counter-attacked the II SS Panzer Corps head-on and lost hundreds of tanks, but the German advance was stopped. That same day the Soviets launched their counter-offensive against the Orel salient, and with the Allies ashore in Sicily, Hitler called off Citadel on 13 July.\n\nThe Red Army then went over to the offensive along the whole front: Orel fell on 5 August, Belgorod the same day, and Kharkov was liberated for good on 23 August.",
+    "significance": "After Kursk the German army in the east never again launched a strategic offensive; the initiative passed permanently to the Red Army, which advanced from here to the Dnieper and beyond.",
+    "certainty": "high",
+    "uncertaintyNote": "Prokhorovka was long described as the greatest tank battle in history, with hundreds of German tanks destroyed; research in German and Soviet archives shows German losses there were modest and Soviet losses heavy. All casualty figures vary with how the battle is bounded.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, The Battle of Kursk (1999)",
+      "Roman Töppel, Kursk 1943 (2018)",
+      "Valeriy Zamulin, Demolishing the Myth: The Tank Battle at Prokhorovka (2011)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "sicily-1943",
+    "title": "Invasion of Sicily",
+    "geometry": "area",
+    "radiusKm": 150,
+    "markers": [
+      {
+        "name": "Gela",
+        "lon": 14.25,
+        "lat": 37.07
+      },
+      {
+        "name": "Syracuse",
+        "lon": 15.29,
+        "lat": 37.07
+      },
+      {
+        "name": "Messina",
+        "lon": 15.55,
+        "lat": 38.19
+      }
+    ],
+    "kind": "campaign",
+    "start": "1943-07-10",
+    "end": "1943-08-17",
+    "datePrecision": "day",
+    "place": "Sicily, Italy",
+    "lon": 14.3,
+    "lat": 37.5,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Italy and Germany",
+      "opponent": "United States, Britain and Canada"
+    },
+    "commanders": {
+      "focus": [
+        "Guzzoni",
+        "Kesselring",
+        "Hube"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Alexander",
+        "Patton",
+        "Montgomery"
+      ]
+    },
+    "strength": {
+      "focus": "c. 200,000 Italian and c. 60,000 German troops",
+      "opponent": "c. 160,000 landed initially, c. 470,000 by the end"
+    },
+    "casualties": "Allied c. 22,000; Axis c. 30,000 killed or wounded and c. 140,000 captured, most of them Italian",
+    "outcome": "defeat",
+    "summary": "In the largest amphibious landing yet, American, British and Canadian armies invade Sicily. In 38 days they take the island, though the Germans escape across the Strait of Messina.",
+    "detail": "Operation Husky put seven divisions ashore on 10 July 1943 along the south-eastern coast: Patton's US Seventh Army around Gela and Licata, Montgomery's Eighth Army, with the 1st Canadian Division, between Syracuse and Pachino. Gales scattered the airborne landings, and in one night of confusion Allied ships shot down their own transport aircraft. German armour counter-attacked at Gela but was driven off with the help of naval gunfire.\n\nMany Italian coastal units melted away, but German divisions fought a skilful delaying action on the slopes of Etna. While Montgomery was held on the east coast, Patton swung west and north, entering Palermo on 22 July, and then raced Montgomery to Messina. In the midst of the fighting, US soldiers murdered some 70 Italian and German prisoners near Biscari. Between 11 and 17 August the Germans and Italians evacuated more than 100,000 men and much of their equipment across the strait to the mainland, unhindered by Allied sea or air power. Patton's troops entered Messina on 17 August.",
+    "significance": "Sicily reopened the Mediterranean, toppled Mussolini within weeks of the landings and set up the invasion of Italy, while the escape of the German army foreshadowed a hard Italian campaign.",
+    "certainty": "high",
+    "uncertaintyNote": "Axis prisoner and casualty figures vary widely between sources.",
+    "sources": [
+      "Carlo D'Este, Bitter Victory: The Battle for Sicily (1988)",
+      "Rick Atkinson, The Day of Battle (2007)",
+      "James Holland, Sicily '43 (2020)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "gomorrah-1943",
+    "title": "Operation Gomorrah: the Hamburg firestorm",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Hammerbrook",
+        "lon": 10.03,
+        "lat": 53.55
+      }
+    ],
+    "kind": "raid",
+    "start": "1943-07-24",
+    "end": "1943-08-03",
+    "datePrecision": "day",
+    "place": "Hamburg, Germany",
+    "lon": 10.0,
+    "lat": 53.55,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany (the people and defenders of Hamburg)",
+      "opponent": "Britain (RAF Bomber Command) and the United States (Eighth Air Force)"
+    },
+    "commanders": {
+      "focus": [
+        "Kaufmann"
+      ],
+      "opponent": [
+        "Harris",
+        "Eaker"
+      ]
+    },
+    "casualties": "c. 34,000–37,000 people killed, most in the firestorm of 27–28 July; c. 900,000 left homeless or fled",
+    "outcome": "n/a",
+    "summary": "A week of Allied raids on Hamburg culminates in a firestorm that kills some 35,000 people in a single night, the deadliest air attack in Europe up to that time.",
+    "detail": "Operation Gomorrah opened on the night of 24–25 July 1943, when nearly 800 RAF bombers attacked Hamburg, Germany's second city and greatest port. For the first time they dropped 'Window', strips of foil that blinded German radar, and losses were light. American bombers followed by day on 25 and 26 July.\n\nOn the night of 27–28 July, after a hot, dry summer, high-explosive and incendiary bombs fell in a dense pattern on the working-class districts east of the centre, Hammerbrook, Hamm and Borgfelde. The fires merged into a firestorm: a column of superheated air that sucked in winds of hurricane force, uprooting trees and dragging people into the flames. Thousands died in cellars and shelters, suffocated by smoke and carbon monoxide or baked by the heat. Further raids on 29–30 July and 2–3 August added to the destruction.\n\nSome 900,000 people fled the city or were evacuated. Albert Speer later recalled warning Hitler that a few more raids like it could bring Germany's war production to a halt.",
+    "significance": "Hamburg showed the terrible power of area bombing and became a template for later raids; yet the city's industry recovered faster than the Allies hoped, and German morale did not collapse.",
+    "certainty": "high",
+    "uncertaintyNote": "As the bombing of a city, this is recorded without a military outcome. The death toll is uncertain because many bodies could not be identified; estimates range from c. 34,000 to over 40,000.",
+    "sources": [
+      "Keith Lowe, Inferno: The Devastation of Hamburg, 1943 (2007)",
+      "Martin Middlebrook, The Battle of Hamburg (1980)",
+      "Richard Overy, The Bombing War (2013)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fall-of-mussolini-1943",
+    "title": "The fall of Mussolini",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1943-07-24",
+    "end": "1943-07-25",
+    "datePrecision": "day",
+    "place": "Palazzo Venezia and Villa Savoia, Rome",
+    "lon": 12.48,
+    "lat": 41.9,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Italy (Mussolini and the Fascist regime)",
+      "opponent": "King Victor Emmanuel III, the army leadership and Fascist dissidents"
+    },
+    "commanders": {
+      "focus": [
+        "Mussolini"
+      ],
+      "opponent": [
+        "Victor Emmanuel III",
+        "Grandi",
+        "Badoglio"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "After the Allied landings in Sicily and the first bombing of Rome, Mussolini's own Fascist Grand Council votes against him. The King dismisses him and has him arrested.",
+    "detail": "By July 1943 Italy had lost its empire in Africa, an army in Russia and its fleet's freedom of the sea; now the Allies were in Sicily, and on 19 July American bombers struck the railway yards of San Lorenzo in Rome, killing well over a thousand people. Senior Fascists, generals and the court all looked for a way out of the war.\n\nOn the night of 24–25 July the Fascist Grand Council, meeting for the first time since 1939, debated through the night in the Palazzo Venezia and passed Dino Grandi's motion asking the King to resume command of the armed forces. Mussolini seemed not to grasp what it meant. The next afternoon, at the Villa Savoia, Victor Emmanuel III told him he was replaced by Marshal Badoglio; leaving, he was arrested and taken away in an ambulance. Crowds in Rome and other cities celebrated and tore down Fascist symbols, and the party was dissolved. Badoglio announced that the war would go on, while secretly seeking terms with the Allies.\n\nIn September German paratroopers freed Mussolini from the Gran Sasso and installed him as head of a puppet republic in the north.",
+    "significance": "The overthrow of Mussolini after twenty years in power broke the Axis at its weakest point and led within weeks to Italy's armistice with the Allies.",
+    "certainty": "high",
+    "uncertaintyNote": "This was an internal coup without a military outcome; the slots name Mussolini's regime and those who removed him. The vote in the Grand Council is usually given as 19 to 7 or 8.",
+    "sources": [
+      "R.J.B. Bosworth, Mussolini (2002)",
+      "Ian Kershaw, Fateful Choices (2007)",
+      "Philip Morgan, The Fall of Mussolini (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "italian-armistice-1943",
+    "title": "The Italian armistice",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1943-09-03",
+    "end": "1943-09-08",
+    "datePrecision": "day",
+    "place": "Cassibile, near Syracuse, Sicily (signed); announced from Algiers and Rome",
+    "lon": 15.19,
+    "lat": 36.97,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Badoglio",
+        "Castellano",
+        "Victor Emmanuel III"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Bedell Smith"
+      ]
+    },
+    "casualties": "In the German takeover, c. 600,000 Italian soldiers interned in Germany; thousands killed resisting disarmament; c. 1,350 lost with the battleship Roma",
+    "outcome": "negotiated",
+    "summary": "Italy secretly signs an armistice with the Allies. When it is announced on 8 September, Germany seizes most of the country and disarms the Italian army.",
+    "detail": "Badoglio's government, while protesting loyalty to Germany, sent emissaries to the Allies. On 3 September, the day British troops crossed to Calabria, General Castellano signed a short armistice in an olive grove at Cassibile in Sicily. The Allies wanted the news timed for their landings at Salerno; the Italians hoped for an airborne descent on Rome, which was cancelled at the last moment.\n\nEisenhower broadcast the armistice on the evening of 8 September, forcing a reluctant Badoglio to confirm it. The Italian armed forces were left without clear orders. Before dawn the King, Badoglio and the high command fled Rome for Brindisi. The Germans, who had poured divisions into Italy since July, carried out their plan, Operation Achse: Italian units were surrounded and disarmed in Italy, France, Yugoslavia, Greece and the Aegean, and some 600,000 soldiers who refused to fight on for Germany were deported as 'military internees' to camps and forced labour. Rome was occupied after brief fighting on 10 September. The Italian fleet sailed to surrender at Malta; German glide bombs sank the battleship Roma on the way.",
+    "significance": "Italy's surrender removed Germany's main European ally and opened the long Italian campaign, but the German occupation of the north and centre brought civil war, deportations of Italian Jews and twenty months of hardship.",
+    "certainty": "high",
+    "uncertaintyNote": "The fuller 'long armistice' was signed at Malta on 29 September. Estimates of Italian soldiers interned range from c. 600,000 to c. 700,000.",
+    "sources": [
+      "Elena Agarossi, A Nation Collapses: The Italian Surrender of September 1943 (2000)",
+      "Rick Atkinson, The Day of Battle (2007)",
+      "Gerhard L. Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "salerno-1943",
+    "title": "Salerno landings",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Paestum",
+        "lon": 15.0,
+        "lat": 40.42
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-09-09",
+    "end": "1943-09-16",
+    "datePrecision": "day",
+    "place": "Gulf of Salerno, south of Naples, Italy",
+    "lon": 14.9,
+    "lat": 40.55,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Vietinghoff",
+        "Kesselring"
+      ],
+      "opponent": [
+        "Mark Clark",
+        "McCreery",
+        "Dawley"
+      ]
+    },
+    "casualties": "Allied c. 9,000 killed, wounded or missing; German c. 3,500",
+    "outcome": "defeat",
+    "summary": "The Allied Fifth Army lands at Salerno expecting an easy entry into surrendered Italy. Instead German counter-attacks almost drive it back into the sea before it secures the beachhead.",
+    "detail": "Operation Avalanche aimed to seize Naples quickly. Mark Clark's Fifth Army, with the British X Corps on the left and the US VI Corps on the right, landed before dawn on 9 September, only hours after troops on the transports heard the radio announce Italy's surrender. Many expected little resistance. But German troops had already disarmed the Italian coastal units and met the landings with fire.\n\nThe beachhead was shallow and split by the Sele river. Vietinghoff's Tenth Army brought up panzer divisions, and on 12–14 September counter-attacked down the river corridor between the two corps, coming within a couple of kilometres of the beach. Clark considered re-embarking part of his force. The line was held by artillery firing over open sights, reinforcements including US paratroopers dropped into the beachhead at night, heavy naval gunfire and massed air attacks. On 16 September, with Montgomery's Eighth Army approaching from the south, Kesselring began a fighting withdrawal northwards. Naples, which had risen against the Germans, was entered on 1 October.",
+    "significance": "Salerno gave the Allies a foothold on the Italian mainland, but the near-disaster showed that Germany intended to fight for Italy, foreshadowing the slow struggle up the peninsula.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary between sources.",
+    "sources": [
+      "Rick Atkinson, The Day of Battle (2007)",
+      "Martin Blumenson, Salerno to Cassino (US official history, 1969)",
+      "Carlo D'Este, World War II in the Mediterranean (1990)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cephalonia-1943",
+    "title": "Massacre of the Acqui Division on Cephalonia",
+    "geometry": "city",
+    "kind": "massacre",
+    "start": "1943-09-15",
+    "end": "1943-09-28",
+    "datePrecision": "day",
+    "place": "Argostoli and island of Cephalonia (Kefalonia), Greece",
+    "lon": 20.49,
+    "lat": 38.18,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany (1st Mountain Division)",
+      "opponent": "Italy (Acqui Division)"
+    },
+    "commanders": {
+      "focus": [
+        "Lanz",
+        "Hirschfeld"
+      ],
+      "opponent": [
+        "Gandin"
+      ]
+    },
+    "casualties": "c. 1,300 Italians killed in the fighting; perhaps 2,000–5,000 executed after surrendering; c. 1,300 more drowned when ships carrying prisoners sank",
+    "outcome": "n/a",
+    "summary": "On the Greek island of Cephalonia, an Italian division refuses to hand its weapons to the Germans after the armistice. Defeated in battle, thousands of its men are shot after surrendering.",
+    "detail": "When Italy's armistice was announced, the 12,000-strong Acqui Division garrisoned Cephalonia alongside a much smaller German force. Its commander, General Antonio Gandin, negotiated for days under contradictory orders while German reinforcements arrived; many of his officers and men were determined not to surrender their arms, and the Italian high command in Brindisi ordered resistance.\n\nFighting began on 15 September. Without air cover, the Italians were bombed by Stukas, and German mountain troops, reinforced by sea, overran their positions. Hitler had ordered that, as 'traitors', no Italians on the island should be taken prisoner. After the division capitulated on 22 September, German soldiers shot Gandin and most of his officers at a site near Argostoli, and killed thousands of the men in mass executions, many on the spot where they surrendered. Of the survivors, many died when the ships carrying them to the mainland struck mines or were sunk.",
+    "significance": "Cephalonia was one of the largest massacres of prisoners of war by the German army; long neglected, it became in Italy a symbol of the first armed resistance to Germany after the armistice.",
+    "certainty": "medium",
+    "uncertaintyNote": "The numbers executed are disputed: Italian estimates once ran above 5,000, while recent research suggests c. 2,000–2,500. The total of Italian dead from all causes is commonly put at over 5,000. Recorded as n/a because it ended in a massacre of prisoners.",
+    "sources": [
+      "Hermann Frank Meyer, Blutiges Edelweiß: Die 1. Gebirgsdivision im Zweiten Weltkrieg (2008)",
+      "Mark Mazower, Inside Hitler's Greece (1993)",
+      "Richard Lamb, War in Italy 1943–1945 (1993)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "sobibor-uprising-1943",
+    "title": "Sobibór uprising",
+    "geometry": "site",
+    "kind": "massacre",
+    "start": "1943-10-14",
+    "datePrecision": "day",
+    "place": "Sobibór extermination camp, near Włodawa, General Government (Poland)",
+    "lon": 23.59,
+    "lat": 51.45,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany (SS camp staff and Trawniki guards)",
+      "opponent": "Jewish prisoners of Sobibór"
+    },
+    "commanders": {
+      "focus": [
+        "Reichleitner"
+      ],
+      "opponent": [
+        "Leon Feldhendler",
+        "Alexander Pechersky"
+      ]
+    },
+    "casualties": "c. 11 SS men and several guards killed; c. 300 prisoners escaped, of whom perhaps 50–60 survived the war; the remaining prisoners shot",
+    "outcome": "n/a",
+    "summary": "Prisoners of the Sobibór death camp kill SS men in a coordinated revolt and some 300 break out. The SS closes the camp; most escapers are hunted down, but dozens survive the war.",
+    "detail": "Sobibór, built in 1942 as one of the three Operation Reinhard death camps, had by the autumn of 1943 murdered some 170,000–250,000 Jews from Poland, the Netherlands, Slovakia, France and elsewhere. Its working prisoners, kept alive to sort the victims' belongings, knew they too would be killed when the camp closed. An underground led by Leon Feldhendler joined forces with Alexander Pechersky, a Soviet Jewish officer brought in a transport from Minsk in September.\n\nOn the afternoon of 14 October prisoners lured SS men one by one into workshops and storerooms with promises of new boots or coats, and killed them with axes and knives. At roll call the plan broke down under fire from the guards, and some 300 prisoners rushed the fences and minefield. Many were killed there or caught in the manhunt that followed. Those left behind were shot.\n\nHimmler ordered the camp dismantled and the site planted with trees. Weeks later, in the 'Harvest Festival' massacres of 3–4 November, the SS shot some 42,000 Jews at Majdanek, Trawniki and Poniatowa, partly for fear of further revolts.",
+    "significance": "With the Treblinka revolt of August 1943, Sobibór was one of the few successful prisoner uprisings in the death camps, a testimony that the victims of the Holocaust resisted even there.",
+    "certainty": "high",
+    "uncertaintyNote": "Recorded as n/a: a revolt of prisoners in a death camp is not a battle between armies. The number murdered at Sobibór and the number of escapers who survived vary between studies.",
+    "sources": [
+      "Yitzhak Arad, Belzec, Sobibor, Treblinka (1987)",
+      "Jules Schelvis, Sobibor: A History of a Nazi Death Camp (2007)",
+      "Saul Friedländer, The Years of Extermination (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "changde-1943",
+    "title": "Battle of Changde",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1943-11-02",
+    "end": "1943-12-20",
+    "datePrecision": "day",
+    "place": "Changde, northern Hunan, China",
+    "lon": 111.69,
+    "lat": 29.03,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "China (Nationalist)"
+    },
+    "commanders": {
+      "focus": [
+        "Yokoyama Isamu"
+      ],
+      "opponent": [
+        "Sun Lianzhong",
+        "Xue Yue",
+        "Yu Chengwan"
+      ]
+    },
+    "casualties": "Chinese c. 40,000–60,000 killed or wounded; Japanese c. 10,000 or more; heavy civilian losses",
+    "outcome": "inconclusive",
+    "summary": "A Japanese offensive into northern Hunan takes the rice-trading city of Changde after a fortnight of street fighting, then withdraws as Chinese armies close in.",
+    "detail": "In November 1943, as Chiang Kai-shek travelled to meet Roosevelt and Churchill at Cairo, the Japanese Eleventh Army struck west of the Dongting Lake towards Changde, a gateway to Sichuan and the centre of a rich rice region. Several Japanese columns crossed the lakes and hills and converged on the walled city.\n\nIts garrison, the 57th Division under Yu Chengwan, some 8,000 men, held out from mid-November in fierce fighting in the streets and ruins, under bombing and, according to Chinese reports, chemical weapons. By early December only a few hundred defenders were left, and Yu broke out; the Japanese entered Changde about 3 December. Relieving Chinese armies, with support from US and Chinese aircraft, closed in, and the Japanese, overextended, withdrew to their start lines, while Chinese troops re-entered the ruined city.\n\nChangde had already suffered in 1941, when Japanese aircraft of Unit 731 dropped plague-infected material on it.",
+    "significance": "Changde was celebrated in Chongqing as a victory at a moment when the Nationalists needed to show the Allies they were still fighting hard, but the cost exposed how exhausted their armies were.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty figures from both sides are unreliable and widely divergent. Japan took the city and then withdrew; Chinese histories count the battle as a victory, so it is recorded here as inconclusive.",
+    "sources": [
+      "Rana Mitter, China's War with Japan 1937–1945: The Struggle for Survival (2013)",
+      "Hans van de Ven, China at War (2017)",
+      "Mark Peattie, Edward Drea and Hans van de Ven (eds), The Battle for China (2011)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "kiev-1943",
+    "title": "Liberation of Kiev",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Lyutezh bridgehead",
+        "lon": 30.4,
+        "lat": 50.68
+      }
+    ],
+    "kind": "battle",
+    "start": "1943-11-03",
+    "end": "1943-11-06",
+    "datePrecision": "day",
+    "place": "Kiev (Kyiv), on the Dnieper, Ukraine",
+    "lon": 30.52,
+    "lat": 50.45,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Manstein",
+        "Hoth"
+      ],
+      "opponent": [
+        "Vatutin",
+        "Rybalko",
+        "Moskalenko"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Striking from a bridgehead north of the city, Vatutin's 1st Ukrainian Front breaks the German line on the Dnieper and liberates Kiev, capital of Soviet Ukraine, after more than two years of occupation.",
+    "detail": "After Kursk the Red Army raced for the Dnieper, which Hitler had proclaimed part of an impregnable 'Eastern Wall'. In late September Soviet troops crossed the broad river at many points on improvised rafts and boats, winning small bridgeheads at heavy cost. Attempts to break out from the Bukrin bend south of Kiev failed in October.\n\nVatutin then secretly shifted Rybalko's 3rd Guards Tank Army north, across the river and through marshy ground, into the Lyutezh bridgehead above the city. The attack opened on 3 November behind a massive bombardment, broke the German line and swung south. Soviet troops entered Kiev in the night of 5–6 November, the eve of the anniversary of the Revolution.\n\nThey found a city wrecked and largely emptied of its people. At Babi Yar on the outskirts, where more than 33,000 Jews had been shot in September 1941, the SS had used prisoners in August and September 1943 to dig up and burn the bodies of its victims, to hide the evidence.",
+    "significance": "The fall of Kiev breached the Dnieper line and opened the way into right-bank Ukraine; a German counter-attack retook Zhitomir in November but could not recover the city.",
+    "certainty": "high",
+    "uncertaintyNote": "The wider Kiev offensive lasted until 13 November; the end date here marks the liberation of the city.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Karel C. Berkhoff, Harvest of Despair: Life and Death in Ukraine under Nazi Rule (2004)",
+      "Richard Overy, Russia's War (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tarawa-1943",
+    "title": "Battle of Tarawa",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1943-11-20",
+    "end": "1943-11-23",
+    "datePrecision": "day",
+    "place": "Betio island, Tarawa Atoll, Gilbert Islands (Kiribati)",
+    "lon": 172.93,
+    "lat": 1.35,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Shibasaki"
+      ],
+      "opponent": [
+        "Julian Smith",
+        "Holland Smith",
+        "Spruance"
+      ]
+    },
+    "strength": {
+      "focus": "c. 4,700 men, including c. 1,200 Korean labourers",
+      "opponent": "c. 18,000 Marines in the 2nd Marine Division"
+    },
+    "casualties": "US c. 1,000 killed and c. 2,100 wounded; Japanese and Korean c. 4,600 dead, with only 17 Japanese and 129 Koreans taken alive",
+    "outcome": "defeat",
+    "summary": "US Marines storm the tiny, heavily fortified island of Betio. Landing craft stranded on the reef, they wade ashore under fire, and take it in 76 hours of brutal fighting.",
+    "detail": "The invasion of the Gilberts opened the Central Pacific drive towards Japan. Betio, a flat coral island less than 3 km long, was defended by Japanese naval infantry in concrete and coconut-log bunkers around its airfield.\n\nOn 20 November a heavy naval and air bombardment failed to destroy the defences. A low tide left too little water over the fringing reef for the landing craft, so only the first waves in tracked amphibious tractors crossed to the beach; later waves had to wade hundreds of metres through the lagoon under machine-gun fire, and the losses were terrible. By nightfall the Marines held only a shallow strip along the sea wall, but the Japanese, their communications wrecked and their commander Shibasaki apparently killed, did not counter-attack effectively.\n\nOver the next two days the Marines, with tanks and reinforcements, worked through the bunkers with explosives and flamethrowers. A final Japanese charge on the night of 22–23 November was broken, and the island was declared secure on 23 November. Almost the entire garrison died.",
+    "significance": "Tarawa's shocking cost forced major improvements in amphibious technique, from more amphibious tractors to underwater demolition teams and better bombardment, that were applied in every later Pacific landing.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for the garrison and its Korean labourers vary slightly; the circumstances of Shibasaki's death are uncertain.",
+    "sources": [
+      "Joseph H. Alexander, Utmost Savagery: The Three Days of Tarawa (1995)",
+      "Ronald Spector, Eagle Against the Sun (1985)",
+      "Ian W. Toll, The Conquering Tide (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tehran-1943",
+    "title": "Tehran Conference",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1943-11-28",
+    "end": "1943-12-01",
+    "datePrecision": "day",
+    "place": "Soviet embassy, Tehran, Iran",
+    "lon": 51.42,
+    "lat": 35.7,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "sides": {
+      "focus": "Germany and the Axis (the subject of the talks)",
+      "opponent": "Soviet Union, United States and Britain"
+    },
+    "commanders": {
+      "opponent": [
+        "Stalin",
+        "Roosevelt",
+        "Churchill"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Stalin, Roosevelt and Churchill meet together for the first time. They fix the invasion of France for May 1944, and Stalin promises to enter the war against Japan once Germany is beaten.",
+    "detail": "The 'Big Three' met in Tehran, in an Iran occupied since 1941 by Soviet and British troops. Roosevelt, invited to stay at the Soviet embassy for security, used private talks with Stalin to build a relationship, sometimes at Churchill's expense.\n\nThe central decision was military. Stalin pressed hard for a firm date for the long-promised second front, and Churchill's preference for further operations in the Mediterranean and the Balkans was set aside: Operation Overlord, the cross-Channel invasion, was fixed for May 1944, supported by a landing in southern France, and Stalin undertook to launch a major offensive at the same time. He also confirmed that the Soviet Union would join the war against Japan after Germany's defeat.\n\nOn Poland, the leaders informally agreed that its eastern border should follow roughly the Curzon Line, with compensation from Germany in the west, without consulting the Polish government in exile. In a ceremony, Churchill presented Stalin with a sword from King George VI honouring the defenders of Stalingrad.",
+    "significance": "Tehran fixed the strategy that would end the war in Europe and set the pattern of the post-war settlement, including the shifting of Poland's borders, later confirmed at Yalta.",
+    "certainty": "high",
+    "uncertaintyNote": "No Axis party took part; the focus slot names the powers against which the strategy was set.",
+    "sources": [
+      "Gerhard L. Weinberg, A World at Arms (1994)",
+      "Richard Overy, Why the Allies Won (1995)",
+      "S.M. Plokhy, Yalta: The Price of Peace (2010)"
+    ],
+    "importance": 2
+  }
+]

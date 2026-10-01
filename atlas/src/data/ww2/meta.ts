@@ -2,7 +2,7 @@ import type { City, Phase, Reign } from '../schema';
 
 export const PHASES: Phase[] = [
   {
-    id: 'poland', title: 'Poland and the phoney war', from: 1939.67, to: 1940.27,
+    id: 'poland', title: 'Poland and the phoney war', from: 1939.665, to: 1940.27,
     story: 'Germany invades Poland on 1 September 1939; Britain and France declare war but barely fight. The Soviet Union, Hitler’s partner under the Nazi–Soviet Pact, invades from the east, and Poland is divided and terrorised. Stalin attacks Finland in the Winter War. In China, at war with Japan since 1937, the fighting grinds on.',
     camera: { center: [20, 51], zoom: 4 },
   },
@@ -55,7 +55,7 @@ export const PHASES: Phase[] = [
 
 // The leaders of the Axis: Germany, Italy and Japan's prime minister of the day.
 export const REIGNS: Reign[] = [
-  { name: 'Hitler, Mussolini, Abe', from: 1939.67, to: 1940.04 },
+  { name: 'Hitler, Mussolini, Abe', from: 1939.665, to: 1940.04 },
   { name: 'Hitler, Mussolini, Yonai', from: 1940.04, to: 1940.55 },
   { name: 'Hitler, Mussolini, Konoe', from: 1940.55, to: 1941.79 },
   { name: 'Hitler, Mussolini, Tōjō', from: 1941.79, to: 1943.56 },
