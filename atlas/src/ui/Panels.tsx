@@ -327,7 +327,7 @@ function Ww2About({ war, counts }: { war: WarData; counts: Counts }) {
   return (
     <>
       <p>
-        An exhibit in Qing’s Workshop. Drag the timeline, or press play, to follow the Second World War from the German invasion of Poland
+        Drag the timeline, or press play, to follow the Second World War from the German invasion of Poland
         on 1 September 1939 to the Japanese surrender in Tokyo Bay on 2 September 1945. Click any marker for the event behind it.
       </p>
       <h3>What the markers are</h3>
