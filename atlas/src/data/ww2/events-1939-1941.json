@@ -1,0 +1,2077 @@
+[
+  {
+    "id": "invasion-of-poland-1939",
+    "title": "Invasion of Poland",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Wieluń",
+        "lon": 18.57,
+        "lat": 51.22
+      },
+      {
+        "name": "Mokra",
+        "lon": 18.99,
+        "lat": 50.94
+      }
+    ],
+    "kind": "campaign",
+    "start": "1939-09-01",
+    "end": "1939-10-06",
+    "datePrecision": "day",
+    "place": "Westerplatte, Free City of Danzig (Gdańsk), and the Polish frontier",
+    "lon": 18.67,
+    "lat": 54.41,
+    "locationCertainty": "exact",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany (with Slovakia)",
+      "opponent": "Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Brauchitsch",
+        "Bock",
+        "Rundstedt"
+      ],
+      "opponent": [
+        "Rydz-Śmigły",
+        "Sucharski"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1.5 million German troops, c. 2,600 tanks",
+      "opponent": "c. 1 million mobilised, many still assembling"
+    },
+    "casualties": "Polish c. 66,000–70,000 soldiers killed and c. 400,000 captured by the Germans; German c. 16,000 killed; tens of thousands of Polish civilians killed",
+    "outcome": "victory",
+    "summary": "Before dawn on 1 September 1939 Germany attacks Poland from three sides. Westerplatte holds out for a week, Wieluń is bombed, and within five weeks the Polish state is overrun.",
+    "detail": "At about 4.45 a.m. on 1 September the old battleship Schleswig-Holstein opened fire on the Polish transit depot at Westerplatte, in Danzig harbour, while German armies crossed the frontier from East Prussia, Pomerania, Silesia and Slovakia. Minutes earlier, Luftwaffe dive-bombers had struck the undefended market town of Wieluń, destroying much of its centre and its hospital and killing well over a thousand civilians.\n\nAt Westerplatte a garrison of some 200 men under Major Sucharski held off repeated assaults for seven days before surrendering on 7 September, becoming a lasting national symbol. Elsewhere Polish armies, deployed forward to defend the long frontier, were outflanked by fast-moving Panzer and motorised corps working closely with the Luftwaffe. Kraków fell on 6 September and German spearheads reached the outskirts of Warsaw two days later.\n\nBehind the front, SS Einsatzgruppen and the army began shooting Polish civilians, priests, teachers and Jews. The last organised Polish formation surrendered at Kock on 6 October.",
+    "significance": "The invasion began the war in Europe and inaugurated a German occupation of Poland that aimed at the destruction of the Polish elite and, soon, of Poland's Jews.",
+    "certainty": "high",
+    "uncertaintyNote": "Wieluń is often called the first bombing of the war, though the exact timing relative to Westerplatte is debated; civilian deaths there are usually given as c. 1,200 but estimates vary. Polish and German casualty figures for the campaign differ between sources.",
+    "sources": [
+      "Richard Overy, Blood and Ruins (2021)",
+      "Gerhard Weinberg, A World at Arms (1994)",
+      "Alexander B. Rossino, Hitler Strikes Poland (2003)",
+      "Roger Moorhouse, First to Fight (2019)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "britain-france-declare-war-1939",
+    "title": "Britain and France declare war",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Paris",
+        "lon": 2.35,
+        "lat": 48.86
+      }
+    ],
+    "kind": "political",
+    "start": "1939-09-03",
+    "datePrecision": "day",
+    "place": "London (10 Downing Street)",
+    "lon": -0.13,
+    "lat": 51.5,
+    "locationCertainty": "exact",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler"
+      ],
+      "opponent": [
+        "Chamberlain",
+        "Daladier"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "When Germany ignores their ultimatums to withdraw from Poland, Britain declares war at 11 a.m. on 3 September and France follows that afternoon. A local war becomes a European one.",
+    "detail": "Britain and France had guaranteed Poland's independence in March 1939, after Hitler tore up the Munich agreement by occupying Prague. When German troops crossed the Polish frontier, both governments hesitated for two days, still hoping for Italian mediation, before issuing ultimatums. The British one expired at 11 a.m. on Sunday 3 September, and Neville Chamberlain announced on the radio that the country was at war. France's expired at 5 p.m.\n\nAustralia and New Zealand declared war the same day, India was committed by the Viceroy without consultation, and South Africa and Canada followed within a week. That evening a U-boat sank the liner Athenia off the Hebrides, killing more than a hundred passengers.\n\nYet the Allies did little to help Poland. A brief French advance into the Saar was soon halted, and the months of near-inactivity in the west that followed became known as the 'phoney war'.",
+    "significance": "The declarations turned a German war of conquest into a general European war and committed the British and French empires, and in time much of the world, against Germany.",
+    "certainty": "high",
+    "sources": [
+      "Richard Overy, 1939: Countdown to War (2009)",
+      "Gerhard Weinberg, A World at Arms (1994)",
+      "Ian Kershaw, Hitler 1936–1945: Nemesis (2000)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "siege-of-warsaw-1939",
+    "title": "Siege and surrender of Warsaw",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Modlin fortress",
+        "lon": 20.7,
+        "lat": 52.44
+      }
+    ],
+    "kind": "siege",
+    "start": "1939-09-08",
+    "end": "1939-09-28",
+    "datePrecision": "day",
+    "place": "Warsaw",
+    "lon": 21.01,
+    "lat": 52.23,
+    "locationCertainty": "exact",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Blaskowitz",
+        "Reichenau"
+      ],
+      "opponent": [
+        "Rómmel",
+        "Czuma",
+        "Starzyński"
+      ]
+    },
+    "casualties": "c. 6,000 Polish soldiers and perhaps 20,000–25,000 civilians killed",
+    "outcome": "victory",
+    "summary": "Warsaw resists for three weeks under artillery fire and air attack. With water, food and ammunition exhausted and much of the city burning, the garrison surrenders on 28 September.",
+    "detail": "German Panzers first reached the western suburbs on 8 September and were repulsed in street fighting at Ochota. The city's defence was organised by General Rómmel and General Czuma, while its mayor, Stefan Starzyński, rallied the population by radio. Civilians dug anti-tank ditches and the garrison was swollen by troops escaping from the Bzura.\n\nHitler was determined to force a quick surrender. From the last week of September the city was subjected to heavy artillery bombardment and, on 25 September, a massive air raid in which Luftwaffe aircraft dropped high explosive and incendiaries on residential districts. The waterworks and power station were hit, fires raged unchecked, and hospitals filled with wounded.\n\nOn 28 September the garrison capitulated; German troops entered on 1 October, and Hitler reviewed a victory parade on 5 October. Starzyński was arrested and later died in German captivity. The fortress of Modlin surrendered on 29 September.",
+    "significance": "The fall of Warsaw ended organised Polish resistance in the centre of the country and opened one of the harshest occupations of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Civilian deaths during the siege are estimated at anywhere from c. 10,000 to over 25,000.",
+    "sources": [
+      "Roger Moorhouse, First to Fight (2019)",
+      "Norman Davies, Rising '44 (2003)",
+      "Richard Overy, Blood and Ruins (2021)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bzura-1939",
+    "title": "Battle of the Bzura",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Kutno",
+        "lon": 19.36,
+        "lat": 52.23
+      },
+      {
+        "name": "Łowicz",
+        "lon": 19.94,
+        "lat": 52.11
+      }
+    ],
+    "kind": "battle",
+    "start": "1939-09-09",
+    "end": "1939-09-22",
+    "datePrecision": "day",
+    "place": "River Bzura, between Kutno and Łowicz, west of Warsaw",
+    "lon": 19.65,
+    "lat": 52.15,
+    "locationCertainty": "approximate",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Blaskowitz",
+        "Reichenau",
+        "Rundstedt"
+      ],
+      "opponent": [
+        "Kutrzeba",
+        "Bortnowski"
+      ]
+    },
+    "casualties": "Polish perhaps 15,000–20,000 killed and well over 100,000 captured; German c. 8,000 killed",
+    "outcome": "victory",
+    "summary": "Poland's largest counter-attack of the campaign strikes the flank of the German drive on Warsaw. After initial success the Polish armies are encircled and destroyed by German armour and aircraft.",
+    "detail": "As German armies closed on Warsaw, the Polish Poznań and Pomorze Armies, bypassed in the west, were retreating towards the capital. On 9 September General Kutrzeba turned them south across the Bzura against the exposed northern flank of the German Eighth Army, which was strung out along the march to Warsaw. The attack took the Germans by surprise and drove them back for several days.\n\nThe German command reacted quickly. Divisions were turned around from the Warsaw front, Panzer divisions of Reichenau's Tenth Army swung in from the east, and the Luftwaffe concentrated its bombers on the pocket. By 16 September the Polish armies were being compressed into a shrinking area along the river, bombed by day and shelled by night. Some units broke out through the Kampinos Forest to reinforce Warsaw and Modlin; the rest were destroyed or surrendered by around 22 September.",
+    "significance": "The largest battle of the September campaign delayed the German capture of Warsaw but ended the Polish army's capacity for major operations.",
+    "certainty": "high",
+    "uncertaintyNote": "The end date is given variously between 19 and 22 September; casualty and prisoner figures are uncertain.",
+    "sources": [
+      "Steven J. Zaloga and Victor Madej, The Polish Campaign 1939 (1985)",
+      "Roger Moorhouse, First to Fight (2019)",
+      "Richard Overy, Blood and Ruins (2021)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "soviet-invasion-of-poland-1939",
+    "title": "Soviet invasion of Poland",
+    "geometry": "area",
+    "radiusKm": 350,
+    "markers": [
+      {
+        "name": "Lwów (Lviv)",
+        "lon": 24.03,
+        "lat": 49.84
+      },
+      {
+        "name": "Brest-Litovsk",
+        "lon": 23.69,
+        "lat": 52.1
+      },
+      {
+        "name": "Grodno",
+        "lon": 23.83,
+        "lat": 53.68
+      }
+    ],
+    "kind": "campaign",
+    "start": "1939-09-17",
+    "end": "1939-10-06",
+    "datePrecision": "day",
+    "place": "Eastern Poland (now western Belarus and Ukraine)",
+    "lon": 25.5,
+    "lat": 52,
+    "locationCertainty": "approximate",
+    "phase": "poland",
+    "sides": {
+      "focus": "Soviet Union (in concert with Germany)",
+      "opponent": "Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Timoshenko",
+        "Kovalyov"
+      ],
+      "opponent": [
+        "Rydz-Śmigły"
+      ]
+    },
+    "strength": {
+      "focus": "c. 500,000–800,000",
+      "opponent": "scattered garrisons and frontier troops"
+    },
+    "casualties": "Polish several thousand killed and some 230,000–250,000 taken prisoner; Soviet c. 1,000–3,000 killed",
+    "outcome": "n/a",
+    "summary": "Under the secret protocol of the Nazi–Soviet Pact, the Red Army invades eastern Poland on 17 September, sealing the country's fate and dividing it with Germany.",
+    "detail": "The Molotov–Ribbentrop Pact of 23 August 1939 contained a secret protocol dividing eastern Europe into German and Soviet spheres. On 17 September, claiming that the Polish state had ceased to exist, the Red Army crossed the eastern frontier along its whole length. The Polish high command, its armies already broken in the west, ordered its forces not to resist the Soviets except in self-defence, but there was fighting at Grodno, Szack and elsewhere. That night the government and commander-in-chief crossed into Romania.\n\nGerman and Soviet troops met at Brest-Litovsk, where they held a joint parade on 22 September, and on 28 September the two powers fixed a new border in the Boundary and Friendship Treaty. In the eastern territories the NKVD arrested officials, officers, landowners and police, and from February 1940 deported hundreds of thousands of Polish citizens to Siberia and Kazakhstan.",
+    "significance": "The Soviet invasion completed Poland's partition and placed some 13 million people under Soviet rule, beginning the repression that culminated at Katyn.",
+    "certainty": "high",
+    "uncertaintyNote": "The Soviet Union was not an Axis power, so the atlas's Axis/Allied outcome labels do not apply; the Soviets are placed in the focus slot as the invading power acting in concert with Germany. Figures for prisoners, deportees and casualties vary widely.",
+    "sources": [
+      "Timothy Snyder, Bloodlands (2010)",
+      "Jan T. Gross, Revolution from Abroad (1988)",
+      "Roger Moorhouse, The Devils' Alliance (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "piasnica-1939",
+    "title": "Piaśnica massacres",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Wejherowo",
+        "lon": 18.24,
+        "lat": 54.61
+      }
+    ],
+    "kind": "massacre",
+    "start": "1939-10",
+    "end": "1940-04",
+    "datePrecision": "month",
+    "place": "Piaśnica forest, near Wejherowo, Pomerania",
+    "lon": 18.1,
+    "lat": 54.66,
+    "locationCertainty": "approximate",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany (SS, police and Selbstschutz)",
+      "opponent": "Poles, Kashubians and Jews of Pomerania; patients from German asylums"
+    },
+    "commanders": {
+      "focus": [
+        "Forster",
+        "Eimann"
+      ]
+    },
+    "casualties": "c. 12,000–14,000 murdered",
+    "outcome": "n/a",
+    "summary": "In a forest north of Gdańsk, SS men and ethnic German militia shoot thousands of Polish teachers, priests, officials and others in the 'Intelligenzaktion', the first mass killings of the occupation.",
+    "detail": "Even before the fighting ended, German security police and the Volksdeutscher Selbstschutz, a militia of local ethnic Germans, began working through prepared lists of Poles considered capable of leading resistance in the annexed province of Danzig-West Prussia. Teachers, Catholic priests, lawyers, landowners, local activists and members of Polish organisations were arrested, along with Jews and Kashubians.\n\nFrom October 1939 lorries carried prisoners from Wejherowo and the surrounding district to the Piaśnica forest, where they were shot at the edges of pits. Among the victims were also several thousand psychiatric patients brought from asylums in Germany. In 1944, as the front approached, the Germans exhumed and burned many of the bodies to hide the crime.\n\nPiaśnica was the largest of a chain of such killing sites in Pomerania; across occupied Poland the Intelligenzaktion and related operations killed tens of thousands of people in the first months of occupation.",
+    "significance": "Piaśnica showed from the outset that the occupation of Poland aimed to destroy the Polish nation's leadership, foreshadowing the wider genocidal policies of the war.",
+    "certainty": "medium",
+    "uncertaintyNote": "Because the bodies were exhumed and burned in 1944, victim numbers rest on post-war investigation; estimates range from c. 10,000 to 14,000. Gauleiter Forster bore overall responsibility; Kurt Eimann's SS unit carried out many killings.",
+    "sources": [
+      "Timothy Snyder, Bloodlands (2010)",
+      "Richard C. Lukas, The Forgotten Holocaust (1986)",
+      "Alexander B. Rossino, Hitler Strikes Poland (2003)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "winter-war-1939",
+    "title": "The Winter War",
+    "geometry": "area",
+    "radiusKm": 120,
+    "markers": [
+      {
+        "name": "Summa",
+        "lon": 28.95,
+        "lat": 60.47
+      },
+      {
+        "name": "Suomussalmi",
+        "lon": 28.88,
+        "lat": 64.89
+      },
+      {
+        "name": "Viipuri (Vyborg)",
+        "lon": 28.75,
+        "lat": 60.71
+      }
+    ],
+    "kind": "campaign",
+    "start": "1939-11-30",
+    "end": "1940-03-13",
+    "datePrecision": "day",
+    "place": "Karelian Isthmus and Finland's eastern frontier",
+    "lon": 29.3,
+    "lat": 60.6,
+    "locationCertainty": "approximate",
+    "phase": "poland",
+    "sides": {
+      "focus": "Soviet Union",
+      "opponent": "Finland"
+    },
+    "commanders": {
+      "focus": [
+        "Meretskov",
+        "Timoshenko"
+      ],
+      "opponent": [
+        "Mannerheim",
+        "Siilasvuo"
+      ]
+    },
+    "strength": {
+      "focus": "c. 450,000 at the outset, rising to over 750,000",
+      "opponent": "c. 300,000–340,000"
+    },
+    "casualties": "Soviet at least c. 126,000 dead or missing; Finnish c. 25,000 dead",
+    "outcome": "n/a",
+    "summary": "The Soviet Union attacks Finland. Finnish ski troops destroy Soviet divisions in the snowbound forests at Suomussalmi, but in February the Red Army breaks the Mannerheim Line on the Karelian Isthmus.",
+    "detail": "When Finland refused to cede territory near Leningrad, the Soviet Union shelled its own frontier post at Mainila as a pretext and invaded on 30 November 1939, bombing Helsinki the same day and setting up a puppet government under Otto Kuusinen. Stalin expected a campaign of days.\n\nInstead the Red Army, purged and poorly led, was stopped on the Mannerheim Line of field fortifications across the Karelian Isthmus. Further north, at Suomussalmi between December and early January, Finnish troops on skis cut Soviet columns strung out along forest roads into isolated pockets, or motti, and destroyed two divisions in temperatures below minus 30 degrees.\n\nTimoshenko then reorganised the Soviet effort. From 1 February massive artillery bombardments and repeated assaults wore down the defenders, and around Summa the line broke in mid-February. With his army exhausted and Western help still only promised, the Finnish government sought terms in March.",
+    "significance": "The war exposed the weakness of the Red Army, encouraging Hitler's contempt for it, and drove Finland towards Germany in 1941.",
+    "certainty": "high",
+    "uncertaintyNote": "Neither belligerent was then Axis or Allied, so the atlas's outcome labels do not apply: the Soviets won the war at a disproportionate cost, while Finland preserved its independence. Soviet losses are disputed; some Russian estimates exceed 160,000 dead.",
+    "sources": [
+      "William R. Trotter, A Frozen Hell (1991)",
+      "Carl Van Dyke, The Soviet Invasion of Finland 1939–40 (1997)",
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "river-plate-1939",
+    "title": "Battle of the River Plate",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Graf Spee scuttled",
+        "lon": -56.3,
+        "lat": -34.95
+      }
+    ],
+    "kind": "naval",
+    "start": "1939-12-13",
+    "end": "1939-12-17",
+    "datePrecision": "day",
+    "place": "South Atlantic, off the estuary of the River Plate",
+    "lon": -49,
+    "lat": -34,
+    "locationCertainty": "approximate",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and New Zealand"
+    },
+    "commanders": {
+      "focus": [
+        "Langsdorff"
+      ],
+      "opponent": [
+        "Harwood"
+      ]
+    },
+    "strength": {
+      "focus": "1 'pocket battleship' (Admiral Graf Spee)",
+      "opponent": "3 cruisers (Exeter, Ajax, Achilles)"
+    },
+    "casualties": "British and New Zealand c. 72 killed; German c. 36 killed",
+    "outcome": "defeat",
+    "summary": "Three British and New Zealand cruisers engage the raider Admiral Graf Spee off the River Plate. Damaged and trapped in Montevideo, she is scuttled by her own crew on 17 December.",
+    "detail": "Since September the Admiral Graf Spee had sunk nine merchant ships in the South Atlantic and Indian Ocean, without loss of life among their crews. Commodore Harwood, guessing she would make for the busy shipping off the River Plate, concentrated his three cruisers there and on the morning of 13 December sighted her.\n\nHarwood split his force to divide the German fire. Graf Spee's 11-inch guns crippled the heavy cruiser Exeter and damaged Ajax, but the cruisers pressed in, and Langsdorff, his ship hit some twenty times, broke off and ran for neutral Montevideo. There, under international law, he could stay only a short time. British diplomacy and false reports of heavy reinforcements persuaded him that escape was hopeless.\n\nOn the evening of 17 December, before huge crowds watching from the shore, the crew scuttled the ship in the estuary. Langsdorff shot himself in Buenos Aires three days later.",
+    "significance": "The first major naval battle of the war ended the German surface raider threat in the South Atlantic for a time and gave Britain a welcome victory during the phoney war.",
+    "certainty": "high",
+    "uncertaintyNote": "The engagement moved westward during the day; the position given is approximate. Casualty figures vary slightly between sources.",
+    "sources": [
+      "Eric Grove, The Price of Disobedience: The Battle of the River Plate Reconsidered (2000)",
+      "Stephen Roskill, The War at Sea, vol. 1 (1954)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "treaty-of-moscow-1940",
+    "title": "Treaty of Moscow",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1940-03-12",
+    "end": "1940-03-13",
+    "datePrecision": "day",
+    "place": "Moscow (the Kremlin)",
+    "lon": 37.62,
+    "lat": 55.75,
+    "locationCertainty": "exact",
+    "phase": "poland",
+    "sides": {
+      "focus": "Soviet Union",
+      "opponent": "Finland"
+    },
+    "commanders": {
+      "focus": [
+        "Molotov",
+        "Stalin"
+      ],
+      "opponent": [
+        "Ryti",
+        "Paasikivi"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Finland makes peace, ceding the Karelian Isthmus, Viipuri and about a tenth of its territory. More than 400,000 Karelians leave their homes rather than live under Soviet rule.",
+    "detail": "By early March 1940 the Finnish army on the Isthmus was close to collapse and Soviet troops were fighting in the outskirts of Viipuri. Britain and France offered an expeditionary force, but it would have had to cross neutral Norway and Sweden and was in any case too small and too late. A Finnish delegation led by Prime Minister Risto Ryti went to Moscow and, on the night of 12 March, accepted terms harsher than those Stalin had demanded before the war.\n\nFinland gave up the Karelian Isthmus with Viipuri, its second city, the shores of Lake Ladoga, territory in Salla and the Rybachy peninsula, and leased the Hanko peninsula as a Soviet naval base. The fighting stopped at 11 a.m. on 13 March. Almost the entire population of the ceded areas, more than 400,000 people, was evacuated into the rest of Finland.\n\nThe Kuusinen puppet government was quietly dropped: Finland remained independent.",
+    "significance": "The peace preserved Finnish independence but left a deep grievance that led Finland to join the German attack on the Soviet Union in June 1941.",
+    "certainty": "high",
+    "uncertaintyNote": "The treaty was signed late on 12 March and took effect on 13 March. As with the Winter War, neither party was then Axis or Allied.",
+    "sources": [
+      "William R. Trotter, A Frozen Hell (1991)",
+      "Gerhard Weinberg, A World at Arms (1994)",
+      "Roger Moorhouse, The Devils' Alliance (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "katyn-1940",
+    "title": "Katyn massacre",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Kalinin (Tver)",
+        "lon": 35.9,
+        "lat": 56.86
+      },
+      {
+        "name": "Kharkov (Kharkiv)",
+        "lon": 36.23,
+        "lat": 49.99
+      }
+    ],
+    "kind": "massacre",
+    "start": "1940-04",
+    "end": "1940-05",
+    "datePrecision": "month",
+    "place": "Katyn forest, near Smolensk, Russia",
+    "lon": 31.79,
+    "lat": 54.77,
+    "locationCertainty": "exact",
+    "phase": "poland",
+    "sides": {
+      "focus": "Soviet Union (NKVD)",
+      "opponent": "Polish prisoners of war and detainees"
+    },
+    "commanders": {
+      "focus": [
+        "Stalin",
+        "Beria"
+      ]
+    },
+    "casualties": "c. 22,000 Polish officers, police, officials and members of the intelligentsia murdered",
+    "outcome": "n/a",
+    "summary": "On Stalin's orders the NKVD shoots some 22,000 Polish prisoners, most of them reserve officers drawn from the educated classes, at Katyn, Kalinin, Kharkov and other sites.",
+    "detail": "Among the Polish prisoners taken in September 1939 the Soviets held around 15,000 officers and policemen in special camps at Kozelsk, Starobelsk and Ostashkov, with thousands more Poles in NKVD prisons. Many of the officers were reservists: doctors, lawyers, engineers, teachers. On 5 March 1940, on Beria's proposal, Stalin and the Politburo approved their execution as 'sworn enemies of Soviet power'.\n\nFrom early April prisoners were taken in batches by train. Those from Kozelsk were shot in the Katyn forest near Smolensk; those from Ostashkov in the NKVD prison at Kalinin and buried at Mednoye; those from Starobelsk in Kharkov. Some 7,000 more were killed in prisons in western Belarus and Ukraine. Their families were deported to Kazakhstan.\n\nWhen the Germans announced the discovery of the Katyn graves in April 1943, the Soviet Union blamed Germany and broke relations with the Polish government in exile. Moscow admitted responsibility only in 1990.",
+    "significance": "Katyn decapitated a large part of Poland's educated class and became the emblem of Soviet crimes against Poland, poisoning Allied relations and post-war memory.",
+    "certainty": "high",
+    "uncertaintyNote": "No Axis party was involved; the perpetrators (the NKVD) are placed in the focus slot and the victims in the opponent slot. The figure of c. 21,800–22,000 comes from Soviet documents released in 1990–92.",
+    "sources": [
+      "Anna M. Cienciala, Natalia S. Lebedeva and Wojciech Materski, Katyn: A Crime Without Punishment (2007)",
+      "Timothy Snyder, Bloodlands (2010)",
+      "Allen Paul, Katyń: Stalin's Massacre and the Triumph of Truth (1991)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "weserubung-1940",
+    "title": "Invasion of Denmark and Norway",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Oscarsborg (Blücher sunk)",
+        "lon": 10.61,
+        "lat": 59.67
+      },
+      {
+        "name": "Copenhagen",
+        "lon": 12.57,
+        "lat": 55.68
+      }
+    ],
+    "kind": "campaign",
+    "start": "1940-04-09",
+    "end": "1940-06-10",
+    "datePrecision": "day",
+    "place": "Oslo and the Oslofjord, Norway",
+    "lon": 10.75,
+    "lat": 59.91,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Norway, Denmark, Britain, France and Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Falkenhorst",
+        "Raeder"
+      ],
+      "opponent": [
+        "Haakon VII",
+        "Ruge"
+      ]
+    },
+    "casualties": "German c. 5,000 killed or missing (including at sea); Norwegian c. 1,700 dead; British, French and Polish c. 4,500 dead, most at sea",
+    "outcome": "victory",
+    "summary": "In Operation Weserübung Germany seizes Denmark in a morning and lands troops at every major Norwegian port. The guns of Oscarsborg sink the cruiser Blücher, letting the King and government escape.",
+    "detail": "Both Britain and Germany had their eyes on Norway, through whose waters Swedish iron ore reached Germany. On 9 April 1940, a day after the British began mining Norwegian waters, German forces struck first. Denmark, overrun within hours, capitulated almost without a fight. In Norway, troops carried by warships and transport aircraft landed simultaneously at Oslo, Kristiansand, Bergen, Trondheim and Narvik.\n\nIn the narrows of the Oslofjord the old guns and torpedoes of Oscarsborg fortress sank the heavy cruiser Blücher, with heavy loss of life. The delay allowed King Haakon VII, the government and the gold reserve to leave Oslo, and the King refused to accept the puppet government that Vidkun Quisling proclaimed by radio.\n\nAllied troops landed in central Norway at Namsos and Åndalsnes but, without air cover, were evacuated by early May. With the crisis in France, the Allies withdrew from the north too, and Norway capitulated on 10 June; the King and government went into exile in London.",
+    "significance": "Germany secured the iron-ore route and Atlantic bases, but lost much of its surface fleet; in Britain the fiasco brought down Chamberlain and made Churchill prime minister on 10 May.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary, particularly for losses at sea.",
+    "sources": [
+      "Geirr H. Haarr, The German Invasion of Norway, April 1940 (2009)",
+      "François Kersaudy, Norway 1940 (1990)",
+      "Gerhard Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "narvik-1940",
+    "title": "Battles of Narvik",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1940-04-10",
+    "end": "1940-06-08",
+    "datePrecision": "day",
+    "place": "Narvik and the Ofotfjord, northern Norway",
+    "lon": 17.43,
+    "lat": 68.44,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, France, Poland and Norway"
+    },
+    "commanders": {
+      "focus": [
+        "Dietl",
+        "Bonte"
+      ],
+      "opponent": [
+        "Warburton-Lee",
+        "Whitworth",
+        "Béthouart",
+        "Fleischer"
+      ]
+    },
+    "casualties": "Germany lost 10 destroyers; British, French, Polish and Norwegian troops and sailors several thousand casualties on both sides",
+    "outcome": "victory",
+    "summary": "The Royal Navy destroys ten German destroyers in Narvik's fjords, and Allied troops retake the town on 28 May, only to abandon it days later as France collapses.",
+    "detail": "Narvik, the ice-free port for Swedish iron ore, was taken on 9 April by Dietl's mountain troops, carried in ten destroyers that also sank the Norwegian coastal defence ships Eidsvold and Norge. The next morning five British destroyers under Captain Warburton-Lee attacked in a snowstorm, sinking two German destroyers and several merchant ships; Warburton-Lee was killed and later awarded the Victoria Cross. On 13 April the battleship Warspite and nine destroyers entered the fjord and sank the remaining eight.\n\nOn land the campaign moved slowly. Norwegian troops under General Fleischer pressed Dietl from the north, while British, French Foreign Legion, Chasseurs Alpins and Polish troops closed in from the sea. On 28 May the Allies took Narvik, the first Allied land victory of the war.\n\nBy then the battle of France was lost. The Allies evacuated by 8 June, and on the same day the aircraft carrier Glorious and two destroyers were sunk by Scharnhorst and Gneisenau with the loss of more than 1,500 men.",
+    "significance": "The destruction of half the German navy's destroyers weighed heavily on its planning for an invasion of Britain, though Germany held Narvik.",
+    "certainty": "high",
+    "uncertaintyNote": "The outcome is recorded as an Axis victory because Germany held Narvik and Norway at the end, though the naval battles were a clear British success.",
+    "sources": [
+      "Geirr H. Haarr, The Battle for Norway, April–June 1940 (2010)",
+      "François Kersaudy, Norway 1940 (1990)",
+      "Stephen Roskill, The War at Sea, vol. 1 (1954)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "eben-emael-1940",
+    "title": "Eben-Emael and the invasion of the Low Countries",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Moerdijk bridges",
+        "lon": 4.63,
+        "lat": 51.7
+      },
+      {
+        "name": "The Hague",
+        "lon": 4.3,
+        "lat": 52.08
+      }
+    ],
+    "kind": "campaign",
+    "start": "1940-05-10",
+    "end": "1940-05-28",
+    "datePrecision": "day",
+    "place": "Fort Eben-Emael, on the Albert Canal, Belgium",
+    "lon": 5.68,
+    "lat": 50.8,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Netherlands, Belgium, France and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Student",
+        "Witzig"
+      ],
+      "opponent": [
+        "Leopold III",
+        "Winkelman",
+        "Jottrand"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "At dawn on 10 May glider-borne paratroops land on top of Belgium's strongest fortress and disable it within hours, while airborne troops seize Dutch bridges and airfields. Belgium and the Netherlands are overrun.",
+    "detail": "Before first light on 10 May 1940 gliders carrying fewer than a hundred German airborne engineers landed on the roof of Fort Eben-Emael, the modern fortress guarding the Albert Canal bridges near Maastricht. Using hollow-charge explosives, never before used in war, they knocked out its gun turrets and casemates and trapped the garrison inside. Other glider parties seized two of the three nearby bridges. The fort surrendered the next day.\n\nIn the Netherlands paratroops dropped on the bridges at Moerdijk, Dordrecht and Rotterdam and on airfields around The Hague, where the attempt to capture the government failed. Queen Wilhelmina and the cabinet left for London on 13 May, and the Dutch army capitulated on 15 May after the bombing of Rotterdam.\n\nThe drama in the Low Countries drew the best Anglo-French armies north into Belgium, exactly as the German plan intended. Belgium, its army pressed back to the coast, surrendered on 28 May.",
+    "significance": "The northern attacks were the bait in the German plan, pulling Allied armies into Belgium while the decisive blow fell through the Ardennes.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of glider troops who landed on the fort is given variously as 55 to 85, since some gliders landed short.",
+    "sources": [
+      "Karl-Heinz Frieser, The Blitzkrieg Legend (2005)",
+      "Julian Jackson, The Fall of France (2003)",
+      "Ernest R. May, Strange Victory (2000)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "sedan-1940",
+    "title": "Sedan and the Panzer breakthrough",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Dinant",
+        "lon": 4.91,
+        "lat": 50.26
+      },
+      {
+        "name": "Monthermé",
+        "lon": 4.74,
+        "lat": 49.88
+      },
+      {
+        "name": "Abbeville",
+        "lon": 1.83,
+        "lat": 50.11
+      }
+    ],
+    "kind": "battle",
+    "start": "1940-05-13",
+    "end": "1940-05-20",
+    "datePrecision": "day",
+    "place": "The Meuse at Sedan, Ardennes, France",
+    "lon": 4.94,
+    "lat": 49.7,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France"
+    },
+    "commanders": {
+      "focus": [
+        "Rundstedt",
+        "Kleist",
+        "Guderian",
+        "Rommel"
+      ],
+      "opponent": [
+        "Gamelin",
+        "Georges",
+        "Huntziger",
+        "Corap"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "After threading through the Ardennes, German Panzer corps cross the Meuse at Sedan, Dinant and Monthermé. French resistance breaks, and within a week the Panzers reach the Channel, trapping the Allied armies in Belgium.",
+    "detail": "The German plan, shaped by Manstein, sent the main weight of armour through the wooded Ardennes, which the French thought unsuitable for large mechanised forces. Some 1,500 tanks and thousands of vehicles jammed the forest roads, but the Allies failed to detect or bomb them, and on 12 May the Panzers reached the Meuse.\n\nOn 13 May the Luftwaffe pounded the French positions at Sedan for hours, and Guderian's infantry crossed the river in rubber boats. The French 55th Division, made up of older reservists, collapsed, and a false rumour of tanks set off a panic in the rear. To the north Rommel's division crossed near Dinant. French counter-attacks were slow and piecemeal; Allied bombers attacking the Sedan bridges were shot down in large numbers.\n\nThe Panzers then turned west, ignoring orders to halt. On 15 May Reynaud told Churchill that France was beaten; on 20 May Guderian's leading troops reached the sea at Abbeville.",
+    "significance": "The breakthrough decided the campaign in the west within days, split the Allied armies and created the legend of Blitzkrieg.",
+    "certainty": "high",
+    "sources": [
+      "Karl-Heinz Frieser, The Blitzkrieg Legend (2005)",
+      "Julian Jackson, The Fall of France (2003)",
+      "Alistair Horne, To Lose a Battle (1969)",
+      "Ernest R. May, Strange Victory (2000)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "rotterdam-1940",
+    "title": "Bombing of Rotterdam",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1940-05-14",
+    "datePrecision": "day",
+    "place": "Rotterdam, Netherlands",
+    "lon": 4.48,
+    "lat": 51.92,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany (Luftwaffe)",
+      "opponent": "People of Rotterdam"
+    },
+    "commanders": {
+      "focus": [
+        "Kesselring",
+        "Schmidt"
+      ],
+      "opponent": [
+        "Winkelman",
+        "Scharroo"
+      ]
+    },
+    "casualties": "c. 800–900 civilians killed; c. 80,000 made homeless",
+    "outcome": "n/a",
+    "summary": "While surrender talks are under way, German bombers destroy the medieval heart of Rotterdam. The next day, under threat of the same fate for Utrecht, the Netherlands capitulates.",
+    "detail": "German airborne troops held the southern end of the Maas bridges in Rotterdam, but Dutch marines and soldiers blocked their way into the city. On 14 May General Schmidt, commanding the German ground forces, sent an ultimatum to the Dutch commander, Colonel Scharroo, threatening the destruction of the city.\n\nNegotiations had begun and the deadline had been extended, but around 1.30 p.m. some ninety Heinkel bombers approached. Red flares were fired to recall them; part of one formation turned away, but the rest dropped nearly a hundred tonnes of bombs on the old centre. Fires spread from burning stores of vegetable oil and raged for days, destroying some 25,000 homes, churches, schools and hospitals.\n\nThat evening the Dutch commander-in-chief, General Winkelman, was told that Utrecht would suffer likewise. To spare it, he surrendered the Dutch army the following day.",
+    "significance": "Rotterdam became a byword for the terror bombing of cities; reports, which hugely exaggerated the death toll, helped move the British War Cabinet to begin bombing industrial targets in Germany.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether the bombing was deliberately pressed after the surrender talks began, or resulted from failed communication, is still debated. Early reports claimed 30,000 dead; the true toll was c. 850.",
+    "sources": [
+      "Richard Overy, The Bombing War (2013)",
+      "Karl-Heinz Frieser, The Blitzkrieg Legend (2005)",
+      "Loe de Jong, Het Koninkrijk der Nederlanden in de Tweede Wereldoorlog, vol. 3 (1970)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "chongqing-bombing-1940",
+    "title": "Bombing of Chongqing",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1940-05-18",
+    "end": "1941-08-31",
+    "datePrecision": "month",
+    "place": "Chongqing, wartime capital of Nationalist China",
+    "lon": 106.55,
+    "lat": 29.56,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Japan (navy and army air forces)",
+      "opponent": "People of Chongqing"
+    },
+    "commanders": {
+      "focus": [
+        "Inoue Shigeyoshi"
+      ],
+      "opponent": [
+        "Chiang Kai-shek"
+      ]
+    },
+    "casualties": "Over the whole campaign, 1938–43, perhaps 10,000–12,000 or more killed",
+    "outcome": "n/a",
+    "summary": "Japanese bombers mount months of raids on the Nationalist wartime capital to break China's will. Chongqing burns repeatedly, but its people dig shelters into the hillsides and the government does not yield.",
+    "detail": "After the fall of Wuhan in 1938, Chiang Kai-shek's government withdrew up the Yangtze to Chongqing, beyond the reach of Japanese armies but not of their aircraft. Raids in May 1939 had already killed thousands in the crowded old city. In 1940, under Operation 101, Japanese navy and army bombers flying from Hankou struck the city on dozens of days between May and September, using incendiaries against its timber buildings; Operation 102 continued the assault in summer 1941.\n\nThe Japanese aim was to terrorise the population and force the Nationalists to negotiate. Instead, people carved air-raid shelters into the sandstone cliffs and endured, and the bombing came to symbolise China's resistance. Fog in winter gave a seasonal respite. On 5 June 1941 hundreds, perhaps over a thousand, civilians suffocated or were crushed in a crowded public tunnel shelter during a long raid.",
+    "significance": "One of the longest bombing campaigns against a city in the war, it failed to break Chinese resistance and showed the limits of terror bombing.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty figures are uncertain; estimates for the whole campaign vary widely, and the toll of the tunnel disaster of 5 June 1941 ranges from several hundred to several thousand. The event is dated from the start of Operation 101.",
+    "sources": [
+      "Rana Mitter, China's War with Japan 1937–1945 (2013)",
+      "Edna Tow, 'The Great Bombing of Chongqing', in Mark Peattie, Edward Drea and Hans van de Ven (eds), The Battle for China (2011)",
+      "Hans van de Ven, China at War (2017)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "dunkirk-1940",
+    "title": "Dunkirk evacuation",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1940-05-26",
+    "end": "1940-06-04",
+    "datePrecision": "day",
+    "place": "Dunkirk (Dunkerque) and its beaches, France",
+    "lon": 2.38,
+    "lat": 51.03,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Rundstedt",
+        "Kleist",
+        "Göring"
+      ],
+      "opponent": [
+        "Gort",
+        "Ramsay",
+        "Abrial"
+      ]
+    },
+    "casualties": "Some 40,000 French troops captured at the end; Britain lost 6 destroyers and France 3, with over 200 vessels of all sizes; heavy RAF losses",
+    "outcome": "inconclusive",
+    "summary": "Operation Dynamo lifts some 338,000 British and French soldiers from Dunkirk's harbour and beaches under air attack. The army is saved, though its equipment is left behind.",
+    "detail": "With German armour on the Channel coast, the British Expeditionary Force and French and Belgian armies were trapped in a shrinking pocket in Flanders. On 24 May Hitler confirmed Rundstedt's order halting the Panzers before Dunkirk for two days, partly to rest the tanks and partly in the belief that the Luftwaffe could finish the job. Lord Gort had already begun to fall back on the port.\n\nOperation Dynamo, directed by Admiral Ramsay from Dover, began on 26 May. Most men were taken off from the harbour's east mole by destroyers and other ships; others waded out from the beaches to small craft, many of them civilian boats manned by their owners or naval crews. The Luftwaffe bombed the port relentlessly, and the RAF fought over the coast at heavy cost.\n\nFrench rearguards held the perimeter to the end. When the operation closed on 4 June about 338,000 men had been rescued, around a third of them French, but some 40,000 French soldiers were captured.",
+    "significance": "The rescue preserved the core of Britain's professional army and stiffened its will to fight on, though Churchill warned that wars are not won by evacuations.",
+    "certainty": "high",
+    "uncertaintyNote": "The total lifted is usually given as c. 338,000; figures for French evacuees and prisoners vary. The reasons for the halt order remain debated. The outcome is recorded as inconclusive: Germany took the port, but the Allied armies escaped.",
+    "sources": [
+      "Hugh Sebag-Montefiore, Dunkirk: Fight to the Last Man (2006)",
+      "Julian Jackson, The Fall of France (2003)",
+      "Karl-Heinz Frieser, The Blitzkrieg Legend (2005)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "italy-enters-war-1940",
+    "title": "Italy enters the war",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1940-06-10",
+    "datePrecision": "day",
+    "place": "Rome (Palazzo Venezia)",
+    "lon": 12.48,
+    "lat": 41.9,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Mussolini",
+        "Badoglio"
+      ],
+      "opponent": [
+        "Churchill",
+        "Reynaud"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "With France collapsing, Mussolini declares war on Britain and France from his balcony in Rome, hoping for a share of the spoils. The war spreads to the Mediterranean and Africa.",
+    "detail": "Italy had stayed out of the war in 1939, its armed forces far from ready despite Mussolini's alliance with Hitler in the Pact of Steel. The German victories of May 1940 changed his calculation: convinced that the war would soon be over, he wanted a seat at the peace conference and territory in France, the Balkans and Africa. On 10 June he announced the declaration of war to a crowd in Piazza Venezia.\n\nItaly's armed forces were poorly equipped, short of fuel and raw materials, and its industry could not sustain a long war. An offensive in the Alps from 21 June made little headway against the French before the armistice. Yet Italy's entry brought the war to the Mediterranean, North Africa and the Horn of Africa, where large Italian forces in Libya and East Africa threatened Egypt, the Suez Canal and British Somaliland.",
+    "significance": "Italy's entry turned the Mediterranean into a major theatre, threatening Britain's imperial communications but also creating a weak flank that would later draw Germany into costly commitments.",
+    "certainty": "high",
+    "sources": [
+      "MacGregor Knox, Mussolini Unleashed 1939–1941 (1982)",
+      "R.J.B. Bosworth, Mussolini (2002)",
+      "Gerhard Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "fall-of-paris-1940",
+    "title": "Fall of Paris",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1940-06-14",
+    "datePrecision": "day",
+    "place": "Paris",
+    "lon": 2.35,
+    "lat": 48.86,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France"
+    },
+    "commanders": {
+      "focus": [
+        "Bock",
+        "Küchler"
+      ],
+      "opponent": [
+        "Weygand",
+        "Dentz"
+      ]
+    },
+    "outcome": "victory",
+    "summary": "German troops march into an emptied Paris, declared an open city to spare it destruction. Millions of refugees clog the roads south as the French government flees to Bordeaux.",
+    "detail": "On 5 June the Germans attacked the new French line along the Somme and the Aisne. Some French divisions fought hard, but General Weygand, who had replaced Gamelin, had too few reserves, and by 10 June the front was broken. The government left Paris for Tours and then Bordeaux, and Paris was declared an open city to spare it from bombardment and street fighting.\n\nGerman troops entered on the morning of 14 June and hung the swastika from the Eiffel Tower. Perhaps two-thirds of the population had already left. Across northern France some six to eight million people, together with Belgian and Dutch refugees, fled south in the exodus, on foot, on bicycles, in cars and carts, strafed at times by German aircraft.\n\nIn Bordeaux the cabinet split over whether to fight on from North Africa. Reynaud resigned on 16 June, and Marshal Pétain, his successor, asked for an armistice the next day.",
+    "significance": "The fall of Paris and the chaos of the exodus broke the French government's will to continue the war from France or from its empire.",
+    "certainty": "high",
+    "uncertaintyNote": "Estimates of the number of refugees in the exodus range from six to ten million.",
+    "sources": [
+      "Julian Jackson, The Fall of France (2003)",
+      "Hanna Diamond, Fleeing Hitler: France 1940 (2007)",
+      "Alistair Horne, To Lose a Battle (1969)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "auschwitz-1940",
+    "title": "Auschwitz camp established",
+    "geometry": "city",
+    "kind": "massacre",
+    "start": "1940-06-14",
+    "datePrecision": "day",
+    "place": "Auschwitz (Oświęcim), annexed Upper Silesia, Poland",
+    "lon": 19.2,
+    "lat": 50.03,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany (SS)",
+      "opponent": "Polish political prisoners, and later Jews, Soviet prisoners, Roma and others"
+    },
+    "commanders": {
+      "focus": [
+        "Himmler",
+        "Höss"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "The first transport of 728 Polish political prisoners from Tarnów arrives at a new SS concentration camp in former army barracks at Oświęcim. Auschwitz will become the largest site of mass murder in history.",
+    "detail": "In spring 1940 the SS chose a former Polish army barracks on the edge of Oświęcim, renamed Auschwitz, as a concentration camp for the overflowing prisons of occupied Silesia and the General Government. Rudolf Höss was appointed commandant. On 14 June 1940 the first transport arrived: 728 Polish men from the prison at Tarnów, many of them students, soldiers and members of the resistance.\n\nThrough 1940 and 1941 Auschwitz was above all a place of terror for Poles, where prisoners were worked, starved and beaten to death or shot at the 'death wall'. In September 1941 the SS first tested Zyklon B on Soviet prisoners of war and sick inmates in the cellars of Block 11.\n\nFrom 1942 the vast new camp at Birkenau became the principal killing centre of the Holocaust. Of some 1.3 million people deported to Auschwitz, about 1.1 million were murdered, around a million of them Jews, along with Poles, Roma and Soviet prisoners.",
+    "significance": "Founded as an instrument of terror against Poles, Auschwitz grew into the centre of the Nazi genocide of Europe's Jews and the symbol of the Holocaust.",
+    "certainty": "high",
+    "uncertaintyNote": "The death toll figures are those established by Franciszek Piper of the Auschwitz-Birkenau State Museum.",
+    "sources": [
+      "Raul Hilberg, The Destruction of the European Jews (3rd edn, 2003)",
+      "Franciszek Piper and Yisrael Gutman (eds), Anatomy of the Auschwitz Death Camp (1994)",
+      "Laurence Rees, Auschwitz: The Nazis and the 'Final Solution' (2005)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "baltic-annexation-1940",
+    "title": "Soviet occupation of the Baltic states",
+    "geometry": "area",
+    "radiusKm": 330,
+    "markers": [
+      {
+        "name": "Tallinn",
+        "lon": 24.75,
+        "lat": 59.44
+      },
+      {
+        "name": "Riga",
+        "lon": 24.11,
+        "lat": 56.95
+      },
+      {
+        "name": "Kaunas",
+        "lon": 23.9,
+        "lat": 54.9
+      }
+    ],
+    "kind": "political",
+    "start": "1940-06-15",
+    "end": "1940-08-06",
+    "datePrecision": "day",
+    "place": "Estonia, Latvia and Lithuania",
+    "lon": 24.5,
+    "lat": 57,
+    "locationCertainty": "approximate",
+    "phase": "west",
+    "sides": {
+      "focus": "Soviet Union",
+      "opponent": "Estonia, Latvia and Lithuania"
+    },
+    "commanders": {
+      "focus": [
+        "Stalin",
+        "Molotov",
+        "Zhdanov"
+      ],
+      "opponent": [
+        "Smetona",
+        "Ulmanis",
+        "Päts"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "While the world watches France fall, the Red Army occupies Lithuania, Latvia and Estonia. After rigged elections the three states are annexed into the Soviet Union in August.",
+    "detail": "Under the Nazi–Soviet pacts the Baltic states lay in the Soviet sphere, and since autumn 1939 they had been forced to accept Soviet military bases. In mid-June 1940, as German armies entered Paris, Moscow accused the three governments of conspiring against it and demanded new governments and free entry for its troops. Lithuania received its ultimatum on 14 June and Latvia and Estonia two days later; facing overwhelming force, all three submitted without fighting.\n\nSoviet emissaries, among them Andrei Zhdanov in Tallinn, installed compliant governments. Elections in July, with single lists of approved candidates, produced assemblies that petitioned to join the Soviet Union, and the annexations were completed between 3 and 6 August. The presidents of Latvia and Estonia were deported and died in Soviet custody. Arrests followed, and in June 1941 tens of thousands of people were deported to Siberia. Romania was forced to cede Bessarabia and northern Bukovina at the end of June.",
+    "significance": "The annexations extended Soviet power to the Baltic and began half a century of occupation that most Western states never recognised.",
+    "certainty": "high",
+    "uncertaintyNote": "No Axis party was involved, so the outcome labels do not apply; the Soviet Union is placed in the focus slot as the occupying power.",
+    "sources": [
+      "Romuald J. Misiunas and Rein Taagepera, The Baltic States: Years of Dependence 1940–1990 (1993)",
+      "Timothy Snyder, Bloodlands (2010)",
+      "Roger Moorhouse, The Devils' Alliance (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "compiegne-armistice-1940",
+    "title": "Armistice of Compiègne",
+    "geometry": "site",
+    "kind": "treaty",
+    "start": "1940-06-22",
+    "datePrecision": "day",
+    "place": "Clearing of Rethondes, forest of Compiègne, France",
+    "lon": 2.91,
+    "lat": 49.43,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler",
+        "Keitel"
+      ],
+      "opponent": [
+        "Pétain",
+        "Huntziger"
+      ]
+    },
+    "casualties": "French campaign losses c. 60,000–90,000 military dead and c. 1.8 million prisoners; German c. 27,000 dead",
+    "outcome": "negotiated",
+    "summary": "In the same railway carriage where Germany signed the armistice of 1918, France signs an armistice that leaves three-fifths of the country under German occupation. The Third Republic soon gives way to Pétain's Vichy regime.",
+    "detail": "Hitler chose the setting for maximum symbolism. The railway carriage in which Foch had received the German delegation in November 1918 was taken out of its museum and returned to the clearing at Rethondes, and Hitler sat in Foch's chair as the terms were read. General Huntziger signed for France on the evening of 22 June; the armistice took effect on 25 June, after a separate armistice with Italy.\n\nGermany occupied the north and the whole Atlantic coast, including Paris; a southern zone was left to the French government, which kept its fleet, disarmed, and its empire. France had to pay the costs of occupation, and some 1.8 million French prisoners stayed in German camps as hostages for good behaviour.\n\nOn 10 July the National Assembly, meeting at Vichy, voted full powers to Marshal Pétain, ending the Republic. In London, General de Gaulle had already appealed by radio on 18 June for the French to continue the fight.",
+    "significance": "France's defeat left Britain alone against Germany and created the Vichy regime, whose collaboration would include the persecution and deportation of Jews.",
+    "certainty": "high",
+    "uncertaintyNote": "French military deaths in the 1940 campaign are variously estimated between c. 55,000 and 90,000.",
+    "sources": [
+      "Julian Jackson, The Fall of France (2003)",
+      "Julian Jackson, France: The Dark Years 1940–1944 (2001)",
+      "Robert O. Paxton, Vichy France: Old Guard and New Order (1972)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "mers-el-kebir-1940",
+    "title": "Attack on the French fleet at Mers-el-Kébir",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1940-07-03",
+    "datePrecision": "day",
+    "place": "Mers-el-Kébir, near Oran, French Algeria",
+    "lon": -0.7,
+    "lat": 35.73,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "France (Pétain's armistice government)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Gensoul",
+        "Darlan"
+      ],
+      "opponent": [
+        "Somerville",
+        "Churchill"
+      ]
+    },
+    "casualties": "c. 1,297 French sailors killed",
+    "outcome": "n/a",
+    "summary": "Fearing the French fleet will fall into German hands, the Royal Navy opens fire on its former ally's battleships at Mers-el-Kébir, killing nearly 1,300 French sailors.",
+    "detail": "The armistice left the powerful French fleet in French hands, and Admiral Darlan had ordered it never to be surrendered to Germany. Churchill's government was not willing to rely on that promise. In Operation Catapult, French ships in British ports were seized on 3 July, and Admiral Somerville's Force H, from Gibraltar, appeared off Mers-el-Kébir, where the core of the Atlantic fleet lay at anchor.\n\nSomerville offered Admiral Gensoul a choice: join the British, sail to a British or distant French port to be disarmed, or scuttle his ships. Negotiations dragged on through the day. Shortly before 6 p.m. the British opened fire. The old battleship Bretagne blew up and capsized, and Provence and Dunkerque were badly damaged; the battlecruiser Strasbourg escaped to Toulon. Nearly 1,300 French sailors died.\n\nThe French government broke off diplomatic relations with Britain, and French aircraft raided Gibraltar in retaliation.",
+    "significance": "The attack showed the world, and above all the United States, that Britain would fight on ruthlessly, but it embittered Anglo-French relations and strengthened Vichy's hand.",
+    "certainty": "high",
+    "uncertaintyNote": "Since this was an attack by Britain on a non-belligerent former ally, the atlas's Axis/Allied outcome labels do not fit; the event is marked n/a. The Vichy regime was formally constituted a week later, on 10 July.",
+    "sources": [
+      "Arthur Marder, From the Dardanelles to Oran (1974)",
+      "Julian Jackson, The Fall of France (2003)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "battle-of-britain-1940",
+    "title": "Battle of Britain",
+    "geometry": "area",
+    "radiusKm": 150,
+    "markers": [
+      {
+        "name": "Bentley Priory (Fighter Command HQ)",
+        "lon": -0.34,
+        "lat": 51.62
+      },
+      {
+        "name": "Biggin Hill",
+        "lon": 0.03,
+        "lat": 51.33
+      }
+    ],
+    "kind": "battle",
+    "start": "1940-07-10",
+    "end": "1940-10-31",
+    "datePrecision": "day",
+    "place": "Skies over southern England and the Channel",
+    "lon": 0.3,
+    "lat": 51.2,
+    "locationCertainty": "approximate",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Göring",
+        "Kesselring",
+        "Sperrle"
+      ],
+      "opponent": [
+        "Dowding",
+        "Park",
+        "Leigh-Mallory"
+      ]
+    },
+    "casualties": "RAF Fighter Command c. 544 aircrew killed and c. 1,000 aircraft lost; Luftwaffe c. 2,500 aircrew killed and c. 1,900 aircraft lost",
+    "outcome": "defeat",
+    "summary": "The Luftwaffe tries to destroy the RAF as the prelude to invasion. Guided by radar, Fighter Command holds on through August and September, and Hitler postpones Operation Sea Lion indefinitely.",
+    "detail": "After France fell, Hitler ordered preparations for a landing in southern England, Operation Sea Lion, which depended on first winning control of the air. From July the Luftwaffe attacked Channel convoys and ports; from 13 August, 'Eagle Day', it struck at RAF airfields, radar stations and aircraft factories.\n\nFighter Command's strength lay in its system as much as its Hurricanes and Spitfires: the Chain Home radar stations and the Observer Corps fed reports to operations rooms, which directed squadrons on to the incoming raids. Its pilots came from Britain, the Commonwealth, Poland, Czechoslovakia and elsewhere. The struggle over the airfields in late August and early September stretched the RAF hard.\n\nOn 7 September, in part in retaliation for RAF raids on Berlin, the Luftwaffe switched to bombing London. The respite saved the airfields, and on 15 September large German raids by day were beaten off with heavy losses. Two days later Sea Lion was postponed, and the daylight battle petered out by the end of October.",
+    "significance": "Germany's first defeat ensured that Britain would survive as a base for the war against Germany, and helped persuade the United States that it was worth supporting.",
+    "certainty": "high",
+    "uncertaintyNote": "The battle's start and end dates are British conventions; German operations had no such neat limits. Claims of aircraft shot down were wildly inflated by both sides at the time; the figures given are post-war estimates.",
+    "sources": [
+      "Richard Overy, The Battle of Britain: Myth and Reality (2000)",
+      "Stephen Bungay, The Most Dangerous Enemy (2000)",
+      "James Holland, The Battle of Britain (2010)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "hundred-regiments-1940",
+    "title": "Hundred Regiments Offensive",
+    "geometry": "area",
+    "radiusKm": 300,
+    "markers": [
+      {
+        "name": "Niangzi Pass (Zhengtai railway)",
+        "lon": 113.88,
+        "lat": 37.97
+      },
+      {
+        "name": "Jingxing coal mines",
+        "lon": 114.14,
+        "lat": 38.03
+      }
+    ],
+    "kind": "campaign",
+    "start": "1940-08-20",
+    "end": "1940-12-05",
+    "datePrecision": "day",
+    "place": "Shanxi and Hebei provinces, North China",
+    "lon": 113.5,
+    "lat": 37.8,
+    "locationCertainty": "approximate",
+    "phase": "west",
+    "sides": {
+      "focus": "Japan (North China Area Army)",
+      "opponent": "China (Communist Eighth Route Army)"
+    },
+    "commanders": {
+      "focus": [
+        "Tada Hayao"
+      ],
+      "opponent": [
+        "Peng Dehuai",
+        "Zhu De",
+        "Nie Rongzhen"
+      ]
+    },
+    "strength": {
+      "focus": "garrisons along railways and in blockhouses",
+      "opponent": "c. 105 regiments, perhaps 200,000–400,000 men"
+    },
+    "casualties": "Chinese Communist forces c. 17,000–22,000 casualties (Communist figures); Japanese and puppet losses claimed at c. 20,000–30,000, though Japanese records give far fewer",
+    "outcome": "inconclusive",
+    "summary": "The Communist Eighth Route Army launches its largest offensive of the war against the railways, roads and mines of Japanese-held North China, wrecking hundreds of miles of track before Japan strikes back.",
+    "detail": "By 1940 Japan held the cities and railways of North China but not the countryside, where Communist base areas had grown behind its lines. On the night of 20 August Peng Dehuai's Eighth Route Army attacked along the Zhengtai railway between Shijiazhuang and Taiyuan and across Shanxi and Hebei, blowing up bridges, tunnels and track, overrunning blockhouses and damaging the Jingxing coal mines. The offensive grew to involve over a hundred regiments.\n\nThe Japanese, surprised, repaired the lines within weeks and counter-attacked from October. Over the following year the North China Area Army turned on the base areas with ruthless 'mopping-up' campaigns, burning villages, killing civilians and building ditches and blockhouse lines to seal off the countryside, a policy the Chinese called the 'Three Alls': kill all, burn all, loot all.\n\nThe Communist base areas shrank sharply and their population fell by millions in 1941–42.",
+    "significance": "The offensive raised Communist prestige at a low point for China, but it exposed the base areas to devastating reprisals and led Mao to avoid large conventional operations thereafter.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty and participation figures come largely from Chinese Communist sources and are disputed; Japanese records give much lower losses. The 'Three Alls' was a Chinese term for Japanese reprisal policy rather than a formal Japanese order name.",
+    "sources": [
+      "Rana Mitter, China's War with Japan 1937–1945 (2013)",
+      "Lyman P. Van Slyke, 'The Battle of the Hundred Regiments', Modern Asian Studies 30 (1996)",
+      "Hans van de Ven, China at War (2017)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "blitz-1940",
+    "title": "The Blitz",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Coventry",
+        "lon": -1.51,
+        "lat": 52.41
+      },
+      {
+        "name": "Liverpool",
+        "lon": -2.98,
+        "lat": 53.41
+      },
+      {
+        "name": "Plymouth",
+        "lon": -4.14,
+        "lat": 50.37
+      }
+    ],
+    "kind": "raid",
+    "start": "1940-09-07",
+    "end": "1941-05-11",
+    "datePrecision": "day",
+    "place": "London and other British cities",
+    "lon": -0.08,
+    "lat": 51.51,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany (Luftwaffe)",
+      "opponent": "British civilians"
+    },
+    "commanders": {
+      "focus": [
+        "Göring",
+        "Kesselring",
+        "Sperrle"
+      ]
+    },
+    "casualties": "c. 43,000 British civilians killed, about half of them in London; over a million homes damaged or destroyed",
+    "outcome": "n/a",
+    "summary": "From 7 September 1940 the Luftwaffe bombs London on 57 consecutive nights, then turns on Coventry, Liverpool, Glasgow, Plymouth and other cities. Some 43,000 civilians die before the raids slacken in May 1941.",
+    "detail": "On the afternoon of 7 September some 350 bombers attacked London's docks and the East End, leaving huge fires and hundreds dead. For the next 57 nights the capital was bombed without a break. Londoners slept in Anderson shelters, basements and Underground stations, while fire crews, wardens and rescue squads worked through the raids. On 29 December incendiaries started a firestorm in the City around St Paul's.\n\nFrom November the Luftwaffe also attacked industrial cities and ports. On 14 November Coventry's centre and cathedral were destroyed and some 568 people killed. Birmingham, Liverpool, Bristol, Southampton, Plymouth, Hull, Belfast and Clydebank all suffered heavy raids. The last and worst raid on London, on 10–11 May 1941, killed some 1,400 people. Soon afterwards most of the bombers were moved east for the attack on the Soviet Union.\n\nRAF Bomber Command's raids on German cities, small at first, grew steadily in the same months.",
+    "significance": "The Blitz failed to break British morale or production, became central to the national memory of the war, and hardened British attitudes to the bombing of Germany.",
+    "certainty": "high",
+    "uncertaintyNote": "The total of British civilians killed in the Blitz is usually given as 40,000–43,000.",
+    "sources": [
+      "Richard Overy, The Bombing War (2013)",
+      "Juliet Gardiner, The Blitz: The British Under Attack (2010)",
+      "Angus Calder, The People's War (1969)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "indochina-1940",
+    "title": "Japan occupies northern Indochina",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Lạng Sơn",
+        "lon": 106.76,
+        "lat": 21.85
+      },
+      {
+        "name": "Haiphong",
+        "lon": 106.68,
+        "lat": 20.86
+      }
+    ],
+    "kind": "campaign",
+    "start": "1940-09-22",
+    "end": "1940-09-26",
+    "datePrecision": "day",
+    "place": "Hanoi and Tonkin, French Indochina (Vietnam)",
+    "lon": 105.85,
+    "lat": 21.03,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Vichy France (French Indochina)"
+    },
+    "commanders": {
+      "focus": [
+        "Nishihara Issaku",
+        "Nakamura Aketo"
+      ],
+      "opponent": [
+        "Decoux",
+        "Martin"
+      ]
+    },
+    "casualties": "Several hundred French and colonial troops killed or wounded at Lạng Sơn; Japanese losses lighter",
+    "outcome": "negotiated",
+    "summary": "Exploiting France's defeat, Japan forces Vichy to accept troops and airfields in northern Indochina. Fighting flares at Lạng Sơn before the French yield, and the United States responds with an embargo on scrap iron.",
+    "detail": "Japan had long resented the flow of supplies to Chiang Kai-shek along the railway from Haiphong to Kunming. In June 1940, with France beaten, it demanded that the route be closed and sent a mission under General Nishihara to Hanoi. Governor-General Decoux, isolated and without hope of reinforcement, negotiated.\n\nOn 22 September an agreement allowed Japan to station troops and use airfields in Tonkin. That same night the Japanese 5th Division, impatient with the talks, crossed the frontier from China and attacked the French border posts at Lạng Sơn and Đồng Đăng, which fell after several days' fighting; Japanese troops landed near Haiphong on 26 September. Tokyo disowned the clash, but the occupation stood. Vietnamese nationalists who rose in its wake were crushed by the French.\n\nIn Washington, President Roosevelt announced an embargo on exports of scrap iron and steel to Japan on 26 September.",
+    "significance": "The move began Japan's advance into South-East Asia and the spiral of American sanctions that led to war in the Pacific fifteen months later.",
+    "certainty": "high",
+    "uncertaintyNote": "The event combines a coerced agreement with armed clashes, so it is recorded as negotiated. Casualty figures for Lạng Sơn vary.",
+    "sources": [
+      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)",
+      "Gerhard Weinberg, A World at Arms (1994)",
+      "Ronald Spector, Eagle Against the Sun (1985)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tripartite-pact-1940",
+    "title": "Tripartite Pact",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1940-09-27",
+    "datePrecision": "day",
+    "place": "Berlin (New Reich Chancellery)",
+    "lon": 13.38,
+    "lat": 52.51,
+    "locationCertainty": "exact",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany, Italy and Japan",
+      "opponent": "The United States (the pact's implied target)"
+    },
+    "commanders": {
+      "focus": [
+        "Ribbentrop",
+        "Ciano",
+        "Kurusu Saburō"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Germany, Italy and Japan sign a pact of mutual assistance in Berlin, recognising each other's 'new order' in Europe and Asia and aiming to deter the United States from entering the war.",
+    "detail": "In Berlin on 27 September 1940 Ribbentrop, Ciano and the Japanese ambassador Kurusu Saburō signed a ten-year treaty. Japan recognised the leadership of Germany and Italy in establishing a new order in Europe; they recognised Japan's in 'Greater East Asia'. The three powers promised to assist one another with all means if any of them was attacked by a power not then involved in the European war or the war in China. Since the Soviet Union was expressly excluded, the target was plainly the United States.\n\nThe pact was a warning meant to keep America neutral, but it had the opposite effect, confirming American suspicions that the wars in Europe and Asia were one. Hungary, Romania and Slovakia joined in November 1940 and Bulgaria in March 1941. Yugoslavia's adhesion on 25 March 1941 provoked a coup in Belgrade two days later. Military coordination between the Axis partners remained minimal.",
+    "significance": "The pact gave formal shape to the Axis as a global coalition, but it did not deter the United States and was never matched by a common strategy.",
+    "certainty": "high",
+    "uncertaintyNote": "A treaty among Axis powers; the opponent slot names the state it was designed to deter.",
+    "sources": [
+      "Gerhard Weinberg, A World at Arms (1994)",
+      "Ian Kershaw, Fateful Choices (2007)",
+      "Richard Overy, Blood and Ruins (2021)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "italian-invasion-of-greece-1940",
+    "title": "Italy invades Greece",
+    "geometry": "area",
+    "radiusKm": 130,
+    "markers": [
+      {
+        "name": "Kalpaki",
+        "lon": 20.63,
+        "lat": 39.88
+      },
+      {
+        "name": "Korçë",
+        "lon": 20.78,
+        "lat": 40.62
+      },
+      {
+        "name": "Klisura (Këlcyrë)",
+        "lon": 20.19,
+        "lat": 40.31
+      }
+    ],
+    "kind": "campaign",
+    "start": "1940-10-28",
+    "end": "1941-04-06",
+    "datePrecision": "day",
+    "place": "Epirus and southern Albania",
+    "lon": 20.6,
+    "lat": 40.1,
+    "locationCertainty": "approximate",
+    "phase": "west",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "Greece"
+    },
+    "commanders": {
+      "focus": [
+        "Visconti Prasca",
+        "Soddu",
+        "Cavallero"
+      ],
+      "opponent": [
+        "Metaxas",
+        "Papagos"
+      ]
+    },
+    "casualties": "Italian c. 13,000–14,000 killed and many more wounded, frostbitten or captured; Greek c. 13,000–14,000 killed",
+    "outcome": "defeat",
+    "summary": "Mussolini invades Greece from Albania without German knowledge. The Greeks stop the Italians in the mountains of Epirus, then drive them back deep into Albania.",
+    "detail": "Stung by Hitler's moves in Romania, Mussolini decided to win a victory of his own. Before dawn on 28 October the Italian minister in Athens presented an ultimatum to the dictator Ioannis Metaxas, who rejected it, a refusal celebrated in Greece as 'Ochi' ('No') Day. Italian troops crossed from Albania within hours, with autumn rains turning the roads to mud.\n\nThe Greeks, mobilising fast, checked the main Italian thrust at Kalpaki and cut off the Alpini on the Pindus heights in early November. General Papagos then counter-attacked, taking Korçë on 22 November and pushing on to Sarandë, Gjirokastër and, in January, Klisura. Through a bitter winter in the mountains both armies suffered terribly from cold and frostbite. An Italian spring offensive in March 1941, watched by Mussolini, failed. RAF squadrons helped the Greeks, and Britain occupied Crete.",
+    "significance": "Italy's humiliation destroyed Mussolini's claim to an independent war and drew Germany into the Balkans in April 1941.",
+    "certainty": "high",
+    "uncertaintyNote": "The campaign is dated to the German intervention of 6 April 1941. Casualty figures vary considerably between sources.",
+    "sources": [
+      "MacGregor Knox, Mussolini Unleashed 1939–1941 (1982)",
+      "Mark Mazower, Inside Hitler's Greece (1993)",
+      "Gerhard Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "taranto-1940",
+    "title": "Raid on Taranto",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1940-11-11",
+    "end": "1940-11-12",
+    "datePrecision": "day",
+    "place": "Mar Grande, Taranto harbour, southern Italy",
+    "lon": 17.21,
+    "lat": 40.46,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Campioni"
+      ],
+      "opponent": [
+        "Cunningham",
+        "Lyster"
+      ]
+    },
+    "strength": {
+      "focus": "6 battleships in harbour",
+      "opponent": "21 Swordfish torpedo-bombers from HMS Illustrious"
+    },
+    "casualties": "Italian c. 40–60 killed; British 2 aircraft lost (2 airmen killed, 2 captured)",
+    "outcome": "defeat",
+    "summary": "Twenty-one obsolete Swordfish biplanes from HMS Illustrious attack the Italian battle fleet at anchor in Taranto by night, crippling three battleships for the loss of two aircraft.",
+    "detail": "The Italian battle fleet in Taranto threatened the convoys on which Britain's position in the Mediterranean depended. Admiral Cunningham revived a pre-war plan for a night attack from the air, with Rear-Admiral Lyster's carrier Illustrious. On the night of 11–12 November, two waves of Fairey Swordfish, slow biplanes with a crew of two or three, flew some 170 miles to the harbour.\n\nWhile flare-droppers lit the anchorage and other aircraft bombed the inner harbour, the torpedo-bombers came in low through the barrage balloons and anti-aircraft fire. The new battleship Littorio was hit by three torpedoes, Caio Duilio and Conte di Cavour by one each; Cavour sank in shallow water and never returned to service. Only two Swordfish were lost.\n\nThe next day the Italian navy moved its remaining heavy ships north to Naples, further from the convoy routes.",
+    "significance": "Taranto shifted the naval balance in the Mediterranean for months and demonstrated the power of carrier aircraft against ships in harbour, a lesson studied by naval officers worldwide.",
+    "certainty": "high",
+    "uncertaintyNote": "Italian casualty figures vary. Claims that Taranto directly inspired the Pearl Harbor plan are common but debated: Japanese planning had its own roots, though Japanese officers did study the raid.",
+    "sources": [
+      "Stephen Roskill, The War at Sea, vol. 1 (1954)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)",
+      "James Sadkovich, The Italian Navy in World War II (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "warsaw-ghetto-1940",
+    "title": "Warsaw ghetto sealed",
+    "geometry": "city",
+    "kind": "massacre",
+    "start": "1940-11-15",
+    "datePrecision": "day",
+    "place": "Warsaw, General Government (occupied Poland)",
+    "lon": 20.99,
+    "lat": 52.245,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany (General Government administration and SS)",
+      "opponent": "Jews of Warsaw"
+    },
+    "commanders": {
+      "focus": [
+        "Frank",
+        "Fischer"
+      ],
+      "opponent": [
+        "Czerniaków"
+      ]
+    },
+    "casualties": "Over 80,000 died of hunger and disease in the ghetto before the deportations of July 1942",
+    "outcome": "n/a",
+    "summary": "The Germans seal more than 400,000 Jews inside a walled district of Warsaw. Starvation rations and typhus will kill tens of thousands before the deportations to Treblinka begin in 1942.",
+    "detail": "In October 1940 the German authorities ordered the Jews of Warsaw, about a third of the city's population, into a designated district in the north of the city, and some 113,000 Poles out of it. On 15 November the ghetto was closed behind a wall more than three metres high, built at the Jewish community's own expense. Jews from surrounding towns were crowded in later, raising the population to over 400,000 in an area of a few square kilometres.\n\nOfficial rations amounted to a fraction of what was needed to live. Survival depended on smuggling, often by children, on soup kitchens and the efforts of welfare organisations. Typhus and starvation spread through the overcrowded tenements, and corpses lay in the streets. The Jewish Council, headed by Adam Czerniaków, was made responsible for carrying out German orders. The historian Emanuel Ringelblum and his circle secretly documented ghetto life in the Oyneg Shabes archive.",
+    "significance": "The largest ghetto in occupied Europe became a place of mass death by deliberate starvation, and the holding pen from which some 300,000 people were deported to Treblinka in 1942.",
+    "certainty": "high",
+    "uncertaintyNote": "Population and mortality figures vary; deaths inside the ghetto before July 1942 are usually estimated at 80,000–100,000.",
+    "sources": [
+      "Barbara Engelking and Jacek Leociak, The Warsaw Ghetto: A Guide to the Perished City (2009)",
+      "Saul Friedländer, The Years of Extermination (2007)",
+      "Samuel D. Kassow, Who Will Write Our History? (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "operation-compass-1940",
+    "title": "Operation Compass and Beda Fomm",
+    "geometry": "area",
+    "radiusKm": 300,
+    "markers": [
+      {
+        "name": "Sidi Barrani",
+        "lon": 25.92,
+        "lat": 31.61
+      },
+      {
+        "name": "Tobruk",
+        "lon": 23.96,
+        "lat": 32.08
+      },
+      {
+        "name": "Beda Fomm",
+        "lon": 20.25,
+        "lat": 31.8
+      }
+    ],
+    "kind": "campaign",
+    "start": "1940-12-09",
+    "end": "1941-02-07",
+    "datePrecision": "day",
+    "place": "Western Egypt and Cyrenaica (eastern Libya)",
+    "lon": 23,
+    "lat": 31.7,
+    "locationCertainty": "approximate",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Graziani",
+        "Bergonzoli",
+        "Tellera"
+      ],
+      "opponent": [
+        "Wavell",
+        "O'Connor",
+        "Creagh",
+        "Mackay"
+      ]
+    },
+    "strength": {
+      "focus": "c. 150,000 (Italian Tenth Army)",
+      "opponent": "c. 31,000–36,000"
+    },
+    "casualties": "Italian c. 130,000 captured and several thousand killed, with hundreds of tanks and guns; British and Commonwealth c. 500 killed and c. 1,400 wounded",
+    "outcome": "defeat",
+    "summary": "A small British and Commonwealth force routs the Italian Tenth Army, advancing 800 km from Egypt to Beda Fomm in two months and taking some 130,000 prisoners.",
+    "detail": "In September 1940 Marshal Graziani's Tenth Army had advanced cautiously into Egypt and halted at Sidi Barrani in a chain of fortified camps. General O'Connor's Western Desert Force, planning what Wavell intended as a five-day raid, struck on 9 December through a gap between the camps, with Matilda tanks breaking in from the rear. Sidi Barrani fell within three days.\n\nO'Connor kept going. The Australian 6th Division stormed Bardia in early January and Tobruk on 21–22 January. As the Italians retreated along the coast road from Benghazi, the 7th Armoured Division cut across the desert interior of Cyrenaica, and a small flying column reached the road at Beda Fomm on 5 February, ahead of the fleeing columns. For two days Italian tanks and infantry tried to break through and failed; on 7 February the remnants surrendered. General Tellera was mortally wounded and Bergonzoli captured.\n\nThe advance halted at El Agheila, as troops were withdrawn to aid Greece.",
+    "significance": "Britain's first great land victory destroyed an Italian army and obliged Hitler to send German forces to Libya under Rommel.",
+    "certainty": "high",
+    "uncertaintyNote": "British strength figures vary according to which units are counted; the figure of c. 130,000 prisoners is the usual one.",
+    "sources": [
+      "Barrie Pitt, The Crucible of War: Wavell's Command (1980)",
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. 1 (1954)",
+      "Max Hastings, All Hell Let Loose (2011)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "keren-1941",
+    "title": "Keren and the liberation of Ethiopia",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Addis Ababa",
+        "lon": 38.75,
+        "lat": 9.03
+      },
+      {
+        "name": "Amba Alagi",
+        "lon": 39.55,
+        "lat": 12.98
+      }
+    ],
+    "kind": "campaign",
+    "start": "1941-02-03",
+    "end": "1941-05-19",
+    "datePrecision": "day",
+    "place": "Keren, Eritrea, and the Italian East African empire",
+    "lon": 38.46,
+    "lat": 15.78,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "Britain, India, South Africa, East and West African colonies, Free French and Ethiopian patriots"
+    },
+    "commanders": {
+      "focus": [
+        "Duke of Aosta",
+        "Carnimeo"
+      ],
+      "opponent": [
+        "Platt",
+        "Cunningham",
+        "Heath",
+        "Beresford-Peirse",
+        "Haile Selassie"
+      ]
+    },
+    "casualties": "At Keren: British and Commonwealth c. 500 killed and c. 3,000 wounded; Italian and colonial troops c. 3,000 killed",
+    "outcome": "defeat",
+    "summary": "Indian divisions storm the mountain fortress of Keren in Eritrea after eight weeks of fighting. Addis Ababa falls on 6 April, Haile Selassie returns to his capital on 5 May, and Italy's East African empire collapses.",
+    "detail": "Italy's East African empire, cut off from home, was attacked from two directions early in 1941. From Sudan, General Platt's 4th and 5th Indian Divisions advanced into Eritrea and met the main Italian defence at Keren, where steep granite ridges commanded the gorge carrying the road to Asmara. From early February Italian, Eritrean and Ethiopian troops under General Carnimeo held the heights in fierce fighting; only after a renewed assault in mid-March did Keren fall on 27 March. Asmara and the port of Massawa followed in April.\n\nFrom Kenya, General Cunningham's African and South African troops swept through Italian Somaliland and into Ethiopia, entering Addis Ababa on 6 April. Haile Selassie, returning with the Ethiopian patriots of Gideon Force, entered his capital on 5 May, five years after he had fled. The Duke of Aosta surrendered at Amba Alagi in May; the last Italian stronghold, Gondar, held out until November.",
+    "significance": "The campaign restored Ethiopian independence, the first country liberated from Axis occupation, and secured the Red Sea route to Egypt.",
+    "certainty": "high",
+    "uncertaintyNote": "Dates for the battle of Keren are given variously as starting on 2, 3 or 5 February. Italian casualty figures are approximate.",
+    "sources": [
+      "Andrew Stewart, The First Victory: The Second World War and the East Africa Campaign (2016)",
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. 1 (1954)",
+      "Richard Overy, Blood and Ruins (2021)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lend-lease-1941",
+    "title": "Lend-Lease Act",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1941-03-11",
+    "datePrecision": "day",
+    "place": "Washington, D.C. (the White House)",
+    "lon": -77.04,
+    "lat": 38.9,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany, Italy and Japan (the powers it was aimed against)",
+      "opponent": "United States, supplying Britain and later the Soviet Union and China"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler"
+      ],
+      "opponent": [
+        "Roosevelt",
+        "Hopkins",
+        "Churchill"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Roosevelt signs the Lend-Lease Act, letting the United States supply war materials to Britain without payment. America becomes, in his phrase, the 'arsenal of democracy'.",
+    "detail": "By late 1940 Britain's dollar reserves were nearly exhausted, and American law required it to pay cash for the weapons, ships, food and fuel it needed. After his re-election Roosevelt proposed lending or leasing the goods instead, comparing it to lending a garden hose to a neighbour whose house was on fire. In a fireside chat on 29 December he called on the United States to be 'the great arsenal of democracy'.\n\nAfter fierce debate with isolationists in Congress, the bill, numbered H.R. 1776, passed and was signed on 11 March 1941. It allowed the President to transfer arms and supplies to any country whose defence he deemed vital to the security of the United States. Aid flowed first to Britain and, from the autumn, to the Soviet Union, and also to China. By 1945 some $50 billion had been supplied.\n\nIt is placed here in Washington; its effect was felt across the Atlantic, where the supply convoys ran the gauntlet of the U-boats.",
+    "significance": "Lend-Lease ended American neutrality in all but name and committed the industrial power of the United States to the defeat of the Axis, nine months before Pearl Harbor.",
+    "certainty": "high",
+    "uncertaintyNote": "A legislative act with no battlefield: it is placed at the White House, where it was signed, and the Axis powers are listed as the parties it was directed against.",
+    "sources": [
+      "Warren F. Kimball, The Most Unsordid Act: Lend-Lease, 1939–1941 (1969)",
+      "David Reynolds, The Creation of the Anglo-American Alliance 1937–41 (1981)",
+      "Adam Tooze, The Wages of Destruction (2006)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "cape-matapan-1941",
+    "title": "Battle of Cape Matapan",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1941-03-27",
+    "end": "1941-03-29",
+    "datePrecision": "day",
+    "place": "Ionian Sea, south-west of Cape Matapan, Greece",
+    "lon": 22,
+    "lat": 35.35,
+    "locationCertainty": "approximate",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Italy",
+      "opponent": "Britain and Australia"
+    },
+    "commanders": {
+      "focus": [
+        "Iachino"
+      ],
+      "opponent": [
+        "Cunningham",
+        "Pridham-Wippell"
+      ]
+    },
+    "casualties": "Italian c. 2,300 killed; 3 heavy cruisers and 2 destroyers sunk; British 3 airmen killed",
+    "outcome": "defeat",
+    "summary": "Forewarned by codebreakers, Cunningham's fleet intercepts an Italian sortie. Air attacks slow the battleship Vittorio Veneto, and in a night action British battleships sink three Italian heavy cruisers at point-blank range.",
+    "detail": "Under German pressure to strike at British convoys to Greece, Admiral Iachino took the battleship Vittorio Veneto and a force of cruisers into the eastern Mediterranean. Decrypts of Italian and German signals warned Admiral Cunningham, who sailed from Alexandria with three battleships and the carrier Formidable.\n\nOn 28 March aircraft from Formidable torpedoed the Vittorio Veneto, slowing her, and in a later strike hit the heavy cruiser Pola, which came to a halt. Iachino sent the cruisers Zara and Fiume with destroyers back to help her, unaware that British battleships were near. After dark, Cunningham's ships, guided by radar, closed undetected to some 3,500 metres and opened fire with searchlights. Zara and Fiume were wrecked within minutes; Pola and two destroyers were sunk in the night. Vittorio Veneto escaped.\n\nBritish destroyers rescued many survivors until German aircraft appeared, and Cunningham signalled the position of the rest to the Italians.",
+    "significance": "The defeat confirmed the Royal Navy's dominance of the eastern Mediterranean and made the Italian fleet more cautious, aiding the coming evacuations from Greece and Crete.",
+    "certainty": "high",
+    "uncertaintyNote": "The night action took place some distance south-west of the cape itself; the position is approximate.",
+    "sources": [
+      "Stephen Roskill, The War at Sea, vol. 1 (1954)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)",
+      "James Sadkovich, The Italian Navy in World War II (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bombing-of-belgrade-1941",
+    "title": "Bombing of Belgrade",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1941-04-06",
+    "end": "1941-04-07",
+    "datePrecision": "day",
+    "place": "Belgrade, Yugoslavia",
+    "lon": 20.46,
+    "lat": 44.82,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany (Luftwaffe)",
+      "opponent": "People of Belgrade"
+    },
+    "commanders": {
+      "focus": [
+        "Löhr",
+        "Richthofen"
+      ]
+    },
+    "casualties": "c. 1,500–4,000 civilians killed",
+    "outcome": "n/a",
+    "summary": "Without a declaration of war, the Luftwaffe bombs Belgrade in Operation Punishment, Hitler's revenge for the coup that overturned Yugoslavia's adhesion to the Axis. Thousands die and the National Library burns.",
+    "detail": "On 25 March 1941 the Yugoslav government of Prince Paul signed the Tripartite Pact. Two days later officers in Belgrade overthrew it in a coup welcomed by crowds in the streets, and the young King Peter II was declared of age. Hitler, enraged, ordered that Yugoslavia be destroyed as a state and that Belgrade be punished from the air.\n\nAt dawn on Sunday 6 April, Palm Sunday in the Orthodox calendar, waves of bombers and dive-bombers of Löhr's Fourth Air Fleet attacked the city, which had been declared open but had few defences. Raids continued the next day. The centre was devastated, the waterworks and power supply destroyed, and the National Library, with its medieval Serbian manuscripts, burned to the ground. Thousands of people were killed and many more fled.\n\nAlexander Löhr was tried after the war in Yugoslavia and executed in 1947, the bombing among the charges.",
+    "significance": "The attack shattered Yugoslavia's capacity to direct its defence at the start of the invasion and became a defining Serbian memory of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "The death toll is disputed: German and some later estimates give c. 1,500–2,300, while Yugoslav figures ran to 17,000 or more. Belgrade's declaration as an open city is reported in some sources but its status is contested.",
+    "sources": [
+      "Jozo Tomasevich, War and Revolution in Yugoslavia, 1941–1945: Occupation and Collaboration (2001)",
+      "Richard Overy, The Bombing War (2013)",
+      "Gerhard Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "invasion-of-yugoslavia-and-greece-1941",
+    "title": "Invasion of Yugoslavia and Greece",
+    "geometry": "area",
+    "radiusKm": 450,
+    "markers": [
+      {
+        "name": "Rupel Pass (Metaxas Line)",
+        "lon": 23.28,
+        "lat": 41.37
+      },
+      {
+        "name": "Thermopylae",
+        "lon": 22.54,
+        "lat": 38.8
+      }
+    ],
+    "kind": "campaign",
+    "start": "1941-04-06",
+    "end": "1941-04-30",
+    "datePrecision": "day",
+    "place": "Yugoslavia and mainland Greece",
+    "lon": 21.5,
+    "lat": 41.8,
+    "locationCertainty": "approximate",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany, Italy, Hungary and Bulgaria",
+      "opponent": "Yugoslavia, Greece, Britain, Australia and New Zealand"
+    },
+    "commanders": {
+      "focus": [
+        "List",
+        "Weichs",
+        "Kleist"
+      ],
+      "opponent": [
+        "Simović",
+        "Papagos",
+        "Wilson",
+        "Blamey",
+        "Freyberg"
+      ]
+    },
+    "casualties": "German c. 2,500 killed in Greece and Yugoslavia; Yugoslav c. 250,000–340,000 captured; Commonwealth in Greece c. 900 killed and c. 14,000 captured; Greek losses heavy",
+    "outcome": "victory",
+    "summary": "Germany invades Yugoslavia and Greece on the same day. Yugoslavia collapses in eleven days; in Greece the Germans outflank the Metaxas Line and the British expeditionary force, and Athens falls on 27 April.",
+    "detail": "Germany had been preparing to rescue its Italian ally in Greece since the winter, and the Belgrade coup added Yugoslavia to the target. On 6 April 1941 German armies struck from Austria, Hungary, Romania and Bulgaria, joined by Italian and Hungarian forces. Yugoslavia's army, deployed along its long frontiers and divided by national tensions, fell apart; Zagreb fell on 10 April, when the Ustaša proclaimed an 'Independent State of Croatia', Belgrade on 12 April, and the armistice came on 17 April.\n\nIn Greece the forts of the Metaxas Line held for several days, but German armour swung through southern Yugoslavia to take Thessaloniki on 9 April and outflank both the Greek armies and the British, Australian and New Zealand 'W Force' further west. The Greek army in Epirus capitulated, the Commonwealth troops fought delaying actions at Vevi and Thermopylae, and some 50,000 men were evacuated from southern beaches by the end of April. Occupied Greece faced famine within months.",
+    "significance": "The Balkans fell to the Axis within weeks, opening a brutal occupation, famine and partisan war, and dealing Britain another humiliating evacuation.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether the campaign seriously delayed the invasion of the Soviet Union is debated; most historians now think the late thaw and logistics mattered more. Casualty figures vary.",
+    "sources": [
+      "Jozo Tomasevich, War and Revolution in Yugoslavia, 1941–1945 (2001)",
+      "Mark Mazower, Inside Hitler's Greece (1993)",
+      "Gerhard Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "siege-of-tobruk-1941",
+    "title": "Rommel arrives and the siege of Tobruk",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Tripoli (Rommel lands, 12 Feb)",
+        "lon": 13.19,
+        "lat": 32.89
+      },
+      {
+        "name": "El Agheila",
+        "lon": 19.25,
+        "lat": 30.27
+      }
+    ],
+    "kind": "siege",
+    "start": "1941-04-10",
+    "end": "1941-11-27",
+    "datePrecision": "day",
+    "place": "Tobruk, Cyrenaica, Libya",
+    "lon": 23.96,
+    "lat": 32.08,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain and the Commonwealth, Poland and Czechoslovakia"
+    },
+    "commanders": {
+      "focus": [
+        "Rommel",
+        "Gariboldi"
+      ],
+      "opponent": [
+        "Morshead",
+        "Scobie",
+        "Wavell"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Rommel, newly arrived in Libya, drives the British back to Egypt in two weeks but cannot take Tobruk. Its mostly Australian garrison, supplied by sea, holds out for seven months.",
+    "detail": "Erwin Rommel landed at Tripoli on 12 February 1941 with orders to stop the Italian collapse and stay on the defensive. Instead, with the first units of the Afrika Korps and Italian divisions, he attacked at El Agheila at the end of March, finding the British front weakened by the dispatch of troops to Greece. Benghazi fell, Generals O'Connor and Neame were captured, and by mid-April the Axis forces were on the Egyptian frontier.\n\nTobruk, with its harbour, was left behind them. General Morshead's 9th Australian Division, with British artillery and tanks, held a perimeter of old Italian fortifications. Assaults in April and early May were beaten off, and the garrison patrolled aggressively. Destroyers and small ships of the 'Tobruk ferry' brought in supplies and men by night under air attack. From August most of the Australians were relieved by sea by the British 70th Division, the Polish Carpathian Brigade and a Czechoslovak battalion. The siege was raised in late November during Operation Crusader.",
+    "significance": "Tobruk's resistance denied Rommel a supply port close to the front and blocked his advance on Egypt in 1941.",
+    "certainty": "high",
+    "uncertaintyNote": "The siege is dated from the investment on 10–11 April; the link-up with relieving forces came on 27 November, though fighting around Tobruk continued into December.",
+    "sources": [
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. 2 (1956)",
+      "Barrie Pitt, The Crucible of War (1980)",
+      "Robert Citino, The Wehrmacht Retreats (2012)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "anglo-iraqi-war-1941",
+    "title": "Anglo-Iraqi War",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Baghdad",
+        "lon": 44.36,
+        "lat": 33.31
+      },
+      {
+        "name": "Fallujah",
+        "lon": 43.78,
+        "lat": 33.35
+      }
+    ],
+    "kind": "campaign",
+    "start": "1941-05-02",
+    "end": "1941-05-31",
+    "datePrecision": "day",
+    "place": "RAF Habbaniya and central Iraq",
+    "lon": 43.57,
+    "lat": 33.37,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Iraq (Rashid Ali's government), with German and Italian air support",
+      "opponent": "Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Rashid Ali al-Gaylani",
+        "Salah al-Din al-Sabbagh"
+      ],
+      "opponent": [
+        "Smart",
+        "Quinan",
+        "Clark"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "After a pro-Axis coup in Baghdad, Iraqi troops besiege the RAF base at Habbaniya. The British strike back, German aircraft arrive too late to help, and Rashid Ali flees; in Baghdad the Farhud pogrom follows.",
+    "detail": "On 1 April 1941 Rashid Ali al-Gaylani, backed by nationalist army officers known as the Golden Square, seized power in Iraq, which was bound to Britain by treaty and lay across the route to India and the oilfields. When British troops landed at Basra, Iraqi forces surrounded the RAF training base at Habbaniya, west of Baghdad, at the end of April.\n\nOn 2 May the base's improvised air force, flying training aircraft, attacked the Iraqi positions on the plateau above it, and after several days the besiegers withdrew. Germany sent a small air detachment through Vichy-ruled Syria, but it achieved little. A relief column, Habforce, crossed the desert from Palestine, took Fallujah on 19 May and approached Baghdad. Rashid Ali fled and an armistice was signed on 31 May.\n\nOn 1–2 June, in the power vacuum before the regent's return, mobs and soldiers attacked Baghdad's Jews in the Farhud, killing some 180 people or more.",
+    "significance": "The British victory secured Iraq's oil and the land route to India, and German use of Syrian airfields prompted the invasion of Syria and Lebanon.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures for the Farhud range from c. 180 to several hundred killed.",
+    "sources": [
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. 2 (1956)",
+      "Robyn Lyman, Iraq 1941 (2006)",
+      "Gerhard Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "crete-1941",
+    "title": "Battle of Crete",
+    "geometry": "area",
+    "radiusKm": 110,
+    "markers": [
+      {
+        "name": "Maleme airfield",
+        "lon": 23.82,
+        "lat": 35.53
+      },
+      {
+        "name": "Heraklion",
+        "lon": 25.13,
+        "lat": 35.34
+      },
+      {
+        "name": "Sphakia",
+        "lon": 24.14,
+        "lat": 35.2
+      }
+    ],
+    "kind": "battle",
+    "start": "1941-05-20",
+    "end": "1941-06-01",
+    "datePrecision": "day",
+    "place": "Crete, Greece",
+    "lon": 24.4,
+    "lat": 35.35,
+    "locationCertainty": "approximate",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany (with Italy)",
+      "opponent": "Britain, Australia, New Zealand and Greece"
+    },
+    "commanders": {
+      "focus": [
+        "Student",
+        "Löhr",
+        "Ringel"
+      ],
+      "opponent": [
+        "Freyberg",
+        "Cunningham"
+      ]
+    },
+    "strength": {
+      "focus": "c. 22,000 airborne and mountain troops",
+      "opponent": "c. 40,000 Commonwealth and Greek troops"
+    },
+    "casualties": "German c. 6,000–7,000 casualties, including c. 4,000 dead or missing; Commonwealth and Greek land forces c. 4,000 killed or wounded and c. 12,000–17,000 captured; Royal Navy c. 2,000 dead",
+    "outcome": "victory",
+    "summary": "In the first great airborne invasion in history, German paratroops land on Crete. They suffer terrible losses but seize Maleme airfield, fly in reinforcements, and drive the defenders to evacuation.",
+    "detail": "On the morning of 20 May German paratroops and glider troops descended on the airfields at Maleme, Retimo and Heraklion and on the area around Chania. General Freyberg's garrison, many of them men evacuated from Greece without heavy weapons, had been forewarned by intelligence and slaughtered the attackers in the air and as they landed. Cretan civilians, armed with whatever they had, joined the fighting.\n\nThe battle turned on Maleme. During the first night, the New Zealand battalion holding the hill above the airfield withdrew, and from 21 May German transport aircraft landed mountain troops on the runway under fire. A New Zealand counter-attack failed, and the defenders were pushed back east. From 28 May the Royal Navy evacuated some 18,000 men from Heraklion and the beach at Sphakia, losing three cruisers and six destroyers to air attack around the island. Thousands were left behind.\n\nGerman reprisals against Cretan villagers, at Kondomari and Kandanos, followed within days.",
+    "significance": "Germany took Crete, but airborne losses were so heavy that Hitler never again mounted a large parachute operation.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures differ between sources, especially for German dead and for Greek and Cretan losses.",
+    "sources": [
+      "Antony Beevor, Crete: The Battle and the Resistance (1991)",
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. 2 (1956)",
+      "Max Hastings, All Hell Let Loose (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bismarck-1941",
+    "title": "Sinking of the Bismarck",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "HMS Hood sunk, Denmark Strait",
+        "lon": -31.83,
+        "lat": 63.33
+      }
+    ],
+    "kind": "naval",
+    "start": "1941-05-24",
+    "end": "1941-05-27",
+    "datePrecision": "day",
+    "place": "North Atlantic, west of Brest",
+    "lon": -16.2,
+    "lat": 48.17,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Lütjens",
+        "Lindemann"
+      ],
+      "opponent": [
+        "Tovey",
+        "Holland",
+        "Somerville"
+      ]
+    },
+    "casualties": "HMS Hood c. 1,415 killed (3 survivors); Bismarck c. 2,100 killed (c. 115 survivors)",
+    "outcome": "defeat",
+    "summary": "The battleship Bismarck sinks HMS Hood in the Denmark Strait, then is hunted across the Atlantic. Crippled by a torpedo from a Swordfish, she is battered into a wreck and sunk on 27 May.",
+    "detail": "In Operation Rheinübung the new battleship Bismarck and the cruiser Prinz Eugen broke out into the Atlantic to attack convoys. On 24 May, in the Denmark Strait, they met the battlecruiser Hood and the new battleship Prince of Wales. Within minutes a shell from Bismarck detonated Hood's magazines and she blew up; only three of her crew of more than 1,400 survived. Prince of Wales, damaged, withdrew, but Bismarck had been hit and was leaking fuel. Admiral Lütjens turned for occupied France.\n\nThe Royal Navy lost contact, then found her again by air on 26 May. That evening Swordfish from the carrier Ark Royal scored a torpedo hit that jammed her rudders. Unable to steer, she was caught next morning by the battleships King George V and Rodney, which reduced her to a burning wreck. She sank after torpedoes from the cruiser Dorsetshire, her crew also setting scuttling charges. Only around 115 men were saved.",
+    "significance": "The loss of Bismarck ended German hopes of using battleships against the Atlantic convoys, leaving the war at sea to the U-boats.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether the British torpedoes or German scuttling charges sank Bismarck is still argued; surveys of the wreck suggest both contributed. Survivor and crew figures vary slightly.",
+    "sources": [
+      "Stephen Roskill, The War at Sea, vol. 1 (1954)",
+      "Ludovic Kennedy, Pursuit: The Sinking of the Bismarck (1974)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "syria-lebanon-1941",
+    "title": "Syria–Lebanon campaign",
+    "geometry": "area",
+    "radiusKm": 160,
+    "markers": [
+      {
+        "name": "Litani River",
+        "lon": 35.24,
+        "lat": 33.34
+      },
+      {
+        "name": "Damascus",
+        "lon": 36.29,
+        "lat": 33.51
+      },
+      {
+        "name": "Beirut",
+        "lon": 35.5,
+        "lat": 33.89
+      }
+    ],
+    "kind": "campaign",
+    "start": "1941-06-08",
+    "end": "1941-07-14",
+    "datePrecision": "day",
+    "place": "French mandates of Syria and Lebanon",
+    "lon": 35.9,
+    "lat": 33.8,
+    "locationCertainty": "approximate",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Vichy France",
+      "opponent": "Britain, Australia, India and the Free French"
+    },
+    "commanders": {
+      "focus": [
+        "Dentz"
+      ],
+      "opponent": [
+        "Wilson",
+        "Lavarack",
+        "Legentilhomme",
+        "Catroux"
+      ]
+    },
+    "casualties": "Allied c. 4,000–4,600 casualties; Vichy French c. 6,000 casualties, including c. 1,000 killed",
+    "outcome": "defeat",
+    "summary": "Commonwealth and Free French forces invade Vichy-held Syria and Lebanon to deny the Axis their airfields. After five weeks of bitter fighting, often French against French, Dentz signs an armistice at Acre.",
+    "detail": "The Vichy authorities in the Levant had allowed German aircraft to refuel on their way to Iraq, and Britain feared Syria would become an Axis base threatening Egypt, Palestine and the oilfields. On 8 June 1941 Operation Exporter began, with the Australian 7th Division advancing up the coast towards Beirut, Indian and Free French troops striking towards Damascus, and later columns from Iraq.\n\nGeneral Dentz's Army of the Levant, regulars and colonial troops, resisted far harder than the Allies had expected. Commandos fought at the mouth of the Litani on 9 June; Free French and Vichy troops faced each other at Kissoué outside Damascus, which fell on 21 June. The Australians fought their way through the hills and coast at Damour in early July. Dentz asked for terms, and an armistice was signed at Acre on 14 July. Most Vichy troops chose repatriation to France rather than join de Gaulle.",
+    "significance": "The campaign removed an Axis foothold in the Middle East and placed Syria and Lebanon under Free French and British control, opening the road to their independence.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary; Free French losses are sometimes counted separately. The campaign began two weeks before Barbarossa and so falls in this phase.",
+    "sources": [
+      "I.S.O. Playfair, The Mediterranean and Middle East, vol. 2 (1956)",
+      "Gavin Long, Greece, Crete and Syria (Australia in the War of 1939–1945, 1953)",
+      "Julian Jackson, France: The Dark Years 1940–1944 (2001)"
+    ],
+    "importance": 2
+  }
+]

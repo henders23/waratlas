@@ -5,6 +5,9 @@ Interactive globes of history's wars. A start screen lets you choose a war:
 - **The Mongol Conquests, 1206–1294.** This is entry A from the competition (see the [repo README](../README.md)), unchanged in content: 103 events from the Instinct R71 research pack and 103 historical regions.
 - **The Napoleonic Wars, 1792–1815.** From the declaration of war on Austria in April 1792 to Napoleon's surrender in July 1815: 129 events in 13 chapters, and 119 regions whose rulers change month by month.
 - **The First World War, 1914–1918.** From Sarajevo to the Treaty of Versailles in June 1919: 126 events in 10 chapters across Europe, the Middle East, Africa and the seas, and 97 regions drawn along the 1914 frontiers.
+- **The Second World War, 1939–1945.** From the invasion of Poland to the surrender in Tokyo Bay: EVENTS events in 10 chapters across Europe, Africa, Asia and the Pacific, and 147 regions drawn along the 1939 frontiers.
+
+The Napoleonic atlas has a soundtrack, *Measured March* (`public/audio/measured-march.mp3`). It loops while the atlas is open. Browsers only allow sound after a click or key press, so it starts on the first one, such as the button that starts playback. The toolbar has a music on/off button and a volume slider, and the browser remembers both. To give another war music, add a `music` entry to its `WarDef`.
 
 In either atlas you can drag the timeline or press play to watch borders change, and click any marker to read the event behind it. The URL records the war you're viewing (`?war=napoleonic`), plus the date or event (`#t=1812.7`, `#e=waterloo-1815`). Links with no `?war=` and only a date or event in the hash open the Mongol atlas, so links shared before the Napoleonic atlas existed still work.
 
@@ -23,6 +26,15 @@ This war is built the same way as the Napoleonic one: events in `src/data/ww1/ev
 - **The focus side is the Central Powers**, because the ground they held and occupied is what changed most. The strong colours grow to their peak after Brest-Litovsk in 1918 and are gone by 1919. Outcomes are labelled neutrally: amber pins for Central Powers victories, blue for Allied victories.
 - **Contested regions** are those a front line ran through, so on the Western Front the hatched departments are the ones the trenches crossed.
 - **The clock** shows who led the German supreme command (Moltke, Falkenhayn, then Hindenburg and Ludendorff).
+
+## The Second World War data
+
+The same pipeline again: events in `src/data/ww2/events-*.json`, territory from `scripts/build-ww2-territory.mjs`, regions in `scripts/regions/ww2.mjs`, and chapters in `src/data/ww2/meta.ts`.
+
+- **The focus side is the Axis:** Germany, Italy and Japan, their client states, and the lands they occupied. Pins are amber for Axis victories and blue for Allied ones.
+- **Atrocities have grey pins.** The Holocaust and the other mass crimes are marked *n/a*, because they were not battles and had no victors.
+- **The clock** names the Axis leaders of the moment, for example "Hitler, Mussolini, Tōjō".
+- **Pacific atolls:** the WW2 region spec lowers the sliver filter (`SLIVER_KM2`) so that Saipan, Kwajalein and Tarawa survive simplification.
 
 ## Adding a war
 

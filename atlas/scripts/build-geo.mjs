@@ -14,7 +14,7 @@ import { topology } from 'topojson-server';
 import { feature, mesh, merge } from 'topojson-client';
 
 const war = process.argv[2] ?? 'mongol';
-const { REGIONS, THEATRE = [-15, -12, 150, 72] } = await import(`./regions/${war}.mjs`);
+const { REGIONS, THEATRE = [-15, -12, 150, 72], SLIVER_KM2 = 30 } = await import(`./regions/${war}.mjs`);
 const src = process.argv[3] ?? '.geo-cache';
 const out = new URL(`../public/geo/${war}/`, import.meta.url).pathname;
 mkdirSync(out, { recursive: true });
@@ -50,7 +50,7 @@ for (const region of REGIONS) {
 console.log(`assigned ${pieces.length} admin-1 pieces to ${REGIONS.length} regions`);
 
 // 2. Dissolve + simplify with mapshaper, keeping shared boundaries consistent.
-const cmd = '-i pieces.json -dissolve2 region -simplify 7% keep-shapes planar -filter-slivers min-area=30km2 -clean -o format=topojson regions.json';
+const cmd = `-i pieces.json -dissolve2 region -simplify 7% keep-shapes planar -filter-slivers min-area=${SLIVER_KM2}km2 -clean -o format=topojson regions.json`;
 const res = await mapshaper.applyCommands(cmd, { 'pieces.json': { type: 'FeatureCollection', features: pieces } });
 const topo = JSON.parse(res['regions.json']);
 const layer = Object.keys(topo.objects)[0];

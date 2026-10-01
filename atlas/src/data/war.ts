@@ -56,6 +56,8 @@ export interface WarDef {
   /** playback rates in years per second; the first "1×" is speeds[1] */
   speeds: number[];
   outcomeColors: Record<Outcome, string>;
+  /** a looping soundtrack, served from public/ */
+  music?: { src: string; title: string };
   text: {
     focusSide: string;
     outcome: Record<Outcome, string>;
@@ -130,7 +132,7 @@ export interface WarEntry {
   load?: () => Promise<WarDef>;
 }
 
-// The portfolio of eight core wars. Three have finished atlases.
+// The portfolio of eight core wars. Four have finished atlases.
 export const WARS: WarEntry[] = [
   { id: 'second-punic', title: 'Second Punic War', span: '218 – 201 BC' },
   {
@@ -163,5 +165,13 @@ export const WARS: WarEntry[] = [
     accent: '#c8a46a',
     load: () => import('./ww1').then((m) => m.WW1),
   },
-  { id: 'ww2', title: 'Second World War', span: '1939 – 1945' },
+  {
+    id: 'ww2',
+    title: 'The Second World War',
+    span: '1939 – 1945',
+    teaser: 'From the invasion of Poland to Tokyo Bay: the Axis empires spread across Europe, Africa and Asia, and fall.',
+    stats: '',
+    accent: '#d97a5a',
+    load: () => import('./ww2').then((m) => m.WW2),
+  },
 ];

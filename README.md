@@ -133,7 +133,7 @@ Entry A's built geography is committed under `public/geo/`, and its README expla
 
 ## After the competition: more wars
 
-[`atlas/`](atlas/) is a later version of entry A with two more wars: the Napoleonic Wars (1792–1815) and the First World War (1914–1918). It opens on a start screen where you choose a war. It was built after the competition, so `a-claude/` and `b-codex/` are left exactly as they were entered. Its README explains how the new data was made.
+[`atlas/`](atlas/) is a later version of entry A with three more wars: the Napoleonic Wars (1792–1815), the First World War (1914–1918) and the Second World War (1939–1945). It opens on a start screen where you choose a war. It was built after the competition, so `a-claude/` and `b-codex/` are left exactly as they were entered. Its README explains how the new data was made.
 
 ## About this repo
 

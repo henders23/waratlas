@@ -22,6 +22,7 @@ export const NAPOLEONIC: WarDef = {
   labelScale: 0.62,
   tickEvery: 2,
   speeds: [0.125, 0.25, 0.5, 1],
+  music: { src: 'audio/measured-march.mp3', title: 'Measured March' },
   outcomeColors: {
     victory: '#f2c14e',
     defeat: '#ec6a5c',
@@ -44,7 +45,7 @@ export const NAPOLEONIC: WarDef = {
       dates: '1792 – 1815',
       blurb:
         'In twenty-three years of war a revolutionary republic became an empire that stretched from Hamburg to Rome and reached Moscow, and the rest of Europe tore it down. Watch the map change, and open {n} events from Valmy to Waterloo along the way.',
-      play: 'Play the wars',
+      play: 'Show the passage of the wars',
     },
   },
 };

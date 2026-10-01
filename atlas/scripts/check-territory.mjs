@@ -8,6 +8,7 @@ const RULES = {
   mongol: { first: '1206', check: (id, last, toYear, errors) => last?.[1] === 'mongol' && toYear(last[0]) < 1261 && errors.push(`${id}: still the unified empire after the 1260 split`) },
   napoleonic: { first: '1792' },
   ww1: { first: '1914' },
+  ww2: { first: '1939' },
 };
 
 const toYear = (s) => {

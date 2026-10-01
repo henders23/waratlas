@@ -55,6 +55,16 @@ function Emblem({ id }: { id: string }) {
         <path d="M20 42V24l6.5 9L32 20l5.5 13L44 24v18z" fill="#17120b" />
       </svg>
     );
+  if (id === 'ww2')
+    // Searchlights crossing in the night sky.
+    return (
+      <svg className="ch-emblem" viewBox="0 0 64 64" aria-hidden>
+        <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" strokeOpacity=".35" />
+        <circle cx="32" cy="32" r="23" fill="currentColor" />
+        <path d="M20 50 34 13l5 2.5L23 51zM44 50 30 13l-5 2.5L41 51z" fill="#17120b" fillOpacity=".85" />
+        <path d="M14 47h36" stroke="#17120b" strokeWidth="2.4" strokeLinecap="round" />
+      </svg>
+    );
   if (id === 'ww1')
     // A line of trench zigzagging across the disc, under a flare.
     return (

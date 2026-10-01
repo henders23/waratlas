@@ -44,7 +44,7 @@ export const WW1: WarDef = {
       dates: '1914 – 1918',
       blurb:
         'In four years and three months of war, the old empires of Europe fought themselves to exhaustion from Flanders to Mesopotamia, and four of them fell. Watch the fronts move, and open {n} events from Sarajevo to Versailles along the way.',
-      play: 'Play the war',
+      play: 'Show the passage of the war',
     },
   },
 };

@@ -44,7 +44,7 @@ export const MONGOL: WarDef = {
       dates: '1206 – 1294',
       blurb:
         'In eighty-eight years the armies of Chinggis Qan and his heirs rode from the Onon River to the Danube, the Euphrates and the South China Sea. Watch them spread and fracture, and open {n} researched events along the way.',
-      play: 'Play the conquests',
+      play: 'Show the passage of the conquests',
     },
   },
 };

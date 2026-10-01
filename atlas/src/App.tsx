@@ -6,6 +6,7 @@ import { Timeline } from './ui/Timeline';
 import { EventPanel } from './ui/EventPanel';
 import { About, Chronicle, Clock, Header, Headline, Legend } from './ui/Panels';
 import { formatDate } from './data/time';
+import { Music } from './ui/Music';
 
 const HEADLINE_SECONDS = 3.4;
 // ?capture renders deterministic frames for video: no CSS animation, no easing.
@@ -173,6 +174,7 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
         <label className="toggle" title="Follow the action while playing">
           <input type="checkbox" defaultChecked onChange={(e) => store.set({ autoCamera: e.target.checked })} /> Follow
         </label>
+        {war.music && !capture && <Music src={`${import.meta.env.BASE_URL}${war.music.src}`} title={war.music.title} />}
       </nav>
       {selEv ? <EventPanel ev={selEv} war={war} onClose={() => store.set({ selected: null })} /> : panel === 'chronicle' ? <Chronicle war={war} /> : null}
       {panel === 'about' && <About war={war} onClose={() => store.set({ panel: null })} />}

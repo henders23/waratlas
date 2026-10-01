@@ -225,6 +225,8 @@ export function About({ war, onClose }: { war: WarData; onClose: () => void }) {
         <NapoleonicAbout war={war} counts={counts} />
       ) : war.id === 'ww1' ? (
         <Ww1About war={war} counts={counts} />
+      ) : war.id === 'ww2' ? (
+        <Ww2About war={war} counts={counts} />
       ) : (
         <MongolAbout war={war} counts={counts} />
       )}
@@ -316,6 +318,31 @@ function Ww1About({ war, counts }: { war: WarData; counts: Counts }) {
       <p>
         The strong colours follow the Central Powers because the ground they held and occupied is what changed most: the map shows their
         armies’ reach growing to its peak in the summer of 1918 and vanishing within months. It is a way of drawing the fronts, not a side taken.
+      </p>
+    </>
+  );
+}
+
+function Ww2About({ war, counts }: { war: WarData; counts: Counts }) {
+  return (
+    <>
+      <p>
+        An exhibit in Qing’s Workshop. Drag the timeline, or press play, to follow the Second World War from the German invasion of Poland
+        on 1 September 1939 to the Japanese surrender in Tokyo Bay on 2 September 1945. Click any marker for the event behind it.
+      </p>
+      <h3>What the markers are</h3>
+      <p>
+        The {war.events.length} events are the campaigns, battles, conferences and crimes that shaped the war in Europe, Africa, Asia and the
+        Pacific, chosen and written for this atlas from the standard histories. {counts.city} are pinned to a named city and {counts.site} to a
+        battlefield, an island or a position at sea. The other {counts.area} are campaigns and processes with no single place, drawn as dashed
+        regions. Pins are amber when the Axis won and blue when the Allies did. The Holocaust and the other mass crimes of the war are grey: they
+        were not battles and had no victors. Casualty figures are consensus ranges, and each card says where they are disputed.
+      </p>
+      <h3>What the colours are</h3>
+      <p>{war.territoryNote}</p>
+      <p>
+        The strong colours follow the Axis because its conquests are what the map has to show: they grow to their peak in the summer of 1942 and
+        are gone within three years. It is a way of drawing the fronts, not a side taken.
       </p>
     </>
   );
