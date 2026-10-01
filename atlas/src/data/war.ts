@@ -170,7 +170,7 @@ export const WARS: WarEntry[] = [
     title: 'The Second World War',
     span: '1939 – 1945',
     teaser: 'From the invasion of Poland to Tokyo Bay: the Axis empires spread across Europe, Africa and Asia, and fall.',
-    stats: '',
+    stats: '169 events · 147 regions',
     accent: '#d97a5a',
     load: () => import('./ww2').then((m) => m.WW2),
   },

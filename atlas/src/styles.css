@@ -266,7 +266,11 @@ dialog.about::backdrop { background: rgba(3,5,10,.6); -webkit-backdrop-filter: b
   .chapter-n { display: none; }
   .tools { top: auto; bottom: calc(var(--tl-h) + 20px); right: 10px; }
   .music-label { display: none; }
-  .music input[type=range] { width: 56px; }
+  .music {
+    position: absolute; right: 0; bottom: calc(100% + 8px); margin: 0; padding: 4px 12px 4px 4px; border: 1px solid var(--line); border-radius: 12px;
+    background: var(--glass); -webkit-backdrop-filter: blur(14px) saturate(1.2); backdrop-filter: blur(14px) saturate(1.2); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
+  }
+  .music input[type=range] { width: 88px; }
   .has-panel .tools { display: none; }
   .timeline { left: 8px; right: 8px; bottom: 8px; padding: 10px 10px 6px 6px; }
   .play { width: 42px; height: 42px; }

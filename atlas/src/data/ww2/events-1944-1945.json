@@ -1,0 +1,2419 @@
+[
+  {
+    "id": "leningrad-1944",
+    "title": "Siege of Leningrad lifted",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Oranienbaum bridgehead",
+        "lon": 29.77,
+        "lat": 59.92
+      },
+      {
+        "name": "Pulkovo Heights",
+        "lon": 30.32,
+        "lat": 59.77
+      },
+      {
+        "name": "Novgorod",
+        "lon": 31.27,
+        "lat": 58.52
+      }
+    ],
+    "kind": "siege",
+    "start": "1944-01-14",
+    "end": "1944-01-27",
+    "datePrecision": "day",
+    "place": "Leningrad (St Petersburg) and its southern approaches",
+    "lon": 30.32,
+    "lat": 59.94,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Küchler",
+        "Lindemann",
+        "Model"
+      ],
+      "opponent": [
+        "Govorov",
+        "Meretskov",
+        "Fedyuninsky",
+        "Maslennikov"
+      ]
+    },
+    "casualties": "Soviet c. 310,000 killed, wounded or sick in the Leningrad–Novgorod offensive (Jan–Mar 1944); German losses heavy but less certain; over the whole siege c. 800,000 or more civilians of Leningrad died",
+    "outcome": "defeat",
+    "summary": "Soviet attacks from the Oranienbaum pocket and the Pulkovo Heights break the German ring around Leningrad. On 27 January the city's guns fire a salute: after some 872 days, the siege is over.",
+    "detail": "In January 1944 the Leningrad and Volkhov Fronts struck the German Eighteenth Army, which had held its siege lines since September 1941. On 14 January Fedyuninsky's 2nd Shock Army attacked out of the coastal bridgehead at Oranienbaum; the next day Maslennikov's 42nd Army went forward from the Pulkovo Heights, south of the city. After a week of fighting through fortified villages the two forces met near Ropsha, trapping and destroying the German heavy artillery that had shelled Leningrad for more than two years. To the south-east, Meretskov's Volkhov Front retook a ruined Novgorod on 20 January.\n\nOn 27 January, with the railway to Moscow cleared, Govorov declared the city fully freed and Leningrad celebrated with a salute from hundreds of guns. Küchler, who had pleaded to retreat, was dismissed; Model pulled Army Group North back to the Panther Line by the end of February.\n\nThe siege had been one of the gravest crimes of the war: the German command had chosen to starve the city rather than take it, and in the winter of 1941–42 alone hundreds of thousands of civilians died of hunger and cold.",
+    "significance": "The end of the blockade freed the Soviet Union's second city and a whole front for the offensives of 1944, and closed the most lethal siege of modern history.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of civilian dead in the siege is disputed: Soviet-era figures of c. 632,000 are now regarded as too low, and estimates run from c. 800,000 to over 1 million. The phrase 'about 900 days' is traditional; 8 September 1941 to 27 January 1944 is 872 days.",
+    "sources": [
+      "David M. Glantz, The Battle for Leningrad 1941–1944 (2002)",
+      "Anna Reid, Leningrad: Tragedy of a City under Siege, 1941–44 (2011)",
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "monte-cassino-1944",
+    "title": "Battles of Monte Cassino",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Abbey of Monte Cassino",
+        "lon": 13.814,
+        "lat": 41.49
+      },
+      {
+        "name": "Rapido crossing at Sant'Angelo",
+        "lon": 13.77,
+        "lat": 41.44
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-01-17",
+    "end": "1944-05-18",
+    "datePrecision": "day",
+    "place": "Cassino and Monte Cassino, on the Gustav Line, Lazio, Italy",
+    "lon": 13.81,
+    "lat": 41.49,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and the Commonwealth, United States, France, Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Kesselring",
+        "Vietinghoff",
+        "Senger und Etterlin",
+        "Heidrich"
+      ],
+      "opponent": [
+        "Alexander",
+        "Clark",
+        "Leese",
+        "Freyberg",
+        "Juin",
+        "Anders"
+      ]
+    },
+    "casualties": "Allied c. 55,000; German c. 20,000 (four battles, figures approximate)",
+    "outcome": "defeat",
+    "summary": "Four Allied assaults over four months batter the Gustav Line where it bars the road to Rome. The ancient abbey is bombed to rubble; Polish troops finally raise their flag over its ruins.",
+    "detail": "The Gustav Line ran across Italy at its narrowest, and at Cassino it blocked the Liri valley, the natural road to Rome. The first battle began on 17 January 1944: British troops crossed the Garigliano, but the US 36th Division was cut to pieces trying to cross the Rapido on 20–22 January.\n\nIn February, convinced that the Germans were using the Benedictine abbey on the summit, the Allies destroyed it on 15 February with more than 200 bombers; German paratroops then fortified the ruins. New Zealand and Indian attacks failed, and in March a second bombing flattened Cassino town, whose rubble proved ideal ground for its defenders.\n\nThe fourth battle, Operation Diadem, opened on 11 May with a massive attack along the whole front. Juin's French Expeditionary Corps, many of them Moroccan and Algerian troops, broke through the Aurunci Mountains, and on 18 May the Polish II Corps, after terrible losses, took the abbey ruins. In the villages behind the line, soldiers of the corps committed mass rapes of Italian civilians, a crime long remembered in the region.",
+    "significance": "Cassino opened the way to Rome, but at a price that made it the Western Allies' most costly battle in Italy and a byword for attritional fighting.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether German troops used the abbey before the bombing is still argued; most evidence suggests they did not occupy the building itself. Casualty totals vary with how the four battles are bounded.",
+    "sources": [
+      "Matthew Parker, Monte Cassino (2003)",
+      "John Ellis, Cassino: The Hollow Victory (1984)",
+      "Rick Atkinson, The Day of Battle (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "anzio-1944",
+    "title": "Landing at Anzio",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Cisterna",
+        "lon": 12.83,
+        "lat": 41.59
+      },
+      {
+        "name": "Aprilia ('the Factory')",
+        "lon": 12.65,
+        "lat": 41.59
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-01-22",
+    "end": "1944-05-25",
+    "datePrecision": "day",
+    "place": "Anzio and Nettuno, on the coast south of Rome",
+    "lon": 12.63,
+    "lat": 41.46,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Kesselring",
+        "Mackensen"
+      ],
+      "opponent": [
+        "Lucas",
+        "Truscott",
+        "Clark"
+      ]
+    },
+    "casualties": "Allied c. 43,000 (c. 7,000 killed); German c. 40,000 (c. 5,000 killed); figures approximate",
+    "outcome": "defeat",
+    "summary": "An Allied corps lands almost unopposed behind the Gustav Line, but stays in its beachhead. Kesselring rings it with troops, and a four-month siege follows before the breakout in May.",
+    "detail": "Operation Shingle was meant to unhinge the Gustav Line by landing behind it, 50 km from Rome. On 22 January 1944 Lucas's VI Corps, American and British, came ashore at Anzio and Nettuno against almost no resistance. Lucas, with few troops and scarred by Salerno, chose to consolidate rather than strike inland for the Alban Hills.\n\nKesselring reacted with speed, rushing units from northern Italy, France and the Balkans. A US Ranger force was all but destroyed at Cisterna on 30 January, and on 16 February Mackensen's Fourteenth Army counter-attacked down the Albano road and nearly reached the sea before Allied artillery and naval gunfire stopped it. Churchill complained that instead of a wildcat hurled ashore he had got a stranded whale. Truscott replaced Lucas, and the beachhead, every part of it within range of German guns, settled into trench warfare.\n\nOn 23 May, as Diadem broke the Gustav Line, VI Corps broke out, and on 25 May it joined hands with the main Fifth Army advancing from the south.",
+    "significance": "Anzio failed in its aim of a quick road to Rome, but it tied down German divisions and its breakout helped turn Diadem into the fall of Rome.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty totals vary between sources depending on whether sickness is included.",
+    "sources": [
+      "Carlo D'Este, Fatal Decision: Anzio and the Battle for Rome (1991)",
+      "Rick Atkinson, The Day of Battle (2007)",
+      "Lloyd Clark, Anzio: The Friction of War (2006)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "imphal-kohima-1944",
+    "title": "Imphal and Kohima",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Kohima (the tennis court)",
+        "lon": 94.11,
+        "lat": 25.67
+      },
+      {
+        "name": "Imphal",
+        "lon": 93.94,
+        "lat": 24.81
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-03-08",
+    "end": "1944-07-03",
+    "datePrecision": "day",
+    "place": "Imphal plain and Kohima ridge, Manipur and the Naga Hills, India",
+    "lon": 93.95,
+    "lat": 24.9,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Japan (with the Indian National Army)",
+      "opponent": "Britain, India and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Mutaguchi",
+        "Sato",
+        "Yanagida",
+        "Yamauchi"
+      ],
+      "opponent": [
+        "Slim",
+        "Scoones",
+        "Stopford"
+      ]
+    },
+    "casualties": "Japanese c. 55,000–60,000 (perhaps half dead, many from starvation and disease); British and Indian c. 17,000",
+    "outcome": "defeat",
+    "summary": "Japan's Fifteenth Army crosses the Chindwin to invade India. At Kohima and Imphal the besieged British and Indian garrisons hold, supplied by air, and the starving attackers are destroyed.",
+    "detail": "Mutaguchi's Operation U-Go aimed to seize the British base at Imphal and forestall an Allied offensive into Burma. From 8 March 1944 three Japanese divisions, with units of Subhas Chandra Bose's Indian National Army, crossed the Chindwin, carrying minimal supplies in the expectation of living off captured stores.\n\nSlim pulled IV Corps back into the Imphal plain, where it was surrounded but fed and reinforced by air. To the north, Sato's 31st Division reached Kohima in early April. Its small garrison, fighting at one point across the district commissioner's tennis court, held until relieved on 18 April; the battle for the ridge went on into May. Sato, his men starving, withdrew without orders at the end of May.\n\nOn 22 June the road from Kohima to Imphal was reopened. As the monsoon broke, Mutaguchi's army disintegrated; the retreat to the Chindwin left tracks lined with the bodies of soldiers dead of hunger, dysentery and malaria. The operation was formally abandoned in early July.",
+    "significance": "The largest defeat yet suffered by a Japanese army on land, it ended any threat to India and opened the way for Slim's reconquest of Burma in 1945.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese losses are estimates; most sources give c. 30,000 dead and a similar number sick or wounded. The end date varies; Mutaguchi's offensive was cancelled in early July.",
+    "sources": [
+      "Robert Lyman, Japan's Last Bid for Victory: The Invasion of India 1944 (2011)",
+      "William Slim, Defeat into Victory (1956)",
+      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ichi-go-1944",
+    "title": "Operation Ichi-Go",
+    "geometry": "area",
+    "radiusKm": 800,
+    "markers": [
+      {
+        "name": "Luoyang",
+        "lon": 112.45,
+        "lat": 34.62
+      },
+      {
+        "name": "Hengyang",
+        "lon": 112.57,
+        "lat": 26.89
+      },
+      {
+        "name": "Guilin",
+        "lon": 110.29,
+        "lat": 25.27
+      }
+    ],
+    "kind": "campaign",
+    "start": "1944-04-17",
+    "end": "1944-12-10",
+    "datePrecision": "day",
+    "place": "Henan, Hunan and Guangxi provinces, China",
+    "lon": 111.5,
+    "lat": 29.5,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "China (Nationalist) and the United States"
+    },
+    "commanders": {
+      "focus": [
+        "Hata Shunroku",
+        "Okamura Yasuji",
+        "Yokoyama Isamu"
+      ],
+      "opponent": [
+        "Chiang Kai-shek",
+        "Xue Yue",
+        "Tang Enbo",
+        "Fang Xianjue"
+      ]
+    },
+    "strength": {
+      "focus": "c. 500,000"
+    },
+    "casualties": "Chinese military casualties in the hundreds of thousands; Japanese far fewer; very large civilian losses",
+    "outcome": "victory",
+    "summary": "Japan's largest offensive of the war drives south through Henan, Hunan and Guangxi, overrunning American airfields and opening a land corridor from Manchuria to Indochina.",
+    "detail": "In April 1944, with its sea lanes under American attack, the Japanese army launched Ichi-Go ('Operation Number One'), committing some half a million men. Its aims were to destroy the airfields of Chennault's Fourteenth Air Force and to link Japanese-held territory from north China to Indochina by rail.\n\nFrom 17 April Japanese divisions crossed the Yellow River into Henan, a province still wrecked by the famine of 1942–43; Luoyang fell in late May, and some peasants turned on the retreating Nationalist troops. In Hunan, Changsha fell on 18 June. At Hengyang Fang Xianjue's Tenth Army held out for 47 days until 8 August, the one great stand of the campaign. Guilin and Liuzhou, with their airbases, fell in November, and by early December Japanese spearheads were in Guizhou, within reach of Guiyang and the road to Chongqing.\n\nThe offensive then halted, overextended. The Nationalist armies had lost hundreds of thousands of men, and the crisis brought a bitter breach between Chiang Kai-shek and Stilwell, who was recalled in October.",
+    "significance": "Ichi-Go was Japan's last great land victory: it gravely weakened the Nationalist state and its armies, with lasting consequences for the civil war that followed, while doing little to change the course of the war at sea.",
+    "certainty": "high",
+    "uncertaintyNote": "Chinese casualty figures are uncertain and vary widely between sources; estimates of 500,000 to 750,000 killed, wounded and captured are often cited.",
+    "sources": [
+      "Rana Mitter, China's War with Japan, 1937–1945: The Struggle for Survival (2013)",
+      "Hans van de Ven, China at War (2017)",
+      "Mark Peattie, Edward Drea and Hans van de Ven (eds), The Battle for China (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hungarian-jews-1944",
+    "title": "Deportation of Hungary's Jews to Auschwitz",
+    "geometry": "area",
+    "radiusKm": 350,
+    "markers": [
+      {
+        "name": "Budapest",
+        "lon": 19.04,
+        "lat": 47.5
+      },
+      {
+        "name": "Munkács (Mukachevo)",
+        "lon": 22.72,
+        "lat": 48.44
+      },
+      {
+        "name": "Auschwitz-Birkenau",
+        "lon": 19.18,
+        "lat": 50.04
+      }
+    ],
+    "kind": "massacre",
+    "start": "1944-05-15",
+    "end": "1944-07-09",
+    "datePrecision": "day",
+    "place": "Hungary (including Carpathian Ruthenia and northern Transylvania), to Auschwitz-Birkenau",
+    "lon": 21,
+    "lat": 47.6,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany (SS) and Hungary (government, gendarmerie and officials)",
+      "opponent": "Jews of Hungary"
+    },
+    "commanders": {
+      "focus": [
+        "Eichmann",
+        "Veesenmayer",
+        "Sztójay",
+        "Endre",
+        "Baky"
+      ]
+    },
+    "casualties": "c. 437,000 deported in under eight weeks, most murdered in the gas chambers on arrival; c. 565,000 Hungarian Jews died in the Holocaust",
+    "outcome": "n/a",
+    "summary": "Two months after Germany occupies Hungary, the Hungarian gendarmerie and Eichmann's SS unit deport some 437,000 Jews to Auschwitz in eight weeks. Most are gassed on arrival.",
+    "detail": "Hungary's Jews, some 800,000 people, had suffered discriminatory laws, forced labour service and massacres, but most were still alive in March 1944. On 19 March Germany occupied its faltering ally; a new government under Sztójay placed the Hungarian state at the disposal of Adolf Eichmann's small SS team, and the Hungarian officials László Endre and László Baky organised the rest.\n\nFrom April Jews were forced into ghettos and brickyards, starting in Carpathian Ruthenia and northern Transylvania. From 15 May the Hungarian gendarmerie loaded them into freight wagons, around 3,000 to a train, often four trains a day. At Birkenau a new rail spur ran into the camp; SS doctors selected a minority for labour and sent the rest to the gas chambers, whose crematoria could not keep pace.\n\nUnder pressure from the Pope, the King of Sweden and the United States, and as news of Auschwitz spread through the escapees' reports, Horthy halted the deportations in early July, before the Jews of Budapest were taken. After the Arrow Cross seized power in October, thousands more were driven on death marches or shot on the banks of the Danube.",
+    "significance": "The murder of Hungarian Jewry was the last great deportation of the Holocaust, carried out at the very moment the Allies were landing in Normandy, and made Auschwitz its single largest killing site.",
+    "certainty": "high",
+    "uncertaintyNote": "The figure of c. 437,000 deported comes from German and Hungarian railway and police reports; the number killed on arrival is estimated, usually at about three-quarters. Whether and how the Allies could have bombed the railways or the camp remains debated.",
+    "sources": [
+      "Randolph L. Braham, The Politics of Genocide: The Holocaust in Hungary (1981)",
+      "Saul Friedländer, The Years of Extermination (2007)",
+      "Raul Hilberg, The Destruction of the European Jews (3rd edn, 2003)",
+      "David Cesarani (ed.), Genocide and Rescue: The Holocaust in Hungary 1944 (1997)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "rome-1944",
+    "title": "Fall of Rome",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1944-06-04",
+    "datePrecision": "day",
+    "place": "Rome",
+    "lon": 12.5,
+    "lat": 41.9,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States, Britain and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Kesselring",
+        "Vietinghoff",
+        "Mackensen"
+      ],
+      "opponent": [
+        "Clark",
+        "Alexander"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "The Germans abandon Rome without a fight and the US Fifth Army enters the first Axis capital to fall. Clark's dash for the city lets the German Tenth Army escape north.",
+    "detail": "After the Gustav Line broke in May 1944, Alexander's plan was for VI Corps, breaking out of Anzio, to drive east to Valmontone and cut the line of retreat of the German Tenth Army. On 25 May Mark Clark turned most of the corps north-west towards Rome instead, determined that the Fifth Army, and not the British, should take the city.\n\nKesselring, unwilling to fight in Rome and under pressure to spare it, withdrew his armies through and around the city. American troops entered on 4 June to crowds in the streets, and Clark posed for photographers on the Capitol. The occupation had been harsh: in October 1943 more than 1,000 of Rome's Jews had been deported to Auschwitz, and in March 1944, after a partisan bomb in the Via Rasella killed 33 German police, the SS shot 335 men and boys in the Ardeatine Caves.\n\nRome's liberation was overshadowed within two days by the landings in Normandy, and the German armies withdrew in good order to the Gothic Line in the northern Apennines.",
+    "significance": "The first Axis capital to fall to the Allies, Rome was a symbolic triumph; but the escape of the German armies meant the Italian campaign would grind on until the last days of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether Clark's turn towards Rome actually allowed the Tenth Army to escape, or whether Valmontone could have been held, is debated by historians.",
+    "sources": [
+      "Rick Atkinson, The Day of Battle (2007)",
+      "Carlo D'Este, Fatal Decision: Anzio and the Battle for Rome (1991)",
+      "Robert Katz, The Battle for Rome (2003)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "d-day-1944",
+    "title": "D-Day: the Normandy landings",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Utah Beach",
+        "lon": -1.17,
+        "lat": 49.42
+      },
+      {
+        "name": "Omaha Beach",
+        "lon": -0.87,
+        "lat": 49.37
+      },
+      {
+        "name": "Gold Beach",
+        "lon": -0.57,
+        "lat": 49.34
+      },
+      {
+        "name": "Juno Beach",
+        "lon": -0.41,
+        "lat": 49.33
+      },
+      {
+        "name": "Sword Beach",
+        "lon": -0.28,
+        "lat": 49.29
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-06-06",
+    "datePrecision": "day",
+    "place": "The Calvados and Cotentin coast, Normandy, France",
+    "lon": -0.75,
+    "lat": 49.35,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States, Britain, Canada and Allies"
+    },
+    "commanders": {
+      "focus": [
+        "Rundstedt",
+        "Rommel",
+        "Dollmann"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Montgomery",
+        "Ramsay",
+        "Bradley",
+        "Dempsey"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 156,000 landed by sea and air on 6 June"
+    },
+    "casualties": "Allied c. 10,000 on D-Day, including c. 4,400 dead; German perhaps 4,000–9,000",
+    "outcome": "defeat",
+    "summary": "Some 156,000 Allied troops land by sea and air on five Normandy beaches. By nightfall, despite carnage at Omaha, the Atlantic Wall is breached and the second front is open.",
+    "detail": "After a day's delay for weather, Operation Neptune, the assault phase of Overlord, began in the night of 5–6 June 1944. Three airborne divisions dropped to secure the flanks: the American 82nd and 101st behind Utah Beach, the British 6th east of the Orne, where gliders seized the bridges at Bénouville. At dawn some 7,000 ships and landing craft stood off the coast.\n\nAt Utah the Americans landed off course but lightly opposed. At Omaha, bluffs, intact defences and a veteran German division pinned the 1st and 29th Divisions on the beach for hours, with some 2,000 or more casualties, before small groups climbed the draws. The British at Gold and Sword and the Canadians at Juno got ashore and inland, though not as far as Caen.\n\nThe Germans were slow to react: deceived by Operation Fortitude into expecting the main blow at Calais, with Rommel away in Germany and the panzer reserves needing Hitler's release. By midnight the Allies held a broken but secure foothold. The Normandy campaign that followed cost both armies dearly and killed some 20,000 French civilians.",
+    "significance": "D-Day opened the long-awaited second front in the west, the greatest amphibious operation in history, and with Bagration in the east sealed Germany's defeat.",
+    "certainty": "high",
+    "uncertaintyNote": "The D-Day casualty figures are estimates; recent research puts Allied dead at c. 4,400. German losses on the day are not known with precision.",
+    "sources": [
+      "Antony Beevor, D-Day: The Battle for Normandy (2009)",
+      "Max Hastings, Overlord (1984)",
+      "Rick Atkinson, The Guns at Last Light (2013)",
+      "Carlo D'Este, Decision in Normandy (1983)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "oradour-1944",
+    "title": "Massacre at Oradour-sur-Glane",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Tulle",
+        "lon": 1.77,
+        "lat": 45.27
+      }
+    ],
+    "kind": "massacre",
+    "start": "1944-06-10",
+    "datePrecision": "day",
+    "place": "Oradour-sur-Glane, near Limoges, Haute-Vienne, France",
+    "lon": 1.03,
+    "lat": 45.93,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany (2nd SS Panzer Division 'Das Reich')",
+      "opponent": "Civilians of Oradour-sur-Glane"
+    },
+    "commanders": {
+      "focus": [
+        "Diekmann",
+        "Lammerding"
+      ]
+    },
+    "casualties": "642 men, women and children killed",
+    "outcome": "n/a",
+    "summary": "A company of the SS division Das Reich, moving north to Normandy, murders 642 inhabitants of a French village, shooting the men and burning the women and children in the church.",
+    "detail": "As the SS Panzer Division Das Reich moved north from Montauban towards Normandy in June 1944, it was harassed by the Resistance and answered with terror. On 9 June at Tulle its troops hanged 99 men from balconies and lampposts and deported many more.\n\nOn the afternoon of 10 June a company under Adolf Diekmann sealed off Oradour-sur-Glane, a village with no particular connection to the Resistance, and gathered its people on the fair ground. The men were divided among barns and garages and machine-gunned, and the buildings set on fire. The women and children were locked into the church, which was then set alight; those who tried to escape were shot. A handful of people survived. The village was looted and burned.\n\nDe Gaulle ordered the ruins preserved as they were, and they stand today beside the rebuilt village. The 1953 trial at Bordeaux, at which most of the accused were Alsatians forcibly conscripted into the SS, and the amnesty that followed, divided France bitterly.",
+    "significance": "Oradour became the emblem in France of German atrocities against civilians during the occupation and the struggle for liberation.",
+    "certainty": "high",
+    "uncertaintyNote": "The death toll is given as 642 or 643. The motive is debated: reprisal for the capture of an SS officer by the Resistance, mistaken identity with another village, or simple terror.",
+    "sources": [
+      "Sarah Farmer, Martyred Village: Commemorating the 1944 Massacre at Oradour-sur-Glane (1999)",
+      "Max Hastings, Das Reich (1981)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "saipan-1944",
+    "title": "Battle of Saipan",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Marpi Point (the cliffs of the civilian suicides)",
+        "lon": 145.8,
+        "lat": 15.28
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-06-15",
+    "end": "1944-07-09",
+    "datePrecision": "day",
+    "place": "Saipan, Mariana Islands",
+    "lon": 145.75,
+    "lat": 15.18,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Saito",
+        "Nagumo"
+      ],
+      "opponent": [
+        "Holland Smith",
+        "Turner",
+        "Spruance"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000",
+      "opponent": "c. 70,000"
+    },
+    "casualties": "Japanese almost the entire garrison of c. 30,000; US c. 3,400 killed, c. 13,000 wounded; perhaps 20,000 civilians dead",
+    "outcome": "defeat",
+    "summary": "US Marines and soldiers storm Saipan, inside Japan's inner defence line. The garrison dies almost to the last man, and thousands of Japanese civilians kill themselves rather than surrender.",
+    "detail": "Saipan, with its Japanese settler population, lay within the empire's inner perimeter and within B-29 range of Tokyo. On 15 June 1944 the 2nd and 4th Marine Divisions landed on the south-west coast under heavy fire; the Army's 27th Division followed. The approach of the Japanese fleet that week brought on the Battle of the Philippine Sea, which left the garrison without hope of relief.\n\nThe Americans fought north through mountains, cane fields and caves. The relief of the 27th Division's commander by the Marine general Holland Smith caused a lasting inter-service quarrel. On 7 July some 3,000 Japanese, soldiers, sailors and civilians, made the largest banzai charge of the Pacific war; Saito and Nagumo, the admiral of Pearl Harbor, took their own lives. The island was declared secure on 9 July.\n\nIn its final days Japanese civilians, told to expect atrocities from the Americans and in some cases pressed by soldiers, killed their families with grenades or leapt from the cliffs at Marpi Point while American interpreters pleaded with them to surrender.",
+    "significance": "The loss of Saipan brought down Tojo's government and gave the United States the bases from which B-29s would burn Japan's cities.",
+    "certainty": "high",
+    "uncertaintyNote": "Civilian deaths on Saipan are estimated at c. 20,000 or more; the number who killed themselves is not known.",
+    "sources": [
+      "Harold J. Goldberg, D-Day in the Pacific: The Battle of Saipan (2007)",
+      "Ronald H. Spector, Eagle Against the Sun (1985)",
+      "Max Hastings, Nemesis (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "philippine-sea-1944",
+    "title": "Battle of the Philippine Sea",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1944-06-19",
+    "end": "1944-06-20",
+    "datePrecision": "day",
+    "place": "The Philippine Sea, west of the Mariana Islands",
+    "lon": 139,
+    "lat": 14.5,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Ozawa",
+        "Toyoda"
+      ],
+      "opponent": [
+        "Spruance",
+        "Mitscher"
+      ]
+    },
+    "strength": {
+      "focus": "9 carriers, c. 450 carrier aircraft",
+      "opponent": "15 carriers, c. 900 aircraft"
+    },
+    "casualties": "Japanese 3 carriers sunk, c. 550–600 aircraft lost; US c. 120 aircraft, many ditched at night",
+    "outcome": "defeat",
+    "summary": "Japan's carrier fleet sorties to save the Marianas. In the 'Marianas Turkey Shoot' its air groups are annihilated, and American submarines sink two of its largest carriers.",
+    "detail": "When the Americans landed on Saipan, the Imperial Navy committed Ozawa's Mobile Fleet in the Operation A-Go plan for a decisive battle. Ozawa's aircraft outranged the Americans', and on 19 June 1944 he launched four great raids against Mitscher's Task Force 58.\n\nThe Japanese aircrews, hastily trained replacements for the veterans lost since Midway, met radar-directed Hellcat fighters and a barrage of anti-aircraft fire. Some 300 or more aircraft fell that day for the loss of about 30 American; pilots called it the Great Marianas Turkey Shoot. The same day the submarines Albacore and Cavalla torpedoed the carriers Taiho and Shokaku, both of which blew up.\n\nSpruance, keeping his fleet close to guard the landings, was criticised for not pursuing. Late on 20 June Mitscher launched a long-range strike that sank the carrier Hiyo; returning in darkness, low on fuel, many American aircraft ditched, and Mitscher ordered the fleet's lights switched on to guide them home.",
+    "significance": "The battle destroyed Japanese naval aviation as a fighting force; at Leyte Gulf four months later Japan's surviving carriers could serve only as decoys.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese aircraft losses, including those destroyed on Guam and on the sunk carriers, are given variously from c. 550 to over 600. The battle's position spans several hundred kilometres of ocean.",
+    "sources": [
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. 8: New Guinea and the Marianas (1953)",
+      "Ronald H. Spector, Eagle Against the Sun (1985)",
+      "Barrett Tillman, Clash of the Carriers (2005)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bagration-1944",
+    "title": "Operation Bagration",
+    "geometry": "area",
+    "radiusKm": 320,
+    "markers": [
+      {
+        "name": "Vitebsk",
+        "lon": 30.2,
+        "lat": 55.19
+      },
+      {
+        "name": "Bobruisk",
+        "lon": 29.22,
+        "lat": 53.14
+      },
+      {
+        "name": "Minsk",
+        "lon": 27.56,
+        "lat": 53.9
+      }
+    ],
+    "kind": "campaign",
+    "start": "1944-06-22",
+    "end": "1944-08-19",
+    "datePrecision": "day",
+    "place": "Belorussia (Belarus), to the Vistula and the borders of East Prussia",
+    "lon": 27.5,
+    "lat": 54,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Busch",
+        "Model"
+      ],
+      "opponent": [
+        "Zhukov",
+        "Vasilevsky",
+        "Rokossovsky",
+        "Chernyakhovsky",
+        "Bagramyan",
+        "Zakharov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 800,000 (Army Group Centre)",
+      "opponent": "c. 1.7–2.4 million"
+    },
+    "casualties": "German c. 400,000 killed, wounded or captured; Soviet c. 770,000, including c. 180,000 killed",
+    "outcome": "defeat",
+    "summary": "Three years to the day after Barbarossa, four Soviet fronts smash Army Group Centre in Belorussia. In two months the Red Army advances some 500 km to the gates of Warsaw.",
+    "detail": "The Red Army's summer offensive, named after a general of 1812, struck where the German command least expected it. Deception convinced Hitler the blow would fall in the Ukraine; partisans cut the railways behind Army Group Centre in the nights before 22 June 1944, and four fronts attacked along a 700 km line with overwhelming artillery, armour and air power.\n\nHitler's orders to hold 'fortified places' doomed whole corps. Vitebsk was encircled within days and Bobruisk soon after, its pocket destroyed from the air and by Rokossovsky's tanks. Minsk was retaken on 3 July, trapping more than 100,000 men east of the city. On 17 July some 57,000 German prisoners were marched through Moscow. Busch was replaced by Model, who could only slow the collapse.\n\nBy mid-August, joined by the Lvov–Sandomierz offensive to the south, Soviet armies had reached the Vistula and the East Prussian border. On 23 July they entered Majdanek, near Lublin, the first major extermination camp to be liberated. Behind them lay a Belorussia devastated by three years of occupation, in which perhaps a quarter of the population had died.",
+    "significance": "Bagration destroyed Army Group Centre, the greatest single defeat in German military history, and with Normandy left the Reich facing collapse on both fronts.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for both sides' strength and losses vary considerably between German, Soviet and later scholarly accounts; the German losses given are Karl-Heinz Frieser's estimate.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Karl-Heinz Frieser et al., Germany and the Second World War, vol. 8 (2007; Eng. trans. 2017)",
+      "Steven J. Zaloga, Bagration 1944 (1996)",
+      "Richard Overy, Russia's War (1997)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "july-plot-1944",
+    "title": "The 20 July plot",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Bendlerblock, Berlin",
+        "lon": 13.36,
+        "lat": 52.508
+      }
+    ],
+    "kind": "political",
+    "start": "1944-07-20",
+    "datePrecision": "day",
+    "place": "Wolfsschanze, near Rastenburg (Kętrzyn), East Prussia",
+    "lon": 21.49,
+    "lat": 54.08,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Nazi regime (Hitler)",
+      "opponent": "German military and civilian resistance"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler",
+        "Himmler",
+        "Fromm"
+      ],
+      "opponent": [
+        "Stauffenberg",
+        "Beck",
+        "Olbricht",
+        "Tresckow"
+      ]
+    },
+    "casualties": "4 killed by the bomb; Stauffenberg and three others shot that night; c. 200 later executed in direct connection with the plot, thousands arrested",
+    "outcome": "n/a",
+    "summary": "Colonel von Stauffenberg sets off a bomb beside Hitler at his East Prussian headquarters. Hitler survives with minor injuries; the coup in Berlin collapses within hours.",
+    "detail": "A network of officers and civilians had planned for years to kill Hitler and end the war. Colonel Claus Schenk Graf von Stauffenberg, badly wounded in Tunisia and now chief of staff of the Replacement Army, had access to Hitler's briefings. On 20 July 1944, at the Wolfsschanze headquarters, he placed a briefcase bomb under the map table in a wooden briefing hut and left on a pretext. It exploded at about 12.42, killing four men, but the heavy table and the open windows shielded Hitler.\n\nStauffenberg flew back to Berlin believing Hitler dead. At the Bendlerblock the conspirators launched Operation Valkyrie, a plan to mobilise the reserve army against the SS, but they had lost hours, and the news that Hitler lived turned waverers back to loyalty. That night General Fromm had Stauffenberg, Olbricht and two others shot in the courtyard; Beck was allowed to attempt suicide.\n\nThe Gestapo's investigation reached far beyond the plotters. Many were tried before Roland Freisler's People's Court and hanged; Rommel, implicated, was forced to take poison in October.",
+    "significance": "The plot's failure tightened the Nazi grip on the army for the war's last ten months; its participants later became symbols of the 'other Germany' in the Federal Republic.",
+    "certainty": "high",
+    "uncertaintyNote": "There is no Axis-versus-Allied outcome here, so 'n/a'. Figures for those executed after the plot range from c. 200 directly involved to several thousand when the wider purge is included.",
+    "sources": [
+      "Peter Hoffmann, The History of the German Resistance 1933–1945 (1977)",
+      "Ian Kershaw, Hitler 1936–1945: Nemesis (2000)",
+      "Joachim Fest, Plotting Hitler's Death (1996)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "normandy-breakout-1944",
+    "title": "Normandy breakout and the Falaise pocket",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Saint-Lô",
+        "lon": -1.09,
+        "lat": 49.12
+      },
+      {
+        "name": "Mortain",
+        "lon": -0.94,
+        "lat": 48.65
+      },
+      {
+        "name": "Mont Ormel (Hill 262)",
+        "lon": 0.13,
+        "lat": 48.84
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-07-25",
+    "end": "1944-08-21",
+    "datePrecision": "day",
+    "place": "Between Saint-Lô, Falaise and Chambois, Normandy",
+    "lon": -0.2,
+    "lat": 48.85,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States, Britain, Canada and Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Kluge",
+        "Model",
+        "Hausser"
+      ],
+      "opponent": [
+        "Montgomery",
+        "Bradley",
+        "Patton",
+        "Crerar",
+        "Maczek"
+      ]
+    },
+    "casualties": "In the pocket, German c. 10,000 dead and c. 50,000 captured; tens of thousands more escaped without their heavy equipment",
+    "outcome": "defeat",
+    "summary": "American armies break out west of Saint-Lô and swing east. Hitler's counter-attack at Mortain drives the German armies into a trap, and the Falaise pocket closes on them.",
+    "detail": "For seven weeks the Allies were held in the Normandy bocage, while British and Canadian attacks around Caen drew most of the German armour. On 25 July 1944, after carpet bombing that also killed many American soldiers, Bradley's Operation Cobra broke through west of Saint-Lô. Patton's newly activated Third Army poured through the gap at Avranches into Brittany and turned east.\n\nInstead of retreating, Hitler ordered a counter-attack towards Avranches, which was stopped at Mortain on 7 August. The German Seventh Army and Fifth Panzer Army were now in a sack, with Americans closing from the south and Canadians and Poles from the north towards Falaise. Kluge, under suspicion after 20 July, was relieved and took poison.\n\nThe pocket was sealed between Trun and Chambois on 19–21 August, with the Polish 1st Armoured Division holding Hill 262 at Mont Ormel against desperate breakout attempts. Allied aircraft and artillery turned the roads of the pocket into a slaughterhouse of men, horses and vehicles.",
+    "significance": "The Falaise pocket wrecked the German armies in the west and opened the road to Paris and the Seine.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of Germans who escaped the pocket before it closed is disputed, with estimates from c. 20,000 to over 50,000.",
+    "sources": [
+      "Antony Beevor, D-Day: The Battle for Normandy (2009)",
+      "Max Hastings, Overlord (1984)",
+      "Carlo D'Este, Decision in Normandy (1983)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "warsaw-uprising-1944",
+    "title": "Warsaw Uprising",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Wola (massacres of 5–7 August)",
+        "lon": 20.96,
+        "lat": 52.235
+      },
+      {
+        "name": "Old Town",
+        "lon": 21.01,
+        "lat": 52.25
+      },
+      {
+        "name": "Praga (Soviet-held from mid-September)",
+        "lon": 21.05,
+        "lat": 52.25
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-08-01",
+    "end": "1944-10-02",
+    "datePrecision": "day",
+    "place": "Warsaw",
+    "lon": 21.01,
+    "lat": 52.23,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Polish Home Army"
+    },
+    "commanders": {
+      "focus": [
+        "Bach-Zelewski",
+        "Reinefarth",
+        "Dirlewanger"
+      ],
+      "opponent": [
+        "Bór-Komorowski",
+        "Chruściel"
+      ]
+    },
+    "strength": {
+      "focus": "c. 25,000 (rising to c. 50,000)",
+      "opponent": "c. 40,000, many unarmed"
+    },
+    "casualties": "Insurgents c. 16,000 killed; civilians c. 150,000–200,000; Germans several thousand to c. 17,000",
+    "outcome": "victory",
+    "summary": "As the Red Army nears, the Polish Home Army rises in Warsaw. The Soviets halt on the Vistula; for 63 days the insurgents fight alone, and the Germans massacre civilians and then raze the city.",
+    "detail": "On 1 August 1944 the Home Army, loyal to the Polish government in London, rose in Warsaw to free the capital before the Red Army arrived. It seized much of the centre but failed to take the bridges, the airfield or the main German strongpoints, and many fighters had no weapons at all.\n\nHimmler ordered the city wiped out. SS and police units under Bach-Zelewski, among them the Dirlewanger and Kaminski brigades, murdered perhaps 40,000 civilians in the district of Wola in the first days of August. The insurgents fought on from district to district, moving through the sewers when the Old Town fell in early September.\n\nThe Soviet armies, checked east of the river in early August, did not renew their advance until mid-September, when they took the suburb of Praga; Stalin had refused Allied supply aircraft the use of Soviet airfields until then, and RAF, Polish and South African crews flying from Italy suffered heavy losses. The Home Army capitulated on 2 October with combatant rights. The survivors were expelled, and German demolition squads then burned and blew up most of what remained of the city.",
+    "significance": "The uprising's destruction removed the non-communist Polish underground as a force before the Soviet occupation, and the fate of Warsaw became a lasting grievance in Poland's memory of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Whether the Red Army could have helped in August, or chose not to, remains bitterly disputed. Civilian death estimates vary; German military losses are especially uncertain.",
+    "sources": [
+      "Norman Davies, Rising '44: The Battle for Warsaw (2003)",
+      "Alexandra Richie, Warsaw 1944 (2013)",
+      "Włodzimierz Borodziej, The Warsaw Uprising of 1944 (2001; Eng. trans. 2006)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dragoon-1944",
+    "title": "Operation Dragoon",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Toulon",
+        "lon": 5.93,
+        "lat": 43.12
+      },
+      {
+        "name": "Marseille",
+        "lon": 5.37,
+        "lat": 43.3
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-08-15",
+    "end": "1944-09-12",
+    "datePrecision": "day",
+    "place": "The Côte d'Azur between Cavalaire and Saint-Raphaël, Provence, France",
+    "lon": 6.64,
+    "lat": 43.27,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and France"
+    },
+    "commanders": {
+      "focus": [
+        "Blaskowitz",
+        "Wiese"
+      ],
+      "opponent": [
+        "Patch",
+        "Truscott",
+        "de Lattre de Tassigny"
+      ]
+    },
+    "casualties": "German c. 130,000 captured over the campaign; Allied losses comparatively light",
+    "outcome": "defeat",
+    "summary": "American and French forces land on the Riviera. The French take Toulon and Marseille, and the German army in southern France retreats up the Rhône to escape encirclement.",
+    "detail": "Long argued over by the Allies, with Churchill pressing for operations in Italy and the Balkans instead, the landing in southern France went in on 15 August 1944. Three American divisions of Truscott's VI Corps came ashore between Cavalaire and Saint-Raphaël after airborne drops inland, meeting light resistance; French Army B under de Lattre followed.\n\nThe German Nineteenth Army, stripped of units for Normandy, could not hold the coast. Hitler ordered a withdrawal from most of southern and south-western France, leaving garrisons in the great ports. French troops, many of them from North and West Africa, fought their way into Toulon and Marseille and took both by 28 August, far ahead of schedule. An American task force raced north to cut off the retreat at Montélimar but could not close the trap.\n\nOn 12 September Dragoon forces met patrols of Patton's Third Army west of Dijon, uniting the two Allied fronts in France.",
+    "significance": "Dragoon cleared southern France in a month and gave the Allies the port of Marseille, which became a principal supply line for the armies in the west.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner totals for the campaign vary with how the retreat through France is counted.",
+    "sources": [
+      "Rick Atkinson, The Guns at Last Light (2013)",
+      "Jeffrey J. Clarke and Robert Ross Smith, Riviera to the Rhine (US Army official history, 1993)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "liberation-of-paris-1944",
+    "title": "Liberation of Paris",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1944-08-19",
+    "end": "1944-08-25",
+    "datePrecision": "day",
+    "place": "Paris",
+    "lon": 2.35,
+    "lat": 48.86,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Free French and French Resistance, United States"
+    },
+    "commanders": {
+      "focus": [
+        "Choltitz"
+      ],
+      "opponent": [
+        "Leclerc",
+        "Rol-Tanguy",
+        "de Gaulle",
+        "Barton"
+      ]
+    },
+    "casualties": "French Resistance and civilians c. 1,500–2,000 killed; German c. 3,000 killed and c. 10,000 captured; figures approximate",
+    "outcome": "defeat",
+    "summary": "Paris rises against its occupiers, and Leclerc's French armoured division enters the city. General von Choltitz surrenders on 25 August, and de Gaulle speaks at the Hôtel de Ville.",
+    "detail": "Eisenhower had planned to bypass Paris, but on 19 August 1944 the city's police occupied the Préfecture and the Resistance, under the communist Henri Rol-Tanguy, began building barricades. A fragile truce, brokered by the Swedish consul, broke down. De Gaulle pressed Eisenhower to send in French troops, fearing both a massacre and a communist seizure of power.\n\nLeclerc's 2nd Armoured Division, with the American 4th Infantry Division alongside, pushed in from the south-west; on the night of 24 August a small column reached the Hôtel de Ville. The next day French tanks fought German strongpoints across the city, and the commandant, General Dietrich von Choltitz, surrendered at the Préfecture and then the Gare Montparnasse. Hitler had ordered that Paris not fall into Allied hands except as a field of ruins; Choltitz did not carry out the demolitions.\n\nThat evening de Gaulle spoke of Paris liberated by itself, with the help of all France, and on 26 August he walked down the Champs-Élysées before vast crowds.",
+    "significance": "The liberation of Paris restored the capital to France without its destruction and confirmed de Gaulle as the head of a provisional government recognised at home and, soon, abroad.",
+    "certainty": "high",
+    "uncertaintyNote": "How far Choltitz deliberately saved the city, as he later claimed, or was simply unable to destroy it, is debated. Casualty figures vary.",
+    "sources": [
+      "Antony Beevor and Artemis Cooper, Paris After the Liberation 1944–1949 (1994)",
+      "Julian Jackson, France: The Dark Years 1940–1944 (2001)",
+      "Rick Atkinson, The Guns at Last Light (2013)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "romania-changes-sides-1944",
+    "title": "Romania changes sides",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Iași (Jassy)",
+        "lon": 27.59,
+        "lat": 47.16
+      },
+      {
+        "name": "Chișinău (Kishinev)",
+        "lon": 28.86,
+        "lat": 47.01
+      },
+      {
+        "name": "Ploiești oilfields",
+        "lon": 26.02,
+        "lat": 44.94
+      }
+    ],
+    "kind": "political",
+    "start": "1944-08-23",
+    "end": "1944-08-31",
+    "datePrecision": "day",
+    "place": "Bucharest, after the Jassy–Kishinev offensive",
+    "lon": 26.1,
+    "lat": 44.43,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Romania (King Michael) and the Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Antonescu",
+        "Friessner"
+      ],
+      "opponent": [
+        "King Michael",
+        "Malinovsky",
+        "Tolbukhin"
+      ]
+    },
+    "casualties": "In the Jassy–Kishinev offensive, German and Romanian losses of several hundred thousand, most of them captured",
+    "outcome": "negotiated",
+    "summary": "As Soviet armies break the front in Moldavia, King Michael has Marshal Antonescu arrested and takes Romania out of the Axis. Germany loses its main oil supply and its southern front collapses.",
+    "detail": "On 20 August 1944 Malinovsky's and Tolbukhin's fronts attacked Army Group South Ukraine at Jassy and Kishinev, and within days the rebuilt German Sixth Army was encircled and destroyed, the second army of that name lost in two years. Romanian divisions gave way or stopped fighting.\n\nOn 23 August the young King Michael summoned the dictator Ion Antonescu to the palace and had him arrested, announcing that Romania accepted the Allies' armistice terms. German aircraft bombed Bucharest in reprisal, and on 25 August Romania declared war on Germany; its troops cleared the capital of German forces. The Red Army entered Bucharest on 31 August, and the Ploiești oilfields, the Reich's chief source of natural oil, were lost.\n\nAntonescu's regime had been a full partner in the war against the Soviet Union and in the murder of Jews and Roma in Bessarabia, Bukovina and Transnistria; he was tried and executed in 1946. Bulgaria, invaded by the Soviets in early September, changed sides within days.",
+    "significance": "Romania's defection collapsed the German position in the Balkans, opened Bulgaria, Yugoslavia and Hungary to the Red Army and cut off Germany's oil from Ploiești.",
+    "certainty": "high",
+    "uncertaintyNote": "German losses in the offensive are estimated variously; Soviet sources claimed over 200,000 prisoners. The event is placed at Bucharest on the date of the coup.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Dennis Deletant, Hitler's Forgotten Ally: Ion Antonescu and His Regime (2006)",
+      "Gerhard L. Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "slovak-uprising-1944",
+    "title": "Slovak National Uprising",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Dukla Pass",
+        "lon": 21.68,
+        "lat": 49.43
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-08-29",
+    "end": "1944-10-27",
+    "datePrecision": "day",
+    "place": "Central Slovakia, centred on Banská Bystrica",
+    "lon": 19.15,
+    "lat": 48.74,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Slovak insurgent army and partisans"
+    },
+    "commanders": {
+      "focus": [
+        "Berger",
+        "Höfle"
+      ],
+      "opponent": [
+        "Golian",
+        "Viest"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 60,000–80,000 soldiers and partisans"
+    },
+    "casualties": "Thousands of insurgents killed; reprisals killed several thousand civilians, and thousands of Jews were deported",
+    "outcome": "victory",
+    "summary": "Units of the Slovak army and partisans rise against the pro-German Tiso regime. German forces close in, and the Soviet attempt to break through the Dukla Pass comes too late.",
+    "detail": "Slovakia had been a German client state under Jozef Tiso since 1939. In 1944 officers of its army, with democratic and communist resistance groups, prepared a rising timed to coincide with a Soviet advance across the Carpathians. When German troops entered the country at the end of August to suppress partisan activity, the insurgents proclaimed the uprising on 29 August from Banská Bystrica.\n\nTwo divisions in eastern Slovakia that were meant to open the passes to the Red Army were disarmed by the Germans in a day. The insurgents held a pocket in central Slovakia for two months, supplied by Soviet aircraft and joined by a Czechoslovak parachute brigade. The Soviet and Czechoslovak offensive through the Dukla Pass in September and October cost very heavy losses and broke through only after the rising had been crushed.\n\nBanská Bystrica fell on 27 October; the commanders Golian and Viest were captured and died in German hands. SS and police units carried out mass shootings, notably at Kremnička and Nemecká, and the deportations of Slovakia's remaining Jews resumed.",
+    "significance": "Though defeated, the uprising became a founding event of post-war Czechoslovakia and of modern Slovakia's memory of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "Figures for insurgent strength and losses and for the victims of reprisals vary between sources.",
+    "sources": [
+      "Gerhard L. Weinberg, A World at Arms (1994)",
+      "Jozef Jablonický, Povstanie bez legiend (1990)",
+      "Mark Cornwall and R.J.W. Evans (eds), Czechoslovakia in a Nationalist and Fascist Europe 1918–1948 (2007)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "v-weapons-1944",
+    "title": "The V-2 rocket campaign",
+    "geometry": "area",
+    "radiusKm": 260,
+    "markers": [
+      {
+        "name": "London",
+        "lon": -0.12,
+        "lat": 51.5
+      },
+      {
+        "name": "Antwerp",
+        "lon": 4.4,
+        "lat": 51.22
+      },
+      {
+        "name": "The Hague (launch sites)",
+        "lon": 4.3,
+        "lat": 52.08
+      }
+    ],
+    "kind": "raid",
+    "start": "1944-09-08",
+    "end": "1945-03-27",
+    "datePrecision": "day",
+    "place": "London, Antwerp and their surroundings, launched from the Netherlands and Germany",
+    "lon": 2.1,
+    "lat": 51.5,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and Belgium (civilians)"
+    },
+    "commanders": {
+      "focus": [
+        "Kammler",
+        "Dornberger"
+      ]
+    },
+    "casualties": "c. 2,700 killed in Britain and c. 1,700 or more in Antwerp by V-2s; c. 6,000 killed in Britain by V-1s; at least 10,000 prisoners died building the weapons",
+    "outcome": "n/a",
+    "summary": "Germany fires the first ballistic missiles in history at London and Antwerp. Falling faster than sound, without warning, the V-2s kill thousands of civilians but cannot change the war.",
+    "detail": "Germany's 'vengeance weapons' were launched against cities. The V-1 flying bomb, first fired at London on 13 June 1944, killed some 6,000 people in Britain before its launching sites were overrun, though many were shot down by fighters and guns. The V-2, a liquid-fuelled rocket carrying a tonne of explosive, could not be intercepted at all. The first struck Paris and then Chiswick, in west London, on 8 September 1944.\n\nFrom mobile launchers in the Netherlands, more than 1,000 V-2s fell on England and some 1,600 on Antwerp, the Allies' vital supply port. On 25 November one hit a Woolworths store in New Cross, killing 168 people; on 16 December another struck the Rex cinema in Antwerp, killing over 500, many of them soldiers. The last V-2 to land in England, on 27 March 1945, killed 134 people in a block of flats in Stepney.\n\nThe rockets were assembled in the tunnels of the Mittelwerk in the Harz mountains by prisoners of the Mittelbau-Dora camp, where more people died making the weapon than were killed by it.",
+    "significance": "The V-2 was a technological landmark, the ancestor of the ballistic missile and the space rocket, and a costly strategic failure that diverted German resources and killed civilians to no military effect.",
+    "certainty": "high",
+    "uncertaintyNote": "Death tolls are approximate and vary between British, Belgian and German sources; estimates of prisoner deaths in V-2 production range from c. 10,000 to 20,000.",
+    "sources": [
+      "Michael J. Neufeld, The Rocket and the Reich (1995)",
+      "Richard Overy, The Bombing War (2013)",
+      "Jens-Christian Wagner, Produktion des Todes: Das KZ Mittelbau-Dora (2001)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "market-garden-1944",
+    "title": "Operation Market Garden",
+    "geometry": "area",
+    "radiusKm": 60,
+    "markers": [
+      {
+        "name": "Eindhoven",
+        "lon": 5.48,
+        "lat": 51.44
+      },
+      {
+        "name": "Nijmegen bridge",
+        "lon": 5.86,
+        "lat": 51.85
+      },
+      {
+        "name": "Arnhem bridge",
+        "lon": 5.91,
+        "lat": 51.98
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-09-17",
+    "end": "1944-09-25",
+    "datePrecision": "day",
+    "place": "The road from the Belgian border through Eindhoven and Nijmegen to Arnhem, the Netherlands",
+    "lon": 5.75,
+    "lat": 51.72,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain, United States and Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Model",
+        "Bittrich",
+        "Student"
+      ],
+      "opponent": [
+        "Montgomery",
+        "Browning",
+        "Horrocks",
+        "Urquhart",
+        "Sosabowski"
+      ]
+    },
+    "casualties": "Allied c. 15,000–17,000; British 1st Airborne Division lost c. 1,500 killed and over 6,000 captured; German c. 3,000–8,000",
+    "outcome": "victory",
+    "summary": "Three airborne divisions drop to seize the bridges to Arnhem for a dash across the Rhine. The ground advance stalls short of the last bridge, and the British paratroops at Arnhem are destroyed.",
+    "detail": "Montgomery's plan was audacious: the American 101st and 82nd Airborne Divisions would seize the canal and river bridges at Eindhoven, Grave and Nijmegen, and the British 1st Airborne, with a Polish brigade, the Rhine bridge at Arnhem, while Horrocks's XXX Corps drove 100 km up a single road to join them. Success might end the war by Christmas.\n\nThe drops began on 17 September 1944. The landing zones at Arnhem lay far from the town, and II SS Panzer Corps, refitting nearby, reacted fast. Only Lt-Col John Frost's battalion reached the north end of the bridge, which it held until 21 September. XXX Corps was delayed by a blown bridge at Son and fighting along the exposed road; the Nijmegen bridge fell only on 20 September, after American paratroopers crossed the Waal in canvas boats under fire.\n\nThe rest of 1st Airborne was squeezed into a perimeter at Oosterbeek. On the night of 25–26 September some 2,400 survivors were ferried back across the Rhine. Dutch support for the operation was punished: a German embargo on food transport helped bring on the Hunger Winter, in which some 20,000 people died.",
+    "significance": "Market Garden's failure ended hopes of finishing the war in 1944 and left the Allies with a narrow salient, while the port of Antwerp remained unusable until November.",
+    "certainty": "high",
+    "uncertaintyNote": "German casualty figures are uncertain. Hunger Winter deaths are commonly put at c. 18,000–22,000.",
+    "sources": [
+      "Antony Beevor, Arnhem: The Battle for the Bridges, 1944 (2018)",
+      "Cornelius Ryan, A Bridge Too Far (1974)",
+      "Martin Middlebrook, Arnhem 1944: The Airborne Battle (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "leyte-gulf-1944",
+    "title": "Battle of Leyte Gulf",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Sibuyan Sea",
+        "lon": 122.6,
+        "lat": 12.8
+      },
+      {
+        "name": "Surigao Strait",
+        "lon": 125.4,
+        "lat": 10.25
+      },
+      {
+        "name": "Off Samar",
+        "lon": 126.1,
+        "lat": 11.7
+      }
+    ],
+    "kind": "naval",
+    "start": "1944-10-23",
+    "end": "1944-10-26",
+    "datePrecision": "day",
+    "place": "The seas around Leyte and Samar, the Philippines",
+    "lon": 125.3,
+    "lat": 11.4,
+    "locationCertainty": "approximate",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and Australia"
+    },
+    "commanders": {
+      "focus": [
+        "Kurita",
+        "Ozawa",
+        "Nishimura",
+        "Shima",
+        "Toyoda"
+      ],
+      "opponent": [
+        "Halsey",
+        "Kinkaid",
+        "Oldendorf",
+        "Clifton Sprague"
+      ]
+    },
+    "casualties": "Japanese 4 carriers, 3 battleships, 10 cruisers and c. 11 destroyers sunk, over 10,000 dead; US 1 light carrier, 2 escort carriers and 3 destroyers or escorts sunk, c. 3,000 dead",
+    "outcome": "defeat",
+    "summary": "Japan throws its whole remaining fleet at the American landings on Leyte. In four days of battles across the Philippine seas, the Imperial Navy is broken; the first kamikaze attacks begin.",
+    "detail": "On 20 October 1944 MacArthur's Sixth Army landed on Leyte. Japan's Sho-Go plan sent almost every remaining warship against it: Ozawa's carriers, with few aircraft, would lure Halsey's Third Fleet north, while two battleship forces converged on the landing beaches.\n\nOn 24 October American carrier aircraft caught Kurita's Centre Force in the Sibuyan Sea and sank the giant battleship Musashi; Kurita turned back, and Halsey, believing him beaten, took his whole fleet north after Ozawa. That night Nishimura's Southern Force steamed into Surigao Strait and was destroyed by Oldendorf's old battleships, several of them salvaged from Pearl Harbor, in the last battleship action in history.\n\nAt dawn on 25 October Kurita, having turned again through the unguarded San Bernardino Strait, fell on Taffy 3, a group of escort carriers and destroyers off Samar. The destroyers' suicidal torpedo attacks and the aircraft of the escort carriers confused him, and he withdrew within reach of the transports. Off Cape Engaño, Halsey's aircraft sank all four of Ozawa's carriers. The same day, the first organised kamikaze attacks sank the escort carrier St. Lo.",
+    "significance": "Perhaps the largest naval battle in history, Leyte Gulf destroyed the Japanese navy as a fleet and sealed the reconquest of the Philippines; from then on Japan relied increasingly on suicide tactics.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses depend on whether ships sunk in the days after the main actions are counted. The battle covered a huge area; the point shown is central, with markers for the main actions.",
+    "sources": [
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. 12: Leyte (1958)",
+      "H.P. Willmott, The Battle of Leyte Gulf: The Last Fleet Action (2005)",
+      "Ronald H. Spector, Eagle Against the Sun (1985)",
+      "James D. Hornfischer, The Last Stand of the Tin Can Sailors (2004)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "bulge-1944",
+    "title": "Battle of the Bulge",
+    "geometry": "area",
+    "radiusKm": 70,
+    "markers": [
+      {
+        "name": "Bastogne",
+        "lon": 5.72,
+        "lat": 50
+      },
+      {
+        "name": "St Vith",
+        "lon": 6.12,
+        "lat": 50.28
+      },
+      {
+        "name": "Baugnez (Malmedy massacre)",
+        "lon": 6.07,
+        "lat": 50.4
+      }
+    ],
+    "kind": "battle",
+    "start": "1944-12-16",
+    "end": "1945-01-25",
+    "datePrecision": "day",
+    "place": "The Ardennes, Belgium and Luxembourg",
+    "lon": 5.8,
+    "lat": 50.2,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Model",
+        "Rundstedt",
+        "Dietrich",
+        "Manteuffel"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Bradley",
+        "Patton",
+        "Montgomery",
+        "Hodges",
+        "McAuliffe"
+      ]
+    },
+    "strength": {
+      "focus": "c. 400,000 at the outset",
+      "opponent": "c. 230,000 at the outset, rising to over 600,000"
+    },
+    "casualties": "US c. 75,000–80,000 (c. 19,000 killed); German c. 80,000–100,000; British c. 1,400; c. 3,000 Belgian and Luxembourg civilians killed",
+    "outcome": "defeat",
+    "summary": "Hitler's last great gamble in the west: three German armies burst through the thinly held Ardennes towards Antwerp. Held at St Vith and Bastogne, they are stopped short of the Meuse.",
+    "detail": "Hitler planned the offensive himself: a surprise attack in winter weather that would ground Allied aircraft, cross the Meuse and take Antwerp, splitting the British from the Americans. On 16 December 1944 some 200,000 men of Dietrich's Sixth SS Panzer Army and Manteuffel's Fifth Panzer Army struck four American divisions, some untried, others resting, along the Ardennes front.\n\nThe northern shoulder held on the Elsenborn ridge. At St Vith a scratch American force delayed the Germans until 21 December, and at Bastogne the 101st Airborne and armoured units, surrounded, refused a demand to surrender with the reply 'Nuts!'. Patton turned his Third Army north in a few days and broke through to Bastogne on 26 December. Kampfgruppe Peiper's SS troops murdered American prisoners at Baugnez near Malmedy and Belgian civilians at Stavelot.\n\nWhen the skies cleared on 23 December, Allied air power struck the German columns, whose spearheads ran out of fuel near Dinant, short of the Meuse. Through January, Allied counter-attacks pushed in the bulge in bitter cold.",
+    "significance": "The largest battle fought by the US Army in the war, the Ardennes offensive used up Germany's last armoured reserves in the west and opened the way for the Allied advance to the Rhine.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary considerably between the US official history, German records and later studies.",
+    "sources": [
+      "Antony Beevor, Ardennes 1944: Hitler's Last Gamble (2015)",
+      "Hugh M. Cole, The Ardennes: Battle of the Bulge (US Army official history, 1965)",
+      "Charles B. MacDonald, A Time for Trumpets (1985)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "siege-of-budapest-1944",
+    "title": "Siege of Budapest",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1944-12-26",
+    "end": "1945-02-13",
+    "datePrecision": "day",
+    "place": "Budapest",
+    "lon": 19.04,
+    "lat": 47.5,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany and Hungary",
+      "opponent": "Soviet Union and Romania"
+    },
+    "commanders": {
+      "focus": [
+        "Pfeffer-Wildenbruch",
+        "Hindy"
+      ],
+      "opponent": [
+        "Malinovsky",
+        "Tolbukhin"
+      ]
+    },
+    "casualties": "Civilians c. 38,000; Axis c. 100,000 killed, wounded or captured; Soviet and Romanian losses also very heavy",
+    "outcome": "defeat",
+    "summary": "The Red Army encircles Budapest, which Hitler orders held as a fortress. Fifty days of street fighting, with the city's people trapped in cellars, end in a doomed breakout from Buda.",
+    "detail": "In October 1944, as Horthy sought an armistice, the Germans had installed the Arrow Cross leader Ferenc Szálasi; his militias murdered thousands of Budapest's Jews over the winter, many on the Danube embankment, while diplomats such as Raoul Wallenberg tried to protect others. On 26 December Soviet and Romanian forces closed the ring around the city, trapping some 80,000 German and Hungarian troops and around 800,000 civilians.\n\nHitler forbade a breakout and launched three relief operations from the west, all of which failed. Pest, the flat eastern half, fell on 18 January 1945 after fighting from block to block; the Germans blew the Danube bridges behind them. In hilly Buda the defenders held the castle district until, starving, they tried to break out on the night of 11 February. Few of the tens of thousands who tried reached the German lines. Organised resistance ended on 13 February.\n\nThe city was left in ruins, and Soviet troops committed widespread looting and rape against its people.",
+    "significance": "One of the longest and bloodiest city sieges of the war, Budapest consumed German forces needed elsewhere and opened the road to Vienna.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures are uncertain; those given follow Krisztián Ungváry's study.",
+    "sources": [
+      "Krisztián Ungváry, Battle for Budapest: 100 Days in World War II (1998; Eng. trans. 2003)",
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "vistula-oder-1945",
+    "title": "Vistula–Oder offensive",
+    "geometry": "area",
+    "radiusKm": 300,
+    "markers": [
+      {
+        "name": "Warsaw",
+        "lon": 21.01,
+        "lat": 52.23
+      },
+      {
+        "name": "Kraków",
+        "lon": 19.94,
+        "lat": 50.06
+      },
+      {
+        "name": "Küstrin (Kostrzyn) on the Oder",
+        "lon": 14.63,
+        "lat": 52.58
+      }
+    ],
+    "kind": "campaign",
+    "start": "1945-01-12",
+    "end": "1945-02-02",
+    "datePrecision": "day",
+    "place": "Poland from the Vistula to the Oder",
+    "lon": 18,
+    "lat": 51.8,
+    "locationCertainty": "approximate",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union and Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Harpe",
+        "Schörner",
+        "Himmler"
+      ],
+      "opponent": [
+        "Zhukov",
+        "Konev"
+      ]
+    },
+    "strength": {
+      "focus": "c. 400,000–450,000",
+      "opponent": "c. 2.2 million"
+    },
+    "casualties": "Soviet c. 194,000, including c. 43,000 killed; German losses very heavy, including many tens of thousands captured",
+    "outcome": "defeat",
+    "summary": "Zhukov and Konev burst out of their bridgeheads on the Vistula and in three weeks race 500 km across Poland to the Oder, less than 80 km from Berlin.",
+    "detail": "Brought forward at Churchill's request to relieve pressure in the Ardennes, the Soviet winter offensive opened on 12 January 1945, when Konev's 1st Ukrainian Front attacked out of the Sandomierz bridgehead; Zhukov's 1st Belorussian Front followed on the 14th. Against German forces outnumbered several times over, the tank armies broke into open country within days.\n\nWarsaw, a ruined and largely empty city, fell on 17 January; Kraków was taken intact on the 19th; Łódź, Poznań's surroundings and the industrial region of Upper Silesia followed. To the north, the East Prussian offensive cut off that province, and millions of German civilians fled west in midwinter, by road, across the frozen lagoon and by sea; the sinking of the liner Wilhelm Gustloff on 30 January killed some 9,000. Soviet troops entering Germany committed mass rape and killing.\n\nBy the end of January Zhukov's spearheads had reached the Oder at Küstrin and seized bridgeheads on its west bank. There, exhausted and outrunning their supplies, they halted.",
+    "significance": "The fastest advance of the war on the Eastern Front brought the Red Army within striking distance of Berlin and took the last German industrial region outside the Ruhr.",
+    "certainty": "high",
+    "uncertaintyNote": "Soviet losses are Krivosheev's official figures; German losses were never fully counted.",
+    "sources": [
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)",
+      "Antony Beevor, Berlin: The Downfall 1945 (2002)",
+      "Ian Kershaw, The End: Germany 1944–45 (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liberation-of-auschwitz-1945",
+    "title": "Liberation of Auschwitz",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Auschwitz I (main camp)",
+        "lon": 19.2,
+        "lat": 50.03
+      },
+      {
+        "name": "Auschwitz II-Birkenau",
+        "lon": 19.18,
+        "lat": 50.04
+      },
+      {
+        "name": "Monowitz (Auschwitz III)",
+        "lon": 19.28,
+        "lat": 50.03
+      }
+    ],
+    "kind": "massacre",
+    "start": "1945-01-27",
+    "datePrecision": "day",
+    "place": "Auschwitz (Oświęcim), annexed Upper Silesia, Poland",
+    "lon": 19.2,
+    "lat": 50.035,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany (SS camp administration)",
+      "opponent": "Prisoners of Auschwitz; Soviet Union (60th Army)"
+    },
+    "commanders": {
+      "focus": [
+        "Himmler",
+        "Baer"
+      ],
+      "opponent": [
+        "Konev",
+        "Kurochkin"
+      ]
+    },
+    "casualties": "c. 1.1 million people murdered at Auschwitz, about 1 million of them Jews; c. 7,000 prisoners found alive at liberation",
+    "outcome": "n/a",
+    "summary": "Soviet soldiers enter Auschwitz and find some 7,000 sick and starving prisoners. The SS has driven the rest west on death marches and tried to destroy the evidence of the largest murder site in history.",
+    "detail": "Auschwitz grew from a concentration camp for Polish prisoners into a vast complex of camps, including the extermination centre at Birkenau, where from 1942 Jews were brought from across Europe and most were murdered in gas chambers on arrival. About 1.1 million people were killed there: around a million Jews, and also Poles, Roma, Soviet prisoners of war and others.\n\nAs the Red Army approached in January 1945, the SS blew up the crematoria and burned records. Between 17 and 21 January some 56,000 or more prisoners were marched west through snow towards camps in the Reich, and many thousands were shot or died on the roads. About 7,000 prisoners too weak to walk were left behind.\n\nOn the afternoon of 27 January soldiers of the Soviet 60th Army reached the main camp, Birkenau and Monowitz. They found survivors near death, hundreds of corpses, and in the storehouses hundreds of thousands of garments and some seven tonnes of human hair. Soviet and Polish medical teams tried to save the survivors; many died in the following weeks.",
+    "significance": "Auschwitz became the central symbol of the Holocaust; 27 January is now International Holocaust Remembrance Day.",
+    "certainty": "high",
+    "uncertaintyNote": "The atlas treats this as an atrocity site rather than a battle, so 'n/a'. The death toll follows Franciszek Piper's research for the Auschwitz-Birkenau State Museum; earlier Soviet claims of 4 million were wrong.",
+    "sources": [
+      "Yisrael Gutman and Michael Berenbaum (eds), Anatomy of the Auschwitz Death Camp (1994)",
+      "Danuta Czech, Auschwitz Chronicle 1939–1945 (1990)",
+      "Nikolaus Wachsmann, KL: A History of the Nazi Concentration Camps (2015)",
+      "Laurence Rees, Auschwitz: The Nazis and the 'Final Solution' (2005)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "manila-1945",
+    "title": "Battle of Manila",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Intramuros",
+        "lon": 120.975,
+        "lat": 14.59
+      }
+    ],
+    "kind": "battle",
+    "start": "1945-02-03",
+    "end": "1945-03-03",
+    "datePrecision": "day",
+    "place": "Manila, Luzon, the Philippines",
+    "lon": 120.98,
+    "lat": 14.59,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and Philippine Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Iwabuchi",
+        "Yamashita"
+      ],
+      "opponent": [
+        "MacArthur",
+        "Griswold"
+      ]
+    },
+    "casualties": "Filipino civilians c. 100,000; Japanese c. 16,000; US c. 1,000 killed and c. 5,500 wounded",
+    "outcome": "defeat",
+    "summary": "Japanese naval troops refuse to abandon Manila and fight the Americans street by street. In a month of battle and massacre some 100,000 civilians die, and the old city is destroyed.",
+    "detail": "When the Americans landed on Luzon in January 1945, Yamashita planned to defend the mountains and leave Manila. But Rear-Admiral Iwabuchi Sanji's naval troops, some 16,000 men, stayed to fight, destroying the port and fortifying the city's concrete buildings and the walled Spanish town of Intramuros.\n\nAmerican troops entered on 3 February and freed internees at Santo Tomas university. The battle that followed was fought building by building. MacArthur forbade bombing, but artillery was used in quantity, and much of the city was destroyed. As they were cornered, Japanese troops massacred civilians in churches, hospitals and homes, raped women and girls, and set whole districts on fire; these crimes later figured in Yamashita's trial and execution.\n\nIntramuros was stormed in late February, and the last resistance ended on 3 March. Iwabuchi died in the fighting. Manila was, after Warsaw, among the most thoroughly destroyed Allied capitals of the war.",
+    "significance": "The battle cost the lives of a large part of Manila's population and much of its heritage, and remains a central memory of the war in the Philippines.",
+    "certainty": "high",
+    "uncertaintyNote": "The civilian toll of c. 100,000 is the commonly cited estimate; how many died at Japanese hands and how many from American shelling cannot be precisely separated.",
+    "sources": [
+      "Richard Connaughton, John Pimlott and Duncan Anderson, The Battle for Manila (1995)",
+      "James M. Scott, Rampage: MacArthur, Yamashita, and the Battle of Manila (2018)",
+      "Max Hastings, Nemesis (2007)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "yalta-1945",
+    "title": "Yalta Conference",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1945-02-04",
+    "end": "1945-02-11",
+    "datePrecision": "day",
+    "place": "Livadia Palace, Yalta, Crimea",
+    "lon": 34.14,
+    "lat": 44.47,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Soviet Union",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Stalin",
+        "Molotov"
+      ],
+      "opponent": [
+        "Roosevelt",
+        "Churchill",
+        "Eden",
+        "Stettinius"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Roosevelt, Churchill and Stalin meet in the Crimea to settle the shape of the post-war world: the occupation of Germany, Poland's borders and government, the United Nations and Soviet entry into the war with Japan.",
+    "detail": "The 'Big Three' met at the former tsarist palace of Livadia from 4 to 11 February 1945, with Soviet armies on the Oder and the Western Allies recovering from the Ardennes. Roosevelt, visibly ill, sought above all Soviet participation in the war against Japan and in a United Nations organisation; Churchill fought for France's place and for Poland.\n\nThe conference agreed that Germany would be occupied in zones, with a French zone carved from the British and American ones, disarmed and made to pay reparations. Poland's eastern border would follow roughly the Curzon Line, with compensation in the west, and the communist-led provisional government would be 'reorganised' and hold free elections. A Declaration on Liberated Europe promised democratic governments chosen by the people. In a secret agreement Stalin undertook to enter the war against Japan within two or three months of Germany's surrender, in return for southern Sakhalin, the Kuril Islands and rights in Manchuria.\n\nThe agreements also provided for the return of Soviet citizens, which led to the forced repatriation of many who did not wish to go.",
+    "significance": "Yalta set much of the post-war settlement in Europe and Asia; its promises on Poland and Eastern Europe were not kept, and it became a byword in the West for the division of Europe.",
+    "certainty": "high",
+    "uncertaintyNote": "No Axis power took part, so the slots hold the Soviet Union and the Western Allies, and the outcome is 'n/a'. How far Yalta 'gave away' Eastern Europe, already occupied by the Red Army, remains debated.",
+    "sources": [
+      "S.M. Plokhy, Yalta: The Price of Peace (2010)",
+      "Gerhard L. Weinberg, A World at Arms (1994)",
+      "Herbert Feis, Churchill, Roosevelt, Stalin (1957)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "dresden-1945",
+    "title": "Bombing of Dresden",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1945-02-13",
+    "end": "1945-02-15",
+    "datePrecision": "day",
+    "place": "Dresden, Saxony",
+    "lon": 13.74,
+    "lat": 51.05,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany (the people of Dresden)",
+      "opponent": "Britain and the United States (RAF Bomber Command and US Eighth Air Force)"
+    },
+    "commanders": {
+      "opponent": [
+        "Harris",
+        "Spaatz"
+      ]
+    },
+    "casualties": "c. 18,000–25,000 killed",
+    "outcome": "n/a",
+    "summary": "Two night raids by RAF Bomber Command and daylight attacks by American bombers raise a firestorm in Dresden. Up to 25,000 people die, many of them refugees, in one of the war's most controversial raids.",
+    "detail": "Dresden, a baroque city on the Elbe, had been little bombed and was crowded with refugees fleeing the Red Army. It was also a rail junction and an industrial centre, and at Yalta the Soviets had asked for attacks on communications behind the German front.\n\nOn the night of 13–14 February 1945 about 800 RAF Lancasters attacked in two waves, the second timed to catch rescuers in the open. High explosive and incendiaries started a firestorm that sucked the air from shelters and burned out the old city. The next day more than 300 American B-17s bombed the rail yards, and they returned on 15 February.\n\nNazi propaganda multiplied the death toll tenfold and more, and inflated figures circulated for decades. A commission of historians appointed by the city concluded in 2010 that up to 25,000 people had been killed. In March Churchill himself questioned the bombing of German cities 'simply for the sake of increasing the terror'.",
+    "significance": "Dresden became the emblem of the moral debate over the Allied area-bombing of cities, which killed several hundred thousand German civilians.",
+    "certainty": "high",
+    "uncertaintyNote": "This is an Allied raid, not an Axis action; following the atlas convention the city's side appears as 'focus' and the outcome is 'n/a'. Death tolls of 135,000 or more, long cited, derive from Nazi propaganda and are rejected by historians.",
+    "sources": [
+      "Frederick Taylor, Dresden: Tuesday 13 February 1945 (2004)",
+      "Richard Overy, The Bombing War: Europe 1939–1945 (2013)",
+      "Rolf-Dieter Müller, Nicole Schönherr and Thomas Widera (eds), Die Zerstörung Dresdens (2010)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "iwo-jima-1945",
+    "title": "Battle of Iwo Jima",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Mount Suribachi",
+        "lon": 141.29,
+        "lat": 24.75
+      }
+    ],
+    "kind": "battle",
+    "start": "1945-02-19",
+    "end": "1945-03-26",
+    "datePrecision": "day",
+    "place": "Iwo Jima, Volcano Islands",
+    "lon": 141.32,
+    "lat": 24.78,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Kuribayashi"
+      ],
+      "opponent": [
+        "Holland Smith",
+        "Schmidt",
+        "Turner",
+        "Spruance"
+      ]
+    },
+    "strength": {
+      "focus": "c. 21,000",
+      "opponent": "c. 70,000 Marines landed"
+    },
+    "casualties": "Japanese c. 18,000–19,000 killed, c. 216 captured; US c. 26,000, including c. 6,800 killed",
+    "outcome": "defeat",
+    "summary": "Three Marine divisions storm a small volcanic island honeycombed with tunnels. A flag rises over Mount Suribachi on the fifth day, but the fighting lasts five weeks and costs more American casualties than Japanese.",
+    "detail": "Iwo Jima, eight square miles of volcanic ash and rock midway between the Marianas and Tokyo, was wanted as an emergency field for B-29s and a base for escort fighters. Its commander, Kuribayashi Tadamichi, abandoned beach defence and banzai charges; his men dug kilometres of tunnels and bunkers and waited.\n\nThe 4th and 5th Marine Divisions landed on 19 February 1945 into soft ash that bogged down vehicles, and then into fire from hidden positions across the whole island. On 23 February Marines raised the flag on Mount Suribachi; a photograph of the second, larger flag-raising became the most famous image of the Pacific war. The 3rd Division joined the battle in the centre, and the Marines fought through the northern plateau, cave by cave, with flamethrowers and demolitions.\n\nOrganised resistance ended on 26 March. Almost the entire garrison died; only some 200 were captured. By the war's end some 2,000 B-29s had made emergency landings on the island.",
+    "significance": "The only major Pacific battle in which American casualties exceeded Japanese, Iwo Jima foreshadowed the cost of invading Japan itself.",
+    "certainty": "high",
+    "uncertaintyNote": "The value of the island to the bombing campaign, and whether it justified its cost, has been debated.",
+    "sources": [
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
+      "Ronald H. Spector, Eagle Against the Sun (1985)",
+      "Max Hastings, Nemesis (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "remagen-1945",
+    "title": "Remagen and the Rhine crossings",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Oppenheim",
+        "lon": 8.36,
+        "lat": 49.86
+      },
+      {
+        "name": "Wesel",
+        "lon": 6.62,
+        "lat": 51.66
+      }
+    ],
+    "kind": "battle",
+    "start": "1945-03-07",
+    "end": "1945-03-24",
+    "datePrecision": "day",
+    "place": "The Ludendorff railway bridge at Remagen, and the Rhine from Wesel to Oppenheim",
+    "lon": 7.24,
+    "lat": 50.58,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States, Britain and Canada"
+    },
+    "commanders": {
+      "focus": [
+        "Kesselring",
+        "Model"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Bradley",
+        "Hodges",
+        "Patton",
+        "Montgomery"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "American troops find the railway bridge at Remagen still standing and rush across the Rhine. Within three weeks Patton and Montgomery have crossed in force, and the last barrier into Germany is gone.",
+    "detail": "On 7 March 1945 a task force of the US 9th Armored Division reached the heights above Remagen and saw the Ludendorff railway bridge intact. As American infantry ran onto it, the German defenders fired their demolition charges, but the bridge lifted and settled back. Within a day thousands of troops were across. Hitler had several officers court-martialled and shot, and replaced Rundstedt with Kesselring as commander in the west. The damaged bridge collapsed on 17 March, but pontoon bridges were already in place.\n\nOn the night of 22–23 March Patton's Third Army crossed almost unopposed at Oppenheim. On 23–24 March Montgomery's 21st Army Group crossed near Wesel after an enormous bombardment, supported by Operation Varsity, the largest airborne drop of the war in a single day.\n\nThe Allied armies then encircled the Ruhr, trapping Model's Army Group B; more than 300,000 men surrendered in April, and Model shot himself.",
+    "significance": "The crossing of the Rhine removed Germany's last great natural defence in the west and opened the way into the heart of the Reich.",
+    "certainty": "high",
+    "uncertaintyNote": "Accounts differ on why the Remagen charges failed: faulty fuses, a hit on the main circuit, or a weak commercial explosive.",
+    "sources": [
+      "Rick Atkinson, The Guns at Last Light (2013)",
+      "Charles B. MacDonald, The Last Offensive (US Army official history, 1973)",
+      "Max Hastings, Armageddon: The Battle for Germany 1944–45 (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tokyo-firebombing-1945",
+    "title": "Firebombing of Tokyo",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1945-03-09",
+    "end": "1945-03-10",
+    "datePrecision": "day",
+    "place": "Tokyo, chiefly the districts east of the Sumida river",
+    "lon": 139.8,
+    "lat": 35.7,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Japan (the people of Tokyo)",
+      "opponent": "United States (Twentieth Air Force)"
+    },
+    "commanders": {
+      "opponent": [
+        "LeMay"
+      ]
+    },
+    "strength": {
+      "opponent": "c. 330 B-29s"
+    },
+    "casualties": "c. 80,000–100,000 killed; c. 1 million made homeless",
+    "outcome": "n/a",
+    "summary": "Some 300 B-29s fly low over Tokyo at night with incendiary bombs. The fire destroys about 40 square kilometres of the city and kills perhaps 100,000 people, the deadliest air raid in history.",
+    "detail": "High-altitude precision bombing of Japanese factories had achieved little, and Curtis LeMay, commanding the B-29s in the Marianas, changed tactics. Stripping his bombers of most guns to carry more bombs, he sent them in at low altitude, at night, against the most densely built districts of Tokyo, where small workshops fed Japanese industry among wooden homes.\n\nIn the night of 9–10 March 1945 some 330 B-29s took off, and the leading aircraft marked the target with fire. The napalm-filled bombs that followed, driven by a strong wind, raised a conflagration that engulfed the working-class districts east of the Sumida. People sheltering in canals and the river were boiled or drowned; others died in the streets as the fire outran them. About 40 square kilometres burned.\n\nOver the following months the same methods were turned on Nagoya, Osaka, Kobe and almost every Japanese city of any size, killing several hundred thousand more civilians before the atomic bombs.",
+    "significance": "The Tokyo raid killed more people than any other single air attack, including Hiroshima and Nagasaki, and opened a campaign that burned out Japan's cities.",
+    "certainty": "high",
+    "uncertaintyNote": "This is an American raid on a Japanese city: following the atlas convention the city's side is 'focus' and the outcome is 'n/a'. Japanese police counted c. 83,000 dead; other estimates reach 100,000 or more.",
+    "sources": [
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
+      "Max Hastings, Nemesis (2007)",
+      "Ronald H. Spector, Eagle Against the Sun (1985)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "okinawa-1945",
+    "title": "Battle of Okinawa",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Hagushi beaches",
+        "lon": 127.74,
+        "lat": 26.36
+      },
+      {
+        "name": "Shuri Castle",
+        "lon": 127.72,
+        "lat": 26.22
+      },
+      {
+        "name": "Yamato sunk, 7 April",
+        "lon": 128.07,
+        "lat": 30.43
+      }
+    ],
+    "kind": "battle",
+    "start": "1945-04-01",
+    "end": "1945-06-22",
+    "datePrecision": "day",
+    "place": "Okinawa, Ryukyu Islands, and the seas around it",
+    "lon": 127.75,
+    "lat": 26.3,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States and Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Ushijima",
+        "Cho",
+        "Yahara",
+        "Ito Seiichi"
+      ],
+      "opponent": [
+        "Buckner",
+        "Spruance",
+        "Turner",
+        "Geiger"
+      ]
+    },
+    "strength": {
+      "focus": "c. 100,000 including Okinawan conscripts",
+      "opponent": "c. 180,000 assault troops, later over 250,000"
+    },
+    "casualties": "Japanese c. 75,000–110,000 soldiers; Okinawan civilians c. 100,000–150,000; US c. 12,500 dead (including c. 4,900 at sea) and c. 36,000 wounded",
+    "outcome": "defeat",
+    "summary": "The last and bloodiest battle of the Pacific war. For 82 days Americans fight across Okinawa while kamikazes strike the fleet; the giant battleship Yamato is sunk on a one-way sortie, and civilians die in vast numbers.",
+    "detail": "On 1 April 1945 four American divisions landed unopposed on Okinawa's Hagushi beaches. Ushijima's Thirty-Second Army waited in the south, dug into ridges around Shuri Castle, and there the battle became an attritional struggle through the spring rains, ridge by ridge.\n\nAt sea, Japan launched waves of kamikaze aircraft against the fleet, sinking some 30 ships and damaging hundreds; the US Navy suffered its heaviest losses of the war. On 6 April the battleship Yamato sailed on a one-way mission with fuel to reach Okinawa and beach herself as a fortress; on 7 April, south-west of Kyushu, American carrier aircraft sank her with some 3,000 of her crew.\n\nThe Shuri line was abandoned at the end of May, and the remnants retreated to the southern tip, where they were crowded together with civilians. Buckner was killed on 18 June; Ushijima took his life around 22 June. Okinawan civilians, a quarter or more of the population, died in crossfire, of hunger, at the hands of Japanese soldiers, and in suicides that the army urged or forced upon them.",
+    "significance": "Okinawa's toll shaped American estimates of the cost of invading Japan, and so the decision to use the atomic bomb; the island remained under US rule until 1972.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese military and civilian death figures overlap, because many Okinawans were conscripted, and estimates vary widely. The point is central Okinawa; a marker shows where Yamato sank.",
+    "sources": [
+      "George Feifer, Tennozan: The Battle of Okinawa and the Atomic Bomb (1992)",
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
+      "Max Hastings, Nemesis (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "liberation-of-the-camps-1945",
+    "title": "Liberation of Bergen-Belsen and Dachau",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Buchenwald",
+        "lon": 11.25,
+        "lat": 51.02
+      },
+      {
+        "name": "Dachau",
+        "lon": 11.47,
+        "lat": 48.27
+      }
+    ],
+    "kind": "massacre",
+    "start": "1945-04-11",
+    "end": "1945-04-29",
+    "datePrecision": "day",
+    "place": "Bergen-Belsen, near Celle, Lower Saxony; Buchenwald near Weimar; Dachau near Munich",
+    "lon": 9.91,
+    "lat": 52.76,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany (SS camp administration)",
+      "opponent": "Camp prisoners; British and US forces"
+    },
+    "commanders": {
+      "focus": [
+        "Kramer",
+        "Himmler"
+      ]
+    },
+    "casualties": "At Bergen-Belsen c. 10,000 unburied dead were found and c. 13,000 more died after liberation; tens of thousands died in the camps of the Reich in the last months of the war",
+    "outcome": "n/a",
+    "summary": "American and British troops reach the concentration camps inside Germany: Buchenwald on 11 April, Bergen-Belsen on 15 April, Dachau on 29 April. What they find, filmed and broadcast, shocks the world.",
+    "detail": "In the war's last months the camps inside Germany filled with prisoners driven west on death marches from the east. Food and sanitation collapsed; typhus and starvation killed tens of thousands. At Bergen-Belsen, where Anne and Margot Frank had died in February or March, the death rate soared.\n\nOn 11 April 1945 American troops reached Buchenwald, near Weimar, where prisoners had taken control as the SS fled. On 15 April, under a local truce, the British 11th Armoured Division entered Bergen-Belsen and found some 60,000 prisoners, many dying, and around 10,000 unburied bodies. Despite medical relief, some 13,000 more died in the following weeks. On 29 April the US Seventh Army reached Dachau, the first concentration camp, opened in 1933, and found a train of wagons filled with corpses; some SS guards were killed by enraged soldiers.\n\nThe Allied commanders made German civilians and soldiers visit the camps, and press photographs, newsreels and the BBC's broadcasts from Belsen carried the scenes across the world.",
+    "significance": "The liberation of the western camps fixed the image of Nazi crimes in Western memory and provided much of the evidence later heard at Nuremberg.",
+    "certainty": "high",
+    "uncertaintyNote": "The atlas treats the camps as sites of atrocity, so 'n/a'. Belsen was not an extermination camp of the Birkenau type, though mass death there was the result of deliberate neglect; numbers of dead are approximate.",
+    "sources": [
+      "Nikolaus Wachsmann, KL: A History of the Nazi Concentration Camps (2015)",
+      "Ben Shephard, After Daybreak: The Liberation of Belsen, 1945 (2005)",
+      "Dan Stone, The Liberation of the Camps (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "battle-of-berlin-1945",
+    "title": "Battle of Berlin and Hitler's suicide",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Seelow Heights",
+        "lon": 14.38,
+        "lat": 52.53
+      },
+      {
+        "name": "Reichstag",
+        "lon": 13.376,
+        "lat": 52.519
+      },
+      {
+        "name": "Führerbunker",
+        "lon": 13.381,
+        "lat": 52.512
+      }
+    ],
+    "kind": "battle",
+    "start": "1945-04-16",
+    "end": "1945-05-02",
+    "datePrecision": "day",
+    "place": "Berlin and the Oder–Neisse front",
+    "lon": 13.4,
+    "lat": 52.52,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union and Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Hitler",
+        "Heinrici",
+        "Busse",
+        "Weidling"
+      ],
+      "opponent": [
+        "Zhukov",
+        "Konev",
+        "Rokossovsky",
+        "Chuikov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 750,000–1,000,000 on the Oder–Neisse front, including Volkssturm and Hitler Youth",
+      "opponent": "c. 2.5 million"
+    },
+    "casualties": "Soviet and Polish c. 360,000, including c. 80,000 killed; German c. 90,000–100,000 dead and some 480,000 captured; tens of thousands of civilians",
+    "outcome": "defeat",
+    "summary": "Zhukov and Konev storm across the Oder and Neisse and encircle Berlin. As Soviet troops fight towards the Reichstag, Hitler kills himself in his bunker on 30 April; the city surrenders on 2 May.",
+    "detail": "On 16 April 1945 Zhukov's 1st Belorussian Front attacked the Seelow Heights above the Oder, where Heinrici's defenders held him for three costly days; Konev's 1st Ukrainian Front broke across the Neisse further south, and Stalin let the two marshals race for the capital. By 25 April Berlin was encircled, and the same day Soviet and American troops met on the Elbe.\n\nThe city was defended by remnants of army units, Waffen-SS, including foreign volunteers, old men of the Volkssturm and boys of the Hitler Youth. Soviet armies fought inward street by street under massive artillery fire, while civilians sheltered in cellars and U-Bahn tunnels. In the bunker beneath the Reich Chancellery Hitler married Eva Braun on 29 April; on the afternoon of 30 April, with Soviet troops a few hundred metres away, both took their own lives. Goebbels and his wife killed their six children and themselves the next day.\n\nThe Reichstag was stormed on 30 April–1 May, and on 2 May General Weidling surrendered the city. Soviet soldiers raped very large numbers of Berlin's women in the weeks that followed.",
+    "significance": "The fall of Berlin and the death of Hitler ended the Third Reich; Germany's surrender followed within a week.",
+    "certainty": "high",
+    "uncertaintyNote": "German military and civilian losses in Berlin are poorly documented and estimates vary widely; Soviet losses are Krivosheev's figures for the whole operation.",
+    "sources": [
+      "Antony Beevor, Berlin: The Downfall 1945 (2002)",
+      "Ian Kershaw, Hitler 1936–1945: Nemesis (2000)",
+      "Ian Kershaw, The End: Germany 1944–45 (2011)",
+      "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "torgau-1945",
+    "title": "Meeting on the Elbe",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Strehla",
+        "lon": 13.23,
+        "lat": 51.35
+      }
+    ],
+    "kind": "political",
+    "start": "1945-04-25",
+    "datePrecision": "day",
+    "place": "Torgau and Strehla, on the Elbe, Saxony",
+    "lon": 13.01,
+    "lat": 51.56,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States and Soviet Union"
+    },
+    "commanders": {
+      "opponent": [
+        "Hodges",
+        "Konev"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Patrols of the US 69th Infantry Division meet Soviet soldiers on the Elbe at Strehla and Torgau. The armies from east and west have joined, and Germany is cut in two.",
+    "detail": "In April 1945 the American armies, having crossed Germany from the Rhine, halted on the Elbe and the Mulde by Eisenhower's decision, leaving Berlin to the Red Army. Patrols probed eastward to find the Soviets advancing from the Oder.\n\nOn 25 April a patrol under Lieutenant Albert Kotzebue crossed the Elbe near Strehla and met soldiers of the Soviet 58th Guards Rifle Division. Later the same day Lieutenant William Robertson's patrol met Soviet troops on the wrecked bridge at Torgau. Official ceremonies, photographs and toasts followed, and 25 April became 'Elbe Day'. In Moscow, Washington and London the news was announced simultaneously.\n\nThe riverbanks were also crowded with German refugees and soldiers trying to cross westward to surrender to the Americans rather than the Soviets.",
+    "significance": "The link-up split the remains of the Reich into a northern and a southern half, and the handshake on the Elbe became a symbol of wartime alliance soon overtaken by the Cold War.",
+    "certainty": "high",
+    "uncertaintyNote": "There was no battle here, so the outcome is 'n/a'. The first contact was at Strehla, a few hours before the more famous meeting at Torgau.",
+    "sources": [
+      "Antony Beevor, Berlin: The Downfall 1945 (2002)",
+      "Rick Atkinson, The Guns at Last Light (2013)",
+      "Charles B. MacDonald, The Last Offensive (US Army official history, 1973)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "death-of-mussolini-1945",
+    "title": "Death of Mussolini",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Dongo (capture)",
+        "lon": 9.28,
+        "lat": 46.12
+      },
+      {
+        "name": "Piazzale Loreto, Milan",
+        "lon": 9.216,
+        "lat": 45.485
+      }
+    ],
+    "kind": "death",
+    "start": "1945-04-28",
+    "datePrecision": "day",
+    "place": "Giulino di Mezzegra, Lake Como, Italy",
+    "lon": 9.21,
+    "lat": 45.99,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Italy (Italian Social Republic)",
+      "opponent": "Italian partisans (CLNAI)"
+    },
+    "commanders": {
+      "focus": [
+        "Mussolini"
+      ],
+      "opponent": [
+        "Audisio",
+        "Longo"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Fleeing towards Switzerland with a German column, Mussolini is caught by partisans at Dongo. The next day he and Clara Petacci are shot; their bodies are hung in a Milan square.",
+    "detail": "Since his rescue by German commandos in 1943 Mussolini had headed the Italian Social Republic, a puppet state at Salò under German control, while Italy endured civil war as well as foreign occupation. In April 1945 the Allied spring offensive broke through into the Po valley and partisans rose in the northern cities.\n\nMussolini left Milan on 25 April. On 27 April, at Dongo on Lake Como, partisans of the 52nd Garibaldi Brigade stopped the German column he had joined and found him in a German greatcoat. On 28 April he and his mistress, Clara Petacci, were shot at Giulino di Mezzegra, by the account later made official at the hands of Walter Audisio, sent by the communist-led resistance command; other fascist leaders were shot at Dongo.\n\nOn 29 April the bodies were hung upside down from the roof of a petrol station in Piazzale Loreto in Milan, where fascists had displayed the bodies of fifteen executed partisans the previous August. That day German representatives signed the surrender of their forces in Italy at Caserta, effective on 2 May.",
+    "significance": "Mussolini's death ended Italian Fascism, two days before Hitler's suicide, and the scenes at Piazzale Loreto remain a contested image in Italy's memory of the war.",
+    "certainty": "high",
+    "uncertaintyNote": "The details of the execution, including who fired the shots and the exact time and place, have been disputed by Italian historians and journalists for decades.",
+    "sources": [
+      "R.J.B. Bosworth, Mussolini (2002)",
+      "Denis Mack Smith, Mussolini (1981)",
+      "Sergio Luzzatto, The Body of Il Duce (1998; Eng. trans. 2005)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "rangoon-1945",
+    "title": "Rangoon retaken",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Elephant Point (airborne landing)",
+        "lon": 96.3,
+        "lat": 16.47
+      },
+      {
+        "name": "Pegu",
+        "lon": 96.48,
+        "lat": 17.34
+      }
+    ],
+    "kind": "campaign",
+    "start": "1945-05-01",
+    "end": "1945-05-03",
+    "datePrecision": "day",
+    "place": "Rangoon (Yangon), Burma (Myanmar)",
+    "lon": 96.16,
+    "lat": 16.78,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain, India and the Commonwealth"
+    },
+    "commanders": {
+      "focus": [
+        "Kimura"
+      ],
+      "opponent": [
+        "Slim",
+        "Mountbatten",
+        "Christison"
+      ]
+    },
+    "outcome": "defeat",
+    "summary": "Racing the monsoon down from Meiktila, Slim's army nears Rangoon as a seaborne force lands at the river mouth. The Japanese have already gone; the capital of Burma is retaken without a fight.",
+    "detail": "After Imphal, Slim's Fourteenth Army crossed the Chindwin and the Irrawaddy. In March 1945 a bold thrust took Meiktila, the Japanese base in central Burma, and Mandalay fell; the Burma Area Army under Kimura was broken. Aung San's Burma National Army, armed by Japan, turned against its sponsors at the end of March.\n\nSlim's columns then drove south down the road and railway towards Rangoon, racing to reach the port before the monsoon cut supplies. To make sure of it, Operation Dracula was launched from the sea: on 1 May Gurkha paratroops landed at Elephant Point to clear the river mouth, and on 2 May the 26th Indian Division came ashore. Kimura had already evacuated the city. An RAF pilot flying over the jail saw that Allied prisoners had painted on its roof that the Japanese had gone. The troops entered on 3 May.\n\nThe Fourteenth Army's spearheads, held up by fighting and the first rains around Pegu, linked up a few days later.",
+    "significance": "The recapture of Rangoon completed the reconquest of most of Burma, the longest British land campaign of the war, though Japanese forces fought on in the hills until August.",
+    "certainty": "high",
+    "uncertaintyNote": "The exact wording painted on the jail roof is reported differently in different accounts.",
+    "sources": [
+      "William Slim, Defeat into Victory (1956)",
+      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)",
+      "Louis Allen, Burma: The Longest War 1941–45 (1984)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "prague-uprising-1945",
+    "title": "Prague Uprising",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Czech Radio building",
+        "lon": 14.43,
+        "lat": 50.077
+      }
+    ],
+    "kind": "battle",
+    "start": "1945-05-05",
+    "end": "1945-05-09",
+    "datePrecision": "day",
+    "place": "Prague",
+    "lon": 14.42,
+    "lat": 50.08,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Czech insurgents, with Soviet forces"
+    },
+    "commanders": {
+      "focus": [
+        "Schörner",
+        "Toussaint"
+      ],
+      "opponent": [
+        "Kutlvašr",
+        "Konev",
+        "Bunyachenko"
+      ]
+    },
+    "casualties": "Czech insurgents and civilians c. 1,700 killed; German c. 1,000; Soviet c. 30 in the city itself; figures approximate",
+    "outcome": "defeat",
+    "summary": "As the Reich collapses, the people of Prague rise against the German garrison and throw up barricades. After four days of fighting the Germans capitulate, and the Red Army enters on 9 May.",
+    "detail": "On the morning of 5 May 1945 Czech insurgents seized the radio building in Prague and broadcast an appeal to the city to rise. Some 1,600 barricades went up, and police, former soldiers and civilians fought German troops and SS units for control of the city, while the Waffen-SS used armour and committed reprisal killings.\n\nThe insurgents received unexpected help from the 1st Division of the Russian Liberation Army, Soviet prisoners who had joined the Germans under General Vlasov and now changed sides, hoping to win Western protection; they withdrew on 7 May. The American Third Army, only some 80 km away at Pilsen, was held back by agreement with the Soviets.\n\nOn 8 May the German commander, General Rudolf Toussaint, signed a capitulation allowing his troops to leave westward. Konev's tank armies, racing from Berlin and Dresden, entered Prague on 9 May and destroyed the last German forces of Army Group Centre in Bohemia over the following days. Violence against Prague's German civilians followed the liberation.",
+    "significance": "The Prague rising was the last major battle of the war in Europe, and its liberation by the Red Army shaped Czechoslovakia's post-war turn to the east.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary. The event begins before VE Day and so belongs to the 'collapse' chapter.",
+    "sources": [
+      "Chad Bryant, Prague in Black: Nazi Rule and Czech Nationalism (2007)",
+      "Antony Beevor, Berlin: The Downfall 1945 (2002)",
+      "Ian Kershaw, The End: Germany 1944–45 (2011)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "german-surrender-1945",
+    "title": "Germany surrenders: VE Day",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Reims (SHAEF, signing of 7 May)",
+        "lon": 4.03,
+        "lat": 49.26
+      },
+      {
+        "name": "Lüneburg Heath (surrender of 4 May)",
+        "lon": 10.47,
+        "lat": 53.22
+      },
+      {
+        "name": "Flensburg (Dönitz government)",
+        "lon": 9.44,
+        "lat": 54.79
+      }
+    ],
+    "kind": "treaty",
+    "start": "1945-05-08",
+    "datePrecision": "day",
+    "place": "Berlin-Karlshorst, after the signing at Reims",
+    "lon": 13.53,
+    "lat": 52.49,
+    "locationCertainty": "exact",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "United States, Britain, the Soviet Union and France"
+    },
+    "commanders": {
+      "focus": [
+        "Dönitz",
+        "Jodl",
+        "Keitel",
+        "Friedeburg"
+      ],
+      "opponent": [
+        "Eisenhower",
+        "Bedell Smith",
+        "Susloparov",
+        "Zhukov",
+        "Tedder"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Germany's armed forces surrender unconditionally, signed at Reims early on 7 May and again in Berlin late on 8 May. Crowds fill the streets of the Allied capitals: the war in Europe is over.",
+    "detail": "After Hitler's death, Grand Admiral Dönitz, his designated successor, tried to surrender to the Western Allies piecemeal while letting soldiers and civilians escape the Red Army. German forces in Italy had surrendered on 2 May; on 4 May Montgomery accepted the surrender of those in north-west Germany, the Netherlands and Denmark on Lüneburg Heath.\n\nEisenhower insisted on unconditional surrender on all fronts. At 2.41 a.m. on 7 May, in a schoolhouse at Reims that served as his headquarters, General Alfred Jodl signed the act of surrender, to take effect at 23.01 Central European Time on 8 May. Stalin demanded a second ceremony in Berlin, before Soviet commanders. Late on 8 May at Karlshorst, Field Marshal Keitel signed again in the presence of Zhukov, Tedder and American and French representatives; in Moscow it was already 9 May, which became the Soviet Union's Victory Day.\n\nCrowds celebrated in London, Paris, New York and Moscow. In Germany fighting flickered on in places, and the Dönitz government was arrested at Flensburg on 23 May.",
+    "significance": "The surrender ended almost six years of war in Europe, in which tens of millions had died, and left Germany wholly occupied and without a government of its own.",
+    "certainty": "high",
+    "uncertaintyNote": "The event is dated to 8 May, the day of the Berlin signing and of VE Day; the first signing at Reims was in the early hours of 7 May. Soviet and successor states mark 9 May.",
+    "sources": [
+      "Ian Kershaw, The End: Germany 1944–45 (2011)",
+      "Antony Beevor, Berlin: The Downfall 1945 (2002)",
+      "Gerhard L. Weinberg, A World at Arms (1994)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "potsdam-1945",
+    "title": "Potsdam Conference",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1945-07-17",
+    "end": "1945-08-02",
+    "datePrecision": "day",
+    "place": "Cecilienhof Palace, Potsdam",
+    "lon": 13.07,
+    "lat": 52.42,
+    "locationCertainty": "exact",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Japan and occupied Germany (the subjects of the conference)",
+      "opponent": "United States, Britain and the Soviet Union"
+    },
+    "commanders": {
+      "opponent": [
+        "Truman",
+        "Churchill",
+        "Attlee",
+        "Stalin"
+      ]
+    },
+    "outcome": "n/a",
+    "summary": "Truman, Stalin and Churchill, replaced midway by Attlee, settle the occupation of Germany and Poland's new western border. The Potsdam Declaration calls on Japan to surrender or face 'prompt and utter destruction'.",
+    "detail": "The last wartime conference of the Big Three met in the Cecilienhof palace from 17 July 1945. Truman had succeeded Roosevelt in April; Churchill left in the middle to hear the results of the British general election and was replaced by the new Labour prime minister, Clement Attlee.\n\nThe Allies agreed to govern Germany through a Control Council, with four occupation zones; it was to be disarmed, denazified and democratised, and reparations were to be taken largely from each power's own zone. The lands east of the Oder and Neisse were placed under Polish administration pending a peace treaty, and the conference approved the 'orderly and humane' transfer of German populations from Poland, Czechoslovakia and Hungary. In practice the expulsions, which displaced some 12 million Germans, were often brutal.\n\nOn 16 July the first atomic bomb had been tested in New Mexico, and on 24 July Truman told Stalin that the United States had a new weapon of unusual destructive force. On 26 July the United States, Britain and China issued the Potsdam Declaration, demanding Japan's unconditional surrender. Japan's government did not accept it.",
+    "significance": "Potsdam drew the lines of post-war Germany and Poland and delivered the ultimatum that preceded the atomic bombings; the strains between the Allies were already plain.",
+    "certainty": "high",
+    "uncertaintyNote": "This was a conference, so the outcome is 'n/a'; the 'focus' slot names the Axis states whose fate it decided. The Japanese prime minister's response to the Declaration, often translated as 'ignore it', is debated.",
+    "sources": [
+      "Michael Neiberg, Potsdam: The End of World War II and the Remaking of Europe (2015)",
+      "Tsuyoshi Hasegawa, Racing the Enemy (2005)",
+      "R.M. Douglas, Orderly and Humane: The Expulsion of the Germans after the Second World War (2012)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "hiroshima-1945",
+    "title": "Atomic bombing of Hiroshima",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Hypocentre near the Aioi Bridge",
+        "lon": 132.4536,
+        "lat": 34.3955
+      }
+    ],
+    "kind": "raid",
+    "start": "1945-08-06",
+    "datePrecision": "day",
+    "place": "Hiroshima, Honshu, Japan",
+    "lon": 132.45,
+    "lat": 34.39,
+    "locationCertainty": "exact",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Japan (the people of Hiroshima)",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "opponent": [
+        "Truman",
+        "Tibbets"
+      ]
+    },
+    "casualties": "c. 70,000–80,000 killed outright; c. 140,000 dead by the end of 1945, including many Korean labourers",
+    "outcome": "n/a",
+    "summary": "A single American bomb, a uranium weapon called Little Boy, destroys Hiroshima. Tens of thousands die in an instant, and by the end of the year perhaps 140,000 are dead of burns, injuries and radiation.",
+    "detail": "At 8.15 on the morning of 6 August 1945 the B-29 Enola Gay, flown by Colonel Paul Tibbets from Tinian, dropped Little Boy over the centre of Hiroshima, a city of some 300,000 people and the headquarters of the army defending southern Japan. The bomb exploded about 600 metres above the ground near the Aioi Bridge.\n\nThe flash and heat burned people in the open several kilometres away; the blast flattened most buildings within about two kilometres, and fires consumed what remained. Many of the dead were schoolchildren mobilised to clear firebreaks. Thousands of Korean forced labourers and some American prisoners of war were among the victims. Survivors, the hibakusha, suffered in the following weeks and years from radiation sickness, cancers and lasting injury.\n\nTruman announced that the bomb harnessed the basic power of the universe, and warned Japan of a 'rain of ruin'. Japan's leaders, still hoping for Soviet mediation, did not at once agree to surrender.",
+    "significance": "The first use of a nuclear weapon in war opened the atomic age; the decision and its role in Japan's surrender are still argued over.",
+    "certainty": "high",
+    "uncertaintyNote": "This is an American attack on a Japanese city: following the atlas convention the city's side is 'focus' and the outcome is 'n/a'. Death tolls are estimates; the city's figure of c. 140,000 by December 1945 is widely used.",
+    "sources": [
+      "Richard Rhodes, The Making of the Atomic Bomb (1986)",
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
+      "Tsuyoshi Hasegawa, Racing the Enemy (2005)",
+      "John Hersey, Hiroshima (1946)"
+    ],
+    "importance": 3
+  },
+  {
+    "id": "manchuria-1945",
+    "title": "Soviet invasion of Manchuria",
+    "geometry": "area",
+    "radiusKm": 900,
+    "markers": [
+      {
+        "name": "Harbin",
+        "lon": 126.63,
+        "lat": 45.75
+      },
+      {
+        "name": "Mukden (Shenyang)",
+        "lon": 123.43,
+        "lat": 41.8
+      },
+      {
+        "name": "Hailar",
+        "lon": 119.74,
+        "lat": 49.21
+      }
+    ],
+    "kind": "campaign",
+    "start": "1945-08-09",
+    "end": "1945-08-20",
+    "datePrecision": "day",
+    "place": "Manchuria (Manchukuo), northern Korea, southern Sakhalin and the Kurils",
+    "lon": 125,
+    "lat": 45,
+    "locationCertainty": "approximate",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Japan (Kwantung Army) and Manchukuo",
+      "opponent": "Soviet Union and Mongolia"
+    },
+    "commanders": {
+      "focus": [
+        "Yamada Otozo"
+      ],
+      "opponent": [
+        "Vasilevsky",
+        "Malinovsky",
+        "Meretskov",
+        "Purkayev"
+      ]
+    },
+    "strength": {
+      "focus": "c. 700,000–1,000,000, many poorly trained",
+      "opponent": "c. 1.5 million"
+    },
+    "casualties": "Soviet c. 12,000 killed; Japanese c. 80,000 or more killed and c. 600,000 taken prisoner; very heavy losses among Japanese settlers",
+    "outcome": "defeat",
+    "summary": "Just after midnight on 9 August, three Soviet fronts invade Manchuria from west, north and east. The hollowed-out Kwantung Army collapses within days, and Japan's last hope of Soviet mediation dies.",
+    "detail": "As promised at Yalta, the Soviet Union declared war on Japan on 8 August 1945, three months after Germany's surrender, and attacked in the first hour of 9 August. Vasilevsky commanded some 1.5 million troops, many of them veterans moved across Siberia since the spring. Malinovsky's Transbaikal Front crossed the Greater Khingan mountains and the desert from Mongolia; Meretskov's 1st Far Eastern Front broke in from the Maritime Province, and Purkayev's 2nd Far Eastern Front crossed the Amur.\n\nThe Kwantung Army, once Japan's finest, had been stripped of men and equipment for the Pacific. Its fortified zones were bypassed or overrun, and Soviet tank armies drove deep into the Manchurian plain within a week. After the emperor's broadcast of 15 August, Yamada ordered his forces to surrender; Soviet troops reached Harbin, Mukden and Port Arthur by airborne landings and kept advancing into northern Korea, southern Sakhalin and the Kurils into early September.\n\nJapanese settlers caught in the collapse died in great numbers from violence, hunger, disease and mass suicide; some 600,000 prisoners were taken to labour camps in the Soviet Union, where many died.",
+    "significance": "The Soviet entry into the war, coming with the atomic bombs, was decisive in persuading Japan's leaders to surrender, and it gave the Soviet Union a foothold in Manchuria and northern Korea that shaped post-war Asia.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese losses are poorly documented and estimates vary widely. Whether the atomic bombs or the Soviet attack weighed more in Japan's surrender is a major historiographical debate.",
+    "sources": [
+      "David M. Glantz, The Soviet Strategic Offensive in Manchuria, 1945: 'August Storm' (2003)",
+      "Tsuyoshi Hasegawa, Racing the Enemy (2005)",
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "nagasaki-1945",
+    "title": "Atomic bombing of Nagasaki",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Hypocentre, Urakami valley",
+        "lon": 129.8636,
+        "lat": 32.7736
+      }
+    ],
+    "kind": "raid",
+    "start": "1945-08-09",
+    "datePrecision": "day",
+    "place": "Nagasaki, Kyushu, Japan",
+    "lon": 129.87,
+    "lat": 32.77,
+    "locationCertainty": "exact",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Japan (the people of Nagasaki)",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "opponent": [
+        "Truman",
+        "Sweeney"
+      ]
+    },
+    "casualties": "c. 40,000 killed outright; c. 70,000–74,000 dead by the end of 1945",
+    "outcome": "n/a",
+    "summary": "Three days after Hiroshima, a plutonium bomb falls on Nagasaki. Clouds over Kokura, the first target, send the B-29 to its secondary target; some 70,000 people are dead by the year's end.",
+    "detail": "The second bomb, Fat Man, was a plutonium implosion weapon of the type tested in New Mexico. On the morning of 9 August 1945 the B-29 Bockscar, flown by Major Charles Sweeney, found its primary target, the arsenal city of Kokura, hidden by haze and smoke and, short of fuel, turned to Nagasaki.\n\nThe bomb exploded at 11.02 over the Urakami valley, some three kilometres from the intended aiming point. The hills that enclosed the valley contained the blast and spared much of the old harbour city, but the Urakami district, with the Mitsubishi arms works, schools, a prison and the cathedral at the heart of Japan's oldest Catholic community, was obliterated. Prisoners of war and Korean labourers were among the dead.\n\nThat night, with Soviet armies pouring into Manchuria and Nagasaki destroyed, Japan's Supreme War Council remained deadlocked on surrender. Shortly before dawn on 10 August, at an imperial conference, Emperor Hirohito declared that Japan should accept the Potsdam terms.",
+    "significance": "Nagasaki is the last city attacked with a nuclear weapon; together with Hiroshima and the Soviet invasion it brought Japan's surrender.",
+    "certainty": "high",
+    "uncertaintyNote": "This is an American attack on a Japanese city: following the atlas convention the city's side is 'focus' and the outcome is 'n/a'. Death tolls are estimates.",
+    "sources": [
+      "Richard Rhodes, The Making of the Atomic Bomb (1986)",
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
+      "Susan Southard, Nagasaki: Life After Nuclear War (2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "japanese-surrender-1945",
+    "title": "Japan surrenders in Tokyo Bay",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Imperial Palace, Tokyo (broadcast of 15 August)",
+        "lon": 139.75,
+        "lat": 35.685
+      }
+    ],
+    "kind": "treaty",
+    "start": "1945-09-02",
+    "datePrecision": "day",
+    "place": "Aboard USS Missouri, Tokyo Bay",
+    "lon": 139.75,
+    "lat": 35.35,
+    "locationCertainty": "approximate",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "The Allied powers"
+    },
+    "commanders": {
+      "focus": [
+        "Hirohito",
+        "Shigemitsu",
+        "Umezu"
+      ],
+      "opponent": [
+        "MacArthur",
+        "Nimitz"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "On the deck of the battleship Missouri, Japan's foreign minister and army chief of staff sign the instrument of surrender before MacArthur and the Allied representatives. The Second World War is over.",
+    "detail": "After the emperor's decision of 10 August, Japan offered to accept the Potsdam Declaration provided the imperial prerogatives were preserved; the Allied reply was ambiguous. On 14 August Hirohito again broke the deadlock in favour of surrender. That night army officers tried to seize the palace and destroy the recording of his speech, but the coup failed. At noon on 15 August the Japanese people heard their emperor's voice for the first time, announcing that the war situation had developed not necessarily to Japan's advantage.\n\nOn 2 September, in Tokyo Bay, Foreign Minister Shigemitsu Mamoru and General Umezu Yoshijirō signed the instrument of surrender aboard USS Missouri. MacArthur signed as Supreme Commander for the Allied Powers, followed by Nimitz and representatives of China, Britain, the Soviet Union, Australia, Canada, France, the Netherlands and New Zealand. The ceremony took little more than twenty minutes.\n\nJapanese forces surrendered locally across Asia in the weeks that followed, at Nanjing, Singapore, Hong Kong and elsewhere, and prisoners and internees were freed from camps where many had died.",
+    "significance": "The surrender ended the Second World War, in which some 70–85 million people had died, and began the American occupation of Japan.",
+    "certainty": "high",
+    "uncertaintyNote": "The Missouri's anchorage is placed approximately in Tokyo Bay off Yokosuka. Fighting with Soviet forces continued in places into early September.",
+    "sources": [
+      "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
+      "Tsuyoshi Hasegawa, Racing the Enemy (2005)",
+      "John W. Dower, Embracing Defeat (1999)",
+      "Herbert P. Bix, Hirohito and the Making of Modern Japan (2000)"
+    ],
+    "importance": 3
+  }
+]

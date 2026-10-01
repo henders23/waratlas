@@ -5,7 +5,7 @@ Interactive globes of history's wars. A start screen lets you choose a war:
 - **The Mongol Conquests, 1206–1294.** This is entry A from the competition (see the [repo README](../README.md)), unchanged in content: 103 events from the Instinct R71 research pack and 103 historical regions.
 - **The Napoleonic Wars, 1792–1815.** From the declaration of war on Austria in April 1792 to Napoleon's surrender in July 1815: 129 events in 13 chapters, and 119 regions whose rulers change month by month.
 - **The First World War, 1914–1918.** From Sarajevo to the Treaty of Versailles in June 1919: 126 events in 10 chapters across Europe, the Middle East, Africa and the seas, and 97 regions drawn along the 1914 frontiers.
-- **The Second World War, 1939–1945.** From the invasion of Poland to the surrender in Tokyo Bay: EVENTS events in 10 chapters across Europe, Africa, Asia and the Pacific, and 147 regions drawn along the 1939 frontiers.
+- **The Second World War, 1939–1945.** From the invasion of Poland to the surrender in Tokyo Bay: 169 events in 10 chapters across Europe, Africa, Asia and the Pacific, and 147 regions drawn along the 1939 frontiers.
 
 The Napoleonic atlas has a soundtrack, *Measured March* (`public/audio/measured-march.mp3`). It loops while the atlas is open. Browsers only allow sound after a click or key press, so it starts on the first one, such as the button that starts playback. The toolbar has a music on/off button and a volume slider, and the browser remembers both. To give another war music, add a `music` entry to its `WarDef`.
 
