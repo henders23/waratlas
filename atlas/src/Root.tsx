@@ -33,7 +33,7 @@ export function Root() {
 
   useEffect(() => {
     if (!id) {
-      document.title = 'Atlas of Wars · Qing’s Workshop';
+      document.title = 'Atlas of Wars';
       return;
     }
     let live = true;

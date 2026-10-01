@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // ATLAS_BASE lets the same build be served at a domain root or under a path such as
-// qingsworkshop.com/war-atlas/.
+// example.com/war-atlas/.
 export default defineConfig({
   base: process.env.ATLAS_BASE ?? '/',
   plugins: [react()],

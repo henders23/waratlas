@@ -106,7 +106,7 @@ const events = await page.evaluate(() => {
 await page.evaluate(() => {
   const card = document.createElement('div');
   card.id = 'end-card';
-  card.innerHTML = '<span class="kicker">An exhibit from Qing’s Workshop</span><h1>The Mongol Conquests</h1><p>qingsworkshop.com/war-atlas-a</p>';
+  card.innerHTML = '<span class="kicker">Atlas of Wars</span><h1>The Mongol Conquests</h1>';
   card.style.cssText = 'position:absolute;inset:0;z-index:30;display:grid;place-content:center;text-align:center;gap:10px;opacity:0;pointer-events:none;background:radial-gradient(ellipse at center, rgba(5,8,14,.86), rgba(5,8,14,.95));-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);';
   card.querySelector('h1').style.cssText = 'margin:0;font:400 64px/1 var(--serif);letter-spacing:-0.02em;color:#efe7d6';
   card.querySelector('p').style.cssText = 'margin:6px 0 0;font:italic 300 26px var(--serif);color:#f7dca0';
