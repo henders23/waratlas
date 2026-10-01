@@ -110,8 +110,8 @@
     "end": "1942-07-28",
     "datePrecision": "day",
     "place": "Barents Sea, between Bear Island and Novaya Zemlya",
-    "lon": 35.0,
-    "lat": 74.0,
+    "lon": 35,
+    "lat": 74,
     "locationCertainty": "approximate",
     "phase": "turning",
     "sides": {
@@ -272,7 +272,7 @@
     "datePrecision": "day",
     "place": "Owen Stanley Range and northern coast, Papua (Papua New Guinea)",
     "lon": 147.75,
-    "lat": -9.0,
+    "lat": -9,
     "locationCertainty": "approximate",
     "phase": "turning",
     "sides": {
@@ -442,7 +442,7 @@
     "end": "1943-02-09",
     "datePrecision": "day",
     "place": "Guadalcanal and Tulagi, Solomon Islands",
-    "lon": 160.0,
+    "lon": 160,
     "lat": -9.45,
     "locationCertainty": "exact",
     "phase": "turning",
@@ -760,7 +760,7 @@
     "datePrecision": "day",
     "place": "Atlantic coast of Morocco and Mediterranean coast of Algeria",
     "lon": -2.3,
-    "lat": 35.0,
+    "lat": 35,
     "locationCertainty": "approximate",
     "phase": "turning",
     "sides": {
@@ -974,12 +974,12 @@
     "end": "1944",
     "datePrecision": "year",
     "place": "Bengal, British India (West Bengal, India, and Bangladesh)",
-    "lon": 89.0,
+    "lon": 89,
     "lat": 23.3,
     "locationCertainty": "approximate",
     "phase": "turning",
     "sides": {
-      "focus": "Japan (its conquest of Burma cut off rice imports)",
+      "focus": "No Axis party (Japan’s conquest of Burma was one of several causes)",
       "opponent": "The people of Bengal; the British and Bengal governments responsible for relief"
     },
     "casualties": "c. 2.1–3 million deaths from starvation and disease",
@@ -1154,7 +1154,7 @@
     "datePrecision": "day",
     "place": "Kharkov (Kharkiv) and the Donets basin, Ukraine",
     "lon": 36.23,
-    "lat": 50.0,
+    "lat": 50,
     "locationCertainty": "approximate",
     "phase": "offensives",
     "sides": {
@@ -1338,7 +1338,7 @@
     "markers": [
       {
         "name": "Convoy ONS 5 battle (approx.)",
-        "lon": -43.0,
+        "lon": -43,
         "lat": 55.5
       }
     ],
@@ -1347,8 +1347,8 @@
     "end": "1943-05-24",
     "datePrecision": "month",
     "place": "The North Atlantic convoy routes and the mid-ocean air gap",
-    "lon": -35.0,
-    "lat": 52.0,
+    "lon": -35,
+    "lat": 52,
     "locationCertainty": "approximate",
     "phase": "offensives",
     "sides": {
@@ -1498,7 +1498,7 @@
       },
       {
         "name": "Lae",
-        "lon": 147.0,
+        "lon": 147,
         "lat": -6.73
       },
       {
@@ -1512,7 +1512,7 @@
     "end": "1944-03",
     "datePrecision": "day",
     "place": "New Guinea, New Britain and the Solomon Islands",
-    "lon": 152.0,
+    "lon": 152,
     "lat": -6.5,
     "locationCertainty": "approximate",
     "phase": "offensives",
@@ -1696,7 +1696,7 @@
     "end": "1943-08-03",
     "datePrecision": "day",
     "place": "Hamburg, Germany",
-    "lon": 10.0,
+    "lon": 10,
     "lat": 53.55,
     "locationCertainty": "exact",
     "phase": "offensives",
@@ -1816,7 +1816,7 @@
     "markers": [
       {
         "name": "Paestum",
-        "lon": 15.0,
+        "lon": 15,
         "lat": 40.42
       }
     ],
