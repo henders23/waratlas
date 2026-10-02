@@ -63,6 +63,8 @@ export function Timeline({ war, onSeek }: { war: WarData; onSeek: (t: number) =>
   const evY = 30;
   const h = 78;
   const clock = formatClock(t);
+  // On a narrow track, label only every second (or third…) year tick so the labels don't collide.
+  const labelEvery = Math.max(1, Math.ceil(34 / Math.max(1, x(war.from + war.tickEvery) - x(war.from))));
 
   return (
     <div className="timeline">
@@ -105,8 +107,8 @@ export function Timeline({ war, onSeek }: { war: WarData; onSeek: (t: number) =>
         <svg width={width} height={h}>
           <defs>
             <linearGradient id="played" x1="0" x2="1">
-              <stop offset="0" stopColor="#f2b544" stopOpacity="0.05" />
-              <stop offset="1" stopColor="#f2b544" stopOpacity="0.28" />
+              <stop offset="0" stopColor="#d9b46e" stopOpacity="0.05" />
+              <stop offset="1" stopColor="#d9b46e" stopOpacity="0.28" />
             </linearGradient>
           </defs>
           {war.phases.map((p, i) => {
@@ -118,7 +120,7 @@ export function Timeline({ war, onSeek }: { war: WarData; onSeek: (t: number) =>
                 <rect x={a} y={phaseY} width={b - a - 1} height={20} rx={3} className={i % 2 ? 'odd' : ''} />
                 {b - a > 58 && (
                   <text x={a + 6} y={phaseY + 14}>
-                    {p.title.length * 5.6 > b - a - 10 ? p.title.slice(0, Math.floor((b - a - 16) / 5.6)) + '…' : p.title}
+                    {p.title.length * 6.2 > b - a - 10 ? p.title.slice(0, Math.floor((b - a - 16) / 6.2)) + '…' : p.title}
                   </text>
                 )}
               </g>
@@ -148,10 +150,10 @@ export function Timeline({ war, onSeek }: { war: WarData; onSeek: (t: number) =>
               />
             );
           })}
-          {ticks.map((y) => (
+          {ticks.map((y, k) => (
             <g key={y} className="tl-year">
               <line x1={x(y)} x2={x(y)} y1={evY + 31} y2={evY + 35} />
-              <text x={x(y)} y={evY + 45} textAnchor="middle">{y}</text>
+              {k % labelEvery === 0 && <text x={x(y)} y={evY + 45} textAnchor="middle">{y}</text>}
             </g>
           ))}
           <g className="tl-head" transform={`translate(${x(t)},0)`}>
