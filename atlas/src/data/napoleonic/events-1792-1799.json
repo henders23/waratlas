@@ -205,6 +205,51 @@
     "importance": 2
   },
   {
+    "id": "siege-of-lyon-1793",
+    "title": "Siege of Lyon",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1793-08-08",
+    "end": "1793-10-09",
+    "datePrecision": "day",
+    "place": "Lyon, Rhône",
+    "lon": 4.84,
+    "lat": 45.76,
+    "locationCertainty": "exact",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic (Army of the Alps)",
+      "opponent": "Federalist insurgents of Lyon"
+    },
+    "commanders": {
+      "focus": [
+        "Kellermann",
+        "Doppet",
+        "Dubois-Crancé"
+      ],
+      "opponent": [
+        "Précy"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000–35,000 by the end of the siege",
+      "opponent": "c. 10,000 armed citizens and troops"
+    },
+    "casualties": "Several thousand killed in the siege on both sides; c. 1,900 people executed in the repression that followed",
+    "outcome": "victory",
+    "summary": "France's second city, in revolt against the Jacobin Convention, is besieged and bombarded for two months by republican troops. Its surrender is followed by mass executions.",
+    "detail": "After the fall of the Girondins in June 1793, Lyon's moderate and royalist notables overthrew the city's Jacobin municipality, executed its leader Chalier and raised an army under the comte de Précy. The rising was one of several federalist revolts in the south, and the Convention treated it as treason in the middle of a foreign war. Troops drawn from Kellermann's Army of the Alps closed round the city in early August and began a bombardment that set whole quarters ablaze.\n\nStarved and short of munitions, Lyon capitulated on 9 October; Précy broke out with a few hundred men, most of whom were hunted down. The Convention decreed that the city should be destroyed and renamed 'Ville-Affranchie'. Collot d'Herbois and Fouché ran a revolutionary tribunal that sent some 1,900 people to their deaths, some of them shot in batches by cannon fire on the Brotteaux plain.",
+    "significance": "The fall of Lyon broke the federalist revolt and showed how the Terror would treat internal resistance while the Republic fought the coalition on its frontiers.",
+    "certainty": "high",
+    "uncertaintyNote": "Siege casualties are poorly recorded; the count of executions varies between c. 1,700 and c. 2,000.",
+    "sources": [
+      "W.D. Edmonds, Jacobinism and the Revolt of Lyon, 1789–1793 (1990)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "William Doyle, The Oxford History of the French Revolution (2nd edn, 2002)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "toulon-1793",
     "title": "Siege of Toulon",
     "geometry": "city",
@@ -350,6 +395,51 @@
     "uncertaintyNote": "Carnot's personal role in the decisive attack was emphasised in later Republican tradition.",
     "sources": [
       "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 1 (1926)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "boulou-1794",
+    "title": "Battle of Boulou",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1794-04-30",
+    "end": "1794-05-01",
+    "datePrecision": "day",
+    "place": "Le Boulou, Roussillon (Pyrénées-Orientales)",
+    "lon": 2.83,
+    "lat": 42.52,
+    "locationCertainty": "approximate",
+    "phase": "first-coalition",
+    "sides": {
+      "focus": "French Republic (Army of the Eastern Pyrenees)",
+      "opponent": "Spain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Dugommier",
+        "Pérignon",
+        "Augereau"
+      ],
+      "opponent": [
+        "Conde de la Unión"
+      ]
+    },
+    "strength": {
+      "focus": "c. 28,000–35,000",
+      "opponent": "c. 20,000–27,000"
+    },
+    "casualties": "Spanish and Portuguese c. 2,000 killed, wounded and captured, with almost all their artillery (c. 140 guns); French losses light",
+    "outcome": "victory",
+    "summary": "Dugommier breaks the Spanish army that had occupied Roussillon since 1793, driving it back over the Pyrenees and capturing its guns and baggage.",
+    "detail": "Spain had invaded Roussillon in 1793 and held a fortified camp on the Tech around Le Boulou, covering the road to Perpignan. In spring 1794 Dugommier, fresh from the recapture of Toulon, took over a reinforced Army of the Eastern Pyrenees and planned to cut the Spanish off from the passes behind them.\n\nOn 30 April and 1 May French columns under Pérignon and Augereau seized the heights on the Spanish flank and rear, threatening the road over the Col du Perthus. La Unión's army abandoned its camp and fled through the mountains, leaving behind its artillery, wagons and stores. Only the coastal fortresses held out, and Collioure fell within weeks.",
+    "significance": "Boulou cleared French soil of Spanish troops and carried the war into Catalonia, a step towards Spain's exit from the coalition at Basel in 1795.",
+    "certainty": "medium",
+    "uncertaintyNote": "Strength figures for both armies differ widely between French and Spanish accounts, and the number of guns taken is sometimes given as over 100 rather than 140.",
+    "sources": [
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 3 (1931)",
       "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)",
       "Digby Smith, The Napoleonic Wars Data Book (1998)"
     ],
@@ -881,6 +971,51 @@
     "importance": 2
   },
   {
+    "id": "wurzburg-1796",
+    "title": "Battle of Würzburg",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1796-09-03",
+    "datePrecision": "day",
+    "place": "Würzburg, Franconia (Bavaria)",
+    "lon": 9.93,
+    "lat": 49.79,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Republic (Army of the Sambre and Meuse)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Jourdan",
+        "Lefebvre",
+        "Championnet"
+      ],
+      "opponent": [
+        "Archduke Charles",
+        "Wartensleben"
+      ]
+    },
+    "strength": {
+      "focus": "c. 30,000",
+      "opponent": "c. 44,000"
+    },
+    "casualties": "French c. 2,000–3,000 killed and wounded and c. 1,000 captured; Austrians c. 1,500–2,000",
+    "outcome": "defeat",
+    "summary": "The Archduke Charles concentrates against Jourdan's isolated army on the Main and defeats it, forcing the French back to the Rhine and wrecking the Directory's German offensive.",
+    "detail": "The Directory's plan for 1796 sent two armies into Germany, Jourdan's along the Main and Moreau's along the Danube, while Bonaparte held the Austrians in Italy. The two armies advanced too far apart. The Archduke Charles left a screen in front of Moreau, marched north with his best troops and joined Wartensleben against Jourdan, who was beaten at Amberg on 24 August.\n\nJourdan tried to make a stand at Würzburg on 3 September. Austrian cavalry and the arrival of further columns broke the French line, and Jourdan retreated in disorder to the Lahn and then across the Rhine. Moreau, now exposed far up the Danube, had to make his famous fighting retreat through the Black Forest.",
+    "significance": "Würzburg made the Archduke Charles's reputation and showed the danger of divided offensives; by the end of 1796 the French had lost everything they had won east of the Rhine.",
+    "certainty": "high",
+    "uncertaintyNote": "Losses differ between accounts; some put total French losses, including prisoners, nearer 4,000.",
+    "sources": [
+      "Gunther E. Rothenberg, Napoleon's Great Adversaries: Archduke Charles and the Austrian Army 1792–1814 (1982)",
+      "Ramsay Weston Phipps, The Armies of the First French Republic, vol. 2 (1929)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "arcole-1796",
     "title": "Battle of Arcole",
     "geometry": "site",
@@ -923,6 +1058,54 @@
       "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
       "David G. Chandler, The Campaigns of Napoleon (1966), part 2",
       "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bantry-bay-1796",
+    "title": "Expedition to Bantry Bay",
+    "geometry": "area",
+    "radiusKm": 40,
+    "kind": "naval",
+    "start": "1796-12-16",
+    "end": "1797-01-14",
+    "datePrecision": "day",
+    "place": "Bantry Bay, County Cork, Ireland",
+    "lon": -9.6,
+    "lat": 51.65,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Hoche",
+        "Morard de Galles",
+        "Grouchy",
+        "Bouvet"
+      ],
+      "opponent": [
+        "Colpoys",
+        "Pellew"
+      ]
+    },
+    "strength": {
+      "focus": "c. 44 ships carrying c. 14,000–15,000 troops",
+      "opponent": "Garrison troops in Ireland; the Channel Fleet failed to intercept"
+    },
+    "casualties": "French lost c. 12 ships and well over 1,000 men to storms and wrecks; no battle was fought",
+    "outcome": "defeat",
+    "summary": "A French fleet carrying Hoche's army sails to Ireland at the invitation of Wolfe Tone's United Irishmen. Gales scatter it, and the ships that reach Bantry Bay cannot land.",
+    "detail": "Wolfe Tone had persuaded the Directory that a French landing would set off a rising in Ireland. In mid-December 1796 a fleet left Brest with some 14,000 troops under Hoche, slipping past the British blockade in winter weather. In the dark the fleet was scattered, and the frigate carrying both Hoche and the naval commander Morard de Galles was separated from the rest and never reached Ireland.\n\nAbout 35 ships, with Grouchy and Tone aboard, reached Bantry Bay around 21–22 December. For days easterly gales prevented them from beating up the bay to land, and without Hoche the officers would not risk it. Admiral Bouvet ordered the return to France. Storms and the British wrecked or captured a dozen ships on the voyage, among them the Droits de l'Homme, driven ashore by Pellew's frigates in January.",
+    "significance": "Ireland was never more exposed to invasion in the whole war; the failure deterred another major attempt until Humbert's much smaller landing of 1798.",
+    "certainty": "high",
+    "uncertaintyNote": "The number of ships and men lost on the return voyage is given differently by French and British sources.",
+    "sources": [
+      "Marianne Elliott, Partners in Revolution: The United Irishmen and France (1982)",
+      "E.H. Stuart Jones, An Invasion that Failed: The French Expedition to Ireland, 1796 (1950)",
+      "N.A.M. Rodger, The Command of the Ocean: A Naval History of Britain 1649–1815 (2004)"
     ],
     "importance": 2
   },
@@ -1028,6 +1211,51 @@
       "N.A.M. Rodger, The Command of the Ocean (2004)",
       "William James, The Naval History of Great Britain, vol. 2 (1823)",
       "Roger Knight, The Pursuit of Victory: The Life and Achievement of Horatio Nelson (2005)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "tagliamento-1797",
+    "title": "Crossing of the Tagliamento",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1797-03-16",
+    "datePrecision": "day",
+    "place": "Valvasone, on the Tagliamento, Friuli",
+    "lon": 12.87,
+    "lat": 45.99,
+    "locationCertainty": "approximate",
+    "phase": "italy",
+    "sides": {
+      "focus": "French Republic (Army of Italy)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Bernadotte",
+        "Guieu",
+        "Sérurier"
+      ],
+      "opponent": [
+        "Archduke Charles"
+      ]
+    },
+    "strength": {
+      "focus": "c. 40,000",
+      "opponent": "c. 20,000–25,000"
+    },
+    "casualties": "Austrians c. 500–700 killed and wounded and several hundred captured, with six guns; French losses lighter",
+    "outcome": "victory",
+    "summary": "Bonaparte forces the line of the Tagliamento against the Archduke Charles, opening the road over the Alps towards Vienna.",
+    "detail": "After the fall of Mantua, Bonaparte was reinforced by Bernadotte's and Delmas's divisions from the Rhine and took the offensive into Friuli before the Austrians, now commanded by the Archduke Charles, could rebuild their army. Charles chose to defend the broad, shallow bed of the Tagliamento.\n\nOn 16 March, after a pause that persuaded the Austrians no attack was coming that day, the French waded the river under cover of artillery near Valvasone. The Archduke's thinner line gave way and he withdrew towards the Julian Alps. In the following days Masséna seized the Tarvis pass and Gradisca fell, and the French pushed on through Carinthia to within about 100 miles of Vienna.",
+    "significance": "The crossing began the march on Vienna that brought Austria to the preliminaries of Leoben a month later.",
+    "certainty": "high",
+    "uncertaintyNote": "Austrian losses are often given only for the whole series of actions on the Tagliamento and at Gradisca.",
+    "sources": [
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Martin Boycott-Brown, The Road to Rivoli: Napoleon's First Campaign (2001)",
+      "Gunther E. Rothenberg, Napoleon's Great Adversaries: Archduke Charles and the Austrian Army 1792–1814 (1982)"
     ],
     "importance": 2
   },
@@ -1443,6 +1671,50 @@
       "Juan Cole, Napoleon's Egypt: Invading the Middle East (2007)",
       "Abd al-Rahman al-Jabarti, chronicle of the French occupation of Egypt (trans. S. Moreh, 1975)",
       "Paul Strathern, Napoleon in Egypt (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "siege-of-corfu-1798",
+    "title": "Siege of Corfu",
+    "geometry": "city",
+    "kind": "siege",
+    "start": "1798-11",
+    "end": "1799-03-03",
+    "datePrecision": "month",
+    "place": "Corfu, Ionian Islands",
+    "lon": 19.92,
+    "lat": 39.62,
+    "locationCertainty": "exact",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic",
+      "opponent": "Russia and the Ottoman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Chabot"
+      ],
+      "opponent": [
+        "Ushakov",
+        "Kadir Bey"
+      ]
+    },
+    "strength": {
+      "focus": "c. 3,000 in garrison",
+      "opponent": "c. 12 ships of the line and frigates with c. 6,000 Russian, Ottoman and Albanian troops"
+    },
+    "casualties": "French surrendered c. 2,900 men and c. 600 guns; losses in the fighting were modest on both sides",
+    "outcome": "defeat",
+    "summary": "A Russian and Ottoman fleet under Ushakov blockades and storms the French-held fortress of Corfu, ending French rule in the Ionian Islands.",
+    "detail": "France had taken the Venetian Ionian Islands in 1797 and Bonaparte prized Corfu as a base for the eastern Mediterranean. His invasion of Egypt drove the Ottoman Empire into alliance with its old enemy Russia, and in autumn 1798 a combined squadron under Admiral Ushakov retook the smaller islands and blockaded Corfu.\n\nOn 1 March 1799 the allies stormed the fortified island of Vido, which covered the harbour, with fire from the ships and landing parties. Its loss made the citadel untenable, and General Chabot capitulated on 3 March on terms that let the garrison return to France. The islands became the Septinsular Republic under Russian and Ottoman protection.",
+    "significance": "Corfu was the high point of Russian naval power in the Mediterranean in this era and gave the Tsar a base in the Adriatic until Tilsit returned the islands to France.",
+    "certainty": "medium",
+    "uncertaintyNote": "The start of the siege is variously dated from October to November 1798, and figures for the allied landing force differ.",
+    "sources": [
+      "Norman E. Saul, Russia and the Mediterranean 1797–1807 (1970)",
+      "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
+      "T.C.W. Blanning, The French Revolutionary Wars 1787–1802 (1996)"
     ],
     "importance": 2
   },

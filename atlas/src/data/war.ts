@@ -9,7 +9,7 @@ export interface Polity {
   id: string;
   name: string;
   color: string;
-  /** polities of the focus side: the Mongol khanates, France and its satellite states */
+  /** polities of the focus side: France and its satellite states, the Central Powers, the Axis */
   family?: 'focus';
 }
 
@@ -79,7 +79,7 @@ export interface WarData extends Omit<WarDef, 'events' | 'images' | 'territory'>
   polities: Map<string, Polity>;
   timelines: Map<string, Step[]>;
   territoryNote: string;
-  /** span of the war relative to the Mongol atlas's 88 years; scales fades and blends */
+  /** span of the war relative to a reference span of 88 years; scales fades and blends */
   timeScale: number;
 }
 
@@ -135,18 +135,9 @@ export interface WarEntry {
   load?: () => Promise<WarDef>;
 }
 
-// The portfolio of eight core wars. Four have finished atlases.
+// The portfolio of core wars. Three have finished atlases.
 export const WARS: WarEntry[] = [
   { id: 'second-punic', title: 'Second Punic War', span: '218 – 201 BC' },
-  {
-    id: 'mongol',
-    title: 'The Mongol Conquests',
-    span: '1206 – 1294',
-    teaser: 'From the Onon to the Danube and the South China Sea: eighty-eight years of the largest land empire in history, and its fracture into rival khanates.',
-    stats: '103 events · 103 regions',
-    accent: '#f2b544',
-    load: () => import('./mongol').then((m) => m.MONGOL),
-  },
   { id: 'imjin', title: 'The Imjin War', span: '1592 – 1598' },
   { id: 'seven-years', title: 'Seven Years’ War', span: '1756 – 1763' },
   {
@@ -154,7 +145,7 @@ export const WARS: WarEntry[] = [
     title: 'The Napoleonic Wars',
     span: '1792 – 1815',
     teaser: 'From Valmy to Waterloo: how a revolutionary republic became an empire that redrew Europe, and how the rest of Europe tore it down.',
-    stats: '129 events · 119 regions',
+    stats: '150 events · 119 regions',
     accent: '#7ea6ef',
     load: () => import('./napoleonic').then((m) => m.NAPOLEONIC),
   },
@@ -164,7 +155,7 @@ export const WARS: WarEntry[] = [
     title: 'The First World War',
     span: '1914 – 1918',
     teaser: 'From Sarajevo to Versailles: trenches from the Channel to Switzerland, fronts from the Alps to Mesopotamia, and the fall of four empires.',
-    stats: '126 events · 97 regions',
+    stats: '145 events · 97 regions',
     accent: '#c8a46a',
     load: () => import('./ww1').then((m) => m.WW1),
   },
@@ -173,7 +164,7 @@ export const WARS: WarEntry[] = [
     title: 'The Second World War',
     span: '1939 – 1945',
     teaser: 'From the invasion of Poland to Tokyo Bay: the Axis empires spread across Europe, Africa and Asia, and fall.',
-    stats: '169 events · 147 regions',
+    stats: '194 events · 147 regions',
     accent: '#d97a5a',
     load: () => import('./ww2').then((m) => m.WW2),
   },

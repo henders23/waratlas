@@ -3,13 +3,11 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-// Per war: the years events may start in, the theatre [west, south, east, north], and
-// whether a research pack fixes the list of events (the Mongol R71 pack does).
+// Per war: the years events may start in, and the theatre [west, south, east, north].
 const WARS = {
-  mongol: { years: [1200, 1295], theatre: [-20, -12, 150, 70], pack: true, phaseByDate: false },
-  napoleonic: { years: [1792, 1815.9], theatre: [-20, 25, 45, 66], pack: false, phaseByDate: true },
-  ww1: { years: [1914.4, 1919.5], theatre: [-80, -55, 125, 70], pack: false, phaseByDate: true },
-  ww2: { years: [1939.66, 1945.72], theatre: [-180, -60, 180, 78], pack: false, phaseByDate: true },
+  napoleonic: { years: [1792, 1815.9], theatre: [-20, 25, 45, 66] },
+  ww1: { years: [1914.4, 1919.5], theatre: [-80, -55, 125, 70] },
+  ww2: { years: [1939.66, 1945.72], theatre: [-180, -60, 180, 78] },
 };
 const KINDS = ['battle', 'siege', 'sack', 'massacre', 'political', 'death', 'treaty', 'raid', 'naval', 'campaign'];
 const CERT = ['high', 'medium', 'low'];
@@ -17,34 +15,6 @@ const PREC = ['day', 'month', 'season', 'year', 'circa'];
 const LOCC = ['exact', 'approximate', 'uncertain'];
 const OUT = ['victory', 'defeat', 'inconclusive', 'negotiated', 'n/a'];
 const DATE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
-
-// The Instinct R71 pack is the canonical denominator: every include row must render
-// as exactly one event, carrying the row's primary locators.
-export function parseCsv(text) {
-  const rows = [];
-  let row = [], field = '', quoted = false;
-  for (let i = 0; i < text.length; i++) {
-    const c = text[i];
-    if (quoted) {
-      if (c === '"' && text[i + 1] === '"') { field += '"'; i++; }
-      else if (c === '"') quoted = false;
-      else field += c;
-    } else if (c === '"') quoted = true;
-    else if (c === ',') { row.push(field); field = ''; }
-    else if (c === '\n' || c === '\r') {
-      if (c === '\r' && text[i + 1] === '\n') i++;
-      row.push(field); field = '';
-      if (row.some((f) => f !== '')) rows.push(row);
-      row = [];
-    } else field += c;
-  }
-  if (field || row.length) { row.push(field); rows.push(row); }
-  const [head, ...body] = rows;
-  return body.map((r) => Object.fromEntries(head.map((h, i) => [h, r[i] ?? ''])));
-}
-const packPath = new URL('../data/mongol/r71/mongol_denominator_round71.csv', import.meta.url).pathname;
-const PACK = new Map(parseCsv(readFileSync(packPath, 'utf8')).map((r) => [r.candidate_id, r]));
-const INCLUDED = [...PACK.values()].filter((r) => r.disposition === 'include').map((r) => r.canonical_id.replace(/^mongol:/, ''));
 
 const errors = [];
 const err = (f, id, m) => errors.push(`${f} [${id}] ${m}`);
@@ -70,7 +40,6 @@ function validateWar(war, only) {
   const PHASES = readPhases(war);
   const inTheatre = (lon, lat) => lon >= cfg.theatre[0] && lon <= cfg.theatre[2] && lat >= cfg.theatre[1] && lat <= cfg.theatre[3];
   const files = only.length ? only : readdirSync(dir).filter((f) => /^(events|campaigns)-.*\.json$/.test(f)).map((f) => join(dir, f));
-  const covered = new Set();
   const seen = new Map();
   let nEvents = 0;
   let nCampaigns = 0;
@@ -95,7 +64,7 @@ function validateWar(war, only) {
       else seen.set(id, file);
       const phase = PHASES.find((p) => p.id === x.phase);
       if (!phase) err(file, id, `bad phase ${x.phase}`);
-      else if (cfg.phaseByDate && x.start && !(toYear(x.start) >= phase.from - 1 / 365 && toYear(x.start) < phase.to))
+      else if (x.start && !(toYear(x.start) >= phase.from - 1 / 365 && toYear(x.start) < phase.to))
         err(file, id, `starts ${x.start}, outside its chapter ${x.phase} (${phase.from}–${phase.to})`);
       if (!CERT.includes(x.certainty)) err(file, id, 'bad certainty');
       if (isEvents) {
@@ -103,18 +72,7 @@ function validateWar(war, only) {
         for (const k of ['title', 'place', 'summary', 'detail', 'significance'])
           if (typeof x[k] !== 'string' || !x[k].trim()) err(file, id, `missing ${k}`);
         if (!KINDS.includes(x.kind)) err(file, id, `bad kind ${x.kind}`);
-        const row = cfg.pack ? PACK.get(x.sourceRow) : null;
-        if (!cfg.pack) {
-          if (x.sourceRow !== undefined) err(file, id, 'this war has no research pack; sourceRow must be absent');
-        } else if (!row) err(file, id, `sourceRow ${x.sourceRow} is not a pack candidate_id`);
-        else if (row.disposition !== 'include' || row.canonical_id !== `mongol:${id}`)
-          err(file, id, `sourceRow must be the include row whose canonical_id is mongol:${id}`);
-        else {
-          covered.add(id);
-          const cites = x.sources.join(' ');
-          for (const loc of [row.primary_locator_1, row.primary_locator_2])
-            if (loc && !cites.includes(loc)) err(file, id, `sources must carry the pack locator verbatim: ${loc}`);
-        }
+        if (x.sourceRow !== undefined) err(file, id, 'sourceRow is not used; remove it');
         if (!['city', 'site', 'area'].includes(x.geometry)) err(file, id, 'geometry must be city|site|area');
         if (x.geometry === 'area' && !(x.radiusKm > 0)) err(file, id, 'area geometry needs radiusKm');
         for (const m of x.markers ?? [])
@@ -156,10 +114,6 @@ function validateWar(war, only) {
       if (!img.file || /^File:|_|%/.test(img.file)) errors.push(`${war}/images.json ${id}: file must be a plain Commons file name`);
       if (!img.caption) errors.push(`${war}/images.json ${id}: missing caption`);
     }
-  }
-  if (cfg.pack && !only.length) {
-    const missing = INCLUDED.filter((id) => !covered.has(id));
-    if (missing.length) errors.push(`pack include rows with no event (${missing.length}): ${missing.join(', ')}`);
   }
   summary.push(`${war}: ${nEvents} events${nCampaigns ? `, ${nCampaigns} campaigns` : ''} across ${files.length} file(s)`);
 }

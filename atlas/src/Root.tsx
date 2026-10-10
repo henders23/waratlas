@@ -10,8 +10,6 @@ const loadApp = () => import('./App');
 function warFromUrl(): string | null {
   const id = new URLSearchParams(location.search).get('war');
   if (id && WARS.some((w) => w.id === id && w.load)) return id;
-  // Links shared before the atlas had a second war carry only a hash, and meant the Mongols.
-  if (/^#(e|t)=/.test(location.hash)) return 'mongol';
   return null;
 }
 

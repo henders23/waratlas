@@ -29,7 +29,7 @@ interface RegionState {
   vassal: number;
 }
 
-// Fades and blends are tuned for the Mongol atlas's 88 years and scaled by war.timeScale.
+// Fades and blends are tuned for a reference span of 88 years and scaled by war.timeScale.
 const TRANSITION = 0.3; // years of timeline over which a region's colour blends to its new owner
 const FLASH = 0.7; // years a newly conquered region glows
 const APPEAR = 0.06; // years over which an event's pin fades in

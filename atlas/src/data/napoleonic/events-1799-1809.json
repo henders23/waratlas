@@ -1,5 +1,49 @@
 [
   {
+    "id": "magnano-1799",
+    "title": "Battle of Magnano",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1799-04-05",
+    "datePrecision": "day",
+    "place": "Magnano, south of Verona",
+    "lon": 10.97,
+    "lat": 45.36,
+    "locationCertainty": "approximate",
+    "phase": "egypt",
+    "sides": {
+      "focus": "French Republic (Army of Italy)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Schérer",
+        "Moreau",
+        "Sérurier"
+      ],
+      "opponent": [
+        "Kray"
+      ]
+    },
+    "strength": {
+      "focus": "c. 41,000",
+      "opponent": "c. 45,000"
+    },
+    "casualties": "French c. 3,500 killed and wounded and c. 4,000 captured; Austrians c. 4,000 killed and wounded and c. 1,900 captured",
+    "outcome": "defeat",
+    "summary": "Kray defeats Schérer south of Verona, and the French army in Italy begins a retreat that loses it Lombardy before Suvorov has even arrived.",
+    "detail": "In spring 1799 the Directory ordered the Army of Italy to attack on the Adige before the Russians could join the Austrians. Schérer, an unpopular general, made an indecisive attempt on Verona in late March and then, on 5 April, marched across the Austrian front south of the city.\n\nKray attacked the French columns while they were spread out around Magnano. After hard fighting his reserves broke the French centre and right, and Schérer ordered a general retreat to the Mincio and then the Adda, leaving garrisons in Mantua and Peschiera. He soon handed command to Moreau, and within weeks Suvorov arrived to win at Cassano and enter Milan.",
+    "significance": "Magnano opened the collapse of the French position in Italy in 1799, undoing much of what Bonaparte had won two years earlier.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty and strength figures vary between sources by several thousand.",
+    "sources": [
+      "Christopher Duffy, Eagles over the Alps: Suvorov in Italy and Switzerland, 1799 (1999)",
+      "Gunther E. Rothenberg, Napoleon's Great Adversaries: Archduke Charles and the Austrian Army 1792–1814 (1982)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "brumaire-1799",
     "title": "Coup of 18 Brumaire",
     "geometry": "city",
@@ -36,6 +80,50 @@
       "Andrew Roberts, Napoleon the Great (2014)"
     ],
     "importance": 3
+  },
+  {
+    "id": "heliopolis-1800",
+    "title": "Battle of Heliopolis",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1800-03-20",
+    "datePrecision": "day",
+    "place": "Heliopolis (Matariya), north-east of Cairo",
+    "lon": 31.31,
+    "lat": 30.12,
+    "locationCertainty": "approximate",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Republic (Army of the Orient)",
+      "opponent": "Ottoman Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Kléber",
+        "Reynier",
+        "Friant"
+      ],
+      "opponent": [
+        "Yusuf Ziya Pasha"
+      ]
+    },
+    "strength": {
+      "focus": "c. 10,000–11,000",
+      "opponent": "c. 30,000–40,000; French accounts claim far more"
+    },
+    "casualties": "Ottomans several thousand killed; French c. 300–600 killed and wounded",
+    "outcome": "victory",
+    "summary": "Kléber, left in Egypt by Bonaparte, routs a much larger Ottoman army advancing on Cairo, then crushes a rising in the city.",
+    "detail": "Bonaparte had left Egypt in August 1799, handing command to Kléber. In January 1800 Kléber agreed at El-Arish to evacuate the army, but the British admiral Keith refused to accept the terms unless the French surrendered as prisoners. Kléber resumed the war against the Grand Vizier's army, which had already advanced into the Delta.\n\nOn 20 March, near the ruins of ancient Heliopolis, the French formed squares that broke repeated Ottoman cavalry charges, then advanced and scattered the Vizier's army, which fled back towards Syria. Meanwhile Cairo had risen behind the French. Kléber retook the city in April after weeks of street fighting and bombardment of the Bulaq quarter.",
+    "significance": "Heliopolis secured French Egypt for another year, but on 14 June 1800 Kléber was assassinated in Cairo and command passed to the far less able Menou.",
+    "certainty": "medium",
+    "uncertaintyNote": "The size of the Ottoman army is very uncertain: French sources speak of 60,000 or more, which modern historians regard as exaggerated.",
+    "sources": [
+      "Piers Mackesy, British Victory in Egypt, 1801: The End of Napoleon's Conquest (1995)",
+      "Paul Strathern, Napoleon in Egypt (2007)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 2
   },
   {
     "id": "siege-of-genoa-1800",
@@ -300,6 +388,98 @@
     "importance": 1
   },
   {
+    "id": "algeciras-1801",
+    "title": "Battles of Algeciras Bay",
+    "geometry": "area",
+    "radiusKm": 25,
+    "markers": [
+      {
+        "name": "Algeciras",
+        "lon": -5.45,
+        "lat": 36.13
+      }
+    ],
+    "kind": "naval",
+    "start": "1801-07-06",
+    "end": "1801-07-13",
+    "datePrecision": "day",
+    "place": "Algeciras Bay and the Strait of Gibraltar",
+    "lon": -5.55,
+    "lat": 36.05,
+    "locationCertainty": "approximate",
+    "phase": "consulate",
+    "sides": {
+      "focus": "France and Spain",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Linois",
+        "Moreno"
+      ],
+      "opponent": [
+        "Saumarez"
+      ]
+    },
+    "strength": {
+      "focus": "3 French ships of the line on 6 July; 9 French and Spanish on 12–13 July",
+      "opponent": "6 ships of the line on 6 July; 5 on 12–13 July"
+    },
+    "casualties": "6 July: British lost the Hannibal captured and c. 375 men; 12–13 July: two Spanish first-rates blew up with c. 1,700 men and the French Saint-Antoine was taken",
+    "outcome": "defeat",
+    "summary": "Linois beats off Saumarez's attack under the Spanish batteries at Algeciras, but six days later Saumarez falls on the combined squadron at night and destroys two Spanish three-deckers.",
+    "detail": "Linois's small squadron, bound for Cadiz to join a Spanish force for the relief of Egypt, anchored at Algeciras under the shore batteries when it learned that Saumarez was off Cadiz. On 6 July Saumarez attacked in light, fickle winds. His ships could not get close, the Hannibal ran aground and struck, and the British withdrew to Gibraltar badly damaged.\n\nA Spanish squadron then came to escort Linois to Cadiz. The British refitted with remarkable speed and pursued the combined force into the strait on the night of 12–13 July. In the darkness the Superb raked the Spanish Real Carlos, which caught fire and drifted into the San Hermenegildo; each mistook the other for an enemy, and both blew up with almost all their crews. The French Saint-Antoine was captured.",
+    "significance": "The second action reversed the first and kept British control of the strait, ending Franco-Spanish hopes of reinforcing the army in Egypt by sea.",
+    "certainty": "high",
+    "uncertaintyNote": "Spanish losses in the two first-rates are given between c. 1,700 and c. 2,000; outcome is shown as a defeat for the two battles together, though the first was a French victory.",
+    "sources": [
+      "N.A.M. Rodger, The Command of the Ocean: A Naval History of Britain 1649–1815 (2004)",
+      "William James, The Naval History of Great Britain, vol. 3 (1837 edn)",
+      "Robert Gardiner (ed.), Nelson against Napoleon: From the Nile to Copenhagen, 1798–1801 (1997)"
+    ],
+    "importance": 1
+  },
+  {
+    "id": "concordat-1801",
+    "title": "Concordat with the Papacy",
+    "geometry": "city",
+    "kind": "treaty",
+    "start": "1801-07-15",
+    "datePrecision": "day",
+    "place": "Paris",
+    "lon": 2.35,
+    "lat": 48.86,
+    "locationCertainty": "exact",
+    "phase": "consulate",
+    "sides": {
+      "focus": "French Republic (Consulate)",
+      "opponent": "The Papacy"
+    },
+    "commanders": {
+      "focus": [
+        "Bonaparte",
+        "Joseph Bonaparte",
+        "Bernier"
+      ],
+      "opponent": [
+        "Pius VII",
+        "Cardinal Consalvi"
+      ]
+    },
+    "outcome": "negotiated",
+    "summary": "Bonaparte reconciles the Republic with the Catholic Church, ending the religious schism the Revolution had opened and removing a chief grievance of royalist rebels.",
+    "detail": "The Revolution's Civil Constitution of the Clergy, the persecution of refractory priests and the cults of Reason and the Supreme Being had split France and fed the risings in the west. Bonaparte, who saw religion as a pillar of social order, opened talks with the new pope, Pius VII, soon after Marengo. After eight months of hard bargaining Cardinal Consalvi and Joseph Bonaparte signed the agreement in Paris on the night of 15–16 July 1801.\n\nCatholicism was recognised as the religion of the great majority of the French, not as the state religion. The pope accepted the sale of church lands and required all bishops to resign; the First Consul would nominate their successors and the state would pay the clergy. Bonaparte added the Organic Articles, which tightened state control, without the pope's consent, and the Concordat was proclaimed at Easter 1802.",
+    "significance": "The Concordat helped end the war in the Vendée and won the Consulate wide support, and it governed church and state in France until 1905.",
+    "certainty": "high",
+    "uncertaintyNote": "The signature is dated 15 or 16 July 1801 because it took place around midnight.",
+    "sources": [
+      "Nigel Aston, Religion and Revolution in France, 1780–1804 (2000)",
+      "Philip Dwyer, Citizen Emperor: Napoleon in Power 1799–1815 (2013)",
+      "Andrew Roberts, Napoleon the Great (2014)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "capitulation-of-alexandria-1801",
     "title": "French surrender in Egypt",
     "geometry": "city",
@@ -510,6 +690,50 @@
       "Philip Dwyer, Citizen Emperor: Napoleon in Power, 1799–1815 (2013)",
       "Andrew Roberts, Napoleon the Great (2014)",
       "Thierry Lentz, Nouvelle histoire du Premier Empire, vol. 1 (2002)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "cape-finisterre-1805",
+    "title": "Calder's Action off Cape Finisterre",
+    "geometry": "area",
+    "radiusKm": 60,
+    "kind": "naval",
+    "start": "1805-07-22",
+    "datePrecision": "day",
+    "place": "Atlantic Ocean, west of Cape Finisterre, Galicia",
+    "lon": -11.0,
+    "lat": 43.5,
+    "locationCertainty": "approximate",
+    "phase": "austerlitz",
+    "sides": {
+      "focus": "France and Spain",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Villeneuve",
+        "Gravina"
+      ],
+      "opponent": [
+        "Calder"
+      ]
+    },
+    "strength": {
+      "focus": "20 ships of the line",
+      "opponent": "15 ships of the line"
+    },
+    "casualties": "Franco-Spanish c. 650 killed and wounded and two Spanish ships of the line captured; British c. 200 killed and wounded",
+    "outcome": "inconclusive",
+    "summary": "Returning from the West Indies, Villeneuve's combined fleet is intercepted in fog by Calder, loses two Spanish ships and turns away to Spanish ports instead of the Channel.",
+    "detail": "Napoleon's plan to invade England depended on his fleets gathering to win control of the Channel. Villeneuve had sailed to Martinique to draw off the British and was returning to Europe when Sir Robert Calder, blockading Ferrol, met him west of Cape Finisterre on 22 July 1805.\n\nThe battle was fought in fog and poor light. The British captured the Spanish San Rafael and Firme, but Calder did not renew the action on the following days, though the fleets remained in sight. Villeneuve put into Vigo and Ferrol, and in August, instead of sailing for Brest and the Channel, he took his fleet south to Cadiz. Calder was court-martialled and reprimanded for not doing more.",
+    "significance": "The action helped end Napoleon's hope of invading England in 1805, and Villeneuve's retreat to Cadiz led directly to Trafalgar.",
+    "certainty": "high",
+    "uncertaintyNote": "The position of the action is given only approximately in the sources.",
+    "sources": [
+      "Julian S. Corbett, The Campaign of Trafalgar (1910)",
+      "N.A.M. Rodger, The Command of the Ocean: A Naval History of Britain 1649–1815 (2004)",
+      "Roy Adkins, Trafalgar: The Biography of a Battle (2004)"
     ],
     "importance": 2
   },
@@ -793,6 +1017,49 @@
       "Brendan Simms, The Struggle for Mastery in Germany, 1779–1850 (1998)"
     ],
     "importance": 2
+  },
+  {
+    "id": "saalfeld-1806",
+    "title": "Battle of Saalfeld",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1806-10-10",
+    "datePrecision": "day",
+    "place": "Saalfeld, Thuringia",
+    "lon": 11.36,
+    "lat": 50.65,
+    "locationCertainty": "exact",
+    "phase": "prussia",
+    "sides": {
+      "focus": "French Empire (V Corps)",
+      "opponent": "Prussia and Saxony"
+    },
+    "commanders": {
+      "focus": [
+        "Lannes",
+        "Suchet"
+      ],
+      "opponent": [
+        "Prince Louis Ferdinand of Prussia"
+      ]
+    },
+    "strength": {
+      "focus": "c. 12,000–14,000",
+      "opponent": "c. 8,300"
+    },
+    "casualties": "Prussians and Saxons c. 900 killed and wounded, c. 1,800 captured and 33 guns lost; French c. 170",
+    "outcome": "victory",
+    "summary": "Lannes routs the Prussian advance guard as the Grande Armée pours out of the Thuringian Forest. Prince Louis Ferdinand, the hero of the Prussian war party, is killed.",
+    "detail": "In early October 1806 Napoleon marched his army north through the Thuringian Forest in three columns, aiming at the Prussians' communications with Berlin. Prince Louis Ferdinand, commanding the Prussian advance guard, chose to stand in front of Saalfeld with the river Saale at his back instead of falling back on the main army.\n\nLannes's corps, led by Suchet's division, came out of the hills and attacked on 10 October, overlapping the Prussian line. The prince led a cavalry charge to restore it and was cut down by a hussar quartermaster, Guindey, after refusing to surrender. His force broke and fled, leaving its guns behind.",
+    "significance": "The prince's death shocked the Prussian army and court, and Saalfeld opened the way to the double disaster of Jena and Auerstedt four days later.",
+    "certainty": "high",
+    "uncertaintyNote": "Prussian losses are given differently in different sources, especially the number of prisoners.",
+    "sources": [
+      "F. Loraine Petre, Napoleon's Conquest of Prussia 1806 (1907)",
+      "David G. Chandler, The Campaigns of Napoleon (1966)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
   },
   {
     "id": "jena-auerstedt-1806",
@@ -1290,6 +1557,52 @@
     "importance": 1
   },
   {
+    "id": "medina-de-rioseco-1808",
+    "title": "Battle of Medina de Rioseco",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1808-07-14",
+    "datePrecision": "day",
+    "place": "Medina de Rioseco, Old Castile",
+    "lon": -5.04,
+    "lat": 41.88,
+    "locationCertainty": "approximate",
+    "phase": "spain",
+    "sides": {
+      "focus": "French Empire",
+      "opponent": "Spanish patriots"
+    },
+    "commanders": {
+      "focus": [
+        "Bessières",
+        "Lasalle",
+        "Merle",
+        "Mouton"
+      ],
+      "opponent": [
+        "Cuesta",
+        "Blake"
+      ]
+    },
+    "strength": {
+      "focus": "c. 13,700",
+      "opponent": "c. 21,000–22,000"
+    },
+    "casualties": "Spanish c. 3,000 killed and wounded and c. 1,200 captured, with 13 guns; French c. 400–500",
+    "outcome": "victory",
+    "summary": "Bessières smashes the combined armies of Galicia and Castile in the open plain of Old Castile, securing the road from France to Madrid for King Joseph.",
+    "detail": "When Spain rose in May 1808, the Galician army under Blake and the Castilian levies under the old captain-general Cuesta joined to cut the high road from Bayonne to Madrid. Their commanders quarrelled and deployed on the plateau before Medina de Rioseco in two separate bodies far apart.\n\nBessières attacked on 14 July. He fixed one wing and threw his main force against the gap, and the Spanish raw troops broke under French infantry attacks and Lasalle's cavalry. The town was sacked. Napoleon said the victory had put Joseph on the throne of Spain, and Joseph entered Madrid a week later.",
+    "significance": "The victory was overturned within days by the surrender at Bailén, which forced Joseph to abandon Madrid less than two weeks after arriving.",
+    "certainty": "high",
+    "uncertaintyNote": "Spanish losses are uncertain; some estimates put their total losses above 5,000.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 1 (1902)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
+    ],
+    "importance": 1
+  },
+  {
     "id": "bailen-1808",
     "title": "Battle of Bailén",
     "geometry": "site",
@@ -1549,48 +1862,6 @@
     "importance": 2
   },
   {
-    "id": "raszyn-1809",
-    "title": "Battle of Raszyn",
-    "geometry": "site",
-    "kind": "battle",
-    "start": "1809-04-19",
-    "datePrecision": "day",
-    "place": "Raszyn, south-west of Warsaw, Duchy of Warsaw",
-    "lon": 20.92,
-    "lat": 52.15,
-    "locationCertainty": "exact",
-    "phase": "wagram",
-    "sides": {
-      "focus": "Duchy of Warsaw and Saxony (French allies)",
-      "opponent": "Austria"
-    },
-    "commanders": {
-      "focus": [
-        "Poniatowski"
-      ],
-      "opponent": [
-        "Archduke Ferdinand"
-      ]
-    },
-    "strength": {
-      "focus": "c. 14,000",
-      "opponent": "c. 25,000–30,000"
-    },
-    "casualties": "Losses were moderate on both sides, perhaps 1,000–2,500 each; figures vary",
-    "outcome": "defeat",
-    "summary": "Prince Poniatowski's outnumbered Polish army holds the Austrians at Raszyn for a day, then gives up Warsaw, only to counter-attack into Austrian Galicia.",
-    "detail": "When Austria went to war in April 1809, Archduke Ferdinand invaded the Duchy of Warsaw, created by Napoleon at Tilsit. Prince Józef Poniatowski, with a small army of Poles and a Saxon contingent, took position behind the marshy stream at Raszyn to cover the capital.\n\nOn 19 April the Austrians attacked. The Poles fought stubbornly around the village and the causeway through the marshes, and nightfall found them still holding much of their line, but the Saxons were then recalled and Poniatowski withdrew. By a convention of 21 April he evacuated Warsaw without a fight, and the Austrians occupied the city.\n\nInstead of retreating further, Poniatowski crossed the Vistula and invaded Austrian Galicia, taking Lublin, Sandomierz and Zamość and raising the Poles there. Ferdinand's offensive lost its purpose and he eventually withdrew.",
-    "significance": "Tactically a hard-fought draw that cost Warsaw, Raszyn opened a campaign in which the Poles gained Galicia's western lands at the peace.",
-    "certainty": "medium",
-    "uncertaintyNote": "Often described as a tactical draw; casualty figures differ widely between Polish and Austrian accounts.",
-    "sources": [
-      "John H. Gill, Thunder on the Danube: Napoleon's Defeat of the Habsburgs (3 vols, 2008–10)",
-      "Digby Smith, The Napoleonic Wars Data Book (1998)",
-      "F. Loraine Petre, Napoleon and the Archduke Charles (1909)"
-    ],
-    "importance": 1
-  },
-  {
     "id": "tyrolean-rising-1809",
     "title": "Tyrolean rising",
     "geometry": "area",
@@ -1645,6 +1916,48 @@
       "Charles Esdaile, Napoleon's Wars: An International History, 1803–1815 (2007)"
     ],
     "importance": 2
+  },
+  {
+    "id": "raszyn-1809",
+    "title": "Battle of Raszyn",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1809-04-19",
+    "datePrecision": "day",
+    "place": "Raszyn, south-west of Warsaw, Duchy of Warsaw",
+    "lon": 20.92,
+    "lat": 52.15,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "Duchy of Warsaw and Saxony (French allies)",
+      "opponent": "Austria"
+    },
+    "commanders": {
+      "focus": [
+        "Poniatowski"
+      ],
+      "opponent": [
+        "Archduke Ferdinand"
+      ]
+    },
+    "strength": {
+      "focus": "c. 14,000",
+      "opponent": "c. 25,000–30,000"
+    },
+    "casualties": "Losses were moderate on both sides, perhaps 1,000–2,500 each; figures vary",
+    "outcome": "defeat",
+    "summary": "Prince Poniatowski's outnumbered Polish army holds the Austrians at Raszyn for a day, then gives up Warsaw, only to counter-attack into Austrian Galicia.",
+    "detail": "When Austria went to war in April 1809, Archduke Ferdinand invaded the Duchy of Warsaw, created by Napoleon at Tilsit. Prince Józef Poniatowski, with a small army of Poles and a Saxon contingent, took position behind the marshy stream at Raszyn to cover the capital.\n\nOn 19 April the Austrians attacked. The Poles fought stubbornly around the village and the causeway through the marshes, and nightfall found them still holding much of their line, but the Saxons were then recalled and Poniatowski withdrew. By a convention of 21 April he evacuated Warsaw without a fight, and the Austrians occupied the city.\n\nInstead of retreating further, Poniatowski crossed the Vistula and invaded Austrian Galicia, taking Lublin, Sandomierz and Zamość and raising the Poles there. Ferdinand's offensive lost its purpose and he eventually withdrew.",
+    "significance": "Tactically a hard-fought draw that cost Warsaw, Raszyn opened a campaign in which the Poles gained Galicia's western lands at the peace.",
+    "certainty": "medium",
+    "uncertaintyNote": "Often described as a tactical draw; casualty figures differ widely between Polish and Austrian accounts.",
+    "sources": [
+      "John H. Gill, Thunder on the Danube: Napoleon's Defeat of the Habsburgs (3 vols, 2008–10)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)",
+      "F. Loraine Petre, Napoleon and the Archduke Charles (1909)"
+    ],
+    "importance": 1
   },
   {
     "id": "abensberg-eckmuhl-1809",
@@ -1706,6 +2019,50 @@
       "John H. Gill, Thunder on the Danube, vol. 1: Abensberg (2008)",
       "F. Loraine Petre, Napoleon and the Archduke Charles (1909)",
       "Gunther E. Rothenberg, Napoleon's Great Adversaries: The Archduke Charles and the Austrian Army, 1792–1814 (1982)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "oporto-1809",
+    "title": "Second Battle of Porto",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1809-05-12",
+    "datePrecision": "day",
+    "place": "Porto (Oporto), on the Douro, Portugal",
+    "lon": -8.61,
+    "lat": 41.14,
+    "locationCertainty": "exact",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire (II Corps)",
+      "opponent": "Britain and Portugal"
+    },
+    "commanders": {
+      "focus": [
+        "Soult"
+      ],
+      "opponent": [
+        "Wellesley",
+        "Hill",
+        "Murray"
+      ]
+    },
+    "strength": {
+      "focus": "c. 11,000 around the city (Soult's army c. 20,000 in all)",
+      "opponent": "c. 18,000"
+    },
+    "casualties": "French c. 300 killed and wounded and c. 1,500 captured, many of them sick in hospital, with 58 guns abandoned; British c. 125",
+    "outcome": "defeat",
+    "summary": "Wellesley crosses the Douro in borrowed wine barges under Soult's nose and drives the French out of Porto, beginning their headlong retreat from northern Portugal.",
+    "detail": "Soult had taken Porto in March 1809 and lingered there, half-hoping to be made king of northern Portugal. Sir Arthur Wellesley, returned to command in Lisbon, marched north. Soult destroyed the bridge of boats over the Douro and believed the river impassable, watching the sea where he expected a British landing.\n\nOn 12 May British troops found a few barges on the south bank and ferried men across to the walled Seminary upstream of the city. By the time the French saw them a battalion was in the building, and French attacks failed against it as more men crossed. Soult abandoned Porto in confusion, leaving guns and his sick behind, and fled over mountain tracks into Galicia after destroying his wagons and artillery.",
+    "significance": "Porto cleared northern Portugal, and it was the first victory of Wellesley's second Peninsular command, which would last until 1814.",
+    "certainty": "high",
+    "uncertaintyNote": "French losses in the city are uncertain, and the total for Soult's retreat to Galicia is much larger, perhaps 4,000–6,000.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 2 (1903)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Rory Muir, Wellington: The Path to Victory 1769–1814 (2013)"
     ],
     "importance": 2
   },
@@ -1961,6 +2318,51 @@
       "Paul W. Schroeder, The Transformation of European Politics 1763–1848 (1994)",
       "John H. Gill, Thunder on the Danube, vol. 3: Wagram and Znaim (2010)",
       "Treaty of Schönbrunn, 14 October 1809 (text)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ocana-1809",
+    "title": "Battle of Ocaña",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1809-11-19",
+    "datePrecision": "day",
+    "place": "Ocaña, New Castile",
+    "lon": -3.5,
+    "lat": 39.96,
+    "locationCertainty": "approximate",
+    "phase": "wagram",
+    "sides": {
+      "focus": "French Empire and Joseph's Spain",
+      "opponent": "Spain (Army of La Mancha)"
+    },
+    "commanders": {
+      "focus": [
+        "Soult",
+        "Mortier",
+        "Sebastiani",
+        "King Joseph"
+      ],
+      "opponent": [
+        "Areizaga"
+      ]
+    },
+    "strength": {
+      "focus": "c. 34,000",
+      "opponent": "c. 51,000–53,000"
+    },
+    "casualties": "Spanish c. 4,000 killed and wounded and c. 14,000 captured, with 50 guns; French c. 1,700–2,000",
+    "outcome": "victory",
+    "summary": "The largest army Spain ever put in the field marches on Madrid and is destroyed at Ocaña, largely by Sebastiani's cavalry.",
+    "detail": "After Talavera the Supreme Junta planned a converging offensive on Madrid. Areizaga advanced across La Mancha with more than 50,000 men while Wellington, distrustful of his allies, stayed out. Soult, now Joseph's chief of staff, concentrated against him south of the Tagus.\n\nOn 19 November the Spanish infantry deployed on the open plain before Ocaña. The French attacked their front, while Sebastiani's cavalry, over 5,000 strong, routed the Spanish horse on the right and fell on the exposed infantry. The Spanish army disintegrated; tens of thousands fled south and the prisoners filled the roads to Madrid. Areizaga escaped with a fragment of his force.",
+    "significance": "Ocaña left southern Spain defenceless, and in January 1810 Joseph and Soult overran Andalusia and laid siege to Cádiz.",
+    "certainty": "high",
+    "uncertaintyNote": "Spanish prisoner totals range from c. 13,000 to c. 15,000.",
+    "sources": [
+      "Charles Oman, A History of the Peninsular War, vol. 3 (1908)",
+      "Charles Esdaile, The Peninsular War: A New History (2002)",
+      "Digby Smith, The Napoleonic Wars Data Book (1998)"
     ],
     "importance": 2
   }

@@ -13,7 +13,10 @@ export function Chooser({ onPick, onPrefetch }: { onPick: (id: string) => void; 
       <header className="ch-head">
         <span className="kicker">Edited by Paul Hendrie</span>
         <h1>Atlas of Wars</h1>
-        <p>Choose a war. Each one plays out on a living globe: drag through the years or press play, and open the events that shaped it.</p>
+        <p>
+          Choose a war. Each one plays out on a living globe: press play to watch the frontiers move month by month as the key moments
+          flick up as pictures, or drag through the years and open any event to read its full story.
+        </p>
       </header>
       <div className="ch-cards">
         {ready.map((w, i) => (
@@ -39,6 +42,7 @@ export function Chooser({ onPick, onPrefetch }: { onPick: (id: string) => void; 
           </button>
         ))}
       </div>
+      <HowTo />
       <p className="ch-soon">
         <span>In research</span> {soon.map((w) => w.title).join(' · ')}
       </p>
@@ -46,15 +50,73 @@ export function Chooser({ onPick, onPrefetch }: { onPick: (id: string) => void; 
   );
 }
 
+const STEPS: { title: string; body: React.ReactNode; icon: React.ReactNode }[] = [
+  {
+    title: 'Choose a war',
+    body: 'Pick one of the cards above. Each opens on its own globe; the war’s name at the top left switches to another at any time.',
+    icon: <path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zm0 0c2.6 2.4 3.8 5.4 3.8 9s-1.2 6.6-3.8 9m0-18C9.4 5.4 8.2 8.4 8.2 12s1.2 6.6 3.8 9M3.5 9h17m-17 6h17" />,
+  },
+  {
+    title: 'Press play',
+    body: (
+      <>
+        The war unfolds month by month. Borders shift as ground is won and lost, and each key moment flicks up as a picture card;
+        the cards you have passed collect in a strip above the timeline. The <b>1×</b> button changes the speed.
+      </>
+    ),
+    icon: <path d="M8 5.5v13l10.5-6.5z" />,
+  },
+  {
+    title: 'Drag the timeline',
+    body: 'Drag along the bar at the bottom to jump to any month. The coloured ticks are events, the bands above them are the chapters of the war, and the strip below shows who led.',
+    icon: <path d="M3 15h18M7 11v8m5-12v12m5-8v8" />,
+  },
+  {
+    title: 'Open an event',
+    body: 'Click a pin on the map, a tick on the timeline or a picture card to read the event: who fought, the commanders, strengths and losses, why it mattered, how certain the sources are, and where to read more.',
+    icon: <path d="M12 21s-6.5-6.2-6.5-11a6.5 6.5 0 0 1 13 0c0 4.8-6.5 11-6.5 11zm0-8.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />,
+  },
+  {
+    title: 'Read the map',
+    body: 'Strong colours are the side the atlas follows and the land it holds; hatching marks ground that is contested or occupied. The colour of a pin tells who won. Hover over a region for its ruler, and open Key at the bottom left for the full legend.',
+    icon: <path d="M4 6l5-2 6 2 5-2v14l-5 2-6-2-5 2zM9 4v14m6-12v14" />,
+  },
+  {
+    title: 'Find your way',
+    body: (
+      <>
+        <b>Chronicle</b> lists every event in order. <b>Follow</b> lets the camera chase the action, or untick it to roam freely. The keyboard
+        works too: <kbd>Space</kbd> plays or pauses, <kbd>←</kbd> <kbd>→</kbd> step a month, <kbd>[</kbd> <kbd>]</kbd> step through events.
+      </>
+    ),
+    icon: <path d="M5 6h14M5 12h14M5 18h9" />,
+  },
+];
+
+/** How to use the atlas, for first-time visitors. */
+function HowTo() {
+  return (
+    <section className="ch-howto" aria-labelledby="ch-howto-h">
+      <h2 id="ch-howto-h">How to use the atlas</h2>
+      <ol>
+        {STEPS.map((s, i) => (
+          <li key={s.title} style={{ animationDelay: `${0.5 + i * 0.07}s` }}>
+            <svg viewBox="0 0 24 24" aria-hidden>{s.icon}</svg>
+            <div>
+              <h3>
+                <span>{i + 1}</span> {s.title}
+              </h3>
+              <p>{s.body}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+      <p className="ch-tip">Every link is shareable: the address bar keeps the war, the date and the open event.</p>
+    </section>
+  );
+}
+
 function Emblem({ id }: { id: string }) {
-  if (id === 'mongol')
-    return (
-      <svg className="ch-emblem" viewBox="0 0 64 64" aria-hidden>
-        <circle cx="32" cy="32" r="29" fill="none" stroke="currentColor" strokeOpacity=".35" />
-        <circle cx="32" cy="32" r="23" fill="currentColor" />
-        <path d="M20 42V24l6.5 9L32 20l5.5 13L44 24v18z" fill="#17120b" />
-      </svg>
-    );
   if (id === 'ww2')
     // Searchlights crossing in the night sky.
     return (

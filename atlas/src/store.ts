@@ -35,7 +35,7 @@ function createStore<S extends object>(initial: S) {
 }
 
 export const store = createStore<AtlasState>({
-  t: 1206,
+  t: 1792.25,
   playing: false,
   speed: 1,
   selected: null,

@@ -146,6 +146,63 @@
     "importance": 2
   },
   {
+    "id": "goeben-breslau-1914",
+    "title": "Escape of the Goeben and Breslau",
+    "geometry": "site",
+    "markers": [
+      {
+        "name": "Messina",
+        "lon": 15.55,
+        "lat": 38.19
+      },
+      {
+        "name": "Bône (Annaba)",
+        "lon": 7.77,
+        "lat": 36.9
+      }
+    ],
+    "kind": "naval",
+    "start": "1914-08-04",
+    "end": "1914-08-10",
+    "datePrecision": "day",
+    "place": "Mediterranean, from the Algerian coast via Messina to the Dardanelles",
+    "lon": 26.18,
+    "lat": 40.03,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany (Mediterranean Division)",
+      "opponent": "Britain (Mediterranean Fleet)"
+    },
+    "commanders": {
+      "focus": [
+        "Souchon"
+      ],
+      "opponent": [
+        "Milne",
+        "Troubridge"
+      ]
+    },
+    "strength": {
+      "focus": "1 battlecruiser (Goeben), 1 light cruiser (Breslau)",
+      "opponent": "3 battlecruisers, 4 armoured cruisers and light forces"
+    },
+    "casualties": "Negligible; no ship was lost on either side",
+    "outcome": "victory",
+    "summary": "The German battlecruiser Goeben and light cruiser Breslau shell the Algerian coast, outrun the British Mediterranean Fleet and reach Constantinople, where they are nominally sold to the Ottoman navy.",
+    "detail": "Rear-Admiral Wilhelm Souchon bombarded Bône and Philippeville on 4 August, hours before Britain entered the war, then coaled at Messina. The Admiralty expected him to break west or into the Adriatic and kept Admiral Milne's battlecruisers guarding the French troop convoys. When Souchon instead steamed east on 6 August, Rear-Admiral Troubridge's armoured cruisers shadowed him but broke off, judging that they could not fight the faster and better-gunned Goeben, which the Admiralty had told him to avoid as a 'superior force'.\n\nSouchon reached the Dardanelles on 10 August and was let in. To evade the laws of neutrality the Ottoman government announced that it had bought the ships; they were renamed Yavuz Sultan Selim and Midilli, though their German crews stayed aboard in fezzes. Britain's seizure of two Ottoman dreadnoughts building in British yards made the gesture popular in Constantinople.\n\nTroubridge was court-martialled and acquitted; neither he nor Milne held a sea command again.",
+    "significance": "The ships tilted the Ottoman Empire towards Germany, and in October Souchon's raid on the Russian Black Sea coast brought it into the war.",
+    "certainty": "high",
+    "uncertaintyNote": "How far the arrival of the ships, rather than the secret German–Ottoman alliance of 2 August, decided Ottoman entry is debated.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Geoffrey Miller, Superior Force: The Conspiracy behind the Escape of Goeben and Breslau (1996)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "liege-1914",
     "title": "Invasion of Belgium and siege of Liège",
     "geometry": "city",
@@ -517,6 +574,51 @@
     "importance": 3
   },
   {
+    "id": "heligoland-bight-1914",
+    "title": "Battle of Heligoland Bight",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1914-08-28",
+    "datePrecision": "day",
+    "place": "North Sea, west and north-west of Heligoland",
+    "lon": 7.55,
+    "lat": 54.3,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Maass",
+        "Hipper"
+      ],
+      "opponent": [
+        "Beatty",
+        "Tyrwhitt",
+        "Keyes"
+      ]
+    },
+    "strength": {
+      "focus": "Patrol destroyers and 6 light cruisers committed piecemeal",
+      "opponent": "5 battlecruisers, 8 light cruisers, over 30 destroyers and submarines"
+    },
+    "casualties": "German 3 light cruisers and 1 destroyer sunk, c. 712 killed and c. 336 captured; British 35 killed, no ships lost",
+    "outcome": "defeat",
+    "summary": "A British raid on the German destroyer patrols off Heligoland turns into a running fight in mist; Beatty's battlecruisers arrive and sink three German light cruisers.",
+    "detail": "Commodores Tyrwhitt and Keyes planned to ambush the German destroyers patrolling the Bight with light forces and submarines. The Admiralty added Beatty's battlecruisers late and failed to tell everyone, so British units at times mistook each other for the enemy. On the morning of 28 August Tyrwhitt's flotillas fell on the German patrols, and German light cruisers came out from the Jade and Ems one by one to help.\n\nIn poor visibility the fight went badly for Tyrwhitt's flagship Arethusa until, shortly after midday, Beatty brought his battlecruisers in at speed. Mainz, Cöln and Ariadne were sunk; Rear-Admiral Maass died aboard Cöln. The German battlecruisers could not cross the bar of the Jade until the tide rose and arrived too late. Among the prisoners was the son of Admiral Tirpitz.",
+    "significance": "The first naval battle of the war confirmed the Kaiser in keeping the High Seas Fleet on a short leash, conceding the initiative in the North Sea to Britain.",
+    "certainty": "high",
+    "uncertaintyNote": "German losses are given variously as 712 to over 1,000 killed, depending on whether the missing are counted.",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Eric W. Osborne, The Battle of Heligoland Bight (2006)",
+      "Robert K. Massie, Castles of Steel (2003)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "marne-1914",
     "title": "First Battle of the Marne",
     "geometry": "area",
@@ -685,6 +787,47 @@
       "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
       "Jack Sheldon, The German Army at Ypres 1914 (2010)",
       "Sophie de Schaepdrijver, De Groote Oorlog: Het koninkrijk België tijdens de Eerste Wereldoorlog (1997)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "u9-broad-fourteens-1914",
+    "title": "U-9 sinks three British cruisers",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1914-09-22",
+    "datePrecision": "day",
+    "place": "The Broad Fourteens, North Sea, off the Dutch coast",
+    "lon": 3.6,
+    "lat": 52.3,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Weddigen"
+      ],
+      "opponent": [
+        "Drummond"
+      ]
+    },
+    "strength": {
+      "focus": "1 submarine (U-9)",
+      "opponent": "3 armoured cruisers (Aboukir, Hogue, Cressy)"
+    },
+    "casualties": "British c. 1,459 killed and 3 armoured cruisers sunk; German none",
+    "outcome": "victory",
+    "summary": "In just over an hour a single old German submarine torpedoes and sinks the armoured cruisers Aboukir, Hogue and Cressy, killing some 1,450 British sailors.",
+    "detail": "The three elderly cruisers of the 7th Cruiser Squadron, known in the fleet as the 'live bait squadron', were patrolling the southern North Sea at slow speed and without destroyer escort, which bad weather had sent home. On the morning of 22 September Kapitänleutnant Otto Weddigen in U-9 torpedoed Aboukir.\n\nAssuming she had struck a mine, Hogue and Cressy stopped to pick up survivors and were torpedoed in turn. Many of the crews were reservists and young cadets. Dutch and British vessels rescued about 840 men.",
+    "significance": "The disaster showed that the submarine could sink large warships with impunity, and made both navies far more cautious about exposing their heavy ships.",
+    "certainty": "high",
+    "sources": [
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Robert K. Massie, Castles of Steel (2003)",
+      "Lawrence Sondhaus, The Great War at Sea (2014)"
     ],
     "importance": 2
   },
@@ -1013,6 +1156,57 @@
     "importance": 1
   },
   {
+    "id": "basra-1914",
+    "title": "Landing at Fao and capture of Basra",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Fao",
+        "lon": 48.48,
+        "lat": 29.97
+      }
+    ],
+    "kind": "campaign",
+    "start": "1914-11-06",
+    "end": "1914-11-22",
+    "datePrecision": "day",
+    "place": "Shatt al-Arab and Basra, Ottoman Mesopotamia (Iraq)",
+    "lon": 47.81,
+    "lat": 30.51,
+    "locationCertainty": "exact",
+    "phase": "movement",
+    "sides": {
+      "focus": "Ottoman Empire",
+      "opponent": "British Empire (India)"
+    },
+    "commanders": {
+      "focus": [
+        "Subhi Bey"
+      ],
+      "opponent": [
+        "Delamain",
+        "Barrett"
+      ]
+    },
+    "strength": {
+      "focus": "c. 4,000–5,000 in the Basra area",
+      "opponent": "c. 5,000 rising to a reinforced division (Force D)"
+    },
+    "casualties": "British and Indian c. 500 killed and wounded; Ottoman losses in the low thousands, uncertain",
+    "outcome": "defeat",
+    "summary": "An Indian Army brigade lands at Fao the day after Britain declares war on the Ottoman Empire, defeats the Ottoman garrison at Sahil and occupies Basra.",
+    "detail": "Force D had been sent to the head of the Gulf in October to protect the Anglo-Persian Oil Company's refinery at Abadan and to impress the Arab rulers of the Gulf. On 6 November Brigadier-General Delamain's brigade landed at Fao and took the old fort. Lieutenant-General Barrett brought up the rest of the 6th (Poona) Division, and on 17 November the Ottoman force was beaten at Sahil in a rainstorm.\n\nThe Ottomans abandoned Basra, which the British entered on 22 November. In December they pushed on to the confluence of the Tigris and Euphrates at Qurna, where Subhi Bey surrendered with about a thousand men.",
+    "significance": "Easy early success drew Britain up the Tigris towards Baghdad, a road that led to Ctesiphon and Kut.",
+    "certainty": "high",
+    "uncertaintyNote": "Ottoman strength and losses around Basra are poorly documented.",
+    "sources": [
+      "Charles Townshend, When God Made Hell: The British Invasion of Mesopotamia (2010)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "F. J. Moberly, The Campaign in Mesopotamia 1914–1918, vol. 1 (1923)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "emden-cocos-1914",
     "title": "Sydney destroys the Emden",
     "geometry": "site",
@@ -1056,6 +1250,53 @@
       "Julian S. Corbett, Naval Operations, vol. 1 (British official history, 1920)"
     ],
     "importance": 1
+  },
+  {
+    "id": "lodz-1914",
+    "title": "Battle of Łódź",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1914-11-11",
+    "end": "1914-12-06",
+    "datePrecision": "day",
+    "place": "Around Łódź, Russian Poland",
+    "lon": 19.46,
+    "lat": 51.76,
+    "locationCertainty": "approximate",
+    "phase": "movement",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Mackensen",
+        "Scheffer-Boyadel"
+      ],
+      "opponent": [
+        "Ruzsky",
+        "Scheidemann",
+        "Plehve",
+        "Rennenkampf"
+      ]
+    },
+    "strength": {
+      "focus": "c. 250,000 (Ninth Army)",
+      "opponent": "c. 600,000 (First, Second and Fifth Armies)"
+    },
+    "casualties": "Russian c. 100,000 or more; German c. 35,000–50,000",
+    "outcome": "inconclusive",
+    "summary": "Mackensen's Ninth Army, shifted by rail, strikes into the flank of the Russian armies massing for an invasion of Silesia and nearly encircles them at Łódź before itself narrowly escaping encirclement.",
+    "detail": "In November the Russians gathered their armies in western Poland for a drive into Silesia. Ludendorff moved the Ninth Army by rail to Thorn and on 11 November Mackensen attacked south-east into the gap between the Russian First and Second Armies. The Russian Second Army fell back on Łódź and was nearly surrounded, but Plehve brought the Fifth Army north in a forced march and Rennenkampf's troops closed on the German rear.\n\nGeneral Scheffer-Boyadel's enveloping group now found itself trapped near Brzeziny. In bitter cold it fought its way out on 24 November, bringing with it thousands of prisoners. Fighting went on into December; the Russians, short of shells, evacuated Łódź on 6 December and fell back to the Bzura and Rawka rivers.",
+    "significance": "The Germans failed to destroy the Russian armies but ended the threat to Silesia, and the winter front in Poland settled into trench lines west of Warsaw.",
+    "certainty": "medium",
+    "uncertaintyNote": "Strengths and casualties vary widely in the literature, and both sides claimed success.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Prit Buttar, Collision of Empires: The War on the Eastern Front in 1914 (2014)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)"
+    ],
+    "importance": 2
   },
   {
     "id": "kolubara-1914",
@@ -1247,6 +1488,50 @@
     "importance": 1
   },
   {
+    "id": "first-zeppelin-raid-1915",
+    "title": "First Zeppelin raid on Britain",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "King's Lynn",
+        "lon": 0.4,
+        "lat": 52.75
+      }
+    ],
+    "kind": "raid",
+    "start": "1915-01-19",
+    "datePrecision": "day",
+    "place": "Great Yarmouth and King's Lynn, Norfolk",
+    "lon": 1.73,
+    "lat": 52.61,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Strasser"
+      ]
+    },
+    "strength": {
+      "focus": "2 naval airships (L3, L4); a third turned back"
+    },
+    "casualties": "British 4 killed and 16 injured; German none",
+    "outcome": "n/a",
+    "summary": "Two German naval Zeppelins drop bombs on Great Yarmouth and King's Lynn, killing four civilians in the first air raid on Britain.",
+    "detail": "The Kaiser had approved airship raids on Britain in January 1915, at first excluding London. On the night of 19 January the naval airships L3 and L4, sent by Peter Strasser's airship division to attack Humberside, were pushed south by the wind and bombed Great Yarmouth, Sheringham and King's Lynn instead, navigating by dead reckoning in the dark.\n\nThe damage was slight, but the dead included a shoemaker and an elderly woman in Yarmouth and a teenage boy in King's Lynn. Britain had almost no defence: no blackout, few guns, and aircraft that could not climb to the airships in time.",
+    "significance": "It began a strategic bombing campaign against Britain that reached London in May 1915, killed some 550 people by airship and drew guns, aircraft and men away from the front.",
+    "certainty": "high",
+    "sources": [
+      "Christopher Cole and E. F. Cheesman, The Air Defence of Britain 1914–1918 (1984)",
+      "Ian Castle, London 1914–17: The Zeppelin Menace (2008)",
+      "John H. Morrow, The Great War in the Air (1993)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dogger-bank-1915",
     "title": "Battle of Dogger Bank",
     "geometry": "site",
@@ -1345,6 +1630,53 @@
       "Edward J. Erickson, Ordered to Die: A History of the Ottoman Army in the First World War (2001)"
     ],
     "importance": 1
+  },
+  {
+    "id": "winter-battle-masuria-1915",
+    "title": "Second Battle of the Masurian Lakes",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1915-02-07",
+    "end": "1915-02-22",
+    "datePrecision": "day",
+    "place": "Masuria and the Augustów Forest, East Prussia and Russian Poland",
+    "lon": 22.98,
+    "lat": 53.84,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Hindenburg",
+        "Ludendorff",
+        "Eichhorn",
+        "Below"
+      ],
+      "opponent": [
+        "Sievers",
+        "Bulgakov"
+      ]
+    },
+    "strength": {
+      "focus": "c. 250,000 (Eighth and Tenth Armies)",
+      "opponent": "c. 220,000 (Tenth Army)"
+    },
+    "casualties": "Russian c. 200,000 including perhaps 90,000 prisoners; German considerably lighter, perhaps 16,000 or more",
+    "outcome": "victory",
+    "summary": "In the 'Winter Battle' two German armies attack in snowstorms on both flanks of the Russian Tenth Army, drive it out of East Prussia and trap its XX Corps in the Augustów Forest.",
+    "detail": "Hindenburg and Ludendorff planned the attack as the northern arm of a great pincer, with the Austro-Hungarian offensive in the Carpathians as the southern. Below's Eighth Army struck on 7 February and Eichhorn's new Tenth Army on 8 February, marching through deep snow around the flanks of Sievers' Russian Tenth Army.\n\nThe Russians fell back eastwards through the frozen lakes and forests. Most escaped, but General Bulgakov's XX Corps, covering the retreat, was surrounded in the Augustów Forest and surrendered on 21 February after a stubborn fight. A German attempt to push on towards the Niemen and Grodno was then halted by Russian reinforcements and the spring thaw.",
+    "significance": "East Prussia was cleared of Russian troops for good, but the strategic envelopment Ludendorff hoped for failed, as did its Austrian counterpart in the Carpathians.",
+    "certainty": "medium",
+    "uncertaintyNote": "Prisoner totals rest on German claims; figures from 56,000 to over 100,000 appear in the literature.",
+    "sources": [
+      "Norman Stone, The Eastern Front 1914–1917 (1975)",
+      "Prit Buttar, Germany Ascendant: The Eastern Front 1915 (2015)",
+      "Dennis Showalter and William J. Astore, Hindenburg: Icon of German Militarism (2005)"
+    ],
+    "importance": 2
   },
   {
     "id": "neuve-chapelle-1915",
@@ -1724,6 +2056,58 @@
     "importance": 2
   },
   {
+    "id": "south-west-africa-1915",
+    "title": "Conquest of German South West Africa",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Khorab, near Otavi",
+        "lon": 17.65,
+        "lat": -19.65
+      }
+    ],
+    "kind": "campaign",
+    "start": "1915-05-12",
+    "end": "1915-07-09",
+    "datePrecision": "day",
+    "place": "Windhuk (Windhoek) to Khorab, German South West Africa (Namibia)",
+    "lon": 17.08,
+    "lat": -22.56,
+    "locationCertainty": "exact",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany (Schutztruppe)",
+      "opponent": "Union of South Africa"
+    },
+    "commanders": {
+      "focus": [
+        "Seitz",
+        "Franke"
+      ],
+      "opponent": [
+        "Botha",
+        "Smuts"
+      ]
+    },
+    "strength": {
+      "focus": "c. 5,000 including reservists",
+      "opponent": "c. 40,000 in the field (about 67,000 mobilised)"
+    },
+    "casualties": "Light on both sides: South African battle dead c. 100–250; German c. 100 killed; c. 3,400 Germans surrendered at Khorab",
+    "outcome": "defeat",
+    "summary": "South African columns under Louis Botha take Windhuk and drive the small German garrison north until it surrenders at Khorab, the first colony lost by Germany in a land campaign.",
+    "detail": "South Africa's invasion was delayed by the Afrikaner rebellion of late 1914, which Botha and Smuts had first to suppress. In 1915 Botha advanced from Swakopmund along the railway while Smuts' columns pushed up from the south across the desert. Lack of water, not German resistance, was the main obstacle, and the mounted South African columns moved with great speed.\n\nWindhuk and its wireless station fell on 12 May. Colonel Franke withdrew the Schutztruppe north to Otavi and Tsumeb, but Botha's columns outflanked him, and on 9 July Governor Seitz and Franke signed the surrender at Khorab. The reservists were allowed to return to their farms and the officers kept their swords.",
+    "significance": "The campaign gave South Africa control of the territory, which it went on to hold as a League of Nations mandate until Namibian independence in 1990.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty totals depend on whether deaths from disease and accident are counted.",
+    "sources": [
+      "Hew Strachan, The First World War in Africa (2004)",
+      "Bill Nasson, Springboks on the Somme: South Africa in the Great War (2007)",
+      "Gerald L'Ange, Urgent Imperial Service: South African Forces in German South West Africa (1991)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "italy-enters-war-1915",
     "title": "Italy enters the war",
     "geometry": "city",
@@ -1978,6 +2362,52 @@
       "Hew Strachan, The First World War (2003)"
     ],
     "importance": 1
+  },
+  {
+    "id": "second-champagne-1915",
+    "title": "Second Battle of Champagne",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1915-09-25",
+    "end": "1915-11-06",
+    "datePrecision": "day",
+    "place": "Between Auberive and the Argonne, around Souain and Tahure, Champagne",
+    "lon": 4.55,
+    "lat": 49.2,
+    "locationCertainty": "approximate",
+    "phase": "new-fronts",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "France"
+    },
+    "commanders": {
+      "focus": [
+        "Einem"
+      ],
+      "opponent": [
+        "Joffre",
+        "Castelnau",
+        "Pétain",
+        "de Langle de Cary"
+      ]
+    },
+    "strength": {
+      "focus": "c. 7 divisions in line, heavily reinforced",
+      "opponent": "c. 27 divisions in the first assault (Second and Fourth Armies)"
+    },
+    "casualties": "French c. 140,000; German c. 85,000 including c. 25,000 prisoners",
+    "outcome": "victory",
+    "summary": "Joffre's great autumn offensive breaks the German first line in Champagne but halts at the second, at a cost of some 140,000 French casualties.",
+    "detail": "Joffre planned the Champagne attack as the main blow of a combined Allied offensive, with the British at Loos and the French Tenth Army in Artois as subsidiary efforts. After a three-day bombardment, two French armies under Castelnau attacked on 25 September on a front of some 25 km. In places they overran the German first position and took thousands of prisoners.\n\nBut the Germans had built a second line on the reverse slopes, beyond the reach of observed artillery fire, and much of its wire was intact. The French assault ground to a halt in front of it within days. Renewed attacks in October, including at the Butte de Tahure, gained little before the offensive was closed down in November.",
+    "significance": "Champagne showed that defence in depth could stop a breakthrough, and pushed both armies towards the attritional thinking of 1916.",
+    "certainty": "medium",
+    "uncertaintyNote": "French losses are given between about 140,000 and 190,000 depending on the period counted.",
+    "sources": [
+      "Robert A. Doughty, Pyrrhic Victory: French Strategy and Operations in the Great War (2005)",
+      "David Stevenson, 1914–1918: The History of the First World War (2004)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 2
   },
   {
     "id": "salonika-landing-1915",

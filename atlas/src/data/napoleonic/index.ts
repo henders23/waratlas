@@ -23,7 +23,7 @@ export const NAPOLEONIC: WarDef = {
   labelMinKm2: [9000, 60000],
   labelScale: 0.62,
   tickEvery: 2,
-  speeds: [0.125, 0.25, 0.5, 1],
+  speeds: [0.09375, 0.1875, 0.375, 0.75],
   music: { src: 'audio/measured-march.mp3', title: 'Measured March' },
   outcomeColors: {
     victory: '#f2c14e',

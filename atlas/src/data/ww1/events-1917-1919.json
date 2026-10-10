@@ -1,5 +1,91 @@
 [
   {
+    "id": "bloody-april-1917",
+    "title": "Bloody April",
+    "geometry": "area",
+    "radiusKm": 45,
+    "kind": "campaign",
+    "start": "1917-04",
+    "end": "1917-04-30",
+    "datePrecision": "month",
+    "place": "The skies over Arras and the Western Front",
+    "lon": 2.78,
+    "lat": 50.29,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Germany (Luftstreitkräfte)",
+      "opponent": "Britain (Royal Flying Corps)"
+    },
+    "commanders": {
+      "focus": [
+        "Richthofen"
+      ],
+      "opponent": [
+        "Trenchard"
+      ]
+    },
+    "strength": {
+      "focus": "c. 400 aircraft opposite the British",
+      "opponent": "c. 750 aircraft"
+    },
+    "casualties": "British c. 245 aircraft lost, c. 211 aircrew killed or missing and 108 captured; German c. 66 aircraft",
+    "outcome": "victory",
+    "summary": "Flying in support of the Arras offensive, the Royal Flying Corps loses about a third of its strength in a month to German fighter squadrons led by Manfred von Richthofen.",
+    "detail": "Trenchard insisted on keeping up reconnaissance, artillery spotting and offensive patrols over the German lines whatever the cost, because the army at Arras depended on them. The RFC was flying outclassed types such as the BE2 and FE2b, and many of its pilots had only a few hours' experience.\n\nThe German Jagdstaffeln, newly equipped with the Albatros D.III and fighting over their own lines, could choose when to engage. Richthofen's Jasta 11 alone claimed about 89 victories in the month, 21 of them by Richthofen himself. The life expectancy of a new British pilot was measured in days.",
+    "significance": "Bloody April was the high point of German air superiority on the Western Front; new British aircraft such as the SE5 and Camel turned the balance later in the year.",
+    "certainty": "high",
+    "uncertaintyNote": "Loss figures vary with whether aircraft written off in accidents are included.",
+    "sources": [
+      "John H. Morrow, The Great War in the Air (1993)",
+      "Peter Hart, Bloody April: Slaughter in the Skies over Arras, 1917 (2005)",
+      "Gary Sheffield, Forgotten Victory: The First World War (2001)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "otranto-straits-1917",
+    "title": "Battle of the Strait of Otranto",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1917-05-15",
+    "datePrecision": "day",
+    "place": "Strait of Otranto, between Italy and Albania",
+    "lon": 18.95,
+    "lat": 40.3,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Britain, Italy and France"
+    },
+    "commanders": {
+      "focus": [
+        "Horthy"
+      ],
+      "opponent": [
+        "Acton"
+      ]
+    },
+    "strength": {
+      "focus": "3 light cruisers, 2 destroyers, 2 U-boats",
+      "opponent": "2 light cruisers, destroyers and c. 47 drifters"
+    },
+    "casualties": "Allied 14 drifters, 1 destroyer, 1 ammunition ship and a transport sunk, over 100 killed and 72 captured; Austro-Hungarian c. 15 killed, Horthy wounded",
+    "outcome": "victory",
+    "summary": "Captain Miklós Horthy's cruisers raid the Otranto barrage at night, sinking 14 British drifters, then fight their way home against a superior Allied force.",
+    "detail": "The Allies tried to keep U-boats in the Adriatic by a line of armed drifters with nets across the Strait of Otranto. Before dawn on 15 May the fast cruisers Novara, Saida and Helgoland fell on the drifters and sank fourteen, while two destroyers sank the Italian destroyer Borea and an ammunition ship off Albania.\n\nOn the way back to Cattaro the Austrians were caught by British and Italian cruisers under Rear-Admiral Acton. Novara was badly hit and had to be towed, and Horthy was wounded, but the Allied force hesitated as Austrian heavy units came out to cover the retreat, and the British cruiser Dartmouth was torpedoed by UC-25.",
+    "significance": "The largest surface action in the Adriatic exposed the weakness of the barrage and made Horthy a national hero, the start of the career that made him Hungary's regent.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty totals are approximate.",
+    "sources": [
+      "Paul Halpern, The Battle of the Otranto Straits (2004)",
+      "Paul Halpern, A Naval History of World War I (1994)",
+      "Lawrence Sondhaus, The Naval Policy of Austria-Hungary 1867–1918 (1994)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "third-ypres-1917",
     "title": "Third Ypres (Passchendaele)",
     "geometry": "site",
@@ -53,6 +139,97 @@
       "Jack Sheldon, The German Army at Passchendaele (2007)"
     ],
     "importance": 3
+  },
+  {
+    "id": "marasesti-1917",
+    "title": "Battle of Mărășești",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1917-08-06",
+    "end": "1917-09-03",
+    "datePrecision": "day",
+    "place": "Mărășești, Moldavia, Romania",
+    "lon": 27.23,
+    "lat": 45.88,
+    "locationCertainty": "approximate",
+    "phase": "mud",
+    "sides": {
+      "focus": "Germany and Austria-Hungary",
+      "opponent": "Romania and Russia"
+    },
+    "commanders": {
+      "focus": [
+        "Mackensen",
+        "Eben"
+      ],
+      "opponent": [
+        "Grigorescu",
+        "Christescu",
+        "Ragoza"
+      ]
+    },
+    "strength": {
+      "focus": "c. 12 divisions (Ninth Army)",
+      "opponent": "Romanian First Army and Russian Fourth Army, c. 15 divisions"
+    },
+    "casualties": "Romanian c. 27,000; Russian c. 25,000; German and Austro-Hungarian perhaps 47,000 (Romanian estimates up to 65,000)",
+    "outcome": "defeat",
+    "summary": "Mackensen's attempt to break into Moldavia and knock Romania out of the war is stopped by the rebuilt Romanian army at Mărășești.",
+    "detail": "After the fall of Bucharest the Romanian army withdrew into Moldavia, where with French help under General Berthelot it was retrained and re-equipped over the winter. In July it attacked at Mărăști. Mackensen answered with an offensive of his own along the Siret, aiming to break through at Mărășești and roll up the Moldavian front, as the Russian armies beside the Romanians were dissolving after the failed Kerensky offensive.\n\nThe Germans struck on 6 August and drove back the Russian units, but Romanian divisions under General Eremia Grigorescu took over the line and held it in weeks of costly fighting. A final German assault on 19 August failed, and by early September the offensive had been abandoned.",
+    "significance": "Mărășești kept a remnant of Romania in the war and became the founding victory of Romania's national memory of 1916–18.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty figures are disputed; German figures are lower than those in Romanian historiography.",
+    "sources": [
+      "Glenn E. Torrey, The Romanian Battlefront in World War I (2011)",
+      "Prit Buttar, Russia's Last Gasp: The Eastern Front 1916–17 (2016)",
+      "David Stevenson, 1914–1918: The History of the First World War (2004)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "bainsizza-1917",
+    "title": "Eleventh Battle of the Isonzo (Bainsizza)",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1917-08-18",
+    "end": "1917-09-12",
+    "datePrecision": "day",
+    "place": "Bainsizza (Banjšice) plateau and the Carso, on the Isonzo (Soča)",
+    "lon": 13.65,
+    "lat": 46.05,
+    "locationCertainty": "approximate",
+    "phase": "mud",
+    "sides": {
+      "focus": "Austria-Hungary",
+      "opponent": "Italy"
+    },
+    "commanders": {
+      "focus": [
+        "Boroević"
+      ],
+      "opponent": [
+        "Cadorna",
+        "Capello",
+        "Duke of Aosta"
+      ]
+    },
+    "strength": {
+      "focus": "c. 20 divisions",
+      "opponent": "c. 50 divisions (Second and Third Armies)"
+    },
+    "casualties": "Italian c. 160,000; Austro-Hungarian c. 85,000–110,000",
+    "outcome": "defeat",
+    "summary": "Cadorna's biggest offensive on the Isonzo drives the Austrians off the Bainsizza plateau and brings Austria-Hungary close to breaking point on the Italian front.",
+    "detail": "Cadorna attacked along the whole front from Tolmein to the sea on 18 August with some fifty divisions and over 5,000 guns. On the Carso the Third Army made little progress, but in the north Capello's Second Army crossed the Isonzo and pushed the Austrians back across the Bainsizza plateau, taking Monte Santo.\n\nThe Italian advance then outran its artillery and supplies on the waterless plateau and stalled before Monte San Gabriele, which changed hands repeatedly in savage fighting into September. Boroević's armies held, but they were exhausted, and Austro-Hungarian commanders doubted they could survive a twelfth battle.",
+    "significance": "The crisis persuaded the German supreme command to send troops to Italy for a joint counter-offensive, which struck at Caporetto in October.",
+    "certainty": "medium",
+    "uncertaintyNote": "Losses are given variously; the Italian figure includes some 40,000 dead.",
+    "sources": [
+      "Mark Thompson, The White War: Life and Death on the Italian Front 1915–1919 (2008)",
+      "John R. Schindler, Isonzo: The Forgotten Sacrifice of the Great War (2001)",
+      "Holger H. Herwig, The First World War: Germany and Austria-Hungary 1914–1918 (1997)"
+    ],
+    "importance": 2
   },
   {
     "id": "riga-1917",
@@ -454,6 +631,47 @@
     "importance": 2
   },
   {
+    "id": "january-strikes-1918",
+    "title": "January strikes in Vienna and Berlin",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Vienna and Wiener Neustadt",
+        "lon": 16.37,
+        "lat": 48.21
+      }
+    ],
+    "kind": "political",
+    "start": "1918-01-14",
+    "end": "1918-02-03",
+    "datePrecision": "day",
+    "place": "Berlin, with strikes across Germany and Austria",
+    "lon": 13.4,
+    "lat": 52.52,
+    "locationCertainty": "exact",
+    "phase": "mud",
+    "sides": {
+      "focus": "German and Austrian governments",
+      "opponent": "Striking workers"
+    },
+    "strength": {
+      "opponent": "c. 700,000 in Austria-Hungary; c. 400,000 in Berlin and up to a million across Germany"
+    },
+    "casualties": "Several killed in clashes in Berlin; thousands of strike leaders drafted to the front",
+    "outcome": "n/a",
+    "summary": "Hunger, ration cuts and anger at the German terms at Brest-Litovsk bring hundreds of thousands of munitions workers out on strike in Austria and then Germany, demanding peace without annexations.",
+    "detail": "The strikes began at Wiener Neustadt on 14 January 1918 after a cut in the flour ration and spread within days across Austria and Hungary; the Habsburg government ended them with promises on food and peace. On 28 January the movement reached Berlin, organised by the revolutionary shop stewards of the metal industry, and spread to Hamburg, Kiel, Munich and the Ruhr.\n\nThe strikers demanded a peace without annexations, better food, the end of martial law and democratic suffrage in Prussia. The Majority Social Democrats joined the strike committee to steer it, which the right never forgave. The army put the big plants under military control, broke the strike within a week and sent many strikers to the front.",
+    "significance": "The strikes showed how far the home front had turned against the war, and men conscripted for striking carried their politics into the army before the revolution of November.",
+    "certainty": "high",
+    "uncertaintyNote": "Strike numbers are estimates and differ between police and union sources.",
+    "sources": [
+      "Roger Chickering, Imperial Germany and the Great War, 1914–1918 (1998)",
+      "Alexander Watson, Ring of Steel: Germany and Austria-Hungary at War, 1914–1918 (2014)",
+      "Belinda Davis, Home Fires Burning: Food, Politics, and Everyday Life in World War I Berlin (2000)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "operation-faustschlag-1918",
     "title": "Operation Faustschlag",
     "geometry": "area",
@@ -655,6 +873,54 @@
       "David Stevenson, With Our Backs to the Wall (2011)"
     ],
     "importance": 1
+  },
+  {
+    "id": "finland-intervention-1918",
+    "title": "German intervention in Finland",
+    "geometry": "city",
+    "markers": [
+      {
+        "name": "Hanko (Hangö)",
+        "lon": 22.95,
+        "lat": 59.82
+      }
+    ],
+    "kind": "campaign",
+    "start": "1918-04-03",
+    "end": "1918-04-13",
+    "datePrecision": "day",
+    "place": "Hanko and Helsinki (Helsingfors), Finland",
+    "lon": 24.94,
+    "lat": 60.17,
+    "locationCertainty": "exact",
+    "phase": "kaiserschlacht",
+    "sides": {
+      "focus": "Germany (with the Finnish Whites)",
+      "opponent": "Finnish Red Guards"
+    },
+    "commanders": {
+      "focus": [
+        "von der Goltz",
+        "Mannerheim"
+      ]
+    },
+    "strength": {
+      "focus": "c. 10,000 (Baltic Sea Division) and c. 3,000 (Brandenstein detachment)",
+      "opponent": "Red Guards in Helsinki, several thousand"
+    },
+    "casualties": "In Helsinki, German c. 60 killed; Red c. 300–400 killed",
+    "outcome": "victory",
+    "summary": "A German division lands at Hanko and takes Helsinki from the Red Guards, helping the Finnish Whites win the civil war and drawing Finland into Germany's orbit.",
+    "detail": "Finland declared independence in December 1917, and civil war broke out in January between the socialist Reds, who held the south, and the Whites under Mannerheim. The White government asked Germany for help. General Rüdiger von der Goltz's Baltic Sea Division landed at Hanko on 3 April and marched east along the coast, while a second German force landed at Loviisa.\n\nAfter street fighting the Germans took Helsinki on 12–13 April and paraded through the capital. Mannerheim's army had already stormed Tampere, and with German forces pressing from the south the Red front collapsed by mid-May. White terror and prison camps then killed far more Reds than the fighting had.",
+    "significance": "Germany gained a client state on Russia's northern flank, and the Finnish parliament elected a German prince king, a choice undone by Germany's defeat in November.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualties in the Helsinki fighting are approximate.",
+    "sources": [
+      "Anthony F. Upton, The Finnish Revolution 1917–1918 (1980)",
+      "Tuomas Tepora and Aapo Roselius (eds), The Finnish Civil War 1918: History, Memory, Legacy (2014)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 2
   },
   {
     "id": "lys-1918",
@@ -1122,6 +1388,49 @@
     "importance": 3
   },
   {
+    "id": "baku-1918",
+    "title": "Battle of Baku",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1918-08-26",
+    "end": "1918-09-15",
+    "datePrecision": "day",
+    "place": "Baku, on the Caspian Sea (Azerbaijan)",
+    "lon": 49.87,
+    "lat": 40.41,
+    "locationCertainty": "exact",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Ottoman Empire (Army of Islam) and Azerbaijani forces",
+      "opponent": "Centro-Caspian Dictatorship, Armenian forces and Britain (Dunsterforce)"
+    },
+    "commanders": {
+      "focus": [
+        "Nuri Pasha"
+      ],
+      "opponent": [
+        "Dunsterville"
+      ]
+    },
+    "strength": {
+      "focus": "c. 14,000 Ottoman and Azerbaijani troops",
+      "opponent": "c. 1,000 British and c. 6,000–10,000 local, mostly Armenian, troops"
+    },
+    "casualties": "Military losses in the low thousands; afterwards perhaps 10,000 or more Armenian civilians killed",
+    "outcome": "victory",
+    "summary": "The Ottoman Army of Islam storms Baku and its oilfields after the small British force sent to hold them withdraws by sea; the city's Armenians are massacred.",
+    "detail": "After Brest-Litovsk, Enver Pasha sent troops into the Caucasus, both to secure the oil of Baku and in pursuit of pan-Turkic ambitions that alarmed even his German allies. Baku was held by an anti-Bolshevik Centro-Caspian government and Armenian militias, and in August Major-General Dunsterville brought about a thousand British troops from Persia to help.\n\nNuri Pasha's Army of Islam, joined by Azerbaijani volunteers, attacked on 26 August and launched its final assault on 14 September. Dunsterville, judging the defence hopeless, evacuated his men by ship that night. The Ottomans entered Baku on 15 September, and in the following days Azerbaijani irregulars killed thousands of Armenians in revenge for the massacre of Muslims there in March.",
+    "significance": "Baku was the last Ottoman conquest of the war, taken six weeks before the Armistice of Mudros obliged the Ottomans to give it up.",
+    "certainty": "medium",
+    "uncertaintyNote": "Strengths and the toll of the 'September Days' massacre are uncertain; estimates of the dead range from about 9,000 to 30,000.",
+    "sources": [
+      "Michael A. Reynolds, Shattering Empires: The Clash and Collapse of the Ottoman and Russian Empires 1908–1918 (2011)",
+      "Eugene Rogan, The Fall of the Ottomans (2015)",
+      "Hew Strachan, The First World War (2003)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "st-mihiel-1918",
     "title": "St Mihiel Offensive",
     "geometry": "site",
@@ -1217,6 +1526,49 @@
       "Richard C. Hall, Balkan Breakthrough: The Battle of Dobro Pole 1918 (2010)",
       "Alan Palmer, The Gardeners of Salonika (1965)",
       "David Stevenson, With Our Backs to the Wall (2011)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "doiran-1918",
+    "title": "Third Battle of Doiran",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1918-09-18",
+    "end": "1918-09-19",
+    "datePrecision": "day",
+    "place": "West of Lake Doiran, on the Macedonian front",
+    "lon": 22.72,
+    "lat": 41.2,
+    "locationCertainty": "approximate",
+    "phase": "hundred-days",
+    "sides": {
+      "focus": "Bulgaria",
+      "opponent": "Britain and Greece"
+    },
+    "commanders": {
+      "focus": [
+        "Vazov"
+      ],
+      "opponent": [
+        "Milne"
+      ]
+    },
+    "strength": {
+      "focus": "c. 2 divisions in strongly fortified hill positions",
+      "opponent": "c. 4 British and 2 Greek divisions"
+    },
+    "casualties": "British and Greek c. 7,000; Bulgarian c. 2,000–3,000",
+    "outcome": "victory",
+    "summary": "British and Greek troops attack the Bulgarian fortress line west of Lake Doiran to pin its defenders while the main Allied blow falls at Dobro Pole, and are thrown back with heavy losses.",
+    "detail": "Franchet d'Espèrey's offensive opened at Dobro Pole on 15 September. To stop the Bulgarians moving reserves there, Milne's British and Greek divisions were ordered to attack the hills west of Lake Doiran, which General Vladimir Vazov had turned into one of the strongest positions in the Balkans, overlooking every approach and twice before held against British attacks in 1917.\n\nOn 18 and 19 September the attackers advanced up exposed ravines into machine-gun fire and gas; some battalions were almost wiped out, including Welsh battalions around the hill known as the Grand Couronné. The attack failed, but within days the collapse of the Bulgarian centre forced Vazov's undefeated troops to retreat.",
+    "significance": "Doiran was Bulgaria's last victory, celebrated in its national memory, yet it could not prevent the defeat that ended Bulgaria's war on 29 September.",
+    "certainty": "medium",
+    "uncertaintyNote": "Casualty figures differ between British, Greek and Bulgarian accounts.",
+    "sources": [
+      "Alan Wakefield and Simon Moody, Under the Devil's Eye: Britain's Forgotten Army at Salonika 1915–1918 (2004)",
+      "Richard C. Hall, Balkan Breakthrough: The Battle of Dobro Pole 1918 (2010)",
+      "Cyril Falls, Military Operations: Macedonia, vol. 2 (1935)"
     ],
     "importance": 2
   },
@@ -1849,6 +2201,47 @@
       "Norman Davies, God's Playground: A History of Poland, vol. 2 (1981)",
       "Jochen Böhler, Civil War in Central Europe, 1918–1921: The Reconstruction of Poland (2018)",
       "Alexander Watson, Ring of Steel (2014)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "lettow-vorbeck-surrender-1918",
+    "title": "Lettow-Vorbeck surrenders at Abercorn",
+    "geometry": "city",
+    "kind": "political",
+    "start": "1918-11-25",
+    "datePrecision": "day",
+    "place": "Abercorn (Mbala), Northern Rhodesia (Zambia)",
+    "lon": 31.38,
+    "lat": -8.84,
+    "locationCertainty": "exact",
+    "phase": "peace",
+    "sides": {
+      "focus": "Germany (Schutztruppe)",
+      "opponent": "British Empire"
+    },
+    "commanders": {
+      "focus": [
+        "Lettow-Vorbeck"
+      ],
+      "opponent": [
+        "Edwards"
+      ]
+    },
+    "strength": {
+      "focus": "c. 155 Germans, c. 1,170 askari and c. 1,500 carriers and followers"
+    },
+    "casualties": "None in the surrender itself",
+    "outcome": "negotiated",
+    "summary": "Two weeks after the Armistice, the last undefeated German field force, Lettow-Vorbeck's column in East Africa, lays down its arms at Abercorn.",
+    "detail": "Driven out of German East Africa in late 1917, Lettow-Vorbeck had marched through Portuguese Mozambique, living off captured supplies, and in late 1918 turned back north and invaded Northern Rhodesia. On 13 November his men took Kasama, unaware that the war in Europe was over.\n\nHe learned of the Armistice from a British dispatch rider on 14 November near the Chambeshi River. Its terms required the unconditional evacuation of German forces from East Africa, and on 25 November he formally surrendered to Brigadier-General Edwards at Abercorn. His askari were held as prisoners, while the Germans were shipped home in 1919 and welcomed in Berlin as heroes.",
+    "significance": "The 'undefeated' East African campaign fed the German myth that the army had not been beaten in the field, at the cost of enormous suffering among African carriers and civilians.",
+    "certainty": "high",
+    "uncertaintyNote": "The numbers of askari and followers who surrendered differ slightly between accounts.",
+    "sources": [
+      "Edward Paice, Tip and Run: The Untold Tragedy of the Great War in Africa (2007)",
+      "Hew Strachan, The First World War in Africa (2004)",
+      "Ross Anderson, The Forgotten Front: The East African Campaign 1914–1918 (2004)"
     ],
     "importance": 2
   },

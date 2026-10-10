@@ -2,7 +2,7 @@
 // ("1241-04-11", "1241-04", "1241") and converted to decimal years at load time.
 //
 // Every war has a "focus" side, the power whose expansion the atlas follows (the
-// Mongols, France). Sides, commanders, strengths and outcomes are written from
+// France, the Central Powers, the Axis). Sides, commanders, strengths and outcomes are written from
 // that side's point of view.
 
 export type PhaseId = string;
@@ -34,8 +34,6 @@ export interface EventImage {
 
 export interface WarEvent {
   id: string;
-  /** candidate_id of the research-pack row this event renders, where the war has a pack */
-  sourceRow?: string;
   title: string;
   geometry: EventGeometry;
   radiusKm?: number;

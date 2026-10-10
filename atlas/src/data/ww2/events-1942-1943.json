@@ -527,6 +527,63 @@
     "importance": 2
   },
   {
+    "id": "pedestal-1942",
+    "title": "Operation Pedestal: the Malta convoy",
+    "geometry": "area",
+    "radiusKm": 250,
+    "kind": "naval",
+    "start": "1942-08-10",
+    "end": "1942-08-15",
+    "datePrecision": "day",
+    "place": "Western and central Mediterranean, from Gibraltar to Malta",
+    "lon": 10.5,
+    "lat": 37.5,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "markers": [
+      {
+        "name": "Skerki Channel",
+        "lon": 10.4,
+        "lat": 37.5
+      },
+      {
+        "name": "Grand Harbour, Malta",
+        "lon": 14.52,
+        "lat": 35.89
+      }
+    ],
+    "sides": {
+      "focus": "Germany and Italy",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Albert Kesselring"
+      ],
+      "opponent": [
+        "Neville Syfret",
+        "Harold Burrough"
+      ]
+    },
+    "strength": {
+      "focus": "Some 20 submarines, a force of motor torpedo boats, and several hundred German and Italian aircraft",
+      "opponent": "14 merchant ships escorted by 2 battleships, 3 fleet carriers, 7 cruisers and over 30 destroyers"
+    },
+    "casualties": "British: 9 of 14 merchant ships, the carrier Eagle, 2 cruisers and a destroyer sunk, and over 400 men killed; Axis: 2 submarines and over 40 aircraft lost, 2 cruisers damaged",
+    "outcome": "defeat",
+    "summary": "A heavily escorted British convoy fights its way to besieged Malta through four days of air, submarine and torpedo-boat attack; five merchant ships, including the crippled tanker Ohio, get through.",
+    "detail": "By the summer of 1942 Malta was close to starving and its aircraft were nearly out of fuel; two earlier convoys had failed. Pedestal was the largest effort yet: fourteen fast merchant ships with a huge escort passed Gibraltar on 10 August. The next day U-73 sank the carrier Eagle. From 12 August waves of German and Italian bombers attacked, and as the heavy ships turned back at the Skerki Channel, Italian submarines and torpedo boats struck the convoy at night, sinking the cruiser Manchester and several merchant ships off Cape Bon.\n\nThe American-built tanker Ohio was torpedoed, bombed and set on fire, and a Stuka crashed onto her deck; lashed between two destroyers, she was towed into Grand Harbour on 15 August with her decks awash, to crowds cheering from the bastions. An Italian cruiser force that might have finished the convoy was turned back for lack of air cover, and a British submarine damaged two of its cruisers on the way home.",
+    "significance": "Tactically an Axis success, Pedestal was a strategic British victory: its fuel and food kept Malta in the war, and aircraft and submarines from the island went on to strangle Rommel's supply lines before El Alamein.",
+    "certainty": "high",
+    "uncertaintyNote": "British dead are variously given between about 350 and 550, depending on whether merchant seamen and airmen are counted.",
+    "sources": [
+      "Max Hastings, Operation Pedestal: The Fleet that Battled to Malta 1942 (2021)",
+      "James Holland, Fortress Malta: An Island Under Siege 1940–1943 (2003)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dieppe-1942",
     "title": "Dieppe Raid",
     "geometry": "city",
@@ -635,6 +692,50 @@
       "Jochen Hellbeck, Stalingrad: The City that Defeated the Third Reich (2015)"
     ],
     "importance": 3
+  },
+  {
+    "id": "milne-bay-1942",
+    "title": "Battle of Milne Bay",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1942-08-25",
+    "end": "1942-09-07",
+    "datePrecision": "day",
+    "place": "Milne Bay, eastern tip of Papua (Papua New Guinea)",
+    "lon": 150.45,
+    "lat": -10.36,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Australia and United States"
+    },
+    "commanders": {
+      "focus": [
+        "Hayashi Shōjirō",
+        "Yano Minoru"
+      ],
+      "opponent": [
+        "Cyril Clowes"
+      ]
+    },
+    "strength": {
+      "focus": "c. 1,900 naval landing troops with 2 light tanks, landed in two waves",
+      "opponent": "c. 8,800 Australian and US troops, with two RAAF Kittyhawk squadrons"
+    },
+    "casualties": "Japanese c. 625 killed, the rest evacuated; Australian 167 killed, US 14 killed",
+    "outcome": "defeat",
+    "summary": "Australian troops defeat a Japanese landing aimed at the new airfields at Milne Bay: the first time a Japanese amphibious assault is thrown back on land.",
+    "detail": "The Allies had built airfields at Milne Bay, on the eastern tip of New Guinea, to cover the sea route around Papua. The Japanese navy, underestimating the garrison, landed Special Naval Landing Force troops on the north shore of the bay on the night of 25–26 August 1942, as their army pushed over the Kokoda Track towards Port Moresby.\n\nThe Japanese advanced along the narrow coastal strip through rain and mud with light tanks, in night attacks that drove back the Australian militia and reached the edge of No. 3 airstrip. There, on 31 August, the Australians held, helped by the RAAF Kittyhawks flying from the strips behind them. Militia and veterans of the 18th Brigade, back from the Middle East, then counter-attacked along the shore. The Japanese navy evacuated the survivors on the nights of 4–6 September; Japanese troops had executed Australian prisoners and local civilians during the fighting.",
+    "significance": "Milne Bay was the first clear defeat of a Japanese landing on land; Slim wrote that Australian troops there had 'broken the spell of the invincibility of the Japanese army'.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese strength and loss figures are approximate, since the landing force came in several detachments.",
+    "sources": [
+      "Dudley McCarthy, South-West Pacific Area – First Year: Kokoda to Wau (Australian official history, 1959)",
+      "Peter Brune, A Bastard of a Place: The Australians in Papua (2003)",
+      "William Slim, Defeat into Victory (1956)"
+    ],
+    "importance": 2
   },
   {
     "id": "burma-railway-1942",
@@ -851,6 +952,54 @@
     "importance": 2
   },
   {
+    "id": "naval-battle-of-guadalcanal-1942",
+    "title": "Naval Battle of Guadalcanal",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1942-11-13",
+    "end": "1942-11-15",
+    "datePrecision": "day",
+    "place": "Ironbottom Sound, between Guadalcanal and Savo Island, Solomon Islands",
+    "lon": 159.95,
+    "lat": -9.2,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Abe Hiroaki",
+        "Kondō Nobutake",
+        "Tanaka Raizō"
+      ],
+      "opponent": [
+        "William Halsey",
+        "Daniel Callaghan",
+        "Norman Scott",
+        "Willis Lee"
+      ]
+    },
+    "strength": {
+      "focus": "2 battleships, then a battleship and heavy cruisers, with destroyers escorting 11 troop transports",
+      "opponent": "Cruisers and destroyers, then 2 fast battleships, and aircraft from Henderson Field and the Enterprise"
+    },
+    "casualties": "Japanese: 2 battleships, a heavy cruiser, 3 destroyers and 11 transports lost; US: 2 light cruisers and 7 destroyers lost, c. 1,700 killed, including Admirals Callaghan and Scott",
+    "outcome": "defeat",
+    "summary": "In three days of savage night actions and air strikes, the US Navy stops the largest Japanese attempt to reinforce Guadalcanal, sinking two battleships and most of a troop convoy.",
+    "detail": "In November 1942 the Japanese planned to shell Henderson Field out of action and land a whole division on Guadalcanal. In the early hours of 13 November Admiral Abe's force, with the battleships Hiei and Kirishima, ran into Callaghan's cruisers and destroyers in a point-blank melee in the dark. Both American admirals were killed and the US force was shattered, but Hiei was crippled and later sunk by aircraft, and the bombardment was called off.\n\nOn 14 November aircraft from Henderson Field and the Enterprise caught Tanaka's convoy in the Slot and sank seven of its eleven transports. That night Kondō came south with Kirishima to bombard the airfield and met Admiral Lee's battleships Washington and South Dakota. South Dakota was knocked about, but Washington's radar-directed guns wrecked Kirishima in minutes. Tanaka beached his last four transports on Guadalcanal, where aircraft and artillery destroyed most of their cargo.",
+    "significance": "This was the decisive naval battle of the Guadalcanal campaign: Japan never again tried to retake the island in strength, and in December decided to evacuate it.",
+    "certainty": "high",
+    "uncertaintyNote": "The light cruiser Juneau, damaged on 13 November, was sunk by a submarine later that day, with almost all her crew, including the five Sullivan brothers; losses of Japanese troops in the transports are uncertain.",
+    "sources": [
+      "Richard B. Frank, Guadalcanal (1990)",
+      "Eric Hammel, Guadalcanal: Decision at Sea (1988)",
+      "Ian W. Toll, The Conquering Tide: War in the Pacific Islands, 1942–1944 (2015)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "uranus-1942",
     "title": "Operation Uranus",
     "geometry": "area",
@@ -917,6 +1066,70 @@
     "importance": 2
   },
   {
+    "id": "operation-mars-1942",
+    "title": "Operation Mars: the Rzhev salient",
+    "geometry": "area",
+    "radiusKm": 90,
+    "kind": "battle",
+    "start": "1942-11-25",
+    "end": "1942-12-20",
+    "datePrecision": "day",
+    "place": "The Rzhev salient, west of Moscow",
+    "lon": 33.9,
+    "lat": 55.9,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "markers": [
+      {
+        "name": "Rzhev",
+        "lon": 34.33,
+        "lat": 56.26
+      },
+      {
+        "name": "Sychevka",
+        "lon": 34.28,
+        "lat": 55.83
+      },
+      {
+        "name": "Belyi",
+        "lon": 32.94,
+        "lat": 55.84
+      }
+    ],
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Walter Model",
+        "Günther von Kluge"
+      ],
+      "opponent": [
+        "Georgy Zhukov",
+        "Ivan Konev",
+        "Maksim Purkaev"
+      ]
+    },
+    "strength": {
+      "focus": "9th Army, reinforced with panzer divisions from reserve",
+      "opponent": "Western and Kalinin Fronts: over 600,000 men and c. 2,000 tanks"
+    },
+    "casualties": "Soviet c. 215,000 (official) to c. 335,000 (Glantz) killed, wounded and missing, and some 1,600 tanks; German c. 40,000",
+    "outcome": "victory",
+    "summary": "Days after the encirclement at Stalingrad, Zhukov launches a second great offensive against the German salient at Rzhev, and is bloodily repulsed.",
+    "detail": "The Rzhev salient, a bulge in the German line pointing at Moscow, had been fought over since January 1942. Operation Mars, planned alongside Uranus, aimed to cut it off at its base and destroy the German 9th Army. On 25 November, in fog and snow, the Western and Kalinin Fronts attacked from east and west.\n\nThe German defences held at most points. Where Soviet tank corps broke through, as west of Sychevka and south of Belyi, Model fed in his panzer reserves and cut the spearheads off; whole Soviet cavalry and mechanised corps were destroyed in the forests. Zhukov kept attacking into mid-December before Stalin closed the operation down.\n\nSoviet histories passed over Mars almost in silence for fifty years, presenting it as a diversion to tie down German reserves while Uranus succeeded in the south.",
+    "significance": "Mars showed that the Red Army of late 1942 could still fail disastrously, and cost Zhukov his worst defeat; but by holding German reserves in the centre it helped ensure that no relief force strong enough to save Stalingrad could be assembled.",
+    "certainty": "medium",
+    "uncertaintyNote": "David Glantz recovered the operation from Soviet archives and argues it was as ambitious as Uranus; some Russian historians still describe it as essentially a holding attack. Loss figures differ widely.",
+    "sources": [
+      "David M. Glantz, Zhukov's Greatest Defeat: The Red Army's Epic Disaster in Operation Mars, 1942 (1999)",
+      "David M. Glantz and Jonathan House, When Titans Clashed (rev. ed. 2015)",
+      "Richard Overy, Russia's War (1997)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "toulon-1942",
     "title": "Scuttling of the French fleet at Toulon",
     "geometry": "city",
@@ -951,6 +1164,71 @@
       "Stephen Roskill, The War at Sea, vol. II (1956)"
     ],
     "importance": 1
+  },
+  {
+    "id": "winter-storm-1942",
+    "title": "Operation Winter Storm: the attempt to relieve Stalingrad",
+    "geometry": "area",
+    "radiusKm": 70,
+    "kind": "battle",
+    "start": "1942-12-12",
+    "end": "1942-12-23",
+    "datePrecision": "day",
+    "place": "Between Kotelnikovo and the Myshkova River, south-west of Stalingrad",
+    "lon": 43.6,
+    "lat": 47.95,
+    "locationCertainty": "approximate",
+    "phase": "turning",
+    "markers": [
+      {
+        "name": "Kotelnikovo",
+        "lon": 43.14,
+        "lat": 47.63
+      },
+      {
+        "name": "Verkhne-Kumsky",
+        "lon": 43.75,
+        "lat": 48.12
+      },
+      {
+        "name": "Myshkova River",
+        "lon": 43.85,
+        "lat": 48.3
+      }
+    ],
+    "sides": {
+      "focus": "Germany and Romania",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Erich von Manstein",
+        "Hermann Hoth",
+        "Friedrich Kirchner"
+      ],
+      "opponent": [
+        "Aleksandr Vasilevsky",
+        "Rodion Malinovsky",
+        "Nikolai Trufanov"
+      ]
+    },
+    "strength": {
+      "focus": "LVII Panzer Corps: 6th and 23rd Panzer Divisions, later the 17th, with c. 230 tanks at the outset, and Romanian troops on the flanks",
+      "opponent": "51st Army, then the 2nd Guards Army brought up from reserve"
+    },
+    "casualties": "Not reliably known; LVII Panzer Corps lost most of its tanks, and Soviet losses were heavy",
+    "outcome": "defeat",
+    "summary": "Manstein's relief force fights its way to within about 50 kilometres of the encircled Sixth Army at Stalingrad, but is stopped on the Myshkova River and forced back.",
+    "detail": "With Paulus's Sixth Army trapped at Stalingrad and the airlift failing, Manstein's new Army Group Don prepared a relief attack from Kotelnikovo, south-west of the pocket. On 12 December the 6th Panzer Division, freshly arrived from France, led LVII Panzer Corps north across the open steppe. A week of tank battles followed around Verkhne-Kumsky before the Germans reached the Myshkova River on 19 December, about 50 kilometres from the pocket's edge.\n\nThere they met the 2nd Guards Army, which Vasilevsky had diverted to block them. Manstein urged that Sixth Army break out towards him, but Hitler would not give up Stalingrad, and Paulus, short of fuel and unwilling to disobey, did not move. Meanwhile Operation Little Saturn, launched on 16 December, tore through the Italian 8th Army on the middle Don and threatened Rostov and the whole German southern wing. On 23 December Manstein had to send the 6th Panzer Division away, and the relief collapsed.",
+    "significance": "The failure of Winter Storm sealed the fate of the Sixth Army at Stalingrad.",
+    "certainty": "high",
+    "uncertaintyNote": "The distance from the Myshkova to the pocket is variously given as 48 to 55 kilometres; whether a breakout by the exhausted Sixth Army could have succeeded is still argued.",
+    "sources": [
+      "Antony Beevor, Stalingrad (1998)",
+      "David M. Glantz and Jonathan House, Endgame at Stalingrad (2014)",
+      "Erich von Manstein, Lost Victories (1958)"
+    ],
+    "importance": 2
   },
   {
     "id": "bengal-famine-1943",
@@ -1089,6 +1367,63 @@
       "Rick Atkinson, An Army at Dawn (2002)"
     ],
     "importance": 2
+  },
+  {
+    "id": "chindits-1943",
+    "title": "First Chindit expedition",
+    "geometry": "area",
+    "radiusKm": 150,
+    "kind": "raid",
+    "start": "1943-02-08",
+    "end": "1943-04",
+    "datePrecision": "day",
+    "place": "Northern Burma, between the Chindwin and the Irrawaddy",
+    "lon": 95.9,
+    "lat": 24,
+    "locationCertainty": "approximate",
+    "phase": "offensives",
+    "markers": [
+      {
+        "name": "Imphal (start)",
+        "lon": 93.94,
+        "lat": 24.82
+      },
+      {
+        "name": "Nankan, on the Mandalay–Myitkyina railway",
+        "lon": 96.12,
+        "lat": 24.33
+      }
+    ],
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain and India"
+    },
+    "commanders": {
+      "focus": [
+        "Iida Shōjirō",
+        "Mutaguchi Renya"
+      ],
+      "opponent": [
+        "Orde Wingate"
+      ]
+    },
+    "strength": {
+      "focus": "Elements of the 18th, 33rd and 56th Divisions",
+      "opponent": "77th Indian Infantry Brigade, c. 3,000 men in seven columns, supplied by air"
+    },
+    "casualties": "c. 820 of the 3,000 Chindits killed, captured or missing; of those who came back, only about 600 were ever fit for active service again",
+    "outcome": "inconclusive",
+    "summary": "Orde Wingate leads a brigade deep behind Japanese lines in Burma, supplied from the air, to cut the railway and spread confusion.",
+    "detail": "After the failure of the first Arakan offensive, Wingate won Wavell's support for long-range penetration: columns that would march into Japanese-held Burma and live off air drops. Operation Longcloth set out from Imphal in February 1943 and crossed the Chindwin in mid-February. The columns blew up the Mandalay–Myitkyina railway in dozens of places and pushed on across the Irrawaddy.\n\nBeyond the Irrawaddy, in hot, dry country hemmed in by rivers, the Japanese closed in. In late March Wingate was ordered back, and the brigade broke into small parties to find their own way out, some as far as China. Men too sick or wounded to march were left in villages. Those who returned in April and May were starved and riddled with disease.\n\nThe damage done was soon repaired, but the expedition was hailed in the press as proof that British troops could beat the Japanese in the jungle.",
+    "significance": "Militarily slight, the expedition lifted morale in India, won Wingate Churchill's backing for a far larger second Chindit operation, and persuaded Mutaguchi that the hills on the Indian border were passable, feeding his plan to invade India in 1944.",
+    "certainty": "high",
+    "uncertaintyNote": "Casualty figures vary slightly between accounts; the expedition's value has been debated ever since.",
+    "sources": [
+      "Louis Allen, Burma: The Longest War 1941–45 (1984)",
+      "William Slim, Defeat into Victory (1956)",
+      "Simon Anglim, Orde Wingate and the British Army, 1922–1944 (2010)"
+    ],
+    "importance": 1
   },
   {
     "id": "kasserine-1943",
@@ -1434,6 +1769,62 @@
     "importance": 2
   },
   {
+    "id": "attu-1943",
+    "title": "Battle of Attu",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1943-05-11",
+    "end": "1943-05-30",
+    "datePrecision": "day",
+    "place": "Attu Island, Aleutian Islands, Alaska",
+    "lon": 173.2,
+    "lat": 52.9,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "markers": [
+      {
+        "name": "Massacre Bay",
+        "lon": 173.25,
+        "lat": 52.82
+      },
+      {
+        "name": "Chichagof Harbor",
+        "lon": 173.2,
+        "lat": 52.93
+      }
+    ],
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Yamasaki Yasuyo"
+      ],
+      "opponent": [
+        "Thomas Kinkaid",
+        "Albert Brown",
+        "Eugene Landrum"
+      ]
+    },
+    "strength": {
+      "focus": "c. 2,650 men",
+      "opponent": "c. 15,000 men of the 7th Infantry Division, with naval support"
+    },
+    "casualties": "Japanese c. 2,350 dead, 28 taken prisoner; US 549 killed, 1,148 wounded, and some 2,100 out of action from cold and sickness",
+    "outcome": "defeat",
+    "summary": "US troops retake the Aleutian island of Attu from its Japanese garrison, which dies almost to the last man in a final mass charge.",
+    "detail": "Japan had seized Attu and Kiska, at the western end of the Aleutian chain, in June 1942, as a diversion from Midway. On 11 May 1943 the US 7th Infantry Division, trained for the desert and poorly equipped for the cold, landed on Attu at Holtz Bay and Massacre Bay. The Japanese had withdrawn into the fog-bound mountains above the beaches, and the fighting turned into a slow, freezing struggle for ridges and passes; frostbite and trench foot struck down more men than enemy fire.\n\nBy late May the garrison was penned in around Chichagof Harbor. On the night of 29 May Colonel Yamasaki led his remaining men in a charge that broke through the American lines to the rear areas before it was destroyed. Many of the last Japanese killed themselves with grenades. In July the Japanese evacuated Kiska unseen, and US and Canadian troops landed there in August on an empty island.",
+    "significance": "Attu, the only pitched land battle fought on North American soil in the war, ended the Japanese presence in the Aleutians, and Japan's press made the garrison's death the first of the gyokusai, 'shattered jewel', last stands.",
+    "certainty": "high",
+    "sources": [
+      "Brian Garfield, The Thousand-Mile War: World War II in Alaska and the Aleutians (1969)",
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. VII (1951)",
+      "Ian W. Toll, The Conquering Tide: War in the Pacific Islands, 1942–1944 (2015)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "dambusters-1943",
     "title": "The Dambusters raid",
     "geometry": "site",
@@ -1764,6 +2155,56 @@
       "R.J.B. Bosworth, Mussolini (2002)",
       "Ian Kershaw, Fateful Choices (2007)",
       "Philip Morgan, The Fall of Mussolini (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "ploiesti-1943",
+    "title": "Operation Tidal Wave: the Ploiești raid",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1943-08-01",
+    "datePrecision": "day",
+    "place": "Ploiești oil refineries, Romania",
+    "lon": 26.02,
+    "lat": 44.94,
+    "locationCertainty": "exact",
+    "phase": "offensives",
+    "markers": [
+      {
+        "name": "Benghazi airfields (take-off)",
+        "lon": 20.07,
+        "lat": 32.12
+      }
+    ],
+    "sides": {
+      "focus": "Germany and Romania",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Alfred Gerstenberg"
+      ],
+      "opponent": [
+        "Lewis Brereton",
+        "Uzal Ent"
+      ]
+    },
+    "strength": {
+      "focus": "Dense anti-aircraft defences, German and Romanian fighters",
+      "opponent": "178 B-24 Liberator bombers from Libya"
+    },
+    "casualties": "US: 53 bombers lost and c. 500 airmen killed, captured or interned (c. 310 killed); refinery output cut briefly",
+    "outcome": "victory",
+    "summary": "American Liberators fly from Libya to attack the Romanian oil refineries at Ploiești at treetop height; they do heavy damage but lose almost a third of the force.",
+    "detail": "Ploiești supplied much of Germany's oil, and the Americans planned a single crippling blow. On 1 August 1943 five bomb groups flew some 1,600 kilometres from Benghazi and came in at low level to escape radar and give the bombers accuracy. A navigational mistake sent the lead formation towards Bucharest; the formations reached the refineries out of sequence and from the wrong directions, through the defences that the Luftwaffe's General Gerstenberg had made among the strongest in Europe.\n\nBombers flew through smoke and flames from burning tanks, some hit by bombs dropped by those ahead; others were shot down by flak towers and a flak train. Some 53 aircraft were lost, and many more were wrecked. Five airmen were awarded the Medal of Honor, three of them after their deaths.",
+    "significance": "Tidal Wave was one of the costliest American air operations of the war and achieved little lasting result: the refineries had spare capacity and were back to full output within weeks, and Ploiești was not struck again until 1944.",
+    "certainty": "high",
+    "uncertaintyNote": "Counts of aircraft and men lost differ slightly; the outcome is shown as a defensive Axis success because output recovered almost at once.",
+    "sources": [
+      "James Dugan and Carroll Stewart, Ploesti: The Great Ground-Air Battle of 1 August 1943 (1962)",
+      "Richard Overy, The Bombing War: Europe 1939–1945 (2013)",
+      "Wesley Craven and James Cate (eds), The Army Air Forces in World War II, vol. II (1949)"
     ],
     "importance": 2
   },
@@ -2105,6 +2546,50 @@
       "Gerhard L. Weinberg, A World at Arms (1994)",
       "Richard Overy, Why the Allies Won (1995)",
       "S.M. Plokhy, Yalta: The Price of Peace (2010)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "north-cape-1943",
+    "title": "Battle of the North Cape",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1943-12-26",
+    "datePrecision": "day",
+    "place": "Barents Sea, north of the North Cape, Norway",
+    "lon": 28.68,
+    "lat": 72.27,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and Norway"
+    },
+    "commanders": {
+      "focus": [
+        "Erich Bey",
+        "Fritz Hintze"
+      ],
+      "opponent": [
+        "Bruce Fraser",
+        "Robert Burnett"
+      ]
+    },
+    "strength": {
+      "focus": "Battleship Scharnhorst and 5 destroyers (detached during the action)",
+      "opponent": "Battleship Duke of York, 4 cruisers and 8 destroyers covering convoy JW 55B"
+    },
+    "casualties": "Scharnhorst sunk with c. 1,930 men; 36 survivors. British fewer than 30 killed",
+    "outcome": "defeat",
+    "summary": "The battlecruiser Scharnhorst sails to attack an Arctic convoy and is caught and sunk by the Home Fleet in the darkness of the polar winter.",
+    "detail": "On Christmas Day 1943 Admiral Bey took Scharnhorst out of Altenfjord to attack convoy JW 55B bound for Murmansk. British codebreakers had warned of the sortie, and Admiral Fraser was at sea with the Duke of York. In heavy seas, Bey sent his destroyers away to search and lost touch with them. On the morning of 26 December Burnett's cruisers twice intercepted Scharnhorst near the convoy, knocking out her forward radar, and she turned for home.\n\nShe ran straight towards Fraser. At about 4.50 in the afternoon, in the Arctic darkness, Duke of York opened fire by radar from twelve kilometres. A shell put a boiler room out of action, and Scharnhorst slowed. British destroyers closed in with torpedoes, and the battleship and cruisers pounded her until she capsized and sank at about 7.45 p.m. Of nearly 2,000 men aboard, 36 were pulled from the freezing water.",
+    "significance": "The sinking of Scharnhorst removed the last German capital ship able to threaten the Arctic convoys and was the final big-gun duel between British and German battleships.",
+    "certainty": "high",
+    "uncertaintyNote": "Scharnhorst's crew is variously given between about 1,940 and 1,970.",
+    "sources": [
+      "Stephen Roskill, The War at Sea 1939–1945, vol. III, part 1 (1960)",
+      "Correlli Barnett, Engage the Enemy More Closely (1991)",
+      "Angus Konstam, The Battle of North Cape: The Death Ride of the Scharnhorst, 1943 (2009)"
     ],
     "importance": 2
   }

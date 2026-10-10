@@ -4,11 +4,17 @@ import { phaseAt, type AtlasEvent, type WarData } from './data/war';
 import { store, useAtlas } from './store';
 import { Timeline } from './ui/Timeline';
 import { EventPanel } from './ui/EventPanel';
-import { About, Chronicle, Clock, Header, Headline, Legend } from './ui/Panels';
+import { About, Chronicle, Clock, Header, Legend } from './ui/Panels';
+import { Flash, Reel } from './ui/Flash';
+import { pictureReady, preload } from './ui/pictures';
 import { formatDate } from './data/time';
 import { Music } from './ui/Music';
 
-const HEADLINE_SECONDS = 3.4;
+// How long a key event stays on screen during playback: at least MIN while others
+// wait their turn, and up to MAX when nothing else is due.
+const CARD_MIN = 2.8;
+const CARD_MAX = 5.5;
+const QUEUE_MAX = 3;
 // ?capture renders deterministic frames for video: no CSS animation, no easing.
 const capture = new URLSearchParams(location.search).has('capture');
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -71,10 +77,19 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
     let raf = 0;
     let last = performance.now();
     let dwell = 0;
-    let headlineUntil = 0;
+    let shownAt = 0;
+    let queue: AtlasEvent[] = [];
     let prevT = store.get().t;
     let prevPhase = phaseAt(war.phases, prevT).id;
     let areaAt = 0;
+    let preloadAt = 0;
+    const show = (e: AtlasEvent, now: number) => {
+      store.set({ headline: e.id });
+      shownAt = now;
+      // Ease the clock while a picture is up, longer for the turning points.
+      const pic = pictureReady(e.image);
+      dwell = pic ? (e.importance === 3 ? 2.4 : 1.3) : e.importance === 3 ? 1.4 : 0;
+    };
     const frame = (now: number) => {
       const dt = Math.min(0.25, (now - last) / 1000);
       last = now;
@@ -84,13 +99,15 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
         const slow = dwell > 0 ? 0.22 : 1;
         dwell = Math.max(0, dwell - dt);
         t = Math.min(war.to, t + dt * s.speed * slow);
-        // Announce significant events as the playhead crosses them.
+        // Queue significant events as the playhead crosses them; when too many fall
+        // due at once, the most important ones keep their place.
         const crossed = war.events.filter((e) => e.t0 > prevT && e.t0 <= t && e.importance >= 2);
         if (crossed.length) {
-          const top = crossed.sort((a, b) => b.importance - a.importance)[0];
-          store.set({ headline: top.id });
-          headlineUntil = now + HEADLINE_SECONDS * 1000;
-          if (top.importance === 3) dwell = 1.4;
+          queue.push(...crossed);
+          if (queue.length > QUEUE_MAX) {
+            const keep = new Set([...queue].sort((a, b) => b.importance - a.importance || a.t0 - b.t0).slice(0, QUEUE_MAX));
+            queue = queue.filter((e) => keep.has(e));
+          }
         }
         const ph = phaseAt(war.phases, t).id;
         if (ph !== prevPhase && s.autoCamera && !reduceMotion) atlas.current?.flyToPhase(t);
@@ -98,8 +115,23 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
         store.set({ t, playing: t < war.to });
       } else {
         prevPhase = phaseAt(war.phases, t).id;
+        queue = [];
       }
-      if (s.headline && now > headlineUntil && !capture) store.set({ headline: null });
+      if (!capture) {
+        const age = (now - shownAt) / 1000;
+        if (queue.length && (!s.headline || age > CARD_MIN)) show(queue.shift()!, now);
+        else if (s.headline && age > (s.playing ? CARD_MAX : CARD_MIN)) store.set({ headline: null });
+      }
+      // Fetch the pictures of the next few events before the playhead reaches them.
+      if (now - preloadAt > 500) {
+        preloadAt = now;
+        let n = 0;
+        for (const e of war.events) {
+          if (e.t0 <= t || e.importance < 2) continue;
+          if (e.image) preload(e.image);
+          if (++n >= 8) break;
+        }
+      }
       prevT = t;
       // Screenshot tooling sets __freeze so software renderers can settle a frame.
       if (!(window as { __freeze?: boolean }).__freeze) atlas.current?.update(t);
@@ -178,7 +210,8 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
       </nav>
       {selEv ? <EventPanel ev={selEv} war={war} onClose={() => store.set({ selected: null })} /> : panel === 'chronicle' ? <Chronicle war={war} /> : null}
       {panel === 'about' && <About war={war} onClose={() => store.set({ panel: null })} />}
-      {headEv && !selEv && <Headline ev={headEv} />}
+      {headEv && !selEv && <Flash ev={headEv} war={war} />}
+      {!selEv && panel !== 'chronicle' && !intro && <Reel events={war.events} t={t} />}
       <Legend war={war} />
       <Timeline war={war} onSeek={seek} />
       {regionTip && !evTip && (
@@ -211,6 +244,9 @@ export function App({ war, onSwitch }: { war: WarData; onSwitch: (id: string | n
               </button>
               <button onClick={() => setIntro(false)}>Explore freely</button>
             </div>
+            <p className="intro-tip">
+              Key moments flick up as pictures while it plays. Drag the timeline to jump in time, and click any pin, tick or picture to open its event.
+            </p>
           </div>
         </div>
       )}
