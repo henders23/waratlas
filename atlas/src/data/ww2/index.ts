@@ -24,6 +24,7 @@ export const WW2: WarDef = {
   labelScale: 0.7,
   tickEvery: 1,
   speeds: [0.028125, 0.05625, 0.1125, 0.225],
+  music: { src: 'audio/ww2.mp3', title: 'Second World War theme' },
   outcomeColors: {
     victory: '#e9a93e',
     defeat: '#6fa8e8',

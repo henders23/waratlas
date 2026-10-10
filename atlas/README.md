@@ -6,7 +6,7 @@ Interactive globes of history's wars. It began as entry A from the competition (
 - **The First World War, 1914–1918.** From Sarajevo to the Treaty of Versailles in June 1919: 145 events in 10 chapters across Europe, the Middle East, Africa and the seas, and 97 regions drawn along the 1914 frontiers.
 - **The Second World War, 1939–1945.** From the invasion of Poland to the surrender in Tokyo Bay: 194 events in 10 chapters across Europe, Africa, Asia and the Pacific, and 147 regions drawn along the 1939 frontiers.
 
-The Napoleonic atlas has a soundtrack, *Measured March* (`public/audio/measured-march.mp3`). It loops while the atlas is open. Browsers only allow sound after a click or key press, so it starts on the first one, such as the button that starts playback. The toolbar has a music on/off button and a volume slider, and the browser remembers both. To give another war music, add a `music` entry to its `WarDef`.
+Every atlas has a soundtrack in `public/audio/`: *Measured March* for the Napoleonic Wars (`measured-march.mp3`), and a theme each for the First and Second World Wars (`ww1.mp3`, `ww2.mp3`). It loops while the atlas is open. Browsers only allow sound after a click or key press, so it starts on the first one, such as the button that starts playback. The toolbar has a music on/off button and a volume slider, and the browser remembers both. A war's music is the `music` entry in its `WarDef`.
 
 In any atlas you can drag the timeline or press play to watch borders change, and click any marker to read the event behind it. The URL records the war you're viewing (`?war=napoleonic`), plus the date or event (`#t=1812.7`, `#e=waterloo-1815`).
 

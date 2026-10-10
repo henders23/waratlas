@@ -24,6 +24,7 @@ export const WW1: WarDef = {
   labelScale: 0.62,
   tickEvery: 1,
   speeds: [0.0234375, 0.046875, 0.09375, 0.1875],
+  music: { src: 'audio/ww1.mp3', title: 'First World War theme' },
   outcomeColors: {
     victory: '#e9a93e',
     defeat: '#6fa8e8',
