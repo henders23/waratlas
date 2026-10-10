@@ -312,6 +312,49 @@
     "importance": 1
   },
   {
+    "id": "royal-oak-1939",
+    "title": "Sinking of HMS Royal Oak",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1939-10-14",
+    "datePrecision": "day",
+    "place": "Scapa Flow, Orkney, Scotland",
+    "lon": -2.98,
+    "lat": 58.93,
+    "locationCertainty": "exact",
+    "phase": "poland",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Günther Prien",
+        "Karl Dönitz"
+      ],
+      "opponent": [
+        "William Benn"
+      ]
+    },
+    "strength": {
+      "focus": "1 U-boat (U-47)",
+      "opponent": "The battleship Royal Oak, at anchor"
+    },
+    "casualties": "835 of Royal Oak's crew of about 1,230 killed, among them over 100 boy sailors; no German losses",
+    "outcome": "victory",
+    "summary": "A single U-boat slips through the defences of the Home Fleet's main anchorage at Scapa Flow and torpedoes the battleship Royal Oak, which capsizes within minutes.",
+    "detail": "Dönitz had studied Scapa Flow from aerial photographs and noticed a gap beside the blockships in Kirk Sound, on the eastern side of the anchorage. On the night of 13–14 October 1939 Lieutenant-Commander Günther Prien took U-47 through it on the surface at high tide. Most of the Home Fleet had dispersed after a German air reconnaissance, but the old battleship Royal Oak lay at anchor in the north-east corner of the Flow.\n\nPrien's first salvo did little damage and the crew believed there had been an internal explosion. He reloaded and fired again shortly after one in the morning; three torpedoes struck, and Royal Oak rolled over and sank in about 13 minutes, taking 835 men with her. U-47 escaped the way she had come.\n\nPrien returned to a hero's welcome and the Knight's Cross from Hitler. The Admiralty closed the eastern sounds with the concrete barriers later known as the Churchill Barriers, built partly by Italian prisoners of war.",
+    "significance": "The loss of a battleship inside its own base was a humiliating early blow to the Royal Navy, made Prien and the U-boat arm famous, and showed that the war at sea would be fought from the first weeks.",
+    "certainty": "high",
+    "uncertaintyNote": "Older accounts give 833 dead; the Royal Oak Association's figure, after later research, is 835.",
+    "sources": [
+      "Stephen Roskill, The War at Sea 1939–1945, vol. I (1954)",
+      "Clay Blair, Hitler's U-Boat War: The Hunters 1939–1942 (1996)",
+      "H. J. Weaver, Nightmare at Scapa Flow: The Truth about the Sinking of HMS Royal Oak (1980)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "winter-war-1939",
     "title": "The Winter War",
     "geometry": "area",
@@ -802,6 +845,49 @@
       "Hans van de Ven, China at War (2017)"
     ],
     "importance": 1
+  },
+  {
+    "id": "arras-1940",
+    "title": "British counter-attack at Arras",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1940-05-21",
+    "datePrecision": "day",
+    "place": "South and west of Arras, Pas-de-Calais, France",
+    "lon": 2.74,
+    "lat": 50.28,
+    "locationCertainty": "approximate",
+    "phase": "west",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain and France"
+    },
+    "commanders": {
+      "focus": [
+        "Erwin Rommel"
+      ],
+      "opponent": [
+        "Harold Franklyn",
+        "Giffard Martel"
+      ]
+    },
+    "strength": {
+      "focus": "7th Panzer Division and SS Totenkopf Division",
+      "opponent": "2 tank battalions with c. 74 tanks (58 Matilda Is, 16 Matilda IIs), 2 infantry battalions, with French support on the flank"
+    },
+    "casualties": "German c. 380 killed, wounded and missing; British lost over half their tanks and several hundred men",
+    "outcome": "victory",
+    "summary": "A small British armoured force strikes the flank of the German panzer corridor south of Arras, shaking Rommel's division before it is beaten back.",
+    "detail": "By 20 May the German panzer divisions had reached the Channel at Abbeville, cutting the Allied armies in Belgium off from the rest of France. Gort was ordered to attack southward to break the corridor, but could spare only a scratch force. On 21 May two battalions of the Royal Tank Regiment and two of the Durham Light Infantry advanced in two columns around the west and south of Arras, without proper reconnaissance, radio links or air cover.\n\nThey ran straight into the flank of Rommel's 7th Panzer Division and the SS Totenkopf Division. The heavily armoured Matilda IIs were almost immune to the German 37mm anti-tank guns, and for a few hours some German units broke and the SS men fled. Rommel restored the line by taking personal command of a gun line of field artillery and 88mm anti-aircraft guns, which knocked out the Matildas one after another. By evening the British were falling back; the French cavalry on their flank covered the withdrawal.\n\nRommel reported that he had been attacked by hundreds of tanks, five divisions' worth.",
+    "significance": "Tactically a failure, Arras alarmed the German high command about the vulnerability of the panzer corridor and fed the caution behind the halt order of 24 May, which helped make the Dunkirk evacuation possible.",
+    "certainty": "high",
+    "uncertaintyNote": "British tank losses are variously given; how far Arras caused the halt order, as opposed to Rundstedt's and Hitler's wider worries, is debated.",
+    "sources": [
+      "Karl-Heinz Frieser, The Blitzkrieg Legend: The 1940 Campaign in the West (2005)",
+      "Julian Jackson, The Fall of France: The Nazi Invasion of 1940 (2003)",
+      "Hugh Sebag-Montefiore, Dunkirk: Fight to the Last Man (2006)"
+    ],
+    "importance": 2
   },
   {
     "id": "dunkirk-1940",
@@ -1457,6 +1543,47 @@
       "Stephen Roskill, The War at Sea, vol. 1 (1954)",
       "Correlli Barnett, Engage the Enemy More Closely (1991)",
       "James Sadkovich, The Italian Navy in World War II (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "coventry-1940",
+    "title": "Coventry Blitz",
+    "geometry": "city",
+    "kind": "raid",
+    "start": "1940-11-14",
+    "end": "1940-11-15",
+    "datePrecision": "day",
+    "place": "Coventry, Warwickshire, England",
+    "lon": -1.51,
+    "lat": 52.41,
+    "locationCertainty": "exact",
+    "phase": "mediterranean",
+    "sides": {
+      "focus": "Germany (Luftwaffe)",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Hugo Sperrle",
+        "Albert Kesselring"
+      ]
+    },
+    "strength": {
+      "focus": "c. 515 bombers in the night's attack",
+      "opponent": "Anti-aircraft guns and a handful of night fighters"
+    },
+    "casualties": "568 people killed and 863 badly injured; one German bomber lost",
+    "outcome": "n/a",
+    "summary": "In an eleven-hour night raid, guided by radio beams, the Luftwaffe burns out the centre of Coventry and its medieval cathedral.",
+    "detail": "Operation Moonlight Sonata was aimed at Coventry's engineering and aero-engine works, but the factories were packed in among the streets of an old, close-built city centre. On the clear, moonlit night of 14 November 1940 the pathfinders of Kampfgruppe 100, following the X-Gerät radio beams, marked the target with incendiaries, and some 500 bombers followed with high explosives, oil bombs and around 30,000 incendiaries.\n\nThe fires overwhelmed the fire brigades and water mains. The fourteenth-century cathedral of St Michael was gutted, some 4,300 homes were destroyed and two-thirds of the city's buildings damaged; gas, water and electricity failed and the city's people trekked out into the countryside to sleep. Production recovered within weeks, faster than the Germans expected.\n\nGerman propaganda coined the verb 'coventrieren', to coventrate, for the destruction of a city from the air. The cathedral ruins were kept as a memorial beside a new cathedral consecrated in 1962.",
+    "significance": "Coventry became the emblem of the Blitz and of area bombing, a precedent that British planners later cited when they turned the same methods on German cities.",
+    "certainty": "high",
+    "uncertaintyNote": "The story that Churchill knew of the raid in advance from Ultra and let it happen to protect the secret is not supported by the evidence: the target was identified too late and too uncertainly.",
+    "sources": [
+      "Richard Overy, The Bombing War: Europe 1939–1945 (2013)",
+      "Juliet Gardiner, The Blitz: The British Under Attack (2010)",
+      "Frederick Taylor, Coventry: Thursday, 14 November 1940 (2015)"
     ],
     "importance": 2
   },

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { WARS, isFocus, phaseAt, stepAt, type AtlasEvent, type WarData } from '../data/war';
+import { WARS, isFocus, phaseAt, stepAt, type WarData } from '../data/war';
 import { formatDate } from '../data/time';
 import { KIND_LABEL, OUTCOME_COLORS, pinDataUrl } from '../map/icons';
 import { store, useAtlas } from '../store';
@@ -195,18 +195,6 @@ export function Legend({ war }: { war: WarData }) {
   );
 }
 
-export function Headline({ ev }: { ev: AtlasEvent }) {
-  return (
-    <button className="headline" key={ev.id} onClick={() => store.set({ selected: ev.id, playing: false })}>
-      <img src={pinDataUrl(ev.kind, ev.outcome, ev.geometry === 'area')} alt="" width={30} height={30} />
-      <span>
-        <b>{ev.title}</b>
-        <em>{ev.summary}</em>
-      </span>
-    </button>
-  );
-}
-
 export function About({ war, onClose }: { war: WarData; onClose: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => {
@@ -225,10 +213,8 @@ export function About({ war, onClose }: { war: WarData; onClose: () => void }) {
         <NapoleonicAbout war={war} counts={counts} />
       ) : war.id === 'ww1' ? (
         <Ww1About war={war} counts={counts} />
-      ) : war.id === 'ww2' ? (
-        <Ww2About war={war} counts={counts} />
       ) : (
-        <MongolAbout war={war} counts={counts} />
+        <Ww2About war={war} counts={counts} />
       )}
       <h3>Keyboard</h3>
       <p className="keys">
@@ -238,38 +224,12 @@ export function About({ war, onClose }: { war: WarData; onClose: () => void }) {
       <h3>Credits</h3>
       <p className="credits">
         Relief from AWS Terrain Tiles (Mapzen, SRTM, ETOPO1, GMTED). Coastlines, rivers and provinces from Natural Earth. Rendered with MapLibre GL.
-        {war.id === 'mongol' && ' Research pack by Instinct.'}
       </p>
     </dialog>
   );
 }
 
 type Counts = { city: number; site: number; area: number };
-
-function MongolAbout({ war, counts }: { war: WarData; counts: Counts }) {
-  return (
-    <>
-      <p>
-        Drag the timeline, or press play, to watch eighty-eight years of Mongol expansion
-        between Chinggis Qan’s enthronement in 1206 and Qubilai’s death in 1294. Click any marker for the event behind it.
-      </p>
-      <h3>What the markers are</h3>
-      <p>
-        Every one of the {war.events.length} events is a row marked <i>include</i> in the Instinct research pack for the Mongol conquests
-        (round 71, a fixed list of 109 candidates). The pack decides how precisely each event may be drawn. {counts.city} are pinned to a
-        named city and {counts.site} to an approximately placed battle locality. The other {counts.area} are drawn as dashed regions,
-        because their sources support a place but not a point. Each card cites the pack’s primary locators first, then further reading.
-        The prose is our own synthesis; no translation is quoted.
-      </p>
-      <h3>What the colours are</h3>
-      <p>{war.territoryNote}</p>
-      <p>
-        Army routes are deliberately left out. The pack rejects inferred route lines, and a confident arrow across a steppe would claim more than
-        the chronicles do.
-      </p>
-    </>
-  );
-}
 
 function NapoleonicAbout({ war, counts }: { war: WarData; counts: Counts }) {
   return (
@@ -290,8 +250,7 @@ function NapoleonicAbout({ war, counts }: { war: WarData; counts: Counts }) {
       <h3>What the colours are</h3>
       <p>{war.territoryNote}</p>
       <p>
-        Army routes are left out. A confident arrow across a map implies a precision that the wider story of a campaign rarely has, and
-        the Mongol atlas beside this one draws none either.
+        Army routes are left out. A confident arrow across a map implies a precision that the wider story of a campaign rarely has.
       </p>
     </>
   );

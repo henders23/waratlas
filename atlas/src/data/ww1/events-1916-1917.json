@@ -1,5 +1,50 @@
 [
   {
+    "id": "kamerun-1916",
+    "title": "Fall of Jaunde and the end of German Kamerun",
+    "geometry": "city",
+    "kind": "campaign",
+    "start": "1916-01-01",
+    "end": "1916-02-18",
+    "datePrecision": "day",
+    "place": "Jaunde (Yaoundé), German Kamerun (Cameroon)",
+    "lon": 11.52,
+    "lat": 3.87,
+    "locationCertainty": "exact",
+    "phase": "balkans",
+    "sides": {
+      "focus": "Germany (Schutztruppe)",
+      "opponent": "Britain, France and Belgium"
+    },
+    "commanders": {
+      "focus": [
+        "Zimmermann",
+        "Ebermaier"
+      ],
+      "opponent": [
+        "Dobell",
+        "Aymerich"
+      ]
+    },
+    "strength": {
+      "focus": "c. 6,000, mostly African soldiers",
+      "opponent": "c. 20,000–25,000 colonial troops"
+    },
+    "casualties": "Uncertain; battle losses modest, with heavy losses to disease among soldiers and carriers",
+    "outcome": "defeat",
+    "summary": "British and French columns converge on Jaunde, and the German garrison of Kamerun slips away into neutral Spanish Guinea, ending the colony's resistance after eighteen months.",
+    "detail": "Duala, the colony's port, fell to an Anglo-French expedition in September 1914, but the Germans withdrew inland to the plateau around Jaunde and held out through 1915. Columns pushing in from Nigeria, French Equatorial Africa and the coast struggled through forest and rain with long carrier columns.\n\nIn late 1915 the Allies finally closed in. British troops entered Jaunde on 1 January 1916, but Lieutenant-Colonel Zimmermann and Governor Ebermaier had already led most of the garrison, with thousands of followers, south to the border of Spanish Río Muni, where they were interned. The isolated northern fort of Mora surrendered on 18 February.",
+    "significance": "Kamerun was partitioned between France and Britain, which later held it as League of Nations mandates.",
+    "certainty": "medium",
+    "uncertaintyNote": "Strengths and losses for the African campaigns are poorly recorded, especially among carriers.",
+    "sources": [
+      "Hew Strachan, The First World War in Africa (2004)",
+      "Hew Strachan, The First World War, vol. 1: To Arms (2001)",
+      "F. J. Moberly, Military Operations: Togoland and the Cameroons 1914–1916 (1931)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "erzurum-1916",
     "title": "Fall of Erzurum",
     "geometry": "city",
@@ -1387,6 +1432,51 @@
     "importance": 2
   },
   {
+    "id": "french-army-mutinies-1917",
+    "title": "French army mutinies",
+    "geometry": "area",
+    "radiusKm": 70,
+    "markers": [
+      {
+        "name": "Soissons",
+        "lon": 3.32,
+        "lat": 49.38
+      }
+    ],
+    "kind": "political",
+    "start": "1917-04",
+    "end": "1917-06",
+    "datePrecision": "month",
+    "place": "Behind the Chemin des Dames and Champagne fronts, France",
+    "lon": 3.5,
+    "lat": 49.3,
+    "locationCertainty": "approximate",
+    "phase": "revolution",
+    "sides": {
+      "focus": "Mutinous French units",
+      "opponent": "French high command"
+    },
+    "commanders": {
+      "opponent": [
+        "Pétain"
+      ]
+    },
+    "casualties": "c. 3,400 courts-martial convictions, including over 500 death sentences, of which c. 50 were carried out",
+    "outcome": "n/a",
+    "summary": "After the Chemin des Dames disaster, units in about half the French army refuse to take part in further attacks. Pétain restores order with a mix of concessions and limited repression.",
+    "detail": "From late April, and especially in late May and early June 1917, soldiers in dozens of French divisions refused orders to go up to the line for new attacks. They held meetings, marched and sang the Internationale, and some talked of marching on Paris, but most said they would defend their trenches while refusing futile offensives. Their grievances were concrete: long-promised leave, poor food and rest, and above all the waste of lives in attacks like Nivelle's.\n\nPétain, commander-in-chief from 15 May, visited units, improved leave, rest camps and rations, and declared a strategy of limited, well-prepared operations while waiting for the Americans and the tanks. At the same time courts martial tried thousands of soldiers; over 500 were sentenced to death, but most sentences were commuted and some fifty executed.\n\nThe Germans, remarkably, learned little of the crisis until it had passed, and made no attempt to exploit it.",
+    "significance": "The mutinies marked the limit of French endurance: thereafter the French army would defend and mount limited attacks, leaving the British to carry the main offensive burden in 1917.",
+    "certainty": "high",
+    "uncertaintyNote": "Guy Pedroncini's study of the archives established the figures of c. 554 death sentences and 49 executions; others count slightly differently. The first incidents are dated to the last days of April, the peak to late May and early June.",
+    "sources": [
+      "Guy Pedroncini, Les Mutineries de 1917 (1967)",
+      "Leonard V. Smith, Between Mutiny and Obedience: The Case of the French Fifth Infantry Division during World War I (1994)",
+      "André Loez, 14–18. Les refus de la guerre: une histoire des mutins (2010)",
+      "Robert A. Doughty, Pyrrhic Victory (2005)"
+    ],
+    "importance": 3
+  },
+  {
     "id": "arras-1917",
     "title": "Battle of Arras and Vimy Ridge",
     "geometry": "site",
@@ -1503,51 +1593,6 @@
       "David Stevenson, 1914–1918 (2004)"
     ],
     "importance": 2
-  },
-  {
-    "id": "french-army-mutinies-1917",
-    "title": "French army mutinies",
-    "geometry": "area",
-    "radiusKm": 70,
-    "markers": [
-      {
-        "name": "Soissons",
-        "lon": 3.32,
-        "lat": 49.38
-      }
-    ],
-    "kind": "political",
-    "start": "1917-04",
-    "end": "1917-06",
-    "datePrecision": "month",
-    "place": "Behind the Chemin des Dames and Champagne fronts, France",
-    "lon": 3.5,
-    "lat": 49.3,
-    "locationCertainty": "approximate",
-    "phase": "revolution",
-    "sides": {
-      "focus": "Mutinous French units",
-      "opponent": "French high command"
-    },
-    "commanders": {
-      "opponent": [
-        "Pétain"
-      ]
-    },
-    "casualties": "c. 3,400 courts-martial convictions, including over 500 death sentences, of which c. 50 were carried out",
-    "outcome": "n/a",
-    "summary": "After the Chemin des Dames disaster, units in about half the French army refuse to take part in further attacks. Pétain restores order with a mix of concessions and limited repression.",
-    "detail": "From late April, and especially in late May and early June 1917, soldiers in dozens of French divisions refused orders to go up to the line for new attacks. They held meetings, marched and sang the Internationale, and some talked of marching on Paris, but most said they would defend their trenches while refusing futile offensives. Their grievances were concrete: long-promised leave, poor food and rest, and above all the waste of lives in attacks like Nivelle's.\n\nPétain, commander-in-chief from 15 May, visited units, improved leave, rest camps and rations, and declared a strategy of limited, well-prepared operations while waiting for the Americans and the tanks. At the same time courts martial tried thousands of soldiers; over 500 were sentenced to death, but most sentences were commuted and some fifty executed.\n\nThe Germans, remarkably, learned little of the crisis until it had passed, and made no attempt to exploit it.",
-    "significance": "The mutinies marked the limit of French endurance: thereafter the French army would defend and mount limited attacks, leaving the British to carry the main offensive burden in 1917.",
-    "certainty": "high",
-    "uncertaintyNote": "Guy Pedroncini's study of the archives established the figures of c. 554 death sentences and 49 executions; others count slightly differently. The first incidents are dated to the last days of April, the peak to late May and early June.",
-    "sources": [
-      "Guy Pedroncini, Les Mutineries de 1917 (1967)",
-      "Leonard V. Smith, Between Mutiny and Obedience: The Case of the French Fifth Infantry Division during World War I (1994)",
-      "André Loez, 14–18. Les refus de la guerre: une histoire des mutins (2010)",
-      "Robert A. Doughty, Pyrrhic Victory (2005)"
-    ],
-    "importance": 3
   },
   {
     "id": "tenth-isonzo-1917",

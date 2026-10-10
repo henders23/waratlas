@@ -3,9 +3,7 @@
 // Usage: node scripts/check-territory.mjs [war]
 import { readFileSync } from 'node:fs';
 
-// The Mongol empire split in 1260; no region may still belong to it after that.
 const RULES = {
-  mongol: { first: '1206', check: (id, last, toYear, errors) => last?.[1] === 'mongol' && toYear(last[0]) < 1261 && errors.push(`${id}: still the unified empire after the 1260 split`) },
   napoleonic: { first: '1792' },
   ww1: { first: '1914' },
   ww2: { first: '1939' },

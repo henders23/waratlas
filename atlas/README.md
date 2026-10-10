@@ -1,19 +1,22 @@
 # Atlas of Wars
 
-Interactive globes of history's wars. A start screen lets you choose a war:
+Interactive globes of history's wars. It began as entry A from the competition (see the [repo README](../README.md)), which covered the Mongol conquests; the Mongol war has since been removed. A start screen lets you choose a war, and explains how to use the atlas:
 
-- **The Mongol Conquests, 1206–1294.** This is entry A from the competition (see the [repo README](../README.md)), unchanged in content: 103 events from the Instinct R71 research pack and 103 historical regions.
-- **The Napoleonic Wars, 1792–1815.** From the declaration of war on Austria in April 1792 to Napoleon's surrender in July 1815: 129 events in 13 chapters, and 119 regions whose rulers change month by month.
-- **The First World War, 1914–1918.** From Sarajevo to the Treaty of Versailles in June 1919: 126 events in 10 chapters across Europe, the Middle East, Africa and the seas, and 97 regions drawn along the 1914 frontiers.
-- **The Second World War, 1939–1945.** From the invasion of Poland to the surrender in Tokyo Bay: 169 events in 10 chapters across Europe, Africa, Asia and the Pacific, and 147 regions drawn along the 1939 frontiers.
+- **The Napoleonic Wars, 1792–1815.** From the declaration of war on Austria in April 1792 to Napoleon's surrender in July 1815: 150 events in 13 chapters, and 119 regions whose rulers change month by month.
+- **The First World War, 1914–1918.** From Sarajevo to the Treaty of Versailles in June 1919: 145 events in 10 chapters across Europe, the Middle East, Africa and the seas, and 97 regions drawn along the 1914 frontiers.
+- **The Second World War, 1939–1945.** From the invasion of Poland to the surrender in Tokyo Bay: 194 events in 10 chapters across Europe, Africa, Asia and the Pacific, and 147 regions drawn along the 1939 frontiers.
 
-The Napoleonic atlas has a soundtrack, *Measured March* (`public/audio/measured-march.mp3`). It loops while the atlas is open. Browsers only allow sound after a click or key press, so it starts on the first one, such as the button that starts playback. The toolbar has a music on/off button and a volume slider, and the browser remembers both. To give another war music, add a `music` entry to its `WarDef`.
+Every atlas has a soundtrack in `public/audio/`: *Measured March* for the Napoleonic Wars (`measured-march.mp3`), and a theme each for the First and Second World Wars (`ww1.mp3`, `ww2.mp3`). It loops while the atlas is open. Browsers only allow sound after a click or key press, so it starts on the first one, such as the button that starts playback. The toolbar has a music on/off button and a volume slider, and the browser remembers both. A war's music is the `music` entry in its `WarDef`.
 
-In either atlas you can drag the timeline or press play to watch borders change, and click any marker to read the event behind it. The URL records the war you're viewing (`?war=napoleonic`), plus the date or event (`#t=1812.7`, `#e=waterloo-1815`). Links with no `?war=` and only a date or event in the hash open the Mongol atlas, so links shared before the Napoleonic atlas existed still work.
+In any atlas you can drag the timeline or press play to watch borders change, and click any marker to read the event behind it. The URL records the war you're viewing (`?war=napoleonic`), plus the date or event (`#t=1812.7`, `#e=waterloo-1815`).
+
+## Pictures during playback
+
+Most events carry a public-domain (or, for some Bundesarchiv photos, CC BY-SA) picture from Wikimedia Commons, listed in `src/data/<war>/images.json`. While the war plays, each important event (importance 2 or 3) flicks up as a picture card, and playback eases for a moment so it can be read. The cards already passed collect in a strip above the timeline; clicking either opens the event. Pictures are fetched a few events ahead of the playhead (`src/ui/pictures.ts`). An event whose picture is missing or fails to load is announced as a line of text instead (`src/ui/Flash.tsx`).
 
 ## The Napoleonic data
 
-- **Events** (`src/data/napoleonic/events-*.json`) were written for this atlas from the standard military and diplomatic histories. These include Chandler, Blanning, Esdaile, Oman, Lieven, Zamoyski, Rodger and Digby Smith's *Data Book*. Each event names its sources, gives consensus strengths and losses, and flags disputed figures. There is no research pack for this war, unlike the Mongol one: nothing fixes the list of events, and the events have no pack rows.
+- **Events** (`src/data/napoleonic/events-*.json`) were written for this atlas from the standard military and diplomatic histories. These include Chandler, Blanning, Esdaile, Oman, Lieven, Zamoyski, Rodger and Digby Smith's *Data Book*. Each event names its sources, gives consensus strengths and losses, and flags disputed figures. No research pack fixes the list of events.
   - Pins are gold for French victories and red for French defeats, as the focus side is France and its allies.
   - Sea battles fought by France's allies (Spain at Cape St Vincent, the Batavian Republic at Camperdown, Denmark in 1807) are on France's side. Copenhagen 1801 is shown in grey: Denmark was neutral, not a French ally.
 - **Territory** (`src/data/napoleonic/territory.json`) is generated by `scripts/build-napoleonic-territory.mjs`. Edit the script, not the JSON. Each region's history is a list of dated steps. France and the states it created or ruled through a Bonaparte are drawn in strong colours; its German allies appear as the Confederation of the Rhine from 1806. *Contested* marks invasion, occupation or insurrection. The borders are modern provinces grouped into period regions (`scripts/regions/napoleonic.mjs`), so they are approximate. The About panel says so.
@@ -45,13 +48,11 @@ A war is a folder in `src/data/<war>/` that exports a `WarDef` (see `src/data/wa
 ```sh
 npm ci
 npm run dev        # http://localhost:5173
-npm run validate   # both wars: events are well-formed, Mongol pack rows all covered, Napoleonic events sit in the right chapter; territory is consistent
+npm run validate   # every war: events are well-formed and sit in the right chapter; territory is consistent
 npm run build      # validate, typecheck, bundle
 ```
 
 To rebuild a war's geography, run `npm run geo -- <war> <dir>` (for example `npm run geo -- napoleonic .geo-cache`). The directory must hold the Natural Earth files `ne_10m_admin_1_states_provinces`, `ne_50m_rivers_lake_centerlines` and `ne_50m_lakes` as GeoJSON.
-
-To record frames for a video, run `WAR=napoleonic node scripts/record.mjs …`. The recorder defaults to the Mongol atlas.
 
 ## Deployment
 

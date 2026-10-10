@@ -228,37 +228,6 @@
     "importance": 3
   },
   {
-    "id": "ponary-1941",
-    "title": "Ponary massacres",
-    "geometry": "site",
-    "kind": "massacre",
-    "start": "1941-07",
-    "end": "1944-07",
-    "datePrecision": "month",
-    "place": "Ponary forest, near Wilno (Paneriai, Vilnius, Lithuania)",
-    "lon": 25.18,
-    "lat": 54.63,
-    "locationCertainty": "exact",
-    "phase": "barbarossa",
-    "sides": {
-      "focus": "Germany (SD and Einsatzkommando 9), with the Lithuanian Special Squad",
-      "opponent": "Jews of Wilno, with Poles and Soviet prisoners of war"
-    },
-    "casualties": "c. 70,000–100,000 people murdered, of whom c. 70,000 were Jews",
-    "outcome": "n/a",
-    "summary": "In the woods outside Wilno, German SD men and a Lithuanian killing squad shoot tens of thousands of Jews at pits the Soviets had dug for fuel tanks.",
-    "detail": "Wilno, the 'Jerusalem of Lithuania', had one of the great Jewish communities of Europe, some 60,000 strong in 1941. When German troops arrived in late June, the Security Police set up a squad of Lithuanian volunteers, the Ypatingasis būrys, to do the killing under German direction. Ponary, a wooded spot on the railway a few miles out of the city, had large pits dug by the Soviets for an oil depot.\n\nFrom July 1941 Jews seized in the streets, then whole groups taken from the city and later from the ghetto, were marched or driven there and shot. By the end of 1941 most of Wilno's Jews were dead. Killing at Ponary continued until the eve of the Red Army's return in July 1944, and Polish prisoners and Soviet captives died there too.\n\nA Polish journalist who lived nearby, Kazimierz Sakowicz, secretly recorded what he saw in a diary he buried in bottles; he was killed in 1944. In 1943–44 a prisoner work detail was forced to exhume and burn the bodies to hide the crime.",
-    "significance": "Ponary was one of the largest killing sites of the Holocaust by bullets and destroyed the heart of Lithuanian Jewry; the ghetto underground's knowledge of it fed the call to resistance in Wilno.",
-    "certainty": "high",
-    "uncertaintyNote": "Total figures for Ponary vary between about 70,000 and 100,000; the Jewish share is the most firmly established. The killings began in early July 1941; exact first dates differ in accounts.",
-    "sources": [
-      "Yitzhak Arad, Ghetto in Flames (1980)",
-      "Kazimierz Sakowicz, Ponary Diary, 1941–1943 (2005)",
-      "Raul Hilberg, The Destruction of the European Jews (3rd edn, 2003)"
-    ],
-    "importance": 1
-  },
-  {
     "id": "soviet-prisoners-of-war-1941",
     "title": "Mass death of Soviet prisoners of war",
     "geometry": "area",
@@ -289,6 +258,37 @@
       "Richard Overy, Blood and Ruins (2021)"
     ],
     "importance": 2
+  },
+  {
+    "id": "ponary-1941",
+    "title": "Ponary massacres",
+    "geometry": "site",
+    "kind": "massacre",
+    "start": "1941-07",
+    "end": "1944-07",
+    "datePrecision": "month",
+    "place": "Ponary forest, near Wilno (Paneriai, Vilnius, Lithuania)",
+    "lon": 25.18,
+    "lat": 54.63,
+    "locationCertainty": "exact",
+    "phase": "barbarossa",
+    "sides": {
+      "focus": "Germany (SD and Einsatzkommando 9), with the Lithuanian Special Squad",
+      "opponent": "Jews of Wilno, with Poles and Soviet prisoners of war"
+    },
+    "casualties": "c. 70,000–100,000 people murdered, of whom c. 70,000 were Jews",
+    "outcome": "n/a",
+    "summary": "In the woods outside Wilno, German SD men and a Lithuanian killing squad shoot tens of thousands of Jews at pits the Soviets had dug for fuel tanks.",
+    "detail": "Wilno, the 'Jerusalem of Lithuania', had one of the great Jewish communities of Europe, some 60,000 strong in 1941. When German troops arrived in late June, the Security Police set up a squad of Lithuanian volunteers, the Ypatingasis būrys, to do the killing under German direction. Ponary, a wooded spot on the railway a few miles out of the city, had large pits dug by the Soviets for an oil depot.\n\nFrom July 1941 Jews seized in the streets, then whole groups taken from the city and later from the ghetto, were marched or driven there and shot. By the end of 1941 most of Wilno's Jews were dead. Killing at Ponary continued until the eve of the Red Army's return in July 1944, and Polish prisoners and Soviet captives died there too.\n\nA Polish journalist who lived nearby, Kazimierz Sakowicz, secretly recorded what he saw in a diary he buried in bottles; he was killed in 1944. In 1943–44 a prisoner work detail was forced to exhume and burn the bodies to hide the crime.",
+    "significance": "Ponary was one of the largest killing sites of the Holocaust by bullets and destroyed the heart of Lithuanian Jewry; the ghetto underground's knowledge of it fed the call to resistance in Wilno.",
+    "certainty": "high",
+    "uncertaintyNote": "Total figures for Ponary vary between about 70,000 and 100,000; the Jewish share is the most firmly established. The killings began in early July 1941; exact first dates differ in accounts.",
+    "sources": [
+      "Yitzhak Arad, Ghetto in Flames (1980)",
+      "Kazimierz Sakowicz, Ponary Diary, 1941–1943 (2005)",
+      "Raul Hilberg, The Destruction of the European Jews (3rd edn, 2003)"
+    ],
+    "importance": 1
   },
   {
     "id": "smolensk-1941",
@@ -339,6 +339,54 @@
       "David M. Glantz, Barbarossa Derailed: The Battle for Smolensk, vols 1–2 (2010–12)",
       "David Stahel, Operation Barbarossa and Germany's Defeat in the East (2009)",
       "David M. Glantz and Jonathan M. House, When Titans Clashed (1995)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "uman-1941",
+    "title": "Uman encirclement",
+    "geometry": "area",
+    "radiusKm": 60,
+    "kind": "battle",
+    "start": "1941-07-15",
+    "end": "1941-08-08",
+    "datePrecision": "day",
+    "place": "Around Uman and Podvysoke, central Ukraine",
+    "lon": 30.4,
+    "lat": 48.6,
+    "locationCertainty": "approximate",
+    "phase": "barbarossa",
+    "sides": {
+      "focus": "Germany and Hungary",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Gerd von Rundstedt",
+        "Ewald von Kleist",
+        "Carl-Heinrich von Stülpnagel"
+      ],
+      "opponent": [
+        "Ivan Tyulenev",
+        "Ivan Muzychenko",
+        "Pavel Ponedelin"
+      ]
+    },
+    "strength": {
+      "focus": "Panzer Group 1, 17th Army and the Hungarian Mobile Corps",
+      "opponent": "6th and 12th Armies, with part of 18th Army"
+    },
+    "casualties": "Germans claimed c. 103,000 prisoners; Soviet losses including killed perhaps 200,000. Both Soviet army commanders captured",
+    "outcome": "victory",
+    "summary": "Army Group South traps the Soviet 6th and 12th Armies in a pocket around Uman, its first great encirclement of the campaign.",
+    "detail": "Army Group South had advanced more slowly than the groups to the north, held up by Soviet armoured counter-attacks in western Ukraine. In mid-July Kleist's Panzer Group 1 broke through towards the Dnieper and swung south behind the Soviet armies withdrawing from the frontier, while the 17th Army and the Hungarians pressed from the west. Stalin and the front command forbade a timely retreat.\n\nThe ring closed near Pervomaisk on 2–3 August, and the trapped divisions, short of fuel and ammunition, were broken up in the Green Brama forest around Podvysoke. By 8 August resistance was over. Both army commanders, Muzychenko and Ponedelin, were captured. Ponedelin was branded a traitor in his absence by Stalin's Order No. 270, and after surviving German captivity he was shot in 1950.\n\nThousands of prisoners were held in the open in a clay pit at Uman, the notorious 'Uman pit', where many died.",
+    "significance": "Uman destroyed the southern wing of the Soviet defence west of the Dnieper and opened the way to the Black Sea coast, setting up the even larger Kiev encirclement a month later.",
+    "certainty": "medium",
+    "uncertaintyNote": "The German prisoner count is the usual figure; Soviet records for July–August 1941 are incomplete, so total Soviet losses are estimates.",
+    "sources": [
+      "David M. Glantz, Barbarossa: Hitler's Invasion of Russia 1941 (2001)",
+      "David M. Glantz and Jonathan House, When Titans Clashed (rev. ed. 2015)",
+      "David Stahel, Operation Barbarossa and Germany's Defeat in the East (2009)"
     ],
     "importance": 2
   },
@@ -719,6 +767,42 @@
     "importance": 2
   },
   {
+    "id": "kragujevac-1941",
+    "title": "Kragujevac massacre",
+    "geometry": "city",
+    "kind": "massacre",
+    "start": "1941-10-21",
+    "datePrecision": "day",
+    "place": "Šumarice, on the edge of Kragujevac, German-occupied Serbia",
+    "lon": 20.89,
+    "lat": 44.02,
+    "locationCertainty": "exact",
+    "phase": "barbarossa",
+    "sides": {
+      "focus": "Germany (Wehrmacht)",
+      "opponent": "Civilians of Kragujevac"
+    },
+    "commanders": {
+      "focus": [
+        "Franz Böhme",
+        "Paul König"
+      ]
+    },
+    "casualties": "c. 2,800 men and boys shot, including schoolboys and their teachers; c. 2,000 more shot at Kraljevo days earlier",
+    "outcome": "n/a",
+    "summary": "To meet a quota of a hundred Serbs for every German soldier killed, Wehrmacht troops round up and shoot some 2,800 men and boys of Kragujevac.",
+    "detail": "In the autumn of 1941 a rising led by Tito's Partisans and Mihailović's Chetniks spread across German-occupied Serbia. Keitel's order of 16 September laid down that 50 to 100 'communists' were to be executed for each German soldier killed; General Franz Böhme, sent to crush the revolt, applied it to the letter, at a rate of a hundred hostages for every soldier killed and fifty for every one wounded. The army's firing squads shot thousands of Serbian Jewish men and Roma as well as Serbs.\n\nAfter an ambush near Gornji Milanovac killed ten German soldiers and wounded 26, units of the 717th Infantry Division rounded up the men of Kragujevac in October 1941, emptying factories, shops and the town's gymnasium of its pupils. On 21 October they were marched in groups to the fields at Šumarice and shot over the course of the day.\n\nThe killings at Kraljevo the week before, and those at Kragujevac, cost the occupiers the workforce of the local arms factories and alienated even collaborators.",
+    "significance": "Kragujevac was the worst of the reprisal massacres by which the Wehrmacht tried to terrorise the Balkans into submission, and it showed the regular army's direct part in mass murder.",
+    "certainty": "medium",
+    "uncertaintyNote": "Postwar Yugoslav figures of 7,000 dead were much too high; research at the memorial park has put the toll at around 2,800.",
+    "sources": [
+      "Jozo Tomasevich, War and Revolution in Yugoslavia 1941–1945: Occupation and Collaboration (2001)",
+      "Ben Shepherd, Terror in the Balkans: German Armies and Partisan Warfare (2012)",
+      "Walter Manoschek, 'Serbien ist judenfrei': Militärische Besatzungspolitik und Judenvernichtung in Serbien 1941/42 (1993)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "odessa-massacre-1941",
     "title": "Odessa massacre",
     "geometry": "city",
@@ -1056,48 +1140,6 @@
     "importance": 2
   },
   {
-    "id": "prince-of-wales-and-repulse-1941",
-    "title": "Sinking of Prince of Wales and Repulse",
-    "geometry": "site",
-    "kind": "naval",
-    "start": "1941-12-10",
-    "datePrecision": "day",
-    "place": "South China Sea, off Kuantan, Malaya",
-    "lon": 104.4,
-    "lat": 3.6,
-    "locationCertainty": "exact",
-    "phase": "pacific",
-    "sides": {
-      "focus": "Japan",
-      "opponent": "Britain"
-    },
-    "commanders": {
-      "focus": [
-        "Matsunaga Sadaichi"
-      ],
-      "opponent": [
-        "Tom Phillips"
-      ]
-    },
-    "strength": {
-      "focus": "c. 85 land-based bombers and torpedo bombers",
-      "opponent": "1 battleship, 1 battlecruiser, 4 destroyers"
-    },
-    "casualties": "British 840 killed, including Admiral Phillips; Japanese 3 or 4 aircraft lost",
-    "outcome": "victory",
-    "summary": "Japanese naval bombers flying from Indochina sink the battleship Prince of Wales and the battlecruiser Repulse at sea, leaving Britain with no capital ships in the Far East.",
-    "detail": "Prince of Wales and Repulse had reached Singapore on 2 December as 'Force Z', sent by Churchill to deter Japan. On 8 December Admiral Tom Phillips sailed north to attack the invasion convoys off Kota Bharu, without fighter cover. Spotted and having lost the element of surprise, he turned back, then diverted towards a false report of landings at Kuantan.\n\nOn the morning of 10 December, waves of high-level bombers and torpedo bombers of the navy's 22nd Air Flotilla, flying from bases around Saigon, found the ships. Torpedoes jammed the battleship's port propeller shaft and flooded her; Repulse, skilfully handled, dodged many attacks before she too was hit repeatedly and sank. Prince of Wales went down less than an hour later. Destroyers picked up more than 2,000 survivors; Phillips was not among them.",
-    "significance": "It was the first time capital ships under way had been sunk by aircraft alone, confirming the end of the battleship era and leaving Malaya and the Indian Ocean exposed.",
-    "certainty": "high",
-    "uncertaintyNote": "The two wrecks lie a few miles apart; the position given is between them.",
-    "sources": [
-      "Martin Middlebrook and Patrick Mahoney, Battleship: The Loss of the Prince of Wales and the Repulse (1977)",
-      "Arthur J. Marder, Old Friends, New Enemies, vol. I (1981)",
-      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)"
-    ],
-    "importance": 2
-  },
-  {
     "id": "hong-kong-1941",
     "title": "Battle of Hong Kong",
     "geometry": "city",
@@ -1261,6 +1303,48 @@
       "Ronald H. Spector, Eagle Against the Sun (1985)"
     ],
     "importance": 1
+  },
+  {
+    "id": "prince-of-wales-and-repulse-1941",
+    "title": "Sinking of Prince of Wales and Repulse",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1941-12-10",
+    "datePrecision": "day",
+    "place": "South China Sea, off Kuantan, Malaya",
+    "lon": 104.4,
+    "lat": 3.6,
+    "locationCertainty": "exact",
+    "phase": "pacific",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Matsunaga Sadaichi"
+      ],
+      "opponent": [
+        "Tom Phillips"
+      ]
+    },
+    "strength": {
+      "focus": "c. 85 land-based bombers and torpedo bombers",
+      "opponent": "1 battleship, 1 battlecruiser, 4 destroyers"
+    },
+    "casualties": "British 840 killed, including Admiral Phillips; Japanese 3 or 4 aircraft lost",
+    "outcome": "victory",
+    "summary": "Japanese naval bombers flying from Indochina sink the battleship Prince of Wales and the battlecruiser Repulse at sea, leaving Britain with no capital ships in the Far East.",
+    "detail": "Prince of Wales and Repulse had reached Singapore on 2 December as 'Force Z', sent by Churchill to deter Japan. On 8 December Admiral Tom Phillips sailed north to attack the invasion convoys off Kota Bharu, without fighter cover. Spotted and having lost the element of surprise, he turned back, then diverted towards a false report of landings at Kuantan.\n\nOn the morning of 10 December, waves of high-level bombers and torpedo bombers of the navy's 22nd Air Flotilla, flying from bases around Saigon, found the ships. Torpedoes jammed the battleship's port propeller shaft and flooded her; Repulse, skilfully handled, dodged many attacks before she too was hit repeatedly and sank. Prince of Wales went down less than an hour later. Destroyers picked up more than 2,000 survivors; Phillips was not among them.",
+    "significance": "It was the first time capital ships under way had been sunk by aircraft alone, confirming the end of the battleship era and leaving Malaya and the Indian Ocean exposed.",
+    "certainty": "high",
+    "uncertaintyNote": "The two wrecks lie a few miles apart; the position given is between them.",
+    "sources": [
+      "Martin Middlebrook and Patrick Mahoney, Battleship: The Loss of the Prince of Wales and the Repulse (1977)",
+      "Arthur J. Marder, Old Friends, New Enemies, vol. I (1981)",
+      "Christopher Bayly and Tim Harper, Forgotten Armies (2004)"
+    ],
+    "importance": 2
   },
   {
     "id": "germany-declares-war-on-us-1941",
@@ -1982,6 +2066,64 @@
       "John Toland, The Rising Sun (1970)"
     ],
     "importance": 1
+  },
+  {
+    "id": "kerch-1942",
+    "title": "Operation Bustard Hunt: the Kerch peninsula",
+    "geometry": "area",
+    "radiusKm": 45,
+    "kind": "battle",
+    "start": "1942-05-08",
+    "end": "1942-05-19",
+    "datePrecision": "day",
+    "place": "Kerch peninsula, eastern Crimea",
+    "lon": 36,
+    "lat": 45.3,
+    "locationCertainty": "approximate",
+    "phase": "pacific",
+    "markers": [
+      {
+        "name": "Parpach line",
+        "lon": 35.55,
+        "lat": 45.2
+      },
+      {
+        "name": "Kerch",
+        "lon": 36.47,
+        "lat": 45.36
+      }
+    ],
+    "sides": {
+      "focus": "Germany and Romania",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Erich von Manstein",
+        "Wolfram von Richthofen"
+      ],
+      "opponent": [
+        "Dmitry Kozlov",
+        "Lev Mekhlis"
+      ]
+    },
+    "strength": {
+      "focus": "11th Army: 5 German infantry divisions, 22nd Panzer Division and 2 Romanian divisions, with VIII Air Corps",
+      "opponent": "Crimean Front: 44th, 47th and 51st Armies, c. 250,000 men"
+    },
+    "casualties": "Soviet c. 176,000 lost, including c. 170,000 prisoners claimed by the Germans; German c. 7,500",
+    "outcome": "victory",
+    "summary": "Manstein's 11th Army smashes the much larger Soviet Crimean Front on the Kerch peninsula in eleven days, freeing his hands to finish off Sevastopol.",
+    "detail": "Soviet landings at Kerch and Feodosiya in the winter of 1941–42 had saved Sevastopol, and by spring three Soviet armies were massed behind the Parpach line across the narrow neck of the Kerch peninsula, poised for an offensive that never came. Their commander, Kozlov, was overshadowed by Stalin's commissar Lev Mekhlis, who forbade digging in as defeatist and packed the troops close to the front.\n\nOn 8 May Manstein struck the southern end of the line, where it was weakest, after a landing from the sea behind it; the 22nd Panzer Division then wheeled north and rolled up the front while Richthofen's dive-bombers pounded the crowded Soviet rear. The Crimean Front collapsed. Its survivors streamed back to Kerch, where some were evacuated across the strait and the rest were captured or fought on in the Adzhimushkay quarries for months.\n\nMekhlis was demoted and Kozlov removed.",
+    "significance": "The rout at Kerch, coming days before the Kharkov disaster, cleared the way for the final assault on Sevastopol and the German summer offensive in the south.",
+    "certainty": "high",
+    "uncertaintyNote": "Prisoner counts are German claims; the Soviet loss figure is Krivosheev's for the Kerch defensive operation.",
+    "sources": [
+      "Robert M. Citino, Death of the Wehrmacht: The German Campaigns of 1942 (2007)",
+      "David M. Glantz and Jonathan House, When Titans Clashed (rev. ed. 2015)",
+      "Erich von Manstein, Lost Victories (1958)"
+    ],
+    "importance": 2
   },
   {
     "id": "second-battle-of-kharkov-1942",

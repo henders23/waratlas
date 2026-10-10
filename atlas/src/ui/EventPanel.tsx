@@ -4,6 +4,7 @@ import type { AtlasEvent, WarData } from '../data/war';
 import { formatRange } from '../data/time';
 import { KIND_LABEL, OUTCOME_COLORS, pinDataUrl } from '../map/icons';
 import { store } from '../store';
+import { commonsPage, commonsSrc } from './pictures';
 
 const CERTAINTY_TEXT: Record<string, string> = {
   high: 'Well attested',
@@ -83,7 +84,6 @@ export function EventPanel({ ev, war, onClose }: { ev: AtlasEvent; war: WarData;
               <li key={s}>{/^https?:/.test(s) ? <a href={s} target="_blank" rel="noreferrer">{decodeURI(s).replace(/^https?:\/\//, '').slice(0, 80)}</a> : s}</li>
             ))}
           </ol>
-          {ev.sourceRow && <p className="ev-row">Research pack row <code>{ev.sourceRow}</code></p>}
         </details>
       </div>
       <footer>
@@ -94,17 +94,14 @@ export function EventPanel({ ev, war, onClose }: { ev: AtlasEvent; war: WarData;
   );
 }
 
-const COMMONS = 'https://commons.wikimedia.org/wiki/';
-
 /** A public-domain picture from Wikimedia Commons; it hides itself if the file fails to load. */
 function EventFigure({ image }: { image: EventImage }) {
   const [failed, setFailed] = useState(false);
   if (failed) return null;
-  const name = encodeURIComponent(image.file.replace(/ /g, '_'));
   return (
     <figure className="ev-figure">
-      <a href={`${COMMONS}File:${name}`} target="_blank" rel="noreferrer">
-        <img src={`${COMMONS}Special:FilePath/${name}?width=640`} alt={image.caption} loading="lazy" onError={() => setFailed(true)} />
+      <a href={commonsPage(image)} target="_blank" rel="noreferrer">
+        <img src={commonsSrc(image)} alt={image.caption} loading="lazy" onError={() => setFailed(true)} />
       </a>
       <figcaption>
         {image.caption} <span>· Wikimedia Commons</span>

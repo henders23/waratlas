@@ -82,7 +82,7 @@ export function Timeline({ war, onSeek }: { war: WarData; onSeek: (t: number) =>
             <svg viewBox="0 0 24 24"><path d="M7 4.5v15l13-7.5z" /></svg>
           )}
         </button>
-        <button className="speed" aria-label="Playback speed" title={`${speed} years per second`} onClick={() => store.set({ speed: war.speeds[(war.speeds.indexOf(speed) + 1) % war.speeds.length] })}>
+        <button className="speed" aria-label="Playback speed" title={`${+(speed * 12).toFixed(2)} months of the war per second`} onClick={() => store.set({ speed: war.speeds[(war.speeds.indexOf(speed) + 1) % war.speeds.length] })}>
           {speed / war.speeds[1]}×
         </button>
       </div>

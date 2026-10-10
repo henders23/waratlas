@@ -174,6 +174,175 @@
     "importance": 2
   },
   {
+    "id": "korsun-cherkassy-1944",
+    "title": "Korsun–Cherkassy pocket",
+    "geometry": "area",
+    "radiusKm": 50,
+    "kind": "battle",
+    "start": "1944-01-24",
+    "end": "1944-02-17",
+    "datePrecision": "day",
+    "place": "Around Korsun and Shenderovka, west of Cherkassy, Ukraine",
+    "lon": 31.1,
+    "lat": 49.3,
+    "locationCertainty": "approximate",
+    "phase": "overlord",
+    "markers": [
+      {
+        "name": "Korsun",
+        "lon": 31.26,
+        "lat": 49.42
+      },
+      {
+        "name": "Lysianka",
+        "lon": 30.83,
+        "lat": 49.25
+      }
+    ],
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Erich von Manstein",
+        "Wilhelm Stemmermann",
+        "Theobald Lieb",
+        "Hermann Breith"
+      ],
+      "opponent": [
+        "Ivan Konev",
+        "Nikolai Vatutin",
+        "Pavel Rotmistrov"
+      ]
+    },
+    "strength": {
+      "focus": "XI and XLII Corps, c. 56,000–60,000 men encircled, with relief attacks by III and XLVII Panzer Corps",
+      "opponent": "1st and 2nd Ukrainian Fronts"
+    },
+    "casualties": "German c. 20,000 lost in the pocket, including Stemmermann; c. 40,000 broke out, leaving their heavy weapons. Soviet losses c. 80,000 killed and wounded across the operation",
+    "outcome": "defeat",
+    "summary": "Two Soviet fronts encircle two German corps on the Dnieper bend; after three weeks most of the trapped troops break out on foot, but the corps are destroyed as fighting units.",
+    "detail": "Hitler insisted on holding a salient on the Dnieper south of Kiev, the last stretch of the river in German hands. On 24 and 26 January 1944 Konev's 2nd and Vatutin's 1st Ukrainian Fronts attacked its shoulders and met at Zvenigorodka on 28 January, trapping XI and XLII Corps, including the SS Wiking Division and the Belgian Walloon Brigade. Manstein sent panzer corps to cut through, but thaw and mud bogged them down short of the pocket at Lysianka.\n\nOn the night of 16–17 February, in a snowstorm, the trapped troops broke out towards the relief force. Columns were cut up by tanks and artillery on the open slopes near Shenderovka and Pochapintsy, and thousands drowned or froze crossing the icy Gniloy Tikich stream. Stemmermann was killed. Some 40,000 men reached German lines, but almost all their guns and vehicles were lost.",
+    "significance": "Korsun destroyed six German divisions as fighting formations and opened the way for the Soviet spring offensives that cleared most of western Ukraine.",
+    "certainty": "medium",
+    "uncertaintyNote": "Soviet claims of 55,000 Germans killed and 18,000 captured are much too high; the German figures here follow Zetterling and Frankson. Soviet losses are estimates.",
+    "sources": [
+      "Niklas Zetterling and Anders Frankson, The Korsun Pocket: The Encirclement and Breakout of a German Army in the East, 1944 (2008)",
+      "Douglas E. Nash, Hell's Gate: The Battle of the Cherkassy Pocket (2002)",
+      "David M. Glantz and Jonathan House, When Titans Clashed (rev. ed. 2015)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "kwajalein-1944",
+    "title": "Kwajalein and the Marshall Islands",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1944-01-31",
+    "end": "1944-02-04",
+    "datePrecision": "day",
+    "place": "Kwajalein Atoll, Marshall Islands",
+    "lon": 167.73,
+    "lat": 8.72,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "markers": [
+      {
+        "name": "Roi-Namur",
+        "lon": 167.47,
+        "lat": 9.4
+      },
+      {
+        "name": "Kwajalein Island",
+        "lon": 167.73,
+        "lat": 8.72
+      },
+      {
+        "name": "Eniwetok",
+        "lon": 162.33,
+        "lat": 11.43
+      }
+    ],
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Akiyama Monzō"
+      ],
+      "opponent": [
+        "Raymond Spruance",
+        "Richmond Kelly Turner",
+        "Holland Smith",
+        "Charles Corlett",
+        "Harry Schmidt"
+      ]
+    },
+    "strength": {
+      "focus": "c. 8,000 men, many of them naval personnel and labourers",
+      "opponent": "4th Marine Division and 7th Infantry Division, c. 42,000 men"
+    },
+    "casualties": "Japanese c. 7,900 dead, a few hundred taken prisoner (many of them Korean labourers); US c. 370 killed and 1,600 wounded",
+    "outcome": "defeat",
+    "summary": "US Marines and soldiers seize Kwajalein, at the heart of Japan's Marshall Islands, in four days, at a fraction of the cost of Tarawa.",
+    "detail": "Having learned hard lessons at Tarawa, Nimitz bypassed the outer Marshalls and struck straight at Kwajalein, the world's largest atoll and the Japanese headquarters in the group. Operation Flintlock opened with days of bombardment from battleships and carrier aircraft, far heavier than at Tarawa. On 31 January 1944 troops seized small islets to site artillery, and the next day the 4th Marine Division landed on Roi-Namur in the north while the 7th Infantry Division landed on Kwajalein Island in the south. Amphibious tractors and better naval gunfire support carried the troops ashore.\n\nRoi-Namur fell in two days, despite a blockhouse full of torpedo warheads that blew up and killed twenty Marines; Kwajalein Island was cleared by 4 February. The garrisons fought almost to the last man. Majuro had already been taken unopposed, and Spruance moved quickly on to Eniwetok, taken between 17 and 23 February.",
+    "significance": "The swift capture of the Marshalls showed that the US Navy could leap across the central Pacific, advanced its timetable by months, and gave the fleet the anchorages from which it struck Truk and the Marianas.",
+    "certainty": "high",
+    "uncertaintyNote": "US totals combine figures for Roi-Namur and Kwajalein Island; Japanese dead are estimates from the burial count.",
+    "sources": [
+      "Philip A. Crowl and Edmund G. Love, Seizure of the Gilberts and Marshalls (US Army official history, 1955)",
+      "Ian W. Toll, The Conquering Tide: War in the Pacific Islands, 1942–1944 (2015)",
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. VII (1951)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "truk-1944",
+    "title": "Operation Hailstone: the raid on Truk",
+    "geometry": "site",
+    "kind": "raid",
+    "start": "1944-02-17",
+    "end": "1944-02-18",
+    "datePrecision": "day",
+    "place": "Truk Lagoon (Chuuk), Caroline Islands",
+    "lon": 151.85,
+    "lat": 7.42,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Kobayashi Masashi"
+      ],
+      "opponent": [
+        "Raymond Spruance",
+        "Marc Mitscher"
+      ]
+    },
+    "strength": {
+      "focus": "c. 350 aircraft and the ships remaining in the lagoon",
+      "opponent": "Task Force 58: 5 fleet and 4 light carriers, 6 battleships, with cruisers and destroyers"
+    },
+    "casualties": "Japanese: c. 250 aircraft destroyed, 12 warships and over 30 merchant ships (c. 200,000 tons) sunk, several thousand killed; US: 25 aircraft lost, c. 40 killed, the carrier Intrepid torpedoed",
+    "outcome": "defeat",
+    "summary": "American carrier aircraft strike Japan's great fleet base at Truk for two days, sinking dozens of ships and destroying most of its aircraft.",
+    "detail": "Truk, with its huge lagoon, had been the Combined Fleet's forward base since 1942 and was thought by the Allies to be a Pacific Gibraltar. Warned by American reconnaissance flights, Admiral Koga withdrew the battleships and carriers to Palau and Japan a week before the blow fell. But on 17 February 1944 Mitscher's carriers struck at dawn, sweeping the Japanese fighters from the sky and then attacking the airfields and the shipping crowded in the lagoon.\n\nOver two days the strikes sank cruisers, destroyers, auxiliaries and a large fleet of transports and tankers; Spruance took battleships round the atoll to sink ships fleeing through the passes, including the light cruiser Katori. A night torpedo attack damaged the carrier Intrepid. The ships of the merchant fleet still lie on the floor of the lagoon.",
+    "significance": "Hailstone ended Truk's usefulness as a fleet base, letting the Americans bypass it altogether, and the loss of so many tankers and transports deepened Japan's shipping crisis.",
+    "certainty": "high",
+    "uncertaintyNote": "Counts of ships and aircraft destroyed vary between accounts, depending on how small craft and damaged aircraft are counted.",
+    "sources": [
+      "Ian W. Toll, The Conquering Tide: War in the Pacific Islands, 1942–1944 (2015)",
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. VII (1951)",
+      "Klaus Lindemann, Hailstorm over Truk Lagoon (1982)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "imphal-kohima-1944",
     "title": "Imphal and Kohima",
     "geometry": "site",
@@ -1112,6 +1281,52 @@
     "importance": 2
   },
   {
+    "id": "peleliu-1944",
+    "title": "Battle of Peleliu",
+    "geometry": "site",
+    "kind": "battle",
+    "start": "1944-09-15",
+    "end": "1944-11-27",
+    "datePrecision": "day",
+    "place": "Peleliu, Palau Islands",
+    "lon": 134.24,
+    "lat": 7,
+    "locationCertainty": "exact",
+    "phase": "overlord",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Nakagawa Kunio",
+        "Inoue Sadae"
+      ],
+      "opponent": [
+        "William Rupertus",
+        "Roy Geiger",
+        "Paul Mueller"
+      ]
+    },
+    "strength": {
+      "focus": "c. 11,000 men",
+      "opponent": "1st Marine Division and the Army's 81st Infantry Division, c. 47,000 men"
+    },
+    "casualties": "Japanese c. 10,700 dead and some 200 captured; US c. 1,800 killed and 8,000 wounded",
+    "outcome": "defeat",
+    "summary": "US Marines land on Peleliu expecting a four-day fight and face ten weeks of slaughter against Japanese troops dug into coral ridges.",
+    "detail": "Peleliu's airfield was meant to cover MacArthur's flank for the return to the Philippines. Rupertus predicted a quick, rough fight. But Colonel Nakagawa, under new Japanese doctrine, did not try to stop the landing at the water's edge. He fortified the caves of the Umurbrogol ridges above the airfield, hundreds of them, linked and mutually supporting, and fought a battle of attrition from them.\n\nThe Marines took the airfield in the first days in heat of over 40°C, then were fed into the ridges, 'Bloody Nose Ridge', where the 1st Marine Regiment lost more than half its men in a week. The Army's 81st Division took over in October and reduced the pocket cave by cave with flamethrowers and demolitions. Nakagawa burned his regimental colours and killed himself on 24 November; the last organised resistance ended on 27 November.",
+    "significance": "Peleliu was among the costliest battles of the Pacific war in proportion to the forces engaged, of doubtful strategic value, and the first full use of the cave-based defence the Japanese would repeat on Iwo Jima and Okinawa.",
+    "certainty": "high",
+    "uncertaintyNote": "A few Japanese soldiers held out in the caves until 1947.",
+    "sources": [
+      "Eugene B. Sledge, With the Old Breed: At Peleliu and Okinawa (1981)",
+      "Bill Sloan, Brotherhood of Heroes: The Marines at Peleliu, 1944 (2005)",
+      "Ian W. Toll, Twilight of the Gods: War in the Western Pacific, 1944–1945 (2020)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "market-garden-1944",
     "title": "Operation Market Garden",
     "geometry": "area",
@@ -1171,6 +1386,75 @@
       "Antony Beevor, Arnhem: The Battle for the Bridges, 1944 (2018)",
       "Cornelius Ryan, A Bridge Too Far (1974)",
       "Martin Middlebrook, Arnhem 1944: The Airborne Battle (1994)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "scheldt-1944",
+    "title": "Battle of the Scheldt",
+    "geometry": "area",
+    "radiusKm": 40,
+    "kind": "battle",
+    "start": "1944-10-02",
+    "end": "1944-11-08",
+    "datePrecision": "day",
+    "place": "The Scheldt estuary, between Antwerp and the North Sea, Netherlands and Belgium",
+    "lon": 3.85,
+    "lat": 51.42,
+    "locationCertainty": "approximate",
+    "phase": "collapse",
+    "markers": [
+      {
+        "name": "Antwerp",
+        "lon": 4.4,
+        "lat": 51.22
+      },
+      {
+        "name": "Breskens pocket",
+        "lon": 3.55,
+        "lat": 51.38
+      },
+      {
+        "name": "Walcheren (Flushing)",
+        "lon": 3.57,
+        "lat": 51.44
+      },
+      {
+        "name": "South Beveland",
+        "lon": 3.9,
+        "lat": 51.48
+      }
+    ],
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Canada, Britain and Poland"
+    },
+    "commanders": {
+      "focus": [
+        "Gustav-Adolf von Zangen",
+        "Knut Eberding",
+        "Wilhelm Daser"
+      ],
+      "opponent": [
+        "Guy Simonds",
+        "Harry Crerar",
+        "Bernard Montgomery"
+      ]
+    },
+    "strength": {
+      "focus": "Elements of 15th Army, including the 64th and 70th Infantry Divisions, c. 90,000 men",
+      "opponent": "First Canadian Army with British, Polish and other Allied units, and commandos for Walcheren"
+    },
+    "casualties": "Allied c. 12,900 killed, wounded and missing, half of them Canadian; c. 41,000 Germans captured",
+    "outcome": "defeat",
+    "summary": "The First Canadian Army fights for five weeks through flooded polders to clear the banks of the Scheldt, opening the port of Antwerp to Allied shipping.",
+    "detail": "The British had taken Antwerp intact on 4 September 1944, but the port was useless while the Germans held the 80-kilometre estuary leading to it. Montgomery gave priority to Market Garden, and the German 15th Army escaped across the estuary and dug in. The task of clearing it fell to the First Canadian Army under Guy Simonds.\n\nThe battle opened on 2 October. The Canadians attacked across the Leopold Canal into the Breskens pocket on the south bank, through polders where the only dry ground was on the dykes. North of Antwerp they fought for the neck of South Beveland and the causeway to Walcheren. RAF Bomber Command breached Walcheren's sea dykes to flood the island, and on 1 November British commandos and Canadian troops landed at Flushing and Westkapelle. Resistance ended on 8 November. After the estuary was swept of mines, the first convoy reached Antwerp on 28 November.",
+    "significance": "Opening Antwerp solved the Allies' supply crisis in the west and made possible the advance into Germany in 1945; the delay in clearing it was one of the costliest Allied mistakes of 1944.",
+    "certainty": "high",
+    "sources": [
+      "Terry Copp, Cinderella Army: The Canadians in Northwest Europe, 1944–1945 (2006)",
+      "Mark Zuehlke, Terrible Victory: First Canadian Army and the Scheldt Estuary Campaign (2007)",
+      "Max Hastings, Armageddon: The Battle for Germany 1944–45 (2004)"
     ],
     "importance": 2
   },
@@ -1237,6 +1521,48 @@
       "James D. Hornfischer, The Last Stand of the Tin Can Sailors (2004)"
     ],
     "importance": 3
+  },
+  {
+    "id": "tirpitz-1944",
+    "title": "Sinking of the Tirpitz",
+    "geometry": "site",
+    "kind": "raid",
+    "start": "1944-11-12",
+    "datePrecision": "day",
+    "place": "Håkøya, near Tromsø, Norway",
+    "lon": 18.82,
+    "lat": 69.65,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Britain"
+    },
+    "commanders": {
+      "focus": [
+        "Robert Weber"
+      ],
+      "opponent": [
+        "James Tait"
+      ]
+    },
+    "strength": {
+      "focus": "Battleship Tirpitz, moored as a floating battery",
+      "opponent": "c. 30 Lancasters of 9 and 617 Squadrons with 5.4-ton Tallboy bombs"
+    },
+    "casualties": "c. 950–1,000 of Tirpitz's crew killed; no British aircraft lost",
+    "outcome": "defeat",
+    "summary": "RAF Lancasters armed with Tallboy earthquake bombs capsize the battleship Tirpitz in a fjord near Tromsø, ending a three-year hunt.",
+    "detail": "From her Norwegian anchorages Tirpitz, Bismarck's sister ship, had tied down much of the Home Fleet simply by existing: the fear of her had scattered convoy PQ 17 in 1942. British midget submarines crippled her in Kåfjord in September 1943, and carrier aircraft hit her repeatedly in 1944. In September 1944 Lancasters flying from a Soviet airfield damaged her bow with a Tallboy, and the Germans moved her south to Tromsø to serve as a floating battery against an Allied invasion of Norway.\n\nThat put her within reach of Lancasters flying from Scotland. On the morning of 12 November, in clear weather and with no German fighters appearing, the bombers of 9 and 617 Squadrons hit her with at least two Tallboys. A magazine exploded and Tirpitz rolled over within minutes. Hundreds of men were trapped inside her upturned hull; rescuers cut 87 out through the bottom.",
+    "significance": "The loss of Tirpitz removed the last German battleship from the war and freed British capital ships for the Far East.",
+    "certainty": "high",
+    "uncertaintyNote": "Estimates of the dead range from about 940 to over 1,200; most recent accounts give roughly 950–1,000.",
+    "sources": [
+      "Patrick Bishop, Target Tirpitz (2012)",
+      "John Sweetman, Tirpitz: Hunting the Beast (2000)",
+      "Stephen Roskill, The War at Sea 1939–1945, vol. III, part 2 (1961)"
+    ],
+    "importance": 2
   },
   {
     "id": "bulge-1944",
@@ -1470,6 +1796,56 @@
     "importance": 3
   },
   {
+    "id": "wilhelm-gustloff-1945",
+    "title": "Sinking of the Wilhelm Gustloff",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1945-01-30",
+    "datePrecision": "day",
+    "place": "Baltic Sea off Stolpmünde, Pomerania (Ustka, Poland)",
+    "lon": 17.42,
+    "lat": 55.07,
+    "locationCertainty": "exact",
+    "phase": "collapse",
+    "markers": [
+      {
+        "name": "Gotenhafen (Gdynia), departure port",
+        "lon": 18.55,
+        "lat": 54.52
+      }
+    ],
+    "sides": {
+      "focus": "Germany",
+      "opponent": "Soviet Union"
+    },
+    "commanders": {
+      "focus": [
+        "Friedrich Petersen",
+        "Wilhelm Zahn"
+      ],
+      "opponent": [
+        "Alexander Marinesko"
+      ]
+    },
+    "strength": {
+      "focus": "Liner Wilhelm Gustloff, with c. 10,000 refugees, wounded, naval personnel and women auxiliaries aboard, and a single torpedo boat escort",
+      "opponent": "Submarine S-13"
+    },
+    "casualties": "c. 9,000 dead, most of them refugees, among them some 5,000 children; c. 1,250 rescued",
+    "outcome": "n/a",
+    "summary": "A Soviet submarine torpedoes the overcrowded liner Wilhelm Gustloff evacuating refugees from East Prussia, in the deadliest ship sinking in history.",
+    "detail": "As the Red Army cut off East Prussia in January 1945, the German navy began Operation Hannibal, the evacuation by sea of soldiers, wounded and civilians from the Baltic ports. The former Strength Through Joy cruise liner Wilhelm Gustloff, used as a barracks ship for U-boat trainees, left Gotenhafen on 30 January crammed with some 10,000 people, mostly refugees from East and West Prussia, as well as wounded soldiers, naval personnel and auxiliaries.\n\nThat night, in a snowstorm and with her navigation lights on for fear of collision, she was sighted by the Soviet submarine S-13 under Alexander Marinesko, who hit her with three torpedoes. The ship sank in about an hour in water near freezing. Lifeboats were frozen in their davits, and most of those who reached the sea died of the cold within minutes. Marinesko sank the General von Steuben, with some 4,000 aboard, ten days later.\n\nOperation Hannibal brought out hundreds of thousands of people by sea in the last months of the war.",
+    "significance": "The sinking became for many Germans the emblem of the suffering of the expellees from the east, long a muted subject in postwar Germany.",
+    "certainty": "medium",
+    "uncertaintyNote": "No full passenger list survived; estimates of the dead range from about 5,300 to over 9,000, with the higher figures from Heinz Schön's research now usually accepted.",
+    "sources": [
+      "Cathryn J. Prince, Death in the Baltic: The World War II Sinking of the Wilhelm Gustloff (2013)",
+      "Antony Beevor, Berlin: The Downfall 1945 (2002)",
+      "Ian Kershaw, The End: Hitler's Germany 1944–45 (2011)"
+    ],
+    "importance": 2
+  },
+  {
     "id": "manila-1945",
     "title": "Battle of Manila",
     "geometry": "city",
@@ -1646,6 +2022,69 @@
       "Richard B. Frank, Downfall: The End of the Imperial Japanese Empire (1999)",
       "Ronald H. Spector, Eagle Against the Sun (1985)",
       "Max Hastings, Nemesis (2007)"
+    ],
+    "importance": 2
+  },
+  {
+    "id": "spring-awakening-1945",
+    "title": "Operation Spring Awakening: Lake Balaton",
+    "geometry": "area",
+    "radiusKm": 60,
+    "kind": "battle",
+    "start": "1945-03-06",
+    "end": "1945-03-15",
+    "datePrecision": "day",
+    "place": "Between Lake Balaton and the Danube, western Hungary",
+    "lon": 18.4,
+    "lat": 46.95,
+    "locationCertainty": "approximate",
+    "phase": "collapse",
+    "markers": [
+      {
+        "name": "Lake Balaton",
+        "lon": 17.75,
+        "lat": 46.83
+      },
+      {
+        "name": "Székesfehérvár",
+        "lon": 18.42,
+        "lat": 47.19
+      },
+      {
+        "name": "Nagykanizsa oilfields",
+        "lon": 16.99,
+        "lat": 46.45
+      }
+    ],
+    "sides": {
+      "focus": "Germany and Hungary",
+      "opponent": "Soviet Union and Bulgaria"
+    },
+    "commanders": {
+      "focus": [
+        "Josef 'Sepp' Dietrich",
+        "Hermann Balck",
+        "Otto Wöhler"
+      ],
+      "opponent": [
+        "Fyodor Tolbukhin"
+      ]
+    },
+    "strength": {
+      "focus": "6th SS Panzer Army, 6th Army and 2nd Panzer Army, with c. 10 panzer divisions and some 800–900 tanks and assault guns",
+      "opponent": "3rd Ukrainian Front, with a Bulgarian army on its southern flank"
+    },
+    "casualties": "Soviet c. 33,000 killed and wounded; German losses uncertain but heavy, including several hundred armoured vehicles",
+    "outcome": "defeat",
+    "summary": "Hitler's last major offensive of the war, launched by the panzer army withdrawn from the Ardennes, bogs down in mud and Soviet defences in Hungary within ten days.",
+    "detail": "With Budapest lost and the Red Army on the Oder, Hitler sent Sepp Dietrich's 6th SS Panzer Army not to defend Berlin but to Hungary, to protect the last oilfields at Nagykanizsa and throw the Soviets back across the Danube. Spring Awakening opened on 6 March 1945 with attacks from both sides of Lake Balaton and from Yugoslavia in the south.\n\nThe thaw had turned the ground to mud; tanks sank to their turrets, and the Soviets, forewarned, had prepared deep belts of anti-tank defences on the Kursk pattern. The SS panzer divisions gained some 30 kilometres before the attack stalled. On 16 March Tolbukhin launched the Vienna offensive, and within days the German armies were in full retreat towards Austria. Hitler, enraged, ordered the SS divisions, including his own Leibstandarte, to remove their honorific armbands.",
+    "significance": "The failure of Spring Awakening squandered Germany's last armoured reserve, opened the road to Vienna, and ended any German offensive capacity in the war.",
+    "certainty": "medium",
+    "uncertaintyNote": "German strength and loss figures differ widely between sources; the Soviet figure is Krivosheev's for the Balaton defensive operation.",
+    "sources": [
+      "David M. Glantz and Jonathan House, When Titans Clashed (rev. ed. 2015)",
+      "Earl F. Ziemke, Stalingrad to Berlin: The German Defeat in the East (1968)",
+      "Ian Kershaw, The End: Hitler's Germany 1944–45 (2011)"
     ],
     "importance": 2
   },
@@ -2180,6 +2619,51 @@
     "importance": 3
   },
   {
+    "id": "balikpapan-1945",
+    "title": "Landing at Balikpapan",
+    "geometry": "city",
+    "kind": "battle",
+    "start": "1945-07-01",
+    "end": "1945-07-21",
+    "datePrecision": "day",
+    "place": "Balikpapan, south-east Borneo (Indonesia)",
+    "lon": 116.83,
+    "lat": -1.27,
+    "locationCertainty": "exact",
+    "phase": "endgame",
+    "sides": {
+      "focus": "Japan",
+      "opponent": "Australia, United States and Netherlands"
+    },
+    "commanders": {
+      "focus": [
+        "Kamada Michiaki"
+      ],
+      "opponent": [
+        "Edward Milford",
+        "Leslie Morshead",
+        "Albert Noble"
+      ]
+    },
+    "strength": {
+      "focus": "c. 3,900 naval and army troops",
+      "opponent": "7th Australian Division and supporting forces, c. 33,000 men"
+    },
+    "casualties": "Australian 229 killed and 634 wounded; Japanese over 2,000 killed and 63 captured",
+    "outcome": "defeat",
+    "summary": "The Australian 7th Division storms the oil port of Balikpapan in Borneo, in the last large amphibious landing of the war.",
+    "detail": "The Borneo campaign of 1945, Operation Oboe, was meant to recover the island's oilfields and give the Allies bases for a move on Java. After landings at Tarakan in May and at Brunei Bay in June, the 7th Australian Division was landed at Balikpapan on 1 July 1945, after sixteen days of air attack and minesweeping and one of the heaviest naval bombardments of the Pacific war. MacArthur came ashore to watch.\n\nThe Australians took the town and the refineries in the first days, then pushed inland against Japanese troops holding the ridges and the road to Samarinda; organised resistance ended late in July, though skirmishing went on until the surrender in August. The oil installations, wrecked by bombing and demolitions, produced nothing before the war ended.",
+    "significance": "Balikpapan was the largest amphibious operation carried out by Australian forces; whether these last Borneo landings were worth their cost is still debated.",
+    "certainty": "high",
+    "uncertaintyNote": "Japanese strength and losses are estimates; the official history gives the Australian casualty figures.",
+    "sources": [
+      "Gavin Long, The Final Campaigns (Australian official history, 1963)",
+      "Max Hastings, Nemesis: The Battle for Japan, 1944–45 (2007)",
+      "Peter Dennis et al., The Oxford Companion to Australian Military History (2nd ed. 2008)"
+    ],
+    "importance": 1
+  },
+  {
     "id": "potsdam-1945",
     "title": "Potsdam Conference",
     "geometry": "city",
@@ -2216,6 +2700,55 @@
       "R.M. Douglas, Orderly and Humane: The Expulsion of the Germans after the Second World War (2012)"
     ],
     "importance": 2
+  },
+  {
+    "id": "indianapolis-1945",
+    "title": "Sinking of USS Indianapolis",
+    "geometry": "site",
+    "kind": "naval",
+    "start": "1945-07-30",
+    "end": "1945-08-03",
+    "datePrecision": "day",
+    "place": "Philippine Sea, between Guam and Leyte",
+    "lon": 134.8,
+    "lat": 12.03,
+    "locationCertainty": "approximate",
+    "phase": "endgame",
+    "markers": [
+      {
+        "name": "Tinian (atomic bomb delivered)",
+        "lon": 145.63,
+        "lat": 15
+      }
+    ],
+    "sides": {
+      "focus": "Japan",
+      "opponent": "United States"
+    },
+    "commanders": {
+      "focus": [
+        "Hashimoto Mochitsura"
+      ],
+      "opponent": [
+        "Charles McVay"
+      ]
+    },
+    "strength": {
+      "focus": "Submarine I-58",
+      "opponent": "Heavy cruiser Indianapolis, sailing unescorted with 1,195 men"
+    },
+    "casualties": "879 of 1,195 men died, c. 300 in the sinking and the rest of exposure, thirst and shark attacks over four days in the water; 316 survived",
+    "outcome": "victory",
+    "summary": "Days after delivering the parts of the Hiroshima atomic bomb to Tinian, the cruiser Indianapolis is torpedoed and sunk; most of her crew die in the sea before they are found.",
+    "detail": "Indianapolis carried the uranium core and components of the Little Boy bomb from San Francisco to Tinian, arriving on 26 July 1945. She then sailed alone for Leyte. Shortly after midnight on 30 July the Japanese submarine I-58 hit her with two torpedoes; she sank in about twelve minutes, too fast for a proper distress call to be acknowledged.\n\nAround 900 men went into the water, many without lifeboats. No one ashore noticed that the ship had failed to arrive, and for four days the survivors drifted, dying of wounds, exposure, saltwater poisoning and repeated shark attacks. A patrol plane spotted them by chance on 2 August; 316 were rescued.\n\nCaptain McVay was court-martialled for failing to zigzag, the only US captain so tried among the hundreds who lost ships in the war. Hashimoto testified that zigzagging would have made no difference. McVay was formally exonerated by Congress in 2000.",
+    "significance": "The worst single loss at sea in US naval history, the sinking was the last major US warship lost to enemy action in the war and exposed failures in the navy's tracking of its own ships.",
+    "certainty": "high",
+    "sources": [
+      "Lynn Vincent and Sara Vladic, Indianapolis: The True Story of the Worst Sea Disaster in US Naval History (2018)",
+      "Richard F. Newcomb, Abandon Ship! (1958)",
+      "Samuel Eliot Morison, History of United States Naval Operations in World War II, vol. XIV (1960)"
+    ],
+    "importance": 1
   },
   {
     "id": "hiroshima-1945",
